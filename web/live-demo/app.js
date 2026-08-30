@@ -14,14 +14,22 @@ const suggestions = document.querySelector("#suggestions");
 
 let runtime;
 let conversationState;
-let busy = false;
+let busy = true;
 let openingShown = false;
+let loadingRow;
+let loadFailed = false;
 
+setInteractionEnabled(false);
 bootstrap().catch((error) => {
   console.error(error);
+  loadFailed = true;
   status.textContent = "Runtime failed to load";
   stateBadge.classList.add("error");
-  launcher.disabled = true;
+  loadingRow?.remove();
+  loadingRow = undefined;
+  if (panel.classList.contains("open")) {
+    appendBubble("bot", "The GVYA runtime could not load. Please refresh the page and try again.", "ltr");
+  }
 });
 
 async function bootstrap() {
@@ -40,7 +48,14 @@ async function bootstrap() {
   const info = await runtime.info();
   status.textContent = `Runtime ready · ${info.enabled_languages.length} sample languages loaded`;
   stateBadge.classList.add("ready");
-  launcher.disabled = false;
+  loadingRow?.remove();
+  loadingRow = undefined;
+
+  if (panel.classList.contains("open")) {
+    await showOpening();
+  } else {
+    setInteractionEnabled(true);
+  }
 }
 
 function requireResponse(response) {
@@ -49,19 +64,39 @@ function requireResponse(response) {
 }
 
 async function openChat() {
-  if (launcher.disabled) return;
   panel.classList.add("open");
   scrim.classList.add("open");
   panel.setAttribute("aria-hidden", "false");
   launcher.setAttribute("aria-expanded", "true");
+
+  if (loadFailed) {
+    if (messages.childElementCount === 0) {
+      appendBubble("bot", "The GVYA runtime could not load. Please refresh the page and try again.", "ltr");
+    }
+    return;
+  }
+
+  if (!runtime) {
+    showRuntimeLoading();
+    return;
+  }
+
   if (!openingShown) await showOpening();
   window.setTimeout(() => input.focus(), 50);
+}
+
+function showRuntimeLoading() {
+  setInteractionEnabled(false);
+  if (loadingRow?.isConnected) return;
+  loadingRow = appendBubble("bot", "Loading GVYA runtime…", "ltr");
 }
 
 async function showOpening() {
   if (!runtime || openingShown) return;
   openingShown = true;
-  setBusy(true);
+  loadingRow?.remove();
+  loadingRow = undefined;
+  setInteractionEnabled(false);
   const typing = appendTyping();
   try {
     const result = await runtime.openConversation({
@@ -83,7 +118,8 @@ async function showOpening() {
     typing.remove();
     appendBubble("bot", "Hi — I’m GVYA. Ask me what GVYA is or what you can build with it.", "ltr");
   } finally {
-    setBusy(false);
+    setInteractionEnabled(true);
+    if (panel.classList.contains("open")) window.setTimeout(() => input.focus(), 50);
   }
 }
 
@@ -115,7 +151,7 @@ form.addEventListener("submit", async (event) => {
   if (!text || busy || !runtime) return;
   appendBubble("user", text, directionFor(text));
   input.value = "";
-  setBusy(true);
+  setInteractionEnabled(false);
   const typing = appendTyping();
   try {
     const result = await runtime.turn({
@@ -139,7 +175,7 @@ form.addEventListener("submit", async (event) => {
     typing.remove();
     appendBubble("bot", "The local GVYA runtime could not complete that turn.", "ltr");
   } finally {
-    setBusy(false);
+    setInteractionEnabled(true);
     input.focus();
   }
 });
@@ -186,11 +222,11 @@ function directionFor(text, language = "") {
   return /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]/u.test(text) ? "rtl" : "ltr";
 }
 
-function setBusy(value) {
-  busy = value;
-  input.disabled = value;
-  sendButton.disabled = value;
-  suggestions.querySelectorAll("button").forEach((button) => { button.disabled = value; });
+function setInteractionEnabled(enabled) {
+  busy = !enabled;
+  input.disabled = !enabled;
+  sendButton.disabled = !enabled;
+  suggestions.querySelectorAll("button").forEach((button) => { button.disabled = !enabled; });
 }
 
 window.addEventListener("pagehide", () => { runtime?.close().catch(() => {}); });
