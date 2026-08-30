@@ -164,9 +164,9 @@ h1 span { color: var(--muted); }
   bottom: max(24px, env(safe-area-inset-bottom));
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 9px;
   min-height: 52px;
-  padding: 0 18px 0 14px;
+  padding: 0 18px 0 15px;
   border: 1px solid rgba(255,255,255,.15);
   border-radius: 999px;
   background: var(--accent);
@@ -174,12 +174,13 @@ h1 span { color: var(--muted); }
   box-shadow: 0 12px 35px rgba(70,58,185,.32);
   font-size: 14px;
   font-weight: 700;
+  white-space: nowrap;
   cursor: pointer;
   transition: transform .18s ease, box-shadow .18s ease, opacity .18s ease;
 }
 .chat-launcher:not(:disabled):hover { transform: translateY(-2px); box-shadow: 0 16px 42px rgba(70,58,185,.38); }
 .chat-launcher:disabled { opacity: .55; cursor: progress; }
-.launcher-icon { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
+.launcher-icon { width: 19px; height: 19px; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
 
 .chat-panel {
   position: fixed;
@@ -266,15 +267,15 @@ h1 span { color: var(--muted); }
   flex: 0 0 auto;
   min-height: 31px;
   padding: 5px 10px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-strong);
   border-radius: 999px;
-  background: var(--surface-2);
+  background: transparent;
   color: var(--muted);
   font-size: 11.5px;
   cursor: pointer;
   white-space: nowrap;
 }
-.suggestions button:hover { border-color: var(--line-strong); color: var(--text); background: var(--surface-3); }
+.suggestions button:hover { border-color: var(--accent); color: var(--text); background: transparent; }
 .suggestions button:disabled { opacity: .5; cursor: wait; }
 
 .composer {
@@ -311,7 +312,13 @@ h1 span { color: var(--muted); }
   .intro { padding: 54px 0 100px; }
   h1 { font-size: clamp(42px, 13vw, 62px); }
   .lede { font-size: 16px; }
-  .chat-launcher { right: 16px; bottom: max(16px, env(safe-area-inset-bottom)); }
+  .chat-launcher {
+    right: 16px;
+    bottom: max(16px, env(safe-area-inset-bottom));
+    min-height: 48px;
+    padding: 0 16px 0 13px;
+    font-size: 13px;
+  }
   .chat-panel {
     right: 10px;
     bottom: max(78px, calc(env(safe-area-inset-bottom) + 68px));
