@@ -179,7 +179,7 @@ h1 span { color: var(--muted); }
 }
 .chat-launcher:not(:disabled):hover { transform: translateY(-2px); box-shadow: 0 16px 42px rgba(70,58,185,.38); }
 .chat-launcher:disabled { opacity: .55; cursor: progress; }
-.bot-icon { font-size: 19px; line-height: 1; }
+.launcher-icon { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
 
 .chat-panel {
   position: fixed;
@@ -189,7 +189,7 @@ h1 span { color: var(--muted); }
   width: min(390px, calc(100vw - 48px));
   height: min(620px, calc(100dvh - 130px));
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr auto auto;
   overflow: hidden;
   border: 1px solid var(--line-strong);
   border-radius: 22px;
@@ -230,19 +230,6 @@ h1 span { color: var(--muted); }
   scrollbar-width: thin;
   scrollbar-color: var(--surface-3) transparent;
 }
-.empty-state {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: var(--muted);
-  padding: 26px;
-}
-.empty-state > span { color: var(--accent-2); font-size: 24px; }
-.empty-state p { margin: 13px 0 7px; font-size: 13px; line-height: 1.55; }
-.empty-state small { color: var(--faint); font-size: 11px; line-height: 1.5; }
 .message-row { display: flex; margin: 0 0 9px; }
 .message-row.user { justify-content: flex-end; }
 .message-row.bot { justify-content: flex-start; }
@@ -265,12 +252,36 @@ h1 span { color: var(--muted); }
 .typing i:nth-child(2) { animation-delay: .15s; }
 .typing i:nth-child(3) { animation-delay: .3s; }
 @keyframes blink { 0%, 60%, 100% { opacity:.32; transform:translateY(0) } 30% { opacity:1; transform:translateY(-2px) } }
+
+.suggestions {
+  display: flex;
+  gap: 7px;
+  overflow-x: auto;
+  padding: 10px 12px 0;
+  background: var(--surface);
+  scrollbar-width: none;
+}
+.suggestions::-webkit-scrollbar { display: none; }
+.suggestions button {
+  flex: 0 0 auto;
+  min-height: 31px;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 11.5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.suggestions button:hover { border-color: var(--line-strong); color: var(--text); background: var(--surface-3); }
+.suggestions button:disabled { opacity: .5; cursor: wait; }
+
 .composer {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 8px;
-  padding: 12px;
-  border-top: 1px solid var(--line);
+  padding: 10px 12px 12px;
   background: var(--surface);
 }
 .composer input {
