@@ -4,6 +4,8 @@
 
 GVYA turns explicit conversation source into a portable `.gvya` brain that can match user language, manage conversation state, recover from imperfect input, and propose typed host capabilities without making a generative model the runtime authority.
 
+**🤖 [Talk to GVYA — live demo](https://gearback.github.io/gvya/)**
+
 **AI-first, not AI-dependent.** Humans and AI agents can author the same canonical source. The compiler and runtime remain deterministic, bounded, inspectable, and host-controlled. No LLM is required to run a compiled GVYA bot.
 
 > **Status:** public-preview source. GVYA is pre-1.0. A freeze/release claim is made only after the complete certification process in `docs/RELEASE.md` passes on the exact release archive.
