@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 180
     env:
-      CARGO_AUDIT_VERSION: '0.21.2'
+      CARGO_AUDIT_VERSION: '0.22.2'
     steps:
       - uses: actions/checkout@v4
 
