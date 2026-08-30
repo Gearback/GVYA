@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.bot-abilities-overview.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The abilities menu opens the same promised overview follow-up in Persian",
+    "generated": false,
+    "id": "gvya.help.scenario.bot-abilities-overview.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.offer",
+          "meaning": "gvya.help.bot-abilities",
+          "response_ids": [
+            "gvya.help.bot-abilities.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "چه چیزهایی می‌توانم از تو بپرسم؟",
+        "seed": 87,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "followup",
+          "meaning": "core.smalltalk.formal.yes",
+          "response_ids": [
+            "gvya.dialog.affirm.overview"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "بله، می‌خواهم.",
+        "seed": 88,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.authoring-recipe",
+          "response_ids": [
+            "gvya.help.authoring-recipe.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "برای پوشش طبیعی یک intent چه مدل جمله‌هایی لازم دارم؟",
+        "seed": 89,
+        "type": "turn"
+      }
+    ]
+  }
+}

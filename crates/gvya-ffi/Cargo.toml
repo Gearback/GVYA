@@ -1,0 +1,28 @@
+[package]
+name = "gvya-ffi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+gvya-compiler = { path = "../gvya-compiler" }
+gvya-model = { path = "../gvya-model" }
+gvya-runtime = { path = "../gvya-runtime" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# This edge is the only crate allowed to contain audited raw-pointer code.
+# Canonical model/kernel/compiler/runtime crates remain `#![forbid(unsafe_code)]`.
+
+[lints.rust]
+unsafe_code = "allow"
+warnings = "deny"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"

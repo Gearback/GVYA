@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.wow",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.wow",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "wow"
+      },
+      {
+        "language": "en-US",
+        "text": "whoa"
+      },
+      {
+        "language": "en-US",
+        "text": "damn"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وای"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عجب"
+      }
+    ]
+  }
+}

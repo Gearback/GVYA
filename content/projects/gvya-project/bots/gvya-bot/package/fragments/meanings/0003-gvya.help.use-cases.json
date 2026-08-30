@@ -1,0 +1,360 @@
+{
+  "exported": true,
+  "id": "gvya.help.use-cases",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.use-cases",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how does gvya work"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i create my first gvya bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اولین بات gvya را چطور بسازم"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 30,
+        "text": "^ GVYA ^ به چه درد ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "game npc"
+      },
+      {
+        "language": "en-US",
+        "text": "app assistant"
+      },
+      {
+        "language": "en-US",
+        "text": "embedded conversation"
+      },
+      {
+        "language": "en-US",
+        "text": "product useful dialogue outside use case"
+      },
+      {
+        "language": "fa-IR",
+        "text": "npc بازی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دستیار برنامه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مکالمه embedded"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محصول کاربرد ساخت مفید دیالوگ استفاده بیرون"
+      },
+      {
+        "language": "en-US",
+        "text": "suitable interactive museum kiosk deployment"
+      },
+      {
+        "language": "en-US",
+        "text": "brain drive npc customer support widget"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مناسب کیوسک راهنما موزه استفاده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "brain npc دستیار سایت مشتری"
+      },
+      {
+        "language": "fa-IR",
+        "text": "راهنمای تعاملی نمایشگاه"
+      },
+      {
+        "language": "en-US",
+        "text": "problems suited scenario situation product domain fit adoption"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به درد چه مشکلاتی مناسب سناریو موقعیت محصول کی استفاده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مناسب محصول نرم افزار بازی دستگاه سرویس کاربرد کجا به کار می آید سناریو"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "where use gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what hosts can embed a gvya artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "where can i use gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what can i build with gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya use cases"
+      },
+      {
+        "language": "en-US",
+        "text": "is gvya only for games"
+      },
+      {
+        "language": "en-US",
+        "text": "can gvya power an app assistant"
+      },
+      {
+        "language": "en-US",
+        "text": "what problem is gvya intended to solve"
+      },
+      {
+        "language": "en-US",
+        "text": "can the same gvya brain run in a game and website"
+      },
+      {
+        "language": "en-US",
+        "text": "products gvya useful"
+      },
+      {
+        "language": "en-US",
+        "text": "run dialogue outside game"
+      },
+      {
+        "language": "en-US",
+        "text": "kinds products put in"
+      },
+      {
+        "language": "en-US",
+        "text": "voice controlled appliance use case"
+      },
+      {
+        "language": "en-US",
+        "text": "voice controlled appliance"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کاربرد gvya کجاست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت gvya در چه میزبان هایی اجرا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از gvya کجا می توانم استفاده کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "با gvya چی میشه ساخت"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کاربردهای گویا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya فقط برای بازیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می شود با gvya دستیار برنامه ساخت"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya برای حل چه مسئله ای طراحی شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "همون brain گویا تو بازی و وب هم کار می کنه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گویا به درد چه محصولی می خوره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سیستم npc بازی جای دیگه استفاده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کاربرد برای دستگاه صوتی"
+      },
+      {
+        "language": "en-US",
+        "text": "what is it good for building"
+      },
+      {
+        "language": "en-US",
+        "text": "which products would benefit from it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای ساختن چه چیزی خوب است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه محصولاتی از آن سود می برند"
+      },
+      {
+        "language": "en-US",
+        "text": "what is this tool good for"
+      },
+      {
+        "language": "en-US",
+        "text": "what problems is it useful for"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این ابزار به چه دردی می خورد"
+      },
+      {
+        "language": "en-US",
+        "text": "what problem does it solve"
+      },
+      {
+        "language": "en-US",
+        "text": "who is it for"
+      },
+      {
+        "language": "en-US",
+        "text": "when would i use this"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه مشکلی را حل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به چه دردی می خورد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای چه کسانی مناسب است"
+      },
+      {
+        "language": "en-US",
+        "text": "what problems is this good for"
+      },
+      {
+        "language": "en-US",
+        "text": "when would i reach for this instead of something else"
+      },
+      {
+        "language": "en-US",
+        "text": "what sort of product is this meant for"
+      },
+      {
+        "language": "en-US",
+        "text": "give me a realistic scenario where this fits"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این به درد چه مشکلاتی می خورد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کی سراغ این بیایم به جای چیز دیگر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این برای چه جور محصولی ساخته شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک سناریوی واقعی بگو که این جواب بدهد"
+      },
+      {
+        "language": "en-US",
+        "text": "could this run dialogue for something besides a game"
+      },
+      {
+        "language": "en-US",
+        "text": "does it only fit games or other software too"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غیر از بازی برای چیز دیگری هم به کار می آید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای چه جور نرم افزارهایی خوب است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کجاها به کار می آید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya به چه درد می خورد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کاربرد اصلی gvya چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "can i make a game npc with it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزهایی می توانم با آن بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم با آن برای بازی npc بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خلاصه بگو این ابزار به درد من می خورد یا نه"
+      },
+      {
+        "language": "en-US",
+        "text": "can i use gvya for iot devices"
+      },
+      {
+        "language": "en-US",
+        "text": "can gvya be used for iot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم gvya را برای iot استفاده کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "give me a real example"
+      },
+      {
+        "language": "en-US",
+        "text": "show me an example"
+      },
+      {
+        "language": "en-US",
+        "text": "show me an exmple"
+      }
+    ]
+  }
+}

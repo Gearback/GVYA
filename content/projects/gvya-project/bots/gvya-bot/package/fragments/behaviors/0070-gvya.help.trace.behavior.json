@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.trace.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.trace.behavior",
+    "meaning": "gvya.help.trace",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Trace is the source for Studio Why, and it is designed to be useful without requiring raw internal logs. Trace ids are stable FNV hashes, so the same inputs always produce the same id."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏Trace منبع بخش Why در استودیو است و طوری طراحی شده که بدون نیاز به لاگ داخلی خام مفید باشد. شناسه‌های trace هش‌های پایدار FNV هستند، پس ورودی یکسان همیشه شناسهٔ یکسان می‌دهد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.trace.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Trace is the structured explanation record for one Interaction. Every event carries a phase or category, a stable machine reason code, human-readable summary metadata, correlation ids, a visibility classification and bounded structured details."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Trace سابقهٔ توضیح ساختاریافته برای یک Interaction است. هر رویداد یک فاز یا دسته، یک کد دلیل ماشینیِ پایدار، فرادادهٔ خلاصهٔ قابل خواندن برای انسان، شناسه‌های همبستگی، طبقه‌بندی مشاهده‌پذیری، و جزئیات ساختاریافتهٔ محدود دارد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

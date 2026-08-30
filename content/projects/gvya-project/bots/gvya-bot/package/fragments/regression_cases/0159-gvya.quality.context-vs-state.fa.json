@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.context-vs-state.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian context-versus-state comparison resolves directly",
+    "expectation": {
+      "meaning": "gvya.help.context-vs-state"
+    },
+    "generated": false,
+    "id": "gvya.quality.context-vs-state.fa",
+    "initial_state": {},
+    "input": "فرق Context و State چیست؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

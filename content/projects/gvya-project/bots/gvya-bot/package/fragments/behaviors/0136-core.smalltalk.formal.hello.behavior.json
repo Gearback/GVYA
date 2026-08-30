@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.hello.behavior",
+  "mode": {
+    "target_id": "core.smalltalk.formal.hello.behavior",
+    "target_package": "core.smalltalk.formal",
+    "type": "replace"
+  },
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.hello.behavior",
+    "meaning": "core.smalltalk.formal.hello",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.hello.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Hello! I am the GVYA guide. I can explain what GVYA is, show a practical example, or help you make your first Bot."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "سلام! من راهنمای GVYA هستم. می‌توانم بگویم GVYA چیست، یک مثال عملی بزنم یا برای ساخت اولین Bot کمکت کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

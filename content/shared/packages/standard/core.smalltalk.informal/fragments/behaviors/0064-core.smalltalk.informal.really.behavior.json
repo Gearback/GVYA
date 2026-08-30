@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.really.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.really.behavior",
+    "meaning": "core.smalltalk.informal.really",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.really.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Really.",
+              "Yes. Really.",
+              "Looks that way."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "واقعاً.",
+              "آره، جدی.",
+              "همین‌طور به نظر میاد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

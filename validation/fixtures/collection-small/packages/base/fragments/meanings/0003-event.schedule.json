@@ -1,0 +1,17 @@
+{
+  "id": "event.schedule",
+  "value": {
+    "id": "event.schedule",
+    "patterns": [{"language": "en", "text": "schedule event", "priority": 5}],
+    "samples": [{"language": "en", "text": "schedule event"}],
+    "slots": [
+      {
+        "name": "date",
+        "type": "entity",
+        "entity_kind": "date",
+        "required": true,
+        "elicitation": [{"language": "en", "text": "For which date?"}]
+      }
+    ]
+  }
+}

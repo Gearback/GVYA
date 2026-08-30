@@ -1,0 +1,170 @@
+{
+  "exported": true,
+  "id": "gvya.help.effects",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.effects",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is the template language"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya state"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان قالب چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya state چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "effect assign increment author memory write mutable target"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اثر انتساب افزایش نویسنده حافظه نوشتن قابل تغییر"
+      },
+      {
+        "language": "en-US",
+        "text": "store save remember value between turns counter increment write memory assign"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ذخیره نگه داشتن مقدار بین نوبت شمارنده افزایش نوشتن حافظه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شمارنده افزایش زیاد کردن ست کردن مقدار حافظه مکالمه نوشتن author state"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how does the bot remember something i told it"
+      },
+      {
+        "language": "en-US",
+        "text": "what are response effects"
+      },
+      {
+        "language": "en-US",
+        "text": "can a response write to state"
+      },
+      {
+        "language": "en-US",
+        "text": "what can an effect target"
+      },
+      {
+        "language": "en-US",
+        "text": "what effect types exist"
+      },
+      {
+        "language": "en-US",
+        "text": "does the effect run before or after rendering"
+      },
+      {
+        "language": "en-US",
+        "text": "can an effect change host state"
+      },
+      {
+        "language": "en-US",
+        "text": "explain effects"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات چطور چیزی که گفتم را به یاد می سپارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اثرهای پاسخ چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پاسخ می تواند در وضعیت بنویسد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک effect چه هدفی می تواند داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه نوع effect هایی هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "effect قبل از رندر اجرا می شود یا بعد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک effect می تواند وضعیت میزبان را عوض کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "effect ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what are effects"
+      },
+      {
+        "language": "fa-IR",
+        "text": "effect چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "effects"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i store a value between turns"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i remember something the user told me"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i count how many times something happened"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i write into conversation memory from a response"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک مقدار را بین نوبت ها ذخیره کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور چیزی که کاربر گفته را به خاطر بسپارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بشمارم یک اتفاق چند بار افتاده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور از داخل یک پاسخ در حافظه مکالمه بنویسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک شمارنده را در حافظه مکالمه افزایش بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور از داخل پاسخ یک مقدار را ست کنم"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "wifi.setup",
+  "value": {
+    "id": "wifi.setup",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "wifi setup"
+      },
+      {
+        "language": "en",
+        "text": "wireless network"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i connect foliobox to wifi"
+      },
+      {
+        "language": "en",
+        "text": "set up wireless on foliobox"
+      },
+      {
+        "language": "en",
+        "text": "join the device to my network"
+      }
+    ]
+  }
+}

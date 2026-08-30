@@ -1,0 +1,16 @@
+{
+  "exported": false,
+  "id": "iot.boundary.close",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Closing browser UI must not become an IoT position action.",
+    "expectation": { "forbidden_meanings": ["iot.device.close"] },
+    "generated": false,
+    "id": "iot.boundary.close",
+    "initial_state": {},
+    "input": "close the browser tab",
+    "language": "en-US",
+    "seed": 104
+  }
+}

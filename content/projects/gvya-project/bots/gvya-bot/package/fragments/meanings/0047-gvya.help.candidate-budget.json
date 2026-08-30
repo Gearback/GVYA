@@ -1,0 +1,194 @@
+{
+  "exported": true,
+  "id": "gvya.help.candidate-budget",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.candidate-budget",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what makes one semantic candidate outrank another"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خروجی مدل به candidate idها و حداقل confidence محدود می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "semantic evidence ranks one candidate above another"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رتبه بندی candidate ها قبل از انتخاب meaning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خروجی neural model به candidate id و confidence محدود است"
+      },
+      {
+        "language": "en-US",
+        "text": "how are candidates retrieved"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the resolution threshold"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نامزدها چطور بازیابی می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آستانه تصمیم چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate retrieval"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate ranking criteria outrank score"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معیار رتبه بندی candidate و امتیاز بالاتر"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "candidatebudget limit lower bound two ambiguity contract"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بودجه نامزد محدودیت حد پایین دو قرارداد ابهام"
+      },
+      {
+        "language": "en-US",
+        "text": "bounded candidate search"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate work cap maximum bounded search budget limit semantic matcher workload"
+      },
+      {
+        "language": "fa-IR",
+        "text": "candidate سقف کار حداکثر محدود search بودجه limit semantic matcher workload"
+      },
+      {
+        "language": "en-US",
+        "text": "how many at once cap ceiling maximum shortlist size candidates compared"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چند تا همزمان سقف حداکثر اندازه لیست کوتاه نامزد"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is the candidate budget"
+      },
+      {
+        "language": "en-US",
+        "text": "how many candidates are considered"
+      },
+      {
+        "language": "en-US",
+        "text": "why is the lower bound two"
+      },
+      {
+        "language": "en-US",
+        "text": "can i change the candidate limit"
+      },
+      {
+        "language": "en-US",
+        "text": "what is candidate_limit"
+      },
+      {
+        "language": "en-US",
+        "text": "why keep a runner up candidate"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the maximum candidate count"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the candidate budget"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بودجه نامزد چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چند نامزد بررسی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا حد پایین دو است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم محدودیت نامزد را عوض کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "candidate_limit چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا نامزد دوم نگه داشته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حداکثر تعداد نامزد چقدر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بودجه نامزد را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is candidate limit"
+      },
+      {
+        "language": "fa-IR",
+        "text": "candidate limit چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate search bounded"
+      },
+      {
+        "language": "en-US",
+        "text": "how many meanings can it weigh at the same time"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a cap on how many candidates are compared"
+      },
+      {
+        "language": "en-US",
+        "text": "how large can the shortlist get"
+      },
+      {
+        "language": "fa-IR",
+        "text": "همزمان چند معنی را می سنجد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سقفی برای تعداد نامزدهای مقایسه شده وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لیست کوتاه حداکثر چقدر بزرگ می شود"
+      }
+    ]
+  }
+}

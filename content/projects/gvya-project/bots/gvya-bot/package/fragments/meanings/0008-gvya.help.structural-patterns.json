@@ -1,0 +1,261 @@
+{
+  "exported": true,
+  "id": "gvya.help.structural-patterns",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.structural-patterns",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what does caret mean in a regular expression"
+      },
+      {
+        "language": "en-US",
+        "text": "how should i write semantic samples"
+      },
+      {
+        "language": "fa-IR",
+        "text": "علامت caret در regex چه کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sample معنایی را چطور بنویسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": ".gvya container ساختار"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 20,
+        "text": "STRUCTURAL PATTERNS"
+      },
+      {
+        "language": "en-US",
+        "priority": 20,
+        "text": "EXPLAIN GVYA ^ STRUCTURAL PATTERNS"
+      },
+      {
+        "language": "en-US",
+        "priority": 20,
+        "text": "HOW DO GVYA STRUCTURAL PATTERNS WORK"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "WHAT DOES <set:gvya_pattern_atoms>{atom} MEAN IN A GVYA PATTERN"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "EXPLAIN <set:gvya_pattern_atoms>{atom} IN GVYA STRUCTURAL PATTERNS"
+      },
+      {
+        "language": "en-US",
+        "priority": 20,
+        "text": "CAN ^ MATCH PHRASES LIKE ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 20,
+        "text": "PATTERN ساختاری GVYA را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 20,
+        "text": "STRUCTURAL PATTERN های GVYA چطور کار می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 30,
+        "text": "علامت <set:gvya_pattern_atoms>{atom} در PATTERN GVYA یعنی چی"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 30,
+        "text": "<set:gvya_pattern_atoms>{atom} را در STRUCTURAL PATTERN GVYA توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "priority": 20,
+        "text": "WHAT ARE PATTERNS FOR"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "AIML structural pattern wildcard capture pattern set"
+      },
+      {
+        "language": "en-US",
+        "text": "whole utterance authoritative rule"
+      },
+      {
+        "language": "fa-IR",
+        "text": "AIML structural pattern wildcard capture pattern set"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قانون قطعی کل utterance"
+      },
+      {
+        "language": "en-US",
+        "text": "structural rule precedence before semantic score deterministic pattern"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پترن ساختاری اولویت قبل از امتیاز معنایی قانون deterministic"
+      },
+      {
+        "language": "fa-IR",
+        "text": "structural pattern قبل semantic score بررسی"
+      },
+      {
+        "language": "en-US",
+        "text": "ordered words wildcard deterministic rule structural pattern whole utterance grammar exact shape"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترتیب کلمات wildcard rule قطعی structural pattern کل utterance grammar شکل ثابت"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "when should i use a pattern instead of semantic samples"
+      },
+      {
+        "language": "en-US",
+        "text": "is gvya compatible with aiml categories"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya import aiml"
+      },
+      {
+        "language": "en-US",
+        "text": "how do wildcards and pattern sets work"
+      },
+      {
+        "language": "en-US",
+        "text": "show me the structural rule syntax"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کی به جای sample از structural pattern استفاده کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آیا GVYA فایل AIML را import می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya فایل aiml import می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya فایل aiml"
+      },
+      {
+        "language": "fa-IR",
+        "text": "wildcard و pattern set چطور کار می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "syntax قانون ساختاری را نشان بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a structural pattern"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the star do in a pattern"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the asterisk mean"
+      },
+      {
+        "language": "en-US",
+        "text": "can a pattern capture a slot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "structural pattern چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ستاره در pattern یعنی چه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تفاوت pattern و sample چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the star do"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the caret do"
+      },
+      {
+        "language": "en-US",
+        "text": "what does caret mean"
+      },
+      {
+        "language": "fa-IR",
+        "text": "caret یعنی چه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ستاره یعنی چه"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the asterisk do"
+      },
+      {
+        "language": "en-US",
+        "text": "what does star mean then"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i write an exact rule instead of samples"
+      },
+      {
+        "language": "en-US",
+        "text": "when should i use a rule rather than more examples"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور به جای نمونه یک قاعده دقیق بنویسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کی به جای مثال بیشتر از قاعده استفاده کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "why would i use a matching pattern"
+      },
+      {
+        "language": "en-US",
+        "text": "what role do patterns play in matching"
+      }
+    ],
+    "slots": [
+      {
+        "name": "atom",
+        "required": false,
+        "type": "string"
+      }
+    ]
+  }
+}

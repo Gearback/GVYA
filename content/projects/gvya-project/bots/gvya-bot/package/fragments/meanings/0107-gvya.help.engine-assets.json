@@ -1,0 +1,138 @@
+{
+  "exported": true,
+  "id": "gvya.help.engine-assets",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.engine-assets",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "an authored answer changed so only the compiled bot artifact needs rebuilding"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i build the artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "what is studio for"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت را چطور بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "استودیو برای چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "content edit artifact recompile versus engine change"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تغییر content کامپایل artifact در برابر تغییر engine"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "enginewasm version rebuilt bundled simulate cargo executable contract"
+      },
+      {
+        "language": "fa-IR",
+        "text": "موتور نسخه بازسازی همراه شبیه سازی قرارداد اجرایی"
+      },
+      {
+        "language": "en-US",
+        "text": "rebuild engine wasm only rust executable contract change content does not rebuild engine asset"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازسازی engine wasm فقط تغییر قرارداد اجرایی rust محتوا rebuild نمی کند engine asset"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "when is engine wasm rebuilt"
+      },
+      {
+        "language": "en-US",
+        "text": "does changing content rebuild wasm"
+      },
+      {
+        "language": "en-US",
+        "text": "what does an engine version own"
+      },
+      {
+        "language": "en-US",
+        "text": "why is engine wasm not per bot"
+      },
+      {
+        "language": "en-US",
+        "text": "how does studio get its engine"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need cargo to simulate"
+      },
+      {
+        "language": "en-US",
+        "text": "what is engine:build:v1"
+      },
+      {
+        "language": "en-US",
+        "text": "explain engine assets"
+      },
+      {
+        "language": "fa-IR",
+        "text": "engine wasm چه وقت دوباره ساخته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تغییر محتوا wasm را دوباره می سازد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک نسخه engine مالک چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا engine wasm به ازای هر بات نیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "استودیو engine خودش را از کجا می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای شبیه سازی به cargo نیاز دارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "engine:build:v1 چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دارایی های engine را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how are engine assets managed"
+      },
+      {
+        "language": "en-US",
+        "text": "when is the engine rebuilt"
+      },
+      {
+        "language": "fa-IR",
+        "text": "engine asset ها چطور مدیریت می شوند"
+      }
+    ]
+  }
+}

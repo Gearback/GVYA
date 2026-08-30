@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.calibration.matcher.glue-prefix.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A Persian polite glue prefix yields to the longer matcher subtopic",
+    "expectation": {
+      "forbidden_meanings": [
+        "core.smalltalk.formal.yes"
+      ],
+      "meaning": "gvya.help.matcher"
+    },
+    "generated": false,
+    "id": "gvya.calibration.matcher.glue-prefix.fa",
+    "initial_state": {},
+    "input": "لطفاً بگو matcher چطوری منظور جمله رو تشخیص می‌ده",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

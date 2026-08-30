@@ -1,0 +1,48 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-there",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.are-you-there",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "are you there"
+      },
+      {
+        "language": "en-US",
+        "text": "you there"
+      },
+      {
+        "language": "en-US",
+        "text": "can you hear me"
+      },
+      {
+        "language": "en-US",
+        "text": "do you hear me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صدامو داری"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اونجایی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می‌شنوی"
+      }
+    ]
+  }
+}

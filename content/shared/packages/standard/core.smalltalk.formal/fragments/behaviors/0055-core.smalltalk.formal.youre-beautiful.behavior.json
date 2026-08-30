@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.youre-beautiful.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.youre-beautiful.behavior",
+    "meaning": "core.smalltalk.formal.youre-beautiful",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.youre-beautiful.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That is a bold compliment.",
+              "Thank you, I suppose.",
+              "Please be careful with compliments."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "تعریف جسورانه‌ای است.",
+              "سپاسگزارم، فکر می‌کنم.",
+              "لطفاً در تعریف کردن محتاط باشید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

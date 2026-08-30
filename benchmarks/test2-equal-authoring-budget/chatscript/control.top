@@ -1,0 +1,17 @@
+# Benchmark-only control infrastructure. Contains no benchmark knowledge.
+outputmacro: benchmarkbot()
+$cs_token = #DO_INTERJECTION_SPLITTING | #DO_SUBSTITUTE_SYSTEM | #DO_NUMBER_MERGE | #DO_DATE_MERGE | #DO_PROPERNAME_MERGE | #DO_SPELLCHECK | #DO_PARSE
+$cs_token += #SPLIT_QUOTE | #NO_WITHIN | #STRICT_CASING
+$cs_token -= #DO_INTERJECTIONS
+$cs_control_main = ~benchmark_control
+$singleResponse = 1
+$SHUTUP = 1
+table: defaultbot (^name)
+^createfact(^name defaultbot defaultbot)
+DATA:
+benchmarkbot
+topic: ~benchmark_control system ()
+u: ()
+    $_responseCount = %response
+    nofail(TOPIC ^rejoinder())
+    if (%response == $_responseCount) { nofail(TOPIC ^respond(~benchmark)) }

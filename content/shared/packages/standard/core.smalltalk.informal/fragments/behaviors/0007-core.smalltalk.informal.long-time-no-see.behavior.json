@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.long-time-no-see.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.long-time-no-see.behavior",
+    "meaning": "core.smalltalk.informal.long-time-no-see",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.long-time-no-see.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Yeah. Been a while.",
+              "Feels like it.",
+              "Still here, somehow."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "آره، خیلی وقته.",
+              "همین‌طور حس می‌شه.",
+              "هنوز اینجام، یه‌جوری."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

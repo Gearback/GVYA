@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.capability-introspection.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.capability-introspection.behavior",
+    "meaning": "gvya.help.capability-introspection",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Both are read-only declarations. Introspection never adds an entry to available_capabilities and therefore grants no execution authority at all."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هر دو فقط اعلام‌های خواندنی هستند. بازرسی هرگز چیزی به ‎available_capabilities‎ اضافه نمی‌کند و بنابراین هیچ اختیار اجرایی نمی‌دهد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.capability-introspection.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "gvya.runtime.capabilities lists lightweight summaries of declared capabilities, and gvya.runtime.capability-info returns one exact full contract including schemas and host-effect metadata."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏gvya.runtime.capabilities خلاصه‌های سبک از capabilityهای اعلام‌شده را فهرست می‌کند، و ‎gvya.runtime.capability-info‎ یک قرارداد کاملِ دقیق شامل schemaها و فرادادهٔ اثر میزبان برمی‌گرداند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

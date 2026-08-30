@@ -1,0 +1,81 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.simplify",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.simplify",
+    "negative_samples": [],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ SIMPLE ^ TERMS ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ SIMPLER ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 40,
+        "text": "^ ساده تر ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "simplify simpler plain words explain short clear"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساده ساده‌تر روان خلاصه توضیح واضح"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "say that more simply"
+      },
+      {
+        "language": "en-US",
+        "text": "put that in simpler words"
+      },
+      {
+        "language": "en-US",
+        "text": "give me the plain version"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساده ترش کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "روان تر بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به زبان ساده بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "i do not get it explain it like i am new"
+      },
+      {
+        "language": "en-US",
+        "text": "explain that like i am a beginner"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متوجه نشدم مثل یک تازه کار توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یعنی چی ساده بگو"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.that-makes-no-sense.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.that-makes-no-sense.behavior",
+    "meaning": "core.smalltalk.informal.that-makes-no-sense",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.that-makes-no-sense.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Maybe not yet.",
+              "Then find the part that does.",
+              "Some things look wrong until they matter."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید هنوز نه.",
+              "پس اون بخشی رو پیدا کن که معنی داره.",
+              "بعضی چیزها تا وقتی مهم نشن غلط به نظر میان."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

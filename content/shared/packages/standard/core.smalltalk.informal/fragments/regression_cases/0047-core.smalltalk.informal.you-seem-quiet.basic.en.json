@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.you-seem-quiet.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.you-seem-quiet",
+      "response_ids": [
+        "core.smalltalk.informal.you-seem-quiet.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.you-seem-quiet.basic.en",
+    "initial_state": {},
+    "input": "you seem quiet",
+    "language": "en-US",
+    "seed": 1
+  }
+}

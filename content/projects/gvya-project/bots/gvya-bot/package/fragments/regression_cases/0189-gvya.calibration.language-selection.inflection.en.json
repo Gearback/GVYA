@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.calibration.language-selection.inflection.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "English Language Profile morphology keeps passive plural wording on language selection",
+    "expectation": {
+      "meaning": "gvya.help.language-selection"
+    },
+    "generated": false,
+    "id": "gvya.calibration.language-selection.inflection.en",
+    "initial_state": {},
+    "input": "How are languages selected for responses?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.good-morning.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.good-morning.behavior",
+    "meaning": "core.smalltalk.informal.good-morning",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.good-morning.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Morning.",
+              "Good morning.",
+              "Hope the day treats you alright."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "صبح بخیر.",
+              "صبحت بخیر.",
+              "امیدوارم روز خوبی داشته باشی."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

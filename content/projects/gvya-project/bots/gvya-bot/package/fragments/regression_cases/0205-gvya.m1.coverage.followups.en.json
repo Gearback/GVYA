@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.followups.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Direct follow-up mechanics question reaches follow-up help",
+    "expectation": {
+      "meaning": "gvya.help.followups"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.followups.en",
+    "initial_state": {},
+    "input": "How do follow-ups work?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

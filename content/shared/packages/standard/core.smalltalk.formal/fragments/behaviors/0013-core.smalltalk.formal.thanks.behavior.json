@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.thanks.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.thanks.behavior",
+    "meaning": "core.smalltalk.formal.thanks",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.thanks.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "You are welcome.",
+              "No problem.",
+              "Anytime."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خواهش می‌کنم.",
+              "مشکلی نیست.",
+              "هر زمان."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

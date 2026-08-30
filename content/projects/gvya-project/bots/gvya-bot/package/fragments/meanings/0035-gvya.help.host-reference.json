@@ -1,0 +1,130 @@
+{
+  "exported": true,
+  "id": "gvya.help.host-reference",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.host-reference",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is an entity"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a context snapshot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entity چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "context snapshot چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "hostreference kind opaque identity alias label authority"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرجع میزبان نوع شناسه مبهم نام مستعار برچسب اختیار"
+      },
+      {
+        "language": "en-US",
+        "text": "meaning reference supplied host"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a host reference"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it identify a host object"
+      },
+      {
+        "language": "en-US",
+        "text": "what is reference kind and id"
+      },
+      {
+        "language": "en-US",
+        "text": "can a display name grant authority"
+      },
+      {
+        "language": "en-US",
+        "text": "how are aliases used in matching"
+      },
+      {
+        "language": "en-US",
+        "text": "who decides which references exist"
+      },
+      {
+        "language": "en-US",
+        "text": "is a remembered reference still valid later"
+      },
+      {
+        "language": "en-US",
+        "text": "explain host references"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host reference چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک شی میزبان را شناسایی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "kind و id در reference چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نام نمایشی می تواند اختیار بدهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نام مستعار در تطبیق چطور استفاده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی تعیین می کند کدام reference وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "reference به خاطر سپرده شده بعدا هم معتبر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host reference را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "meaning reference supplied host"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i refer to a real object in my app"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the bot point at a specific device or room"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور به یک شیء واقعی در برنامه ام ارجاع بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات چطور به یک دستگاه یا اتاق مشخص اشاره می کند"
+      }
+    ]
+  }
+}

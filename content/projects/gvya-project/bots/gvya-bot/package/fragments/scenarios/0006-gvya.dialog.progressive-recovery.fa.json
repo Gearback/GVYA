@@ -1,0 +1,92 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.progressive-recovery.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian fallback reaches the same terse recovery and discovery route",
+    "generated": false,
+    "id": "gvya.dialog.progressive-recovery.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.recovery-route",
+          "conversation_mode": "fallback",
+          "response_ids": [
+            "gvya.fallback.formal.unresolved.stage-1.redirect"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "چطور گیتار کوک کنم؟",
+        "seed": 95,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.recovery-route",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.recovery-route",
+          "meaning_slots": {
+            "route": "build"
+          },
+          "response_ids": [
+            "gvya.dialog.recovery-route.build"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "دومی",
+        "seed": 96,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.recovery-route",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.recovery-route",
+          "meaning_slots": {
+            "route": "debug"
+          },
+          "response_ids": [
+            "gvya.dialog.recovery-route.debug"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "سومی",
+        "seed": 97,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.discovery",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.recovery-route",
+          "meaning_slots": {
+            "route": "explore"
+          },
+          "response_ids": [
+            "gvya.dialog.recovery-route.explore"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "چهارمی",
+        "seed": 98,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.discovery",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.discovery-again",
+          "response_ids": [
+            "gvya.dialog.discovery-again.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "یکی دیگه",
+        "seed": 99,
+        "type": "turn"
+      }
+    ]
+  }
+}

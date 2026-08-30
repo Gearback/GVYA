@@ -1,0 +1,56 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.thanks",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.thanks",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 1,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "thanks"
+      },
+      {
+        "language": "en-US",
+        "text": "thanx"
+      },
+      {
+        "language": "en-US",
+        "text": "thank you"
+      },
+      {
+        "language": "en-US",
+        "text": "thanks a lot"
+      },
+      {
+        "language": "en-US",
+        "text": "appreciate it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرسی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ممنون"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خیلی ممنون"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سپاس"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دمت گرم"
+      }
+    ]
+  }
+}

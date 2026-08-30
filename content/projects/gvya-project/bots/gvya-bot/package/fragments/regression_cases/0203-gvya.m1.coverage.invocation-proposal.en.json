@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.invocation-proposal.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Capability proposal wording reaches the proposal contract",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.capabilities"
+      ],
+      "meaning": "gvya.help.invocation-proposal"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.invocation-proposal.en",
+    "initial_state": {},
+    "input": "What is a capability proposal?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

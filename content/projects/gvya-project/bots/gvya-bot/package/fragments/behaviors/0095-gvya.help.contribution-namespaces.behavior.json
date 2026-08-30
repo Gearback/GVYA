@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.contribution-namespaces.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.contribution-namespaces.behavior",
+    "meaning": "gvya.help.contribution-namespaces",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Two are restricted by package kind: fallback_behaviors may come only from Fallback Packages, and style lexicon patches only from Standard Packages."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "دو مورد بر اساس نوع پکیج محدودند: ‎fallback_behaviors‎ فقط از Fallback Package می‌آید، و وصله‌های style lexicon فقط از Standard Package."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.contribution-namespaces.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Composition is supported for Meaning patterns, semantic-profile patches, conversation behaviors, openings, first-class fallback behaviors, style lexicon patches, capabilities and bindings and policies and capability config, named compiled types, assets, regression cases, and conversation scenarios."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ترکیب برای این‌ها پشتیبانی می‌شود: الگوهای Meaning، وصله‌های پروفایل معنایی، رفتارهای مکالمه، openingها، رفتارهای fallback درجه‌یک، وصله‌های style lexicon، capability و binding و policy و پیکربندی capability، typeهای نام‌دار کامپایل‌شده، assetها، regression caseها، و سناریوهای مکالمه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

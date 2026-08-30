@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.do-you-mind",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.do-you-mind",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "do you mind"
+      },
+      {
+        "language": "en-US",
+        "text": "is it okay"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اشکال نداره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اجازه هست"
+      }
+    ]
+  }
+}

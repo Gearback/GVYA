@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.architecture.heldout.en.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The end-to-end GVYA architecture and authority boundaries held-out en-US coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.architecture",
+      "response_ids": [
+        "gvya.help.architecture.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.architecture.heldout.en.2",
+    "initial_state": {},
+    "input": "Explain who is responsible for compiling, matching, and running actions.",
+    "language": "en-US",
+    "seed": 1
+  }
+}

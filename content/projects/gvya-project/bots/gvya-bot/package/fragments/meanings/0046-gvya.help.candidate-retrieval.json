@@ -1,0 +1,236 @@
+{
+  "exported": true,
+  "id": "gvya.help.candidate-retrieval",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.candidate-retrieval",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "spellchecker candidate word scoring"
+      },
+      {
+        "language": "en-US",
+        "text": "how does scoring work"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the candidate budget"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امتیازدهی چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بودجه نامزد چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate search bounded"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ MATCHER ^ BOUNDED ^ SHORTLIST ^ MEANING ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "retrieval inverted index posting saturation bounded ranking integer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازیابی ایندکس معکوس اشباع محدود رتبه بندی صحیح"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate retrieval meanings before scoring"
+      },
+      {
+        "language": "en-US",
+        "text": "retrieve meanings before scoring"
+      },
+      {
+        "language": "en-US",
+        "text": "bounded shortlist scan meanings"
+      },
+      {
+        "language": "en-US",
+        "text": "which meanings scored whole catalog compared shortlist lookup index bounded"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام معنی امتیاز کل کاتالوگ مقایسه لیست کوتاه ایندکس محدود نامزد"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how are candidates retrieved"
+      },
+      {
+        "language": "en-US",
+        "text": "does it scan every meaning each turn"
+      },
+      {
+        "language": "en-US",
+        "text": "what indexes exist"
+      },
+      {
+        "language": "en-US",
+        "text": "how does retrieval stay bounded"
+      },
+      {
+        "language": "en-US",
+        "text": "what is posting saturation"
+      },
+      {
+        "language": "en-US",
+        "text": "is retrieval ranking deterministic"
+      },
+      {
+        "language": "en-US",
+        "text": "does floating point affect candidate order"
+      },
+      {
+        "language": "en-US",
+        "text": "explain candidate retrieval"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نامزدها چطور بازیابی می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هر نوبت همه معانی اسکن می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه ایندکس هایی وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازیابی چطور محدود می ماند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اشباع posting چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رتبه بندی بازیابی قطعی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اعشار روی ترتیب نامزدها اثر دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازیابی نامزد را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کاندیداها چطور بازیابی می شوند"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate retrieval before scoring"
+      },
+      {
+        "language": "en-US",
+        "text": "meanings retrieved before scoring"
+      },
+      {
+        "language": "en-US",
+        "text": "meanings retrieved scored"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate retrieval"
+      },
+      {
+        "language": "en-US",
+        "text": "bounded shortlist scan meanings"
+      },
+      {
+        "language": "en-US",
+        "text": "how does gvya narrow down which meanings to consider"
+      },
+      {
+        "language": "en-US",
+        "text": "where does the shortlist of meanings come from"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens before meanings are ranked"
+      },
+      {
+        "language": "en-US",
+        "text": "how are the relevant meanings looked up without a full scan"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چطور فهرست معنی ها را قبل از امتیازدهی کوتاه می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لیست کوتاه معنی ها از کجا می آید"
+      },
+      {
+        "language": "en-US",
+        "text": "which meanings are considered for a given sentence"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the meaning catalog narrowed for one turn"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای یک جمله کدام معنی ها بررسی می شوند"
+      },
+      {
+        "language": "en-US",
+        "text": "which meanings even get scored"
+      },
+      {
+        "language": "en-US",
+        "text": "does every meaning get scored on every turn"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the set of meanings to score chosen"
+      },
+      {
+        "language": "en-US",
+        "text": "is the whole catalog compared with my sentence"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اصلا کدام معنی ها امتیاز می گیرند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هر نوبت همه معنی ها امتیازدهی می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مجموعه معنی هایی که امتیاز می گیرند چطور انتخاب می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کل کاتالوگ با جمله من مقایسه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معنی های نامزد از کجا می آیند"
+      }
+    ]
+  }
+}

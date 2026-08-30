@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.architecture.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The end-to-end GVYA architecture and authority boundaries held-out en-US coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.architecture",
+      "response_ids": [
+        "gvya.help.architecture.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.architecture.heldout.en.1",
+    "initial_state": {},
+    "input": "What is the full path from authored files to a reply?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

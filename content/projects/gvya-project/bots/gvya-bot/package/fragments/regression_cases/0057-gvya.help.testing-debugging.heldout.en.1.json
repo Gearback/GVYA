@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.testing-debugging.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Matcher troubleshooting held-out en-US coverage for locking a semantic match",
+    "expectation": {
+      "meaning": "gvya.help.matcher-troubleshooting",
+      "response_ids": [
+        "gvya.help.matcher-troubleshooting.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.testing-debugging.heldout.en.1",
+    "initial_state": {},
+    "input": "How can I lock in an intent match without copying its sample?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

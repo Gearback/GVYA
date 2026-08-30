@@ -1,0 +1,41 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.discovery-why-colloquial.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The Persian discovery promise accepts the short colloquial why phrasing it invites",
+    "generated": false,
+    "id": "gvya.quality.scenario.discovery-why-colloquial.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.surprise-me"
+        },
+        "language": "fa-IR",
+        "say": "یه چیز جالب بگو",
+        "seed": 841,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.discovery-why"
+        },
+        "language": "fa-IR",
+        "say": "چرا مهمه؟",
+        "seed": 842,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.discovery-again"
+        },
+        "language": "fa-IR",
+        "say": "یکی دیگه",
+        "seed": 843,
+        "type": "turn"
+      }
+    ]
+  }
+}

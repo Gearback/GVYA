@@ -1,0 +1,947 @@
+{
+  "benchmark": "gvya-comparator-test-2-equal-evidence-budget-fair-rerun",
+  "evaluation": [
+    {
+      "expected": "device.about",
+      "id": "device.about:para1",
+      "text": "Give me the quick description of this FolioBox thing.",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "device.about",
+      "id": "device.about:para2",
+      "text": "If I had to explain FolioBox to a coworker, what does it do?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "device.about",
+      "id": "device.about:compressed",
+      "text": "foliobox purpose?",
+      "track": "compressed"
+    },
+    {
+      "expected": "device.about",
+      "id": "device.about:typo",
+      "text": "wat is folibox exactly",
+      "track": "typo"
+    },
+    {
+      "expected": "device.about",
+      "id": "device.about:polite",
+      "text": "I just opened the box and have no context yet; could you explain what this device is for?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "scan.single",
+      "id": "scan.single:para1",
+      "text": "What is the normal process for capturing a single sheet?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "scan.single",
+      "id": "scan.single:para2",
+      "text": "How do I turn one loose page into a scan?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "scan.single",
+      "id": "scan.single:compressed",
+      "text": "scan one sheet?",
+      "track": "compressed"
+    },
+    {
+      "expected": "scan.single",
+      "id": "scan.single:typo",
+      "text": "how do i scna a singel page",
+      "track": "typo"
+    },
+    {
+      "expected": "scan.single",
+      "id": "scan.single:polite",
+      "text": "I only have one page in front of me; could you walk me through capturing just that sheet?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "scan.duplex",
+      "id": "scan.duplex:para1",
+      "text": "How can I capture the front and back together?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "scan.duplex",
+      "id": "scan.duplex:para2",
+      "text": "I need both faces of one sheet in the same document.",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "scan.duplex",
+      "id": "scan.duplex:compressed",
+      "text": "two-sided scan?",
+      "track": "compressed"
+    },
+    {
+      "expected": "scan.duplex",
+      "id": "scan.duplex:typo",
+      "text": "how do i scna bothe sids",
+      "track": "typo"
+    },
+    {
+      "expected": "scan.duplex",
+      "id": "scan.duplex:polite",
+      "text": "This form has printing on each side and I would like both sides kept together; what should I use?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "scan.receipt",
+      "id": "scan.receipt:para1",
+      "text": "What setting should I use for a narrow store receipt?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "scan.receipt",
+      "id": "scan.receipt:para2",
+      "text": "How does FolioBox handle long receipt paper?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "scan.receipt",
+      "id": "scan.receipt:compressed",
+      "text": "receipt mode?",
+      "track": "compressed"
+    },
+    {
+      "expected": "scan.receipt",
+      "id": "scan.receipt:typo",
+      "text": "how do i scna a reciept",
+      "track": "typo"
+    },
+    {
+      "expected": "scan.receipt",
+      "id": "scan.receipt:polite",
+      "text": "I have a thin purchase receipt rather than a normal page; what is the right way to capture it?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "ocr.language",
+      "id": "ocr.language:para1",
+      "text": "Where do I tell text recognition which language to expect?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "ocr.language",
+      "id": "ocr.language:para2",
+      "text": "Can I change the language used when reading text from scans?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "ocr.language",
+      "id": "ocr.language:compressed",
+      "text": "ocr language?",
+      "track": "compressed"
+    },
+    {
+      "expected": "ocr.language",
+      "id": "ocr.language:typo",
+      "text": "how do i chosse ocr languge",
+      "track": "typo"
+    },
+    {
+      "expected": "ocr.language",
+      "id": "ocr.language:polite",
+      "text": "My documents are not always in English; could you tell me where to select the language for recognition?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "ocr.offline",
+      "id": "ocr.offline:para1",
+      "text": "Can the device read text when there is no connection?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "ocr.offline",
+      "id": "ocr.offline:para2",
+      "text": "Is OCR local or does it require the internet?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "ocr.offline",
+      "id": "ocr.offline:compressed",
+      "text": "offline ocr?",
+      "track": "compressed"
+    },
+    {
+      "expected": "ocr.offline",
+      "id": "ocr.offline:typo",
+      "text": "does tex recgonition wrk ofline",
+      "track": "typo"
+    },
+    {
+      "expected": "ocr.offline",
+      "id": "ocr.offline:polite",
+      "text": "We sometimes work where there is no network at all; can FolioBox still recognize the text on a page?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "wifi.setup",
+      "id": "wifi.setup:para1",
+      "text": "What steps put FolioBox on my wireless network?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "wifi.setup",
+      "id": "wifi.setup:para2",
+      "text": "How is the scanner joined to home Wi-Fi?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "wifi.setup",
+      "id": "wifi.setup:compressed",
+      "text": "connect wifi?",
+      "track": "compressed"
+    },
+    {
+      "expected": "wifi.setup",
+      "id": "wifi.setup:typo",
+      "text": "how do i conenct folibox to wfi",
+      "track": "typo"
+    },
+    {
+      "expected": "wifi.setup",
+      "id": "wifi.setup:polite",
+      "text": "I have just unpacked the unit and want it on our wireless network; could you explain the connection process?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "export.pdf",
+      "id": "export.pdf:para1",
+      "text": "How can I save a captured document in PDF format?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "export.pdf",
+      "id": "export.pdf:para2",
+      "text": "What is the route from a scan to an ordinary PDF file?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "export.pdf",
+      "id": "export.pdf:compressed",
+      "text": "export pdf?",
+      "track": "compressed"
+    },
+    {
+      "expected": "export.pdf",
+      "id": "export.pdf:typo",
+      "text": "how do i exprt scan as pfd",
+      "track": "typo"
+    },
+    {
+      "expected": "export.pdf",
+      "id": "export.pdf:polite",
+      "text": "I finished scanning and need a regular PDF to send elsewhere; what export option should I use?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "export.searchable",
+      "id": "export.searchable:para1",
+      "text": "How do I create a PDF whose words can be searched?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "export.searchable",
+      "id": "export.searchable:para2",
+      "text": "Can FolioBox put recognized text into the exported PDF?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "export.searchable",
+      "id": "export.searchable:compressed",
+      "text": "searchable pdf?",
+      "track": "compressed"
+    },
+    {
+      "expected": "export.searchable",
+      "id": "export.searchable:typo",
+      "text": "make serchable pfd",
+      "track": "typo"
+    },
+    {
+      "expected": "export.searchable",
+      "id": "export.searchable:polite",
+      "text": "I need recipients to be able to search for words inside the exported document; how should I create it?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "security.encryption",
+      "id": "security.encryption:para1",
+      "text": "How is material on the device protected at rest?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "security.encryption",
+      "id": "security.encryption:para2",
+      "text": "Does FolioBox encrypt documents kept in local storage?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "security.encryption",
+      "id": "security.encryption:compressed",
+      "text": "local encryption?",
+      "track": "compressed"
+    },
+    {
+      "expected": "security.encryption",
+      "id": "security.encryption:typo",
+      "text": "are scnas encrpyted",
+      "track": "typo"
+    },
+    {
+      "expected": "security.encryption",
+      "id": "security.encryption:polite",
+      "text": "Our security policy requires encrypted local storage; what protection does FolioBox use for saved scans?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "storage.capacity",
+      "id": "storage.capacity:para1",
+      "text": "Roughly how many pages fit on the internal storage?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "storage.capacity",
+      "id": "storage.capacity:para2",
+      "text": "What is the local document capacity of the unit?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "storage.capacity",
+      "id": "storage.capacity:compressed",
+      "text": "storage size?",
+      "track": "compressed"
+    },
+    {
+      "expected": "storage.capacity",
+      "id": "storage.capacity:typo",
+      "text": "how mutch can folibox strore",
+      "track": "typo"
+    },
+    {
+      "expected": "storage.capacity",
+      "id": "storage.capacity:polite",
+      "text": "Before we deploy it, I need an idea of how much material can remain on the device without exporting it. What is the capacity?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "storage.delete",
+      "id": "storage.delete:para1",
+      "text": "What is the process for removing a document from local storage?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "storage.delete",
+      "id": "storage.delete:para2",
+      "text": "How can I throw away a scan that is saved on the box?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "storage.delete",
+      "id": "storage.delete:compressed",
+      "text": "delete scan?",
+      "track": "compressed"
+    },
+    {
+      "expected": "storage.delete",
+      "id": "storage.delete:typo",
+      "text": "how do i delte a scna",
+      "track": "typo"
+    },
+    {
+      "expected": "storage.delete",
+      "id": "storage.delete:polite",
+      "text": "There is an old captured document I no longer want on this device; could you tell me how to remove it?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "backup.usb",
+      "id": "backup.usb:para1",
+      "text": "How can I copy my document archive onto a USB drive?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "backup.usb",
+      "id": "backup.usb:para2",
+      "text": "Does the device have a way to make an external USB backup?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "backup.usb",
+      "id": "backup.usb:compressed",
+      "text": "usb backup?",
+      "track": "compressed"
+    },
+    {
+      "expected": "backup.usb",
+      "id": "backup.usb:typo",
+      "text": "back up scnas to usb drvie",
+      "track": "typo"
+    },
+    {
+      "expected": "backup.usb",
+      "id": "backup.usb:polite",
+      "text": "We keep an offline recovery copy on removable media; how do I put the FolioBox scans onto a USB drive?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "cloud.sync",
+      "id": "cloud.sync:para1",
+      "text": "When do completed documents get copied to the cloud workspace?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "cloud.sync",
+      "id": "cloud.sync:para2",
+      "text": "Explain how FolioBox synchronization with the cloud behaves.",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "cloud.sync",
+      "id": "cloud.sync:compressed",
+      "text": "cloud syncing?",
+      "track": "compressed"
+    },
+    {
+      "expected": "cloud.sync",
+      "id": "cloud.sync:typo",
+      "text": "how dose clod sync wrk",
+      "track": "typo"
+    },
+    {
+      "expected": "cloud.sync",
+      "id": "cloud.sync:polite",
+      "text": "We have a linked online workspace and I want to understand when captured documents are sent there; how does syncing work?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "sharing.link",
+      "id": "sharing.link:para1",
+      "text": "How can I give someone a link to one of my synced documents?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "sharing.link",
+      "id": "sharing.link:para2",
+      "text": "Can I create a URL for another person to view a document?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "sharing.link",
+      "id": "sharing.link:compressed",
+      "text": "share link?",
+      "track": "compressed"
+    },
+    {
+      "expected": "sharing.link",
+      "id": "sharing.link:typo",
+      "text": "how do i shrae documnt lnik",
+      "track": "typo"
+    },
+    {
+      "expected": "sharing.link",
+      "id": "sharing.link:polite",
+      "text": "A teammate should be able to open one synced document without receiving the file directly; how can I share it by link?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "paper.jam",
+      "id": "paper.jam:para1",
+      "text": "What should I do when a sheet gets stuck in the feed path?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "paper.jam",
+      "id": "paper.jam:para2",
+      "text": "How do I safely clear jammed paper from FolioBox?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "paper.jam",
+      "id": "paper.jam:compressed",
+      "text": "paper stuck?",
+      "track": "compressed"
+    },
+    {
+      "expected": "paper.jam",
+      "id": "paper.jam:typo",
+      "text": "papre is jamemd what do i do",
+      "track": "typo"
+    },
+    {
+      "expected": "paper.jam",
+      "id": "paper.jam:polite",
+      "text": "A page stopped halfway through and the feeder will not continue; could you tell me the safe way to clear it?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "rollers.clean",
+      "id": "rollers.clean:para1",
+      "text": "What is the safe method for cleaning the rollers that pull pages in?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "rollers.clean",
+      "id": "rollers.clean:para2",
+      "text": "How should the document feed rollers be maintained?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "rollers.clean",
+      "id": "rollers.clean:compressed",
+      "text": "clean rollers?",
+      "track": "compressed"
+    },
+    {
+      "expected": "rollers.clean",
+      "id": "rollers.clean:typo",
+      "text": "how do i clena feed rolerrs",
+      "track": "typo"
+    },
+    {
+      "expected": "rollers.clean",
+      "id": "rollers.clean:polite",
+      "text": "Pages are starting to feed poorly and I suspect the rollers need cleaning; what procedure should I follow?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "battery.life",
+      "id": "battery.life:para1",
+      "text": "About how many scans can I get from one full charge?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "battery.life",
+      "id": "battery.life:para2",
+      "text": "What is the expected runtime of the battery during scanning?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "battery.life",
+      "id": "battery.life:compressed",
+      "text": "pages per charge?",
+      "track": "compressed"
+    },
+    {
+      "expected": "battery.life",
+      "id": "battery.life:typo",
+      "text": "how long dose the batery lst",
+      "track": "typo"
+    },
+    {
+      "expected": "battery.life",
+      "id": "battery.life:polite",
+      "text": "We may use the device away from power for a while; roughly how much scanning can one charge support?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "soft.restart",
+      "id": "soft.restart:para1",
+      "text": "What is the safe reboot method that keeps my documents?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "soft.restart",
+      "id": "soft.restart:para2",
+      "text": "How can I restart the unit without wiping its stored material?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "soft.restart",
+      "id": "soft.restart:compressed",
+      "text": "safe restart?",
+      "track": "compressed"
+    },
+    {
+      "expected": "soft.restart",
+      "id": "soft.restart:typo",
+      "text": "how do i restat folibox safley",
+      "track": "typo"
+    },
+    {
+      "expected": "soft.restart",
+      "id": "soft.restart:polite",
+      "text": "The device is acting odd and I only want to reboot it, not erase any scans or settings; what should I do?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "factory.reset",
+      "id": "factory.reset:para1",
+      "text": "How do I return FolioBox to its original factory state?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "factory.reset",
+      "id": "factory.reset:para2",
+      "text": "What procedure completely resets the local device setup?",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "factory.reset",
+      "id": "factory.reset:compressed",
+      "text": "factory wipe?",
+      "track": "compressed"
+    },
+    {
+      "expected": "factory.reset",
+      "id": "factory.reset:typo",
+      "text": "how do i factroy reset folibox",
+      "track": "typo"
+    },
+    {
+      "expected": "factory.reset",
+      "id": "factory.reset:polite",
+      "text": "We are retiring this unit and need to return its local configuration to factory defaults; what is the reset procedure?",
+      "track": "polite_noise"
+    },
+    {
+      "expected": "context.duplex_orientation",
+      "id": "context.duplex_orientation:1",
+      "setup": "scan a double sided sheet",
+      "setup_expected": "scan.duplex",
+      "text": "Which face should be pointing up when I load it?",
+      "track": "context"
+    },
+    {
+      "expected": "context.duplex_orientation",
+      "id": "context.duplex_orientation:2",
+      "setup": "scan a double sided sheet",
+      "setup_expected": "scan.duplex",
+      "text": "Do I feed the front or the back first?",
+      "track": "context"
+    },
+    {
+      "expected": "context.duplex_orientation",
+      "id": "context.duplex_orientation:3",
+      "setup": "scan a double sided sheet",
+      "setup_expected": "scan.duplex",
+      "text": "first side orientation?",
+      "track": "context"
+    },
+    {
+      "expected": "context.duplex_orientation",
+      "id": "context.duplex_orientation:4",
+      "setup": "scan a double sided sheet",
+      "setup_expected": "scan.duplex",
+      "text": "wich side gose in frist",
+      "track": "context"
+    },
+    {
+      "expected": "context.ocr_offline_language",
+      "id": "context.ocr_offline_language:1",
+      "setup": "tell me about offline text recognition",
+      "setup_expected": "ocr.offline",
+      "text": "Will it honor the language I chose even without a connection?",
+      "track": "context"
+    },
+    {
+      "expected": "context.ocr_offline_language",
+      "id": "context.ocr_offline_language:2",
+      "setup": "tell me about offline text recognition",
+      "setup_expected": "ocr.offline",
+      "text": "Does my OCR language setting still apply locally?",
+      "track": "context"
+    },
+    {
+      "expected": "context.ocr_offline_language",
+      "id": "context.ocr_offline_language:3",
+      "setup": "tell me about offline text recognition",
+      "setup_expected": "ocr.offline",
+      "text": "same language offline?",
+      "track": "context"
+    },
+    {
+      "expected": "context.ocr_offline_language",
+      "id": "context.ocr_offline_language:4",
+      "setup": "tell me about offline text recognition",
+      "setup_expected": "ocr.offline",
+      "text": "does it stil use my langage",
+      "track": "context"
+    },
+    {
+      "expected": "context.searchable_is_pdf",
+      "id": "context.searchable_is_pdf:1",
+      "setup": "make my scan into a searchable pdf",
+      "setup_expected": "export.searchable",
+      "text": "Will other apps still see it as an ordinary PDF?",
+      "track": "context"
+    },
+    {
+      "expected": "context.searchable_is_pdf",
+      "id": "context.searchable_is_pdf:2",
+      "setup": "make my scan into a searchable pdf",
+      "setup_expected": "export.searchable",
+      "text": "Is the searchable result still a standard PDF document?",
+      "track": "context"
+    },
+    {
+      "expected": "context.searchable_is_pdf",
+      "id": "context.searchable_is_pdf:3",
+      "setup": "make my scan into a searchable pdf",
+      "setup_expected": "export.searchable",
+      "text": "still regular pdf?",
+      "track": "context"
+    },
+    {
+      "expected": "context.searchable_is_pdf",
+      "id": "context.searchable_is_pdf:4",
+      "setup": "make my scan into a searchable pdf",
+      "setup_expected": "export.searchable",
+      "text": "is it stil a nomral pfd",
+      "track": "context"
+    },
+    {
+      "expected": "context.restart_preserves",
+      "id": "context.restart_preserves:1",
+      "setup": "restart foliobox without deleting anything",
+      "setup_expected": "soft.restart",
+      "text": "After that reboot, are the documents I saved still on the box?",
+      "track": "context"
+    },
+    {
+      "expected": "context.restart_preserves",
+      "id": "context.restart_preserves:2",
+      "setup": "restart foliobox without deleting anything",
+      "setup_expected": "soft.restart",
+      "text": "Does restarting this way keep my stored scans?",
+      "track": "context"
+    },
+    {
+      "expected": "context.restart_preserves",
+      "id": "context.restart_preserves:3",
+      "setup": "restart foliobox without deleting anything",
+      "setup_expected": "soft.restart",
+      "text": "scans survive?",
+      "track": "context"
+    },
+    {
+      "expected": "context.restart_preserves",
+      "id": "context.restart_preserves:4",
+      "setup": "restart foliobox without deleting anything",
+      "setup_expected": "soft.restart",
+      "text": "wil my scnas stil be thre",
+      "track": "context"
+    },
+    {
+      "expected": "context.reset_cloud",
+      "id": "context.reset_cloud:1",
+      "setup": "reset foliobox to factory settings",
+      "setup_expected": "factory.reset",
+      "text": "What happens to copies that were already uploaded?",
+      "track": "context"
+    },
+    {
+      "expected": "context.reset_cloud",
+      "id": "context.reset_cloud:2",
+      "setup": "reset foliobox to factory settings",
+      "setup_expected": "factory.reset",
+      "text": "Will the reset remove documents that have already reached the cloud?",
+      "track": "context"
+    },
+    {
+      "expected": "context.reset_cloud",
+      "id": "context.reset_cloud:3",
+      "setup": "reset foliobox to factory settings",
+      "setup_expected": "factory.reset",
+      "text": "cloud copies erased?",
+      "track": "context"
+    },
+    {
+      "expected": "context.reset_cloud",
+      "id": "context.reset_cloud:4",
+      "setup": "reset foliobox to factory settings",
+      "setup_expected": "factory.reset",
+      "text": "does it delte alrady synced docs",
+      "track": "context"
+    },
+    {
+      "expected": null,
+      "id": "near-001",
+      "text": "How many documents fit in my phone storage?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-002",
+      "text": "How do I clear a paper jam in my office printer?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-003",
+      "text": "Can I share a public link from my cloud drive?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-004",
+      "text": "How long does my laptop battery last?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-005",
+      "text": "How do I factory reset my wireless router?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-006",
+      "text": "Is the PDF on this website searchable?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-007",
+      "text": "How do I clean the rollers on a label printer?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-008",
+      "text": "How can I scan both sides using my phone camera?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-009",
+      "text": "Does my password manager encrypt local files?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-010",
+      "text": "How much space is left on this USB stick?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-011",
+      "text": "How do I delete a document from Google Drive?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-012",
+      "text": "Can my browser do OCR without internet?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-013",
+      "text": "How do I connect my television to Wi-Fi?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-014",
+      "text": "Can I back up my laptop to USB?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "near-015",
+      "text": "How do I restart Windows without losing open files?",
+      "track": "near_domain"
+    },
+    {
+      "expected": null,
+      "id": "ood-001",
+      "text": "What will the weather be tomorrow?",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-002",
+      "text": "Who wrote The Hobbit?",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-003",
+      "text": "Convert 35 miles to kilometers.",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-004",
+      "text": "Give me a pasta recipe.",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-005",
+      "text": "What time is it in Tokyo?",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-006",
+      "text": "How do I train for a marathon?",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-007",
+      "text": "Tell me a joke about cats.",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-008",
+      "text": "What is the capital of Brazil?",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-009",
+      "text": "Explain photosynthesis.",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-010",
+      "text": "How much is 17 times 23?",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-011",
+      "text": "Recommend a movie for tonight.",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-012",
+      "text": "Why is the sky blue?",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-013",
+      "text": "Write a birthday message.",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-014",
+      "text": "What are the rules of chess?",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-015",
+      "text": "How do I grow basil indoors?",
+      "track": "ood"
+    }
+  ],
+  "status": "frozen-before-authoring",
+  "version": 2
+}

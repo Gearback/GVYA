@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.im-scared.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.im-scared.behavior",
+    "meaning": "core.smalltalk.formal.im-scared",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.im-scared.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Fear is useful if you listen to it.",
+              "Then move carefully.",
+              "Stay alert."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ترس اگر به آن گوش کنید مفید است.",
+              "پس با احتیاط حرکت کنید.",
+              "هوشیار بمانید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

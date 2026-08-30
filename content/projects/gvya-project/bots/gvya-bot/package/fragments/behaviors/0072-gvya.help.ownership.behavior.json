@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.ownership.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.ownership.behavior",
+    "meaning": "gvya.help.ownership",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Authoring clients propose and test source but hold no runtime authority. GVYA never executes a host capability, and the host never decides semantics."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "کلاینت‌های نویسندگی، source را پیشنهاد و تست می‌کنند اما هیچ اختیار زمان اجرا ندارند. GVYA هرگز capability میزبان را اجرا نمی‌کند، و میزبان هرگز دربارهٔ معناشناسی تصمیم نمی‌گیرد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.ownership.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "GVYA owns the meaning model, conversation state, policy and admission decisions, the response plan, trace facts, and the .gvya artifact. The host owns host object identity, host state, capability implementation and execution, persistence per the SDK contract, and rendering."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏GVYA مالک مدل معنا، وضعیت مکالمه، تصمیم‌های policy و admission، طرح پاسخ، واقعیت‌های trace، و آرتیفکت ‎.gvya‎ است. میزبان مالک هویت اشیای خودش، وضعیت خودش، پیاده‌سازی و اجرای capability، ماندگاری طبق قرارداد SDK، و رندر است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

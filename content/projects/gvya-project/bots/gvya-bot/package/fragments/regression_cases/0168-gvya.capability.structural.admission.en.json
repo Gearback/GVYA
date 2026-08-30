@@ -1,0 +1,22 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.admission.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Asking who decides a capability invocation is admission, not the generic capability or proposal Meaning",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.capabilities",
+        "gvya.help.invocation-proposal"
+      ],
+      "meaning": "gvya.help.admission"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.admission.en",
+    "initial_state": {},
+    "input": "who decides whether a capability invocation may execute?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

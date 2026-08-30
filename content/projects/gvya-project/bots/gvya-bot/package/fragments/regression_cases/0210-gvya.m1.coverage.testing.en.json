@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.testing.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Colloquial testing wording reaches testing and debugging help",
+    "expectation": {
+      "meaning": "gvya.help.testing-debugging"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.testing.en",
+    "initial_state": {},
+    "input": "tell me bout testing",
+    "language": "en-US",
+    "seed": 1
+  }
+}

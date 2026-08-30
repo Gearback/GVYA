@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-miss-you.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.i-miss-you.behavior",
+    "meaning": "core.smalltalk.formal.i-miss-you",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.i-miss-you.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That is a meaningful thing to say.",
+              "I am here now.",
+              "Then do not waste this moment."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "حرف معناداری است.",
+              "اکنون اینجا هستم.",
+              "پس این لحظه را هدر ندهید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

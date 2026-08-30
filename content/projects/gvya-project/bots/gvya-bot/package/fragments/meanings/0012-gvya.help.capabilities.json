@@ -1,0 +1,636 @@
+{
+  "exported": true,
+  "id": "gvya.help.capabilities",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.capabilities",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "علامت regex کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "علامت regex چه کاری انجام می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "how does gvya work"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i integrate gvya at runtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya را چطور به برنامه وصل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام قبل از رسیدن به میزبان از چه بخش هایی رد می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "capability shape policy surface"
+      },
+      {
+        "language": "en-US",
+        "text": "declared capability connected host"
+      },
+      {
+        "language": "en-US",
+        "text": "runtime proposal host executes capability"
+      },
+      {
+        "language": "en-US",
+        "text": "capability introspection schema"
+      },
+      {
+        "language": "en-US",
+        "text": "host finished capability call result returned"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host اتمام capability call نتیجه برگشت"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a capability binding work"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i specify the arguments of a declared action"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability binding چطور کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "what checks run before a proposal is allowed"
+      },
+      {
+        "language": "en-US",
+        "text": "how does my app discover the declared actions"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبل از اینکه پیشنهاد مجاز شود چه بررسی هایی اجرا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برنامه من چطور اکشن های اعلام شده را کشف می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the runtime hand the host to execute"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i return the result of an executed action"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه اجرای عمل را چطور برگردانم"
+      },
+      {
+        "language": "en-US",
+        "text": "send an email to my manager"
+      },
+      {
+        "language": "en-US",
+        "text": "book me a table for two"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به مدیرم ایمیل بزن"
+      },
+      {
+        "language": "en-US",
+        "text": "map the handoffs from authored json to an effect in my app"
+      },
+      {
+        "language": "en-US",
+        "text": "which components sit between authored source and a host effect"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین سورس نوشته شده و اثر روی میزبان چه بخش هایی هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از اینکه برنامه عمل را انجام داد نتیجه را چطور برگردانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی برنامه کار را انجام داد نتیجه اش را کجا بفرستم"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ CAPABILITY ^ VALIDATE ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ نتیجه CAPABILITY ^ VALIDATE ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ CAPABILITY ^ RUNTIME ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ CAPABILITIES ^ RUNTIME ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "HOW ^ CAPABILITY ^ WORKS ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "HOW ^ CAPABILITIES ^ WORK ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "WHAT ARE ^ CAPABILITIES ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 30,
+        "text": "قابلیت یعنی ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 30,
+        "text": "قابلیت چیست"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "capability contract"
+      },
+      {
+        "language": "en-US",
+        "text": "capability proposal"
+      },
+      {
+        "language": "en-US",
+        "text": "host effect"
+      },
+      {
+        "language": "en-US",
+        "text": "confirmation policy"
+      },
+      {
+        "language": "en-US",
+        "text": "action execute app argument approval email"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قرارداد capability"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability proposal"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اثر میزبان"
+      },
+      {
+        "language": "fa-IR",
+        "text": "policy تایید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اکشن اجرا برنامه آرگومان approval ایمیل"
+      },
+      {
+        "language": "en-US",
+        "text": "booking request leave brain network access"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست رزرو brain دسترسی شبکه بیرون"
+      },
+      {
+        "language": "fa-IR",
+        "text": "proposal اکشن تأیید اجرا"
+      },
+      {
+        "language": "en-US",
+        "text": "brain requests real world action host executes external effect proposal capability action boundary"
+      },
+      {
+        "language": "fa-IR",
+        "text": "brain درخواست کار واقعی host اجرا اثر خارجی proposal capability action مرز"
+      },
+      {
+        "language": "en-US",
+        "text": "act do things real world side effect tool device control host executes"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کار انجام دادن دنیای واقعی اثر جانبی ابزار دستگاه کنترل اجرا میزبان"
+      },
+      {
+        "language": "en-US",
+        "text": "capability lamp light door device switched sent booked on my behalf by itself"
+      },
+      {
+        "language": "fa-IR",
+        "text": "روشن لامپ چراغ در پیام فرستادن رزرو سفارش از طرف من خودش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تغییر عوض کردن برنامه من بیرون مکالمه اثر کار انجام دادن اجرا"
+      }
+    ],
+    "samples": [
+      {
+        "language": "fa-IR",
+        "text": "نتیجه capability پیش از ادامه دیالوگ توسط میزبان validate می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "host action arguments policy approval and confirmation checks"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بررسی آرگومان policy و تایید پیش از اکشن میزبان"
+      },
+      {
+        "language": "en-US",
+        "text": "a request leaves the offline brain as a typed host capability"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست بدون دسترسی شبکه از brain به صورت capability برای host بیرون می رود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان proposal اکشن را تایید می کند و خودش آن را اجرا می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "capability reaches runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "capability runtime path"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya capabilities"
+      },
+      {
+        "language": "en-US",
+        "text": "what are gvya capabilities"
+      },
+      {
+        "language": "en-US",
+        "text": "how can a bot call the host"
+      },
+      {
+        "language": "en-US",
+        "text": "how do capability confirmations work"
+      },
+      {
+        "language": "en-US",
+        "text": "can gvya execute an action"
+      },
+      {
+        "language": "en-US",
+        "text": "explain capability policy"
+      },
+      {
+        "language": "en-US",
+        "text": "where is capability execution authority enforced"
+      },
+      {
+        "language": "en-US",
+        "text": "can the bot ask my app to do something"
+      },
+      {
+        "language": "en-US",
+        "text": "runtime send email or app"
+      },
+      {
+        "language": "en-US",
+        "text": "who performs external action"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability در gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability های gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات چطور از میزبان درخواست کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تایید capability چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya خودش اکشن اجرا می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability policy را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه capability چطور مدیریت می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اختیار اجرای capability در کجا اعمال می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات می تونه از برنامه من بخواد کاری انجام بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime ایمیل می فرسته یا برنامه درخواست می گیره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست typed runtime برنامه اجرا"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it trigger a real action"
+      },
+      {
+        "language": "en-US",
+        "text": "can it reach my backend"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک اکشن واقعی را راه می اندازد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می تواند به backend من برسد"
+      },
+      {
+        "language": "en-US",
+        "text": "capability confirmation"
+      },
+      {
+        "language": "en-US",
+        "text": "capability confirmations"
+      },
+      {
+        "language": "en-US",
+        "text": "what is capability confirmation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability confirmation چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تایید capability"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تأیید capability"
+      },
+      {
+        "language": "en-US",
+        "text": "why does that host boundary matter"
+      },
+      {
+        "language": "en-US",
+        "text": "why is capability execution left to the host"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا این مرز host مهم است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا اجرای capability دست host است"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a capability"
+      },
+      {
+        "language": "en-US",
+        "text": "how do capabilities work"
+      },
+      {
+        "language": "en-US",
+        "text": "who executes capabilities"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability ها چطور کار می کنند"
+      },
+      {
+        "language": "en-US",
+        "text": "can the bot delete a file on my server"
+      },
+      {
+        "language": "en-US",
+        "text": "can it change something in my app"
+      },
+      {
+        "language": "en-US",
+        "text": "can you actually call an api for me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability یعنی چه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات می تواند فایلی را روی سرور من پاک کند"
+      },
+      {
+        "language": "en-US",
+        "text": "where does capability execution stop"
+      },
+      {
+        "language": "en-US",
+        "text": "why does that boundary matter"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اجرای capability کجا متوقف می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا آن مرز مهم است"
+      },
+      {
+        "language": "en-US",
+        "text": "capability"
+      },
+      {
+        "language": "en-US",
+        "text": "capabilities"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a capability work"
+      },
+      {
+        "language": "en-US",
+        "text": "can the bot act on the outside world"
+      },
+      {
+        "language": "en-US",
+        "text": "what makes a bot able to change something outside the conversation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک capability چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات می تواند روی دنیای بیرون اثر بگذارد"
+      },
+      {
+        "language": "en-US",
+        "text": "does it only talk or can it actually do things"
+      },
+      {
+        "language": "en-US",
+        "text": "can it control a device for me"
+      },
+      {
+        "language": "en-US",
+        "text": "so the brain itself never touches my system"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a conversation turn into a real side effect"
+      },
+      {
+        "language": "en-US",
+        "text": "does this bot have tools it can use"
+      },
+      {
+        "language": "en-US",
+        "text": "what can this brain ask my application to do"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فقط حرف می زند یا واقعا کاری هم انجام می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می تواند یک دستگاه را برایم کنترل کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پس خود brain هیچ وقت مستقیم به سیستم من دست نمی زند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک مکالمه چطور به یک اثر واقعی تبدیل می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این بات ابزاری دارد که بتواند استفاده کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این brain چه چیزی می تواند از برنامه من بخواهد"
+      },
+      {
+        "language": "en-US",
+        "text": "can it switch on a lamp for me"
+      },
+      {
+        "language": "en-US",
+        "text": "can it send a message on my behalf"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می تواند یک لامپ را برایم روشن کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می تواند از طرف من پیام بفرستد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات خودش می تواند کاری در دنیای بیرون انجام دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می تواند چیزی را در برنامه من عوض کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می تواند کاری بیرون از مکالمه انجام دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قابلیت یعنی چه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قابلیت در gvya چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "can it call apis"
+      },
+      {
+        "language": "en-US",
+        "text": "can gvya call an api"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می تواند api صدا بزند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya می تواند api را صدا بزند"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a capability reach my app"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a capability get to my app"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability چطور به برنامه من می رسد"
+      }
+    ]
+  }
+}

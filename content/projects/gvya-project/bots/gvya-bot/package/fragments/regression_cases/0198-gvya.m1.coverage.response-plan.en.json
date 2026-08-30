@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.response-plan.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Natural response-planning wording reaches the response plan concept",
+    "expectation": {
+      "meaning": "gvya.help.response-plan"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.response-plan.en",
+    "initial_state": {},
+    "input": "How do responses fit in?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

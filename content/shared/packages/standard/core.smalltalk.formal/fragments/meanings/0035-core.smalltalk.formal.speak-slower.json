@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.speak-slower",
+  "mode": "add",
+  "value": {
+    "class": "clarification",
+    "id": "core.smalltalk.formal.speak-slower",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "speak slower"
+      },
+      {
+        "language": "en-US",
+        "text": "slow down"
+      },
+      {
+        "language": "en-US",
+        "text": "too fast"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آروم‌تر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کندتر بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خیلی سریع بود"
+      }
+    ]
+  }
+}

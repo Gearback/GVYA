@@ -1,0 +1,230 @@
+{
+  "exported": true,
+  "id": "gvya.help.package-visibility",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.package-visibility",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i install a package with npm"
+      },
+      {
+        "language": "en-US",
+        "text": "download and install an npm dependency"
+      },
+      {
+        "language": "en-US",
+        "text": "what package kinds exist"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a contribution mode"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه نوع پکیج هایی وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالت مشارکت چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "where is a bot private package json located"
+      },
+      {
+        "language": "en-US",
+        "text": "which file holds the bot package on disk"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل package بات روی دیسک کجاست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "visibility reexport transitive direct encapsulation boundary reach through"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دیده شدن بازصدور غیرمستقیم مستقیم کپسوله مرز عبور"
+      },
+      {
+        "language": "en-US",
+        "text": "package visibility shared content"
+      },
+      {
+        "language": "en-US",
+        "text": "visible reachable public private hidden internal encapsulation consumer transitive"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی ببیند دسترسی عمومی خصوصی پنهان داخلی کپسوله مرز مصرف کننده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قابل دیدن پنهان عمومی خصوصی دسترسی مصرف کننده وابستگی غیرمستقیم"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is package visibility"
+      },
+      {
+        "language": "en-US",
+        "text": "can i replace something from a transitive dependency"
+      },
+      {
+        "language": "en-US",
+        "text": "what is reexport"
+      },
+      {
+        "language": "en-US",
+        "text": "does a package see its indirect dependencies"
+      },
+      {
+        "language": "en-US",
+        "text": "why is there an encapsulation boundary"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i expose a dependency to consumers"
+      },
+      {
+        "language": "en-US",
+        "text": "can i reach through a package i did not depend on"
+      },
+      {
+        "language": "en-US",
+        "text": "explain visibility"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دیده شدن پکیج چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم چیزی از وابستگی غیرمستقیم را جایگزین کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "reexport چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پکیج وابستگی های غیرمستقیمش را می بیند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا مرز کپسوله سازی وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک وابستگی را به مصرف کننده نشان دهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم از پکیجی که به آن وابسته نیستم عبور کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دیده شدن را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "can i see a transitive dependency"
+      },
+      {
+        "language": "fa-IR",
+        "text": "visibility در package چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "package visibility shared content"
+      },
+      {
+        "language": "en-US",
+        "text": "who is allowed to see the contents of a package"
+      },
+      {
+        "language": "en-US",
+        "text": "can a package reach content it never depended on"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i hide the internals of a package from consumers"
+      },
+      {
+        "language": "en-US",
+        "text": "is an indirect dependency reachable"
+      },
+      {
+        "language": "en-US",
+        "text": "what part of a package is public to whoever depends on it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی اجازه دارد محتوای یک پکیج را ببیند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پکیج می تواند به محتوایی برسد که هرگز به آن وابسته نبوده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بخش های داخلی یک پکیج را از مصرف کننده پنهان کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وابستگی غیرمستقیم قابل دسترسی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام بخش یک پکیج برای وابسته هایش عمومی است"
+      },
+      {
+        "language": "en-US",
+        "text": "can a consumer see everything inside a package"
+      },
+      {
+        "language": "en-US",
+        "text": "what stays private to a package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک مصرف کننده همه چیز داخل پکیج را می بیند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی داخل یک پکیج خصوصی می ماند"
+      },
+      {
+        "language": "en-US",
+        "text": "who can see a package"
+      },
+      {
+        "language": "en-US",
+        "text": "who can see what inside a package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی یک پکیج را می بیند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه بخشی از پکیج برای دیگران قابل دیدن است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل یک پکیج چه چیزی پنهان می ماند"
+      }
+    ]
+  }
+}

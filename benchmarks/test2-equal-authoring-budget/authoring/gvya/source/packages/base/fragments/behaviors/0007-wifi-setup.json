@@ -1,0 +1,20 @@
+{
+  "id": "wifi.setup.behavior",
+  "value": {
+    "id": "wifi.setup.behavior",
+    "meaning": "wifi.setup",
+    "responses": [
+      {
+        "id": "wifi.setup.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:WIFI_SETUP"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

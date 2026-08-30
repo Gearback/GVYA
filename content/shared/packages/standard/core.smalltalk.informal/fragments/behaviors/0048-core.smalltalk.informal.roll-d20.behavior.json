@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.roll-d20.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.roll-d20.behavior",
+    "meaning": "core.smalltalk.informal.roll-d20",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.roll-d20.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "You rolled {{ rnd(1, 20) }}.",
+              "The d20 says {{ rnd(1, 20) }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "تاس بیست شد {{ rnd(1, 20) }}.",
+              "عدد d20 برابر {{ rnd(1, 20) }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

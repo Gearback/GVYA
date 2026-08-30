@@ -1,0 +1,30 @@
+{
+  "id": "scan.receipt",
+  "value": {
+    "id": "scan.receipt",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "receipt scan"
+      },
+      {
+        "language": "en",
+        "text": "receipt mode"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i scan a receipt"
+      },
+      {
+        "language": "en",
+        "text": "scan narrow receipt paper"
+      },
+      {
+        "language": "en",
+        "text": "use receipt scanning mode"
+      }
+    ]
+  }
+}

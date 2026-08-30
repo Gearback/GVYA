@@ -1,0 +1,22 @@
+{
+  "id": "context.restart_preserves",
+  "value": {
+    "id": "context.restart_preserves",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "saved scans"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "will my saved scans still be there"
+      },
+      {
+        "language": "en",
+        "text": "does that restart keep stored scans"
+      }
+    ]
+  }
+}

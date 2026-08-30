@@ -1,0 +1,20 @@
+{
+  "id": "lamp.turn-on.behavior",
+  "value": {
+    "id": "lamp.turn-on.behavior",
+    "meaning": "lamp.turn-on",
+    "responses": [
+      {
+        "id": "lamp.turn-on.behavior.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "I can turn it on."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

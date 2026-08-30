@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.capabilities.heldout.fa.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Typed host capabilities, policies, confirmation, and results held-out fa-IR coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.capabilities",
+      "response_ids": [
+        "gvya.help.capabilities.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.capabilities.heldout.fa.2",
+    "initial_state": {},
+    "input": "قبل از اکشن میزبان آرگومان و تأیید چطور بررسی میشه؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "exported": true,
+  "id": "gvya.help.build-artifact.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.build-artifact.behavior",
+    "meaning": "gvya.help.build-artifact",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Engine WASM belongs to an Engine version and is rebuilt only when its Rust executable contract changes. Studio reuses the bundled Engine for normal simulation and build flows."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "Engine WASM متعلق به نسخهٔ Engine است و فقط با تغییر قرارداد اجرایی Rust rebuild می‌شود. Studio برای simulation و build عادی همان Engine همراه را reuse می‌کند."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Want to see how a host loads that artifact? Say go ahead."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "می‌خواهی ببینی میزبان چطور آن آرتیفکت را بارگذاری می‌کند؟"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.build-artifact.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.offer",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The canonical Rust compiler turns one resolved Bot source target into a portable .gvya artifact. Content changes require recompiling that artifact, not rebuilding Engine WASM.",
+              "Building means the canonical Rust compiler resolves one Bot source target into a single portable .gvya file. Change the content and you recompile that file — the Engine WASM stays where it is."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "کامپایلر مرجع Rust یک source کامل Bot را به آرتیفکت قابل‌حمل .gvya تبدیل می‌کند. تغییر content فقط compile دوبارهٔ آرتیفکت می‌خواهد، نه build دوبارهٔ Engine WASM.",
+              "build یعنی کامپایلر مرجع Rust یک source هدف Bot را به یک فایل قابل‌حمل .gvya تبدیل می‌کند. content که عوض شد، همان فایل دوباره compile می‌شود — Engine WASM دست‌نخورده می‌ماند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

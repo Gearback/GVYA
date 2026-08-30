@@ -1,0 +1,83 @@
+{
+  "exported": true,
+  "id": "gvya.m2.scenario.capability-thread.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian capability follow-ups preserve the host boundary and result flow",
+    "generated": false,
+    "id": "gvya.m2.scenario.capability-thread.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "meaning": "gvya.help.capabilities",
+          "response_ids": [
+            "gvya.help.capabilities.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "capability چجوری میرسه به runtime؟",
+        "seed": 211,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.next-step",
+          "response_ids": [
+            "gvya.dialog.capability-next.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "خب مرحله بعد از proposal چیه؟",
+        "seed": 212,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.host-reject",
+          "response_ids": [
+            "gvya.dialog.capability-host-reject.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "اگر برنامه proposal رو رد کنه چه اتفاقی میفته؟",
+        "seed": 213,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.capability-direct-execution",
+          "response_ids": [
+            "gvya.dialog.capability-direct-execution.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "پس GVYA خودش request شبکه رو اجرا نمی‌کنه؟",
+        "seed": 214,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.summary",
+          "response_ids": [
+            "gvya.dialog.capability-summary.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "در یک جمله جمعش کن.",
+        "seed": 215,
+        "type": "turn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "exported": true,
+  "id": "gvya.help.about",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.about",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "utterance intended meaning interpretation"
+      },
+      {
+        "language": "en-US",
+        "text": "how does gvya work"
+      },
+      {
+        "language": "en-US",
+        "text": "what can i build with gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "با gvya چه می توانم بسازم"
+      },
+      {
+        "language": "en-US",
+        "text": "what is inside the .gvya artifact"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل فایل .gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل خروجی gvya شامل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل خروجی gvya کجا ساخته می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya brain engine"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya state"
+      },
+      {
+        "language": "en-US",
+        "text": "ownership boundary gvya host responsibility"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرز مسئولیت gvya و host"
+      },
+      {
+        "language": "en-US",
+        "text": "give me a weird useful gvya fact"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک نکته عجیب و مفید درباره gvya بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "i am completely new where should i start"
+      },
+      {
+        "language": "fa-IR",
+        "text": "من تازه واردم از کجا شروع کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "surprise me with something about gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک چیز جالب درباره gvya بگو"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "^ GVYA ^ PRACTICAL ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "gvya platform"
+      },
+      {
+        "language": "en-US",
+        "text": "portable conversational brain"
+      },
+      {
+        "language": "en-US",
+        "text": "overview introduction explanation purpose simple version"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پلتفرم gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "brain مکالمه ای قابل حمل"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معرفی توضیح ساده هدف کاربرد کلی"
+      },
+      {
+        "language": "en-US",
+        "text": "toolkit product purpose existence identity"
+      },
+      {
+        "language": "en-US",
+        "text": "people call gvya looking explain"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چیز محصول هویت گویا میگن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اصل کار انجام وظیفه"
+      },
+      {
+        "language": "en-US",
+        "text": "elevator pitch nutshell summary"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "give me a practical product overview before i commit time"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "explain gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya overview"
+      },
+      {
+        "language": "en-US",
+        "text": "what kind of system is gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "i am new what does gvya do"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya in plain english"
+      },
+      {
+        "language": "en-US",
+        "text": "tell me about gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "is gvya the brain part of a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "toolkit exists to do"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya practical terms"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گویا چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya رو توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معرفی gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "من تازه کارم gvya چه کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساده بگو گویا چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درباره gvya بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya دقیقاً چه مرز محصولی را تعریف می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گویا همون بخش مغز باته"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya دقیقا چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گویا اصلا چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چه جور چیزیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقش کلی gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گویا چه نقشی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گویا چه نقشی"
+      },
+      {
+        "language": "en-US",
+        "text": "what exactly is this thing"
+      },
+      {
+        "language": "en-US",
+        "text": "give me the elevator pitch for it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این دقیقا چه چیزی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خلاصه اش را برایم بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "concepts"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya concepts"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مفاهیم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مفاهیم gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what does this tool do"
+      },
+      {
+        "language": "en-US",
+        "text": "explain it to me like i have never heard of it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این ابزار چه کاری می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دقیقا چه کاری انجام می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "what is this exactly"
+      },
+      {
+        "language": "en-US",
+        "text": "what am i looking at"
+      },
+      {
+        "language": "en-US",
+        "text": "give me gvya in one sentence"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این دقیقا چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya را در یک جمله بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "what is this thing exactly"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این چه چیزی است"
+      },
+      {
+        "language": "en-US",
+        "text": "could you tell me what gvya actually is"
+      },
+      {
+        "language": "en-US",
+        "text": "so what is gvya in practice"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می شود بگویی gvya واقعا چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "i know nothing about gvya explain it from the beginning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "من هیچ چیزی درباره gvya نمی دانم از اول توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "من تازه واردم gvya یعنی چی"
+      },
+      {
+        "language": "en-US",
+        "text": "is gvya basically a chatbot"
+      },
+      {
+        "language": "en-US",
+        "text": "hey there what is this"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جی وایا رو خیلی ساده توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya رو ساده بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "wht is gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya in practical terms"
+      }
+    ]
+  }
+}

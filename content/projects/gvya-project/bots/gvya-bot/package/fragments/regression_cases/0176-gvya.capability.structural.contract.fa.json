@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.contract.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The Persian capability contract phrase reaches the capability contract Meaning",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.capabilities"
+      ],
+      "meaning": "gvya.help.capability-contract"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.contract.fa",
+    "initial_state": {},
+    "input": "قرارداد capability چیست",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

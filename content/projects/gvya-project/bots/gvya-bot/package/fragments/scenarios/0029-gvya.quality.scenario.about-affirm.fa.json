@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.about-affirm.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian agreement after the About answer resolves inside the gvya.about follow-up",
+    "generated": false,
+    "id": "gvya.quality.scenario.about-affirm.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.about"
+        },
+        "language": "fa-IR",
+        "say": "gvya چیست",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "core.smalltalk.formal.yes",
+          "response_ids": [
+            "gvya.dialog.affirm-about.pipeline"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "بله",
+        "seed": 2,
+        "type": "turn"
+      }
+    ]
+  }
+}

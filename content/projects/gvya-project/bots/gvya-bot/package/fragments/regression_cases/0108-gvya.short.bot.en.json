@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.short.bot.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Short Bot question routes directly",
+    "expectation": {
+      "meaning": "gvya.help.projects-bots",
+      "response_ids": [
+        "gvya.help.projects-bots.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.short.bot.en",
+    "initial_state": {},
+    "input": "what is a bot",
+    "language": "en-US",
+    "seed": 1
+  }
+}

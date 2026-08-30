@@ -1,0 +1,122 @@
+{
+  "exported": true,
+  "id": "gvya.help.auditor",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.auditor",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i test my bot"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the why report"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بات خودم را تست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گزارش why چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "auditor auditissue severity code remediation sorted deterministic rule"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ممیز مسئله شدت کد اصلاح مرتب قطعی قاعده"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is the auditor"
+      },
+      {
+        "language": "en-US",
+        "text": "what is in an audit issue"
+      },
+      {
+        "language": "en-US",
+        "text": "how are audit reports sorted"
+      },
+      {
+        "language": "en-US",
+        "text": "do audit errors fail the build"
+      },
+      {
+        "language": "en-US",
+        "text": "what severities exist"
+      },
+      {
+        "language": "en-US",
+        "text": "can i add my own audit rule"
+      },
+      {
+        "language": "en-US",
+        "text": "is the audit for humans or ci"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the auditor"
+      },
+      {
+        "language": "fa-IR",
+        "text": "auditor چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل یک audit issue چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گزارش های audit چطور مرتب می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خطاهای audit باعث شکست build می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه سطوح شدتی وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم قاعده audit خودم را اضافه کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "audit برای انسان است یا ci"
+      },
+      {
+        "language": "fa-IR",
+        "text": "auditor را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the auditor check"
+      },
+      {
+        "language": "en-US",
+        "text": "can i audit what it knows"
+      },
+      {
+        "language": "fa-IR",
+        "text": "auditor چه چیزی را بررسی می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "auditor"
+      }
+    ]
+  }
+}

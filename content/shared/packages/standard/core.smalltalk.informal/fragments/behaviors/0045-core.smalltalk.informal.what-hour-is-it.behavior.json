@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-hour-is-it.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.what-hour-is-it.behavior",
+    "meaning": "core.smalltalk.informal.what-hour-is-it",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.what-hour-is-it.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Hour {{ system.hour | unavailable }}, minute {{ system.minute | unavailable }}.",
+              "It’s {{ system.hour | unavailable }}:{{ system.minute | unavailable }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ساعت {{ system.hour | نامشخص }} و دقیقه {{ system.minute | نامشخص }} است.",
+              "{{ system.hour | نامشخص }}:{{ system.minute | نامشخص }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.okay-then",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.okay-then",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "okay then"
+      },
+      {
+        "language": "en-US",
+        "text": "well"
+      },
+      {
+        "language": "en-US",
+        "text": "so"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خب"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پس"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالا"
+      }
+    ]
+  }
+}

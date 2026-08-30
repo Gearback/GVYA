@@ -1,0 +1,20 @@
+{
+  "exported": true,
+  "id": "gvya.m2.boundary.api-global.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A generic API question outside the capability follow-up is not forced into the scoped execution explanation",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.dialog.capability-direct-execution"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.m2.boundary.api-global.fa",
+    "initial_state": {},
+    "input": "یعنی خودش API رو صدا نمی‌زنه؟",
+    "language": "fa-IR",
+    "seed": 223
+  }
+}

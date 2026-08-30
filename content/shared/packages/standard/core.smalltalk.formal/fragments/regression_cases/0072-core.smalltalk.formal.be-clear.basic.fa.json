@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.be-clear.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.be-clear",
+      "response_ids": [
+        "core.smalltalk.formal.be-clear.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.be-clear.basic.fa",
+    "initial_state": {},
+    "input": "واضح بگو",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

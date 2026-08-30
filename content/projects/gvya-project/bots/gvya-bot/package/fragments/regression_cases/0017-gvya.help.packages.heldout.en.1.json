@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.packages.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Standard, Shared, Project, and Bot Package composition held-out en-US coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.packages",
+      "response_ids": [
+        "gvya.help.packages.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.packages.heldout.en.1",
+    "initial_state": {},
+    "input": "Where should reusable behavior be authored?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

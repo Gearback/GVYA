@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.fuck-you",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.fuck-you",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "fuck you"
+      },
+      {
+        "language": "en-US",
+        "text": "f you"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برو به جهنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لعنتی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کثافت"
+      }
+    ]
+  }
+}

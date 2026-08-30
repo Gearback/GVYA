@@ -1,0 +1,114 @@
+{
+  "exported": true,
+  "id": "gvya.help.audit-coverage",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.audit-coverage",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is the auditor"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i fix a bad match"
+      },
+      {
+        "language": "fa-IR",
+        "text": "auditor چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک match بد را درست کنم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "auditcoverage checks overlap duplicate multilingual integrity truncated bounded"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پوشش ممیزی بررسی هم پوشانی تکراری چندزبانه یکپارچگی کوتاه"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what does the audit check"
+      },
+      {
+        "language": "en-US",
+        "text": "does it detect duplicate response text"
+      },
+      {
+        "language": "en-US",
+        "text": "does it check multilingual coverage"
+      },
+      {
+        "language": "en-US",
+        "text": "does it find overlapping samples"
+      },
+      {
+        "language": "en-US",
+        "text": "does it check follow up integrity"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens when overlap analysis is truncated"
+      },
+      {
+        "language": "en-US",
+        "text": "does it audit assets and types"
+      },
+      {
+        "language": "en-US",
+        "text": "explain audit coverage"
+      },
+      {
+        "language": "fa-IR",
+        "text": "audit چه چیزی را بررسی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متن پاسخ تکراری را پیدا می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پوشش چندزبانه را بررسی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمونه های هم پوشان را پیدا می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یکپارچگی follow up را بررسی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی تحلیل هم پوشانی کوتاه شود چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "asset و type را ممیزی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پوشش audit را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is audit coverage"
+      },
+      {
+        "language": "fa-IR",
+        "text": "audit coverage چیست"
+      }
+    ]
+  }
+}

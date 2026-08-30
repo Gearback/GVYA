@@ -1,0 +1,20 @@
+{
+  "id": "shipping.cost.behavior",
+  "value": {
+    "id": "shipping.cost.behavior",
+    "meaning": "shipping.cost",
+    "responses": [
+      {
+        "id": "shipping.cost.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SHIPPING_COST"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.go-away.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.go-away.behavior",
+    "meaning": "core.smalltalk.informal.go-away",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.go-away.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Fine.",
+              "If that’s what you want.",
+              "I’ll give you space."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه.",
+              "اگه اینو می‌خوای.",
+              "بهت فضا می‌دم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

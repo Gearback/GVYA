@@ -1,0 +1,39 @@
+{
+  "exported": true,
+  "id": "iot.device.set",
+  "mode": "add",
+  "value": {
+    "contract": {
+      "confirmation_hint": "conditional",
+      "description": "Set one named property on one host-resolved IoT device using an explicit text value. The host owns property vocabulary, parsing, units, bounds, authorization, and execution.",
+      "effect_class": "reversible",
+      "id": "iot.device.set",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "device": { "maxLength": 160, "minLength": 1, "type": "string" },
+          "property": { "maxLength": 80, "minLength": 1, "type": "string" },
+          "value": { "maxLength": 120, "minLength": 1, "type": "string" }
+        },
+        "required": ["device", "property", "value"],
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "detail": { "maxLength": 500, "minLength": 1, "type": "string" },
+          "device": { "maxLength": 160, "minLength": 1, "type": "string" },
+          "state": { "maxLength": 160, "minLength": 1, "type": "string" }
+        },
+        "required": ["device", "state"],
+        "type": "object"
+      },
+      "reference_kinds": ["iot.device"],
+      "title": "Set IoT device property",
+      "version": "1"
+    },
+    "host_effects": [
+      { "kind": "update", "resource": "iot.device.property", "summary": "Change one device property" }
+    ]
+  }
+}

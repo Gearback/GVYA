@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.getting-started.heldout.fa.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The shortest correct path to a first working Bot held-out fa-IR coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.getting-started",
+      "response_ids": [
+        "gvya.help.getting-started.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.getting-started.heldout.fa.2",
+    "initial_state": {},
+    "input": "کوتاه‌ترین راه ساخت یک بات سخنگو برای مبتدی رو بگو.",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

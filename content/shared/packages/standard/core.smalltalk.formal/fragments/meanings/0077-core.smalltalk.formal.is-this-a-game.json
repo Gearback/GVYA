@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.is-this-a-game",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.is-this-a-game",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "is this a game"
+      },
+      {
+        "language": "en-US",
+        "text": "are we in a game"
+      },
+      {
+        "language": "en-US",
+        "text": "is this fake"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این بازیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ما تو بازی هستیم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این الکیه"
+      }
+    ]
+  }
+}

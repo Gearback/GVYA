@@ -1,0 +1,130 @@
+{
+  "exported": true,
+  "id": "gvya.help.fragment-index",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.fragment-index",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "فایل pdf دستکاری"
+      },
+      {
+        "language": "en-US",
+        "text": "linux package source files"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل source پکیج لینوکس"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a package"
+      },
+      {
+        "language": "en-US",
+        "text": "split a text string into fragments"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متن را به چند بخش تقسیم کن"
+      },
+      {
+        "language": "en-US",
+        "text": "linux package source file location"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محل فایل سورس پکیج لینوکس"
+      },
+      {
+        "language": "en-US",
+        "text": "Where are source files stored in a Linux package?"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "package fragment index manifest declaration"
+      },
+      {
+        "language": "en-US",
+        "text": "source fragment undeclared fail closed"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فهرست fragment در manifest پکیج"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fragment اعلام نشده خطای source"
+      },
+      {
+        "language": "en-US",
+        "text": "split package source small fragment files explicit index"
+      },
+      {
+        "language": "en-US",
+        "text": "monolithic json package source fragment declaration"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تقسیم source پکیج فایل fragment کوچک index صریح"
+      },
+      {
+        "language": "en-US",
+        "text": "new fragment declaration explicit index undeclared rejected not ignored"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fragment جدید اعلام index صریح undeclared رد خطا نادیده گرفته نمی شود"
+      },
+      {
+        "language": "en-US",
+        "text": "fragment index"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "package source fragments"
+      },
+      {
+        "language": "en-US",
+        "text": "fragment file declared"
+      },
+      {
+        "language": "en-US",
+        "text": "package index lists every fragment"
+      },
+      {
+        "language": "en-US",
+        "text": "why are fragments separate files"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا source پکیج چند fragment دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل fragment باید اعلام شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "index پکیج همه fragment ها را فهرست می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "fragment index"
+      }
+    ]
+  }
+}

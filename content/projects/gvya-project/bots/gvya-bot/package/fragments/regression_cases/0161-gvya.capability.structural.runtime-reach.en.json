@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.runtime-reach.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The capability/runtime structural route reaches the general capability Meaning",
+    "expectation": {
+      "meaning": "gvya.help.capabilities"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.runtime-reach.en",
+    "initial_state": {},
+    "input": "how does a capability reach the runtime?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

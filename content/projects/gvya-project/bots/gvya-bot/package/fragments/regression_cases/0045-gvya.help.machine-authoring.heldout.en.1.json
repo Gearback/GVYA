@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.machine-authoring.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Direct AI and external-agent authoring through source and CLI held-out en-US coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.machine-authoring",
+      "response_ids": [
+        "gvya.help.machine-authoring.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.machine-authoring.heldout.en.1",
+    "initial_state": {},
+    "input": "What files and commands should a coding agent use to author a brain?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

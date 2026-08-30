@@ -1,0 +1,21 @@
+[package]
+name = "gvya-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish = false
+
+[[bin]]
+name = "gvya"
+path = "src/main.rs"
+
+[dependencies]
+gvya-compiler = { path = "../gvya-compiler" }
+gvya-runtime = { path = "../gvya-runtime" }
+gvya-kernel = { path = "../gvya-kernel" }
+gvya-model = { path = "../gvya-model" }
+serde_json = "1"
+
+[lints]
+workspace = true

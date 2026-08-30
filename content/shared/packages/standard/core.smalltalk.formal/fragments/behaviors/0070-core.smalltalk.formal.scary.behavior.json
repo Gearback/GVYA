@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.scary.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.scary.behavior",
+    "meaning": "core.smalltalk.formal.scary",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.scary.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Fear can be reasonable.",
+              "Then move carefully.",
+              "Do not ignore that feeling."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ترس می‌تواند منطقی باشد.",
+              "پس با احتیاط حرکت کنید.",
+              "آن حس را نادیده نگیرید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

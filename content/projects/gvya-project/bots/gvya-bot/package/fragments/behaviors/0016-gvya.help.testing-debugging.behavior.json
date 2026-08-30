@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.testing-debugging.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.testing-debugging.behavior",
+    "meaning": "gvya.help.testing-debugging",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "For a wrong match, inspect its score and Why trace, compare neighboring meanings, then fix the smallest owning layer: boundary, sample, negative, profile, or matcher."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "برای match اشتباه score و Why trace را ببین، meaningهای همسایه را مقایسه کن و کوچک‌ترین لایهٔ مالک—مرز، sample، negative، profile یا matcher—را اصلاح کن."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.testing-debugging.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Use held-out Regression Cases for one-turn meaning/response contracts and Conversation Scenarios for stateful turns. The canonical check path audits, compiles, runs, and reports failures."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "برای قرارداد یک-turn از Regression Caseهای holdout و برای مکالمهٔ stateful از Conversation Scenario استفاده کن. مسیر check مرجع audit، compile، run و failureها را گزارش می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

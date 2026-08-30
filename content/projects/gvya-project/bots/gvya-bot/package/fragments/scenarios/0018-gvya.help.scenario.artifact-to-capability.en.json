@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.artifact-to-capability.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Artifact guidance keeps its promised follow-up and reaches the capability boundary",
+    "generated": false,
+    "id": "gvya.help.scenario.artifact-to-capability.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.offer",
+          "meaning": "gvya.help.build-artifact",
+          "response_ids": [
+            "gvya.help.build-artifact.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "I edited a response—must I rebuild the Rust WASM engine?",
+        "seed": 107,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "followup",
+          "meaning": "core.smalltalk.formal.yes",
+          "response_ids": [
+            "gvya.dialog.affirm.integration"
+          ]
+        },
+        "language": "en-US",
+        "say": "Yes, show me.",
+        "seed": 108,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.capabilities",
+          "response_ids": [
+            "gvya.help.capabilities.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Can the runtime directly send an email or does the app do it?",
+        "seed": 109,
+        "type": "turn"
+      }
+    ]
+  }
+}

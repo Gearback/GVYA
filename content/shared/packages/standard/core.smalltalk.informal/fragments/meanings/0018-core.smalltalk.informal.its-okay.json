@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.its-okay",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.its-okay",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "it's okay"
+      },
+      {
+        "language": "en-US",
+        "text": "no worries"
+      },
+      {
+        "language": "en-US",
+        "text": "don't worry"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اشکالی نداره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نگران نباش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عیبی نداره"
+      }
+    ]
+  }
+}

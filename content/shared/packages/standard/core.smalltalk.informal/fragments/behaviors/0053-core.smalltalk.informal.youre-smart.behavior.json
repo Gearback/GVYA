@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.youre-smart.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.youre-smart.behavior",
+    "meaning": "core.smalltalk.informal.youre-smart",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.youre-smart.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Maybe.",
+              "I try to notice things.",
+              "Smart enough to listen."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید.",
+              "سعی می‌کنم حواسم جمع باشه.",
+              "آن‌قدر می‌فهمم که گوش کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

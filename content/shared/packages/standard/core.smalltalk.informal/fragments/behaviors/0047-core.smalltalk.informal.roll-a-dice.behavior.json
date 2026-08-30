@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.roll-a-dice.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.roll-a-dice.behavior",
+    "meaning": "core.smalltalk.informal.roll-a-dice",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.roll-a-dice.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "You rolled {{ rnd(1, 6) }}.",
+              "The die says {{ rnd(1, 6) }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "تاس شد {{ rnd(1, 6) }}.",
+              "عدد تاس {{ rnd(1, 6) }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

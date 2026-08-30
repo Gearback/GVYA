@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-lost.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.im-lost.behavior",
+    "meaning": "core.smalltalk.informal.im-lost",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.im-lost.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Then slow down.",
+              "Start with what you know.",
+              "One step at a time."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پس آروم‌تر.",
+              "از چیزی که می‌دونی شروع کن.",
+              "قدم به قدم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

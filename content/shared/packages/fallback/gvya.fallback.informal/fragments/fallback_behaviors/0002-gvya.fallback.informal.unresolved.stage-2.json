@@ -1,0 +1,40 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.informal.unresolved.stage-2",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "equal",
+        "path": "repairCount",
+        "value": 1
+      }
+    ],
+    "id": "gvya.fallback.informal.unresolved.stage-2",
+    "priority": 0,
+    "responses": [
+      {
+        "id": "gvya.fallback.informal.unresolved.rephrase",
+        "kind": "fallback",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Can you say that another way?",
+              "Try saying it differently."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "می‌شه یه جور دیگه بگی؟",
+              "یه شکل دیگه بگو."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "unresolved"
+  }
+}

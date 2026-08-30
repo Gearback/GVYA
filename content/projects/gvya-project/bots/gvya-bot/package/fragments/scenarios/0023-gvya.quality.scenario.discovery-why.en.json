@@ -1,0 +1,56 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.discovery-why.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Discovery supports a natural why follow-up, another fact, and a second why without losing scope",
+    "generated": false,
+    "id": "gvya.quality.scenario.discovery-why.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.surprise-me"
+        },
+        "language": "en-US",
+        "say": "Give me a random GVYA fact.",
+        "seed": 211,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.discovery",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.discovery-why"
+        },
+        "language": "en-US",
+        "say": "Why is that useful?",
+        "seed": 212,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.discovery",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.discovery-again"
+        },
+        "language": "en-US",
+        "say": "Another one.",
+        "seed": 213,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.discovery",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.discovery-why"
+        },
+        "language": "en-US",
+        "say": "What problem does that prevent?",
+        "seed": 214,
+        "type": "turn"
+      }
+    ]
+  }
+}

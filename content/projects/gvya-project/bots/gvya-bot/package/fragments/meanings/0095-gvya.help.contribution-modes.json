@@ -1,0 +1,122 @@
+{
+  "exported": true,
+  "id": "gvya.help.contribution-modes",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.contribution-modes",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is package visibility"
+      },
+      {
+        "language": "en-US",
+        "text": "what contribution namespaces exist"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دیده شدن پکیج چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه فضاهای نام مشارکتی وجود دارد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "contribution add replace wholeitem duplicate exported owner target valid"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مشارکت افزودن جایگزینی کامل تکراری صادر شده مالک هدف"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "can i extend a package item without replacing all of it"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a contribution mode"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the difference between add and replace"
+      },
+      {
+        "language": "en-US",
+        "text": "when is replace valid"
+      },
+      {
+        "language": "en-US",
+        "text": "can i partially merge a replacement"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens on a duplicate add"
+      },
+      {
+        "language": "en-US",
+        "text": "must a replacement keep the same id"
+      },
+      {
+        "language": "en-US",
+        "text": "can i replace an unexported item"
+      },
+      {
+        "language": "en-US",
+        "text": "explain add and replace"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالت مشارکت چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق add و replace چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "replace چه وقت معتبر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم یک جایگزینی جزئی انجام دهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "add تکراری چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جایگزین باید همان شناسه را داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم یک آیتم صادر نشده را جایگزین کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "add و replace را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is add and replace"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i override something from a package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "add و replace چیست"
+      }
+    ]
+  }
+}

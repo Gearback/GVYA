@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.meaning.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.meaning.behavior",
+    "meaning": "gvya.help.meaning",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Each Meaning has a stable author-facing ID and may carry typed Slots and References. Resolvers only propose candidates; the deterministic kernel decides."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هر Meaning یک شناسهٔ پایدار برای نویسنده دارد و می‌تواند Slot و Reference تایپ‌شده حمل کند. Resolverها فقط نامزد پیشنهاد می‌دهند؛ تصمیم با هستهٔ قطعی است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.meaning.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Meaning is GVYA's structured interpretation of an interaction, and it is deliberately not synonymous with a tool call. It can represent conversational behavior, a question, clarification or repair, a state observation, or a capability request."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Meaning تفسیر ساختاریافتهٔ GVYA از یک interaction است و عمداً مترادف فراخوانی ابزار نیست. می‌تواند رفتار مکالمه‌ای، یک پرسش، شفاف‌سازی یا ترمیم، مشاهدهٔ وضعیت، یا درخواست capability را نشان دهد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

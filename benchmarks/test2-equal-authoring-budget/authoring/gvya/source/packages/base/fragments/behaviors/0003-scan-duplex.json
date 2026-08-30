@@ -1,0 +1,25 @@
+{
+  "id": "scan.duplex.behavior",
+  "value": {
+    "id": "scan.duplex.behavior",
+    "meaning": "scan.duplex",
+    "responses": [
+      {
+        "id": "scan.duplex.answer",
+        "opens_followup": {
+          "id": "context.duplex_orientation.followup",
+          "refresh_if_same": false,
+          "ttl": 2
+        },
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SCAN_DUPLEX"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

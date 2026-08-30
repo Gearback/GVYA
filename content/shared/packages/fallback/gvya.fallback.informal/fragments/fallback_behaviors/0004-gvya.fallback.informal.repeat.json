@@ -1,0 +1,72 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.informal.repeat",
+  "mode": "add",
+  "value": {
+    "id": "gvya.fallback.informal.repeat",
+    "priority": 0,
+    "responses": [
+      {
+        "id": "gvya.fallback.informal.repeat.acknowledged",
+        "kind": "repeat",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "You already said that.",
+              "I got it the first time."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "این رو قبلاً گفتی.",
+              "همون بار اول گرفتم چی گفتی."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gvya.fallback.informal.repeat.no-change",
+        "kind": "repeat",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Repeating it won't change my answer.",
+              "Same message, same problem."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "تکرارش جوابم رو عوض نمی‌کنه.",
+              "همون پیامه، همون مشکل."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gvya.fallback.informal.repeat.redirect",
+        "kind": "repeat",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "If you mean something else, say it differently.",
+              "Try a different question."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اگه منظورت چیز دیگه‌ایه، یه جور دیگه بگو.",
+              "یه سؤال دیگه بپرس."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "repeat"
+  }
+}

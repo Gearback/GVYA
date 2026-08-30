@@ -1,0 +1,13 @@
+{
+  "id": "lamp.set.policy",
+  "value": {
+    "capability": "lamp.set",
+    "conditions": [],
+    "effect": {
+      "reason_code": "lamp.confirm",
+      "type": "require_confirmation"
+    },
+    "id": "lamp.set.policy",
+    "priority": 10
+  }
+}

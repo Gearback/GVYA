@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.you-are-useless.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.you-are-useless.behavior",
+    "meaning": "core.smalltalk.informal.you-are-useless",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.you-are-useless.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Maybe. Or maybe you’re asking the wrong way.",
+              "Useful depends on the question.",
+              "Try a cleaner question."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید. یا شاید داری بد می‌پرسی.",
+              "به درد خوردن بستگی به سوال داره.",
+              "یه سوال تمیزتر بپرس."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

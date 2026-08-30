@@ -1,0 +1,146 @@
+{
+  "exported": true,
+  "id": "gvya.help.resolution-threshold",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.resolution-threshold",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what happens when two meanings tie"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the matcher work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی دو meaning مساوی شوند چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher چطور کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "captured values resolved meaning"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "resolutionthreshold floor below confidence understand unresolved reason"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آستانه تصمیم کف پایین اطمینان نفهمید حل نشده"
+      },
+      {
+        "language": "en-US",
+        "text": "minimum score resolve meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "best score good enough setting"
+      },
+      {
+        "language": "en-US",
+        "text": "minimum score resolution floor"
+      },
+      {
+        "language": "en-US",
+        "text": "score floor minimum confidence strong enough answer resolve winner threshold unresolved"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کف امتیاز حداقل اطمینان کافی پاسخ resolve برنده threshold unresolved"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is the resolution threshold"
+      },
+      {
+        "language": "en-US",
+        "text": "what does below_resolution_threshold mean"
+      },
+      {
+        "language": "en-US",
+        "text": "why does it say it did not understand"
+      },
+      {
+        "language": "en-US",
+        "text": "what is resolution_threshold set to"
+      },
+      {
+        "language": "en-US",
+        "text": "should i lower the threshold"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the normal resolution floor"
+      },
+      {
+        "language": "en-US",
+        "text": "how confident must a match be"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the threshold"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آستانه تصمیم چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "below_resolution_threshold یعنی چه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا می گوید متوجه نشدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "resolution_threshold روی چه مقداری است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آستانه را پایین بیاورم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کف تصمیم عادی چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک تطبیق چقدر باید مطمئن باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آستانه را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آستانه تشخیص یعنی چه"
+      },
+      {
+        "language": "en-US",
+        "text": "threshold"
+      },
+      {
+        "language": "en-US",
+        "text": "best score good enough setting"
+      },
+      {
+        "language": "en-US",
+        "text": "minimum score required for resolution"
+      }
+    ]
+  }
+}

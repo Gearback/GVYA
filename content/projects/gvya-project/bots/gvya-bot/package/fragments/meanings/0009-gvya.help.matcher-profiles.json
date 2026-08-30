@@ -1,0 +1,282 @@
+{
+  "exported": true,
+  "id": "gvya.help.matcher-profiles",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.matcher-profiles",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how does the gvya matcher work"
+      },
+      {
+        "language": "en-US",
+        "text": "how do bot languages work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher در gvya چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان های بات چطور کار می کنند"
+      },
+      {
+        "language": "en-US",
+        "text": "what is stored in the gvya artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "what is stored in the .gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": "which stage creates the gvya artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "which build step creates the .gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": ".gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya output file"
+      },
+      {
+        "language": "en-US",
+        "text": "compiled gvya artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "which language does the bot reply in"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the answer language chosen"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات به کدام زبان جواب می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان پاسخ چطور انتخاب می شود"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "language profile"
+      },
+      {
+        "language": "en-US",
+        "text": "matcher profile json"
+      },
+      {
+        "language": "en-US",
+        "text": "lexical normalization"
+      },
+      {
+        "language": "en-US",
+        "text": "locale rule disable bot persian remove language"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروفایل زبان"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher profile json"
+      },
+      {
+        "language": "fa-IR",
+        "text": "normalization واژگانی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "locale قاعده غیرفعال بات فارسی حذف زبان"
+      },
+      {
+        "language": "en-US",
+        "text": "turkish locale drop in available"
+      },
+      {
+        "language": "en-US",
+        "text": "plural contraction rule vocabulary"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترکی فایل drop in اضافه زبان"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قانون جمع محاوره کلمه"
+      },
+      {
+        "language": "en-US",
+        "text": "matching rules locale file teaches"
+      },
+      {
+        "language": "en-US",
+        "text": "language specific token rewrites"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "matcher profiles"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a matcher profile"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i add a language to gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "where are language rules stored"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya support pinglish automatically"
+      },
+      {
+        "language": "en-US",
+        "text": "bot disabled missing matcher profile"
+      },
+      {
+        "language": "en-US",
+        "text": "how are contractions normalized"
+      },
+      {
+        "language": "en-US",
+        "text": "which layer owns locale specific lexical data"
+      },
+      {
+        "language": "en-US",
+        "text": "where do i put the words and rules for my language"
+      },
+      {
+        "language": "en-US",
+        "text": "register language without package"
+      },
+      {
+        "language": "en-US",
+        "text": "register arabic"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher profile ها"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher profile چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور زبان به gvya اضافه کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قواعد هر زبان کجا ذخیره می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya پینگلیش را خودکار می فهمد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات به خاطر نبود matcher profile غیرفعال شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شکل های محاوره ای چطور normalize می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داده واژگانی مخصوص locale متعلق به کدام لایه است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کلمه ها و قانون های زبانم رو کجا بذارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ثبت زبان بدون پکیج"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عربی ثبت"
+      },
+      {
+        "language": "en-US",
+        "text": "what is inside a matcher profile"
+      },
+      {
+        "language": "en-US",
+        "text": "why does each language need a profile"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل matcher profile چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا هر زبان به پروفایل نیاز دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "matcher profile"
+      },
+      {
+        "language": "en-US",
+        "text": "language profile in gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher profile چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروفایل matcher چیه"
+      },
+      {
+        "language": "en-US",
+        "text": "why do i need one profile per language"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا برای هر زبان یک profile لازم است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مچر پروفایل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروفایل تطبیق چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "is there pinglish support"
+      },
+      {
+        "language": "en-US",
+        "text": "is finglish supported"
+      },
+      {
+        "language": "en-US",
+        "text": "language specific token rewrites"
+      }
+    ]
+  }
+}

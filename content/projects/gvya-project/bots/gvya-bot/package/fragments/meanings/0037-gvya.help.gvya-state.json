@@ -1,0 +1,158 @@
+{
+  "exported": true,
+  "id": "gvya.help.gvya-state",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.gvya-state",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a context snapshot"
+      },
+      {
+        "language": "en-US",
+        "text": "what does it remember between turns"
+      },
+      {
+        "language": "fa-IR",
+        "text": "context snapshot چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین نوبت ها چه چیزی را به یاد دارد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "gvyastate namespaces author conversation runtime metadata"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وضعیت فضای نام نویسنده مکالمه فراداده"
+      },
+      {
+        "language": "en-US",
+        "text": "persisted gvya state"
+      },
+      {
+        "language": "en-US",
+        "text": "namespaces gvya conversational state"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is gvya state"
+      },
+      {
+        "language": "en-US",
+        "text": "what are the state namespaces"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the difference between author and conversation state"
+      },
+      {
+        "language": "en-US",
+        "text": "is gvya state the same as host state"
+      },
+      {
+        "language": "en-US",
+        "text": "can authored rules change runtime metadata"
+      },
+      {
+        "language": "en-US",
+        "text": "where is conversation memory kept"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the runtime own in state"
+      },
+      {
+        "language": "en-US",
+        "text": "explain state"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya state چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فضاهای نام وضعیت کدامند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق author state و conversation state چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya state همان حالت میزبان است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قواعد نوشته شده می توانند فراداده runtime را عوض کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حافظه مکالمه کجا نگه داشته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime چه بخشی از وضعیت را مالک است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وضعیت را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "do i have to persist state between turns"
+      },
+      {
+        "language": "en-US",
+        "text": "what is in the state"
+      },
+      {
+        "language": "fa-IR",
+        "text": "state بین نوبت ها باید ذخیره شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل state چه چیزی هست"
+      },
+      {
+        "language": "en-US",
+        "text": "persisted gvya state contents"
+      },
+      {
+        "language": "en-US",
+        "text": "persisted gvya state"
+      },
+      {
+        "language": "en-US",
+        "text": "namespaces gvya conversational state"
+      },
+      {
+        "language": "en-US",
+        "text": "what is inside the state my app has to persist"
+      },
+      {
+        "language": "en-US",
+        "text": "which parts of state can authors write to"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل state ای که برنامه ام باید ذخیره کند چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام بخش های state را نویسنده می تواند بنویسد"
+      }
+    ]
+  }
+}

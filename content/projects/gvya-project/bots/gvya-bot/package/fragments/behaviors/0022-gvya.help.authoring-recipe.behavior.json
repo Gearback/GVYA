@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.authoring-recipe.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.authoring-recipe.behavior",
+    "meaning": "gvya.help.authoring-recipe",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The default slice is five decisions: outcome, Meaning, closest held-out boundary, direct Behavior plus one truthful next move, and one manual proof. Record Bot-owned Meanings, samples, Behaviors, response messages, and proof turns; list reused Packages and Matcher Profiles separately. Add one shared next, recovery, or curiosity route before growing a tree. The sample matrix is a gap checklist, not a 3×3 quota: keep genuinely different lexical and syntactic evidence and omit cells that add nothing."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "slice پیش‌فرض پنج تصمیم دارد: outcome، Meaning، نزدیک‌ترین boundary held-out، Behavior مستقیم با یک حرکت بعدی صادق، و یک proof دستی. Meaning، sample، Behavior، پیام response و turnهای proof متعلق به Bot را بشمار و Package و Matcher Profileهای reusable را جدا گزارش کن. قبل از ساختن tree، یک route مشترک برای next، recovery یا curiosity بساز. ماتریس sample یک checklist برای پیدا کردن gap است، نه یک سهمیهٔ ۳×۳: شواهد واقعاً متفاوت واژگانی و نحوی را نگه دار و خانه‌هایی که چیزی اضافه نمی‌کنند را ننویس."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.authoring-recipe.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Start with one useful conversation slice, not an intent inventory: one replayable goal, one discriminative Meaning, one frozen close confounder, one Behavior that answers immediately, and one Regression Case or short Scenario. Low-data means that this recorded cost reaches held-out quality; it does not mean authoring disappears."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "با یک conversation slice مفید شروع کن، نه inventory بزرگ intent: یک هدف replayable، یک Meaning متمایز، یک confounder نزدیک و از قبل frozen، یک Behavior که فوری جواب می‌دهد و یک Regression Case یا Scenario کوتاه. low-data یعنی همین cost ثبت‌شده به کیفیت held-out برسد؛ نه اینکه authoring ناپدید شود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

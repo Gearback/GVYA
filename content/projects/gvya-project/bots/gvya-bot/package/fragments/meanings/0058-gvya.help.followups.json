@@ -1,0 +1,162 @@
+{
+  "exported": true,
+  "id": "gvya.help.followups",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.followups",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how does an active topic work"
+      },
+      {
+        "language": "en-US",
+        "text": "what is short referential continuation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic فعال چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ادامه ارجاعی کوتاه چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "followup scope opens consumed refresh expired reopen ttl"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیگیری دامنه باز مصرف تازه منقضی بازگشایی"
+      },
+      {
+        "language": "en-US",
+        "text": "temporary expected reply bot question opens followup scope active answer next turn"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پاسخ مورد انتظار موقت سوال بات opens followup scope فعال جواب turn بعد"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a follow up scope"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i ask a question and understand the answer"
+      },
+      {
+        "language": "en-US",
+        "text": "what is opens_followup"
+      },
+      {
+        "language": "en-US",
+        "text": "what does followup_scope do on a behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "what is refresh_if_same"
+      },
+      {
+        "language": "en-US",
+        "text": "why did my follow up not reopen"
+      },
+      {
+        "language": "en-US",
+        "text": "when is a follow up consumed"
+      },
+      {
+        "language": "en-US",
+        "text": "explain follow ups"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دامنه follow up چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور سوال بپرسم و جواب را بفهمم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "opens_followup چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "followup_scope روی یک behavior چه می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "refresh_if_same چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا follow up من دوباره باز نشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "follow up چه وقت مصرف می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "follow up ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a followup"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a follow up"
+      },
+      {
+        "language": "fa-IR",
+        "text": "followup چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیگیری چطور کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "followup"
+      },
+      {
+        "language": "en-US",
+        "text": "followups"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i make a question expect a specific reply next"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i say only this answer is valid on the next turn"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور کاری کنم یک سوال جواب مشخصی را در نوبت بعد انتظار داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بگویم نوبت بعد فقط این پاسخ معتبر است"
+      },
+      {
+        "language": "en-US",
+        "text": "how do follow ups work"
+      },
+      {
+        "language": "en-US",
+        "text": "how does follow up handling work"
+      }
+    ]
+  }
+}

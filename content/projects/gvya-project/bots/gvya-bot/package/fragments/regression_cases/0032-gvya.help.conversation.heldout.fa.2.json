@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.conversation.heldout.fa.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Conversation state, topics, follow-ups, repetition, and language carry held-out fa-IR coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.conversation",
+      "response_ids": [
+        "gvya.help.conversation.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.conversation.heldout.fa.2",
+    "initial_state": {},
+    "input": "یک جواب می‌تونه follow-up موقت باز کنه؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

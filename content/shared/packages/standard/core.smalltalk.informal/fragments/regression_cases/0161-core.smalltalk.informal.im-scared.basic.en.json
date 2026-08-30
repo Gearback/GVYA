@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-scared.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.im-scared",
+      "response_ids": [
+        "core.smalltalk.informal.im-scared.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.im-scared.basic.en",
+    "initial_state": {},
+    "input": "i'm scared",
+    "language": "en-US",
+    "seed": 1
+  }
+}

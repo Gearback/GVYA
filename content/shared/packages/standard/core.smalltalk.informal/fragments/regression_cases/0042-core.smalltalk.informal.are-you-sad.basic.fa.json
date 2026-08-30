@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-sad.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.are-you-sad",
+      "response_ids": [
+        "core.smalltalk.informal.are-you-sad.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.are-you-sad.basic.fa",
+    "initial_state": {},
+    "input": "ناراحتی",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.structural-route.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Matcher help offers a truthful standalone route into structural-pattern grammar",
+    "generated": false,
+    "id": "gvya.help.scenario.structural-route.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher",
+          "response_ids": [
+            "gvya.help.matcher.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "How does GVYA rank possible Meanings?",
+        "seed": 81,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.structural-patterns",
+          "response_ids": [
+            "gvya.help.structural-patterns.overview"
+          ],
+          "why_codes": [
+            "semantic.structural.matched",
+            "semantic.decision.structural"
+          ]
+        },
+        "language": "en-US",
+        "say": "How do GVYA structural patterns work?",
+        "seed": 82,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher-troubleshooting",
+          "response_ids": [
+            "gvya.help.matcher-troubleshooting.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "One intent keeps losing to its neighbor—what should I tune first?",
+        "seed": 83,
+        "type": "turn"
+      }
+    ]
+  }
+}

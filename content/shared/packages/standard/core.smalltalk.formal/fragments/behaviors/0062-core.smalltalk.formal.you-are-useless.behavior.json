@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.you-are-useless.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.you-are-useless.behavior",
+    "meaning": "core.smalltalk.formal.you-are-useless",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.you-are-useless.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Usefulness depends on the question.",
+              "Perhaps you are asking the wrong way.",
+              "Try a clearer question."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "مفید بودن به پرسش بستگی دارد.",
+              "شاید دارید به شکل نادرست می‌پرسید.",
+              "پرسش واضح‌تری مطرح کنید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

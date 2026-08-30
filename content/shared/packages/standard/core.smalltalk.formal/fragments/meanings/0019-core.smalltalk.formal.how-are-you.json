@@ -1,0 +1,44 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.how-are-you",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.how-are-you",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how are you"
+      },
+      {
+        "language": "en-US",
+        "text": "how are you doing"
+      },
+      {
+        "language": "en-US",
+        "text": "you good"
+      },
+      {
+        "language": "en-US",
+        "text": "are you okay"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالت چطوره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوبی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اوضاع چطوره"
+      }
+    ]
+  }
+}

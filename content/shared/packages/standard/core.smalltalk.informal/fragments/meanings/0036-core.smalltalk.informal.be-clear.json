@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.be-clear",
+  "mode": "add",
+  "value": {
+    "class": "clarification",
+    "id": "core.smalltalk.informal.be-clear",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "be clear"
+      },
+      {
+        "language": "en-US",
+        "text": "explain simply"
+      },
+      {
+        "language": "en-US",
+        "text": "make it simple"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واضح بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساده بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "روشن‌تر بگو"
+      }
+    ]
+  }
+}

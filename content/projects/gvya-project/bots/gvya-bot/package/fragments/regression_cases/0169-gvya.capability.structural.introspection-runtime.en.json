@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.introspection-runtime.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Reading a capability schema at runtime is introspection and outranks the capability/runtime route",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.capabilities"
+      ],
+      "meaning": "gvya.help.capability-introspection"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.introspection-runtime.en",
+    "initial_state": {},
+    "input": "how do i see a capability schema at runtime",
+    "language": "en-US",
+    "seed": 1
+  }
+}

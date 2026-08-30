@@ -1,0 +1,12 @@
+{
+  "id": "weather.ask",
+  "value": {
+    "id": "weather.ask",
+    "samples": [
+      {
+        "language": "en",
+        "text": "weather please"
+      }
+    ]
+  }
+}

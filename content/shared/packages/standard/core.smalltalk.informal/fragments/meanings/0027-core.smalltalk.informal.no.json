@@ -1,0 +1,48 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.no",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.no",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "no"
+      },
+      {
+        "language": "en-US",
+        "text": "nope"
+      },
+      {
+        "language": "en-US",
+        "text": "nah"
+      },
+      {
+        "language": "en-US",
+        "text": "not really"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه بابا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه واقعا"
+      }
+    ]
+  }
+}

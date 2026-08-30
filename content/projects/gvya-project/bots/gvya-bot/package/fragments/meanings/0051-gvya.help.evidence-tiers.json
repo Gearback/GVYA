@@ -1,0 +1,146 @@
+{
+  "exported": true,
+  "id": "gvya.help.evidence-tiers",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.evidence-tiers",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how are candidates retrieved"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the resolution threshold"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نامزدها چطور بازیابی می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آستانه تصمیم چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "evidencetier strength matchkind exact phrase span coverage subsequence"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لایه شواهد قدرت نوع تطبیق دقیق عبارت بازه پوشش"
+      },
+      {
+        "language": "en-US",
+        "text": "evidence tiers purpose"
+      },
+      {
+        "language": "en-US",
+        "text": "evidence tiers role purpose"
+      },
+      {
+        "language": "en-US",
+        "text": "strong lexical weak numeric similarity"
+      },
+      {
+        "language": "en-US",
+        "text": "lexical evidence hierarchy tier phrase outrank numeric similarity match priority strength"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شواهد lexical سلسله مراتب tier عبارت برتری numeric similarity اولویت match قدرت"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are evidence tiers"
+      },
+      {
+        "language": "en-US",
+        "text": "what is evidence strength"
+      },
+      {
+        "language": "en-US",
+        "text": "what match kinds exist"
+      },
+      {
+        "language": "en-US",
+        "text": "what is an exact phrase start match"
+      },
+      {
+        "language": "en-US",
+        "text": "what is numeric window similarity"
+      },
+      {
+        "language": "en-US",
+        "text": "how is match quality classified"
+      },
+      {
+        "language": "en-US",
+        "text": "what does tier three mean"
+      },
+      {
+        "language": "en-US",
+        "text": "explain evidence"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لایه های شواهد چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قدرت شواهد چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه نوع تطبیق هایی وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تطبیق شروع عبارت دقیق چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شباهت پنجره عددی چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کیفیت تطبیق چطور دسته بندی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لایه سه یعنی چه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شواهد را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "evidence tier چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "why evidence tiers exist"
+      },
+      {
+        "language": "en-US",
+        "text": "what evidence tiers are for"
+      },
+      {
+        "language": "en-US",
+        "text": "purpose evidence tiers"
+      },
+      {
+        "language": "en-US",
+        "text": "strong lexical weak numeric similarity"
+      }
+    ]
+  }
+}

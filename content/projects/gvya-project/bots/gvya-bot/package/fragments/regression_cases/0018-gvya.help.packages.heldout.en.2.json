@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.packages.heldout.en.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Standard, Shared, Project, and Bot Package composition held-out en-US coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.packages",
+      "response_ids": [
+        "gvya.help.packages.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.packages.heldout.en.2",
+    "initial_state": {},
+    "input": "What is the difference between a shared package and the bot's own package?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

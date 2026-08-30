@@ -1,0 +1,72 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.safety-check",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.safety-check",
+    "negative_samples": [],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ SAFER ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ SAFETY ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "safer safety boundary separation execution host"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امن امنیت مرز جداسازی اجرا host"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "does that separation make it safer"
+      },
+      {
+        "language": "en-US",
+        "text": "is that boundary safer"
+      },
+      {
+        "language": "en-US",
+        "text": "does keeping execution outside improve safety"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این جداسازی امن ترش می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این مرز امن تره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بیرون ماندن اجرا امنیت را بهتر می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "is this safer"
+      },
+      {
+        "language": "en-US",
+        "text": "does that make things safer"
+      },
+      {
+        "language": "en-US",
+        "text": "is that setup more secure"
+      }
+    ]
+  }
+}

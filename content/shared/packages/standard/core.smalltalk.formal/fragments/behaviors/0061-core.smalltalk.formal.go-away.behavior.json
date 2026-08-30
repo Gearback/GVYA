@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.go-away.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.go-away.behavior",
+    "meaning": "core.smalltalk.formal.go-away",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.go-away.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Very well.",
+              "If that is what you want.",
+              "I will give you space."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بسیار خوب.",
+              "اگر این چیزی است که می‌خواهید.",
+              "به شما فضا می‌دهم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "shipping.cost",
+  "value": {
+    "id": "shipping.cost",
+    "samples": [
+      {
+        "language": "en",
+        "text": "how much is shipping"
+      },
+      {
+        "language": "en",
+        "text": "what does delivery cost"
+      },
+      {
+        "language": "en",
+        "text": "tell me the shipping fee"
+      },
+      {
+        "language": "en",
+        "text": "is there a delivery charge"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-like-you",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.i-like-you",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i like you"
+      },
+      {
+        "language": "en-US",
+        "text": "i like talking to you"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دوستت دارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ازت خوشم میاد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حرف زدن باهات خوبه"
+      }
+    ]
+  }
+}

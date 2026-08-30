@@ -1,0 +1,19 @@
+{
+  "exported": true,
+  "id": "iot.device.start.behavior",
+  "mode": "add",
+  "value": {
+    "id": "iot.device.start.behavior",
+    "meaning": "iot.device.start",
+    "responses": [
+      {
+        "id": "iot.device.start.requested",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device-start request is ready."] },
+          { "language": "fa-IR", "variants": ["درخواست راه‌اندازی دستگاه آماده است."] }
+        ]
+      }
+    ]
+  }
+}

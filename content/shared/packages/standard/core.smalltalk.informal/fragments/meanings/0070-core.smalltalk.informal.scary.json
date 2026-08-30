@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.scary",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.scary",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "scary"
+      },
+      {
+        "language": "en-US",
+        "text": "that's scary"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترسناکه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وحشتناکه"
+      }
+    ]
+  }
+}

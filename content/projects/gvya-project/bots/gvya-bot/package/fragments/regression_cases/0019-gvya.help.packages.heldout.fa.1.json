@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.packages.heldout.fa.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Standard, Shared, Project, and Bot Package composition held-out fa-IR coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.packages",
+      "response_ids": [
+        "gvya.help.packages.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.packages.heldout.fa.1",
+    "initial_state": {},
+    "input": "رفتار قابل استفاده مجدد رو کجای پروژه بنویسم؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

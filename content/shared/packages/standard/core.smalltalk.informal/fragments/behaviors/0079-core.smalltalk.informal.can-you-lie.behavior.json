@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.can-you-lie.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.can-you-lie.behavior",
+    "meaning": "core.smalltalk.informal.can-you-lie",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.can-you-lie.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I can be wrong. That’s different.",
+              "I’m telling you what I can.",
+              "Take my words seriously, not blindly."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ممکنه اشتباه کنم. این فرق داره.",
+              "دارم چیزی رو می‌گم که می‌تونم.",
+              "حرفم رو جدی بگیر، نه کورکورانه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

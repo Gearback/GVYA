@@ -1,0 +1,140 @@
+{
+  "exported": true,
+  "id": "gvya.help.source-format",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.source-format",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is program json"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the folder structure look like"
+      },
+      {
+        "language": "fa-IR",
+        "text": "program json چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساختار پوشه چگونه است"
+      },
+      {
+        "language": "en-US",
+        "text": "external coding agent author"
+      },
+      {
+        "language": "en-US",
+        "text": "trace gvya from authored source to runtime authority"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مسیر gvya از source نوشته شده تا authority زمان اجرا"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 20,
+        "text": "^ MEAN ^ SOURCE ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "sourceformat transparent json readable editable unknownkeys stringified"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرمت سورس شفاف خوانا ویرایش پذیر کلید ناشناخته"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what does the transparent source look like"
+      },
+      {
+        "language": "en-US",
+        "text": "can i write it by hand"
+      },
+      {
+        "language": "en-US",
+        "text": "what does gvya source look like"
+      },
+      {
+        "language": "en-US",
+        "text": "is source the same as the artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "is the source format transparent"
+      },
+      {
+        "language": "en-US",
+        "text": "are schemas stringified json"
+      },
+      {
+        "language": "en-US",
+        "text": "do source objects reject unknown keys"
+      },
+      {
+        "language": "en-US",
+        "text": "can i edit source by hand"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya.source"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the source format"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سورس gvya چه شکلی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سورس همان آرتیفکت است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرمت سورس شفاف است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "schema ها json رشته ای هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اشیای سورس کلید ناشناخته را رد می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم سورس را دستی ویرایش کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya.source چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرمت سورس را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the source format"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرمت source چیست"
+      }
+    ]
+  }
+}

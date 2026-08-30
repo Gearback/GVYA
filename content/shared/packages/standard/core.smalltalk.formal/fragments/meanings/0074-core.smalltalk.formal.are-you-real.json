@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-real",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.are-you-real",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "are you real"
+      },
+      {
+        "language": "en-US",
+        "text": "are you actually real"
+      },
+      {
+        "language": "en-US",
+        "text": "is this real"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واقعی هستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو واقعی‌ای"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اینا واقعیه"
+      }
+    ]
+  }
+}

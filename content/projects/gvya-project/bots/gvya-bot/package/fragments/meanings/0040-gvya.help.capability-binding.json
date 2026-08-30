@@ -1,0 +1,214 @@
+{
+  "exported": true,
+  "id": "gvya.help.capability-binding",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.capability-binding",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "می توانی دو وام مسکن را برای من مقایسه کنی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط گیر املایی چطور واژه پیشنهادی را انتخاب می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو وام مسکن را از نظر نرخ با هم مقایسه کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "موتور بازی شطرنج حرکت مناسب را انتخاب می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a capability contract"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a policy"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability contract چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "policy چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "capabilitybinding maps arguments literals paths triggered"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اتصال capability نگاشت آرگومان مقدار ثابت مسیر"
+      },
+      {
+        "language": "en-US",
+        "text": "capability bind host"
+      },
+      {
+        "language": "en-US",
+        "text": "declared capability connected host"
+      },
+      {
+        "language": "en-US",
+        "text": "map slot value into argument fill parameter literal path binding"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نگاشت مقدار slot به آرگومان پر کردن پارامتر منبع مقدار ثابت مسیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرگومان ورودی پارامتر پر شدن از کجا می آید نگاشت slot مقدار"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a capability binding"
+      },
+      {
+        "language": "en-US",
+        "text": "how are capability arguments filled"
+      },
+      {
+        "language": "en-US",
+        "text": "what can a binding read from"
+      },
+      {
+        "language": "en-US",
+        "text": "what triggers a binding"
+      },
+      {
+        "language": "en-US",
+        "text": "are bindings type checked"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens if a required input is missing"
+      },
+      {
+        "language": "en-US",
+        "text": "can a binding guess a missing value"
+      },
+      {
+        "language": "en-US",
+        "text": "explain capability binding"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability binding چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرگومان های capability چطور پر می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "binding از کجا می خواند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی یک binding را فعال می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "binding ها از نظر نوع بررسی می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر ورودی اجباری نباشد چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "binding می تواند مقدار گمشده را حدس بزند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability binding را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i bind a capability to a behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "how many slots can a capability binding have"
+      },
+      {
+        "language": "en-US",
+        "text": "where do binding arguments come from"
+      },
+      {
+        "language": "en-US",
+        "text": "declared capability connected host"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a capability binding work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability binding چطور کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "how do resolved slot values become action arguments"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i map conversation data onto an operation input"
+      },
+      {
+        "language": "en-US",
+        "text": "where do the argument values come from at runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "can it invent a value that the user never gave"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i wire a behavior to a declared action"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقدار slot های حل شده چطور به آرگومان اکشن تبدیل می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور داده مکالمه را روی ورودی یک عملیات نگاشت کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقدار آرگومان ها موقع اجرا از کجا می آید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می تواند مقداری بسازد که کاربر اصلا نگفته"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک behavior را به اکشن اعلام شده وصل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرگومان های یک عملیات از کجا می آیند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقدار ورودی های یک اکشن چطور تعیین می شود"
+      }
+    ]
+  }
+}

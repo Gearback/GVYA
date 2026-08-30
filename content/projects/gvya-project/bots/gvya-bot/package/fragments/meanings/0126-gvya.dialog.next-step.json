@@ -1,0 +1,77 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.next-step",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.next-step",
+    "negative_samples": [],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ THEN ^ WHAT ^ HAPPENS ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ WHAT ^ HAPPENS ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 45,
+        "text": "^ WHAT ^ AFTER ^ HOST ^ WORK ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "next after then happens step flow continue"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد بعدش مرحله اتفاق ادامه"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what happens after that"
+      },
+      {
+        "language": "en-US",
+        "text": "what comes next in that flow"
+      },
+      {
+        "language": "en-US",
+        "text": "and what is the next step"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از اون چه اتفاقی میفته"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرحله بعدش چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از این چی میشه"
+      },
+      {
+        "language": "en-US",
+        "text": "and what happens after"
+      },
+      {
+        "language": "en-US",
+        "text": "then what happens next"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens next"
+      }
+    ]
+  }
+}

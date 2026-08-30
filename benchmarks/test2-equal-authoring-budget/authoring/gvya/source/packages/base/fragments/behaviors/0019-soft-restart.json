@@ -1,0 +1,25 @@
+{
+  "id": "soft.restart.behavior",
+  "value": {
+    "id": "soft.restart.behavior",
+    "meaning": "soft.restart",
+    "responses": [
+      {
+        "id": "soft.restart.answer",
+        "opens_followup": {
+          "id": "context.restart_preserves.followup",
+          "refresh_if_same": false,
+          "ttl": 2
+        },
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SOFT_RESTART"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

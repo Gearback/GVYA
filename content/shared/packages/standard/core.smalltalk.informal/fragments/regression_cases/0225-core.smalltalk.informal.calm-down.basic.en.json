@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.calm-down.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.calm-down",
+      "response_ids": [
+        "core.smalltalk.informal.calm-down.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.calm-down.basic.en",
+    "initial_state": {},
+    "input": "calm down",
+    "language": "en-US",
+    "seed": 1
+  }
+}

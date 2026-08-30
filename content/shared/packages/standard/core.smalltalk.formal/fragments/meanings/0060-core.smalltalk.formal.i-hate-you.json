@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-hate-you",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.i-hate-you",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i hate you"
+      },
+      {
+        "language": "en-US",
+        "text": "hate you"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از تو متنفرم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ازت بدم میاد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالم ازت بهم می‌خوره"
+      }
+    ]
+  }
+}

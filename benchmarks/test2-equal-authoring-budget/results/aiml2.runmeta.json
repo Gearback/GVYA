@@ -1,0 +1,7 @@
+{
+  "system": "AIML 2.0 / Program-Y 3.6",
+  "cases": 150,
+  "load_ms": 283.75873000004503,
+  "source_bytes": 14923,
+  "deterministic_replay": true
+}

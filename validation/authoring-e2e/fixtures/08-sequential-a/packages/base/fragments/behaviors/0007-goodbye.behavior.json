@@ -1,0 +1,20 @@
+{
+  "id": "goodbye.behavior",
+  "value": {
+    "id": "goodbye.behavior",
+    "meaning": "goodbye",
+    "responses": [
+      {
+        "id": "goodbye.behavior.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "Goodbye."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

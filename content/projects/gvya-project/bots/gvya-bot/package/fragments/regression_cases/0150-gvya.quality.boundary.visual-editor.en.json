@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.quality.boundary.visual-editor.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generic visual-editor wording outside GVYA must not be stolen by Studio",
+    "expectation": {
+      "conversation_mode": "fallback",
+      "forbidden_meanings": [
+        "gvya.help.studio"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.quality.boundary.visual-editor.en",
+    "initial_state": {},
+    "input": "Is there a visual editor in Blender?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

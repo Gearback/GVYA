@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.hurry.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.hurry.behavior",
+    "meaning": "core.smalltalk.formal.hurry",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.hurry.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Rushing causes mistakes.",
+              "Faster is not always better.",
+              "I will be brief if I can."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "عجله باعث اشتباه می‌شود.",
+              "سریع‌تر همیشه بهتر نیست.",
+              "اگر بتوانم کوتاه می‌گویم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

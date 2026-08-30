@@ -1,0 +1,20 @@
+{
+  "id": "export.pdf.behavior",
+  "value": {
+    "id": "export.pdf.behavior",
+    "meaning": "export.pdf",
+    "responses": [
+      {
+        "id": "export.pdf.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:EXPORT_PDF"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

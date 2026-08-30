@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-sad",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.are-you-sad",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "are you sad"
+      },
+      {
+        "language": "en-US",
+        "text": "you seem sad"
+      },
+      {
+        "language": "en-US",
+        "text": "are you upset"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ناراحتی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غمگینی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالت بده"
+      }
+    ]
+  }
+}

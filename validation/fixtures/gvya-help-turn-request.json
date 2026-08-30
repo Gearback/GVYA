@@ -1,0 +1,10 @@
+{
+  "format": "gvya.runtime.turn",
+  "version": 1,
+  "utterance": {
+    "text": "what is a capability",
+    "language": "en-US"
+  },
+  "context": {},
+  "seed": 1
+}

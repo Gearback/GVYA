@@ -1,0 +1,362 @@
+{
+  "exported": true,
+  "id": "gvya.help.neural-resolver",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.neural-resolver",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how does the gvya matcher work"
+      },
+      {
+        "language": "en-US",
+        "text": "can ai author gvya bots"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher در gvya چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هوش مصنوعی می تواند بات gvya بسازد"
+      },
+      {
+        "language": "en-US",
+        "text": "proposed action permitted policy"
+      },
+      {
+        "language": "en-US",
+        "text": "misspelling typo fuzzy word tolerance"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط تایپی typo fuzzy word"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ CANDIDATE ^ CONFIDENCE ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "^ NEURAL ^ MEANING ^ RETRIEVED ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ مدل ^ CANDIDATE ID ^ CONFIDENCE ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "optional resolver"
+      },
+      {
+        "language": "en-US",
+        "text": "resolver candidate"
+      },
+      {
+        "language": "en-US",
+        "text": "resolver confidence"
+      },
+      {
+        "language": "en-US",
+        "text": "untrusted suggestion"
+      },
+      {
+        "language": "en-US",
+        "text": "llm ai service model ambiguity arbitrary action offline"
+      },
+      {
+        "language": "fa-IR",
+        "text": "resolver اختیاری"
+      },
+      {
+        "language": "fa-IR",
+        "text": "resolver candidate"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اعتماد resolver"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیشنهاد غیرقابل اعتماد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "llm ai سرویس مدل ambiguity اکشن دلخواه آفلاین"
+      },
+      {
+        "language": "en-US",
+        "text": "llm lexical matching tie help"
+      },
+      {
+        "language": "en-US",
+        "text": "neural component propose meaning never retrieved"
+      },
+      {
+        "language": "fa-IR",
+        "text": "lexical matching مساوی llm کمک"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بخش neural meaning پیشنهاد retrieve نشده"
+      },
+      {
+        "language": "en-US",
+        "text": "llm deterministic shortlist outside pick"
+      },
+      {
+        "language": "en-US",
+        "text": "neural resolver optional matching"
+      },
+      {
+        "language": "en-US",
+        "text": "resolver required matching optional"
+      },
+      {
+        "language": "en-US",
+        "text": "matching without neural model"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لازم است مدل هوش مصنوعی بدون مدل آفلاین اینترنت اختیار تصمیم"
+      },
+      {
+        "language": "en-US",
+        "text": "without any model offline no internet required optional resolver authority"
+      }
+    ],
+    "samples": [
+      {
+        "language": "fa-IR",
+        "text": "neural resolver فقط candidate idهای بازیابی شده را با حداقل confidence می پذیرد"
+      },
+      {
+        "language": "en-US",
+        "text": "the neural resolver may choose only meaning ids already retrieved by deterministic matching"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مدل فقط از candidate ID های بازیابی شده و بالاتر از confidence مجاز انتخاب می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "can an llm override the deterministic decision"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need an ai model to build or run a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya neural resolver"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya require an llm"
+      },
+      {
+        "language": "en-US",
+        "text": "can i use a neural resolver"
+      },
+      {
+        "language": "en-US",
+        "text": "when does the resolver run"
+      },
+      {
+        "language": "en-US",
+        "text": "are resolver answers trusted"
+      },
+      {
+        "language": "en-US",
+        "text": "can gvya work fully offline"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens after an ambiguous match"
+      },
+      {
+        "language": "en-US",
+        "text": "what trust boundary applies to neural resolver output"
+      },
+      {
+        "language": "en-US",
+        "text": "does the bot need chatgpt to understand me"
+      },
+      {
+        "language": "en-US",
+        "text": "bot understand intent without ai service"
+      },
+      {
+        "language": "en-US",
+        "text": "model resolves ambiguity arbitrary action"
+      },
+      {
+        "language": "en-US",
+        "text": "products need llm"
+      },
+      {
+        "language": "fa-IR",
+        "text": "neural resolver در gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya به llm نیاز دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم از neural resolver استفاده کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "resolver چه وقت اجرا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جواب resolver قابل اعتماد است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya کاملا آفلاین کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از match مبهم چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه trust boundary برای خروجی neural resolver اعمال می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات برای فهمیدن من به chatgpt نیاز داره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون سرویس ai بات intent می فهمه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "resolver فقط از candidate ID های بازیابی شده با confidence کافی انتخاب می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مدل محدود به candidate id confidence"
+      },
+      {
+        "language": "en-US",
+        "text": "is a model needed to understand input"
+      },
+      {
+        "language": "en-US",
+        "text": "what role can ai play here"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای فهمیدن ورودی مدل لازم است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هوش مصنوعی اینجا چه نقشی دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "do you use an llm under the hood"
+      },
+      {
+        "language": "en-US",
+        "text": "can i plug my own llm in"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a language model in there"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آیا مدل زبانی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم مدل خودم را وصل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از llm استفاده می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "can i use gvya with an llm"
+      },
+      {
+        "language": "en-US",
+        "text": "can i combine it with a language model"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم gvya را با llm ترکیب کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "neural resolution is optional"
+      },
+      {
+        "language": "en-US",
+        "text": "is neural resolution required for matching"
+      },
+      {
+        "language": "en-US",
+        "text": "neural resolver matching"
+      },
+      {
+        "language": "en-US",
+        "text": "matching without neural model"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای اجرا حتما مدل هوش مصنوعی لازم است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون مدل زبانی هم کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آفلاین و بدون اینترنت هم اجرا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر مدل عصبی وصل کنم آیا می تواند تصمیم قطعی را عوض کند"
+      },
+      {
+        "language": "en-US",
+        "text": "does it work without any language model"
+      },
+      {
+        "language": "en-US",
+        "text": "can it run completely offline"
+      },
+      {
+        "language": "en-US",
+        "text": "will it still understand intents with no ai service connected"
+      },
+      {
+        "language": "en-US",
+        "text": "does understanding depend on an external model being available"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون وصل بودن سرویس هوش مصنوعی هم منظور را می فهمد"
+      }
+    ]
+  }
+}

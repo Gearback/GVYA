@@ -1,0 +1,8 @@
+{
+  "format": "gvya.source.matcher-profile",
+  "version": 1,
+  "language": "en",
+  "profile": {
+    "pattern_sets": {}
+  }
+}

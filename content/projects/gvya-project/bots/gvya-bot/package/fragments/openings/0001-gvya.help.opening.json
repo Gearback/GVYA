@@ -1,0 +1,55 @@
+{
+  "exported": true,
+  "id": "gvya.help.opening",
+  "mode": "add",
+  "value": {
+    "id": "gvya.help.opening",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Choose a simple start: what GVYA is, a real example, or how to make your first Bot.",
+                  "You can ask what GVYA does, what you can build with it, or how to start.",
+                  "Already building? Ask about authoring, matching, runtime, or shipping."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "یک شروع ساده انتخاب کن: GVYA چیست، یک مثال واقعی، یا روش ساخت اولین Bot.",
+                  "می‌توانی بپرسی GVYA چه کار می‌کند، چه چیزهایی می‌شود با آن ساخت، یا از کجا شروع کنی.",
+                  "اگر در حال ساخت هستی، دربارهٔ authoring، matching، runtime یا انتشار بپرس."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.opening.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Hi! I am the GVYA guide. I can explain the product in plain language, show a practical example, or help you build your first Bot.",
+              "Welcome. You do not need to know GVYA yet—I can start with what it is, what it is useful for, or the first step in making a Bot.",
+              "Hi! Ask a beginner question or a technical one. I will keep the first answer simple and go deeper when you ask."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "سلام! من راهنمای GVYA هستم. می‌توانم محصول را ساده توضیح بدهم، یک مثال عملی بزنم یا برای ساخت اولین Bot کمکت کنم.",
+              "خوش آمدی. لازم نیست از قبل GVYA را بشناسی؛ می‌توانیم از چیستی آن، کاربردش یا اولین قدم ساخت Bot شروع کنیم.",
+              "سلام! سؤال تازه‌کارانه یا فنی بپرس. جواب اول را ساده نگه می‌دارم و هر وقت خواستی عمیق‌تر می‌شویم."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

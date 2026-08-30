@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.good-evening.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.good-evening.behavior",
+    "meaning": "core.smalltalk.informal.good-evening",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.good-evening.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Evening.",
+              "Good evening.",
+              "Yeah. Evening already."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "عصر بخیر.",
+              "عصرت بخیر.",
+              "آره. عصر شد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

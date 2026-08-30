@@ -1,0 +1,72 @@
+{
+  "exported": true,
+  "id": "gvya.help.studio.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.studio.behavior",
+    "meaning": "gvya.help.studio",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Simulation compiles transient source with the bundled canonical Rust Engine and runs it immediately. Studio is not required by a deployed runtime."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "شبیه‌سازی source موقت را با Rust Engine مرجعِ همراه کامپایل و همان لحظه اجرا می‌کند. runtime نهایی به Studio نیاز ندارد."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "For the smallest path, ask “how do I build my first Bot?”"
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "برای کوچک‌ترین مسیر بپرس «اولین Bot را چطور بسازم؟»"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.studio.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "GVYA Studio is the optional visual editor for human authoring, Project management, inspection, and zero-setup simulation of the selected Bot.",
+              "Studio is the optional human-facing editor: it manages Projects, lets you inspect authored source, and simulates the selected Bot with no setup at all."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "GVYA Studio ویرایشگر تصویری اختیاری برای نویسندگی انسانی، مدیریت Project، بررسی و شبیه‌سازی بی‌نیاز از تنظیم Bot انتخاب‌شده است.",
+              "Studio ویرایشگر اختیاری و انسانی است: Projectها را مدیریت می‌کند، امکان بررسی source نوشته‌شده را می‌دهد و Bot انتخاب‌شده را بدون هیچ تنظیمی شبیه‌سازی می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

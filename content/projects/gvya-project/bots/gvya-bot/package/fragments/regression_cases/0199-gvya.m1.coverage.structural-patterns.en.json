@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.structural-patterns.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A direct question about authoring patterns reaches structural pattern help",
+    "expectation": {
+      "meaning": "gvya.help.structural-patterns"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.structural-patterns.en",
+    "initial_state": {},
+    "input": "What are patterns for?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

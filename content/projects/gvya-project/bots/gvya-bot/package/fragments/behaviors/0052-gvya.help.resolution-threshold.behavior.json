@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.resolution-threshold.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.resolution-threshold.behavior",
+    "meaning": "gvya.help.resolution-threshold",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Lowering it is rarely the fix: a below-threshold paraphrase usually means the Meaning lacks vocabulary coverage, not that the floor is wrong."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "پایین آوردنش معمولاً راه‌حل نیست: یک بازنویسیِ زیرِ آستانه معمولاً یعنی آن Meaning پوشش واژگانی کم دارد، نه اینکه کف اشتباه است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.resolution-threshold.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "resolution_threshold is the per-Bot floor a candidate score must reach before the turn resolves. Below it the decision is Unresolved with reason below_resolution_threshold, and the Fallback Package answers instead."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏resolution_threshold کفی است که برای هر Bot تعیین می‌شود و امتیاز یک نامزد باید به آن برسد تا نوبت حل شود. زیر آن، تصمیم Unresolved با دلیل ‎below_resolution_threshold‎ است و به‌جایش Fallback Package پاسخ می‌دهد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-angry",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.im-angry",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i'm angry"
+      },
+      {
+        "language": "en-US",
+        "text": "i'm mad"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عصبانی‌ام"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اعصابم خورده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کلافه‌ام"
+      }
+    ]
+  }
+}

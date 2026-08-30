@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.context-vs-state.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.context-vs-state.behavior",
+    "meaning": "gvya.help.context-vs-state",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The kernel may read declared context but cannot mutate it. It returns the next GVYA State explicitly, and the host decides how to persist and pass that state into the next turn."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "Kernel می‌تواند context اعلام‌شده را بخواند اما آن را تغییر نمی‌دهد. GVYA State بعدی را صریح پس می‌دهد و host تصمیم می‌گیرد آن state را چطور نگه دارد و به turn بعدی بدهد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.context-vs-state.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Context is immutable host-supplied facts for the current interaction; GVYA State is explicit evolving conversation data passed into and returned from the runtime. Context describes what the host exposes now, while State carries authored and runtime-managed continuity across turns."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Context واقعیت‌های تغییرناپذیری است که host برای interaction فعلی می‌دهد؛ GVYA State دادهٔ صریح و درحال‌تغییر مکالمه است که به runtime داده و از آن پس گرفته می‌شود. Context می‌گوید host اکنون چه چیزی را آشکار کرده و State پیوستگی authored و runtime-managed را بین turnها حمل می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

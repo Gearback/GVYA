@@ -1,0 +1,24 @@
+{
+  "id": "subscription.cancel",
+  "value": {
+    "id": "subscription.cancel",
+    "samples": [
+      {
+        "language": "en",
+        "text": "cancel my subscription"
+      },
+      {
+        "language": "en",
+        "text": "stop my subscription"
+      },
+      {
+        "language": "en",
+        "text": "i want to end my plan"
+      },
+      {
+        "language": "en",
+        "text": "turn off my paid subscription"
+      }
+    ]
+  }
+}

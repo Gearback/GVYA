@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.shut-up",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.shut-up",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "shut up"
+      },
+      {
+        "language": "en-US",
+        "text": "be quiet"
+      },
+      {
+        "language": "en-US",
+        "text": "stop talking"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خفه شو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساکت شو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حرف نزن"
+      }
+    ]
+  }
+}

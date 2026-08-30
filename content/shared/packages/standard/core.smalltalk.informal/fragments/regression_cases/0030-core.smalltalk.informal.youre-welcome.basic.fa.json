@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.youre-welcome.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.youre-welcome",
+      "response_ids": [
+        "core.smalltalk.informal.youre-welcome.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.youre-welcome.basic.fa",
+    "initial_state": {},
+    "input": "خواهش می‌کنم",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

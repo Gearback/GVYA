@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.speak-english.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.speak-english.behavior",
+    "meaning": "core.smalltalk.formal.speak-english",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.speak-english.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "English, then.",
+              "Very well. I will keep it in English.",
+              "All right, English."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پس انگلیسی.",
+              "بسیار خوب. انگلیسی ادامه می‌دهم.",
+              "باشه، انگلیسی."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

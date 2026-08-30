@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.pick-a-number.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.pick-a-number",
+      "response_ids": [
+        "core.smalltalk.informal.pick-a-number.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.pick-a-number.basic.fa",
+    "initial_state": {},
+    "input": "عدد تصادفی",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

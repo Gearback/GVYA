@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-agree.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.i-agree",
+      "response_ids": [
+        "core.smalltalk.formal.i-agree.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.i-agree.basic.en",
+    "initial_state": {},
+    "input": "i agree",
+    "language": "en-US",
+    "seed": 1
+  }
+}

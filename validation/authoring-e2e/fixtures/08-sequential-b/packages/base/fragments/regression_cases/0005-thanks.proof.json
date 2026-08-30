@@ -1,0 +1,19 @@
+{
+  "id": "thanks.proof",
+  "value": {
+    "context": {},
+    "description": "Direct proof",
+    "expectation": {
+      "meaning": "thanks",
+      "response_ids": [
+        "thanks.behavior.answer"
+      ]
+    },
+    "generated": false,
+    "id": "thanks.proof",
+    "initial_state": {},
+    "input": "thanks",
+    "language": "en",
+    "seed": 1
+  }
+}

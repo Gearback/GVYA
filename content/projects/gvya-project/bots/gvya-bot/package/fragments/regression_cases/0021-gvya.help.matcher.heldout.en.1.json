@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.matcher.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Deterministic semantic retrieval, scoring, and resolution held-out en-US coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.matcher",
+      "response_ids": [
+        "gvya.help.matcher.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.matcher.heldout.en.1",
+    "initial_state": {},
+    "input": "How does GVYA decide which meaning wins for a sentence?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "exported": true,
+  "id": "gvya.m2.scenario.capability-thread-self-contained-concept.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A capability follow-up must not steal an explicit invocation-proposal question; the specific Meaning wins while the thread remains active.",
+    "generated": false,
+    "id": "gvya.m2.scenario.capability-thread-self-contained-concept.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "meaning": "gvya.help.capabilities"
+        },
+        "language": "en-US",
+        "say": "How does a capability reach the runtime?",
+        "seed": 281,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.help.invocation-proposal",
+          "response_ids": [
+            "gvya.dialog.invocation-proposal.capability-thread.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "What is a capability proposal?",
+        "seed": 282,
+        "type": "turn"
+      }
+    ]
+  }
+}

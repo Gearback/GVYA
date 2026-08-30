@@ -1,0 +1,24 @@
+{
+  "id": "billing.receipt",
+  "value": {
+    "id": "billing.receipt",
+    "samples": [
+      {
+        "language": "en",
+        "text": "i need a receipt"
+      },
+      {
+        "language": "en",
+        "text": "where can i get my invoice"
+      },
+      {
+        "language": "en",
+        "text": "download my billing receipt"
+      },
+      {
+        "language": "en",
+        "text": "show me the invoice for my payment"
+      }
+    ]
+  }
+}

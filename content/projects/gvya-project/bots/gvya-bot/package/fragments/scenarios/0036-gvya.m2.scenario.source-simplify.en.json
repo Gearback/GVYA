@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "gvya.m2.scenario.source-simplify.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A dense source-format answer can be simplified contextually without a global simplify route",
+    "generated": false,
+    "id": "gvya.m2.scenario.source-simplify.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.source-explain",
+          "meaning": "gvya.help.source-format",
+          "response_ids": [
+            "gvya.help.source-format.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "What do you mean by source?",
+        "seed": 216,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "followup",
+          "meaning": "core.smalltalk.formal.be-clear",
+          "response_ids": [
+            "gvya.dialog.be-clear.source.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Explain that more simply, please.",
+        "seed": 217,
+        "type": "turn"
+      }
+    ]
+  }
+}

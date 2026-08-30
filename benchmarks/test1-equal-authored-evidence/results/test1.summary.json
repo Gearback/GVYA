@@ -1,0 +1,254 @@
+{
+  "benchmark": "gvya-comparator-test-1-equal-authored-evidence",
+  "gvya_wrong_intent_cases": [
+    {
+      "expected": "password.reset",
+      "id": "confounder-005",
+      "predicted": "email.change",
+      "text": "change my password not my email address",
+      "track": "confounder"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "confounder-009",
+      "predicted": "billing.refund",
+      "text": "i do not want a refund i only need the receipt",
+      "track": "confounder"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "confounder-011",
+      "predicted": "subscription.cancel",
+      "text": "refund the charge but do not cancel my subscription",
+      "track": "confounder"
+    }
+  ],
+  "pairwise_in_domain": {
+    "chatscript_vs_aiml": {
+      "both_correct": 96,
+      "both_wrong": 139,
+      "exact_two_sided_p": 0.0625,
+      "n": 240,
+      "only_first_correct": 5,
+      "only_second_correct": 0
+    },
+    "gvya_vs_aiml": {
+      "both_correct": 96,
+      "both_wrong": 122,
+      "exact_two_sided_p": 4.76837158203125e-07,
+      "n": 240,
+      "only_first_correct": 22,
+      "only_second_correct": 0
+    },
+    "gvya_vs_chatscript": {
+      "both_correct": 101,
+      "both_wrong": 122,
+      "exact_two_sided_p": 1.52587890625e-05,
+      "n": 240,
+      "only_first_correct": 17,
+      "only_second_correct": 0
+    }
+  },
+  "primary_metrics": [
+    "strict_intent_accuracy_in_domain",
+    "ood_false_positive_rate"
+  ],
+  "status": "complete",
+  "systems": {
+    "AIML 2.0": {
+      "cases": 288,
+      "correct_in_domain": 96,
+      "deterministic_replay": true,
+      "execution_path": "ProgramYChatbot -> ConsoleBotClient -> Program-Y Brain/AIMLParser",
+      "generated_source_bytes": 12085,
+      "implementation": "Program-Y",
+      "implementation_version": "3.6",
+      "in_domain_cases": 240,
+      "latency_ms": {
+        "mean": 0.239329583305587,
+        "p50": 0.19474700093269348,
+        "p95": 0.3274430000601569
+      },
+      "load_ms": 329.83897300073295,
+      "macro_f1_including_fallback": 0.5645714285714285,
+      "ood_cases": 48,
+      "ood_false_positive_count": 0,
+      "ood_false_positive_rate": 0.0,
+      "runtime": "Program-Y 3.6",
+      "semantic_isolation": "only frozen benchmark.aiml is configured as category knowledge; Program-Y parser node definitions are runtime grammar infrastructure",
+      "semantic_source": "frozen/bots/aiml2/benchmark.aiml",
+      "session_isolation": "fresh Program-Y client context/user id per evaluation case",
+      "strict_intent_accuracy_in_domain": 0.4,
+      "system": "AIML 2.0",
+      "tracks": {
+        "confounder": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 48,
+          "non_null": 0
+        },
+        "ood": {
+          "accuracy": 1.0,
+          "correct": 48,
+          "n": 48,
+          "non_null": 0
+        },
+        "paraphrase": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 48,
+          "non_null": 0
+        },
+        "seen": {
+          "accuracy": 1.0,
+          "correct": 96,
+          "n": 96,
+          "non_null": 96
+        },
+        "typo": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 24,
+          "non_null": 0
+        },
+        "word_order": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 24,
+          "non_null": 0
+        }
+      },
+      "wrong_intent_count": 0,
+      "wrong_intent_rate": 0.0
+    },
+    "ChatScript": {
+      "build_ms": 679.3635899994115,
+      "cases": 288,
+      "compiled_build1_bytes": 32194,
+      "control_infrastructure_bytes": 783,
+      "correct_in_domain": 101,
+      "deterministic_replay": true,
+      "generated_source_bytes": 6005,
+      "git_commit": "9f5eec4736ba22bd992a6498c1e0052e2a795125",
+      "implementation_version": "14.1",
+      "in_domain_cases": 240,
+      "latency_ms": {
+        "mean": 1.6702649097371451,
+        "p50": 0.7238159996632021,
+        "p95": 6.7581749990495155
+      },
+      "macro_f1_including_fallback": 0.5839594731509625,
+      "ood_cases": 48,
+      "ood_false_positive_count": 0,
+      "ood_false_positive_rate": 0.0,
+      "runtime": "ChatScript 14.1",
+      "semantic_source": "frozen/bots/chatscript/benchmark.top",
+      "session_isolation": "unique ChatScript user per evaluation case; official null-message conversation start is sent and ignored before the scored volley",
+      "strict_intent_accuracy_in_domain": 0.42083333333333334,
+      "system": "ChatScript",
+      "tracks": {
+        "confounder": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 48,
+          "non_null": 0
+        },
+        "ood": {
+          "accuracy": 1.0,
+          "correct": 48,
+          "n": 48,
+          "non_null": 0
+        },
+        "paraphrase": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 48,
+          "non_null": 0
+        },
+        "seen": {
+          "accuracy": 1.0,
+          "correct": 96,
+          "n": 96,
+          "non_null": 96
+        },
+        "typo": {
+          "accuracy": 0.20833333333333334,
+          "correct": 5,
+          "n": 24,
+          "non_null": 5
+        },
+        "word_order": {
+          "accuracy": 0.0,
+          "correct": 0,
+          "n": 24,
+          "non_null": 0
+        }
+      },
+      "transport": "official ChatScript TCP protocol over localhost",
+      "wrong_intent_count": 0,
+      "wrong_intent_rate": 0.0
+    },
+    "GVYA": {
+      "artifact_bytes": 26077,
+      "build_ms": 62.575824,
+      "cases": 288,
+      "correct_in_domain": 118,
+      "deterministic_replay": true,
+      "generated_source_bytes": 22818,
+      "in_domain_cases": 240,
+      "latency_ms": {
+        "mean": 22.06122315972224,
+        "p50": 12.247508000000039,
+        "p95": 68.96115499999996
+      },
+      "macro_f1_including_fallback": 0.643238616376783,
+      "ood_cases": 48,
+      "ood_false_positive_count": 0,
+      "ood_false_positive_rate": 0,
+      "runtime": "repository Engine v1 gvya-ffi.wasm",
+      "strict_intent_accuracy_in_domain": 0.49166666666666664,
+      "system": "GVYA",
+      "tracks": {
+        "confounder": {
+          "accuracy": 0.10416666666666667,
+          "correct": 5,
+          "n": 48,
+          "non_null": 8
+        },
+        "ood": {
+          "accuracy": 1,
+          "correct": 48,
+          "n": 48,
+          "non_null": 0
+        },
+        "paraphrase": {
+          "accuracy": 0,
+          "correct": 0,
+          "n": 48,
+          "non_null": 0
+        },
+        "seen": {
+          "accuracy": 1,
+          "correct": 96,
+          "n": 96,
+          "non_null": 96
+        },
+        "typo": {
+          "accuracy": 0.6666666666666666,
+          "correct": 16,
+          "n": 24,
+          "non_null": 16
+        },
+        "word_order": {
+          "accuracy": 0.041666666666666664,
+          "correct": 1,
+          "n": 24,
+          "non_null": 1
+        }
+      },
+      "wasm_bytes": 3811290,
+      "wrong_intent_count": 3,
+      "wrong_intent_rate": 0.0125
+    }
+  }
+}

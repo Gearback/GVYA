@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.introspection-contract.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Reading one capability contract is introspection and outranks the capability/contract route",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.capability-contract"
+      ],
+      "meaning": "gvya.help.capability-introspection"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.introspection-contract.en",
+    "initial_state": {},
+    "input": "how do i read one capability contract",
+    "language": "en-US",
+    "seed": 1
+  }
+}

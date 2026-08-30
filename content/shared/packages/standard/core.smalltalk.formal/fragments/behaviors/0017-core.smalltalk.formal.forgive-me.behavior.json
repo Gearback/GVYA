@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.forgive-me.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.forgive-me.behavior",
+    "meaning": "core.smalltalk.formal.forgive-me",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.forgive-me.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I can let it pass.",
+              "Very well. Let us move on.",
+              "Please do not repeat it."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "می‌توانم از آن بگذرم.",
+              "بسیار خوب. بگذریم.",
+              "لطفاً تکرارش نکنید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

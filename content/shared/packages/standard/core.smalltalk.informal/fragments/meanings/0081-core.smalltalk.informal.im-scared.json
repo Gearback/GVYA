@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-scared",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.im-scared",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i'm scared"
+      },
+      {
+        "language": "en-US",
+        "text": "i am afraid"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می‌ترسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترسیدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وحشت کردم"
+      }
+    ]
+  }
+}

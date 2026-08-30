@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.meaning-class.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.meaning-class.behavior",
+    "meaning": "gvya.help.meaning-class",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "When a social or clarification phrase sits beside a supported task, a non-exact conversational wrapper yields only if an independently scored General Meaning reaches the normal resolution floor."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "وقتی یک عبارت اجتماعی یا شفاف‌سازی کنار یک تسک پشتیبانی‌شده بیاید، پوشش مکالمه‌ای غیردقیق تنها زمانی کوتاه می‌آید که یک Meaning از کلاس General به‌طور مستقل به کف تصمیم برسد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.meaning-class.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "MeaningClass is explicit authored metadata. IDs and package names are never used as semantic classifiers, so classification can never leak from naming conventions."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "MeaningClass فراداده‌ای است که صریحاً نوشته می‌شود. شناسه‌ها و نام پکیج هرگز به‌عنوان دسته‌بند معنایی استفاده نمی‌شوند، پس دسته‌بندی هیچ‌وقت از قرارداد نام‌گذاری نشت نمی‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

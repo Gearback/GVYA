@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.package-kinds.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.package-kinds.behavior",
+    "meaning": "gvya.help.package-kinds",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "A Fallback Package has no dependencies, cannot be depended on, cannot contribute Meanings, normal Behaviors, capabilities, bindings, policies, profiles, openings, style lexicons or types, must keep every contribution private and add-only, cannot Replace anything, and cannot be overridden by any package. That makes it one explicit root rather than another precedence layer."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "یک Fallback Package وابستگی ندارد، نمی‌توان به آن وابسته شد، نمی‌تواند Meaning یا Behavior معمولی یا capability یا binding یا policy یا profile یا opening یا style lexicon یا type بدهد، باید همهٔ مشارکت‌هایش خصوصی و فقط افزودنی باشند، نمی‌تواند چیزی را Replace کند، و هیچ پکیجی نمی‌تواند آن را override کند. همین باعث می‌شود یک ریشهٔ صریح باشد، نه یک لایهٔ تقدم دیگر."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.package-kinds.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Standard is the ordinary reusable composition unit; it may declare dependencies and use explicit whole-item Replace. Fallback is a separate self-contained conversation safety and personality unit, and a Brain selects at most one, outside the ordinary dependency graph."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏standard واحد معمولی و قابل استفادهٔ مجدد برای ترکیب است؛ می‌تواند وابستگی اعلام کند و از Replace کاملِ صریح استفاده کند. fallback یک واحد جداگانه و خودبسنده برای ایمنی و شخصیت مکالمه است، و هر Brain حداکثر یکی را انتخاب می‌کند، بیرون از گراف وابستگی معمولی."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

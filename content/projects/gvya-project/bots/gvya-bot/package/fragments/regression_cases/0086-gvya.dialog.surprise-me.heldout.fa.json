@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.surprise-me.heldout.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Discovery mode held-out Persian",
+    "expectation": {
+      "meaning": "gvya.dialog.surprise-me",
+      "response_ids": [
+        "gvya.dialog.surprise-me.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.surprise-me.heldout.fa",
+    "initial_state": {},
+    "input": "خودت یه بحث جالب درباره گویا باز کن.",
+    "language": "fa-IR",
+    "seed": 7
+  }
+}

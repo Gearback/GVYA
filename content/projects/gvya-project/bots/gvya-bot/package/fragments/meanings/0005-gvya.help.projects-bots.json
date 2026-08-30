@@ -1,0 +1,373 @@
+{
+  "exported": true,
+  "id": "gvya.help.projects-bots",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.projects-bots",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a gvya package"
+      },
+      {
+        "language": "en-US",
+        "text": "where are gvya files stored"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل های gvya کجا هستند"
+      },
+      {
+        "language": "en-US",
+        "text": "i have an empty project what should i do next"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه خالی دارم قدم بعدی چیه"
+      },
+      {
+        "language": "en-US",
+        "text": "empty project next practical step"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه خالی قدم عملی بعدی"
+      },
+      {
+        "language": "en-US",
+        "text": "make my first bot"
+      },
+      {
+        "language": "en-US",
+        "text": "quickest way to make first bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساخت اولین بات"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سریع ترین راه ساخت اولین بات"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the smallest first milestone for a new bot"
+      },
+      {
+        "language": "en-US",
+        "text": "i have an empty checkout what is the smallest path to a talking bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کوچک ترین milestone برای شروع بات جدید"
+      },
+      {
+        "language": "en-US",
+        "text": "package json document storage"
+      },
+      {
+        "language": "en-US",
+        "text": "package source fragment layout"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چیدمان fragment و فایل پکیج"
+      },
+      {
+        "language": "en-US",
+        "text": "empty project first bot path"
+      },
+      {
+        "language": "en-US",
+        "text": "empty project first bot"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the recommended way to grow a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "how should i build out a bot step by step"
+      },
+      {
+        "language": "fa-IR",
+        "text": "روش پیشنهادی برای رشد دادن یک بات چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک بات را قدم به قدم بسازم"
+      },
+      {
+        "language": "en-US",
+        "text": "can the bot reach the internet"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات به اینترنت دسترسی دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "how is this different from other chatbot frameworks"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این چه فرقی با فریم ورک های دیگر چت بات دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرقش با چت بات هوش مصنوعی معمولی چیه"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i configure letter rewrites for a language"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازنویسی حرف ها برای یک زبان را چطور تنظیم کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the difference between a shared package and the bot's own package"
+      },
+      {
+        "language": "en-US",
+        "text": "where is the bot package json file located"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ پروژه ^ بات ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ LOCALE ^ بات ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "bot.json"
+      },
+      {
+        "language": "en-US",
+        "text": "enabled languages"
+      },
+      {
+        "language": "en-US",
+        "text": "default bot language"
+      },
+      {
+        "language": "en-US",
+        "text": "project bot relationship choose package own multiple"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل bot.json"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان های فعال"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان پیش فرض بات"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه بات رابطه انتخاب پکیج متعلق چندتا"
+      },
+      {
+        "language": "en-US",
+        "text": "assistants belong one project multiple"
+      },
+      {
+        "language": "en-US",
+        "text": "bot locale selection ownership live"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دستیار چندتا پروژه یکی سازماندهی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "locale انتخاب بات نگهداری"
+      },
+      {
+        "language": "en-US",
+        "text": "every bot chooses its own languages packages ownership selection per bot"
+      }
+    ],
+    "samples": [
+      {
+        "language": "fa-IR",
+        "text": "هر بات locale انتخابی خودش را در پیکربندی بات نگه می دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "where is an individual bot locale configured"
+      },
+      {
+        "language": "fa-IR",
+        "text": "locale هر بات در تنظیمات همان بات کجا قرار دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه شامل چه بات هایی است و مالکیتشان چطور تعریف می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "projects and bots"
+      },
+      {
+        "language": "en-US",
+        "text": "how are projects and bots organized"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a gvya project"
+      },
+      {
+        "language": "en-US",
+        "text": "what belongs to a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "how do bot languages work"
+      },
+      {
+        "language": "en-US",
+        "text": "active and default bot languages"
+      },
+      {
+        "language": "en-US",
+        "text": "project bot relationship"
+      },
+      {
+        "language": "en-US",
+        "text": "where is the bot runtime language boundary declared"
+      },
+      {
+        "language": "en-US",
+        "text": "can one project have more than one bot"
+      },
+      {
+        "language": "en-US",
+        "text": "project related to bots"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه و بات در gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه ها و بات ها چطور سازماندهی می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزهایی متعلق به بات است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان های بات چطور کار می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان فعال و پیش فرض بات"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رابطه پروژه و بات"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرز زبان runtime بات کجا تعریف می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پروژه می تونه چند تا بات داشته باشه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات زبان و پکیج خودش انتخاب می کنه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رابطه پروژه و بات های داخل"
+      },
+      {
+        "language": "en-US",
+        "text": "how do projects and bots relate"
+      },
+      {
+        "language": "en-US",
+        "text": "does a project own more than one bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه و بات چه رابطه ای دارند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پروژه چند بات دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a project"
+      },
+      {
+        "language": "en-US",
+        "text": "bot in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "project in gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "bot چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "project چیه"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the difference between a project and a bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق پروژه و بات چیست"
+      }
+    ]
+  }
+}

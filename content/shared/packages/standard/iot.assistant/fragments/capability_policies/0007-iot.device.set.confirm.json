@@ -1,0 +1,14 @@
+{
+  "exported": true,
+  "id": "iot.device.set.confirm",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.set",
+    "conditions": [
+      { "namespace": "context", "op": "equal", "path": "iot.confirmation_required", "value": true }
+    ],
+    "effect": { "reason_code": "iot.confirmation_required", "type": "require_confirmation" },
+    "id": "iot.device.set.confirm",
+    "priority": 100
+  }
+}

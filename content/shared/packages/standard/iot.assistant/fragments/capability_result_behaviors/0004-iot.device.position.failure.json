@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "iot.device.position.failure",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.position",
+    "capability_version": "1",
+    "id": "iot.device.position.failure",
+    "responses": [
+      {
+        "id": "iot.device.position.failure.response",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device position could not be changed."] },
+          { "language": "fa-IR", "variants": ["تغییر وضعیت باز یا بسته دستگاه انجام نشد."] }
+        ]
+      }
+    ],
+    "succeeded": false
+  }
+}

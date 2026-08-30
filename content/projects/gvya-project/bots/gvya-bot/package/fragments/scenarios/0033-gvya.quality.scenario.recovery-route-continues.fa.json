@@ -1,0 +1,39 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.recovery-route-continues.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian recovery route hands off to a concrete matcher repair question",
+    "generated": false,
+    "id": "gvya.quality.scenario.recovery-route-continues.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {},
+        "language": "fa-IR",
+        "say": "قیمت طلا امروز چنده",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.recovery-route"
+        },
+        "language": "fa-IR",
+        "say": "رفع مشکل match",
+        "seed": 2,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher-troubleshooting"
+        },
+        "language": "fa-IR",
+        "say": "اول چه چیزی را بررسی کنم",
+        "seed": 3,
+        "type": "turn"
+      }
+    ]
+  }
+}

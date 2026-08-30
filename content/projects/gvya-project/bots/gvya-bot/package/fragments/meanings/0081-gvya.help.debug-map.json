@@ -1,0 +1,114 @@
+{
+  "exported": true,
+  "id": "gvya.help.debug-map",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.debug-map",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a trace"
+      },
+      {
+        "language": "en-US",
+        "text": "what entries does an artifact require"
+      },
+      {
+        "language": "fa-IR",
+        "text": "trace چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک آرتیفکت چه entry هایی لازم دارد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "debugmap sourcemap emit nonessential optional adjunct strip"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقشه دیباگ نقشه سورس اختیاری غیرضروری حذف"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is the debug source map"
+      },
+      {
+        "language": "en-US",
+        "text": "is the debug map shipped in production"
+      },
+      {
+        "language": "en-US",
+        "text": "what is emit_debug_map"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i trace a decision back to source"
+      },
+      {
+        "language": "en-US",
+        "text": "is the debug map essential"
+      },
+      {
+        "language": "en-US",
+        "text": "does removing the debug map change behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "how large can the debug map be"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the debug map"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقشه دیباگ سورس چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقشه دیباگ در محصول نهایی هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "emit_debug_map چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک تصمیم را به سورس برگردانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقشه دیباگ essential است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حذف نقشه دیباگ رفتار را عوض می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقشه دیباگ چقدر می تواند بزرگ باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقشه دیباگ را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the debug map"
+      },
+      {
+        "language": "fa-IR",
+        "text": "debug map چیست"
+      }
+    ]
+  }
+}

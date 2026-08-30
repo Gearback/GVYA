@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-signing.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.artifact-signing.behavior",
+    "meaning": "gvya.help.artifact-signing",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "That is why you can build once and attach a signature afterwards. Whether a signature is trusted is a host and application trust policy in the runtime and SDK layer, not a compiler decision."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "به همین دلیل می‌توانی یک‌بار build کنی و بعداً امضا را پیوست کنی. اینکه یک امضا معتبر است یا نه، سیاست اعتماد میزبان و برنامه در لایهٔ runtime و SDK است، نه تصمیم کامپایلر."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.artifact-signing.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Signing is optional and uses a content root derived from the sorted set of essential kind, path and digest tuples. Signature entry bytes are deliberately excluded from that root, so attaching a signature does not change what was signed."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "امضا اختیاری است و از یک ریشهٔ محتوا استفاده می‌کند که از مجموعهٔ مرتب‌شدهٔ سه‌تایی‌های نوع و مسیر و چکیدهٔ entryهای essential ساخته می‌شود. بایت‌های entry امضا عمداً از آن ریشه کنار گذاشته می‌شوند، پس پیوست کردن امضا آنچه امضا شده را تغییر نمی‌دهد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

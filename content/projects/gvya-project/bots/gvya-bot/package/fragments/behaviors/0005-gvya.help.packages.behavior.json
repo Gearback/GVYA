@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.packages.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.packages.behavior",
+    "meaning": "gvya.help.packages",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Shared source stays in Shared scope; Project Packages contain only Project-owned source. Bot-specific Standard replacements live in the Bot Package. Next ask how the resolved graph reaches runtime."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "source مشترک در Shared می‌ماند؛ Project Package فقط source متعلق به همان Project است. جایگزینی Standard مخصوص Bot داخل Bot Package می‌رود. بعد بپرس graph نهایی چطور به runtime می‌رسد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.packages.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Standard Package groups reusable meanings, behaviors, responses, and optional capability contracts. A Bot references Shared source live or selects Project-owned source; compile snapshots the resolved graph into .gvya without persisting Shared copies under the Project."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Standard Package مجموعه‌ای reusable از meaning، behavior، response و در صورت نیاز capability contract است. Bot به source مشترک به‌صورت live reference وصل می‌شود یا source متعلق به Project را انتخاب می‌کند؛ compile graph نهایی را داخل .gvya snapshot می‌کند و copy مشترک زیر Project ذخیره نمی‌شود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

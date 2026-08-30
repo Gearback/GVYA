@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.route.matcher.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Menu route matcher Persian",
+    "expectation": {
+      "meaning": "gvya.help.matcher",
+      "response_ids": [
+        "gvya.help.matcher.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.route.matcher.fa",
+    "initial_state": {},
+    "input": "matcher",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.wire-turn-request.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.wire-turn-request.behavior",
+    "meaning": "gvya.help.wire-turn-request",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "utterance.language is an optional explicit host decision — language detection itself lives outside the runtime — and it is accepted as primary only when it resolves to an artifact enabled_languages member."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏utterance.language یک تصمیم صریح و اختیاری میزبان است — خودِ تشخیص زبان بیرون از runtime است — و فقط وقتی به‌عنوان زبان اصلی پذیرفته می‌شود که به یکی از اعضای ‎enabled_languages‎ آرتیفکت برسد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.wire-turn-request.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A turn request carries the utterance plus the explicit runtime inputs the kernels need: host context, visible references, available capabilities, GVYA state, resolver reference candidates and context, system values, language policy, a hint request, a deterministic seed, and confirmation grants."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک درخواست turn شامل گفته به‌علاوهٔ ورودی‌های صریحی است که هسته‌ها لازم دارند: زمینهٔ میزبان، referenceهای قابل مشاهده، capabilityهای در دسترس، وضعیت GVYA، نامزدها و زمینهٔ resolver، مقادیر system، سیاست زبان، درخواست راهنمایی، یک seed قطعی، و مجوزهای تأیید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

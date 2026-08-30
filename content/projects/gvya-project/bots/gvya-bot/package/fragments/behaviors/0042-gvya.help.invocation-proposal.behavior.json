@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.invocation-proposal.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.invocation-proposal.behavior",
+    "meaning": "gvya.help.invocation-proposal",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The fingerprint detects stale confirmations; it is not a cryptographic authorization token, and host security stays host-owned. A proposal is not evidence that execution occurred — the host returns a Capability Result if the brain needs to observe the outcome."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "اثرانگشت برای تشخیص تأییدهای کهنه است؛ توکن مجوز رمزنگاری‌شده نیست و امنیت میزبان بر عهدهٔ خود میزبان می‌ماند. پیشنهاد مدرکِ اجرا شدن نیست — اگر brain بخواهد نتیجه را ببیند، میزبان یک Capability Result برمی‌گرداند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.invocation-proposal.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "An Invocation Proposal is an admitted, typed request for the host to execute a declared capability. It carries a stable proposal id for correlation, the exact capability id and version, validated arguments, reference identities, a deterministic version-plus-arguments fingerprint, and a trace correlation id."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Invocation Proposal درخواستی پذیرفته‌شده و تایپ‌شده است تا میزبان یک capability اعلام‌شده را اجرا کند. شامل شناسهٔ پایدار برای همبستگی، شناسه و نسخهٔ دقیق capability، آرگومان‌های اعتبارسنجی‌شده، هویت referenceها، اثرانگشت قطعیِ نسخه و آرگومان‌ها، و شناسهٔ همبستگی trace است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

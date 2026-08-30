@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.contribution-modes.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural partial-extension question resolves to the contribution contract",
+    "expectation": {
+      "meaning": "gvya.help.contribution-modes"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.contribution-modes.en",
+    "initial_state": {},
+    "input": "Can I extend a package item without replacing all of it?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

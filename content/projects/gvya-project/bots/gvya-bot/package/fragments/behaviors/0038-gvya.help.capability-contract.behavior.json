@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.capability-contract.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.capability-contract.behavior",
+    "meaning": "gvya.help.capability-contract",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Identity is CapabilityId plus CapabilityVersion. The schema uses a constrained self-contained JSON Schema 2020-12 profile; external network $ref resolution is forbidden. A contract declares what may be requested — it holds no executable host implementation."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هویت برابر است با CapabilityId به‌علاوهٔ CapabilityVersion. schema از پروفایل محدود و خودبسندهٔ JSON Schema 2020-12 استفاده می‌کند؛ حل ‎$ref‎ شبکه‌ای ممنوع است. قرارداد فقط اعلام می‌کند چه چیزی قابل درخواست است — هیچ پیاده‌سازی اجرایی ندارد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.capability-contract.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Capability Contract declares an effectful operation the host may implement. It carries a stable CapabilityId, title and description, an input schema, an optional output schema, declared reference kinds, effect and risk metadata, confirmation policy hints, and a version identity."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Capability Contract عملیاتی اثرگذار را اعلام می‌کند که میزبان ممکن است پیاده کند. شامل CapabilityId پایدار، عنوان و توضیح، schema ورودی، schema خروجی اختیاری، انواع reference اعلام‌شده، فرادادهٔ اثر و ریسک، راهنمای سیاست تأیید، و هویت نسخه است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

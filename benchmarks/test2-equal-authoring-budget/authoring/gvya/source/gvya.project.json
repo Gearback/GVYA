@@ -1,0 +1,16 @@
+{
+  "brain_id": "foliobox-test2",
+  "default_language": "en",
+  "enabled_languages": [
+    "en"
+  ],
+  "format": "gvya.source.project",
+  "languages": [
+    "en"
+  ],
+  "packages": [
+    "packages/base/package.json"
+  ],
+  "project_id": "benchmark-test2-fair",
+  "version": 1
+}

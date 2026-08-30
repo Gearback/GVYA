@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.normalization.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.normalization.behavior",
+    "meaning": "gvya.help.normalization",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The kernel ships no built-in language policy at all, so every colloquial and canonical rewrite is authored data you can read and edit."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هسته هیچ سیاست زبانی داخلی ندارد، پس هر بازنویسی محاوره‌ای و کانونی، داده‌ای نوشته‌شده است که می‌توانی بخوانی و ویرایش کنی."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.normalization.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Input is normalized deterministically with Unicode NFC plus lowercase and whitespace folding, using Unicode 15.1 tables pinned inside the kernel. Script, transliteration and diacritic rewrites are not built in: they come from the Language Profile's normalization_rewrites and normalization_remove_chars."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ورودی به‌صورت قطعی با Unicode NFC به‌همراه کوچک‌سازی حروف و یکسان‌سازی فاصله نرمال می‌شود، با جدول‌های Unicode 15.1 که داخل هسته پین شده‌اند. بازنویسی خط و آوانویسی و اعراب داخلی نیست: از ‎normalization_rewrites‎ و ‎normalization_remove_chars‎ در Language Profile می‌آید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

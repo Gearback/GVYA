@@ -1,0 +1,20 @@
+{
+  "id": "hello",
+  "value": {
+    "id": "hello",
+    "meaning": "hello",
+    "responses": [
+      {
+        "id": "hello.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "Hello"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

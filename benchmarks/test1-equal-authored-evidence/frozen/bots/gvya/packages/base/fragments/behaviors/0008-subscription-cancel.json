@@ -1,0 +1,20 @@
+{
+  "id": "subscription.cancel.behavior",
+  "value": {
+    "id": "subscription.cancel.behavior",
+    "meaning": "subscription.cancel",
+    "responses": [
+      {
+        "id": "subscription.cancel.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SUBSCRIPTION_CANCEL"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

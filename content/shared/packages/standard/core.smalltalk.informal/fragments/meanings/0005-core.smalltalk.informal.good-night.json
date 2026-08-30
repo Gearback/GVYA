@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.good-night",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.good-night",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "good night"
+      },
+      {
+        "language": "en-US",
+        "text": "night"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شب بخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شبت بخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خواب بخیر"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "exported": true,
+  "id": "iot.device.stop.binding",
+  "mode": "add",
+  "value": {
+    "arguments": [
+      { "source": { "kind": "iot.device", "projection": "id", "type": "meaning_reference" }, "target": "device" },
+      { "source": { "type": "literal", "value": "stopped" }, "target": "state" }
+    ],
+    "capability": "iot.device.run",
+    "id": "iot.device.stop.binding",
+    "trigger": { "meaning": "iot.device.stop" }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-container.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.artifact-container.behavior",
+    "meaning": "gvya.help.artifact-container",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "ZIP was rejected because it adds timestamps, compression choices, extraction behavior and duplicate-entry semantics. Entries are strictly sorted by UTF-8 path, payloads follow contiguously in the same order, and gaps, overlaps, reordering or trailing bytes are invalid."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏ZIP رد شد چون زمان، انتخاب فشرده‌سازی، رفتار استخراج و معنای entry تکراری اضافه می‌کند. entryها دقیقاً بر اساس مسیر UTF-8 مرتب‌اند، payloadها پشت‌سرهم و به همان ترتیب می‌آیند، و فاصله، هم‌پوشانی، جابه‌جایی یا بایت اضافی نامعتبر است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.artifact-container.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A .gvya file is a small custom container, deliberately not a ZIP. Its header holds the magic bytes GVYA\\r\\n\\x1a\\n, a container version of 1, reserved flags, the entry count and the entry-table byte length, all as unsigned little-endian integers, with no timestamp or machine metadata."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک فایل ‎.gvya‎ یک کانتینر کوچک اختصاصی است و عمداً ZIP نیست. هدرش شامل بایت‌های جادویی ‎GVYA\\r\\n\\x1a\\n‎، نسخهٔ کانتینر ۱، پرچم‌های رزرو، تعداد entry و طول جدول entry است، همه به‌صورت اعداد بدون علامت little-endian، بدون هیچ زمان یا فرادادهٔ ماشین."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

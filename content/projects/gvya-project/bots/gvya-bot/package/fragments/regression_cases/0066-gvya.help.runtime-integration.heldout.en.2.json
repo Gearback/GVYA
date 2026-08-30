@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.runtime-integration.heldout.en.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Embedding the runtime through supported host edges held-out en-US coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.runtime-integration",
+      "response_ids": [
+        "gvya.help.runtime-integration.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.runtime-integration.heldout.en.2",
+    "initial_state": {},
+    "input": "Can a web app and a Godot game both host GVYA?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-tired",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.are-you-tired",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "are you tired"
+      },
+      {
+        "language": "en-US",
+        "text": "you tired"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خسته‌ای"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خسته شدی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خواب آلودی"
+      }
+    ]
+  }
+}

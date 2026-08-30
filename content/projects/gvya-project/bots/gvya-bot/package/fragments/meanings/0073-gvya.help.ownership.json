@@ -1,0 +1,205 @@
+{
+  "exported": true,
+  "id": "gvya.help.ownership",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.ownership",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a capability contract"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i wire it into my application"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability contract چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور آن را به برنامه ام وصل کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "Describe the ownership chain between compiler, runtime, and application."
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "^ HOST DO ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 30,
+        "text": "^ مالکیت ^ RUNTIME ^ HOST ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "ownership boundary owns responsibility divides host compiler authoring"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مالکیت مرز مسئولیت تقسیم میزبان کامپایلر نویسندگی"
+      },
+      {
+        "language": "en-US",
+        "text": "responsibility split boundary gvya embedding host application owns execution persistence rendering"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرز تقسیم مسئولیت gvya host application مالکیت اجرا persistence rendering"
+      },
+      {
+        "language": "en-US",
+        "text": "responsible ownership division boundary gvya host persistence rendering execution"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مسئول تقسیم کار مرز بین gvya میزبان مالک کدام طرف"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مسئولیت مالکیت مرز کدام طرف میزبان gvya رندر ذخیره اجرا"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "so which responsibilities belong to the embedding host"
+      },
+      {
+        "language": "en-US",
+        "text": "who owns what between gvya and my app"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the host own"
+      },
+      {
+        "language": "en-US",
+        "text": "what does gvya never do"
+      },
+      {
+        "language": "en-US",
+        "text": "who executes a capability"
+      },
+      {
+        "language": "en-US",
+        "text": "who persists conversation state"
+      },
+      {
+        "language": "en-US",
+        "text": "who renders the response"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the ownership boundary"
+      },
+      {
+        "language": "en-US",
+        "text": "explain ownership"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین gvya و برنامه من چه کسی مالک چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان مالک چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چه کاری هرگز نمی کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی capability را اجرا می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی وضعیت مکالمه را ذخیره می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی پاسخ را رندر می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرز مالکیت چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مالکیت را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "who decides the final answer"
+      },
+      {
+        "language": "en-US",
+        "text": "what does gvya own and what does the host own"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی مال gvya است و چه چیزی مال host"
+      },
+      {
+        "language": "en-US",
+        "text": "who is responsible for what between gvya and my app"
+      },
+      {
+        "language": "en-US",
+        "text": "where does gvya stop and my code start"
+      },
+      {
+        "language": "en-US",
+        "text": "which side owns persistence and rendering"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the work divided between the brain and the host"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین gvya و برنامه من هر کدام مسئول چه چیزی هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya کجا تمام می شود و کد من کجا شروع می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ذخیره سازی و نمایش مال کدام طرف است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کار بین brain و میزبان چطور تقسیم شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرز مسئولیت gvya و میزبان کجاست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام طرف مالک state و رندر است"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the host do"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the host supposed to do"
+      }
+    ]
+  }
+}

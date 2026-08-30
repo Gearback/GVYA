@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.quality.novice.match.bad.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Novice natural-language regression: اگه مچ اشتباه باشه چی کار کنم؟",
+    "expectation": {
+      "meaning": "gvya.help.matcher-troubleshooting",
+      "response_ids": [
+        "gvya.help.matcher-troubleshooting.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.quality.novice.match.bad.fa",
+    "initial_state": {},
+    "input": "اگه مچ اشتباه باشه چی کار کنم؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

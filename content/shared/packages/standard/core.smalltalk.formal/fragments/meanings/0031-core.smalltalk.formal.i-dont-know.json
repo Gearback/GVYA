@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-dont-know",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.i-dont-know",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i don't know"
+      },
+      {
+        "language": "en-US",
+        "text": "dunno"
+      },
+      {
+        "language": "en-US",
+        "text": "no idea"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمی‌دونم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ایده‌ای ندارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خبر ندارم"
+      }
+    ]
+  }
+}

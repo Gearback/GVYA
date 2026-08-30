@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.reuse-behaviors.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A typo-tolerant reuse question reaches package reuse guidance",
+    "expectation": {
+      "meaning": "gvya.help.packages"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.reuse-behaviors.en",
+    "initial_state": {},
+    "input": "how do i reuse behavors",
+    "language": "en-US",
+    "seed": 1
+  }
+}

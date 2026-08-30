@@ -1,0 +1,24 @@
+{
+  "id": "support.hours",
+  "value": {
+    "id": "support.hours",
+    "samples": [
+      {
+        "language": "en",
+        "text": "when is support open"
+      },
+      {
+        "language": "en",
+        "text": "what are support hours"
+      },
+      {
+        "language": "en",
+        "text": "when can i contact customer service"
+      },
+      {
+        "language": "en",
+        "text": "what time does the support team work"
+      }
+    ]
+  }
+}

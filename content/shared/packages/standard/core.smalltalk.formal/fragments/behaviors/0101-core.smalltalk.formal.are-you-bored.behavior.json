@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-bored.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.are-you-bored.behavior",
+    "meaning": "core.smalltalk.formal.are-you-bored",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.are-you-bored.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Not yet.",
+              "Boredom depends on the company.",
+              "Keep it interesting."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "هنوز نه.",
+              "حوصله به هم‌صحبت بستگی دارد.",
+              "جالب نگهش دارید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "exported": true,
+  "id": "gvya.help.structural-patterns.atom.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian pattern_set alias captures the same canonical atom value",
+    "expectation": {
+      "meaning": "gvya.help.structural-patterns",
+      "meaning_slots": {
+        "atom": "zero_or_more"
+      },
+      "response_ids": [
+        "gvya.help.structural-patterns.caret"
+      ],
+      "why_codes": [
+        "semantic.structural.matched",
+        "semantic.decision.structural"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.structural-patterns.atom.fa",
+    "initial_state": {},
+    "input": "علامت caret در pattern GVYA یعنی چی؟",
+    "language": "fa-IR",
+    "seed": 76
+  }
+}

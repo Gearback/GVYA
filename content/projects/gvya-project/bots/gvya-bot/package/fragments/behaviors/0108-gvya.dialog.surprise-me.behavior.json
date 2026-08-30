@@ -1,0 +1,89 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.surprise-me.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "gvya.dialog.surprise-me.behavior",
+    "meaning": "gvya.dialog.surprise-me",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Ask why that matters, ask for another one, or name a lane: architecture, authoring, matcher, runtime, shipping.",
+                  "Want another one, or name a lane: architecture, authoring, matcher, runtime, shipping.",
+                  "Throw me one word—matcher, authoring, runtime, shipping—or say “another one.”",
+                  "Keep wandering with “another one”, or pull us back to architecture, authoring, matcher, runtime, or shipping.",
+                  "Your move: another oddity, or one concrete lane—matcher, authoring, runtime, shipping."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "بپرس چرا مهم است، یک نکتهٔ دیگر بخواه، یا یک مسیر را نام ببر: معماری، authoring، matcher، runtime، انتشار.",
+                  "یکی دیگه می‌خواهی، یا یک مسیر را نام ببر: معماری، authoring، matcher، runtime، انتشار.",
+                  "یک کلمه پرت کن—matcher، authoring، runtime، shipping—یا بگو «یکی دیگه».",
+                  "با «یکی دیگه» به گشتن ادامه بده، یا برگردیم به معماری، authoring، matcher، runtime یا shipping.",
+                  "حرکت بعدی با تو: یک نکتهٔ عجیب دیگر، یا یک مسیر مشخص—matcher، authoring، runtime، shipping."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.dialog.surprise-me.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.discovery",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A useful weird thing: a GVYA brain can propose a capability, but it never executes that capability itself. The host remains the executor.",
+              "A good rabbit hole: GVYA’s matcher is deterministic and inspectable. A winning Meaning comes with evidence instead of a hidden model guess.",
+              "One design choice worth noticing: every Bot owns a private Package that dies with the Bot, while reusable behavior belongs in separate Packages.",
+              "A practical authoring trick: grow one vertical slice at a time—Meaning, Behavior, direct test—then let check-change expand only the required blast radius.",
+              "The .gvya file is data, not a little application. The same compiled brain can move between hosts that implement the capability surface it declares.",
+              "Conversation continuity is explicit: topics, follow-ups, repeat memory and repair live in state instead of a hidden server session.",
+              "A structural pattern is closer to a tiny parser rule than training data: it wins before semantic scoring, so broad patterns deserve code-review suspicion.",
+              "Short samples are expensive. Teaching `right` as a standalone reply is incomplete until `right triangle formula` proves it will not steal the longer task.",
+              "Fallback is not a fake catch-all intent in GVYA. It is its own behavior layer, which means honesty does not have to compete with real Meanings.",
+              "Response variants change voice, not understanding. Five witty replies cannot repair one bad semantic boundary.",
+              "The kernel has no favorite language. The Project's Matcher Profiles are the complete language inventory for that authoring target.",
+              "A candidate source is not improved just because it compiles. check-change asks whether every changed mechanic has a manual test that actually observes it.",
+              "One negative sample can be more useful than ten positives when it names the exact neighboring Meaning that must not win.",
+              "GVYA treats an unknown as a product state, not an embarrassment: fail closed, offer a bounded move, and let a normal Meaning end recovery."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک نکتهٔ عجیب و مهم: brain در GVYA می‌تواند capability پیشنهاد کند، اما خودش آن capability را اجرا نمی‌کند؛ اجرا همیشه دست host می‌ماند.",
+              "یک rabbit hole خوب: matcher در GVYA قطعی و قابل‌بررسی است؛ Meaning برنده evidence دارد، نه یک حدس پنهان مدل.",
+              "یک انتخاب طراحی جالب: هر Bot یک Package خصوصی دارد که با خود Bot حذف می‌شود، ولی رفتار reusable در Packageهای جدا می‌ماند.",
+              "یک ترفند عملی authoring: هر بار فقط یک vertical slice بساز—Meaning، Behavior و تست مستقیم—بعد check-change فقط blast radius لازم را باز می‌کند.",
+              "فایل .gvya یک برنامهٔ کوچک نیست؛ data است. همان brain کامپایل‌شده می‌تواند بین hostهایی جابه‌جا شود که capabilityهای اعلام‌شده‌اش را پیاده می‌کنند.",
+              "پیوستگی مکالمه در GVYA صریح است: topic، follow-up، repeat memory و repair در state هستند، نه در یک session پنهان روی سرور.",
+              "Structural pattern بیشتر شبیه یک parser rule کوچک است تا training data: قبل از semantic scoring برنده می‌شود، پس pattern پهن باید مثل code مشکوک بررسی شود.",
+              "Sample کوتاه گران است. آموزش `right` به‌عنوان جواب مستقل کامل نیست تا وقتی `right triangle formula` ثابت کند جملهٔ بلندتر دزدیده نمی‌شود.",
+              "Fallback در GVYA یک intent تقلبیِ catch-all نیست؛ لایهٔ behavior خودش است، پس صداقت مجبور نیست با Meaningهای واقعی رقابت کند.",
+              "Response variant لحن را عوض می‌کند، نه فهم را. پنج جواب بامزه یک semantic boundary خراب را درست نمی‌کنند.",
+              "Kernel هیچ زبان محبوبی ندارد؛ Matcher Profileهای Project کل inventory زبان همان authoring target هستند.",
+              "Candidate فقط چون compile می‌شود بهتر نشده؛ check-change می‌پرسد هر mechanic تغییرکرده یک تست دستی دارد که واقعاً آن را مشاهده کند یا نه.",
+              "وقتی negative دقیقاً نزدیک‌ترین Meaning اشتباه را نام می‌برد، یک negative sample می‌تواند از ده positive مفیدتر باشد.",
+              "GVYA unknown را یک وضعیت محصول می‌داند، نه مایهٔ خجالت: صادقانه fail کن، یک حرکت محدود بده و بگذار Meaning عادی recovery را تمام کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

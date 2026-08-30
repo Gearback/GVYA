@@ -1,0 +1,8 @@
+{
+  "system": "GVYA",
+  "cases": 150,
+  "build_ms": 47.676390000000005,
+  "artifact_bytes": 27997,
+  "source_bytes": 26549,
+  "deterministic_replay": true
+}

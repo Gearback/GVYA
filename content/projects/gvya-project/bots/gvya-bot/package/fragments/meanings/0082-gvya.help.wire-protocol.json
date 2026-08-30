@@ -1,0 +1,122 @@
+{
+  "exported": true,
+  "id": "gvya.help.wire-protocol",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.wire-protocol",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i wire it into my application"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a turn request"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور آن را به برنامه ام وصل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست turn چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "wireprotocol json boundary adapter format version unknown fields"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروتکل سیم json مرز آداپتور فرمت نسخه ناشناخته"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host runtime wire contract"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is the runtime wire protocol"
+      },
+      {
+        "language": "en-US",
+        "text": "what formats does the wire define"
+      },
+      {
+        "language": "en-US",
+        "text": "is the wire protocol gvya source"
+      },
+      {
+        "language": "en-US",
+        "text": "why does every request carry a format and version"
+      },
+      {
+        "language": "en-US",
+        "text": "can an adapter add ambient data"
+      },
+      {
+        "language": "en-US",
+        "text": "what serialization is used"
+      },
+      {
+        "language": "en-US",
+        "text": "are unknown fields accepted"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the wire protocol"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروتکل wire رانتایم چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "wire چه فرمت هایی تعریف می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروتکل wire همان source است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا هر درخواست format و version دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک adapter می تواند داده محیطی اضافه کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه سریال سازی استفاده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فیلدهای ناشناخته پذیرفته می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروتکل wire را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the wire protocol"
+      },
+      {
+        "language": "fa-IR",
+        "text": "wire protocol چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host runtime wire contract"
+      }
+    ]
+  }
+}

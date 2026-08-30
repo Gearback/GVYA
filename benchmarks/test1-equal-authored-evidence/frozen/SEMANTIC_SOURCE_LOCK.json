@@ -1,0 +1,277 @@
+{
+  "benchmark_spec_sha256": "8dc54256a3eebc5fbca4c2930d3ad133378d524fc54a002909c6b97482e220d4",
+  "files": [
+    {
+      "bytes": 200,
+      "path": "bots/aiml2/README.txt",
+      "sha256": "488f77b45cfa43b12afc5cb33ea58dde3296572ada18540abdeec624d33c1faa"
+    },
+    {
+      "bytes": 12085,
+      "path": "bots/aiml2/benchmark.aiml",
+      "sha256": "9fb89826b6db175be9a9279c4983c9a878eb10ec7372a04f9d75ea67f8014ba9"
+    },
+    {
+      "bytes": 319,
+      "path": "bots/chatscript/README.txt",
+      "sha256": "170d734b516e91f78ca42c6a874595aefe24c08d673556f14fb790572f0e81a6"
+    },
+    {
+      "bytes": 6005,
+      "path": "bots/chatscript/benchmark.top",
+      "sha256": "68d7438edbd5ff4c3c40bc4b5be1a11e1b72c2d805ef58035827fc02eb36743c"
+    },
+    {
+      "bytes": 278,
+      "path": "bots/gvya/gvya.project.json",
+      "sha256": "1646b9efdd3bdfb09effc3089d0d5b4cc894f5e47cf9a1a7c8b2914742ddb55e"
+    },
+    {
+      "bytes": 366,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0001-account-create.json",
+      "sha256": "6e6e5ae3d9fff75c0fa63087d36ba65c2a06277c6976ac655a0dbc620076c904"
+    },
+    {
+      "bytes": 366,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0002-account-delete.json",
+      "sha256": "8cb9ee1cb97c0bc4688b171a9f40617aff46967a7646bddafa3515da8f3268d2"
+    },
+    {
+      "bytes": 366,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0003-password-reset.json",
+      "sha256": "06e3aaad06527d8207b567f51351943be50650ec62108a47d4b98a7ec7a0a7da"
+    },
+    {
+      "bytes": 356,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0004-email-change.json",
+      "sha256": "4489e161ad1b65fa01add5ddac7f73d874a7482cd5cfe453d09491ff32993652"
+    },
+    {
+      "bytes": 371,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0005-billing-receipt.json",
+      "sha256": "9b83986a79a7694e63911e48740d9a641628e2832b250835c02240003acbd9f4"
+    },
+    {
+      "bytes": 366,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0006-billing-refund.json",
+      "sha256": "a726b04203b02b3244e58ca1f0ac154cbf7473a46962956ab7357dab34dcc0b6"
+    },
+    {
+      "bytes": 406,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0007-billing-payment_failed.json",
+      "sha256": "5e97852100bcead84bf12d62bd6d0187d2a36f18313e874d4d6848289a292607"
+    },
+    {
+      "bytes": 391,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0008-subscription-cancel.json",
+      "sha256": "dd83572c1c474397b697bcde13cd5e5d842768d883702be30c5eaed28e8cc448"
+    },
+    {
+      "bytes": 356,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0009-order-status.json",
+      "sha256": "dee8ea6e3dec11d31b29fb0eeca81a69e24f2c6a25794b93487e82f60f4fedd8"
+    },
+    {
+      "bytes": 356,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0010-order-cancel.json",
+      "sha256": "f65389f118fc1166335e340259001ad28ccecfb44d5eae617b87a2346de36529"
+    },
+    {
+      "bytes": 411,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0011-shipping-address_change.json",
+      "sha256": "48815ac3fb0e0965169f921b3ac3050769b092ab92647616d60a27a748ea67f2"
+    },
+    {
+      "bytes": 361,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0012-shipping-cost.json",
+      "sha256": "5c62bdbdc78bdc3dc0f21719986b28e21d2b94841319e76a4f41b020ad73aa0f"
+    },
+    {
+      "bytes": 401,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0013-product-compatibility.json",
+      "sha256": "e6a7acdaf48acca8501d8b6e15e178f52197c754c63f82b8eb331c11c9ed5286"
+    },
+    {
+      "bytes": 396,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0014-product-requirements.json",
+      "sha256": "6b00a1f2f91d2337edfe58389de312ee8308f2ab014daba8f07571a040bf8945"
+    },
+    {
+      "bytes": 351,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0015-app-install.json",
+      "sha256": "22036c0669aa674f3e98b262abb2f828bf9d1e982e7660c6fae8140a93b212e5"
+    },
+    {
+      "bytes": 346,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0016-app-update.json",
+      "sha256": "d515bb19b1436992bc690fc3ee5aa13de47b25ef1127553f87f0f5560de7413b"
+    },
+    {
+      "bytes": 351,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0017-data-export.json",
+      "sha256": "4242372e1bc89d062429778cfb93b8c6e061ec0faf08ee84a1a943971a49e076"
+    },
+    {
+      "bytes": 351,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0018-data-delete.json",
+      "sha256": "2afd595129a769dc9b38089f2ec7d888165f2b9bdc6c6d6cc2fba24021856ba2"
+    },
+    {
+      "bytes": 341,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0019-data-sync.json",
+      "sha256": "ddd8c0940f270905ab7e4de51c4158e0a1c64871fc80e62ef44b7e08f4bd1323"
+    },
+    {
+      "bytes": 356,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0020-offline-mode.json",
+      "sha256": "89ba7c15e407dd004e569afe292ca2279b0171014b4c8a9b597d2eb65ca12731"
+    },
+    {
+      "bytes": 391,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0021-security-two_factor.json",
+      "sha256": "80f791e5198e8d08b3c662504748e6759e82cec904d950c476c6d63365cb349a"
+    },
+    {
+      "bytes": 381,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0022-security-sessions.json",
+      "sha256": "bd4322796645fb6aa2142d756ea9292bc9259969e27d54c274b2e6f79cc38dbb"
+    },
+    {
+      "bytes": 371,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0023-support-contact.json",
+      "sha256": "629d43ade6c6c6b1e6dd5eac6f926ce11613231691f38e74d668a0969b8eba83"
+    },
+    {
+      "bytes": 361,
+      "path": "bots/gvya/packages/base/fragments/behaviors/0024-support-hours.json",
+      "sha256": "a6714bbdc58869eea9924543febf22befdfe3245c3d1c347b0fa9b03fad3a704"
+    },
+    {
+      "bytes": 429,
+      "path": "bots/gvya/packages/base/fragments/meanings/0001-account-create.json",
+      "sha256": "f1320b8615b0d979ca526b062e79ad85090e178979f91e520022241b5fbe98e4"
+    },
+    {
+      "bytes": 442,
+      "path": "bots/gvya/packages/base/fragments/meanings/0002-account-delete.json",
+      "sha256": "0ad5f75604513f7c0e6c748ad4736bdd7aea5099d539ed48fc5d0ddac5b8713a"
+    },
+    {
+      "bytes": 446,
+      "path": "bots/gvya/packages/base/fragments/meanings/0003-password-reset.json",
+      "sha256": "7ad9f800485bdbf0345608287b686dc4eee34469fbf5d7451e023c0df1c25580"
+    },
+    {
+      "bytes": 461,
+      "path": "bots/gvya/packages/base/fragments/meanings/0004-email-change.json",
+      "sha256": "99838f23168c809119f999263cddcbbfb7559a87351caf11b4d6ad93b457b863"
+    },
+    {
+      "bytes": 450,
+      "path": "bots/gvya/packages/base/fragments/meanings/0005-billing-receipt.json",
+      "sha256": "742fa1c30caba6899420c60f7e63ccaea593ec14d7867bfd967caf885b117b1c"
+    },
+    {
+      "bytes": 428,
+      "path": "bots/gvya/packages/base/fragments/meanings/0006-billing-refund.json",
+      "sha256": "fe8173a90269ad432a6dadda13cee1748e101ac8e5f94d5f78ec09ed0c39e6c1"
+    },
+    {
+      "bytes": 469,
+      "path": "bots/gvya/packages/base/fragments/meanings/0007-billing-payment_failed.json",
+      "sha256": "bf006355b50740c30750f1ad61482a483c6cd91d3ce962ac1e877ffdb77bc166"
+    },
+    {
+      "bytes": 447,
+      "path": "bots/gvya/packages/base/fragments/meanings/0008-subscription-cancel.json",
+      "sha256": "72ab7f7edbe9049bcdc948269b630dcbda830d7fb671d28172b73118f70de850"
+    },
+    {
+      "bytes": 424,
+      "path": "bots/gvya/packages/base/fragments/meanings/0009-order-status.json",
+      "sha256": "9c3b594d4e65d2941c89b80b2c93a0941fdf4d9decc5f1375f6e5b2ba88c1762"
+    },
+    {
+      "bytes": 435,
+      "path": "bots/gvya/packages/base/fragments/meanings/0010-order-cancel.json",
+      "sha256": "cbd723768deb87e25226dd0230c2de5841919a63517bd8aaedc5d5a1423888f3"
+    },
+    {
+      "bytes": 489,
+      "path": "bots/gvya/packages/base/fragments/meanings/0011-shipping-address_change.json",
+      "sha256": "a24ee23f6061784b8ee389f3544a622514235550b4f8ebac2660aac162254b4c"
+    },
+    {
+      "bytes": 436,
+      "path": "bots/gvya/packages/base/fragments/meanings/0012-shipping-cost.json",
+      "sha256": "677b70e8a85a466211c0b748075ec81a8c779251153166c91c973155d9ef8aa0"
+    },
+    {
+      "bytes": 490,
+      "path": "bots/gvya/packages/base/fragments/meanings/0013-product-compatibility.json",
+      "sha256": "add62e75c82f7b261627b2603cd8e21f604b63968bd22d066e3c3f5af073e43e"
+    },
+    {
+      "bytes": 488,
+      "path": "bots/gvya/packages/base/fragments/meanings/0014-product-requirements.json",
+      "sha256": "6ade0f4f5edd599e36520733a9e16a0e2d774410d0f86e2b1c653791bfb10936"
+    },
+    {
+      "bytes": 445,
+      "path": "bots/gvya/packages/base/fragments/meanings/0015-app-install.json",
+      "sha256": "8b1936a9e49559d39eb8b0fa02615bdfb6c56eb28edf3def161b8415a5d95703"
+    },
+    {
+      "bytes": 445,
+      "path": "bots/gvya/packages/base/fragments/meanings/0016-app-update.json",
+      "sha256": "9e49ea0c13edb460990ff20c3f26d46cd21708582d38506e264cfe28fe3b6f29"
+    },
+    {
+      "bytes": 449,
+      "path": "bots/gvya/packages/base/fragments/meanings/0017-data-export.json",
+      "sha256": "5a34680235789f3a1028f0f11430c2237963217d4d634f161229e940d7e9f030"
+    },
+    {
+      "bytes": 445,
+      "path": "bots/gvya/packages/base/fragments/meanings/0018-data-delete.json",
+      "sha256": "81f70b3e88585329388f6930ea98de839fb09a992ef5d4f82e64ca0a23b2a6ab"
+    },
+    {
+      "bytes": 424,
+      "path": "bots/gvya/packages/base/fragments/meanings/0019-data-sync.json",
+      "sha256": "ca21a087c4462f05f94a02180ce28f002488fbc3489d344a7242ffb35c6643a4"
+    },
+    {
+      "bytes": 462,
+      "path": "bots/gvya/packages/base/fragments/meanings/0020-offline-mode.json",
+      "sha256": "3e7fa50ef1dff94a76472b31556a49ee5730a6fda3cb0f6aa979c46b30570e43"
+    },
+    {
+      "bytes": 474,
+      "path": "bots/gvya/packages/base/fragments/meanings/0021-security-two_factor.json",
+      "sha256": "66564e3e0167494a8e27fdeb3e604682779cde1042ac23d6c8892cac57c95eb2"
+    },
+    {
+      "bytes": 462,
+      "path": "bots/gvya/packages/base/fragments/meanings/0022-security-sessions.json",
+      "sha256": "3d9281bc44cbadd8b4304c6d0cf2e673ddf6fbe59f6ce144d3c256cba00f3b98"
+    },
+    {
+      "bytes": 463,
+      "path": "bots/gvya/packages/base/fragments/meanings/0023-support-contact.json",
+      "sha256": "e80faa0b039111a06451b2a238d13c860355b4869638f39334bffa453360aa6f"
+    },
+    {
+      "bytes": 456,
+      "path": "bots/gvya/packages/base/fragments/meanings/0024-support-hours.json",
+      "sha256": "c57e669a67edc80cc67a2215ed9b6365d1cefd130e20ede61d44039db357fa54"
+    },
+    {
+      "bytes": 2812,
+      "path": "bots/gvya/packages/base/package.json",
+      "sha256": "a1a5e047751a7518d98f376b12bc172bdd982c71bc5f5a9a54903c8cd343695c"
+    }
+  ],
+  "format": "gvya.benchmark.semantic-source-lock",
+  "version": 1
+}

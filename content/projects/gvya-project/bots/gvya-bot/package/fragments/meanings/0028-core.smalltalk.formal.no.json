@@ -1,0 +1,170 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.no",
+  "mode": {
+    "target_id": "core.smalltalk.formal.no",
+    "target_package": "core.smalltalk.formal",
+    "type": "replace"
+  },
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.no",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "yes please"
+      },
+      {
+        "language": "en-US",
+        "text": "go ahead"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بله لطفا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آره بگو"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "declining negative later"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رد کردن مخالفت بعدا"
+      },
+      {
+        "language": "en-US",
+        "text": "no"
+      },
+      {
+        "language": "en-US",
+        "text": "nope"
+      },
+      {
+        "language": "en-US",
+        "text": "nah"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خیر"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "no"
+      },
+      {
+        "language": "en-US",
+        "text": "nope"
+      },
+      {
+        "language": "en-US",
+        "text": "nah"
+      },
+      {
+        "language": "en-US",
+        "text": "not really"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه بابا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه واقعا"
+      },
+      {
+        "language": "en-US",
+        "text": "no thanks"
+      },
+      {
+        "language": "en-US",
+        "text": "not now"
+      },
+      {
+        "language": "en-US",
+        "text": "maybe later"
+      },
+      {
+        "language": "en-US",
+        "text": "skip that"
+      },
+      {
+        "language": "en-US",
+        "text": "no need"
+      },
+      {
+        "language": "en-US",
+        "text": "not right now"
+      },
+      {
+        "language": "en-US",
+        "text": "i am good thanks"
+      },
+      {
+        "language": "en-US",
+        "text": "lets skip it"
+      },
+      {
+        "language": "en-US",
+        "text": "no thank you"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه ممنون"
+      },
+      {
+        "language": "fa-IR",
+        "text": "الان نه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعدا شاید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رد کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لازم نیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "الان لازم نیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه فعلا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بگذریم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه ممنونم"
+      }
+    ]
+  }
+}

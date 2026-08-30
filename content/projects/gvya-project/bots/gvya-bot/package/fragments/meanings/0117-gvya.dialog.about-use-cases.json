@@ -1,0 +1,61 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.about-use-cases",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.about-use-cases",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what kinds of things can i build with wood"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از چوب چه وسیله ای درست کنم"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "WHAT KINDS OF THINGS CAN I BUILD WITH IT"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 30,
+        "text": "باهاش چه چیزهایی می شود ساخت"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "what build with it where use that tool products host anaphoric use cases"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باهاش چه بسازم کجا استفاده کنم کاربرد آن ابزار محصول میزبان"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what kinds of things can i build with it"
+      },
+      {
+        "language": "en-US",
+        "text": "where could i use it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باهاش چه چیزهایی میشه ساخت"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کجا میشه ازش استفاده کرد"
+      }
+    ]
+  }
+}

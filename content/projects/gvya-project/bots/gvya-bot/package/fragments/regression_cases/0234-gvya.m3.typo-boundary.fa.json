@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m3.typo-boundary.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "M3 route-collision proof",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.synonym-alias-semantics"
+      ],
+      "meaning": "gvya.help.typo-tolerance"
+    },
+    "generated": false,
+    "id": "gvya.m3.typo-boundary.fa",
+    "initial_state": {},
+    "input": "اگر یک کلمه را غلط بنویسم چه می شود؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

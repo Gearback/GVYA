@@ -1,0 +1,22 @@
+{
+  "exported": true,
+  "id": "gvya.quality.boundary.trace-audit-trail.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The per-interaction explanation record is the Trace, not the Why report or the Interaction concept",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.why-report",
+        "gvya.help.interaction"
+      ],
+      "meaning": "gvya.help.trace"
+    },
+    "generated": false,
+    "id": "gvya.quality.boundary.trace-audit-trail.en",
+    "initial_state": {},
+    "input": "is there an audit trail for a single interaction",
+    "language": "en-US",
+    "seed": 1
+  }
+}

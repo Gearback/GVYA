@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.thats-not-true.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.thats-not-true",
+      "response_ids": [
+        "core.smalltalk.formal.thats-not-true.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.thats-not-true.basic.en",
+    "initial_state": {},
+    "input": "that's not true",
+    "language": "en-US",
+    "seed": 1
+  }
+}

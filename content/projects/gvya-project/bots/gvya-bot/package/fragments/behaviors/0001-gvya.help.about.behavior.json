@@ -1,0 +1,94 @@
+{
+  "exported": true,
+  "id": "gvya.help.about.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.about.behavior",
+    "meaning": "gvya.help.about",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "You decide what the Bot may understand and say. GVYA compiles that authored behavior into one portable .gvya brain that a game, app, device, or service can load."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "تو مشخص می‌کنی Bot چه چیزهایی را بفهمد و چه جواب‌هایی بدهد. GVYA همان رفتار نوشته‌شده را به یک brain قابل‌حمل با پسوند .gvya تبدیل می‌کند که بازی، برنامه، دستگاه یا سرویس می‌تواند آن را load کند."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "GVYA is not a generative chatbot that invents a fresh answer. It stays inside the content you authored, and it asks the host application to perform any real-world action."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "GVYA چت‌بات مولدی نیست که هر بار جواب تازه‌ای بسازد. داخل محتوایی که نوشته‌ای می‌ماند و برای انجام هر کار واقعی از برنامهٔ میزبان درخواست می‌کند."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "For a concrete next step, ask for a simple example, ask what you can build with it, or ask how to make your first Bot."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "برای قدم بعدی، یک مثال ساده بخواه، بپرس چه چیزهایی می‌شود با آن ساخت، یا بپرس اولین Bot را چطور بسازی."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.about.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.about",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "GVYA helps you build predictable conversational brains for games, apps, devices, and services. You author what a Bot understands and how it responds; GVYA turns that into one portable brain.",
+              "Think of GVYA as a way to write a conversation once and run it in different products. The Bot follows the meanings, answers, and safety boundaries you explicitly authored."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "GVYA کمک می‌کند برای بازی، برنامه، دستگاه یا سرویس یک brain مکالمه‌ای قابل‌پیش‌بینی بسازی. تو مشخص می‌کنی Bot چه چیزهایی را بفهمد و چطور جواب بدهد؛ GVYA آن را به یک brain قابل‌حمل تبدیل می‌کند.",
+              "GVYA راهی است برای اینکه یک مکالمه را یک بار بنویسی و در محصول‌های مختلف اجرا کنی. Bot فقط از Meaningها، جواب‌ها و مرزهای امنی پیروی می‌کند که صریح نوشته‌ای."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

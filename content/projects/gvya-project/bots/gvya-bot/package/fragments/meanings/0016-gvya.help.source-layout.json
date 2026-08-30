@@ -1,0 +1,284 @@
+{
+  "exported": true,
+  "id": "gvya.help.source-layout",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.source-layout",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "پروژه چه رابطه ای با بات های متعلق به خودش دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "source files linux package"
+      },
+      {
+        "language": "en-US",
+        "text": "linux package source files"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل source پکیج لینوکس"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a gvya package"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i build gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya را چطور build کنم"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ PROJECT ^ BOT ^ PACKAGE ^ SOURCES ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "project.json"
+      },
+      {
+        "language": "en-US",
+        "text": "bot.json"
+      },
+      {
+        "language": "en-US",
+        "text": "package.json"
+      },
+      {
+        "language": "en-US",
+        "text": "content tree"
+      },
+      {
+        "language": "en-US",
+        "text": "directory folder copy move portable private location"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل project.json"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل bot.json"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل package.json"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخت content"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دایرکتوری فولدر کپی انتقال قابل حمل خصوصی مکان"
+      },
+      {
+        "language": "en-US",
+        "text": "backup unit client project folder"
+      },
+      {
+        "language": "en-US",
+        "text": "zip project directory included contents"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بکاپ پروژه مشتری فولدر واحد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دایرکتوری پروژه zip همراه محتوا"
+      },
+      {
+        "language": "en-US",
+        "text": "bot files disk folder"
+      },
+      {
+        "language": "en-US",
+        "text": "project bot package sources disk"
+      },
+      {
+        "language": "en-US",
+        "text": "portable source tree project directory folder copy transfer project.json bots packages matcher-profiles"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخت source قابل حمل پروژه پوشه مسیر کپی انتقال project.json bots packages matcher-profiles"
+      },
+      {
+        "language": "en-US",
+        "text": "bot private package json file located path which folder"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل package اختصاصی بات کجا قرار دارد مسیر پوشه"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "gvya file layout"
+      },
+      {
+        "language": "en-US",
+        "text": "where are gvya files stored"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the gvya folder layout"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i move a project to another pc"
+      },
+      {
+        "language": "en-US",
+        "text": "what files define a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "where do shared packages live"
+      },
+      {
+        "language": "en-US",
+        "text": "is a gvya project portable"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the complete portable project boundary"
+      },
+      {
+        "language": "en-US",
+        "text": "can i copy one folder and keep my whole bot"
+      },
+      {
+        "language": "en-US",
+        "text": "project directory copied dependencies language profiles"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساختار فایل gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل های gvya کجا ذخیره می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساختار فولدر gvya را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه را چطور به کامپیوتر دیگر ببرم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه فایل هایی بات را تعریف می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "shared package ها کجا هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه gvya قابل حمل است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرز کامل project قابل حمل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می تونم یک فولدر رو کپی کنم و کل باتم رو نگه دارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انتقال پروژه پوشه کپی"
+      },
+      {
+        "language": "en-US",
+        "text": "where do the bot files live"
+      },
+      {
+        "language": "en-US",
+        "text": "which files does a project contain"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل های بات کجا قرار می گیرند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پروژه شامل چه فایل هایی است"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the folder structure look like"
+      },
+      {
+        "language": "en-US",
+        "text": "where do the files live"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساختار پوشه ها چگونه است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل ها کجا قرار می گیرند"
+      },
+      {
+        "language": "en-US",
+        "text": "project bot package sources disk"
+      },
+      {
+        "language": "en-US",
+        "text": "what does a project look like on disk"
+      },
+      {
+        "language": "en-US",
+        "text": "where do things live in the source tree"
+      },
+      {
+        "language": "en-US",
+        "text": "what exactly do i archive to keep everything"
+      },
+      {
+        "language": "en-US",
+        "text": "which file describes the bot itself"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پروژه روی دیسک چه شکلی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای نگه داشتن همه چیز دقیقا چه چیزی را آرشیو کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "where does everything live in the source repo"
+      },
+      {
+        "language": "en-US",
+        "text": "what does zipping a gvya project include"
+      }
+    ]
+  }
+}

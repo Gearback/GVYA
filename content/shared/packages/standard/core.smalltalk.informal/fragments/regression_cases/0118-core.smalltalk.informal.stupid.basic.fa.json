@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.stupid.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.stupid",
+      "response_ids": [
+        "core.smalltalk.informal.stupid.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.stupid.basic.fa",
+    "initial_state": {},
+    "input": "احمق",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

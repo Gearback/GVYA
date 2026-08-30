@@ -1,0 +1,30 @@
+{
+  "id": "cloud.sync",
+  "value": {
+    "id": "cloud.sync",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "cloud sync"
+      },
+      {
+        "language": "en",
+        "text": "sync documents"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how does cloud sync work"
+      },
+      {
+        "language": "en",
+        "text": "sync documents to the cloud workspace"
+      },
+      {
+        "language": "en",
+        "text": "when are scans uploaded to cloud"
+      }
+    ]
+  }
+}

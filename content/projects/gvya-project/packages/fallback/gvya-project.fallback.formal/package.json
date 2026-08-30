@@ -1,0 +1,24 @@
+{
+  "format": "gvya.source.package",
+  "fragments": {
+    "fallback_behaviors": [
+      "fragments/fallback_behaviors/0001-gvya.fallback.formal.unresolved.concepts-pivot.json",
+      "fragments/fallback_behaviors/0002-gvya.fallback.formal.unresolved.authoring-pivot.json",
+      "fragments/fallback_behaviors/0003-gvya.fallback.formal.unresolved.matching-pivot.json",
+      "fragments/fallback_behaviors/0004-gvya.fallback.formal.unresolved.shipping-pivot.json",
+      "fragments/fallback_behaviors/0005-gvya.fallback.formal.unresolved.stage-1.json",
+      "fragments/fallback_behaviors/0006-gvya.fallback.formal.unresolved.stage-2.json",
+      "fragments/fallback_behaviors/0007-gvya.fallback.formal.unresolved.stage-3.json",
+      "fragments/fallback_behaviors/0008-gvya.fallback.formal.repeat.stage-1.json",
+      "fragments/fallback_behaviors/0009-gvya.fallback.formal.repeat.stage-2.json",
+      "fragments/fallback_behaviors/0010-gvya.fallback.formal.repeat.stage-3.json"
+    ]
+  },
+  "manifest": {
+    "dependencies": [],
+    "description": "GVYA Project recovery that redirects unresolved or repeated input into a nearby useful product-help thread instead of dead-ending.",
+    "id": "gvya-project.fallback.formal",
+    "kind": "fallback"
+  },
+  "version": 1
+}

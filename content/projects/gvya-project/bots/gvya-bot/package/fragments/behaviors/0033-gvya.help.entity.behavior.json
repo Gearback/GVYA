@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.entity.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.entity.behavior",
+    "meaning": "gvya.help.entity",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The built-in set covers number, date, time, color, quantity, unit, email, phone, url and origin, plus relative-date tokens authored in the Matcher Profile. Domain recognizers are extensible."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "مجموعهٔ داخلی شامل عدد، تاریخ، زمان، رنگ، مقدار، واحد، ایمیل، تلفن، url و مبدأ است، به‌علاوهٔ توکن‌های تاریخ نسبی که در Matcher Profile نوشته می‌شوند. شناساگرهای دامنه‌ای قابل گسترش‌اند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.entity.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "An Entity is a typed semantic value recognized from input or context: a number, date, duration, color, enum value, free text span, or a domain-specific value. Entities are values, never automatically host objects."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Entity مقداری معنایی و تایپ‌شده است که از ورودی یا context شناسایی می‌شود: عدد، تاریخ، مدت، رنگ، مقدار enum، بازهٔ متن آزاد، یا مقداری دامنه‌ای. Entityها مقدارند، نه به‌طور خودکار شیء میزبان."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

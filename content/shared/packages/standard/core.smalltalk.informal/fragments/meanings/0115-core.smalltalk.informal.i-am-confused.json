@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-am-confused",
+  "mode": "add",
+  "value": {
+    "class": "clarification",
+    "id": "core.smalltalk.informal.i-am-confused",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i am confused"
+      },
+      {
+        "language": "en-US",
+        "text": "confused"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گیجم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سر در نمیارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قاطی کردم"
+      }
+    ]
+  }
+}

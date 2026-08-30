@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m3.ambiguity-route.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "M3 route-collision proof",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.response-conditions"
+      ],
+      "meaning": "gvya.help.ambiguity"
+    },
+    "generated": false,
+    "id": "gvya.m3.ambiguity-route.fa",
+    "initial_state": {},
+    "input": "اگر دو match برتر تقریبا هم امتیاز باشند چه می شود؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

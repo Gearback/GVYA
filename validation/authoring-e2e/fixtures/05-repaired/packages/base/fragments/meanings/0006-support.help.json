@@ -1,0 +1,12 @@
+{
+  "id": "support.help",
+  "value": {
+    "id": "support.help",
+    "samples": [
+      {
+        "language": "en",
+        "text": "help me"
+      }
+    ]
+  }
+}

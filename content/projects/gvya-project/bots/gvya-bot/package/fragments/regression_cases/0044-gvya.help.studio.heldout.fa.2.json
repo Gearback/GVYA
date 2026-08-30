@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.studio.heldout.fa.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "GVYA Studio as the optional human editor and simulator held-out fa-IR coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.studio",
+      "response_ids": [
+        "gvya.help.studio.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.studio.heldout.fa.2",
+    "initial_state": {},
+    "input": "بدون راه‌اندازی Cargo میشه بات فعلی رو تست کرد؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

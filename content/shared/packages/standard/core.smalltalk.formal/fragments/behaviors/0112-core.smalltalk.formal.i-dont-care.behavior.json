@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-dont-care.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.i-dont-care.behavior",
+    "meaning": "core.smalltalk.formal.i-dont-care",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.i-dont-care.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Perhaps it will matter later.",
+              "That is your choice.",
+              "Noted."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید بعداً مهم شود.",
+              "این انتخاب شماست.",
+              "ثبت شد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

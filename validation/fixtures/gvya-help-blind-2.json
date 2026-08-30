@@ -1,0 +1,259 @@
+{
+  "format": "gvya.validation.blind-conversation",
+  "version": 1,
+  "bot_id": "gvya-bot",
+  "cases": [
+    {
+      "id": "about.en",
+      "language": "en-US",
+      "input": "What role does GVYA play inside a conversational product?",
+      "meaning": "gvya.help.about"
+    },
+    {
+      "id": "about.fa",
+      "language": "fa-IR",
+      "input": "گویا در یک محصول مکالمه‌ای چه نقشی داره؟",
+      "meaning": "gvya.help.about"
+    },
+    {
+      "id": "use-cases.en",
+      "language": "en-US",
+      "input": "Is this a reasonable engine for a voice-controlled appliance?",
+      "meaning": "gvya.help.use-cases"
+    },
+    {
+      "id": "use-cases.fa",
+      "language": "fa-IR",
+      "input": "برای یک دستگاه صوتی هم کاربرد داره؟",
+      "meaning": "gvya.help.use-cases"
+    },
+    {
+      "id": "architecture.en",
+      "language": "en-US",
+      "input": "Describe the ownership chain between compiler, runtime, and application.",
+      "meaning": "gvya.help.architecture"
+    },
+    {
+      "id": "architecture.fa",
+      "language": "fa-IR",
+      "input": "زنجیرهٔ مسئولیت بین compiler و runtime و برنامه رو شرح بده.",
+      "meaning": "gvya.help.architecture"
+    },
+    {
+      "id": "projects-bots.en",
+      "language": "en-US",
+      "input": "Can separate bots in the same project choose different locales?",
+      "meaning": "gvya.help.projects-bots"
+    },
+    {
+      "id": "projects-bots.fa",
+      "language": "fa-IR",
+      "input": "بات‌های جدا در یک پروژه می‌تونن locale متفاوت داشته باشن؟",
+      "meaning": "gvya.help.projects-bots"
+    },
+    {
+      "id": "packages.en",
+      "language": "en-US",
+      "input": "If two bots need the same greeting flow, where should I define it once?",
+      "meaning": "gvya.help.packages"
+    },
+    {
+      "id": "packages.fa",
+      "language": "fa-IR",
+      "input": "اگر دو بات یک جریان خوشامد مشترک می‌خوان کجا یک بار تعریفش کنم؟",
+      "meaning": "gvya.help.packages"
+    },
+    {
+      "id": "matcher.en",
+      "language": "en-US",
+      "input": "What deterministic evidence turns an utterance into an intent?",
+      "meaning": "gvya.help.matcher"
+    },
+    {
+      "id": "matcher.fa",
+      "language": "fa-IR",
+      "input": "چه evidence قطعی utterance رو به intent تبدیل می‌کنه؟",
+      "meaning": "gvya.help.matcher"
+    },
+    {
+      "id": "matcher-profiles.en",
+      "language": "en-US",
+      "input": "How would I register Arabic without adding a package?",
+      "meaning": "gvya.help.matcher-profiles"
+    },
+    {
+      "id": "matcher-profiles.fa",
+      "language": "fa-IR",
+      "input": "عربی رو بدون اضافه کردن پکیج چطور ثبت کنم؟",
+      "meaning": "gvya.help.matcher-profiles"
+    },
+    {
+      "id": "conversation.en",
+      "language": "en-US",
+      "input": "Where are recent messages and the active language carried?",
+      "meaning": "gvya.help.conversation"
+    },
+    {
+      "id": "conversation.fa",
+      "language": "fa-IR",
+      "input": "پیام‌های اخیر و زبان فعال مکالمه کجا حمل میشن؟",
+      "meaning": "gvya.help.conversation"
+    },
+    {
+      "id": "fallback.en",
+      "language": "en-US",
+      "input": "After resolution returns nothing, which selected layer responds?",
+      "meaning": "gvya.help.fallback"
+    },
+    {
+      "id": "fallback.fa",
+      "language": "fa-IR",
+      "input": "وقتی resolution چیزی برنمی‌گردونه کدوم لایهٔ انتخاب‌شده جواب میده؟",
+      "meaning": "gvya.help.fallback"
+    },
+    {
+      "id": "capabilities.en",
+      "language": "en-US",
+      "input": "Does the runtime return a typed request for the application to execute?",
+      "meaning": "gvya.help.invocation-proposal"
+    },
+    {
+      "id": "capabilities.fa",
+      "language": "fa-IR",
+      "input": "runtime یک درخواست typed میده که برنامه اجراش کنه؟",
+      "meaning": "gvya.help.capabilities"
+    },
+    {
+      "id": "studio.en",
+      "language": "en-US",
+      "input": "Can the editor compile and chat with the selected bot immediately?",
+      "meaning": "gvya.help.studio"
+    },
+    {
+      "id": "studio.fa",
+      "language": "fa-IR",
+      "input": "ویرایشگر می‌تونه بات انتخاب‌شده رو فوری compile کنه و باهاش چت کنه؟",
+      "meaning": "gvya.help.studio"
+    },
+    {
+      "id": "machine-authoring.en",
+      "language": "en-US",
+      "input": "Is canonical JSON plus the CLI enough for an autonomous coding tool?",
+      "meaning": "gvya.help.machine-authoring"
+    },
+    {
+      "id": "machine-authoring.fa",
+      "language": "fa-IR",
+      "input": "برای یک ابزار کدنویسی خودکار JSON مرجع و CLI کافیه؟",
+      "meaning": "gvya.help.machine-authoring"
+    },
+    {
+      "id": "getting-started.en",
+      "language": "en-US",
+      "input": "From an empty workspace, what is the first meaning-response pair I need?",
+      "meaning": "gvya.help.getting-started"
+    },
+    {
+      "id": "getting-started.fa",
+      "language": "fa-IR",
+      "input": "از workspace خالی اولین جفت meaning و response که لازم دارم چیه؟",
+      "meaning": "gvya.help.getting-started"
+    },
+    {
+      "id": "source-layout.en",
+      "language": "en-US",
+      "input": "Does the project directory include copied dependencies and language profiles?",
+      "meaning": "gvya.help.source-layout"
+    },
+    {
+      "id": "source-layout.fa",
+      "language": "fa-IR",
+      "input": "دایرکتوری پروژه dependencyهای کپی‌شده و profileهای زبان رو هم داره؟",
+      "meaning": "gvya.help.source-layout"
+    },
+    {
+      "id": "testing-debugging.en",
+      "language": "en-US",
+      "input": "Should I use a regression or a scenario for context carried across replies?",
+      "meaning": "gvya.help.testing-debugging"
+    },
+    {
+      "id": "testing-debugging.fa",
+      "language": "fa-IR",
+      "input": "برای context بین چند جواب regression بنویسم یا scenario؟",
+      "meaning": "gvya.help.testing-debugging"
+    },
+    {
+      "id": "build-artifact.en",
+      "language": "en-US",
+      "input": "Are content edits artifact recompiles while engine changes rebuild WASM?",
+      "meaning": "gvya.help.build-artifact"
+    },
+    {
+      "id": "build-artifact.fa",
+      "language": "fa-IR",
+      "input": "تغییر content فقط artifact رو compile می‌کنه ولی تغییر engine نیاز به rebuild WASM داره؟",
+      "meaning": "gvya.help.build-artifact"
+    },
+    {
+      "id": "runtime-integration.en",
+      "language": "en-US",
+      "input": "After loading .gvya, what request and state does the host exchange?",
+      "meaning": "gvya.help.runtime-integration"
+    },
+    {
+      "id": "runtime-integration.fa",
+      "language": "fa-IR",
+      "input": "بعد از load فایل .gvya میزبان چه request و stateای ردوبدل می‌کنه؟",
+      "meaning": "gvya.help.runtime-integration"
+    },
+    {
+      "id": "determinism-security.en",
+      "language": "en-US",
+      "input": "Why can't authored JSON access the shell, environment, or network?",
+      "meaning": "gvya.help.determinism-security"
+    },
+    {
+      "id": "determinism-security.fa",
+      "language": "fa-IR",
+      "input": "چرا JSON نوشته‌شده به shell و environment و شبکه دسترسی نداره؟",
+      "meaning": "gvya.help.determinism-security"
+    },
+    {
+      "id": "neural-resolver.en",
+      "language": "en-US",
+      "input": "Is model output constrained to candidate IDs and a confidence floor?",
+      "meaning": "gvya.help.neural-resolver"
+    },
+    {
+      "id": "neural-resolver.fa",
+      "language": "fa-IR",
+      "input": "خروجی مدل به candidate IDها و حداقل confidence محدود میشه؟",
+      "meaning": "gvya.help.neural-resolver"
+    },
+    {
+      "id": "matcher-troubleshooting.en",
+      "language": "en-US",
+      "input": "What is the repair order when the right meaning is below the score floor?",
+      "meaning": "gvya.help.matcher-troubleshooting"
+    },
+    {
+      "id": "matcher-troubleshooting.fa",
+      "language": "fa-IR",
+      "input": "وقتی meaning درست زیر کف score مونده ترتیب تعمیر چیه؟",
+      "meaning": "gvya.help.matcher-troubleshooting"
+    },
+    {
+      "id": "authoring-recipe.en",
+      "language": "en-US",
+      "input": "Do I need samples for both speaking persona and domain familiarity?",
+      "meaning": "gvya.help.authoring-recipe"
+    },
+    {
+      "id": "authoring-recipe.fa",
+      "language": "fa-IR",
+      "input": "برای persona و میزان آشنایی با موضوع هر دو باید sample داشته باشم؟",
+      "meaning": "gvya.help.authoring-recipe"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.promise.resolved-graph.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A follow-up the Bot promises in gvya.help.packages must resolve",
+    "expectation": {
+      "meaning": "gvya.help.package-graph"
+    },
+    "generated": false,
+    "id": "gvya.quality.promise.resolved-graph.en",
+    "initial_state": {},
+    "input": "how does the resolved graph reach runtime?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

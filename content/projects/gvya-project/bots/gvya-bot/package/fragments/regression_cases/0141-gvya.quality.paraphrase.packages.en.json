@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.packages.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A contextual package question resolves without relying on hidden dialogue memory",
+    "expectation": {
+      "meaning": "gvya.help.packages"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.packages.en",
+    "initial_state": {},
+    "input": "You mentioned packages. What are they?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

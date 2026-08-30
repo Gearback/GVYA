@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.youre-nice.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.youre-nice.behavior",
+    "meaning": "core.smalltalk.formal.youre-nice",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.youre-nice.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That is kind of you to say.",
+              "Thank you.",
+              "I appreciate that."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "لطف دارید.",
+              "سپاسگزارم.",
+              "از شما ممنونم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

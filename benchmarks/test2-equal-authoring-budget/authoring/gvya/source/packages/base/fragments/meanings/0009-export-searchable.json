@@ -1,0 +1,30 @@
+{
+  "id": "export.searchable",
+  "value": {
+    "id": "export.searchable",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "searchable pdf"
+      },
+      {
+        "language": "en",
+        "text": "ocr text layer"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i make a searchable pdf"
+      },
+      {
+        "language": "en",
+        "text": "make my scan into a searchable pdf"
+      },
+      {
+        "language": "en",
+        "text": "export pdf with recognized text"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.2-plus-2.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.2-plus-2.behavior",
+    "meaning": "core.smalltalk.informal.2-plus-2",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.2-plus-2.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "{{ system.mathResult | I can handle simple math, but I didn't catch that one. }}",
+              "{{ system.mathResult | Give me a simple expression. }}"
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "{{ system.mathResult | حساب ساده رو می‌تونم بگم، ولی این یکی رو نگرفتم. }}",
+              "{{ system.mathResult | یه عبارت ساده بده. }}"
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

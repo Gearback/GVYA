@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.first-bot.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "English beginner moves from overview to first Bot and testing",
+    "generated": false,
+    "id": "gvya.help.scenario.first-bot.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.about",
+          "response_ids": [
+            "gvya.help.about.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "I have never used GVYA; what is it?",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.getting-started",
+          "response_ids": [
+            "gvya.help.getting-started.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Okay, what is the quickest way to make my first bot?",
+        "seed": 2,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.testing-debugging",
+          "response_ids": [
+            "gvya.help.testing-debugging.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "How would I check that its intents still work?",
+        "seed": 3,
+        "type": "turn"
+      }
+    ]
+  }
+}

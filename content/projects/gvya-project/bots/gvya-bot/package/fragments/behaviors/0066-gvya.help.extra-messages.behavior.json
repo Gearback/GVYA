@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.extra-messages.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.extra-messages.behavior",
+    "meaning": "gvya.help.extra-messages",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The kernel caps a turn at six messages, and each Bot may set a lower max_messages_per_turn — this Bot uses four."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هسته هر نوبت را به شش پیام محدود می‌کند، و هر Bot می‌تواند ‎max_messages_per_turn‎ کمتری بگذارد — این Bot از چهار استفاده می‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.extra-messages.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Extra messages stay separate ResponseMessages rather than being concatenated into one string, which preserves timing and rendering flexibility for games, devices, chat UIs and accessibility surfaces. Each carries a deterministic chance."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پیام‌های اضافی به‌صورت ‎ResponseMessage‎های جداگانه می‌مانند و در یک رشته به‌هم چسبانده نمی‌شوند، و همین انعطاف زمان‌بندی و رندر را برای بازی‌ها، دستگاه‌ها، رابط‌های چت و ابزارهای دسترس‌پذیری حفظ می‌کند. هرکدام یک ‎chance‎ قطعی دارند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

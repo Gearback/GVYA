@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.pick-one.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.pick-one.behavior",
+    "meaning": "core.smalltalk.informal.pick-one",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.pick-one.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "{{ pick(\"This one.\", \"That one.\", \"The first.\", \"The second.\") }}",
+              "{{ pick(\"I’d pick the first.\", \"I’d pick the second.\") }}"
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "{{ pick(\"این یکی.\", \"اون یکی.\", \"اولی.\", \"دومی.\") }}",
+              "{{ pick(\"من اولی رو انتخاب می‌کنم.\", \"من دومی رو انتخاب می‌کنم.\") }}"
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

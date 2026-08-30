@@ -1,0 +1,18 @@
+{
+  "id": "item.use.custom-entity",
+  "value": {
+    "id": "item.use.custom-entity",
+    "description": "Structural custom entity aliases bind their canonical value",
+    "input": "use healing flask",
+    "language": "en",
+    "context": {},
+    "initial_state": {},
+    "seed": 1,
+    "generated": false,
+    "expectation": {
+      "meaning": "item.use",
+      "meaning_slots": {"item": "health_potion"},
+      "response_ids": ["item.use.answer"]
+    }
+  }
+}

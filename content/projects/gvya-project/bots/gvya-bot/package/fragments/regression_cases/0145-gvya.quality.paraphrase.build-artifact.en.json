@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.build-artifact.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural shipping question resolves to build artifact guidance",
+    "expectation": {
+      "meaning": "gvya.help.build-artifact"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.build-artifact.en",
+    "initial_state": {},
+    "input": "How do I ship a finished bot?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

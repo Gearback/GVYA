@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.maybe.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.maybe.behavior",
+    "meaning": "core.smalltalk.formal.maybe",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.maybe.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Perhaps.",
+              "That is still an answer.",
+              "Then we can leave it open."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید.",
+              "این هم یک پاسخ است.",
+              "پس می‌توانیم باز بگذاریمش."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

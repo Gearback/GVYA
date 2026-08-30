@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.policy.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.policy.behavior",
+    "meaning": "gvya.help.policy",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Policy decides; it never executes. Execution stays entirely with the host."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "Policy تصمیم می‌گیرد؛ هرگز اجرا نمی‌کند. اجرا کاملاً بر عهدهٔ میزبان می‌ماند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.policy.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Policy is a deterministic rule that constrains whether a capability proposal may proceed in the present state and context. It can address context and state requirements, role, clearance or ownership facts supplied by the host, risk class, confirmation requirements, and rate or sequence constraints."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Policy قاعده‌ای قطعی است که تعیین می‌کند آیا یک پیشنهاد capability در وضعیت و زمینهٔ فعلی می‌تواند پیش برود. می‌تواند به الزامات context و state، نقش و سطح دسترسی و مالکیتِ اعلام‌شده توسط میزبان، کلاس ریسک، الزام تأیید، و محدودیت نرخ یا ترتیب بپردازد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

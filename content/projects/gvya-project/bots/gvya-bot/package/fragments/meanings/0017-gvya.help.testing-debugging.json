@@ -1,0 +1,464 @@
+{
+  "exported": true,
+  "id": "gvya.help.testing-debugging",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.testing-debugging",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "می توانی دو وام مسکن را برایم مقایسه کنی"
+      },
+      {
+        "language": "en-US",
+        "text": "a host loads a gvya artifact and exchanges runtime state"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان پس از load آرتیفکت request و state ردوبدل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضای سند بررسی"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i install a package with npm"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i create my first gvya bot"
+      },
+      {
+        "language": "en-US",
+        "text": "why is my meaning not matching"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اولین بات gvya را چطور بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا meaning من match نمی شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sample های یک meaning را چطور بنویسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای یک meaning چه جور نمونه ای بنویسم"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i write samples for a meaning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای یک intent چه جور سؤالی به عنوان sample بنویسم"
+      },
+      {
+        "language": "en-US",
+        "text": "why candidate won decision explanation why report"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا candidate برنده شد توضیح تصمیم گزارش why"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a regression case"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a test scenario"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a conversation scenario"
+      },
+      {
+        "language": "fa-IR",
+        "text": "regression case چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "test scenario چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "conversation scenario چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "how do packages work"
+      },
+      {
+        "language": "en-US",
+        "text": "how do capabilities work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج ها چطور کار می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "علامت caret در regex چه کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the caret do in a regex"
+      },
+      {
+        "language": "en-US",
+        "text": "which diagnostic explains a scoring decision"
+      },
+      {
+        "language": "en-US",
+        "text": "what kinds of things can i build with wood"
+      },
+      {
+        "language": "en-US",
+        "text": "what kinds of things can i build with it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون راه اندازی cargo میشه بات فعلی رو تست کرد"
+      },
+      {
+        "language": "en-US",
+        "text": "can i try the current bot without setting up cargo"
+      },
+      {
+        "language": "en-US",
+        "text": "mortgage loan comparison rates"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقایسه وام مسکن نرخ بهره"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "^ TEST ^ FOLLOW UP ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "^ FOLLOW UP ^ TEST ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ FOLLOW-UP ^ تست ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ FOLLOW-UP ^ بنویسم ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ CONTEXT ^ REGRESSION ^ SCENARIO ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "why trace"
+      },
+      {
+        "language": "en-US",
+        "text": "package audit"
+      },
+      {
+        "language": "en-US",
+        "text": "intent match sample diagnostic candidate acceptance"
+      },
+      {
+        "language": "fa-IR",
+        "text": "why trace"
+      },
+      {
+        "language": "fa-IR",
+        "text": "audit پکیج"
+      },
+      {
+        "language": "fa-IR",
+        "text": "intent match sample گزارش candidate acceptance"
+      },
+      {
+        "language": "en-US",
+        "text": "prevent correct intent regress later"
+      },
+      {
+        "language": "fa-IR",
+        "text": "intent درست بعدا خراب جلوگیری"
+      },
+      {
+        "language": "en-US",
+        "text": "proof promoting authored change"
+      },
+      {
+        "language": "en-US",
+        "text": "works after edit change broke earlier answer verify regression proof"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هنوز کار می کند بعد از تغییر خراب شد جواب قبلی بررسی قبل از اعتماد"
+      },
+      {
+        "language": "en-US",
+        "text": "regression scenario stateful multi turn coverage proof suite"
+      },
+      {
+        "language": "fa-IR",
+        "text": "regression scenario کدام تست چند نوبتی وضعیت پوشش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خراب نشده اطمینان سلامت بعد از تغییر اجرا تست regression scenario"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "write a scenario to prove a three turn follow up"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای اثبات follow-up چند نوبتی scenario تست بنویسم"
+      },
+      {
+        "language": "en-US",
+        "text": "preserve an intent match with a held out regression rather than a copied sample"
+      },
+      {
+        "language": "en-US",
+        "text": "test gvya bot"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i test a gvya bot"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i debug a wrong match"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i validate a package"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i build held out semantic acceptance coverage"
+      },
+      {
+        "language": "en-US",
+        "text": "how can i tell if the bot guessed wrong"
+      },
+      {
+        "language": "en-US",
+        "text": "intent match without copying sample"
+      },
+      {
+        "language": "en-US",
+        "text": "check intents still work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تست بات gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات gvya را چطور تست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "match اشتباه را چطور debug کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا بفهمم چرا یک meaning برنده شد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج را چطور validate کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پوشش acceptance معنایی holdout را چطور بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بفهمم بات اشتباه حدس زده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "match بدون کپی sample تست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تست کنم intent هنوز کار می کنه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "intent هنوز درست کار"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i check that it still works"
+      },
+      {
+        "language": "en-US",
+        "text": "what tools exist for finding a bad answer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور مطمئن شوم درست کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای پیدا کردن پاسخ غلط چه ابزاری هست"
+      },
+      {
+        "language": "en-US",
+        "text": "testing in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya tests"
+      },
+      {
+        "language": "en-US",
+        "text": "how do tests work in gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تست در gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تست‌های gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "testing در gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i test my bot"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i write a test"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات را چطور تست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تست را چطور بنویسم"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i test the slice when a meaning wins incorrectly"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی meaning اشتباه برنده می شود چطور تست کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the canonical gate"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the canonical check path do"
+      },
+      {
+        "language": "fa-IR",
+        "text": "canonical gate چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "proof promoting authored change"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i check my bot still works after an edit"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i catch a change that broke an earlier answer"
+      },
+      {
+        "language": "en-US",
+        "text": "what do i run before i trust a change"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از یک تغییر چطور مطمئن شوم بات هنوز درست کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بفهمم یک تغییر جواب قبلی را خراب کرده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبل از اعتماد به یک تغییر چه چیزی اجرا کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know my bot still works"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا بدانم بات هنوز کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "should i write a regression case or a scenario"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای حالت چند نوبتی regression بنویسم یا scenario"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام نوع تست وضعیت بین چند جواب را پوشش می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از تغییر چطور مطمئن شوم چیزی خراب نشده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای اطمینان از سلامت بات چه چیزی اجرا کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need a scenario when state is carried across replies"
+      },
+      {
+        "language": "en-US",
+        "text": "tell me about testing"
+      },
+      {
+        "language": "en-US",
+        "text": "give me an overview of testing"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گزارش دلیل انتخاب کجا ببینم"
+      }
+    ]
+  }
+}

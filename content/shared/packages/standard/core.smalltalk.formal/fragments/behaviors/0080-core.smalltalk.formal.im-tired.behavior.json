@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.im-tired.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.im-tired.behavior",
+    "meaning": "core.smalltalk.formal.im-tired",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.im-tired.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Then breathe for a moment.",
+              "Rest if you can.",
+              "Do not exhaust yourself."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پس لحظه‌ای نفس بکشید.",
+              "اگر می‌توانید استراحت کنید.",
+              "خودتان را فرسوده نکنید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

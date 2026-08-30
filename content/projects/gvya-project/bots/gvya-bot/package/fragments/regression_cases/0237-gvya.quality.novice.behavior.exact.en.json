@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.quality.novice.behavior.exact.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Novice natural-language regression: What is a behavior?",
+    "expectation": {
+      "meaning": "gvya.help.behavior",
+      "response_ids": [
+        "gvya.help.behavior.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.quality.novice.behavior.exact.en",
+    "initial_state": {},
+    "input": "What is a behavior?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

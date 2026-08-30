@@ -1,0 +1,24 @@
+{
+  "exported": true,
+  "id": "gvya.help.structural-patterns.confounder.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Regex caret vocabulary remains outside the GVYA structural-pattern Meaning",
+    "expectation": {
+      "conversation_mode": "fallback",
+      "forbidden_meanings": [
+        "gvya.help.structural-patterns"
+      ],
+      "response_ids": [
+        "gvya.fallback.formal.unresolved.stage-1.redirect"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.structural-patterns.confounder.en",
+    "initial_state": {},
+    "input": "What does caret mean in a regular expression?",
+    "language": "en-US",
+    "seed": 74
+  }
+}

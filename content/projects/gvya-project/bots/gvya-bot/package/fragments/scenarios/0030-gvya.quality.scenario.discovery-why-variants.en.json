@@ -1,0 +1,41 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.discovery-why-variants.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Discovery follow-up accepts natural why phrasings beyond the original wording",
+    "generated": false,
+    "id": "gvya.quality.scenario.discovery-why-variants.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.surprise-me"
+        },
+        "language": "en-US",
+        "say": "surprise me",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.discovery-why"
+        },
+        "language": "en-US",
+        "say": "and why is that a good idea",
+        "seed": 2,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.discovery-again"
+        },
+        "language": "en-US",
+        "say": "one more please",
+        "seed": 3,
+        "type": "turn"
+      }
+    ]
+  }
+}

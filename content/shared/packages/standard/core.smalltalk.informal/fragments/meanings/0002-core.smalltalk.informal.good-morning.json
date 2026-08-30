@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.good-morning",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.good-morning",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "good morning"
+      },
+      {
+        "language": "en-US",
+        "text": "morning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صبح بخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صبح شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صبحت بخیر"
+      }
+    ]
+  }
+}

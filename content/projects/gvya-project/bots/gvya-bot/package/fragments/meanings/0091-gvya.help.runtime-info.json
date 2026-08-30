@@ -1,0 +1,122 @@
+{
+  "exported": true,
+  "id": "gvya.help.runtime-info",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.runtime-info",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how does it pick the response language"
+      },
+      {
+        "language": "en-US",
+        "text": "what wire formats exist"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان پاسخ چطور انتخاب می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه فرمت های wire ای وجود دارد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "runtimeinfo enabledlanguages defaultlanguage expose catalog order"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اطلاعات رانتایم زبان مجاز پیش فرض نمایش کاتالوگ ترتیب"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how do i query runtime info"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know which languages an artifact supports"
+      },
+      {
+        "language": "en-US",
+        "text": "what does runtime info expose"
+      },
+      {
+        "language": "en-US",
+        "text": "is the studio language catalog in the artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "does array order imply a fallback"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i read the default language"
+      },
+      {
+        "language": "en-US",
+        "text": "what is enabled_languages at runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "explain runtime info"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور اطلاعات runtime را بگیرم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بفهمم یک آرتیفکت چه زبان هایی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime info چه چیزی نشان می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کاتالوگ زبان استودیو داخل آرتیفکت هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترتیب آرایه یعنی fallback"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان پیش فرض را چطور بخوانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "enabled_languages در زمان اجرا چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime info را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know which languages a bot supports"
+      },
+      {
+        "language": "en-US",
+        "text": "what is runtime info"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا بفهمم بات چه زبان هایی دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "runtime information"
+      }
+    ]
+  }
+}

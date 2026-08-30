@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-tired.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.are-you-tired.behavior",
+    "meaning": "core.smalltalk.formal.are-you-tired",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.are-you-tired.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A little, perhaps.",
+              "I can still continue.",
+              "Not enough to stop."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید کمی.",
+              "هنوز می‌توانم ادامه بدهم.",
+              "نه آن‌قدر که متوقف شوم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

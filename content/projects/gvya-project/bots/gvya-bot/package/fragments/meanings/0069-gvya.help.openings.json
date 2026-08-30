@@ -1,0 +1,154 @@
+{
+  "exported": true,
+  "id": "gvya.help.openings",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.openings",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a fallback behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "how does an active topic work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback behavior چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic فعال چطور کار می کند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "opening greet first proactive open start conversation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "افتتاحیه سلام اول فعالانه شروع مکالمه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "opening شروع مکالمه تعریف"
+      },
+      {
+        "language": "en-US",
+        "text": "start fresh conversation before user input opening initial messages open definition"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شروع مکالمه تازه قبل input کاربر opening پیام ابتدایی تعریف open"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is an opening"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the bot greet first"
+      },
+      {
+        "language": "en-US",
+        "text": "can an opening set a topic"
+      },
+      {
+        "language": "en-US",
+        "text": "does an opening fabricate a meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i start a conversation from the host"
+      },
+      {
+        "language": "en-US",
+        "text": "what can an opening carry"
+      },
+      {
+        "language": "en-US",
+        "text": "what is open()"
+      },
+      {
+        "language": "en-US",
+        "text": "explain openings"
+      },
+      {
+        "language": "fa-IR",
+        "text": "opening چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات چطور اول سلام می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک opening می تواند topic ست کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "opening یک meaning جعلی می سازد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور از سمت میزبان مکالمه را شروع کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک opening چه چیزی می تواند داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "open() چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "opening ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "can the bot speak first"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات می تواند اول صحبت کند"
+      },
+      {
+        "language": "en-US",
+        "text": "opening"
+      },
+      {
+        "language": "en-US",
+        "text": "openings"
+      },
+      {
+        "language": "fa-IR",
+        "text": "opening شروع مکالمه تعریف"
+      },
+      {
+        "language": "en-US",
+        "text": "how can the bot speak first before the user types"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i start the conversation from the host side"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بات قبل از تایپ کاربر اول حرف بزند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور مکالمه را از سمت میزبان شروع کنم"
+      }
+    ]
+  }
+}

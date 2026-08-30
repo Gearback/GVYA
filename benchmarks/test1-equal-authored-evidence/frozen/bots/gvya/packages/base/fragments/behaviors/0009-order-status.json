@@ -1,0 +1,20 @@
+{
+  "id": "order.status.behavior",
+  "value": {
+    "id": "order.status.behavior",
+    "meaning": "order.status",
+    "responses": [
+      {
+        "id": "order.status.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:ORDER_STATUS"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

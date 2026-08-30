@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.repeat-detection.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.repeat-detection.behavior",
+    "meaning": "gvya.help.repeat-detection",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "A global repeat routes to the Fallback Package's repeat trigger and deliberately does not consume an active follow-up."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "تکرار سراسری به تریگر repeat در Fallback Package می‌رود و عمداً follow-up فعال را مصرف نمی‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.repeat-detection.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A global identical-message repeat is intercepted early, using a bounded window of recent user input and a threshold that the current turn participates in. Separately, per-meaning and per-input repeat memory drives a stage ladder: repeat, then annoyed, then final."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "تکرار سراسری پیام یکسان زود رهگیری می‌شود، با پنجره‌ای محدود از ورودی‌های اخیر کاربر و آستانه‌ای که نوبت جاری هم در آن حساب می‌شود. جداگانه، حافظهٔ تکرار به‌ازای هر meaning و هر ورودی یک نردبان مرحله‌ای را پیش می‌برد: repeat، سپس annoyed، سپس final."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

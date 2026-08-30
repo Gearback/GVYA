@@ -1,0 +1,44 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-have-to-go",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.i-have-to-go",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i have to go"
+      },
+      {
+        "language": "en-US",
+        "text": "i gotta go"
+      },
+      {
+        "language": "en-US",
+        "text": "i should go"
+      },
+      {
+        "language": "en-US",
+        "text": "i'm leaving"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باید برم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "من رفتم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دیگه برم"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "billing.receipt.behavior",
+  "value": {
+    "id": "billing.receipt.behavior",
+    "meaning": "billing.receipt",
+    "responses": [
+      {
+        "id": "billing.receipt.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:BILLING_RECEIPT"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

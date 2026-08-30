@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.happy-birthday.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.happy-birthday",
+      "response_ids": [
+        "core.smalltalk.formal.happy-birthday.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.happy-birthday.basic.fa",
+    "initial_state": {},
+    "input": "تولدت مبارک",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

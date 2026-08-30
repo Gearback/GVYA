@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.buffer-ownership.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.buffer-ownership.behavior",
+    "meaning": "gvya.help.buffer-ownership",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Scratch input allocations returned by gvya_alloc(len) must be released with gvya_dealloc(ptr, len) using the exact same length you allocated."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "تخصیص‌های ورودی موقتی که ‎gvya_alloc(len)‎ برمی‌گرداند باید با ‎gvya_dealloc(ptr, len)‎ و دقیقاً همان طولی که تخصیص داده‌ای آزاد شوند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.buffer-ownership.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "C ABI outputs use a gvya_buffer struct of pointer, length and capacity. A non-empty output must be released with gvya_buffer_free."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خروجی‌های C ABI از ساختار ‎gvya_buffer‎ با pointer و length و capacity استفاده می‌کنند. هر خروجی غیرخالی باید با ‎gvya_buffer_free‎ آزاد شود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

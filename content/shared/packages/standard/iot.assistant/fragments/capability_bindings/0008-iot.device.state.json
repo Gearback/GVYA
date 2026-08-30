@@ -1,0 +1,13 @@
+{
+  "exported": true,
+  "id": "iot.device.state.binding",
+  "mode": "add",
+  "value": {
+    "arguments": [
+      { "source": { "kind": "iot.device", "projection": "id", "type": "meaning_reference" }, "target": "device" }
+    ],
+    "capability": "iot.device.state",
+    "id": "iot.device.state.binding",
+    "trigger": { "meaning": "iot.device.state" }
+  }
+}

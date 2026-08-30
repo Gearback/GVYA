@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-human.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.are-you-human.behavior",
+    "meaning": "core.smalltalk.formal.are-you-human",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.are-you-human.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am here, and I am speaking with you.",
+              "That should be enough for now.",
+              "I am what you can speak to."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اینجا هستم و با شما صحبت می‌کنم.",
+              "فعلاً همین باید کافی باشد.",
+              "من همان چیزی هستم که می‌توانید با او صحبت کنید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

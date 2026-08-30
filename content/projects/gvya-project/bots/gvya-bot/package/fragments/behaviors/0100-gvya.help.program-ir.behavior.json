@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.program-ir.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.program-ir.behavior",
+    "meaning": "gvya.help.program-ir",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Regression and scenario definitions are build-time data and are excluded from the runtime IR, along with named types and composition provenance. The semantic matcher index is derived data: the compiler builds it only to prove the composed semantics are valid and bounded, and the runtime builds it again at load from the shipped patterns and profiles. It is never serialized into the artifact."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "تعریف‌های regression و سناریو دادهٔ زمان build هستند و همراه با typeهای نام‌دار و منشأ ترکیب، از IR زمان اجرا کنار گذاشته می‌شوند. ایندکس معنایی دادهٔ مشتق است: کامپایلر آن را فقط برای اثبات معتبر و کران‌دار بودن معنای ترکیب‌شده می‌سازد و runtime هنگام بارگذاری دوباره از الگوها و پروفایل‌های موجود می‌سازد. این ایندکس هرگز در artifact ذخیره نمی‌شود."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.program-ir.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "program.json is the versioned compiler IR gvya.program/1. It is the minimal executable program: the semantic config, the exact per-language semantic profile map, resolved meanings, the conversation config and catalog, responses and conditions and effects and topic and follow-up behavior, capability definitions and compiled shapes and bindings and policies and limits, and asset metadata. It also carries the source package digests and composed package order, because runtime load cross-checks those against the manifest and integrity rows."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏program.json همان IR نسخه‌دارِ کامپایلر با نام ‎gvya.program/1‎ است و کمینهٔ برنامهٔ اجرایی محسوب می‌شود: پیکربندی معنایی، نقشهٔ دقیق پروفایل‌های معناییِ جداشده بر اساس زبان، meaningهای حل‌شده، پیکربندی و کاتالوگ مکالمه، پاسخ‌ها و شرط‌ها و effectها و رفتار topic و follow-up، تعریف‌های capability و شکل‌های کامپایل‌شده و bindingها و policyها و محدودیت‌ها، و فرادادهٔ asset. همچنین digest پکیج‌های منبع و ترتیب پکیج ترکیب‌شده را دارد، چون runtime هنگام بارگذاری آن‌ها را با ردیف‌های manifest و integrity مقابله می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

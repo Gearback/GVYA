@@ -1,0 +1,41 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.discovery-why-variants.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian discovery follow-up accepts natural why and again phrasings",
+    "generated": false,
+    "id": "gvya.quality.scenario.discovery-why-variants.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.surprise-me"
+        },
+        "language": "fa-IR",
+        "say": "یه چیز جالب بگو",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.discovery-why"
+        },
+        "language": "fa-IR",
+        "say": "خب چرا این خوبه",
+        "seed": 2,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.discovery-again"
+        },
+        "language": "fa-IR",
+        "say": "بازم بگو",
+        "seed": 3,
+        "type": "turn"
+      }
+    ]
+  }
+}

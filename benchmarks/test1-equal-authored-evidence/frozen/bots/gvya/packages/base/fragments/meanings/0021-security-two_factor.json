@@ -1,0 +1,24 @@
+{
+  "id": "security.two_factor",
+  "value": {
+    "id": "security.two_factor",
+    "samples": [
+      {
+        "language": "en",
+        "text": "enable two factor authentication"
+      },
+      {
+        "language": "en",
+        "text": "turn on 2fa"
+      },
+      {
+        "language": "en",
+        "text": "how do i set up two step verification"
+      },
+      {
+        "language": "en",
+        "text": "protect my account with a second factor"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.route.authoring.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Menu route authoring",
+    "expectation": {
+      "meaning": "gvya.help.authoring-recipe",
+      "response_ids": [
+        "gvya.help.authoring-recipe.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.route.authoring.en",
+    "initial_state": {},
+    "input": "authoring",
+    "language": "en-US",
+    "seed": 1
+  }
+}

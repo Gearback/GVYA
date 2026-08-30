@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.ambiguity.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.ambiguity.behavior",
+    "meaning": "gvya.help.ambiguity",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The conversation layer may rerank on response eligibility, but only after the remaining semantic frontier is re-checked for ambiguity — genuine ambiguity still wins."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "لایهٔ مکالمه می‌تواند بر اساس در دسترس بودن پاسخ رتبه‌بندی را عوض کند، اما فقط پس از بازبینی دوبارهٔ مرز معناییِ باقی‌مانده از نظر ابهام — ابهام واقعی همچنان برنده است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.ambiguity.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "When the top candidates fall within ambiguity_margin of each other the kernel reports Ambiguous with reason top_candidates_too_close instead of guessing. Preserving ambiguity is deliberate."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "وقتی نامزدهای برتر در فاصلهٔ ‎ambiguity_margin‎ از هم قرار بگیرند، هسته به‌جای حدس زدن نتیجه را Ambiguous با دلیل ‎top_candidates_too_close‎ گزارش می‌کند. حفظ ابهام عمدی است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

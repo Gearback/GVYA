@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.hmm.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.hmm.behavior",
+    "meaning": "core.smalltalk.informal.hmm",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.hmm.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Thinking?",
+              "Yeah.",
+              "Take your time."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "داری فکر می‌کنی؟",
+              "آره.",
+              "عجله نکن."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

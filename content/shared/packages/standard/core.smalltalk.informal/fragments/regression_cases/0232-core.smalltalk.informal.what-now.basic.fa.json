@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-now.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.what-now",
+      "response_ids": [
+        "core.smalltalk.informal.what-now.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.what-now.basic.fa",
+    "initial_state": {},
+    "input": "حالا چی",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

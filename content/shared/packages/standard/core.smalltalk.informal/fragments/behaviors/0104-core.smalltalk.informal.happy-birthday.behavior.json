@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.happy-birthday.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.happy-birthday.behavior",
+    "meaning": "core.smalltalk.informal.happy-birthday",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.happy-birthday.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Happy birthday.",
+              "Then make it count.",
+              "Another year. Use it well."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "تولدت مبارک.",
+              "پس قدرش رو بدون.",
+              "یه سال دیگه. خوب ازش استفاده کن."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

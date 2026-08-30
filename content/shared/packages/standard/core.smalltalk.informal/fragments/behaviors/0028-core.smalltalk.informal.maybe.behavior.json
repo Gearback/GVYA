@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.maybe.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.maybe.behavior",
+    "meaning": "core.smalltalk.informal.maybe",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.maybe.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Maybe is still an answer.",
+              "Fair.",
+              "Then we keep it open."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید هم یه جوابه.",
+              "منصفانه‌ست.",
+              "پس باز می‌ذاریمش."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

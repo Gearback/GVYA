@@ -1,0 +1,19 @@
+{
+  "id": "weather.ask.proof",
+  "value": {
+    "context": {},
+    "description": "Direct proof",
+    "expectation": {
+      "meaning": "weather.ask",
+      "response_ids": [
+        "weather.ask.behavior.answer"
+      ]
+    },
+    "generated": false,
+    "id": "weather.ask.proof",
+    "initial_state": {},
+    "input": "weather please",
+    "language": "en",
+    "seed": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.please",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.please",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "please"
+      },
+      {
+        "language": "en-US",
+        "text": "pls"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لطفا"
+      }
+    ]
+  }
+}

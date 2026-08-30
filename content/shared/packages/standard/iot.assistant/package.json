@@ -1,0 +1,90 @@
+{
+  "format": "gvya.source.package",
+  "fragments": {
+    "meanings": [
+      "fragments/meanings/0001-iot.device.turn-on.json",
+      "fragments/meanings/0002-iot.device.turn-off.json",
+      "fragments/meanings/0003-iot.device.open.json",
+      "fragments/meanings/0004-iot.device.close.json",
+      "fragments/meanings/0005-iot.device.start.json",
+      "fragments/meanings/0006-iot.device.stop.json",
+      "fragments/meanings/0007-iot.device.set.json",
+      "fragments/meanings/0008-iot.device.state.json"
+    ],
+    "behaviors": [
+      "fragments/behaviors/0001-iot.device.turn-on.behavior.json",
+      "fragments/behaviors/0002-iot.device.turn-off.behavior.json",
+      "fragments/behaviors/0003-iot.device.open.behavior.json",
+      "fragments/behaviors/0004-iot.device.close.behavior.json",
+      "fragments/behaviors/0005-iot.device.start.behavior.json",
+      "fragments/behaviors/0006-iot.device.stop.behavior.json",
+      "fragments/behaviors/0007-iot.device.set.behavior.json",
+      "fragments/behaviors/0008-iot.device.state.behavior.json"
+    ],
+    "capability_result_behaviors": [
+      "fragments/capability_result_behaviors/0001-iot.device.switch.success.json",
+      "fragments/capability_result_behaviors/0002-iot.device.switch.failure.json",
+      "fragments/capability_result_behaviors/0003-iot.device.position.success.json",
+      "fragments/capability_result_behaviors/0004-iot.device.position.failure.json",
+      "fragments/capability_result_behaviors/0005-iot.device.run.success.json",
+      "fragments/capability_result_behaviors/0006-iot.device.run.failure.json",
+      "fragments/capability_result_behaviors/0007-iot.device.set.success.json",
+      "fragments/capability_result_behaviors/0008-iot.device.set.failure.json",
+      "fragments/capability_result_behaviors/0009-iot.device.state.success.json",
+      "fragments/capability_result_behaviors/0010-iot.device.state.failure.json"
+    ],
+    "capabilities": [
+      "fragments/capabilities/0001-iot.device.switch.json",
+      "fragments/capabilities/0002-iot.device.position.json",
+      "fragments/capabilities/0003-iot.device.run.json",
+      "fragments/capabilities/0004-iot.device.set.json",
+      "fragments/capabilities/0005-iot.device.state.json"
+    ],
+    "capability_bindings": [
+      "fragments/capability_bindings/0001-iot.device.turn-on.json",
+      "fragments/capability_bindings/0002-iot.device.turn-off.json",
+      "fragments/capability_bindings/0003-iot.device.open.json",
+      "fragments/capability_bindings/0004-iot.device.close.json",
+      "fragments/capability_bindings/0005-iot.device.start.json",
+      "fragments/capability_bindings/0006-iot.device.stop.json",
+      "fragments/capability_bindings/0007-iot.device.set.json",
+      "fragments/capability_bindings/0008-iot.device.state.json"
+    ],
+    "capability_policies": [
+      "fragments/capability_policies/0001-iot.device.switch.confirm.json",
+      "fragments/capability_policies/0002-iot.device.switch.allow.json",
+      "fragments/capability_policies/0003-iot.device.position.confirm.json",
+      "fragments/capability_policies/0004-iot.device.position.allow.json",
+      "fragments/capability_policies/0005-iot.device.run.confirm.json",
+      "fragments/capability_policies/0006-iot.device.run.allow.json",
+      "fragments/capability_policies/0007-iot.device.set.confirm.json",
+      "fragments/capability_policies/0008-iot.device.set.allow.json"
+    ],
+    "regression_cases": [
+      "fragments/regression_cases/0001-iot.boundary.turn-on.json",
+      "fragments/regression_cases/0002-iot.boundary.turn-off.json",
+      "fragments/regression_cases/0003-iot.boundary.open.json",
+      "fragments/regression_cases/0004-iot.boundary.close.json",
+      "fragments/regression_cases/0005-iot.boundary.start.json",
+      "fragments/regression_cases/0006-iot.boundary.stop.json",
+      "fragments/regression_cases/0007-iot.boundary.set.json",
+      "fragments/regression_cases/0008-iot.boundary.state.json",
+      "fragments/regression_cases/0009-iot.reference.required.json"
+    ],
+    "scenarios": [
+      "fragments/scenarios/0001-iot.device.switch.roundtrip.json",
+      "fragments/scenarios/0002-iot.device.position.roundtrip.json",
+      "fragments/scenarios/0003-iot.device.run.roundtrip.json",
+      "fragments/scenarios/0004-iot.device.set.roundtrip.json",
+      "fragments/scenarios/0005-iot.device.state.roundtrip.json",
+      "fragments/scenarios/0006-iot.policy.missing-safety.json"
+    ]
+  },
+  "manifest": {
+    "dependencies": [],
+    "description": "Host-neutral, drop-in IoT conversation package with typed device references, bounded action contracts, explicit safety admission, and deterministic result reporting.",
+    "id": "iot.assistant",
+    "kind": "standard"
+  },
+  "version": 1
+}

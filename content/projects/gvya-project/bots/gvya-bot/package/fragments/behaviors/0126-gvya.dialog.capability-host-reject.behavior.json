@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.capability-host-reject.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.capability-thread",
+    "id": "gvya.dialog.capability-host-reject.behavior",
+    "meaning": "gvya.dialog.host-reject",
+    "responses": [
+      {
+        "id": "gvya.dialog.capability-host-reject.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.capability-thread",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Then the external action does not happen. The host returns the rejection or admission outcome through the explicit capability flow, and the Bot may continue only along whatever rejection path you actually authored."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "آن وقت اکشن بیرونی انجام نمی‌شود. host نتیجهٔ رد یا admission را از مسیر صریح capability برمی‌گرداند و Bot فقط در مسیری ادامه می‌دهد که واقعاً برای rejection نوشته‌ای."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

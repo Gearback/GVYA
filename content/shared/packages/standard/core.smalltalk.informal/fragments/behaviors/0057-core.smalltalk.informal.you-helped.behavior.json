@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.you-helped.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.you-helped.behavior",
+    "meaning": "core.smalltalk.informal.you-helped",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.you-helped.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good. That’s the point.",
+              "Then it was worth saying.",
+              "Glad it helped."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوبه. هدف همین بود.",
+              "پس گفتنش ارزش داشت.",
+              "خوشحالم کمک کرد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

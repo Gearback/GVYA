@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.test-scenario.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.test-scenario.behavior",
+    "meaning": "gvya.help.test-scenario",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "A Regression Case covers one turn; a Scenario covers stateful turns in sequence. Machine-generated scenarios have no privileged status — they are validated and compiled exactly like human-authored tests."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "یک Regression Case یک نوبت را پوشش می‌دهد؛ یک Scenario نوبت‌های پشت‌سرهم و وضعیت‌دار را. سناریوهای تولیدشده توسط ماشین هیچ جایگاه ویژه‌ای ندارند — دقیقاً مثل تست‌های انسانی اعتبارسنجی و کامپایل می‌شوند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.test-scenario.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Test Scenario is an authoring-time executable expectation over interactions, state, context and outputs. It can assert semantic meaning, ambiguity, response class or text constraints, capability proposals, admission outcomes, state transitions and trace reason codes."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Test Scenario انتظاری اجراپذیر در زمان نویسندگی روی interactionها، وضعیت، زمینه و خروجی‌هاست. می‌تواند معنی معنایی، ابهام، کلاس یا محدودیت متن پاسخ، پیشنهادهای capability، نتایج admission، انتقال وضعیت و کدهای دلیل trace را assert کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

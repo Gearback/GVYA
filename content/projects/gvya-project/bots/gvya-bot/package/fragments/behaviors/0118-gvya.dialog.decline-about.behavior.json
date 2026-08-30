@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.decline-about.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.about",
+    "id": "gvya.dialog.decline-about.behavior",
+    "meaning": "core.smalltalk.formal.no",
+    "responses": [
+      {
+        "id": "gvya.dialog.decline-about.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Fine — we skip the full path. Ask whatever is actually in your way: authoring, matcher, runtime, or shipping.",
+              "No problem, that part can wait. Throw me the real question instead.",
+              "Understood, skipping the tour. Name the piece you care about and we start there."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه — مسیر کامل را رد می‌کنیم. هرچه واقعاً جلوی راهت است بپرس: authoring، matcher، runtime یا انتشار.",
+              "مشکلی نیست، آن بخش می‌تواند صبر کند. سؤال اصلی‌ات را بگو.",
+              "قبول، تور کامل را رد کردیم. اسم همان بخشی که برایت مهم است را بگو تا از آنجا شروع کنیم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

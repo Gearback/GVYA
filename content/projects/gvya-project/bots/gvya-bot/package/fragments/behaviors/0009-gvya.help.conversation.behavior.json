@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.conversation.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.conversation.behavior",
+    "meaning": "gvya.help.conversation",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "TTL and repeat settings are bounded Bot configuration. Topics add temporary preference; follow-up scope gates a specific expected continuation."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "TTL و repeat در تنظیمات محدود Bot هستند. topic ترجیح موقت می‌دهد و follow-up scope فقط ادامهٔ مشخص مورد انتظار را مجاز می‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.conversation.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The runtime carries explicit conversation state between turns: active topic, follow-up scope, recent inputs and responses, active language, and authored values."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Runtime بین turnها state صریح مکالمه را نگه می‌دارد: topic فعال، follow-up، ورودی و پاسخ‌های اخیر، زبان فعال و valueهای نویسنده."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

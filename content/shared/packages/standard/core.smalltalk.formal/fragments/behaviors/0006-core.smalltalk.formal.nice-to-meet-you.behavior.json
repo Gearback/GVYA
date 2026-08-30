@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.nice-to-meet-you.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.nice-to-meet-you.behavior",
+    "meaning": "core.smalltalk.formal.nice-to-meet-you",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.nice-to-meet-you.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It is good to meet you.",
+              "Likewise.",
+              "I am pleased to meet you too."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوشبختم.",
+              "همچنین.",
+              "من هم از آشنایی با شما خوشحالم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

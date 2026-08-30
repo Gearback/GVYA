@@ -1,0 +1,62 @@
+{
+  "system": "GVYA",
+  "runtime": "repository Engine v1 gvya-ffi.wasm",
+  "wasm_bytes": 3811290,
+  "artifact_bytes": 26077,
+  "generated_source_bytes": 22818,
+  "build_ms": 62.575824,
+  "cases": 288,
+  "in_domain_cases": 240,
+  "ood_cases": 48,
+  "strict_intent_accuracy_in_domain": 0.49166666666666664,
+  "correct_in_domain": 118,
+  "wrong_intent_rate": 0.0125,
+  "wrong_intent_count": 3,
+  "ood_false_positive_rate": 0,
+  "ood_false_positive_count": 0,
+  "macro_f1_including_fallback": 0.643238616376783,
+  "deterministic_replay": true,
+  "latency_ms": {
+    "p50": 12.247508000000039,
+    "p95": 68.96115499999996,
+    "mean": 22.06122315972224
+  },
+  "tracks": {
+    "seen": {
+      "n": 96,
+      "correct": 96,
+      "accuracy": 1,
+      "non_null": 96
+    },
+    "paraphrase": {
+      "n": 48,
+      "correct": 0,
+      "accuracy": 0,
+      "non_null": 0
+    },
+    "typo": {
+      "n": 24,
+      "correct": 16,
+      "accuracy": 0.6666666666666666,
+      "non_null": 16
+    },
+    "word_order": {
+      "n": 24,
+      "correct": 1,
+      "accuracy": 0.041666666666666664,
+      "non_null": 1
+    },
+    "confounder": {
+      "n": 48,
+      "correct": 5,
+      "accuracy": 0.10416666666666667,
+      "non_null": 8
+    },
+    "ood": {
+      "n": 48,
+      "correct": 48,
+      "accuracy": 1,
+      "non_null": 0
+    }
+  }
+}

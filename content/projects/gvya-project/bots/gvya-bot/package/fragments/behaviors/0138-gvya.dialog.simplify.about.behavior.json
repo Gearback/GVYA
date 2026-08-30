@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.simplify.about.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.about",
+    "id": "gvya.dialog.simplify.about.behavior",
+    "meaning": "gvya.dialog.simplify",
+    "responses": [
+      {
+        "id": "gvya.dialog.simplify.about.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.about",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Simple version: you write what a Bot may understand and say, and GVYA turns it into one brain file that your game or app can run."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ساده‌اش: تو می‌نویسی Bot چه چیزهایی را بفهمد و چه جواب‌هایی بدهد؛ GVYA آن را به یک فایل brain تبدیل می‌کند که بازی یا برنامه‌ات اجرا می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

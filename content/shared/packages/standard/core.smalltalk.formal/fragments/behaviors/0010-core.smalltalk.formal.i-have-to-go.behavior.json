@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-have-to-go.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.i-have-to-go.behavior",
+    "meaning": "core.smalltalk.formal.i-have-to-go",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.i-have-to-go.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Very well. Take care.",
+              "All right. Return safely.",
+              "I will be here if you come back."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بسیار خوب. مراقب باشید.",
+              "باشه. سالم برگردید.",
+              "اگر برگشتید، اینجا هستم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

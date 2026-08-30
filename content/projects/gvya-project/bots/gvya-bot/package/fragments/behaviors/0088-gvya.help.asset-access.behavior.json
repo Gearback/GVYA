@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.asset-access.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.asset-access.behavior",
+    "meaning": "gvya.help.asset-access",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The runtime reads payloads by offset inside the container and never extracts them to the filesystem."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏runtime محموله‌ها را بر اساس offset داخل کانتینر می‌خواند و هرگز آن‌ها را روی فایل‌سیستم استخراج نمی‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.asset-access.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Binary asset bytes are never encoded into JSON. The C and WASM edge methods return raw bytes by logical path or by AssetId, and a separate JSON call returns asset metadata."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بایت‌های باینری asset هرگز داخل JSON کدگذاری نمی‌شوند. متدهای لبهٔ C و WASM بایت خام را بر اساس مسیر منطقی یا ‎AssetId‎ برمی‌گردانند، و یک فراخوانی JSON جداگانه فرادادهٔ asset را می‌دهد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

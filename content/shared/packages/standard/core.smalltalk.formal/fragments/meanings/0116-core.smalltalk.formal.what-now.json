@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what-now",
+  "mode": "add",
+  "value": {
+    "class": "clarification",
+    "id": "core.smalltalk.formal.what-now",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what now"
+      },
+      {
+        "language": "en-US",
+        "text": "now what"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالا چی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعدش چی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "الان چی کار کنم"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "security.encryption.behavior",
+  "value": {
+    "id": "security.encryption.behavior",
+    "meaning": "security.encryption",
+    "responses": [
+      {
+        "id": "security.encryption.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SECURITY_ENCRYPTION"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

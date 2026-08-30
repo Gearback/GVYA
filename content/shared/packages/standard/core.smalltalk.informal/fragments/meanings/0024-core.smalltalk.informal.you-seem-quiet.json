@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.you-seem-quiet",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.you-seem-quiet",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "you seem quiet"
+      },
+      {
+        "language": "en-US",
+        "text": "why are you quiet"
+      },
+      {
+        "language": "en-US",
+        "text": "you are quiet"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساکتی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا ساکتی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کم حرفی"
+      }
+    ]
+  }
+}

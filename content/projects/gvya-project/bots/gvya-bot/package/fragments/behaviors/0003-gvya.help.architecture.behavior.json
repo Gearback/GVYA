@@ -1,0 +1,55 @@
+{
+  "exported": true,
+  "id": "gvya.help.architecture.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.architecture.behavior",
+    "meaning": "gvya.help.architecture",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The host supplies explicit context and executes admitted proposals. Studio is an optional editor and simulator, not a semantic authority. Next ask where reusable Package content lives, or how a host loads the compiled artifact."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "میزبان context صریح را می‌دهد و proposal پذیرفته‌شده را اجرا می‌کند. Studio فقط editor و simulator اختیاری است، نه مرجع معنا. بعد بپرس محتوای reusable کجا می‌ماند، یا host آرتیفکت را چطور load می‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.architecture.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Authors create explicit source; the Rust compiler validates and compiles it into .gvya; the Rust runtime matches input and produces responses or capability proposals.",
+              "The chain is short: you author explicit source, the Rust compiler validates it into a .gvya artifact, and the Rust runtime matches each input against that artifact and returns a response or a capability proposal."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نویسنده source شفاف می‌سازد؛ کامپایلر Rust آن را اعتبارسنجی و به .gvya تبدیل می‌کند؛ runtime Rust ورودی را match کرده و پاسخ یا capability proposal می‌دهد.",
+              "زنجیره کوتاه است: تو source صریح می‌نویسی، کامپایلر Rust آن را اعتبارسنجی و به آرتیفکت .gvya تبدیل می‌کند و runtime Rust هر ورودی را با همان آرتیفکت match کرده و پاسخ یا capability proposal برمی‌گرداند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

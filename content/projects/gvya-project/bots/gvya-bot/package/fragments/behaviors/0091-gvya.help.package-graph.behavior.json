@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.package-graph.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.package-graph.behavior",
+    "meaning": "gvya.help.package-graph",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Composition is a deterministic dependency-first topological order with lexical tie-breaking, so the same sources always compose the same way."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "ترکیب، یک ترتیب توپولوژیکِ قطعی و وابستگی‌اول با شکستن تساوی به‌صورت واژگانی است، پس سورس یکسان همیشه به یک شکل ترکیب می‌شود."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.package-graph.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A package is a build-time unit, not a runtime plug-in, and load order is never authority. Each resolved manifest carries a Package ID, a kind of standard or fallback, a SHA-256-shaped source digest, a description, exact dependencies, and a reexport visibility flag per dependency."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک پکیج واحدی در زمان build است، نه افزونهٔ زمان اجرا، و ترتیب بارگذاری هرگز مرجع نیست. هر manifest حل‌شده شامل Package ID، نوع standard یا fallback، چکیدهٔ سورس به شکل SHA-256، توضیح، وابستگی‌های دقیق، و پرچم دیده‌شدن ‎reexport‎ برای هر وابستگی است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

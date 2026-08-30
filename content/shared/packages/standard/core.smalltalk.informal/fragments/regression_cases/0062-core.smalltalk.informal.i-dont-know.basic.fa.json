@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-dont-know.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.i-dont-know",
+      "response_ids": [
+        "core.smalltalk.informal.i-dont-know.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.i-dont-know.basic.fa",
+    "initial_state": {},
+    "input": "نمی‌دونم",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

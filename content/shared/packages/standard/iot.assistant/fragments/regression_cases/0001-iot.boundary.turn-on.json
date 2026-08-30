@@ -1,0 +1,16 @@
+{
+  "exported": false,
+  "id": "iot.boundary.turn-on",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A non-device turn-on phrase must not become an IoT action.",
+    "expectation": { "forbidden_meanings": ["iot.device.turn-on"] },
+    "generated": false,
+    "id": "iot.boundary.turn-on",
+    "initial_state": {},
+    "input": "turn on subtitles",
+    "language": "en-US",
+    "seed": 101
+  }
+}

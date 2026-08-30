@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.behavior.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.behavior.behavior",
+    "meaning": "gvya.help.behavior",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "It can gate on required or forbidden state/context, choose responses, open topics or follow-ups, apply GVYA-owned state effects, and bind zero or more host capabilities. Matching evidence identifies a Meaning; the Behavior decides how the brain may react."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "Behavior می‌تواند با state/context مجاز یا غیرمجاز gate شود، response انتخاب کند، topic یا follow-up باز کند، state effect متعلق به GVYA اعمال کند و صفر یا چند capability میزبان را bind کند. evidence تطبیق Meaning را پیدا می‌کند؛ Behavior تعیین می‌کند brain چطور می‌تواند واکنش نشان دهد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.behavior.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Conversation Behavior is an authored rule describing how a GVYA brain can react to a resolved Meaning and the current context. It is where response choices, eligibility, conversation transitions, state effects, and capability bindings come together."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Conversation Behavior یک rule نویسنده‌شده است که مشخص می‌کند brain در GVYA در برابر Meaning حل‌شده و context فعلی چگونه می‌تواند واکنش نشان دهد. انتخاب response، eligibility، transitionهای مکالمه، state effect و capability binding در این لایه به هم می‌رسند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

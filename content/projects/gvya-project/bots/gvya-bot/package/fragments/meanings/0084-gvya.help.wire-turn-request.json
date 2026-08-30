@@ -1,0 +1,130 @@
+{
+  "exported": true,
+  "id": "gvya.help.wire-turn-request",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.wire-turn-request",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what does a turn result contain"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the runtime wire protocol"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه turn شامل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروتکل wire رانتایم چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "turnrequest utterance context state seed hint confirmation grants policy"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست نوبت گفته زمینه وضعیت seed راهنمایی تایید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "turn request runtime فیلد"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what does a turn request carry"
+      },
+      {
+        "language": "en-US",
+        "text": "what do i have to pass on every turn"
+      },
+      {
+        "language": "en-US",
+        "text": "is the seed required"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i pass visible references"
+      },
+      {
+        "language": "en-US",
+        "text": "what is language policy on a request"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i grant a confirmation"
+      },
+      {
+        "language": "en-US",
+        "text": "does the runtime read the clock itself"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the turn request"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست turn چه چیزی حمل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در هر نوبت چه چیزی باید بفرستم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "seed اجباری است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "reference های قابل مشاهده را چطور بفرستم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سیاست زبان در یک درخواست چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک تایید بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime خودش ساعت را می خواند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست turn را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the turn request look like"
+      },
+      {
+        "language": "en-US",
+        "text": "what do i send in a turn"
+      },
+      {
+        "language": "fa-IR",
+        "text": "turn request چه شکلی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در یک turn چه چیزی می فرستم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "turn request runtime فیلد"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what",
+  "mode": "add",
+  "value": {
+    "class": "clarification",
+    "id": "core.smalltalk.formal.what",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what"
+      },
+      {
+        "language": "en-US",
+        "text": "huh"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ها"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هان"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چی گفتی"
+      }
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "exported": true,
+  "id": "gvya.help.why-report",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.why-report",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "candidate ها پیش از انتخاب meaning چطور رتبه بندی می شوند"
+      },
+      {
+        "language": "en-US",
+        "text": "spellchecker score candidate words"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a trace"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the auditor"
+      },
+      {
+        "language": "fa-IR",
+        "text": "trace چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "auditor چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "matching semantic views"
+      },
+      {
+        "language": "en-US",
+        "text": "which diagnostic tells me why one candidate beat another"
+      },
+      {
+        "language": "en-US",
+        "text": "which tool should i reach for to debug a bad answer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای دیباگ یک جواب بد کدام ابزار را بردارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام گزارش می گوید چرا یک candidate از بقیه جلو زده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام ابزار تشخیصی دلیل امتیازدهی را می گوید"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ گزارش ^ CANDIDATE ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "whyreport projection human oriented not logging summary drill"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گزارش چرا تصویرسازی انسان محور نه لاگ خلاصه"
+      },
+      {
+        "language": "en-US",
+        "text": "decision explanation candidate selection rationale machine readable why trace"
+      },
+      {
+        "language": "en-US",
+        "text": "why candidate selected stable explanation tooling projection"
+      },
+      {
+        "language": "fa-IR",
+        "text": "توضیح تصمیم دلیل انتخاب candidate گزارش why قابل استفاده ابزار"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate decision reason winner explanation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دلیل تصمیم candidate برنده توضیح"
+      },
+      {
+        "language": "en-US",
+        "text": "scored higher than another winner runner up comparison explains choice made"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امتیاز بیشتر برنده نفر دوم مقایسه توضیح انتخاب دلیل جواب"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا جواب داد انتخاب دلیل امتیاز برنده"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "where do i inspect why the candidate won"
+      },
+      {
+        "language": "fa-IR",
+        "text": "why trace چه چیزی نشان می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "why an answer was chosen"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the why report"
+      },
+      {
+        "language": "en-US",
+        "text": "is why the same as logging"
+      },
+      {
+        "language": "en-US",
+        "text": "how is why built"
+      },
+      {
+        "language": "en-US",
+        "text": "who projects traces into why"
+      },
+      {
+        "language": "en-US",
+        "text": "what order does why use for humans"
+      },
+      {
+        "language": "en-US",
+        "text": "can i use why in ci"
+      },
+      {
+        "language": "en-US",
+        "text": "does why need raw internal logs"
+      },
+      {
+        "language": "en-US",
+        "text": "explain why"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گزارش why چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "why همان لاگ است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "why چطور ساخته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی trace ها را به why تبدیل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "why برای انسان چه ترتیبی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم why را در ci استفاده کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "why به لاگ داخلی خام نیاز دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "why را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "why did that meaning win"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i see the scores"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا آن meaning برنده شد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امتیازها را کجا ببینم"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate selection reason"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دلیل انتخاب candidate"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i find out why one meaning was selected"
+      },
+      {
+        "language": "en-US",
+        "text": "can i see the reasoning behind an answer"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a human readable explanation of the decision"
+      },
+      {
+        "language": "en-US",
+        "text": "why did it choose that meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "what made it pick this answer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا آن معنی را انتخاب کرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "توضیح قابل خواندن برای انسان از تصمیم وجود دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i find out why one candidate scored higher than another"
+      },
+      {
+        "language": "en-US",
+        "text": "where do i read the comparison between the winner and the runner up"
+      },
+      {
+        "language": "en-US",
+        "text": "what explains the choice it made"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا این پاسخ انتخاب شد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دلیل انتخاب این جواب را کجا ببینم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کجا مقایسه برنده و نفر دوم را ببینم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی انتخابی که کرد را توضیح می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا این جواب را داد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا این جواب انتخاب شد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دلیل این جواب چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know which meaning won"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know why it answered that"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i read the winning evidence"
+      },
+      {
+        "language": "en-US",
+        "text": "where do i see the evidence behind the winner"
+      },
+      {
+        "language": "fa-IR",
+        "text": "evidence برنده را کجا بخوانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شواهد پشت انتخاب را کجا ببینم"
+      },
+      {
+        "language": "en-US",
+        "text": "how can i see why one candidate outranked another"
+      }
+    ]
+  }
+}

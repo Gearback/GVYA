@@ -1,0 +1,24 @@
+{
+  "id": "billing.refund",
+  "value": {
+    "id": "billing.refund",
+    "samples": [
+      {
+        "language": "en",
+        "text": "i want a refund"
+      },
+      {
+        "language": "en",
+        "text": "how do i get my money back"
+      },
+      {
+        "language": "en",
+        "text": "refund my payment"
+      },
+      {
+        "language": "en",
+        "text": "can you return the charge"
+      }
+    ]
+  }
+}

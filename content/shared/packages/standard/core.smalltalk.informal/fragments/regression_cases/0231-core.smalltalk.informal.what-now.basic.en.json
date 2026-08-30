@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-now.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.what-now",
+      "response_ids": [
+        "core.smalltalk.informal.what-now.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.what-now.basic.en",
+    "initial_state": {},
+    "input": "what now",
+    "language": "en-US",
+    "seed": 1
+  }
+}

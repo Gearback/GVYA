@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.okay-then.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.okay-then.behavior",
+    "meaning": "core.smalltalk.formal.okay-then",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.okay-then.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "So.",
+              "Then we continue.",
+              "All right."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خب.",
+              "پس ادامه می‌دهیم.",
+              "بسیار خوب."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

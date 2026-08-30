@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.nice.praise-job.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Formal en-US praise phrase coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.nice",
+      "response_ids": [
+        "core.smalltalk.formal.nice.response"
+      ]
+    },
+    "generated": false,
+    "id": "core.smalltalk.formal.nice.praise-job.en",
+    "initial_state": {},
+    "input": "nice job",
+    "language": "en-US",
+    "seed": 1
+  }
+}

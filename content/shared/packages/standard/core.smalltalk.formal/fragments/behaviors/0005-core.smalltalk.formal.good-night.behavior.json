@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.good-night.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.good-night.behavior",
+    "meaning": "core.smalltalk.formal.good-night",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.good-night.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good night.",
+              "Rest well.",
+              "I hope you can rest."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شب بخیر.",
+              "خوب استراحت کنید.",
+              "امیدوارم بتوانید استراحت کنید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "exported": true,
+  "id": "gvya.help.slot",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.slot",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is an entity"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a capability binding"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entity چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability binding چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "minimum score required for resolution"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "slot named typed value cardinality provenance"
+      },
+      {
+        "language": "fa-IR",
+        "text": "slot نام دار تایپ شده مقدار تعداد منشا"
+      },
+      {
+        "language": "en-US",
+        "text": "captured values resolved meaning"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a slot"
+      },
+      {
+        "language": "en-US",
+        "text": "what does a slot contain"
+      },
+      {
+        "language": "en-US",
+        "text": "how are slot values filled"
+      },
+      {
+        "language": "en-US",
+        "text": "can a slot be ambiguous"
+      },
+      {
+        "language": "en-US",
+        "text": "what is slot provenance"
+      },
+      {
+        "language": "en-US",
+        "text": "are slots required or optional"
+      },
+      {
+        "language": "en-US",
+        "text": "where do slot values come from"
+      },
+      {
+        "language": "en-US",
+        "text": "explain slots"
+      },
+      {
+        "language": "fa-IR",
+        "text": "slot چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک slot شامل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقدار slot چطور پر می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "slot می تواند مبهم باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "منشا مقدار slot چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "slot اجباری است یا اختیاری"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقادیر slot از کجا می آیند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "slot ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what are slots"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اسلات ها چه کاری می کنند"
+      },
+      {
+        "language": "en-US",
+        "text": "slot"
+      },
+      {
+        "language": "en-US",
+        "text": "slots"
+      },
+      {
+        "language": "en-US",
+        "text": "captured values resolved meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i capture a value out of what the user said"
+      },
+      {
+        "language": "en-US",
+        "text": "where does a captured value get stored"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک مقدار را از حرف کاربر بیرون بکشم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقدار گرفته شده کجا نگه داشته می شود"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "iot.device.state",
+  "mode": "add",
+  "value": {
+    "contract": {
+      "confirmation_hint": "never",
+      "description": "Read the current state of one host-resolved IoT device. The host returns bounded device facts and GVYA formats them deterministically.",
+      "effect_class": "pure",
+      "id": "iot.device.state",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "device": { "maxLength": 160, "minLength": 1, "type": "string" }
+        },
+        "required": ["device"],
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "detail": { "maxLength": 500, "minLength": 1, "type": "string" },
+          "device": { "maxLength": 160, "minLength": 1, "type": "string" },
+          "state": { "maxLength": 160, "minLength": 1, "type": "string" }
+        },
+        "required": ["device", "state"],
+        "type": "object"
+      },
+      "reference_kinds": ["iot.device"],
+      "title": "Read IoT device state",
+      "version": "1"
+    },
+    "host_effects": [
+      { "kind": "read", "resource": "iot.device.state", "summary": "Read device state" }
+    ]
+  }
+}

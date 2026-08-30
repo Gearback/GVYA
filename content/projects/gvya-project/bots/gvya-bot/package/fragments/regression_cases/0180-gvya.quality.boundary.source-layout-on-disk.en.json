@@ -1,0 +1,22 @@
+{
+  "exported": true,
+  "id": "gvya.quality.boundary.source-layout-on-disk.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "An on-disk shape question is source layout, not the Project/Bot or Package concept",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.projects-bots",
+        "gvya.help.packages"
+      ],
+      "meaning": "gvya.help.source-layout"
+    },
+    "generated": false,
+    "id": "gvya.quality.boundary.source-layout-on-disk.en",
+    "initial_state": {},
+    "input": "what does a gvya project look like on disk",
+    "language": "en-US",
+    "seed": 1
+  }
+}

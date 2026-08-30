@@ -1,0 +1,24 @@
+{
+  "id": "order.status",
+  "value": {
+    "id": "order.status",
+    "samples": [
+      {
+        "language": "en",
+        "text": "where is my order"
+      },
+      {
+        "language": "en",
+        "text": "check my order status"
+      },
+      {
+        "language": "en",
+        "text": "track my order"
+      },
+      {
+        "language": "en",
+        "text": "what is happening with my order"
+      }
+    ]
+  }
+}

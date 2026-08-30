@@ -1,0 +1,25 @@
+{
+  "exported": true,
+  "id": "gvya.help.structural-patterns.overview.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian whole-utterance structural rule routes directly to the pattern overview",
+    "expectation": {
+      "meaning": "gvya.help.structural-patterns",
+      "response_ids": [
+        "gvya.help.structural-patterns.overview"
+      ],
+      "why_codes": [
+        "semantic.structural.matched",
+        "semantic.decision.structural"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.structural-patterns.overview.fa",
+    "initial_state": {},
+    "input": "pattern ساختاری GVYA را توضیح بده",
+    "language": "fa-IR",
+    "seed": 75
+  }
+}

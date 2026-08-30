@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.funny.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.funny.behavior",
+    "meaning": "core.smalltalk.informal.funny",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.funny.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "At least something landed.",
+              "Good. Laugh while you can.",
+              "Fair."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "حداقل یه چیزی گرفت.",
+              "خوبه. تا می‌تونی بخند.",
+              "قبوله."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "exported": true,
+  "id": "gvya.help.source-format.brain-target.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Source-format help states the one-Brain artifact boundary accurately",
+    "expectation": {
+      "meaning": "gvya.help.source-format",
+      "response_contains": [
+        "one compiled Brain for one resolved Bot target"
+      ],
+      "response_ids": [
+        "gvya.help.source-format.response"
+      ],
+      "response_not_contains": [
+        "one compiled meaning"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.source-format.brain-target.en",
+    "initial_state": {},
+    "input": "explain source format",
+    "language": "en-US",
+    "seed": 80
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.weird",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.weird",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "weird"
+      },
+      {
+        "language": "en-US",
+        "text": "that's weird"
+      },
+      {
+        "language": "en-US",
+        "text": "strange"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عجیبه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غریبه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه عجیب"
+      }
+    ]
+  }
+}

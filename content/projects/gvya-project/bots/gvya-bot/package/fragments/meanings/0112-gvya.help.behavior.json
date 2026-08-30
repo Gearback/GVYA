@@ -1,0 +1,166 @@
+{
+  "exported": true,
+  "id": "gvya.help.behavior",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.behavior",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "fallback behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "behavior eligibility"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback behavior چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شرط eligibility behavior چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "behavior schema legal fields machine readable object shape"
+      },
+      {
+        "language": "fa-IR",
+        "text": "schema behavior فیلد مجاز shape آبجکت machine readable"
+      },
+      {
+        "language": "en-US",
+        "text": "behavior object schema and legal fields"
+      },
+      {
+        "language": "en-US",
+        "text": "machine readable shape of a behavior"
+      },
+      {
+        "language": "fa-IR",
+        "text": "schema آبجکت behavior و فیلدهای مجاز"
+      },
+      {
+        "language": "fa-IR",
+        "text": "shape machine readable یک behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "behavior object shape"
+      },
+      {
+        "language": "fa-IR",
+        "text": "shape behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "unresolved recovery behavior"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "conversation behavior authored reaction meaning context responses transitions state capability bindings"
+      },
+      {
+        "language": "fa-IR",
+        "text": "conversation behavior واکنش authored meaning context response transition state capability"
+      },
+      {
+        "language": "en-US",
+        "text": "eligible meaning connects response effects capability work conversation rule behavior reaction"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning واجد شرایط اتصال response effect capability کار rule مکالمه behavior واکنش"
+      }
+    ],
+    "samples": [
+      {
+        "language": "fa-IR",
+        "text": "behavior چه نقشی دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a behavior in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "define behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "what does a behavior do"
+      },
+      {
+        "language": "en-US",
+        "text": "explain conversation behavior"
+      },
+      {
+        "language": "fa-IR",
+        "text": "behavior در gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "behavior چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تعریف behavior"
+      },
+      {
+        "language": "fa-IR",
+        "text": "conversation behavior چیه"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a conversation behavior"
+      },
+      {
+        "language": "fa-IR",
+        "text": "behavior چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "behavior چه کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "once a meaning matches what does a behavior do"
+      },
+      {
+        "language": "en-US",
+        "text": "what turns a matched meaning into an actual reply"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی یک meaning match شد behavior چه کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی یک meaning تطبیق شده را به جواب واقعی تبدیل می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "i keep seeing package behavior and meaning what is the difference"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the difference between package behavior and meaning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق package behavior و meaning چیست"
+      }
+    ]
+  }
+}

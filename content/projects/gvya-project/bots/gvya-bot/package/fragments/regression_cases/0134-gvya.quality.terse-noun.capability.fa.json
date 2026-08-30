@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.terse-noun.capability.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian parity for the terse domain-noun contract",
+    "expectation": {
+      "meaning": "gvya.help.capabilities"
+    },
+    "generated": false,
+    "id": "gvya.quality.terse-noun.capability.fa",
+    "initial_state": {},
+    "input": "capability چیست",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

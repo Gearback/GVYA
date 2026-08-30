@@ -1,0 +1,340 @@
+{
+  "exported": true,
+  "id": "gvya.help.conversation",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.conversation",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what test covers a three turn follow up"
+      },
+      {
+        "language": "en-US",
+        "text": "which test should cover a multi turn follow up"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای follow-up چند مرحله ای چه تستی لازم است"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the gvya matcher work"
+      },
+      {
+        "language": "en-US",
+        "text": "how does fallback work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher در gvya چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback چطور کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "namespaces gvya conversational state"
+      },
+      {
+        "language": "en-US",
+        "text": "activating topic later turns"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ TOPIC ^ FOLLOW-UP ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "active topic"
+      },
+      {
+        "language": "en-US",
+        "text": "followup ttl"
+      },
+      {
+        "language": "en-US",
+        "text": "repeat detection"
+      },
+      {
+        "language": "en-US",
+        "text": "conversation state"
+      },
+      {
+        "language": "en-US",
+        "text": "turn context remember survive reply continuity"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic فعال"
+      },
+      {
+        "language": "fa-IR",
+        "text": "followup ttl"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تشخیص تکرار"
+      },
+      {
+        "language": "fa-IR",
+        "text": "conversation state"
+      },
+      {
+        "language": "fa-IR",
+        "text": "turn context یادآوری باقی جواب پیوستگی"
+      },
+      {
+        "language": "en-US",
+        "text": "topic active duration message"
+      },
+      {
+        "language": "en-US",
+        "text": "previous turn refer continuation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic فعال چند پیام"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام قبلی وصل اشاره ادامه"
+      },
+      {
+        "language": "en-US",
+        "text": "dialogue coherent multiple turns"
+      },
+      {
+        "language": "en-US",
+        "text": "remember earlier turns carry over between messages memory context continuity"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یادش بماند نوبت قبلی منتقل بین پیام حافظه زمینه پیوستگی"
+      },
+      {
+        "language": "en-US",
+        "text": "keep track discussing recall earlier messages what we were talking about"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دنبال کردن حرف زدیم یادآوری پیام قبلی درباره چه صحبت"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وصل شدن چسبیدن به پیام قبلی ادامه گفتگو پیوستگی topic follow-up"
+      }
+    ],
+    "samples": [
+      {
+        "language": "fa-IR",
+        "text": "حافظه مکالمه topic و follow-up را میان پیام ها نگه می دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya conversation state"
+      },
+      {
+        "language": "en-US",
+        "text": "how does gvya keep conversation context"
+      },
+      {
+        "language": "en-US",
+        "text": "explain topics and followups"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya remember previous turns"
+      },
+      {
+        "language": "en-US",
+        "text": "how does repeated input work"
+      },
+      {
+        "language": "en-US",
+        "text": "what controls conversation state"
+      },
+      {
+        "language": "en-US",
+        "text": "how is active language retained"
+      },
+      {
+        "language": "en-US",
+        "text": "which state fields drive turn continuity"
+      },
+      {
+        "language": "en-US",
+        "text": "does the bot remember what we were talking about"
+      },
+      {
+        "language": "en-US",
+        "text": "state survives user turn next"
+      },
+      {
+        "language": "en-US",
+        "text": "recent messages active language state"
+      },
+      {
+        "language": "en-US",
+        "text": "recent messages active language"
+      },
+      {
+        "language": "en-US",
+        "text": "reply open follow up context"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وضعیت مکالمه در gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چطور context مکالمه را نگه می دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic و followup را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya پیام های قبلی را یادش می ماند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ورودی تکراری چطور مدیریت می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "conversation state را چه چیزی کنترل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان فعال مکالمه چطور حفظ می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام فیلدهای state پیوستگی turn را کنترل می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات یادش می مونه داشتیم درباره چی حرف می زدیم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین پیام کاربر state باقی می مونه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جواب follow up موقت باز می کنه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام های اخیر زبان فعال مکالمه"
+      },
+      {
+        "language": "en-US",
+        "text": "what does it remember between turns"
+      },
+      {
+        "language": "en-US",
+        "text": "how is state carried forward"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین نوبت ها چه چیزی را به یاد دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "state چطور منتقل می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it remember the conversation"
+      },
+      {
+        "language": "en-US",
+        "text": "what is carried between turns"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مکالمه را چطور به یاد می آورد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین نوبت ها چه چیزی حفظ می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "dialogue coherent multiple turns"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it remember the earlier turns"
+      },
+      {
+        "language": "en-US",
+        "text": "does anything carry over from one message to the next"
+      },
+      {
+        "language": "en-US",
+        "text": "where is the memory of our exchange kept"
+      },
+      {
+        "language": "en-US",
+        "text": "does it keep context between messages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور نوبت های قبلی یادش می ماند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از یک پیام به پیام بعدی چیزی منتقل می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حافظه گفتگوی ما کجا نگه داشته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین پیام ها زمینه را حفظ می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it keep track of what we have been discussing"
+      },
+      {
+        "language": "en-US",
+        "text": "does it recall earlier messages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور دنبال می کند که ما درباره چه چیزی حرف زده ایم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام های قبلی را به یاد می آورد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "موضوعی که داشتیم درباره اش حرف می زدیم را نگه می دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی باعث می شود یک سوال کوتاه به پیام قبلی وصل شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی جمله بعدی را به گفتگوی قبلی می چسباند"
+      }
+    ]
+  }
+}

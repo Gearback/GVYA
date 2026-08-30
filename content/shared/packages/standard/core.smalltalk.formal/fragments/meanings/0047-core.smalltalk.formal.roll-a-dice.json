@@ -1,0 +1,44 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.roll-a-dice",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.roll-a-dice",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "roll a dice"
+      },
+      {
+        "language": "en-US",
+        "text": "roll a die"
+      },
+      {
+        "language": "en-US",
+        "text": "dice"
+      },
+      {
+        "language": "en-US",
+        "text": "d6"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تاس بنداز"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه تاس بنداز"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تاس"
+      }
+    ]
+  }
+}

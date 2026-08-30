@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.be-right-back.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.be-right-back.behavior",
+    "meaning": "core.smalltalk.formal.be-right-back",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.be-right-back.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I will wait.",
+              "All right. Come back when you can.",
+              "I will remain here."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "منتظر می‌مانم.",
+              "باشه. هر وقت توانستید برگردید.",
+              "اینجا می‌مانم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

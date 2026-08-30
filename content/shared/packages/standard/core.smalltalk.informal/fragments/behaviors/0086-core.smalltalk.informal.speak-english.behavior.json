@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.speak-english.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.speak-english.behavior",
+    "meaning": "core.smalltalk.informal.speak-english",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.speak-english.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "English, then.",
+              "Fine. I’ll keep it in English.",
+              "Alright, English."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه، انگلیسی.",
+              "پس انگلیسی می‌گم.",
+              "قبول، انگلیسی."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

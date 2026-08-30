@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-sad.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.im-sad.behavior",
+    "meaning": "core.smalltalk.informal.im-sad",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.im-sad.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I hear you.",
+              "That’s rough.",
+              "Don’t pretend it’s nothing."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "می‌شنوم.",
+              "سخته.",
+              "وانمود نکن چیزی نیست."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

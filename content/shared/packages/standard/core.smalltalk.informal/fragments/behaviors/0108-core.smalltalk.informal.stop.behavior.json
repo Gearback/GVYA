@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.stop.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.stop.behavior",
+    "meaning": "core.smalltalk.informal.stop",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.stop.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Fine.",
+              "Enough, then.",
+              "We stop there."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه.",
+              "پس کافیه.",
+              "همین‌جا متوقف می‌شیم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

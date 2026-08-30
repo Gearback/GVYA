@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.wire-turn-result.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.wire-turn-result.behavior",
+    "meaning": "gvya.help.wire-turn-result",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Hosts choose how much diagnostic visibility to show end users, but the wire always preserves the structured result so Studio, an AI or CI can inspect it without scraping prose."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "میزبان‌ها انتخاب می‌کنند چقدر از تشخیص‌ها را به کاربر نهایی نشان دهند، اما wire همیشه نتیجهٔ ساختاریافته را حفظ می‌کند تا استودیو یا یک AI یا CI بتواند بدون خواندن متن آن را بررسی کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.wire-turn-result.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A turn result serializes the conversation mode, the structured Meaning with typed slots and references, the selected behavior and its response messages and items, the resulting state, semantic diagnostics and traces, capability decisions and typed invocation proposals, and a combined Why report."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نتیجهٔ turn شامل حالت مکالمه، Meaning ساختاریافته با slot و referenceهای تایپ‌شده، behavior انتخاب‌شده و پیام‌ها و آیتم‌های پاسخش، وضعیت حاصل، تشخیص‌های معنایی و traceها، تصمیم‌های capability و پیشنهادهای فراخوانیِ تایپ‌شده، و یک گزارش Why ترکیبی است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

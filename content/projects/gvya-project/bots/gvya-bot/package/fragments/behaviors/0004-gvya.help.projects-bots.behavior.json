@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.projects-bots.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.projects-bots.behavior",
+    "meaning": "gvya.help.projects-bots",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The Bot Package is private to that Bot. Its default language is the required active language and cannot be disabled."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "Bot Package مخصوص همان Bot است. زبان پیش‌فرض Bot همیشه فعال و غیرقابل غیرفعال‌کردن است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.projects-bots.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Studio Project is a project-owned authoring scope for its Packages, Matcher Profiles, and Bots. Each Bot may reference Shared source live, select Project-owned source, and keep Bot-specific overrides in its own Package."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Project در Studio محدودهٔ نویسندگیِ sourceهای متعلق به Project، Matcher Profileها و Botهای آن است. هر Bot می‌تواند source مشترک را زنده reference کند، source متعلق به Project را انتخاب کند و override مخصوص خودش را در Package همان Bot نگه دارد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-dont-speak-english.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.i-dont-speak-english.behavior",
+    "meaning": "core.smalltalk.informal.i-dont-speak-english",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.i-dont-speak-english.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "No problem. Keep it simple.",
+              "Then use simple words.",
+              "We can keep it clear."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "مشکلی نیست. ساده بگو.",
+              "پس با کلمه‌های ساده بگو.",
+              "می‌تونیم واضح حرف بزنیم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

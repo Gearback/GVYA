@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.discovery.scenario.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "English discovery rabbit-hole continuation",
+    "generated": false,
+    "id": "gvya.dialog.discovery.scenario.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.surprise-me",
+          "response_ids": [
+            "gvya.dialog.surprise-me.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Surprise me with something about GVYA.",
+        "seed": 11,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.discovery-again",
+          "response_ids": [
+            "gvya.dialog.discovery-again.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Another one.",
+        "seed": 12,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher",
+          "response_ids": [
+            "gvya.help.matcher.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "How does GVYA decide which meaning wins for a sentence?",
+        "seed": 13,
+        "type": "turn"
+      }
+    ]
+  }
+}

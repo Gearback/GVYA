@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.route.concepts.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Menu route concepts Persian",
+    "expectation": {
+      "meaning": "gvya.help.about",
+      "response_ids": [
+        "gvya.help.about.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.route.concepts.fa",
+    "initial_state": {},
+    "input": "مفاهیم",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

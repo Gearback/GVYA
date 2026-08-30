@@ -1,0 +1,30 @@
+{
+  "id": "storage.delete",
+  "value": {
+    "id": "storage.delete",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "delete scan"
+      },
+      {
+        "language": "en",
+        "text": "remove document"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i delete a scan from the device"
+      },
+      {
+        "language": "en",
+        "text": "remove a saved document"
+      },
+      {
+        "language": "en",
+        "text": "delete a local scan"
+      }
+    ]
+  }
+}

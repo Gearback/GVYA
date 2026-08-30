@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.say-something.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.say-something",
+      "response_ids": [
+        "core.smalltalk.informal.say-something.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.say-something.basic.fa",
+    "initial_state": {},
+    "input": "یه چیزی بگو",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

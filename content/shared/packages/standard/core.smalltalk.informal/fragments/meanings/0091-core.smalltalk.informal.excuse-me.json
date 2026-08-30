@@ -1,0 +1,28 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.excuse-me",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.excuse-me",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "excuse me"
+      },
+      {
+        "language": "en-US",
+        "text": "pardon me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معذرت می‌خوام"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "exported": true,
+  "id": "gvya.m1.boundary.how-are-you.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Smalltalk remains intact after package plural coverage",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.bot-abilities",
+        "gvya.help.packages"
+      ],
+      "meaning": "core.smalltalk.formal.how-are-you"
+    },
+    "generated": false,
+    "id": "gvya.m1.boundary.how-are-you.en",
+    "initial_state": {},
+    "input": "How are you?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

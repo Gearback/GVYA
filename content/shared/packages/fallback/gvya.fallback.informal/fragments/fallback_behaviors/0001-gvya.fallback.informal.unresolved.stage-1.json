@@ -1,0 +1,60 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.informal.unresolved.stage-1",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "less_or_equal",
+        "path": "repairCount",
+        "value": 0
+      }
+    ],
+    "id": "gvya.fallback.informal.unresolved.stage-1",
+    "priority": 0,
+    "responses": [
+      {
+        "id": "gvya.fallback.informal.unresolved.not-understood",
+        "kind": "fallback",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Sorry?",
+              "I didn't get that."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ببخشید، نگرفتم چی گفتی.",
+              "درست متوجه نشدم."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gvya.fallback.informal.unresolved.more-detail",
+        "kind": "fallback",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Give me a little more detail.",
+              "Can you be more specific?"
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یه کم بیشتر توضیح بده.",
+              "می‌شه مشخص‌تر بگی؟"
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "unresolved"
+  }
+}

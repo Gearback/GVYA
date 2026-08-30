@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.architecture-to-runtime.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Architecture help moves through Package ownership into runtime integration",
+    "generated": false,
+    "id": "gvya.help.scenario.architecture-to-runtime.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.architecture",
+          "response_ids": [
+            "gvya.help.architecture.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Trace GVYA from authored source to runtime authority.",
+        "seed": 101,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.packages",
+          "response_ids": [
+            "gvya.help.packages.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Where does reusable Package behavior live without copying Shared source?",
+        "seed": 102,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.runtime-integration",
+          "response_ids": [
+            "gvya.help.runtime-integration.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "What is the basic host loop for running a compiled brain?",
+        "seed": 103,
+        "type": "turn"
+      }
+    ]
+  }
+}

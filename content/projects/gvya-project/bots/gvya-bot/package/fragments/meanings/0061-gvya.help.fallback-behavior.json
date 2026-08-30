@@ -1,0 +1,122 @@
+{
+  "exported": true,
+  "id": "gvya.help.fallback-behavior",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.fallback-behavior",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what happens when it does not understand me"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens if i say the same thing twice"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی متوجه نشود چه اتفاقی می افتد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر یک چیز را دو بار بگویم چه می شود"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "fallbackbehavior trigger unresolved repeat priority tier silent authored"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رفتار جایگزین تریگر حل نشده تکرار اولویت لایه خاموش"
+      },
+      {
+        "language": "en-US",
+        "text": "unresolved recovery behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "authored unresolved response staged recovery fallback behavior trigger repeat response selection"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پاسخ authored unresolved مرحله‌ای recovery fallback behavior trigger repeat انتخاب پاسخ"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a fallback behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "how is fallback selected"
+      },
+      {
+        "language": "en-US",
+        "text": "does a fallback behavior have a meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "what triggers exist for fallback"
+      },
+      {
+        "language": "en-US",
+        "text": "can fallback depend on state"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens if no fallback is eligible"
+      },
+      {
+        "language": "en-US",
+        "text": "is there built in i do not understand text"
+      },
+      {
+        "language": "en-US",
+        "text": "explain fallback behaviors"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback behavior چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback چطور انتخاب می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک fallback behavior معنی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه تریگرهایی برای fallback هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback می تواند به وضعیت وابسته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر هیچ fallback واجد شرایطی نباشد چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متن نمی فهمم از پیش ساخته وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback behavior ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "unresolved recovery behavior"
+      }
+    ]
+  }
+}

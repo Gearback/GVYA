@@ -1,0 +1,596 @@
+{
+  "entries": [
+    {
+      "kind": "direct_category",
+      "label": "device.about",
+      "value": "WHAT IS FOLIOBOX"
+    },
+    {
+      "kind": "direct_category",
+      "label": "device.about",
+      "value": "EXPLAIN FOLIOBOX"
+    },
+    {
+      "kind": "direct_category",
+      "label": "device.about",
+      "value": "TELL ME ABOUT FOLIOBOX"
+    },
+    {
+      "kind": "direct_category",
+      "label": "device.about",
+      "value": "^ WHAT ^ FOLIOBOX ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "device.about",
+      "value": "^ FOLIOBOX ^ DO ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.single",
+      "value": "HOW DO I SCAN ONE PAGE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.single",
+      "value": "SCAN A SINGLE SHEET"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.single",
+      "value": "CAPTURE ONE PAPER PAGE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.single",
+      "value": "^ SCAN ^ ONE ^ PAGE ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.single",
+      "value": "^ SINGLE ^ SHEET ^ SCAN ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.duplex",
+      "value": "HOW DO I SCAN BOTH SIDES OF A PAGE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.duplex",
+      "value": "SCAN A DOUBLE SIDED SHEET"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.duplex",
+      "value": "CAPTURE FRONT AND BACK TOGETHER"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.duplex",
+      "value": "^ SCAN ^ BOTH ^ SIDES ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.duplex",
+      "value": "^ FRONT ^ BACK ^ SCAN ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.receipt",
+      "value": "HOW DO I SCAN A RECEIPT"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.receipt",
+      "value": "SCAN NARROW RECEIPT PAPER"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.receipt",
+      "value": "USE RECEIPT SCANNING MODE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.receipt",
+      "value": "^ SCAN ^ RECEIPT ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "scan.receipt",
+      "value": "^ RECEIPT ^ MODE ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "ocr.language",
+      "value": "HOW DO I CHOOSE THE OCR LANGUAGE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "ocr.language",
+      "value": "SET THE TEXT RECOGNITION LANGUAGE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "ocr.language",
+      "value": "CHANGE RECOGNITION LANGUAGE FOR A SCAN"
+    },
+    {
+      "kind": "direct_category",
+      "label": "ocr.language",
+      "value": "^ OCR ^ LANGUAGE ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "ocr.language",
+      "value": "^ RECOGNITION ^ LANGUAGE ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "ocr.offline",
+      "value": "DOES TEXT RECOGNITION WORK OFFLINE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "ocr.offline",
+      "value": "TELL ME ABOUT OFFLINE TEXT RECOGNITION"
+    },
+    {
+      "kind": "direct_category",
+      "label": "ocr.offline",
+      "value": "CAN OCR RUN WITHOUT INTERNET"
+    },
+    {
+      "kind": "direct_category",
+      "label": "ocr.offline",
+      "value": "^ OCR ^ OFFLINE ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "ocr.offline",
+      "value": "^ TEXT RECOGNITION ^ WITHOUT INTERNET ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "wifi.setup",
+      "value": "HOW DO I CONNECT FOLIOBOX TO WIFI"
+    },
+    {
+      "kind": "direct_category",
+      "label": "wifi.setup",
+      "value": "SET UP WIRELESS ON FOLIOBOX"
+    },
+    {
+      "kind": "direct_category",
+      "label": "wifi.setup",
+      "value": "JOIN THE DEVICE TO MY NETWORK"
+    },
+    {
+      "kind": "direct_category",
+      "label": "wifi.setup",
+      "value": "^ FOLIOBOX ^ WIFI ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "wifi.setup",
+      "value": "^ CONNECT ^ WIRELESS ^ NETWORK ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "export.pdf",
+      "value": "HOW DO I EXPORT A SCAN AS PDF"
+    },
+    {
+      "kind": "direct_category",
+      "label": "export.pdf",
+      "value": "SAVE A DOCUMENT AS A PDF"
+    },
+    {
+      "kind": "direct_category",
+      "label": "export.pdf",
+      "value": "TURN A SCAN INTO PDF"
+    },
+    {
+      "kind": "direct_category",
+      "label": "export.pdf",
+      "value": "^ EXPORT ^ PDF ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "export.pdf",
+      "value": "^ SCAN ^ PDF ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "export.searchable",
+      "value": "HOW DO I MAKE A SEARCHABLE PDF"
+    },
+    {
+      "kind": "direct_category",
+      "label": "export.searchable",
+      "value": "MAKE MY SCAN INTO A SEARCHABLE PDF"
+    },
+    {
+      "kind": "direct_category",
+      "label": "export.searchable",
+      "value": "EXPORT PDF WITH RECOGNIZED TEXT"
+    },
+    {
+      "kind": "direct_category",
+      "label": "export.searchable",
+      "value": "^ SEARCHABLE ^ PDF ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "export.searchable",
+      "value": "^ PDF ^ RECOGNIZED TEXT ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "security.encryption",
+      "value": "ARE SCANS ENCRYPTED ON FOLIOBOX"
+    },
+    {
+      "kind": "direct_category",
+      "label": "security.encryption",
+      "value": "IS LOCAL DOCUMENT STORAGE ENCRYPTED"
+    },
+    {
+      "kind": "direct_category",
+      "label": "security.encryption",
+      "value": "HOW ARE SAVED SCANS PROTECTED"
+    },
+    {
+      "kind": "direct_category",
+      "label": "security.encryption",
+      "value": "^ SCAN ^ ENCRYPTED ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "security.encryption",
+      "value": "^ LOCAL ^ ENCRYPTION ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "storage.capacity",
+      "value": "HOW MUCH CAN FOLIOBOX STORE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "storage.capacity",
+      "value": "WHAT IS THE LOCAL STORAGE CAPACITY"
+    },
+    {
+      "kind": "direct_category",
+      "label": "storage.capacity",
+      "value": "HOW MANY PAGES FIT ON THE DEVICE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "storage.capacity",
+      "value": "^ STORAGE ^ CAPACITY ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "storage.capacity",
+      "value": "^ HOW MANY ^ PAGES ^ STORE ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "storage.delete",
+      "value": "HOW DO I DELETE A SCAN FROM THE DEVICE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "storage.delete",
+      "value": "REMOVE A SAVED DOCUMENT"
+    },
+    {
+      "kind": "direct_category",
+      "label": "storage.delete",
+      "value": "DELETE A LOCAL SCAN"
+    },
+    {
+      "kind": "direct_category",
+      "label": "storage.delete",
+      "value": "^ DELETE ^ SCAN ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "storage.delete",
+      "value": "^ REMOVE ^ DOCUMENT ^ DEVICE ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "backup.usb",
+      "value": "HOW DO I BACK UP SCANS TO USB"
+    },
+    {
+      "kind": "direct_category",
+      "label": "backup.usb",
+      "value": "MAKE A USB BACKUP OF DOCUMENTS"
+    },
+    {
+      "kind": "direct_category",
+      "label": "backup.usb",
+      "value": "COPY SCANS TO A USB DRIVE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "backup.usb",
+      "value": "^ USB ^ BACKUP ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "backup.usb",
+      "value": "^ BACK UP ^ SCANS ^ USB ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "cloud.sync",
+      "value": "HOW DOES CLOUD SYNC WORK"
+    },
+    {
+      "kind": "direct_category",
+      "label": "cloud.sync",
+      "value": "SYNC DOCUMENTS TO THE CLOUD WORKSPACE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "cloud.sync",
+      "value": "WHEN ARE SCANS UPLOADED TO CLOUD"
+    },
+    {
+      "kind": "direct_category",
+      "label": "cloud.sync",
+      "value": "^ CLOUD ^ SYNC ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "cloud.sync",
+      "value": "^ SYNC ^ DOCUMENTS ^ CLOUD ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "sharing.link",
+      "value": "HOW DO I SHARE A DOCUMENT LINK"
+    },
+    {
+      "kind": "direct_category",
+      "label": "sharing.link",
+      "value": "CREATE A LINK TO A SYNCED DOCUMENT"
+    },
+    {
+      "kind": "direct_category",
+      "label": "sharing.link",
+      "value": "SHARE A DOCUMENT BY URL"
+    },
+    {
+      "kind": "direct_category",
+      "label": "sharing.link",
+      "value": "^ SHARE ^ DOCUMENT ^ LINK ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "sharing.link",
+      "value": "^ CREATE ^ LINK ^ DOCUMENT ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "paper.jam",
+      "value": "WHAT DO I DO IF PAPER IS JAMMED"
+    },
+    {
+      "kind": "direct_category",
+      "label": "paper.jam",
+      "value": "CLEAR A JAMMED PAGE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "paper.jam",
+      "value": "PAPER IS STUCK IN THE FEEDER"
+    },
+    {
+      "kind": "direct_category",
+      "label": "paper.jam",
+      "value": "^ PAPER ^ JAM ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "paper.jam",
+      "value": "^ PAPER ^ STUCK ^ FEED ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "rollers.clean",
+      "value": "HOW DO I CLEAN THE FEED ROLLERS"
+    },
+    {
+      "kind": "direct_category",
+      "label": "rollers.clean",
+      "value": "CLEAN THE DOCUMENT ROLLERS"
+    },
+    {
+      "kind": "direct_category",
+      "label": "rollers.clean",
+      "value": "MAINTAIN THE PAPER FEED ROLLERS"
+    },
+    {
+      "kind": "direct_category",
+      "label": "rollers.clean",
+      "value": "^ CLEAN ^ ROLLERS ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "rollers.clean",
+      "value": "^ FEED ^ ROLLERS ^ CLEAN ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "battery.life",
+      "value": "HOW LONG DOES THE BATTERY LAST"
+    },
+    {
+      "kind": "direct_category",
+      "label": "battery.life",
+      "value": "HOW MANY SCANS PER CHARGE"
+    },
+    {
+      "kind": "direct_category",
+      "label": "battery.life",
+      "value": "BATTERY RUNTIME WHILE SCANNING"
+    },
+    {
+      "kind": "direct_category",
+      "label": "battery.life",
+      "value": "^ BATTERY ^ LAST ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "battery.life",
+      "value": "^ SCANS ^ CHARGE ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "soft.restart",
+      "value": "HOW DO I RESTART FOLIOBOX WITHOUT LOSING SCANS"
+    },
+    {
+      "kind": "direct_category",
+      "label": "soft.restart",
+      "value": "RESTART FOLIOBOX WITHOUT DELETING ANYTHING"
+    },
+    {
+      "kind": "direct_category",
+      "label": "soft.restart",
+      "value": "REBOOT AND KEEP MY SCANS"
+    },
+    {
+      "kind": "direct_category",
+      "label": "soft.restart",
+      "value": "^ RESTART ^ WITHOUT ^ LOSING ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "soft.restart",
+      "value": "^ REBOOT ^ KEEP ^ SCANS ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "factory.reset",
+      "value": "HOW DO I FACTORY RESET FOLIOBOX"
+    },
+    {
+      "kind": "direct_category",
+      "label": "factory.reset",
+      "value": "RESET FOLIOBOX TO FACTORY SETTINGS"
+    },
+    {
+      "kind": "direct_category",
+      "label": "factory.reset",
+      "value": "WIPE LOCAL SETUP AND START OVER"
+    },
+    {
+      "kind": "direct_category",
+      "label": "factory.reset",
+      "value": "^ FACTORY ^ RESET ^"
+    },
+    {
+      "kind": "direct_category",
+      "label": "factory.reset",
+      "value": "^ WIPE ^ FOLIOBOX ^"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.duplex_orientation",
+      "that": "BENCH SCAN_DUPLEX",
+      "value": "WHICH SIDE GOES IN FIRST"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.duplex_orientation",
+      "that": "BENCH SCAN_DUPLEX",
+      "value": "WHICH SIDE SHOULD FACE UP FIRST"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.duplex_orientation",
+      "that": "BENCH SCAN_DUPLEX",
+      "value": "^ SIDE ^ FIRST ^"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.ocr_offline_language",
+      "that": "BENCH OCR_OFFLINE",
+      "value": "DOES THAT STILL USE MY SELECTED LANGUAGE"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.ocr_offline_language",
+      "that": "BENCH OCR_OFFLINE",
+      "value": "DOES OFFLINE OCR KEEP THE CHOSEN LANGUAGE"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.ocr_offline_language",
+      "that": "BENCH OCR_OFFLINE",
+      "value": "^ LANGUAGE ^ OFFLINE ^"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.searchable_is_pdf",
+      "that": "BENCH EXPORT_SEARCHABLE",
+      "value": "IS THAT STILL A NORMAL PDF FILE"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.searchable_is_pdf",
+      "that": "BENCH EXPORT_SEARCHABLE",
+      "value": "IS A SEARCHABLE EXPORT STILL A STANDARD PDF"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.searchable_is_pdf",
+      "that": "BENCH EXPORT_SEARCHABLE",
+      "value": "^ STILL ^ PDF ^"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.restart_preserves",
+      "that": "BENCH SOFT_RESTART",
+      "value": "WILL MY SAVED SCANS STILL BE THERE"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.restart_preserves",
+      "that": "BENCH SOFT_RESTART",
+      "value": "DOES THAT RESTART KEEP STORED SCANS"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.restart_preserves",
+      "that": "BENCH SOFT_RESTART",
+      "value": "^ SCANS ^ STILL ^"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.reset_cloud",
+      "that": "BENCH FACTORY_RESET",
+      "value": "DOES THAT ERASE DOCUMENTS ALREADY SYNCED TO CLOUD"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.reset_cloud",
+      "that": "BENCH FACTORY_RESET",
+      "value": "DOES FACTORY RESET DELETE CLOUD COPIES"
+    },
+    {
+      "kind": "that_context_category",
+      "label": "context.reset_cloud",
+      "that": "BENCH FACTORY_RESET",
+      "value": "^ CLOUD ^ COPIES ^"
+    }
+  ],
+  "rows": 115,
+  "system": "AIML 2.0 / Program-Y 3.6"
+}

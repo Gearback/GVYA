@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what-year-is-it.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.what-year-is-it.behavior",
+    "meaning": "core.smalltalk.formal.what-year-is-it",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.what-year-is-it.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It is {{ system.year | unavailable }}.",
+              "The year is {{ system.year | unavailable }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "سال {{ system.year | نامشخص }} است.",
+              "اکنون سال {{ system.year | نامشخص }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

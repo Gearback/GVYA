@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.dont-go.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.dont-go.behavior",
+    "meaning": "core.smalltalk.formal.dont-go",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.dont-go.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am still here.",
+              "I am not leaving yet.",
+              "Very well. I will stay."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "من همچنان اینجا هستم.",
+              "فعلاً جایی نمی‌روم.",
+              "بسیار خوب. می‌مانم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

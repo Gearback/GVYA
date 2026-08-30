@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.why-report.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.why-report.behavior",
+    "meaning": "gvya.help.why-report",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Because it is built from structured trace events with stable reason codes, the same report serves Studio's Why panel and machine or CI inspection without scraping prose."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "چون از رویدادهای trace ساختاریافته با کدهای دلیل پایدار ساخته می‌شود، همان گزارش هم به پنل Why در استودیو و هم به بازرسی ماشینی یا CI خدمت می‌کند، بدون نیاز به خواندن متن."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.why-report.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Why is not logging. The canonical kernels emit stable traces, and the package and audit layer projects those traces into a human-oriented WhyReport with summaries and progressive drill-in."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏Why لاگ نیست. هسته‌های کانونی traceهای پایدار تولید می‌کنند، و لایهٔ پکیج و ممیزی آن traceها را به یک ‎WhyReport‎ انسان‌محور با خلاصه و امکان ورود تدریجی به جزئیات تبدیل می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

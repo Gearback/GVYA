@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.repeat-that.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.repeat-that.behavior",
+    "meaning": "core.smalltalk.informal.repeat-that",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.repeat-that.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I said what I said.",
+              "I can repeat it: pay attention to the last thing I told you.",
+              "Listen closely this time."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "همونی رو گفتم که گفتم.",
+              "می‌تونم تکرار کنم: به حرف قبلیم دقت کن.",
+              "این بار دقیق گوش کن."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

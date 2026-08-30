@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-time-is-it.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.what-time-is-it.behavior",
+    "meaning": "core.smalltalk.informal.what-time-is-it",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.what-time-is-it.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It's {{ system.time | unavailable }}.",
+              "The time is {{ system.time | unavailable }}.",
+              "It’s {{ system.time12 | unavailable }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ساعت {{ system.time | نامشخص }} است.",
+              "الان ساعت {{ system.time | نامشخص }} است.",
+              "به وقت دوازده‌ساعته {{ system.time12 | نامشخص }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

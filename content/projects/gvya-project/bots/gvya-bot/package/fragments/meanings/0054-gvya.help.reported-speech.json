@@ -1,0 +1,130 @@
+{
+  "exported": true,
+  "id": "gvya.help.reported-speech",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.reported-speech",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what are negative samples"
+      },
+      {
+        "language": "en-US",
+        "text": "how is input text normalized"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمونه های منفی چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متن ورودی چطور نرمال سازی می شود"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "reported speech quoting suppression verbs nouns span rejection"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقل قول سرکوب افعال اسامی بازه رد"
+      },
+      {
+        "language": "en-US",
+        "text": "quoted social text own greeting"
+      },
+      {
+        "language": "en-US",
+        "text": "quoted narrated reported speech direct social intent suppress quotation reporting context"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقل قول روایت reported speech intent اجتماعی مستقیم suppress quoted گزارش"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is reported speech suppression"
+      },
+      {
+        "language": "en-US",
+        "text": "why is he said turn on the light not a command"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it avoid acting on quoted text"
+      },
+      {
+        "language": "en-US",
+        "text": "what are reporting verbs"
+      },
+      {
+        "language": "en-US",
+        "text": "can i quote a command safely"
+      },
+      {
+        "language": "en-US",
+        "text": "how are reporting markers configured"
+      },
+      {
+        "language": "en-US",
+        "text": "does it distinguish quoting from asking"
+      },
+      {
+        "language": "en-US",
+        "text": "explain reported speech"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سرکوب نقل قول چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا گفت چراغ را روشن کن یک دستور نیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور روی متن نقل شده عمل نمی کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "افعال نقل قول چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم یک دستور را نقل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نشانگرهای نقل قول چطور تنظیم می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقل کردن را از پرسیدن تشخیص می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقل قول را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "does it handle reported speech"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقل قول را تشخیص می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "quoted social text own greeting"
+      }
+    ]
+  }
+}

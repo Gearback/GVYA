@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.quality.boundary.why-report-human.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The human-oriented projection of a decision is the Why report, not the raw Trace record",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.trace"
+      ],
+      "meaning": "gvya.help.why-report"
+    },
+    "generated": false,
+    "id": "gvya.quality.boundary.why-report-human.en",
+    "initial_state": {},
+    "input": "is there a human readable explanation of a decision",
+    "language": "en-US",
+    "seed": 1
+  }
+}

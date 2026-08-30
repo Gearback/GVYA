@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.good-luck.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.good-luck.behavior",
+    "meaning": "core.smalltalk.formal.good-luck",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.good-luck.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good luck.",
+              "Then do not waste it.",
+              "May it go your way."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "موفق باشید.",
+              "پس آن را هدر ندهید.",
+              "امیدوارم به نفع شما پیش برود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

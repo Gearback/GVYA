@@ -1,0 +1,24 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.recovery-route.out-of-scope.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A terse numbered recovery choice must not become a global structural command",
+    "expectation": {
+      "conversation_mode": "fallback",
+      "forbidden_meanings": [
+        "gvya.dialog.recovery-route"
+      ],
+      "response_ids": [
+        "gvya.fallback.formal.unresolved.stage-1.redirect"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.recovery-route.out-of-scope.en",
+    "initial_state": {},
+    "input": "2",
+    "language": "en-US",
+    "seed": 89
+  }
+}

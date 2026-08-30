@@ -1,0 +1,15 @@
+{
+  "exported": true,
+  "id": "iot.device.set.binding",
+  "mode": "add",
+  "value": {
+    "arguments": [
+      { "source": { "kind": "iot.device", "projection": "id", "type": "meaning_reference" }, "target": "device" },
+      { "source": { "name": "property", "type": "meaning_slot" }, "target": "property" },
+      { "source": { "name": "value", "type": "meaning_slot" }, "target": "value" }
+    ],
+    "capability": "iot.device.set",
+    "id": "iot.device.set.binding",
+    "trigger": { "meaning": "iot.device.set" }
+  }
+}

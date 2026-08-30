@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.use-cases.heldout.fa.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Where GVYA fits and what can be built with it held-out fa-IR coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.use-cases",
+      "response_ids": [
+        "gvya.help.use-cases.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.use-cases.heldout.fa.2",
+    "initial_state": {},
+    "input": "این سیستم فقط برای NPC بازیه یا جای دیگه هم میشه استفاده کرد؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

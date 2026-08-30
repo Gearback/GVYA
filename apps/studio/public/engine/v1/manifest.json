@@ -1,0 +1,12 @@
+{
+  "artifact_format": 1,
+  "engine": "v1",
+  "format": "gvya.engine-assets",
+  "module": {
+    "abi": 1,
+    "bytes": 3811290,
+    "path": "gvya-ffi.wasm",
+    "sha256": "4880e5b622171bdbf63dd28249ce553b2d7f720e01cfcd2b723f0c4763846f78"
+  },
+  "version": 1
+}

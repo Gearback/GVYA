@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-real.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.are-you-real.behavior",
+    "meaning": "core.smalltalk.formal.are-you-real",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.are-you-real.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Yes. I am real enough to answer you.",
+              "I am here.",
+              "Real enough for this conversation."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بله. آن‌قدر واقعی هستم که پاسخ بدهم.",
+              "اینجا هستم.",
+              "برای این مکالمه واقعی هستم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

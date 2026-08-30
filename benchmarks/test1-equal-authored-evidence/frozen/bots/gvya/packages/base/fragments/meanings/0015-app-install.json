@@ -1,0 +1,24 @@
+{
+  "id": "app.install",
+  "value": {
+    "id": "app.install",
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i install the app"
+      },
+      {
+        "language": "en",
+        "text": "help me install the application"
+      },
+      {
+        "language": "en",
+        "text": "where do i start the installation"
+      },
+      {
+        "language": "en",
+        "text": "installing the app"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.roll-d20.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.roll-d20.behavior",
+    "meaning": "core.smalltalk.formal.roll-d20",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.roll-d20.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "You rolled {{ rnd(1, 20) }}.",
+              "The d20 shows {{ rnd(1, 20) }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "تاس بیست‌وجهی عدد {{ rnd(1, 20) }} را نشان داد.",
+              "نتیجه d20 برابر {{ rnd(1, 20) }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

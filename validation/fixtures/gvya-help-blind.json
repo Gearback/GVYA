@@ -1,0 +1,652 @@
+{
+  "format": "gvya.validation.blind-conversation",
+  "version": 1,
+  "bot_id": "gvya-bot",
+  "cases": [
+    {
+      "id": "about.en.1",
+      "language": "en-US",
+      "input": "So what exactly am I looking at when people say GVYA?",
+      "meaning": "gvya.help.about"
+    },
+    {
+      "id": "about.en.2",
+      "language": "en-US",
+      "input": "In one sentence, what does this toolkit exist to do?",
+      "meaning": "gvya.help.about"
+    },
+    {
+      "id": "about.fa.1",
+      "language": "fa-IR",
+      "input": "این GVYA که میگین دقیقاً چه جور چیزیه؟",
+      "meaning": "gvya.help.about"
+    },
+    {
+      "id": "about.fa.2",
+      "language": "fa-IR",
+      "input": "اصل کاری که گویا انجام میده چیه؟",
+      "meaning": "gvya.help.about"
+    },
+    {
+      "id": "use-cases.en.1",
+      "language": "en-US",
+      "input": "Would this be suitable for an interactive museum kiosk?",
+      "meaning": "gvya.help.use-cases"
+    },
+    {
+      "id": "use-cases.en.2",
+      "language": "en-US",
+      "input": "Could one brain drive both an NPC and a customer support widget?",
+      "meaning": "gvya.help.use-cases"
+    },
+    {
+      "id": "use-cases.fa.1",
+      "language": "fa-IR",
+      "input": "برای کیوسک راهنما هم میشه از گویا استفاده کرد؟",
+      "meaning": "gvya.help.use-cases"
+    },
+    {
+      "id": "use-cases.fa.2",
+      "language": "fa-IR",
+      "input": "یک brain می‌تونه هم NPC باشه هم دستیار سایت؟",
+      "meaning": "gvya.help.use-cases"
+    },
+    {
+      "id": "architecture.en.1",
+      "language": "en-US",
+      "input": "What components touch an utterance before the host receives a proposal?",
+      "meaning": "gvya.help.architecture"
+    },
+    {
+      "id": "architecture.en.2",
+      "language": "en-US",
+      "input": "Show me the handoff from authored JSON through execution.",
+      "meaning": "gvya.help.architecture"
+    },
+    {
+      "id": "architecture.fa.1",
+      "language": "fa-IR",
+      "input": "قبل از اینکه proposal به میزبان برسه پیام از چه بخش‌هایی رد میشه؟",
+      "meaning": "gvya.help.architecture"
+    },
+    {
+      "id": "architecture.fa.2",
+      "language": "fa-IR",
+      "input": "تحویل کار از JSON نوشته‌شده تا اجرا رو مرحله‌به‌مرحله بگو.",
+      "meaning": "gvya.help.architecture"
+    },
+    {
+      "id": "projects-bots.en.1",
+      "language": "en-US",
+      "input": "If I have three assistants, do they belong in one project or three?",
+      "meaning": "gvya.help.projects-bots"
+    },
+    {
+      "id": "projects-bots.en.2",
+      "language": "en-US",
+      "input": "Where does each bot's locale selection live?",
+      "meaning": "gvya.help.projects-bots"
+    },
+    {
+      "id": "projects-bots.fa.1",
+      "language": "fa-IR",
+      "input": "برای سه تا دستیار باید یک پروژه داشته باشم یا سه تا؟",
+      "meaning": "gvya.help.projects-bots"
+    },
+    {
+      "id": "projects-bots.fa.2",
+      "language": "fa-IR",
+      "input": "انتخاب locale هر بات کجا نگه داشته میشه؟",
+      "meaning": "gvya.help.projects-bots"
+    },
+    {
+      "id": "packages.en.1",
+      "language": "en-US",
+      "input": "Where should a reusable FAQ intent live?",
+      "meaning": "gvya.help.packages"
+    },
+    {
+      "id": "packages.en.2",
+      "language": "en-US",
+      "input": "Should customer-specific replies go in shared content or the bot-owned layer?",
+      "meaning": "gvya.help.packages"
+    },
+    {
+      "id": "packages.fa.1",
+      "language": "fa-IR",
+      "input": "intent پرسش‌های متداول که چند بات لازم دارن باید کجا باشه؟",
+      "meaning": "gvya.help.packages"
+    },
+    {
+      "id": "packages.fa.2",
+      "language": "fa-IR",
+      "input": "جواب مخصوص یک مشتری رو shared بنویسم یا لایهٔ خود بات؟",
+      "meaning": "gvya.help.packages"
+    },
+    {
+      "id": "matcher.en.1",
+      "language": "en-US",
+      "input": "Is intent selection lexical, statistical, or remote?",
+      "meaning": "gvya.help.matcher"
+    },
+    {
+      "id": "matcher.en.2",
+      "language": "en-US",
+      "input": "What makes one semantic candidate outrank another?",
+      "meaning": "gvya.help.matcher"
+    },
+    {
+      "id": "matcher.fa.1",
+      "language": "fa-IR",
+      "input": "انتخاب intent واژگانیه یا آماری یا از سرویس بیرونی میاد؟",
+      "meaning": "gvya.help.matcher"
+    },
+    {
+      "id": "matcher.fa.2",
+      "language": "fa-IR",
+      "input": "چی باعث میشه یک semantic candidate از اون یکی بالاتر قرار بگیره؟",
+      "meaning": "gvya.help.matcher"
+    },
+    {
+      "id": "matcher-profiles.en.1",
+      "language": "en-US",
+      "input": "I want Turkish; what drop-in data makes that locale available?",
+      "meaning": "gvya.help.matcher-profiles"
+    },
+    {
+      "id": "matcher-profiles.en.2",
+      "language": "en-US",
+      "input": "Where should plural and contraction rules go?",
+      "meaning": "gvya.help.matcher-profiles"
+    },
+    {
+      "id": "matcher-profiles.fa.1",
+      "language": "fa-IR",
+      "input": "برای اضافه کردن ترکی چه فایل drop-inی لازم دارم؟",
+      "meaning": "gvya.help.matcher-profiles"
+    },
+    {
+      "id": "matcher-profiles.fa.2",
+      "language": "fa-IR",
+      "input": "قانون جمع و شکل محاوره‌ای کلمه‌ها رو کجا تعریف کنم؟",
+      "meaning": "gvya.help.matcher-profiles"
+    },
+    {
+      "id": "conversation.en.1",
+      "language": "en-US",
+      "input": "How long does a topic stay active?",
+      "meaning": "gvya.help.conversation"
+    },
+    {
+      "id": "conversation.en.2",
+      "language": "en-US",
+      "input": "What lets 'and packages?' refer to the previous turn?",
+      "meaning": "gvya.help.conversation"
+    },
+    {
+      "id": "conversation.fa.1",
+      "language": "fa-IR",
+      "input": "topic تا چند پیام فعال می‌مونه؟",
+      "meaning": "gvya.help.topics"
+    },
+    {
+      "id": "conversation.fa.2",
+      "language": "fa-IR",
+      "input": "چی باعث میشه «پکیج‌ها چطور؟» به پیام قبلی وصل بشه؟",
+      "meaning": "gvya.help.conversation"
+    },
+    {
+      "id": "fallback.en.1",
+      "language": "en-US",
+      "input": "Which content owns the last-resort I-don't-understand reply?",
+      "meaning": "gvya.help.fallback"
+    },
+    {
+      "id": "fallback.en.2",
+      "language": "en-US",
+      "input": "Can I swap the recovery tone without changing normal intents?",
+      "meaning": "gvya.help.fallback"
+    },
+    {
+      "id": "fallback.fa.1",
+      "language": "fa-IR",
+      "input": "جواب نهایی «متوجه نشدم» متعلق به کدوم محتواست؟",
+      "meaning": "gvya.help.fallback"
+    },
+    {
+      "id": "fallback.fa.2",
+      "language": "fa-IR",
+      "input": "میشه لحن recovery رو عوض کرد بدون اینکه intentهای عادی تغییر کنن؟",
+      "meaning": "gvya.help.fallback"
+    },
+    {
+      "id": "capabilities.en.1",
+      "language": "en-US",
+      "input": "How does a booking request leave the brain without granting it network access?",
+      "meaning": "gvya.help.capabilities"
+    },
+    {
+      "id": "capabilities.en.2",
+      "language": "en-US",
+      "input": "Who validates a capability result before continuing dialogue?",
+      "meaning": "gvya.help.capability-result"
+    },
+    {
+      "id": "capabilities.fa.1",
+      "language": "fa-IR",
+      "input": "درخواست رزرو چطور بدون دسترسی شبکه از brain بیرون میره؟",
+      "meaning": "gvya.help.capabilities"
+    },
+    {
+      "id": "capabilities.fa.2",
+      "language": "fa-IR",
+      "input": "قبل از ادامهٔ دیالوگ نتیجهٔ capability رو کی validate می‌کنه؟",
+      "meaning": "gvya.help.capabilities"
+    },
+    {
+      "id": "studio.en.1",
+      "language": "en-US",
+      "input": "Is the browser editor needed on the player's machine?",
+      "meaning": "gvya.help.studio"
+    },
+    {
+      "id": "studio.en.2",
+      "language": "en-US",
+      "input": "What happens when I press Simulate?",
+      "meaning": "gvya.help.studio"
+    },
+    {
+      "id": "studio.fa.1",
+      "language": "fa-IR",
+      "input": "ویرایشگر مرورگر روی سیستم بازیکن هم لازمه؟",
+      "meaning": "gvya.help.studio"
+    },
+    {
+      "id": "studio.fa.2",
+      "language": "fa-IR",
+      "input": "وقتی Simulate رو می‌زنم پشت صحنه چه میشه؟",
+      "meaning": "gvya.help.studio"
+    },
+    {
+      "id": "machine-authoring.en.1",
+      "language": "en-US",
+      "input": "Can Codex safely modify a package without driving the UI?",
+      "meaning": "gvya.help.machine-authoring"
+    },
+    {
+      "id": "machine-authoring.en.2",
+      "language": "en-US",
+      "input": "Where do prompts and API keys live for AI-assisted authoring?",
+      "meaning": "gvya.help.machine-authoring"
+    },
+    {
+      "id": "machine-authoring.fa.1",
+      "language": "fa-IR",
+      "input": "Codex می‌تونه بدون کار با UI پکیج رو مستقیم تغییر بده؟",
+      "meaning": "gvya.help.machine-authoring"
+    },
+    {
+      "id": "machine-authoring.fa.2",
+      "language": "fa-IR",
+      "input": "برای نویسندگی با AI پرامپت و API key کجا ذخیره میشن؟",
+      "meaning": "gvya.help.machine-authoring"
+    },
+    {
+      "id": "getting-started.en.1",
+      "language": "en-US",
+      "input": "I just cloned the repo and want one talking assistant; what next?",
+      "meaning": "gvya.help.getting-started"
+    },
+    {
+      "id": "getting-started.en.2",
+      "language": "en-US",
+      "input": "What's the smallest first milestone for a new bot?",
+      "meaning": "gvya.help.getting-started"
+    },
+    {
+      "id": "getting-started.fa.1",
+      "language": "fa-IR",
+      "input": "تازه repo رو گرفتم و یک دستیار سخنگو می‌خوام؛ بعدش چی؟",
+      "meaning": "gvya.help.getting-started"
+    },
+    {
+      "id": "getting-started.fa.2",
+      "language": "fa-IR",
+      "input": "کوچک‌ترین milestone برای شروع یک بات جدید چیه؟",
+      "meaning": "gvya.help.getting-started"
+    },
+    {
+      "id": "source-layout.en.1",
+      "language": "en-US",
+      "input": "Which folder is the backup unit for a client project?",
+      "meaning": "gvya.help.source-layout"
+    },
+    {
+      "id": "source-layout.en.2",
+      "language": "en-US",
+      "input": "If I zip only the project directory, what comes with it?",
+      "meaning": "gvya.help.source-layout"
+    },
+    {
+      "id": "source-layout.fa.1",
+      "language": "fa-IR",
+      "input": "برای بکاپ پروژهٔ مشتری دقیقاً کدوم فولدر واحد اصلیه؟",
+      "meaning": "gvya.help.source-layout"
+    },
+    {
+      "id": "source-layout.fa.2",
+      "language": "fa-IR",
+      "input": "اگر فقط دایرکتوری پروژه رو zip کنم چه چیزهایی همراهش میاد؟",
+      "meaning": "gvya.help.source-layout"
+    },
+    {
+      "id": "testing-debugging.en.1",
+      "language": "en-US",
+      "input": "How do I prevent today's correct intent from regressing later?",
+      "meaning": "gvya.help.testing-debugging"
+    },
+    {
+      "id": "testing-debugging.en.2",
+      "language": "en-US",
+      "input": "What test covers a three-turn follow-up?",
+      "meaning": "gvya.help.testing-debugging"
+    },
+    {
+      "id": "testing-debugging.fa.1",
+      "language": "fa-IR",
+      "input": "چطور نذارم intent درست امروز بعداً خراب بشه؟",
+      "meaning": "gvya.help.testing-debugging"
+    },
+    {
+      "id": "testing-debugging.fa.2",
+      "language": "fa-IR",
+      "input": "برای follow-up سه مرحله‌ای چه تستی بنویسم؟",
+      "meaning": "gvya.help.testing-debugging"
+    },
+    {
+      "id": "build-artifact.en.1",
+      "language": "en-US",
+      "input": "Does changing Persian wording invalidate the engine binary?",
+      "meaning": "gvya.help.build-artifact"
+    },
+    {
+      "id": "build-artifact.en.2",
+      "language": "en-US",
+      "input": "Which command turns resolved source into the deployable brain?",
+      "meaning": "gvya.help.build-artifact"
+    },
+    {
+      "id": "build-artifact.fa.1",
+      "language": "fa-IR",
+      "input": "عوض کردن متن فارسی engine binary رو بی‌اعتبار می‌کنه؟",
+      "meaning": "gvya.help.build-artifact"
+    },
+    {
+      "id": "build-artifact.fa.2",
+      "language": "fa-IR",
+      "input": "با چه دستوری source نهایی تبدیل به brain قابل انتشار میشه؟",
+      "meaning": "gvya.help.build-artifact"
+    },
+    {
+      "id": "runtime-integration.en.1",
+      "language": "en-US",
+      "input": "What must my host save after every turn?",
+      "meaning": "gvya.help.runtime-integration"
+    },
+    {
+      "id": "runtime-integration.en.2",
+      "language": "en-US",
+      "input": "How would a TypeScript app open and converse with the artifact?",
+      "meaning": "gvya.help.runtime-integration"
+    },
+    {
+      "id": "runtime-integration.fa.1",
+      "language": "fa-IR",
+      "input": "میزبان بعد از هر turn باید چی رو نگه داره؟",
+      "meaning": "gvya.help.runtime-integration"
+    },
+    {
+      "id": "runtime-integration.fa.2",
+      "language": "fa-IR",
+      "input": "یک برنامهٔ TypeScript چطور آرتیفکت رو باز می‌کنه و باهاش حرف می‌زنه؟",
+      "meaning": "gvya.help.runtime-integration"
+    },
+    {
+      "id": "determinism-security.en.1",
+      "language": "en-US",
+      "input": "Can a package secretly read the current clock?",
+      "meaning": "gvya.help.determinism-security"
+    },
+    {
+      "id": "determinism-security.en.2",
+      "language": "en-US",
+      "input": "How do two machines get reproducible artifact bytes?",
+      "meaning": "gvya.help.determinism-security"
+    },
+    {
+      "id": "determinism-security.fa.1",
+      "language": "fa-IR",
+      "input": "پکیج می‌تونه یواشکی ساعت فعلی سیستم رو بخونه؟",
+      "meaning": "gvya.help.determinism-security"
+    },
+    {
+      "id": "determinism-security.fa.2",
+      "language": "fa-IR",
+      "input": "دو تا کامپیوتر چطور byteهای آرتیفکت یکسان تولید می‌کنن؟",
+      "meaning": "gvya.help.determinism-security"
+    },
+    {
+      "id": "neural-resolver.en.1",
+      "language": "en-US",
+      "input": "Where may an LLM help if lexical matching ties?",
+      "meaning": "gvya.help.neural-resolver"
+    },
+    {
+      "id": "neural-resolver.en.2",
+      "language": "en-US",
+      "input": "Can the neural component propose a meaning that GVYA never retrieved?",
+      "meaning": "gvya.help.neural-resolver"
+    },
+    {
+      "id": "neural-resolver.fa.1",
+      "language": "fa-IR",
+      "input": "اگر lexical matching مساوی شد LLM کجا می‌تونه کمک کنه؟",
+      "meaning": "gvya.help.neural-resolver"
+    },
+    {
+      "id": "neural-resolver.fa.2",
+      "language": "fa-IR",
+      "input": "بخش neural می‌تونه meaningای پیشنهاد بده که GVYA اصلاً retrieve نکرده؟",
+      "meaning": "gvya.help.neural-resolver"
+    },
+    {
+      "id": "matcher-troubleshooting.en.1",
+      "language": "en-US",
+      "input": "A query falls under threshold even though the intent is right; how do I diagnose it?",
+      "meaning": "gvya.help.matcher-troubleshooting"
+    },
+    {
+      "id": "matcher-troubleshooting.en.2",
+      "language": "en-US",
+      "input": "Two meanings tie on the same words; what should I change?",
+      "meaning": "gvya.help.matcher-troubleshooting"
+    },
+    {
+      "id": "matcher-troubleshooting.fa.1",
+      "language": "fa-IR",
+      "input": "query درست زیر threshold می‌افته؛ از کجا عیب‌یابی کنم؟",
+      "meaning": "gvya.help.matcher-troubleshooting"
+    },
+    {
+      "id": "matcher-troubleshooting.fa.2",
+      "language": "fa-IR",
+      "input": "دو meaning روی یک سری کلمه tie میشن؛ چی رو تغییر بدم؟",
+      "meaning": "gvya.help.matcher-troubleshooting"
+    },
+    {
+      "id": "authoring-recipe.en.1",
+      "language": "en-US",
+      "input": "Give me a coverage checklist for training phrases.",
+      "meaning": "gvya.help.authoring-recipe"
+    },
+    {
+      "id": "authoring-recipe.en.2",
+      "language": "en-US",
+      "input": "How should I vary questions across expertise and speaking style?",
+      "meaning": "gvya.help.authoring-recipe"
+    },
+    {
+      "id": "authoring-recipe.fa.1",
+      "language": "fa-IR",
+      "input": "برای phraseهای آموزشی یک checklist پوشش بهم بده.",
+      "meaning": "gvya.help.authoring-recipe"
+    },
+    {
+      "id": "authoring-recipe.fa.2",
+      "language": "fa-IR",
+      "input": "سؤال‌ها رو بر اساس میزان تخصص و مدل حرف زدن چطور متنوع کنم؟",
+      "meaning": "gvya.help.authoring-recipe"
+    }
+  ],
+  "confounders": [
+    {
+      "id": "smalltalk.hello.en",
+      "language": "en-US",
+      "input": "hello",
+      "meaning": "core.smalltalk.formal.hello"
+    },
+    {
+      "id": "smalltalk.thanks.fa",
+      "language": "fa-IR",
+      "input": "خیلی ممنون",
+      "meaning": "core.smalltalk.formal.thanks"
+    },
+    {
+      "id": "smalltalk.game.en",
+      "language": "en-US",
+      "input": "is this a game?",
+      "meaning": "core.smalltalk.formal.is-this-a-game"
+    },
+    {
+      "id": "smalltalk.game.fa",
+      "language": "fa-IR",
+      "input": "این بازیه؟",
+      "meaning": "core.smalltalk.formal.is-this-a-game"
+    },
+    {
+      "id": "smalltalk.yes.en",
+      "language": "en-US",
+      "input": "okay",
+      "meaning": "core.smalltalk.formal.yes"
+    },
+    {
+      "id": "smalltalk.time.en",
+      "language": "en-US",
+      "input": "what time is it?",
+      "meaning": "core.smalltalk.formal.what-time-is-it"
+    },
+    {
+      "id": "fallback.symbols",
+      "language": "en-US",
+      "input": "--#--",
+      "meaning": null,
+      "behavior": "gvya.fallback.formal.unresolved.stage-1"
+    },
+    {
+      "id": "fallback.soup",
+      "language": "en-US",
+      "input": "tell me a recipe for lentil soup",
+      "meaning": null,
+      "behavior": "gvya.fallback.formal.unresolved.stage-1"
+    },
+    {
+      "id": "fallback.location.fa",
+      "language": "fa-IR",
+      "input": "پاریس کجاست؟",
+      "meaning": null,
+      "behavior": "gvya.fallback.formal.unresolved.stage-1"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "journey.en.product-to-resolver",
+      "turns": [
+        {
+          "language": "en-US",
+          "input": "Before I invest time, what is GVYA in practical terms?",
+          "meaning": "gvya.help.about"
+        },
+        {
+          "language": "en-US",
+          "input": "And what kinds of products can I put it in?",
+          "meaning": "gvya.dialog.about-use-cases"
+        },
+        {
+          "language": "en-US",
+          "input": "Would those products need an LLM connected?",
+          "meaning": "gvya.help.neural-resolver"
+        }
+      ]
+    },
+    {
+      "id": "journey.fa.project-to-package",
+      "turns": [
+        {
+          "language": "fa-IR",
+          "input": "می‌خوام دو بات توی یک کار داشته باشم؛ پروژه چطور سازماندهی میشه؟",
+          "meaning": "gvya.help.projects-bots"
+        },
+        {
+          "language": "fa-IR",
+          "input": "رفتار مشترک بین اون دو تا رو کجا بذارم؟",
+          "meaning": "gvya.help.packages"
+        },
+        {
+          "language": "fa-IR",
+          "input": "و اگر هیچ intentای نگرفت جواب از کجا میاد؟",
+          "meaning": "gvya.help.fallback"
+        }
+      ]
+    },
+    {
+      "id": "journey.en.build-to-host",
+      "turns": [
+        {
+          "language": "en-US",
+          "input": "What file do I deploy after compilation?",
+          "meaning": "gvya.help.build-artifact"
+        },
+        {
+          "language": "en-US",
+          "input": "How does my application open that file?",
+          "meaning": "gvya.help.runtime-integration"
+        },
+        {
+          "language": "en-US",
+          "input": "Who actually performs an external action?",
+          "meaning": "gvya.help.capabilities"
+        }
+      ]
+    },
+    {
+      "id": "journey.fa.authoring-debug",
+      "turns": [
+        {
+          "language": "fa-IR",
+          "input": "برای یک intent چه جور سؤال‌هایی به عنوان sample بنویسم؟",
+          "meaning": "gvya.help.authoring-recipe"
+        },
+        {
+          "language": "fa-IR",
+          "input": "اگر دو تا intent با هم اشتباه شدن چی؟",
+          "meaning": "gvya.help.matcher-troubleshooting"
+        },
+        {
+          "language": "fa-IR",
+          "input": "گزارش دلیل انتخاب رو از کجا ببینم؟",
+          "meaning": "gvya.help.testing-debugging"
+        }
+      ]
+    }
+  ]
+}

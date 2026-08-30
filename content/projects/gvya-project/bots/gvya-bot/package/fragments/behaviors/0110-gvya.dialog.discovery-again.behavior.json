@@ -1,0 +1,90 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.discovery-again.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.discovery",
+    "id": "gvya.dialog.discovery-again.behavior",
+    "meaning": "gvya.dialog.discovery-again",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Ask why that matters, ask for another one, or name a lane: architecture, authoring, matcher, runtime, shipping.",
+                  "Want another one, or name a lane: architecture, authoring, matcher, runtime, shipping.",
+                  "Throw me one word—matcher, authoring, runtime, shipping—or say “another one.”",
+                  "Keep wandering with “another one”, or pull us back to architecture, authoring, matcher, runtime, or shipping.",
+                  "Your move: another oddity, or one concrete lane—matcher, authoring, runtime, shipping."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "بپرس چرا مهم است، یک نکتهٔ دیگر بخواه، یا یک مسیر را نام ببر: معماری، authoring، matcher، runtime، انتشار.",
+                  "یکی دیگه می‌خواهی، یا یک مسیر را نام ببر: معماری، authoring، matcher، runtime، انتشار.",
+                  "یک کلمه پرت کن—matcher، authoring، runtime، shipping—یا بگو «یکی دیگه».",
+                  "با «یکی دیگه» به گشتن ادامه بده، یا برگردیم به معماری، authoring، matcher، runtime یا shipping.",
+                  "حرکت بعدی با تو: یک نکتهٔ عجیب دیگر، یا یک مسیر مشخص—matcher، authoring، runtime، shipping."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.dialog.discovery-again.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.discovery",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A second rabbit hole: fallback is a real first-class behavior in GVYA, not a fake catch-all Meaning competing in semantic matching.",
+              "Another useful oddity: Matcher Profiles are language rules, not Packages. A Bot cannot enable a language unless the Project has its profile.",
+              "A debugging trick: when a Meaning wins incorrectly, adding ten similar samples is usually worse than adding one discriminative sample against its nearest neighbor.",
+              "A portability detail: the runtime gets explicit state on every turn and returns the next state. Nothing has to live in a secret server session.",
+              "A safety boundary: a capability proposal can be admitted, rejected, or require confirmation before the host ever executes anything.",
+              "A source-model detail: human Studio authoring and AI authoring converge on the same ordinary source; there is no special AI-only brain format.",
+              "Topics and follow-ups solve different problems: a topic biases a nearby domain; a follow-up admits a specific expected reply for a short time.",
+              "A Matcher Profile may turn many surface aliases into one canonical slot value, but only inside a finite authored set—it is not a synonym oracle.",
+              "A useful authoring constraint: a named capture must feed a declared String slot and that slot should actually affect the response or capability binding.",
+              "Repair is deliberately weaker than ordinary resolution. It may rescue a credible near-miss, but it is not allowed to become a second fuzzy matcher.",
+              "A Package can contribute conversation behavior, but the Bot's private Package is still the clearest place for behavior that should die with that Bot.",
+              "The compiler builds support indexes from ordinary source. Runtime matching does not need to rediscover the author's package graph every turn.",
+              "A good fallback measures progress, not apology count: did the user reach a supported route, escape the loop, or choose to keep exploring?",
+              "The low-data trick is reuse: a few truthful lanes can connect many answers, while every advertised lane remains an ordinary tested path."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک rabbit hole دوم: fallback در GVYA یک behavior واقعی درجه‌یک است، نه یک Meaning تقلبی که وارد رقابت semantic شود.",
+              "یک نکتهٔ دیگر: Matcher Profile قانون زبان است، Package نیست. Bot نمی‌تواند زبانی را فعال کند مگر اینکه Project پروفایلش را داشته باشد.",
+              "یک ترفند debugging: وقتی Meaning اشتباه برنده می‌شود، ده sample شبیه هم معمولاً بدتر از یک sample متمایزکننده در برابر نزدیک‌ترین همسایه است.",
+              "یک نکتهٔ portability: runtime در هر turn state صریح می‌گیرد و state بعدی را پس می‌دهد؛ چیزی مجبور نیست در session پنهان سرور بماند.",
+              "یک مرز ایمنی: capability proposal می‌تواند قبل از هر اجرای host پذیرفته، رد، یا نیازمند confirmation شود.",
+              "یک نکتهٔ source model: authoring انسانی در Studio و authoring با AI روی همان source عادی به هم می‌رسند؛ فرمت brain جداگانه‌ای برای AI وجود ندارد.",
+              "Topic و follow-up دو مسئلهٔ متفاوت را حل می‌کنند: topic دامنهٔ نزدیک را bias می‌کند؛ follow-up برای مدت کوتاه یک جواب مشخص و مورد انتظار را مجاز می‌کند.",
+              "Matcher Profile می‌تواند چند alias سطحی را به یک slot value canonical تبدیل کند، اما فقط داخل set محدود authored؛ synonym oracle نیست.",
+              "یک محدودیت مفید authoring: capture نام‌دار باید وارد String slot اعلام‌شده شود و آن slot واقعاً روی response یا capability binding اثر بگذارد.",
+              "Repair عمداً از resolution عادی ضعیف‌تر است؛ near-miss معتبر را نجات می‌دهد، ولی اجازه ندارد matcher فازی دوم شود.",
+              "Package می‌تواند behavior مکالمه اضافه کند، اما Package خصوصی Bot هنوز روشن‌ترین جای رفتاری است که باید با همان Bot از بین برود.",
+              "Compiler از source عادی support index می‌سازد؛ runtime لازم نیست در هر turn package graph نویسنده را دوباره کشف کند.",
+              "Fallback خوب تعداد عذرخواهی را نمی‌سنجد؛ می‌سنجد user به مسیر پشتیبانی‌شده رسید، از loop خارج شد، یا خواست به گشتن ادامه دهد.",
+              "ترفند low-data در reuse است: چند مسیر صادق می‌توانند جواب‌های زیادی را وصل کنند، درحالی‌که هر مسیر پیشنهادی یک path عادی و تست‌شده می‌ماند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

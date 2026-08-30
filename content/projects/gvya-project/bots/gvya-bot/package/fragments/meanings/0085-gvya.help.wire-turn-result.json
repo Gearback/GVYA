@@ -1,0 +1,134 @@
+{
+  "exported": true,
+  "id": "gvya.help.wire-turn-result",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.wire-turn-result",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what does a turn request carry"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a trace"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست turn چه چیزی حمل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "trace چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "turnresult mode meaning slots messages diagnostics proposals whyreport"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه نوبت حالت معنا اسلات پیام تشخیص پیشنهاد گزارش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "turn result host برمیگرداند"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what does a turn result contain"
+      },
+      {
+        "language": "en-US",
+        "text": "what comes back from a turn"
+      },
+      {
+        "language": "en-US",
+        "text": "does the result include diagnostics"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i read the why report"
+      },
+      {
+        "language": "en-US",
+        "text": "what is conversation mode in the result"
+      },
+      {
+        "language": "en-US",
+        "text": "does the result include proposals"
+      },
+      {
+        "language": "en-US",
+        "text": "can i inspect the result without parsing prose"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the turn result"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه turn شامل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از یک نوبت چه چیزی برمی گردد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه شامل تشخیص ها هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گزارش why را چطور بخوانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالت مکالمه در نتیجه چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه شامل پیشنهادها هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم نتیجه را بدون خواندن متن بررسی کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه turn را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the turn result contain"
+      },
+      {
+        "language": "fa-IR",
+        "text": "turn result شامل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از یک turn چه چیزی بر می گردد"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the result look like"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه چه شکلی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "turn result host برمیگرداند"
+      }
+    ]
+  }
+}

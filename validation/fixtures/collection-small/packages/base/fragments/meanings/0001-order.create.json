@@ -1,0 +1,16 @@
+{
+  "id": "order.create",
+  "value": {
+    "id": "order.create",
+    "patterns": [{"language": "en", "text": "create order", "priority": 5}],
+    "samples": [{"language": "en", "text": "create order"}],
+    "slots": [
+      {
+        "name": "count",
+        "type": "number",
+        "required": true,
+        "elicitation": [{"language": "en", "text": "How many items?"}]
+      }
+    ]
+  }
+}

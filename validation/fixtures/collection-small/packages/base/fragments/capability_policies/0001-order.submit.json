@@ -1,0 +1,10 @@
+{
+  "id": "order.submit.policy",
+  "value": {
+    "id": "order.submit.policy",
+    "capability": "order.submit",
+    "priority": 1,
+    "conditions": [],
+    "effect": {"type": "allow"}
+  }
+}

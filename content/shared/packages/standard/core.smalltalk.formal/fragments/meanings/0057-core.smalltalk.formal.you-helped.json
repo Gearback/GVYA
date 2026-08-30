@@ -1,0 +1,48 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.you-helped",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.you-helped",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "you helped"
+      },
+      {
+        "language": "en-US",
+        "text": "that helped"
+      },
+      {
+        "language": "en-US",
+        "text": "you are helpful"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کمک کردی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به دردم خورد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کمک خوبی بود"
+      },
+      {
+        "language": "en-US",
+        "text": "you have been helpful"
+      },
+      {
+        "language": "en-US",
+        "text": "you are pretty good at this"
+      }
+    ]
+  }
+}

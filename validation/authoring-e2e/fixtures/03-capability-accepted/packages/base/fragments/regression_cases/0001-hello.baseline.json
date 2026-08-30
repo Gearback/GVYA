@@ -1,0 +1,19 @@
+{
+  "id": "hello.baseline",
+  "value": {
+    "context": {},
+    "description": "Direct proof",
+    "expectation": {
+      "meaning": "hello",
+      "response_ids": [
+        "hello.behavior.answer"
+      ]
+    },
+    "generated": false,
+    "id": "hello.baseline",
+    "initial_state": {},
+    "input": "hello",
+    "language": "en",
+    "seed": 1
+  }
+}

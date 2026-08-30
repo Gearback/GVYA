@@ -1,0 +1,24 @@
+{
+  "id": "data.delete",
+  "value": {
+    "id": "data.delete",
+    "samples": [
+      {
+        "language": "en",
+        "text": "delete my stored data"
+      },
+      {
+        "language": "en",
+        "text": "remove my saved information"
+      },
+      {
+        "language": "en",
+        "text": "erase the data you have about me"
+      },
+      {
+        "language": "en",
+        "text": "how do i clear all my data"
+      }
+    ]
+  }
+}

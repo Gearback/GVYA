@@ -1,0 +1,24 @@
+{
+  "id": "support.contact",
+  "value": {
+    "id": "support.contact",
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i contact support"
+      },
+      {
+        "language": "en",
+        "text": "i need to talk to support"
+      },
+      {
+        "language": "en",
+        "text": "where can i reach customer service"
+      },
+      {
+        "language": "en",
+        "text": "help me contact your support team"
+      }
+    ]
+  }
+}

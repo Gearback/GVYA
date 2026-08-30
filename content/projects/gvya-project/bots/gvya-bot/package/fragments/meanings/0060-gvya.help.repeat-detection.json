@@ -1,0 +1,174 @@
+{
+  "exported": true,
+  "id": "gvya.help.repeat-detection",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.repeat-detection",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a fallback behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "what is short referential continuation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback behavior چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ادامه ارجاعی کوتاه چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "repeat identical message threshold stage annoyed final memory"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تکرار پیام یکسان آستانه مرحله عصبانی نهایی حافظه"
+      },
+      {
+        "language": "en-US",
+        "text": "same thing again detect"
+      },
+      {
+        "language": "en-US",
+        "text": "immediate repeated request same message recognize vary response repeat memory stage"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست تکراری فوری پیام یکسان تشخیص تنوع پاسخ repeat حافظه مرحله"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تکرار تکراری چند بار همان پیام جمله لوپ مرحله پاسخ"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what happens if i say the same thing twice"
+      },
+      {
+        "language": "en-US",
+        "text": "what is repeat detection"
+      },
+      {
+        "language": "en-US",
+        "text": "what are repeat stages"
+      },
+      {
+        "language": "en-US",
+        "text": "what is annoyed repeat"
+      },
+      {
+        "language": "en-US",
+        "text": "does a repeat consume a follow up"
+      },
+      {
+        "language": "en-US",
+        "text": "what is repeat_detection_threshold"
+      },
+      {
+        "language": "en-US",
+        "text": "why did it say i already said that"
+      },
+      {
+        "language": "en-US",
+        "text": "explain repeat handling"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر یک چیز را دو بار بگویم چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تشخیص تکرار چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مراحل تکرار چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "annoyed repeat چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک تکرار follow up را مصرف می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "repeat_detection_threshold چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا گفت این را قبلا گفتی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مدیریت تکرار را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens if i repeat myself"
+      },
+      {
+        "language": "en-US",
+        "text": "how is a repeat detected"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر حرفم را تکرار کنم چه می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "repeat unresolved message"
+      },
+      {
+        "language": "en-US",
+        "text": "repeated unresolved turn"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تکرار پیام unresolved"
+      },
+      {
+        "language": "en-US",
+        "text": "same thing again detect"
+      },
+      {
+        "language": "en-US",
+        "text": "what does it do if i say the same thing twice"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it notice i am repeating myself"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر یک چیز را دو بار بگویم چه می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور می فهمد دارم تکرار می کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر کاربر یک جمله را چند بار تکرار کند چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پاسخ به پیام تکراری چطور عوض می شود"
+      }
+    ]
+  }
+}

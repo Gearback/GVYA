@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.architecture.heldout.fa.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The end-to-end GVYA architecture and authority boundaries held-out fa-IR coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.architecture",
+      "response_ids": [
+        "gvya.help.architecture.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.architecture.heldout.fa.1",
+    "initial_state": {},
+    "input": "مسیر کامل از فایل‌های نوشته‌شده تا جواب چیه؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

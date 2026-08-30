@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.youre-welcome",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.youre-welcome",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "you're welcome"
+      },
+      {
+        "language": "en-US",
+        "text": "no problem"
+      },
+      {
+        "language": "en-US",
+        "text": "anytime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خواهش می‌کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قابلی نداشت"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مشکلی نیست"
+      }
+    ]
+  }
+}

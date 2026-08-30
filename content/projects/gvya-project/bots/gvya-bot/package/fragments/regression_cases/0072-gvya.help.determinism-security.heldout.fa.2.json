@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.determinism-security.heldout.fa.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Determinism, explicit authority, budgets, integrity, and safety held-out fa-IR coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.determinism-security",
+      "response_ids": [
+        "gvya.help.determinism-security.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.determinism-security.heldout.fa.2",
+    "initial_state": {},
+    "input": "چه چیزی اجرای runtime رو محدود و تکرارپذیر نگه می‌داره؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

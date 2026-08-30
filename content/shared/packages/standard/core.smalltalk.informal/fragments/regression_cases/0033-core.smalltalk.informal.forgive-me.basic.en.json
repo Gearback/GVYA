@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.forgive-me.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.forgive-me",
+      "response_ids": [
+        "core.smalltalk.informal.forgive-me.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.forgive-me.basic.en",
+    "initial_state": {},
+    "input": "forgive me",
+    "language": "en-US",
+    "seed": 1
+  }
+}

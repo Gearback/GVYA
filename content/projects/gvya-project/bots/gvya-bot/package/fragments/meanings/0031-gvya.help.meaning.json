@@ -1,0 +1,214 @@
+{
+  "exported": true,
+  "id": "gvya.help.meaning",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.meaning",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a slot"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a conversation behavior"
+      },
+      {
+        "language": "fa-IR",
+        "text": "slot چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "conversation behavior چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "one meaning confused with another what to fix"
+      },
+      {
+        "language": "en-US",
+        "text": "meanings are being confused"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو meaning با هم اشتباه می شوند"
+      },
+      {
+        "language": "en-US",
+        "text": "from an empty workspace what is the first meaning response pair i need"
+      },
+      {
+        "language": "fa-IR",
+        "text": "workspace خالی اولین جفت meaning و response"
+      },
+      {
+        "language": "en-US",
+        "text": "repair order when the right meaning is below the score floor"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning درست زیر کف score ترتیب تعمیر"
+      },
+      {
+        "language": "en-US",
+        "text": "one meaning is being confused with another what do i fix first"
+      },
+      {
+        "language": "en-US",
+        "text": "meaning reference supplied host"
+      },
+      {
+        "language": "en-US",
+        "text": "object represents a user turn"
+      },
+      {
+        "language": "en-US",
+        "text": "meaning class social general classification"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning class social general دسته بندی"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "meaning interpretation structured stable author facing"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning تفسیر ساختاریافته شناسه پایدار"
+      },
+      {
+        "language": "en-US",
+        "text": "meaning model represents"
+      },
+      {
+        "language": "en-US",
+        "text": "semantic unit user intent"
+      },
+      {
+        "language": "en-US",
+        "text": "semantic object interpretation user meant before behavior stable meaning resolved intent concept"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شیء semantic تفسیر منظور کاربر قبل behavior پایدار meaning resolved intent مفهوم"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a meaning in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "define meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "is a meaning the same as a tool call"
+      },
+      {
+        "language": "en-US",
+        "text": "what can a meaning represent"
+      },
+      {
+        "language": "en-US",
+        "text": "does a meaning always trigger an action"
+      },
+      {
+        "language": "en-US",
+        "text": "what does a meaning carry"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a meaning id"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the meaning concept"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning در gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تعریف meaning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning همان فراخوانی ابزار است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک meaning چه چیزی را نشان می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning همیشه یک اکشن اجرا می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning چه چیزی حمل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شناسه meaning چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مفهوم meaning را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "meaning in gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "Meaning چیه"
+      },
+      {
+        "language": "en-US",
+        "text": "what does meaning mean here"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning در گویا چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "منظور از meaning چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "semantic unit user intent"
+      },
+      {
+        "language": "en-US",
+        "text": "is a meaning the same as an intent"
+      },
+      {
+        "language": "en-US",
+        "text": "is a meaning just a tool call"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning همان intent است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning فقط یک فراخوانی ابزار است"
+      }
+    ]
+  }
+}

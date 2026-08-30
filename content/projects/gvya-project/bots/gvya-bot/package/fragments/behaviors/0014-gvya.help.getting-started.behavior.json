@@ -1,0 +1,77 @@
+{
+  "exported": true,
+  "id": "gvya.help.getting-started.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.getting-started.behavior",
+    "meaning": "gvya.help.getting-started",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Try a few natural ways a user might say it, plus one nearby phrase the Bot must not confuse with it. Save those as a Regression Case or short Scenario so later edits cannot silently break the behavior."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "چند شکل طبیعی از حرف کاربر و یک عبارت نزدیک که Bot نباید با آن اشتباه بگیرد امتحان کن. آن‌ها را به‌صورت Regression Case یا Scenario کوتاه ذخیره کن تا تغییرهای بعدی رفتار را بی‌صدا خراب نکنند."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "You can begin in Studio without knowing Rust. Writing a custom host integration eventually requires programming, while the conversation itself can be authored visually or as source."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "می‌توانی بدون شناخت Rust از Studio شروع کنی. نوشتن integration اختصاصی برای host در نهایت برنامه‌نویسی می‌خواهد، اما خود مکالمه را می‌شود بصری یا به‌صورت source نوشت."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.getting-started.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.getting-started",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Start in Studio: create or open a Project, add a Bot, and teach it one useful thing—a user message it should understand and the answer it should give.",
+              "Begin with one small conversation: create a Bot, define one user goal, give it one direct answer, and test that exchange before adding more."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "از Studio شروع کن: یک Project بساز یا باز کن، یک Bot اضافه کن و فقط یک کار مفید به آن یاد بده—یک پیام کاربر که باید بفهمد و جوابی که باید بدهد.",
+              "با یک مکالمهٔ کوچک شروع کن: یک Bot بساز، یک هدف کاربر تعریف کن، یک جواب مستقیم بده و همان رفت‌وبرگشت را پیش از اضافه‌کردن چیزهای بیشتر تست کن."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

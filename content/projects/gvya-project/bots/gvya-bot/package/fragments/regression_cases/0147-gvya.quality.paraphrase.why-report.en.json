@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.why-report.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural candidate-inspection question resolves to Why",
+    "expectation": {
+      "meaning": "gvya.help.why-report"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.why-report.en",
+    "initial_state": {},
+    "input": "Where do I inspect why the candidate won?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

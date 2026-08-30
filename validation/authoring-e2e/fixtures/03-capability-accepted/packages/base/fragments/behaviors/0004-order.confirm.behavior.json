@@ -1,0 +1,30 @@
+{
+  "id": "order.confirm.behavior",
+  "value": {
+    "followup_scope": "order.confirm.followup",
+    "id": "order.confirm.behavior",
+    "meaning": "order.confirm",
+    "requires_values": [
+      {
+        "namespace": "author",
+        "path": "order.started",
+        "value": true
+      }
+    ],
+    "responses": [
+      {
+        "id": "order.confirm.behavior.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "Order confirmed."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "order.flow",
+    "topic_scoped": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.signing-workflow.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.signing-workflow.behavior",
+    "meaning": "gvya.help.signing-workflow",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "attach-signature refuses a root mismatch and refuses to replace an existing signature envelope. The ArtifactSigner receives only the content root, never SourceTree authority, and private keys never enter the deterministic compiler core."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏attach-signature در صورت عدم تطابق ریشه امتناع می‌کند و حاضر نیست پاکت امضای موجود را جایگزین کند. ‎ArtifactSigner‎ فقط ریشهٔ محتوا را می‌گیرد، هرگز اختیار SourceTree را، و کلیدهای خصوصی هرگز وارد هستهٔ قطعی کامپایلر نمی‌شوند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.signing-workflow.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The CLI keeps key custody external. gvya signing-root ./brain.gvya emits the exact 32-byte content root; your external signer returns a bounded gvya.signature.input/1 document containing that root plus algorithm, key_id and the opaque signature; then gvya attach-signature ./brain.gvya --envelope ./signature.json --output ./brain.signed.gvya writes the signed artifact."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏CLI نگهداری کلید را بیرون نگه می‌دارد. ‎gvya signing-root ./brain.gvya‎ ریشهٔ محتوای دقیق ۳۲ بایتی را می‌دهد؛ امضاکنندهٔ بیرونی تو یک سند محدود ‎gvya.signature.input/1‎ برمی‌گرداند که شامل همان ریشه به‌علاوهٔ ‎algorithm‎ و ‎key_id‎ و امضای مبهم است؛ سپس ‎gvya attach-signature ./brain.gvya --envelope ./signature.json --output ./brain.signed.gvya‎ آرتیفکت امضاشده را می‌نویسد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.source-format.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A direct question about source means the authoring source format",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.source-layout"
+      ],
+      "meaning": "gvya.help.source-format"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.source-format.en",
+    "initial_state": {},
+    "input": "What do you mean by source?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

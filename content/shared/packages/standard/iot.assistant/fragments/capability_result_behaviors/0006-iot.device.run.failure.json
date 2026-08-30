@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "iot.device.run.failure",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.run",
+    "capability_version": "1",
+    "id": "iot.device.run.failure",
+    "responses": [
+      {
+        "id": "iot.device.run.failure.response",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device run state could not be changed."] },
+          { "language": "fa-IR", "variants": ["تغییر وضعیت اجرای دستگاه انجام نشد."] }
+        ]
+      }
+    ],
+    "succeeded": false
+  }
+}

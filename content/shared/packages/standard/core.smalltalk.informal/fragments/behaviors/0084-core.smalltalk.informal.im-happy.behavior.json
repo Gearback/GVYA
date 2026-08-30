@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-happy.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.im-happy.behavior",
+    "meaning": "core.smalltalk.informal.im-happy",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.im-happy.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good. Keep that.",
+              "Then hold onto it.",
+              "That’s worth something."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوبه. نگهش دار.",
+              "پس حفظش کن.",
+              "همین هم ارزش داره."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

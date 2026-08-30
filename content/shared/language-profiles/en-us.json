@@ -1,0 +1,421 @@
+{
+  "format": "gvya.source.language-profile",
+  "language": "en-US",
+  "profile": {
+    "canonical_suffix_exceptions": [
+      "ambiguous",
+      "analysis",
+      "access",
+      "address",
+      "business",
+      "class",
+      "does",
+      "focus",
+      "less",
+      "news",
+      "perhaps",
+      "plus",
+      "process",
+      "status",
+      "this"
+    ],
+    "canonical_suffixes": {
+      "ches": "ch",
+      "ies": "y",
+      "s": "",
+      "shes": "sh",
+      "sses": "ss",
+      "xes": "x",
+      "zes": "z"
+    },
+    "canonical_tokens": {
+      "access": "access",
+      "address": "address",
+      "analysis": "analysis",
+      "boxes": "box",
+      "built": "build",
+      "business": "business",
+      "changed": "change",
+      "changing": "change",
+      "children": "child",
+      "class": "class",
+      "configured": "configure",
+      "configuring": "configure",
+      "created": "create",
+      "creating": "create",
+      "declared": "declare",
+      "deleted": "delete",
+      "deleting": "delete",
+      "detected": "detect",
+      "dishes": "dish",
+      "does": "does",
+      "executing": "execute",
+      "found": "find",
+      "installed": "install",
+      "installing": "install",
+      "intended": "intend",
+      "linked": "link",
+      "loading": "load",
+      "made": "make",
+      "men": "man",
+      "misspelled": "misspell",
+      "modified": "modify",
+      "people": "person",
+      "process": "process",
+      "removed": "remove",
+      "removing": "remove",
+      "scored": "score",
+      "selected": "select",
+      "sent": "send",
+      "showed": "show",
+      "shown": "show",
+      "signed": "sign",
+      "this": "this",
+      "verified": "verify",
+      "wired": "wire",
+      "wishes": "wish",
+      "women": "woman"
+    },
+    "colloquial": {
+      "arent": [
+        "are",
+        "not"
+      ],
+      "can you please": [
+        "please",
+        "can",
+        "you"
+      ],
+      "cant": [
+        "can",
+        "not"
+      ],
+      "could you please": [
+        "please",
+        "can",
+        "you"
+      ],
+      "couldnt": [
+        "could",
+        "not"
+      ],
+      "didnt": [
+        "did",
+        "not"
+      ],
+      "doesnt": [
+        "does",
+        "not"
+      ],
+      "doin": [
+        "doing"
+      ],
+      "dont": [
+        "do",
+        "not"
+      ],
+      "goin": [
+        "going"
+      ],
+      "gonna": [
+        "going",
+        "to"
+      ],
+      "hows": [
+        "how",
+        "is"
+      ],
+      "hows it": [
+        "how",
+        "are",
+        "you"
+      ],
+      "i would like to": [
+        "i",
+        "want",
+        "to"
+      ],
+      "id like to": [
+        "i",
+        "want",
+        "to"
+      ],
+      "im": [
+        "i",
+        "am"
+      ],
+      "isnt": [
+        "is",
+        "not"
+      ],
+      "kinda": [
+        "kind",
+        "of"
+      ],
+      "r": [
+        "are"
+      ],
+      "sorta": [
+        "sort",
+        "of"
+      ],
+      "thx": [
+        "thanks"
+      ],
+      "u": [
+        "you"
+      ],
+      "ur": [
+        "your"
+      ],
+      "wanna": [
+        "want",
+        "to"
+      ],
+      "wasnt": [
+        "was",
+        "not"
+      ],
+      "werent": [
+        "were",
+        "not"
+      ],
+      "whats": [
+        "what",
+        "is"
+      ],
+      "wont": [
+        "will",
+        "not"
+      ],
+      "would you please": [
+        "please",
+        "can",
+        "you"
+      ],
+      "wouldnt": [
+        "would",
+        "not"
+      ],
+      "ya": [
+        "you"
+      ],
+      "youre": [
+        "you",
+        "are"
+      ]
+    },
+    "colors": {
+      "black": "black",
+      "blue": "blue",
+      "green": "green",
+      "red": "red",
+      "white": "white",
+      "yellow": "yellow"
+    },
+    "context_low_weight": [
+      "am",
+      "are",
+      "did",
+      "do",
+      "does",
+      "for",
+      "is",
+      "of",
+      "to"
+    ],
+    "continuation_exact_phrases": [
+      "and then",
+      "go on",
+      "keep going",
+      "tell me more"
+    ],
+    "continuation_question_starters": [
+      "how",
+      "what",
+      "when",
+      "where",
+      "which",
+      "who",
+      "why"
+    ],
+    "continuation_references": [
+      "it",
+      "one",
+      "that",
+      "this",
+      "those",
+      "these"
+    ],
+    "detached_suffixes": [],
+    "generic_followup_phrases": [
+      "anything else",
+      "tell me more",
+      "what else",
+      "what now"
+    ],
+    "generic_singletons": [
+      "how",
+      "what",
+      "when",
+      "where",
+      "which",
+      "who",
+      "why"
+    ],
+    "low_weight": [
+      "please"
+    ],
+    "negations": [
+      "never",
+      "no",
+      "not",
+      "nothing",
+      "without"
+    ],
+    "normalization_remove_chars": [
+      "'",
+      "’"
+    ],
+    "normalization_rewrites": {},
+    "number_words": {
+      "eight": 8,
+      "eighteen": 18,
+      "eleven": 11,
+      "fifteen": 15,
+      "five": 5,
+      "four": 4,
+      "fourteen": 14,
+      "nine": 9,
+      "nineteen": 19,
+      "one": 1,
+      "seven": 7,
+      "seventeen": 17,
+      "six": 6,
+      "sixteen": 16,
+      "ten": 10,
+      "thirteen": 13,
+      "three": 3,
+      "twelve": 12,
+      "twenty": 20,
+      "two": 2,
+      "zero": 0
+    },
+    "origin_prefixes": {},
+    "pronouns": [
+      "he",
+      "her",
+      "hers",
+      "him",
+      "his",
+      "it",
+      "its",
+      "she",
+      "that",
+      "their",
+      "them",
+      "they",
+      "this",
+      "those"
+    ],
+    "pure_glue": [
+      "a",
+      "an",
+      "please",
+      "the"
+    ],
+    "relative_dates": {
+      "today": "today",
+      "tomorrow": "tomorrow",
+      "yesterday": "yesterday"
+    },
+    "reporting_nouns": [
+      "article",
+      "book",
+      "message",
+      "note",
+      "sign",
+      "text"
+    ],
+    "reporting_verbs": [
+      "asked",
+      "printed",
+      "read",
+      "said",
+      "says",
+      "shouted",
+      "told",
+      "wrote"
+    ],
+    "social_vocabulary": [
+      "bye",
+      "congratulations",
+      "friend",
+      "goodbye",
+      "hello",
+      "hey",
+      "hi",
+      "sorry",
+      "thanks",
+      "welcome"
+    ],
+    "task_cues": [
+      "add",
+      "build",
+      "change",
+      "configure",
+      "create",
+      "delete",
+      "disable",
+      "edit",
+      "enable",
+      "find",
+      "fix",
+      "install",
+      "open",
+      "remove",
+      "repair",
+      "save",
+      "send",
+      "set",
+      "show",
+      "turn",
+      "uninstall",
+      "update",
+      "upload"
+    ],
+    "time_markers": [
+      "am",
+      "pm"
+    ],
+    "units": {
+      "box": "box",
+      "boxes": "box",
+      "kg": "kg",
+      "kgs": "kg",
+      "kilo": "kg",
+      "kilogram": "kg",
+      "kilograms": "kg",
+      "kilos": "kg",
+      "l": "liter",
+      "liter": "liter",
+      "liters": "liter",
+      "litre": "liter",
+      "litres": "liter",
+      "unit": "unit",
+      "units": "unit"
+    },
+    "very_low_weight": [
+      "a",
+      "an",
+      "the"
+    ],
+    "weak_numeric_ignore": [
+      "a",
+      "an",
+      "please",
+      "the"
+    ]
+  },
+  "version": 1
+}

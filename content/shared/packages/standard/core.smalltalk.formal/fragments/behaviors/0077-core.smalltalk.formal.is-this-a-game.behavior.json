@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.is-this-a-game.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.is-this-a-game.behavior",
+    "meaning": "core.smalltalk.formal.is-this-a-game",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.is-this-a-game.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It feels real from here.",
+              "Call it what you want. I am still here.",
+              "Does that change what you need to do?"
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "از اینجا واقعی به نظر می‌رسد.",
+              "هر اسمی می‌خواهید روی آن بگذارید. من همچنان اینجا هستم.",
+              "آیا این کاری را که باید انجام دهید تغییر می‌دهد؟"
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

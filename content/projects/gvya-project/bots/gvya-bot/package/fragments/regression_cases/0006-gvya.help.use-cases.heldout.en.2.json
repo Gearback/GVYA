@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.use-cases.heldout.en.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Where GVYA fits and what can be built with it held-out en-US coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.use-cases",
+      "response_ids": [
+        "gvya.help.use-cases.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.use-cases.heldout.en.2",
+    "initial_state": {},
+    "input": "Could this run dialogue for something besides a game?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

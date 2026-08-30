@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.calm-down",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.calm-down",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "calm down"
+      },
+      {
+        "language": "en-US",
+        "text": "relax"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آروم باش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ریلکس"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آروم بگیر"
+      }
+    ]
+  }
+}

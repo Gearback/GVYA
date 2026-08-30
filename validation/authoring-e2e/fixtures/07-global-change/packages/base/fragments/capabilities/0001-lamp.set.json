@@ -1,0 +1,45 @@
+{
+  "id": "lamp.set",
+  "value": {
+    "contract": {
+      "confirmation_hint": "conditional",
+      "description": "Set lamp state",
+      "effect_class": "reversible",
+      "id": "lamp.set",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "on": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "on"
+        ],
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "ok": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "ok"
+        ],
+        "type": "object"
+      },
+      "reference_kinds": [],
+      "title": "Set lamp",
+      "version": "1"
+    },
+    "host_effects": [
+      {
+        "kind": "update",
+        "resource": "lamp",
+        "summary": "Change lamp state"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-dont-understand.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.i-dont-understand.behavior",
+    "meaning": "core.smalltalk.informal.i-dont-understand",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.i-dont-understand.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Fair. Say it another way, then.",
+              "I may need you to be clearer.",
+              "Try asking it differently."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه. پس یه جور دیگه بگو.",
+              "شاید لازم باشه واضح‌تر بگی.",
+              "یه جور دیگه بپرس."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-a-robot",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.are-you-a-robot",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "are you a robot"
+      },
+      {
+        "language": "en-US",
+        "text": "are you ai"
+      },
+      {
+        "language": "en-US",
+        "text": "are you artificial"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رباتی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هوش مصنوعی هستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باتی"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.capability-bot-response.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.capability-thread",
+    "id": "gvya.dialog.capability-bot-response.behavior",
+    "meaning": "gvya.dialog.capability-bot-response",
+    "responses": [
+      {
+        "id": "gvya.dialog.capability-bot-response.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.capability-thread",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The Bot says only what you authored for that rejected or failed result—for example, that the action was not allowed and what the user can do next. It must not invent a success response."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Bot فقط همان چیزی را می‌گوید که برای نتیجهٔ ردشده یا ناموفق نوشته‌ای؛ مثلاً اینکه اکشن مجاز نبود و کاربر بعدش چه می‌تواند بکند. نباید موفقیت خیالی بسازد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

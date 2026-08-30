@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.interesting.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.interesting.behavior",
+    "meaning": "core.smalltalk.formal.interesting",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.interesting.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It is.",
+              "A little, yes.",
+              "Interesting enough."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "هست.",
+              "کمی، بله.",
+              "به اندازه کافی جالب است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

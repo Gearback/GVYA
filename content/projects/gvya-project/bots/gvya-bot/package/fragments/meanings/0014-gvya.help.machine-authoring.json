@@ -1,0 +1,332 @@
+{
+  "exported": true,
+  "id": "gvya.help.machine-authoring",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.machine-authoring",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i install a package with npm"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خروجی مدل به candidate idها و confidence محدود می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک برنامه TypeScript فایل کامپایل شده را load می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "install a javascript dependency from the npm registry"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fl studio صدا ویرایش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل source پکیج لینوکس"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya studio"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i create my first gvya bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya studio چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اولین بات gvya را چطور بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لحن recovery رو عوض کرد بدون اینکه intent های عادی تغییر کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات می تواند در برنامه من تغییری ایجاد کند"
+      },
+      {
+        "language": "en-US",
+        "text": "can the bot change something in my app"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the full path from authored files to a reply"
+      },
+      {
+        "language": "en-US",
+        "text": "which stages turn authored source into an answer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مسیر کامل از فایل های نوشته شده تا یک جواب چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "install npm package dependency"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نصب پکیج npm dependency"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ نویسندگی ^ API KEY ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "machine authoring"
+      },
+      {
+        "language": "en-US",
+        "text": "external agent"
+      },
+      {
+        "language": "en-US",
+        "text": "canonical source cli"
+      },
+      {
+        "language": "en-US",
+        "text": "coding command file brain ai provider model credential"
+      },
+      {
+        "language": "fa-IR",
+        "text": "machine authoring"
+      },
+      {
+        "language": "fa-IR",
+        "text": "agent خارجی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "source و cli مرجع"
+      },
+      {
+        "language": "fa-IR",
+        "text": "coding دستور فایل brain هوش مصنوعی provider مدل credential"
+      },
+      {
+        "language": "en-US",
+        "text": "codex ui direct package modify"
+      },
+      {
+        "language": "en-US",
+        "text": "prompt api key ai assisted provider host"
+      },
+      {
+        "language": "fa-IR",
+        "text": "codex بدون ui پکیج مستقیم تغییر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پرامپت api key نویسندگی ai ذخیره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "agent ساخت بات source ویرایش مستقیم"
+      },
+      {
+        "language": "en-US",
+        "text": "schema legal fields object shape agent introspection"
+      },
+      {
+        "language": "en-US",
+        "text": "base candidate fingerprint promotion identity stale candidate authoring gate"
+      },
+      {
+        "language": "fa-IR",
+        "text": "schema فیلد مجاز shape آبجکت agent introspection"
+      },
+      {
+        "language": "fa-IR",
+        "text": "base candidate fingerprint promotion identity candidate کهنه"
+      },
+      {
+        "language": "en-US",
+        "text": "script program automated agent generates maintains authored json non human"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اسکریپت برنامه خودکار agent می نویسد تولید نگهداری سورس به جای انسان"
+      }
+    ],
+    "samples": [
+      {
+        "language": "fa-IR",
+        "text": "پرامپت و کلید API ابزار نویسندگی AI را چه کسی نگه می دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "can i author everything from the command line instead"
+      },
+      {
+        "language": "en-US",
+        "text": "what makes ai first"
+      },
+      {
+        "language": "fa-IR",
+        "text": "AI چگونه bot می سازد"
+      },
+      {
+        "language": "en-US",
+        "text": "ai authoring gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "can ai author gvya bots"
+      },
+      {
+        "language": "en-US",
+        "text": "how should an agent edit gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the machine authoring interface"
+      },
+      {
+        "language": "en-US",
+        "text": "can i generate package json"
+      },
+      {
+        "language": "en-US",
+        "text": "does studio include an llm"
+      },
+      {
+        "language": "en-US",
+        "text": "how does ai build a package"
+      },
+      {
+        "language": "en-US",
+        "text": "what canonical surface should an autonomous author mutate"
+      },
+      {
+        "language": "en-US",
+        "text": "can an ai edit the same bot files as me"
+      },
+      {
+        "language": "en-US",
+        "text": "prompts api keys ai authoring"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نویسندگی gvya با هوش مصنوعی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هوش مصنوعی می تواند بات gvya بسازد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "agent چطور gvya را ویرایش کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رابط machine authoring چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم package json تولید کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "studio داخلش llm دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هوش مصنوعی چطور پکیج می سازد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "author خودکار باید کدام سطح canonical را تغییر دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هوش مصنوعی می تونه همون فایل های بات منو ویرایش کنه"
+      },
+      {
+        "language": "en-US",
+        "text": "is authoring automatable by a script"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a tool generate content without a human"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می شود نوشتن source را خودکار کرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک ابزار خودکار چطور محتوا می سازد"
+      },
+      {
+        "language": "en-US",
+        "text": "can an agent author this instead of me"
+      },
+      {
+        "language": "en-US",
+        "text": "what is author step"
+      },
+      {
+        "language": "en-US",
+        "text": "what is check change"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک agent می تواند به جای من بنویسد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "author step چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "external coding agent authors source"
+      },
+      {
+        "language": "en-US",
+        "text": "external coding agent authoring canonical gvya source"
+      },
+      {
+        "language": "en-US",
+        "text": "can a script write the source instead of a person"
+      },
+      {
+        "language": "en-US",
+        "text": "can an automated agent maintain the bot content"
+      },
+      {
+        "language": "en-US",
+        "text": "can a program generate and check the authoring for me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک اسکریپت می تواند به جای آدم سورس را بنویسد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک agent خودکار می تواند محتوای بات را نگه دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک برنامه می تواند authoring را برایم تولید و بررسی کند"
+      }
+    ]
+  }
+}

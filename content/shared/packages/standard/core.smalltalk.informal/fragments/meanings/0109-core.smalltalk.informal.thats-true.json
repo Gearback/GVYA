@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.thats-true",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.thats-true",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "that's true"
+      },
+      {
+        "language": "en-US",
+        "text": "true"
+      },
+      {
+        "language": "en-US",
+        "text": "right"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درسته"
+      },
+      {
+        "language": "fa-IR",
+        "text": "راسته"
+      },
+      {
+        "language": "fa-IR",
+        "text": "همینه"
+      }
+    ]
+  }
+}

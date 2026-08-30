@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.matcher-profiles.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.matcher-profiles.behavior",
+    "meaning": "gvya.help.matcher-profiles",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The GVYA kernel privileges no language. Each Project language is a drop-in pair: a Language Profile for normalization and morphology, plus a Matcher Profile for structural pattern sets. Changing the pair catalog changes which localized data and parity tests the Bot must provide. There is no hidden built-in language profile."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "kernel در GVYA هیچ زبانی را ویژه نمی‌داند. هر زبان Project یک pair مستقل و drop-in دارد: Language Profile برای normalization و morphology، و Matcher Profile برای pattern setهای ساختاری. با تغییر catalog این pairها، دادهٔ محلی‌سازی‌شده و تست‌های parity لازم هم تغییر می‌کنند. profile پنهان داخلی وجود ندارد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.matcher-profiles.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Language Profile is standalone drop-in JSON for one language's normalization, morphology, weights, task cues, and lexical entities. Its paired Matcher Profile contains only structural pattern sets. Neither is a Package."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Language Profile فایل JSON مستقل و drop-in برای normalization، morphology، weightها، task cueها و entityهای واژگانی یک زبان است. Matcher Profile جفت آن فقط pattern setهای ساختاری را نگه می‌دارد؛ هیچ‌کدام Package نیستند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

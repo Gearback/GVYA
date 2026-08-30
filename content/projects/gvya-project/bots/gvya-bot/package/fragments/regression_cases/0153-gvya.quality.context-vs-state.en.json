@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.quality.context-vs-state.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A comparison question has a direct answer distinct from response conditions",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.response-conditions"
+      ],
+      "meaning": "gvya.help.context-vs-state"
+    },
+    "generated": false,
+    "id": "gvya.quality.context-vs-state.en",
+    "initial_state": {},
+    "input": "What is the difference between context and state?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

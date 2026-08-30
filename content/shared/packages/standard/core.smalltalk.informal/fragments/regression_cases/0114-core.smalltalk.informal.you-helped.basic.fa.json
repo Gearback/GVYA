@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.you-helped.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.you-helped",
+      "response_ids": [
+        "core.smalltalk.informal.you-helped.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.you-helped.basic.fa",
+    "initial_state": {},
+    "input": "کمک کردی",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

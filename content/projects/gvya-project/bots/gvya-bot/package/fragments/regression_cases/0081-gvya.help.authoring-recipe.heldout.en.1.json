@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.authoring-recipe.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Matcher-grounded recipe for authoring high-recall Packages held-out en-US coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.authoring-recipe",
+      "response_ids": [
+        "gvya.help.authoring-recipe.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.authoring-recipe.heldout.en.1",
+    "initial_state": {},
+    "input": "What mix of phrasings gives one intent broad natural coverage?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

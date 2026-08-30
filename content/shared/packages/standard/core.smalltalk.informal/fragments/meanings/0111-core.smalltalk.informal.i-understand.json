@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-understand",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.i-understand",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i understand"
+      },
+      {
+        "language": "en-US",
+        "text": "got it"
+      },
+      {
+        "language": "en-US",
+        "text": "i get it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فهمیدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متوجه شدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گرفتم"
+      }
+    ]
+  }
+}

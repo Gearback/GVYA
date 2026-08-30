@@ -1,0 +1,85 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-understand",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.i-understand",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "i do not understand"
+      },
+      {
+        "language": "en-US",
+        "text": "i do not get it"
+      },
+      {
+        "language": "en-US",
+        "text": "i did not understand"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متوجه نشدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نفهمیدم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i understand"
+      },
+      {
+        "language": "en-US",
+        "text": "got it"
+      },
+      {
+        "language": "en-US",
+        "text": "i get it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فهمیدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متوجه شدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گرفتم"
+      },
+      {
+        "language": "en-US",
+        "text": "alright"
+      },
+      {
+        "language": "en-US",
+        "text": "okay that makes sense"
+      },
+      {
+        "language": "en-US",
+        "text": "that makes sense"
+      },
+      {
+        "language": "en-US",
+        "text": "makes sense"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باشه فهمیدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "منطقی است"
+      }
+    ]
+  }
+}

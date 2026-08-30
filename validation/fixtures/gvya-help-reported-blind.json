@@ -1,0 +1,54 @@
+{
+  "format": "gvya.validation.reported-blind-conversation",
+  "version": 1,
+  "bot_id": "gvya-bot",
+  "cases": [
+    {"id":"reported.capability-runtime.en","language":"en-US","input":"How does a capability reach the runtime?","meaning":"gvya.help.capabilities"},
+    {"id":"reported.turn-arrival.en","language":"en-US","input":"What happens after a user message arrives?","meaning":"gvya.help.turn-pipeline"},
+    {"id":"reported.matching-location.en","language":"en-US","input":"Where does matching happen?","meaning":"gvya.help.matcher"},
+    {"id":"reported.package-sharing.en","language":"en-US","input":"Can Packages be shared?","meaning":"gvya.help.packages"},
+    {"id":"reported.fragment-split.en","language":"en-US","input":"Why are Package sources split into fragments?","meaning":"gvya.help.fragment-index"},
+    {"id":"reported.typo-support.en","language":"en-US","input":"Does typo tolerance exist?","meaning":"gvya.help.typo-tolerance"},
+    {"id":"reported.structural-wildcard.en","language":"en-US","input":"Can it match phrases like CAPABILITY * RUNTIME?","meaning":"gvya.help.structural-patterns"},
+    {"id":"reported.ai-first.en","language":"en-US","input":"What makes GVYA AI-first?","meaning":"gvya.help.machine-authoring"},
+    {"id":"reported.inspect-behavior.en","language":"en-US","input":"How can an agent inspect a Behavior?","meaning":"gvya.help.cli-commands"},
+    {"id":"reported.regression-cases.en","language":"en-US","input":"What are regression cases?","meaning":"gvya.help.test-scenario"},
+    {"id":"reported.why-answer.en","language":"en-US","input":"Can I see why an answer was chosen?","meaning":"gvya.help.why-report"},
+    {"id":"reported.undeclared-fragment.en","language":"en-US","input":"What happens if I add a fragment file but forget to declare it?","meaning":"gvya.help.fragment-index","forbidden_meanings":["core.smalltalk.formal.never-mind"]},
+    {"id":"reported.typo-capability.en","language":"en-US","input":"capabilty rutnime path","meaning":"gvya.help.capabilities"},
+    {"id":"reported.typo-package.en","language":"en-US","input":"pakage dependncy","meaning":"gvya.help.package-graph"},
+    {"id":"reported.typo-matcher.en","language":"en-US","input":"how matcher wrks","meaning":"gvya.help.matcher"},
+    {"id":"reported.typo-behavior.en","language":"en-US","input":"behavor inspect","meaning":"gvya.help.cli-commands"},
+    {"id":"reported.matcher.fa","language":"fa-IR","input":"matcher چطوری کار می‌کنه؟","meaning":"gvya.help.matcher"},
+    {"id":"reported.no-llm.fa","language":"fa-IR","input":"بدون LLM چطور جواب میده؟","meaning":"gvya.help.architecture"},
+    {"id":"reported.no-match.fa","language":"fa-IR","input":"اگه چیزی match نشه چی میشه؟","meaning":"gvya.help.fallback"},
+    {"id":"reported.ai-author.fa","language":"fa-IR","input":"AI چطور bot رو می‌سازه؟","meaning":"gvya.help.machine-authoring"},
+    {"id":"reported.telegraphic-fallback.en","language":"en-US","input":"fallback?","meaning":"gvya.help.fallback"},
+    {"id":"reported.telegraphic-authoring.en","language":"en-US","input":"ai authoring schema","meaning":"gvya.help.machine-authoring"},
+    {"id":"reported.telegraphic-build.en","language":"en-US","input":"build bot fast","meaning":"gvya.help.getting-started"}
+  ],
+  "off_domain": [
+    {"id":"reported.confounder.npm.en","language":"en-US","input":"How does npm resolve package dependencies?","meaning":null,"conversation_mode":"fallback"},
+    {"id":"reported.confounder.browser.en","language":"en-US","input":"How do I inspect CSS behavior in a browser?","meaning":null,"conversation_mode":"fallback"},
+    {"id":"reported.confounder.python.en","language":"en-US","input":"Why did the Python runtime crash?","meaning":null,"conversation_mode":"fallback"},
+    {"id":"reported.confounder.spelling.en","language":"en-US","input":"Which spellchecker has the best typo correction?","meaning":null,"conversation_mode":"fallback"}
+  ],
+  "sessions": [
+    {
+      "id": "reported.getting-started.en",
+      "turns": [
+        {"language":"en-US","input":"I want to build my first bot.","meaning":"gvya.help.getting-started","seed":201},
+        {"language":"en-US","input":"What should I create first?","meaning":"gvya.help.getting-started","seed":202},
+        {"language":"en-US","input":"Then what?","meaning":"gvya.help.getting-started","conversation_mode":"continuation","seed":203},
+        {"language":"en-US","input":"And after that?","meaning":"gvya.help.getting-started","conversation_mode":"continuation","seed":204}
+      ]
+    },
+    {
+      "id": "reported.capability-pronoun.en",
+      "turns": [
+        {"language":"en-US","input":"What is a capability?","meaning":"gvya.help.capabilities","seed":211},
+        {"language":"en-US","input":"Who actually executes it?","meaning":"gvya.help.capabilities","conversation_mode":"continuation","seed":212}
+      ]
+    }
+  ]
+}

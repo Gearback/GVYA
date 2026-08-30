@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.is-it-morning.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.is-it-morning.behavior",
+    "meaning": "core.smalltalk.formal.is-it-morning",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.is-it-morning.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It is {{ system.partOfDay | unavailable }}.",
+              "Right now, it is {{ system.partOfDay | unavailable }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اکنون {{ system.partOfDay | نامشخص }} است.",
+              "در حال حاضر وقت {{ system.partOfDay | نامشخص }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

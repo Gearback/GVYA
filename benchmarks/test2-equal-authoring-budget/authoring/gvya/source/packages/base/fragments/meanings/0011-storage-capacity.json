@@ -1,0 +1,30 @@
+{
+  "id": "storage.capacity",
+  "value": {
+    "id": "storage.capacity",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "storage capacity"
+      },
+      {
+        "language": "en",
+        "text": "pages stored"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how much can foliobox store"
+      },
+      {
+        "language": "en",
+        "text": "what is the local storage capacity"
+      },
+      {
+        "language": "en",
+        "text": "how many pages fit on the device"
+      }
+    ]
+  }
+}

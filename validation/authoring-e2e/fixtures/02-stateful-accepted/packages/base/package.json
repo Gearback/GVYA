@@ -1,0 +1,30 @@
+{
+  "format": "gvya.source.package",
+  "version": 1,
+  "manifest": {
+    "id": "base",
+    "kind": "standard",
+    "dependencies": []
+  },
+  "fragments": {
+    "meanings": [
+      "fragments/meanings/0001-hello.json",
+      "fragments/meanings/0002-weather.ask.json",
+      "fragments/meanings/0003-order.start.json",
+      "fragments/meanings/0004-order.confirm.json"
+    ],
+    "behaviors": [
+      "fragments/behaviors/0001-hello.behavior.json",
+      "fragments/behaviors/0002-weather.ask.behavior.json",
+      "fragments/behaviors/0003-order.start.behavior.json",
+      "fragments/behaviors/0004-order.confirm.behavior.json"
+    ],
+    "regression_cases": [
+      "fragments/regression_cases/0001-hello.baseline.json",
+      "fragments/regression_cases/0002-weather.ask.proof.json"
+    ],
+    "scenarios": [
+      "fragments/scenarios/0001-order.flow.proof.json"
+    ]
+  }
+}

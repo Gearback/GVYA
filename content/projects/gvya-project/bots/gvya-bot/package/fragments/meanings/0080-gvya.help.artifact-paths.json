@@ -1,0 +1,114 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-paths",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.artifact-paths",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what does the folder structure look like"
+      },
+      {
+        "language": "en-US",
+        "text": "what entries does an artifact require"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساختار پوشه چگونه است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک آرتیفکت چه entry هایی لازم دارد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "path rules relative forward slash traversal duplicate nul control reject"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قواعد مسیر نسبی اسلش پیمایش تکراری کنترل رد"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what path rules does the container enforce"
+      },
+      {
+        "language": "en-US",
+        "text": "can a path contain dot dot"
+      },
+      {
+        "language": "en-US",
+        "text": "are backslashes allowed in paths"
+      },
+      {
+        "language": "en-US",
+        "text": "does the runtime extract files to disk"
+      },
+      {
+        "language": "en-US",
+        "text": "are duplicate paths allowed"
+      },
+      {
+        "language": "en-US",
+        "text": "what characters are rejected in a path"
+      },
+      {
+        "language": "en-US",
+        "text": "can an artifact escape a directory"
+      },
+      {
+        "language": "en-US",
+        "text": "explain path rules"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کانتینر چه قواعد مسیری دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک مسیر می تواند دو نقطه داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بک اسلش در مسیر مجاز است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime فایل ها را روی دیسک استخراج می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مسیر تکراری مجاز است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کاراکترهایی در مسیر رد می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک آرتیفکت می تواند از پوشه فرار کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قواعد مسیر را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what path rules does the container use"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قواعد مسیر در container چیست"
+      }
+    ]
+  }
+}

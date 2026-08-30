@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.matcher-troubleshooting.heldout.fa.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Improving a missing, wrong, or ambiguous semantic match held-out fa-IR coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.matcher-troubleshooting",
+      "response_ids": [
+        "gvya.help.matcher-troubleshooting.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.matcher-troubleshooting.heldout.fa.2",
+    "initial_state": {},
+    "input": "برای no-match باید ده‌ها جملهٔ تقریباً یکسان اضافه کنم؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

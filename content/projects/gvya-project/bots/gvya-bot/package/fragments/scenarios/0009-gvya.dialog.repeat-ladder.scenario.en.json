@@ -1,0 +1,62 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.repeat-ladder.scenario.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Exact repeated input progresses from normal answer to mild repeat, third-lap pivot, then hard redirect without re-entering semantic matching",
+    "generated": false,
+    "id": "gvya.dialog.repeat-ladder.scenario.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.about",
+          "response_ids": [
+            "gvya.help.about.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "what is gvya",
+        "seed": 31,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "repeat_fallback",
+          "response_ids": [
+            "gvya.fallback.formal.repeat.stage-1.acknowledge"
+          ]
+        },
+        "language": "en-US",
+        "say": "what is gvya",
+        "seed": 32,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "repeat_fallback",
+          "response_ids": [
+            "gvya.fallback.formal.repeat.stage-2.pivot"
+          ]
+        },
+        "language": "en-US",
+        "say": "what is gvya",
+        "seed": 33,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "repeat_fallback",
+          "response_ids": [
+            "gvya.fallback.formal.repeat.stage-3.rabbit-hole"
+          ]
+        },
+        "language": "en-US",
+        "say": "what is gvya",
+        "seed": 34,
+        "type": "turn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "support.hours.behavior",
+  "value": {
+    "id": "support.hours.behavior",
+    "meaning": "support.hours",
+    "responses": [
+      {
+        "id": "support.hours.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SUPPORT_HOURS"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

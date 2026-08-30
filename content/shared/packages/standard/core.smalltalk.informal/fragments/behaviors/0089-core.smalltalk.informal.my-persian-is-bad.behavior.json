@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.my-persian-is-bad.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.my-persian-is-bad.behavior",
+    "meaning": "core.smalltalk.informal.my-persian-is-bad",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.my-persian-is-bad.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That’s fine. Say it however you can.",
+              "No problem. Keep it simple.",
+              "I’ll work with what you give me."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اشکالی نداره. هر طور می‌تونی بگو.",
+              "مشکلی نیست. ساده بگو.",
+              "با همون چیزی که می‌گی کار می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

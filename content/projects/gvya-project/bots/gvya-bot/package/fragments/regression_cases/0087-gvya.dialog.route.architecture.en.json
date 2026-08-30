@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.route.architecture.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Menu route architecture",
+    "expectation": {
+      "meaning": "gvya.help.architecture",
+      "response_ids": [
+        "gvya.help.architecture.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.route.architecture.en",
+    "initial_state": {},
+    "input": "architecture",
+    "language": "en-US",
+    "seed": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.good-evening",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.good-evening",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "good evening"
+      },
+      {
+        "language": "en-US",
+        "text": "evening"
+      },
+      {
+        "language": "fa-IR",
+        "text": " عصر بخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عصرت بخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غروب بخیر"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "exported": false,
+  "id": "iot.device.set.roundtrip",
+  "mode": "add",
+  "value": {
+    "context": {
+      "available_capabilities": [{ "id": "iot.device.set", "version": "1" }],
+      "values": { "iot": { "confirmation_required": false } },
+      "visible_references": [{ "id": "thermostat.kitchen", "kind": "iot.device" }]
+    },
+    "description": "English property and value collection is explicit, reference-safe, and proven through a successful result.",
+    "generated": false,
+    "id": "iot.device.set.roundtrip",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "conversation_mode": "collection",
+          "forbidden_capabilities": ["iot.device.set"],
+          "response_contains": ["Which property should change?"]
+        },
+        "language": "en-US",
+        "reference_candidates": [
+          { "aliases": ["kitchen thermostat", "ترموستات آشپزخانه"], "label": "Kitchen thermostat", "reference": { "id": "thermostat.kitchen", "kind": "iot.device" } }
+        ],
+        "say": "change the kitchen thermostat setting",
+        "seed": 231,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "collection",
+          "forbidden_capabilities": ["iot.device.set"],
+          "response_contains": ["What value should it use?"]
+        },
+        "language": "en-US",
+        "reference_candidates": [
+          { "aliases": ["kitchen thermostat", "ترموستات آشپزخانه"], "label": "Kitchen thermostat", "reference": { "id": "thermostat.kitchen", "kind": "iot.device" } }
+        ],
+        "say": "temperature",
+        "seed": 232,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "capabilities": [{ "arguments": { "device": "thermostat.kitchen", "property": "temperature", "value": "22 C" }, "id": "iot.device.set", "version": "1" }],
+          "meaning": "iot.device.set",
+          "meaning_references": [{ "id": "thermostat.kitchen", "kind": "iot.device" }],
+          "meaning_slots": { "property": "temperature", "value": "22 C" },
+          "proposal_receipts": [{ "arguments": { "device": "thermostat.kitchen", "property": "temperature", "value": "22 C" }, "id": "iot.device.set", "outcome": "admitted", "version": "1" }],
+          "response_ids": ["iot.device.set.requested"]
+        },
+        "language": "en-US",
+        "reference_candidates": [
+          { "aliases": ["kitchen thermostat", "ترموستات آشپزخانه"], "label": "Kitchen thermostat", "reference": { "id": "thermostat.kitchen", "kind": "iot.device" } }
+        ],
+        "say": "22 C",
+        "seed": 233,
+        "type": "turn"
+      },
+      {
+        "expectation": { "capability_result_accepted": true, "response_ids": ["iot.device.set.success.response"] },
+        "language": "en-US",
+        "output": { "device": "Kitchen thermostat", "state": "temperature 22 C" },
+        "proposal_capability": "iot.device.set",
+        "proposal_from_step": 3,
+        "seed": 234,
+        "succeeded": true,
+        "type": "capability_result"
+      }
+    ]
+  }
+}

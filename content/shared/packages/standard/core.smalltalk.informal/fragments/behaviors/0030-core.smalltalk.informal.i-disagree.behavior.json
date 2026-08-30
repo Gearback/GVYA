@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-disagree.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.i-disagree.behavior",
+    "meaning": "core.smalltalk.informal.i-disagree",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.i-disagree.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Then say why.",
+              "Fine. We don't have to agree.",
+              "Could be. I’m listening."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پس بگو چرا.",
+              "باشه. لازم نیست موافق باشیم.",
+              "ممکنه. دارم گوش می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

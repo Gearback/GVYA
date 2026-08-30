@@ -1,0 +1,298 @@
+{
+  "exported": true,
+  "id": "gvya.help.studio",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.studio",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "fl studio صدا ویرایش"
+      },
+      {
+        "language": "en-US",
+        "text": "fl studio audio editing"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ویرایش صدا در fl studio"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a visual editor in blender"
+      },
+      {
+        "language": "en-US",
+        "text": "can ai author gvya bots"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i integrate gvya at runtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هوش مصنوعی می تواند بات gvya بسازد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya را چطور به برنامه وصل کنم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "fa-IR",
+        "text": "studio ویرایش پروژه بات پکیج author"
+      },
+      {
+        "language": "en-US",
+        "text": "visual editor"
+      },
+      {
+        "language": "en-US",
+        "text": "studio simulate"
+      },
+      {
+        "language": "en-US",
+        "text": "human authoring"
+      },
+      {
+        "language": "en-US",
+        "text": "production tool cargo current bot try"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ویرایشگر تصویری"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شبیه سازی studio"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نویسندگی انسانی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محصول نهایی ابزار cargo بات فعلی تست"
+      },
+      {
+        "language": "en-US",
+        "text": "browser editor player machine deployed"
+      },
+      {
+        "language": "en-US",
+        "text": "press simulate behind scene compile run"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ویرایشگر مرورگر سیستم بازیکن لازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "simulate پشت صحنه اجرا کامپایل"
+      },
+      {
+        "language": "en-US",
+        "text": "studio simulate test bot without cargo"
+      },
+      {
+        "language": "fa-IR",
+        "text": "studio simulate تست بات بدون cargo"
+      },
+      {
+        "language": "en-US",
+        "text": "graphical visual editor interface buttons panels manual json editing"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گرافیکی رابط بصری دکمه ویرایشگر بدون نوشتن فایل دستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محیط بصری گرافیکی رابط کاربری ویرایشگر ادیتور شبیه ساز استودیو"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "the visual editor can compile simulate and chat with the selected bot"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a visual editor"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya studio"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya studio"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i edit a bot in studio"
+      },
+      {
+        "language": "en-US",
+        "text": "can i simulate a bot in studio"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the studio do"
+      },
+      {
+        "language": "en-US",
+        "text": "how do authoring modals save"
+      },
+      {
+        "language": "en-US",
+        "text": "is studio required at runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "is studio a semantic authority in the deployed system"
+      },
+      {
+        "language": "en-US",
+        "text": "is studio the place where i click and make bots"
+      },
+      {
+        "language": "fa-IR",
+        "text": "استودیو gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya studio چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بات را در studio ویرایش کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم بات را در studio شبیه سازی کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "studio چه کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "modal های نویسندگی چطور ذخیره می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "studio برای runtime لازم است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آیا studio در سیستم نهایی مرجع semantic است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "studio همون جاییه که با کلیک بات می سازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ویرایشگر compile بات انتخاب شده چت"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the visual editor for"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need it to ship a bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ویرایشگر بصری برای چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای انتشار بات لازم است"
+      },
+      {
+        "language": "en-US",
+        "text": "test the current bot without cargo"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون cargo بات فعلی را تست کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "what is studio"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the studio for"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need studio to run a bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "studio چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "استودیو برای چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای اجرای بات به studio نیاز دارم"
+      },
+      {
+        "language": "en-US",
+        "text": "studio"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a graphical tool for editing"
+      },
+      {
+        "language": "en-US",
+        "text": "do i have to edit json by hand or is there an interface"
+      },
+      {
+        "language": "en-US",
+        "text": "is there something with buttons instead of files"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ابزار گرافیکی برای ویرایش وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باید json را دستی بنویسم یا رابط گرافیکی هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چیزی با دکمه و صفحه هست به جای فایل"
+      },
+      {
+        "language": "en-US",
+        "text": "can i simulate the conversation without any setup"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم بدون هیچ setup ای مکالمه را شبیه سازی کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محیط بصری دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برنامه ای با رابط کاربری برای نوشتن بات هست"
+      }
+    ]
+  }
+}

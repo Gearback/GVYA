@@ -1,0 +1,12 @@
+{
+  "id": "lamp.turn-on",
+  "value": {
+    "id": "lamp.turn-on",
+    "samples": [
+      {
+        "language": "en",
+        "text": "turn lamp on"
+      }
+    ]
+  }
+}

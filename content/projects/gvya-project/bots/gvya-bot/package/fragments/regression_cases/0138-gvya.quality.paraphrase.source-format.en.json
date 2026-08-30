@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.source-format.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural question about transparent source resolves to source format",
+    "expectation": {
+      "meaning": "gvya.help.source-format"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.source-format.en",
+    "initial_state": {},
+    "input": "What does the transparent source look like?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

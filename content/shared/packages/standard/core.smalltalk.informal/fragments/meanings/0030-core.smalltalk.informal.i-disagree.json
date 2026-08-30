@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-disagree",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.i-disagree",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i disagree"
+      },
+      {
+        "language": "en-US",
+        "text": "you're wrong"
+      },
+      {
+        "language": "en-US",
+        "text": "not true"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مخالفم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اشتباه می‌کنی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبول ندارم"
+      }
+    ]
+  }
+}

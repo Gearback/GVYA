@@ -1,0 +1,153 @@
+{
+  "exported": true,
+  "id": "gvya.m2.scenario.capability-thread.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Natural capability follow-ups stay contextual through use, rationale, example, result, rejection, safety and summary",
+    "generated": false,
+    "id": "gvya.m2.scenario.capability-thread.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "meaning": "gvya.help.capabilities",
+          "response_ids": [
+            "gvya.help.capabilities.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "What is a capability?",
+        "seed": 201,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.capability-use",
+          "response_ids": [
+            "gvya.dialog.capability-use.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "How does it get used in the flow?",
+        "seed": 202,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.capability-why-host",
+          "response_ids": [
+            "gvya.dialog.capability-why-host.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Why keep the action on the application side?",
+        "seed": 203,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.simplify",
+          "response_ids": [
+            "gvya.dialog.simplify.capability.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Put that in really simple terms.",
+        "seed": 204,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.example",
+          "response_ids": [
+            "gvya.dialog.capability-example.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Show me a real-world example.",
+        "seed": 205,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.next-step",
+          "response_ids": [
+            "gvya.dialog.capability-next.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "What comes immediately after the host does the work?",
+        "seed": 206,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.host-reject",
+          "response_ids": [
+            "gvya.dialog.capability-host-reject.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Suppose the application rejects the proposal?",
+        "seed": 207,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.capability-bot-response",
+          "response_ids": [
+            "gvya.dialog.capability-bot-response.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "And what can the brain answer after that rejection?",
+        "seed": 208,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.safety-check",
+          "response_ids": [
+            "gvya.dialog.capability-safety.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Does separating it like this improve safety?",
+        "seed": 209,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.capability-thread",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.summary",
+          "response_ids": [
+            "gvya.dialog.capability-summary.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Give me the whole idea in a single sentence.",
+        "seed": 210,
+        "type": "turn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.what.behavior",
+    "meaning": "core.smalltalk.informal.what",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.what.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "What?",
+              "Say that again.",
+              "I didn’t catch that cleanly."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "چی؟",
+              "دوباره بگو.",
+              "درست نگرفتم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

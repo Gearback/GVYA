@@ -1,0 +1,65 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-dont-know",
+  "mode": {
+    "target_id": "core.smalltalk.formal.i-dont-know",
+    "target_package": "core.smalltalk.formal",
+    "type": "replace"
+  },
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.i-dont-know",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i know the compiled file has not been altered"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know which meaning won"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know my bot still works"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا بدانم فایل کامپایل شده تغییر نکرده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا بفهمم کدام meaning برنده شد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i don't know"
+      },
+      {
+        "language": "en-US",
+        "text": "dunno"
+      },
+      {
+        "language": "en-US",
+        "text": "no idea"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمی‌دونم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ایده‌ای ندارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خبر ندارم"
+      }
+    ]
+  }
+}

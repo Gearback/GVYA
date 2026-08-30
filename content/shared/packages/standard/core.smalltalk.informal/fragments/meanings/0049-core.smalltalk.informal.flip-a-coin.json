@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.flip-a-coin",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.informal.flip-a-coin",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "flip a coin"
+      },
+      {
+        "language": "en-US",
+        "text": "coin flip"
+      },
+      {
+        "language": "en-US",
+        "text": "heads or tails"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شیر یا خط"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سکه بنداز"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سکه"
+      }
+    ]
+  }
+}

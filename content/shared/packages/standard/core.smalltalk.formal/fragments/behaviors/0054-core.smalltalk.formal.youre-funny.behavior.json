@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.youre-funny.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.youre-funny.behavior",
+    "meaning": "core.smalltalk.formal.youre-funny",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.youre-funny.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good. I am glad it landed.",
+              "I will accept that.",
+              "A little humor can help."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوب است. خوشحالم که اثر داشت.",
+              "این را می‌پذیرم.",
+              "کمی شوخ‌طبعی می‌تواند کمک کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

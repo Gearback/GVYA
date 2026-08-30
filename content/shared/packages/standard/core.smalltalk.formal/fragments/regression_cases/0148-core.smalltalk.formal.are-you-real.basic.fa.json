@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-real.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.are-you-real",
+      "response_ids": [
+        "core.smalltalk.formal.are-you-real.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.are-you-real.basic.fa",
+    "initial_state": {},
+    "input": "واقعی هستی",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

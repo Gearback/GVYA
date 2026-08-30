@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.long-time-no-see",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.long-time-no-see",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "long time no see"
+      },
+      {
+        "language": "en-US",
+        "text": "been a while"
+      },
+      {
+        "language": "en-US",
+        "text": "it's been a while"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خیلی وقته"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خیلی وقت بود ندیدمت"
+      }
+    ]
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-integrity",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.artifact-integrity",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "برنامه TypeScript آرتیفکت را باز می کند و با runtime گفتگو می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "pdf artifact modified"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضای سند بررسی"
+      },
+      {
+        "language": "en-US",
+        "text": "modified pdf document artifact"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل pdf سند دستکاری"
+      },
+      {
+        "language": "en-US",
+        "text": "how is an artifact signed"
+      },
+      {
+        "language": "en-US",
+        "text": "what entries does an artifact require"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت چطور امضا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک آرتیفکت چه entry هایی لازم دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از load فایل gvya میزبان چه request و state ای رد و بدل می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "after loading the gvya file what request and state does the host exchange"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از load فایل gvya میزبان چه request و state ای ردوبدل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان بعد از بارگذاری چه request و state ای می فرستد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "fa-IR",
+        "text": "artifact فایل دستکاری load رد سلامت"
+      },
+      {
+        "language": "en-US",
+        "text": "integrity sha256 digest layers verify tamper modified checksum"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یکپارچگی چکیده لایه راستی آزمایی دستکاری تغییر"
+      },
+      {
+        "language": "en-US",
+        "text": "artifact integrity checks"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سلامت .gvya load بررسی"
+      },
+      {
+        "language": "en-US",
+        "text": "verify digest content health changed bytes tamper sha256 artifact integrity opening load"
+      },
+      {
+        "language": "fa-IR",
+        "text": "verify digest سلامت محتوا تغییر بایت tamper sha256 artifact integrity باز کردن load"
+      },
+      {
+        "language": "en-US",
+        "text": "tamper corrupted changed bytes unchanged compiled bot file hash digest verify"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دستکاری خرابی تغییر نکرده هش چکیده یکپارچگی سلامت آرتیفکت"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل کامپایل شده دستکاری سالم مطمئن شوم عوض نشده هش"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how is artifact integrity checked"
+      },
+      {
+        "language": "en-US",
+        "text": "what are the integrity layers"
+      },
+      {
+        "language": "en-US",
+        "text": "what does integrity json record"
+      },
+      {
+        "language": "en-US",
+        "text": "is every payload hashed"
+      },
+      {
+        "language": "en-US",
+        "text": "does a hash prove authenticity"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i verify an artifact was not modified"
+      },
+      {
+        "language": "en-US",
+        "text": "what digest algorithm is used"
+      },
+      {
+        "language": "en-US",
+        "text": "explain artifact integrity"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یکپارچگی آرتیفکت چطور بررسی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لایه های یکپارچگی چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "integrity json چه چیزی ثبت می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هر payload هش می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک هش اصالت را ثابت می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور مطمئن شوم آرتیفکت دستکاری نشده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه الگوریتم چکیده ای استفاده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یکپارچگی آرتیفکت را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i verify integrity"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the artifact checked for tampering"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درستی فایل را چطور بررسی کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سلامت .gvya load بررسی"
+      },
+      {
+        "language": "en-US",
+        "text": "what proves the artifact bytes were not altered"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i detect a corrupted gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": "are all the payloads inside the artifact hashed"
+      },
+      {
+        "language": "en-US",
+        "text": "what integrity check happens when a bot file is opened"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی ثابت می کند بایت های artifact تغییر نکرده اند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل gvya خراب را چطور تشخیص بدهم"
+      },
+      {
+        "language": "en-US",
+        "text": "did anyone tamper with this compiled bot"
+      },
+      {
+        "language": "en-US",
+        "text": "the gvya file might be corrupted how do i check"
+      },
+      {
+        "language": "en-US",
+        "text": "is every byte in the artifact covered by a hash"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i confirm a shipped bot file is unchanged"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کسی این بات کامپایل شده را دستکاری کرده است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور مطمئن شوم فایل بات ارسال شده تغییر نکرده"
+      },
+      {
+        "language": "en-US",
+        "text": "was the compiled file tampered with"
+      },
+      {
+        "language": "en-US",
+        "text": "what keeps a gvya file safe from silent corruption"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بفهمم فایل کامپایل شده دست نخورده مانده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی جلوی خرابی بی سروصدای فایل بات را می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور مطمئن شوم محتوای آرتیفکت عوض نشده"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know the shipped file has not been altered"
+      },
+      {
+        "language": "en-US",
+        "text": "what guards against silent corruption of the brain file"
+      },
+      {
+        "language": "en-US",
+        "text": "what proves nothing changed after the build"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know the artifact bytes are still the original ones"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی ثابت می کند بعد از build چیزی عوض نشده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا بدانم بایت های آرتیفکت همان اصلی هستند"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know a compiled file was not tampered with"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i know the artifact is still intact"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا بدانم آرتیفکت هنوز سالم است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور مطمئن شوم فایل کامپایل شده دستکاری نشده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل کامپایل شده سالم مانده یا دستکاری شده"
+      },
+      {
+        "language": "en-US",
+        "text": "How are modified artifacts detected before loading?"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل‌های artifact دستکاری‌شده چطور قبل از load شدن رد می‌شن؟"
+      }
+    ]
+  }
+}

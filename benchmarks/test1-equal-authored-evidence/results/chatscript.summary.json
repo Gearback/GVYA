@@ -1,0 +1,67 @@
+{
+  "build_ms": 679.3635899994115,
+  "cases": 288,
+  "compiled_build1_bytes": 32194,
+  "control_infrastructure_bytes": 783,
+  "correct_in_domain": 101,
+  "deterministic_replay": true,
+  "generated_source_bytes": 6005,
+  "git_commit": "9f5eec4736ba22bd992a6498c1e0052e2a795125",
+  "implementation_version": "14.1",
+  "in_domain_cases": 240,
+  "latency_ms": {
+    "mean": 1.6702649097371451,
+    "p50": 0.7238159996632021,
+    "p95": 6.7581749990495155
+  },
+  "macro_f1_including_fallback": 0.5839594731509625,
+  "ood_cases": 48,
+  "ood_false_positive_count": 0,
+  "ood_false_positive_rate": 0.0,
+  "runtime": "ChatScript 14.1",
+  "semantic_source": "frozen/bots/chatscript/benchmark.top",
+  "session_isolation": "unique ChatScript user per evaluation case; official null-message conversation start is sent and ignored before the scored volley",
+  "strict_intent_accuracy_in_domain": 0.42083333333333334,
+  "system": "ChatScript",
+  "tracks": {
+    "confounder": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 48,
+      "non_null": 0
+    },
+    "ood": {
+      "accuracy": 1.0,
+      "correct": 48,
+      "n": 48,
+      "non_null": 0
+    },
+    "paraphrase": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 48,
+      "non_null": 0
+    },
+    "seen": {
+      "accuracy": 1.0,
+      "correct": 96,
+      "n": 96,
+      "non_null": 96
+    },
+    "typo": {
+      "accuracy": 0.20833333333333334,
+      "correct": 5,
+      "n": 24,
+      "non_null": 5
+    },
+    "word_order": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 24,
+      "non_null": 0
+    }
+  },
+  "transport": "official ChatScript TCP protocol over localhost",
+  "wrong_intent_count": 0,
+  "wrong_intent_rate": 0.0
+}

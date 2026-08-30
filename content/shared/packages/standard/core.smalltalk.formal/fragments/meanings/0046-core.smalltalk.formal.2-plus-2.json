@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.2-plus-2",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.2-plus-2",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "2+2"
+      },
+      {
+        "language": "en-US",
+        "text": "what is 2+2"
+      },
+      {
+        "language": "en-US",
+        "text": "calculate this"
+      },
+      {
+        "language": "en-US",
+        "text": "do the math"
+      },
+      {
+        "language": "en-US",
+        "text": "simple math"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حساب کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو به علاوه دو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "۲+۲"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ریاضی ساده"
+      }
+    ]
+  }
+}

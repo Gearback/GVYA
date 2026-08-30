@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.matcher.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A Persian non-exact-phrasing question reaches matcher help",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.typo-tolerance"
+      ],
+      "meaning": "gvya.help.matcher"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.matcher.fa",
+    "initial_state": {},
+    "input": "اگه جمله رو دقیق نگم باز می‌فهمه؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

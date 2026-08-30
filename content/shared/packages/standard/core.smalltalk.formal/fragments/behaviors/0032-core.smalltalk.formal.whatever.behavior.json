@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.whatever.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.whatever.behavior",
+    "meaning": "core.smalltalk.formal.whatever",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.whatever.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Very well.",
+              "If that is your choice.",
+              "Understood."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بسیار خوب.",
+              "اگر انتخاب شما این است.",
+              "فهمیدم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

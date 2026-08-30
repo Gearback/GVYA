@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.do-you-sleep.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.do-you-sleep.behavior",
+    "meaning": "core.smalltalk.formal.do-you-sleep",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.do-you-sleep.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Not the way you do.",
+              "I manage in my own way.",
+              "Different needs."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نه به شکلی که شما انجام می‌دهید.",
+              "من به روش خودم پیش می‌روم.",
+              "نیازها متفاوت‌اند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

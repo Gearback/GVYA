@@ -1,0 +1,22 @@
+{
+  "exported": true,
+  "id": "gvya.quality.boundary.neural-authority.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A neural-authority question resolves to the bounded resolver and not admission or onboarding",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.admission",
+        "gvya.help.getting-started"
+      ],
+      "meaning": "gvya.help.neural-resolver"
+    },
+    "generated": false,
+    "id": "gvya.quality.boundary.neural-authority.en",
+    "initial_state": {},
+    "input": "Can an LLM override the deterministic decision?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

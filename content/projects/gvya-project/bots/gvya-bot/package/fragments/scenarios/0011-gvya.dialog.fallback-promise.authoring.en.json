@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.fallback-promise.authoring.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "An authoring-topic fallback suggestion routes back into the real authoring workflow",
+    "generated": false,
+    "id": "gvya.dialog.fallback-promise.authoring.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.authoring-recipe",
+          "response_ids": [
+            "gvya.help.authoring-recipe.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "authoring",
+        "seed": 61,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "fallback",
+          "response_ids": [
+            "gvya.fallback.formal.unresolved.authoring-pivot.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "what chair should i buy",
+        "seed": 62,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.authoring-recipe",
+          "response_ids": [
+            "gvya.help.authoring-recipe.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "show me that workflow",
+        "seed": 63,
+        "type": "turn"
+      }
+    ]
+  }
+}

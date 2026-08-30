@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-season-is-it.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.what-season-is-it.behavior",
+    "meaning": "core.smalltalk.informal.what-season-is-it",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.what-season-is-it.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It’s {{ system.season | unavailable }}.",
+              "The season is {{ system.season | unavailable }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "الان {{ system.season | نامشخص }} است.",
+              "فصل {{ system.season | نامشخص }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

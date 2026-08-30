@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-happy.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.are-you-happy",
+      "response_ids": [
+        "core.smalltalk.formal.are-you-happy.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.are-you-happy.basic.fa",
+    "initial_state": {},
+    "input": "حالت خوبه",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

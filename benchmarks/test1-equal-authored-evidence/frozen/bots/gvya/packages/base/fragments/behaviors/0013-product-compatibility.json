@@ -1,0 +1,20 @@
+{
+  "id": "product.compatibility.behavior",
+  "value": {
+    "id": "product.compatibility.behavior",
+    "meaning": "product.compatibility",
+    "responses": [
+      {
+        "id": "product.compatibility.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:PRODUCT_COMPATIBILITY"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.example.determinism.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.determinism",
+    "id": "gvya.dialog.example.determinism.behavior",
+    "meaning": "gvya.dialog.example",
+    "responses": [
+      {
+        "id": "gvya.dialog.example.determinism.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.determinism",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Example: if the same player says “where is the shop?” with the same conversation state, the same authored Meaning and answer win. A hidden model or network result does not silently change that decision."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "مثال: اگر همان بازیکن با همان state بپرسد «فروشگاه کجاست؟»، همان Meaning و جواب نوشته‌شده برنده می‌شود؛ مدل پنهان یا نتیجهٔ شبکه تصمیم را بی‌صدا عوض نمی‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

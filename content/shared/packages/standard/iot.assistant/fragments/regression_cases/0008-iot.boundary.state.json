@@ -1,0 +1,16 @@
+{
+  "exported": false,
+  "id": "iot.boundary.state",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The linguistic word state must not become an IoT state read.",
+    "expectation": { "forbidden_meanings": ["iot.device.state"] },
+    "generated": false,
+    "id": "iot.boundary.state",
+    "initial_state": {},
+    "input": "state your name",
+    "language": "en-US",
+    "seed": 108
+  }
+}

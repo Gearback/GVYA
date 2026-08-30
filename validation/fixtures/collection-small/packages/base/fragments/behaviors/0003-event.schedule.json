@@ -1,0 +1,11 @@
+{
+  "id": "event.schedule.behavior",
+  "value": {
+    "id": "event.schedule.behavior",
+    "meaning": "event.schedule",
+    "responses": [{
+      "id": "event.schedule.answer",
+      "texts": [{"language": "en", "variants": ["The event is scheduled."]}]
+    }]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format": "gvya.source.project",
+  "version": 1,
+  "project_id": "authoring-proof",
+  "brain_id": "proof-bot",
+  "languages": [
+    "en"
+  ],
+  "enabled_languages": [
+    "en"
+  ],
+  "default_language": "en",
+  "packages": [
+    "packages/base/package.json"
+  ]
+}

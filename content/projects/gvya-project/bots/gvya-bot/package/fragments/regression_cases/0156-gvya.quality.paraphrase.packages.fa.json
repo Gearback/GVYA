@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.packages.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A colloquial Persian package-purpose question resolves",
+    "expectation": {
+      "meaning": "gvya.help.packages"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.packages.fa",
+    "initial_state": {},
+    "input": "Package به چه درد می‌خورد؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

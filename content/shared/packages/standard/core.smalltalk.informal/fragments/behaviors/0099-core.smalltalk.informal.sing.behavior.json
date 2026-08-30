@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.sing.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.sing.behavior",
+    "meaning": "core.smalltalk.informal.sing",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.sing.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "No. Talking is safer.",
+              "I’ll spare you that.",
+              "Trust me, you don’t want that."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نه. حرف زدن امن‌تره.",
+              "از این یکی معافت می‌کنم.",
+              "باور کن، نمی‌خوای بشنوی."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

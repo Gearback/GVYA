@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-happy",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.are-you-happy",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "are you happy"
+      },
+      {
+        "language": "en-US",
+        "text": "you happy"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالت خوبه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوشحالی؟"
+      }
+    ]
+  }
+}

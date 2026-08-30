@@ -1,0 +1,23 @@
+{
+  "name": "@gvya/studio",
+  "private": true,
+  "version": "0.0.0-dev",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "vite build --config vite.config.mjs",
+    "dev": "vite --config vite.config.mjs",
+    "preview": "vite preview --config vite.config.mjs",
+    "check": "tsc -b"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "vite": "7.3.6"
+  }
+}

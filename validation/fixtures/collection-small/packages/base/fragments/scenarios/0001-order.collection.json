@@ -1,0 +1,35 @@
+{
+  "id": "order.collection",
+  "value": {
+    "id": "order.collection",
+    "description": "A missing number is collected before normal capability admission",
+    "context": {"available_capabilities": [{"id": "order.submit", "version": "1"}]},
+    "initial_state": {},
+    "generated": false,
+    "steps": [
+      {
+        "type": "turn",
+        "say": "create order",
+        "language": "en",
+        "seed": 1,
+        "expectation": {
+          "conversation_mode": "collection",
+          "response_contains": ["How many items?"],
+          "forbidden_capabilities": ["order.submit"]
+        }
+      },
+      {
+        "type": "turn",
+        "say": "3",
+        "language": "en",
+        "seed": 2,
+        "expectation": {
+          "meaning": "order.create",
+          "meaning_slots": {"count": 3},
+          "response_ids": ["order.create.answer"],
+          "capabilities": [{"id": "order.submit", "version": "1", "arguments": {"count": 3}}]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.negative-samples.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.negative-samples.behavior",
+    "meaning": "gvya.help.negative-samples",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "They are the right tool when two Meanings sit too close: add one discriminative negative rather than piling on more positive samples."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "وقتی دو Meaning خیلی نزدیک‌اند، ابزار درست همین است: یک نمونهٔ منفیِ متمایزکننده اضافه کن، نه انبوهی نمونهٔ مثبت بیشتر."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.negative-samples.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Negative samples are explicit counter-evidence on a Meaning. An exact or strong multi-content negative match is a hard block, while a fuzzy single-token negative is deliberately not a veto and only applies a soft penalty."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نمونه‌های منفی شواهد مخالفِ صریح روی یک Meaning هستند. یک تطبیق منفیِ دقیق یا قویِ چندمحتوایی بلاک سخت است، در حالی که یک منفیِ فازیِ تک‌توکنی عمداً وتو نیست و فقط جریمهٔ نرم اعمال می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

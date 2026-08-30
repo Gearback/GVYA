@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-agree.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.i-agree",
+      "response_ids": [
+        "core.smalltalk.formal.i-agree.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.i-agree.basic.fa",
+    "initial_state": {},
+    "input": "موافقم",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

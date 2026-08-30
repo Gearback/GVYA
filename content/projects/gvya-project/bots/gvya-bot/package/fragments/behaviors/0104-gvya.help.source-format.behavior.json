@@ -1,0 +1,57 @@
+{
+  "exported": true,
+  "id": "gvya.help.source-format.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.source-format.behavior",
+    "meaning": "gvya.help.source-format",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Compiler-owned source objects reject unknown keys and required-field loss, so a typo is a build error rather than a silently ignored field. That is what makes hand editing and machine authoring equally safe."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "اشیای سورسی که کامپایلر مالکشان است کلیدهای ناشناخته و از دست رفتن فیلد اجباری را رد می‌کنند، پس یک غلط تایپی خطای build است نه فیلدی که بی‌سروصدا نادیده گرفته شود. همین است که ویرایش دستی و نویسندگی ماشینی را به یک اندازه امن می‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.source-format.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.source-explain",
+          "refresh_if_same": true,
+          "ttl": 2
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Source is transparent gvya.source.* JSON, while each .gvya artifact contains one compiled Brain for one resolved Bot target—not one Meaning. Source and artifact are never interchangeable. Schemas are real JSON Schema objects, never stringified JSON."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "سورس، JSON شفاف با پیشوند ‎gvya.source.*‎ است؛ هر آرتیفکت ‎.gvya‎ یک Brain کامپایل‌شده برای یک Bot target نهایی دارد، نه یک Meaning. سورس و آرتیفکت قابل تعویض نیستند. schemaها اشیای واقعی JSON Schema هستند، نه JSON رشته‌ای‌شده."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

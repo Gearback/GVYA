@@ -1,0 +1,21 @@
+{
+  "id": "context.searchable_is_pdf.behavior",
+  "value": {
+    "followup_scope": "context.searchable_is_pdf.followup",
+    "id": "context.searchable_is_pdf.behavior",
+    "meaning": "context.searchable_is_pdf",
+    "responses": [
+      {
+        "id": "context.searchable_is_pdf.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:CONTEXT_SEARCHABLE_IS_PDF"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

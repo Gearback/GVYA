@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.offer-prompt-truthful.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The affirmation phrase named by the bot-abilities offer resolves inside the gvya.offer follow-up",
+    "generated": false,
+    "id": "gvya.quality.scenario.offer-prompt-truthful.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.bot-abilities"
+        },
+        "language": "en-US",
+        "say": "what do you actually do?",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "core.smalltalk.formal.yes"
+        },
+        "language": "en-US",
+        "say": "go ahead",
+        "seed": 2,
+        "type": "turn"
+      }
+    ]
+  }
+}

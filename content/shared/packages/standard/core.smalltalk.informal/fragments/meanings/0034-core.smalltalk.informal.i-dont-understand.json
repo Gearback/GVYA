@@ -1,0 +1,44 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-dont-understand",
+  "mode": "add",
+  "value": {
+    "class": "clarification",
+    "id": "core.smalltalk.informal.i-dont-understand",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i don't understand"
+      },
+      {
+        "language": "en-US",
+        "text": "didn't understand"
+      },
+      {
+        "language": "en-US",
+        "text": "what do you mean"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نفهمیدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "منظورت چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یعنی چی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متوجه نشدم"
+      }
+    ]
+  }
+}

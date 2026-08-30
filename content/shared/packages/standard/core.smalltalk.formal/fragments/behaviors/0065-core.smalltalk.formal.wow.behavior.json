@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.wow.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.wow.behavior",
+    "meaning": "core.smalltalk.formal.wow",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.wow.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Yes.",
+              "That is one way to react.",
+              "I understand."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بله.",
+              "این هم یک واکنش است.",
+              "درک می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

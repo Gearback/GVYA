@@ -1,0 +1,12 @@
+{
+  "id": "goodbye",
+  "value": {
+    "id": "goodbye",
+    "samples": [
+      {
+        "language": "en",
+        "text": "goodbye"
+      }
+    ]
+  }
+}

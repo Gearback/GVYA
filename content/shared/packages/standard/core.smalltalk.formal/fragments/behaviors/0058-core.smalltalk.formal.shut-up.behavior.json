@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.shut-up.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.shut-up.behavior",
+    "meaning": "core.smalltalk.formal.shut-up",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.shut-up.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "No.",
+              "Please ask more respectfully.",
+              "Try again without that tone."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نه.",
+              "لطفاً محترمانه‌تر بپرسید.",
+              "بدون آن لحن دوباره تلاش کنید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

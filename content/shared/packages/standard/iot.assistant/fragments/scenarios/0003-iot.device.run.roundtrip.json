@@ -1,0 +1,70 @@
+{
+  "exported": false,
+  "id": "iot.device.run.roundtrip",
+  "mode": "add",
+  "value": {
+    "context": {
+      "available_capabilities": [{ "id": "iot.device.run", "version": "1" }],
+      "values": { "iot": { "confirmation_required": false } },
+      "visible_references": [{ "id": "vacuum.hall", "kind": "iot.device" }]
+    },
+    "description": "Start and stop intents map to bounded run states and exercise both result paths.",
+    "generated": false,
+    "id": "iot.device.run.roundtrip",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "capabilities": [{ "arguments": { "device": "vacuum.hall", "state": "running" }, "id": "iot.device.run", "version": "1" }],
+          "meaning": "iot.device.start",
+          "meaning_references": [{ "id": "vacuum.hall", "kind": "iot.device" }],
+          "proposal_receipts": [{ "arguments": { "device": "vacuum.hall", "state": "running" }, "id": "iot.device.run", "outcome": "admitted", "version": "1" }],
+          "response_ids": ["iot.device.start.requested"]
+        },
+        "language": "en-US",
+        "reference_candidates": [
+          { "aliases": ["hall vacuum", "جارو سالن"], "label": "Hall vacuum", "reference": { "id": "vacuum.hall", "kind": "iot.device" } }
+        ],
+        "say": "start the hall vacuum",
+        "seed": 221,
+        "type": "turn"
+      },
+      {
+        "expectation": { "capability_result_accepted": true, "response_ids": ["iot.device.run.success.response"] },
+        "language": "en-US",
+        "output": { "device": "Hall vacuum", "state": "running" },
+        "proposal_capability": "iot.device.run",
+        "proposal_from_step": 1,
+        "seed": 222,
+        "succeeded": true,
+        "type": "capability_result"
+      },
+      {
+        "expectation": {
+          "capabilities": [{ "arguments": { "device": "vacuum.hall", "state": "stopped" }, "id": "iot.device.run", "version": "1" }],
+          "meaning": "iot.device.stop",
+          "meaning_references": [{ "id": "vacuum.hall", "kind": "iot.device" }],
+          "proposal_receipts": [{ "arguments": { "device": "vacuum.hall", "state": "stopped" }, "id": "iot.device.run", "outcome": "admitted", "version": "1" }],
+          "response_ids": ["iot.device.stop.requested"]
+        },
+        "language": "fa-IR",
+        "reference_candidates": [
+          { "aliases": ["جارو سالن", "hall vacuum"], "label": "جارو سالن", "reference": { "id": "vacuum.hall", "kind": "iot.device" } }
+        ],
+        "say": "جارو سالن را متوقف کن",
+        "seed": 223,
+        "type": "turn"
+      },
+      {
+        "error_code": "device_unavailable",
+        "expectation": { "capability_result_accepted": true, "response_ids": ["iot.device.run.failure.response"] },
+        "language": "fa-IR",
+        "proposal_capability": "iot.device.run",
+        "proposal_from_step": 3,
+        "seed": 224,
+        "succeeded": false,
+        "type": "capability_result"
+      }
+    ]
+  }
+}

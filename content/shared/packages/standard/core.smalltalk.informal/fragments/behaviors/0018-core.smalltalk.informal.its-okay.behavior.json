@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.its-okay.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.its-okay.behavior",
+    "meaning": "core.smalltalk.informal.its-okay",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.its-okay.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good.",
+              "Alright.",
+              "Then we’re fine."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوبه.",
+              "باشه.",
+              "پس مشکلی نیست."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

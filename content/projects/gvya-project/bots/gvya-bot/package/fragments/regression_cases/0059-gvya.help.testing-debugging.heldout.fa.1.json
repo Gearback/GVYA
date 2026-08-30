@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.testing-debugging.heldout.fa.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Regression cases, scenarios, audit, and matcher diagnostics held-out fa-IR coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.testing-debugging",
+      "response_ids": [
+        "gvya.help.testing-debugging.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.testing-debugging.heldout.fa.1",
+    "initial_state": {},
+    "input": "چطور یک match رو بدون کپی کردن sample تبدیل به تست کنم؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

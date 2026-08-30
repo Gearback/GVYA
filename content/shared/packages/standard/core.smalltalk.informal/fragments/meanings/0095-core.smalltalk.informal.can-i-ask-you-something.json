@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.can-i-ask-you-something",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.can-i-ask-you-something",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "can i ask you something"
+      },
+      {
+        "language": "en-US",
+        "text": "can i ask a question"
+      },
+      {
+        "language": "en-US",
+        "text": "may i ask"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه سوال بپرسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می‌تونم بپرسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سوال دارم"
+      }
+    ]
+  }
+}

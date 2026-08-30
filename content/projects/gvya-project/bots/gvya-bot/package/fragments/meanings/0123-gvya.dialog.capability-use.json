@@ -1,0 +1,72 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.capability-use",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.capability-use",
+    "negative_samples": [],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ HOW ^ USED ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ WHERE ^ USED ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "used flow behavior binding"
+      },
+      {
+        "language": "fa-IR",
+        "text": "استفاده جریان behavior binding"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how is this actually used"
+      },
+      {
+        "language": "en-US",
+        "text": "where does that enter the flow"
+      },
+      {
+        "language": "en-US",
+        "text": "what uses that"
+      },
+      {
+        "language": "en-US",
+        "text": "how is this used in practice"
+      },
+      {
+        "language": "en-US",
+        "text": "where does this get used"
+      },
+      {
+        "language": "en-US",
+        "text": "how do you use this"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این عملا چطور استفاده میشه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این کجای جریان استفاده میشه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی از این استفاده می کند"
+      }
+    ]
+  }
+}

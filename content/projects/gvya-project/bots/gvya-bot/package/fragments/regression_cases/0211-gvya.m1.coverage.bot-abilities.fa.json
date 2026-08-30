@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.bot-abilities.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural Persian abilities question reaches bot abilities",
+    "expectation": {
+      "meaning": "gvya.help.bot-abilities"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.bot-abilities.fa",
+    "initial_state": {},
+    "input": "چه کارهایی بلدی؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "order.confirm",
+  "value": {
+    "id": "order.confirm",
+    "samples": [
+      {
+        "language": "en",
+        "text": "yes confirm"
+      }
+    ]
+  }
+}

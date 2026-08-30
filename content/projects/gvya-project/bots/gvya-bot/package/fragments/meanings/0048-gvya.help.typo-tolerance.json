@@ -1,0 +1,226 @@
+{
+  "exported": true,
+  "id": "gvya.help.typo-tolerance",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.typo-tolerance",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "غلط گیر املایی واژه پیشنهادی انتخاب"
+      },
+      {
+        "language": "en-US",
+        "text": "how is input text normalized"
+      },
+      {
+        "language": "en-US",
+        "text": "what are semantic views"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متن ورودی چطور نرمال سازی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "semantic view ها چیستند"
+      },
+      {
+        "language": "en-US",
+        "text": "compare spellchecker products"
+      },
+      {
+        "language": "en-US",
+        "text": "best spell checker for typo correction"
+      },
+      {
+        "language": "en-US",
+        "text": "choose a spelling correction tool"
+      },
+      {
+        "language": "en-US",
+        "text": "spellchecker typo correction"
+      },
+      {
+        "language": "en-US",
+        "text": "spell checker correction"
+      },
+      {
+        "language": "en-US",
+        "text": "synonyms and equivalent words"
+      },
+      {
+        "language": "en-US",
+        "text": "aliases mapping to the same canonical value"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کلمات مترادف و هم معنی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "alias به مقدار canonical یکسان"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "misspelled word intended meaning correction"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واژه غلط تایپ meaning درست پیدا"
+      },
+      {
+        "language": "en-US",
+        "text": "typo misspelling edit distance signature ngram spelling variant"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط املایی اشتباه تایپی فاصله ویرایش امضا واریانت"
+      },
+      {
+        "language": "en-US",
+        "text": "misspelling typo tolerance"
+      },
+      {
+        "language": "en-US",
+        "text": "misspelling matcher tolerate"
+      },
+      {
+        "language": "en-US",
+        "text": "spelling mistake right meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "misspelling spelling error typo correction bounded fuzzy one edit safe word tolerance"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط املایی اشتباه نوشتاری typo اصلاح محدود fuzzy یک edit ایمن کلمه تحمل"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط تایپی املایی اشتباه نوشتن حرف جا افتاده تحمل اصلاح"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "typo tolerance"
+      },
+      {
+        "language": "en-US",
+        "text": "does it handle typos"
+      },
+      {
+        "language": "en-US",
+        "text": "what if i misspell a word"
+      },
+      {
+        "language": "en-US",
+        "text": "how many edits are tolerated"
+      },
+      {
+        "language": "en-US",
+        "text": "does spelling correction rewrite my input"
+      },
+      {
+        "language": "en-US",
+        "text": "what is typo lite"
+      },
+      {
+        "language": "en-US",
+        "text": "how are productive word variants matched"
+      },
+      {
+        "language": "en-US",
+        "text": "does it guess a language for spelling"
+      },
+      {
+        "language": "en-US",
+        "text": "explain typo handling"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط املایی را تحمل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر کلمه ای را اشتباه بنویسم چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چند تغییر حرف تحمل می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اصلاح املا ورودی من را بازنویسی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "typo lite چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گونه های واژگانی چطور تطبیق می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای املا زبان را حدس می زند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مدیریت غلط املایی را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how does typo tolerance work"
+      },
+      {
+        "language": "en-US",
+        "text": "does it handle misspellings"
+      },
+      {
+        "language": "fa-IR",
+        "text": "typo tolerance چطور کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "matcher tolerance for misspellings"
+      },
+      {
+        "language": "en-US",
+        "text": "how much misspelling can matcher tolerate"
+      },
+      {
+        "language": "en-US",
+        "text": "misspelling matcher tolerate"
+      },
+      {
+        "language": "en-US",
+        "text": "spelling mistake right meaning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر حرفی جا بیفتد باز هم می فهمد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط تایپی را می بخشد"
+      },
+      {
+        "language": "en-US",
+        "text": "does it understand typos"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya understand typos"
+      }
+    ]
+  }
+}

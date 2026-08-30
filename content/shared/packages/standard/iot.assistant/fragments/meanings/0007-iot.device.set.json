@@ -1,0 +1,54 @@
+{
+  "exported": true,
+  "id": "iot.device.set",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "iot.device.set",
+    "negative_samples": [
+      { "language": "en-US", "text": "set a reminder" },
+      { "language": "en-US", "text": "set up the package" },
+      { "language": "fa-IR", "text": "یادآور تنظیم کن" }
+    ],
+    "references": [
+      {
+        "elicitation": [
+          { "language": "en-US", "text": "Which device should I configure?" },
+          { "language": "fa-IR", "text": "تنظیم کدام دستگاه را تغییر بدهم؟" }
+        ],
+        "kind": "iot.device",
+        "required": true
+      }
+    ],
+    "samples": [
+      { "language": "en-US", "text": "change device setting" },
+      { "language": "en-US", "text": "set device property" },
+      { "language": "en-US", "text": "configure device" },
+      { "language": "en-US", "text": "change the thermostat setting" },
+      { "language": "en-US", "text": "set the thermostat property" },
+      { "language": "fa-IR", "text": "تنظیم دستگاه را تغییر بده" },
+      { "language": "fa-IR", "text": "دستگاه را تنظیم کن" },
+      { "language": "fa-IR", "text": "تنظیم ترموستات را تغییر بده" }
+    ],
+    "slots": [
+      {
+        "elicitation": [
+          { "language": "en-US", "text": "Which property should change?" },
+          { "language": "fa-IR", "text": "کدام ویژگی تغییر کند؟" }
+        ],
+        "name": "property",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "elicitation": [
+          { "language": "en-US", "text": "What value should it use?" },
+          { "language": "fa-IR", "text": "روی چه مقداری تنظیم شود؟" }
+        ],
+        "name": "value",
+        "required": true,
+        "type": "string"
+      }
+    ]
+  }
+}

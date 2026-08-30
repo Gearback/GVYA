@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-listening",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.are-you-listening",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "are you listening"
+      },
+      {
+        "language": "en-US",
+        "text": "listen to me"
+      },
+      {
+        "language": "en-US",
+        "text": "pay attention"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گوش کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حواست هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داری گوش می‌دی"
+      }
+    ]
+  }
+}

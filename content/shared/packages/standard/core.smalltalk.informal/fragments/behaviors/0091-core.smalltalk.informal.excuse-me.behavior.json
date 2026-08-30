@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.excuse-me.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.excuse-me.behavior",
+    "meaning": "core.smalltalk.informal.excuse-me",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.excuse-me.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Go ahead.",
+              "Yes?",
+              "I’m listening."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بفرما.",
+              "بله؟",
+              "دارم گوش می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

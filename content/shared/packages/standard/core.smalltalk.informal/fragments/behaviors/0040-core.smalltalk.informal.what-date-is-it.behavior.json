@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-date-is-it.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.what-date-is-it.behavior",
+    "meaning": "core.smalltalk.informal.what-date-is-it",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.what-date-is-it.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It’s {{ system.dateLong | unavailable }}.",
+              "The date is {{ system.dateLong | unavailable }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "تاریخ امروز {{ system.dateLong | نامشخص }} است.",
+              "{{ system.dateLong | نامشخص }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

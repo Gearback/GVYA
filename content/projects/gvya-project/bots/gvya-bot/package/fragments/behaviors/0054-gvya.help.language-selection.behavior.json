@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.language-selection.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.language-selection.behavior",
+    "meaning": "gvya.help.language-selection",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "A disabled or unrelated language cannot activate itself, an explicit host policy containing a non-enabled language is rejected rather than escaping the Bot boundary, and if no candidate exists the outcome is Silent. The selected response language is output, not authority."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "زبان غیرفعال یا نامرتبط نمی‌تواند خودش را فعال کند، سیاست صریح میزبان که زبان غیرمجاز داشته باشد به‌جای عبور از مرز Bot رد می‌شود، و اگر هیچ نامزدی نباشد نتیجه Silent است. زبان پاسخِ انتخاب‌شده خروجی است، نه مرجع."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.language-selection.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The primary language is chosen in order: an enabled explicit language on the request, then an enabled active_language carried in conversation state, then the compiled Bot default_language. An enabled explicit request language becomes the new active_language."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "زبان اصلی به این ترتیب انتخاب می‌شود: زبان صریح و مجاز روی درخواست، سپس ‎active_language‎ مجاز که در حالت مکالمه حمل می‌شود، سپس ‎default_language‎ کامپایل‌شدهٔ Bot. یک زبان صریحِ مجاز روی درخواست، ‎active_language‎ جدید می‌شود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

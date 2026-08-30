@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.speak-slower.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.speak-slower.behavior",
+    "meaning": "core.smalltalk.formal.speak-slower",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.speak-slower.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "All right. More slowly.",
+              "One thing at a time.",
+              "I will keep it simple."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه. آرام‌تر.",
+              "یکی یکی.",
+              "ساده‌تر می‌گویم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "context.ocr_offline_language",
+  "value": {
+    "id": "context.ocr_offline_language",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "selected language"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "does that still use my selected language"
+      },
+      {
+        "language": "en",
+        "text": "does offline ocr keep the chosen language"
+      }
+    ]
+  }
+}

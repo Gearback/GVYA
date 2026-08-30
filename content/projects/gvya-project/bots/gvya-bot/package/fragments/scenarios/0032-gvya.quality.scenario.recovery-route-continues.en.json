@@ -1,0 +1,39 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.recovery-route-continues.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "After the recovery route offers a debug lane, the promised concrete matcher question resolves",
+    "generated": false,
+    "id": "gvya.quality.scenario.recovery-route-continues.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {},
+        "language": "en-US",
+        "say": "can you refinance my mortgage",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.recovery-route"
+        },
+        "language": "en-US",
+        "say": "debug matching",
+        "seed": 2,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher-troubleshooting"
+        },
+        "language": "en-US",
+        "say": "what should i change first",
+        "seed": 3,
+        "type": "turn"
+      }
+    ]
+  }
+}

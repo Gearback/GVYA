@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-understand.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.i-understand.behavior",
+    "meaning": "core.smalltalk.formal.i-understand",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.i-understand.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good.",
+              "Glad that is clear.",
+              "All right."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوب است.",
+              "خوشحالم که روشن شد.",
+              "بسیار خوب."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

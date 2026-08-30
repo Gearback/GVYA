@@ -1,0 +1,16 @@
+{
+  "exported": false,
+  "id": "iot.boundary.start",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Starting a conversation must not become an IoT run action.",
+    "expectation": { "forbidden_meanings": ["iot.device.start"] },
+    "generated": false,
+    "id": "iot.boundary.start",
+    "initial_state": {},
+    "input": "start a conversation",
+    "language": "en-US",
+    "seed": 105
+  }
+}

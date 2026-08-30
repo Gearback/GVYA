@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-happy.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.are-you-happy.behavior",
+    "meaning": "core.smalltalk.informal.are-you-happy",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.are-you-happy.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Enough.",
+              "I’ll take a good moment when it comes.",
+              "Maybe a little."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "به اندازه کافی.",
+              "لحظه خوب رو رد نمی‌کنم.",
+              "شاید یه کم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

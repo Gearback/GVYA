@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.terse-noun.capability.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A bare first-class domain noun reaches its concept Meaning",
+    "expectation": {
+      "meaning": "gvya.help.capabilities"
+    },
+    "generated": false,
+    "id": "gvya.quality.terse-noun.capability.en",
+    "initial_state": {},
+    "input": "capabilities",
+    "language": "en-US",
+    "seed": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-happy",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.im-happy",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i'm happy"
+      },
+      {
+        "language": "en-US",
+        "text": "i feel good"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوشحالم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالم خوبه"
+      }
+    ]
+  }
+}

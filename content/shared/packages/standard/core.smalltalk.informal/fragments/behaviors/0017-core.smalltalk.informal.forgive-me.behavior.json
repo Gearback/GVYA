@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.forgive-me.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.forgive-me.behavior",
+    "meaning": "core.smalltalk.informal.forgive-me",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.forgive-me.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I can let it pass.",
+              "Maybe. Don’t make it worse.",
+              "Fine. We move on."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "می‌تونم بگذرم.",
+              "شاید. بدترش نکن.",
+              "باشه. بگذریم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

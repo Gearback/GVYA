@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.schema-profile.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.schema-profile.behavior",
+    "meaning": "gvya.help.schema-profile",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The compiler parses and canonicalizes the source schema and compiles it into a deterministic ValueSchema; the capability kernel then executes that bounded compiled IR rather than interpreting JSON Schema at runtime."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "کامپایلر schema سورس را تجزیه و کانونی می‌کند و آن را به یک ‎ValueSchema‎ قطعی کامپایل می‌کند؛ سپس هستهٔ capability همان IR کامپایل‌شدهٔ محدود را اجرا می‌کند، نه اینکه JSON Schema را در زمان اجرا تفسیر کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.schema-profile.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Capability input and output use a constrained self-contained JSON Schema 2020-12 source profile. Input arguments are object-shaped, and external network $ref resolution is forbidden."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ورودی و خروجی capability از پروفایل سورسِ محدود و خودبسندهٔ JSON Schema 2020-12 استفاده می‌کنند. آرگومان‌های ورودی به شکل شیء هستند، و حل ‎$ref‎ شبکه‌ای بیرونی ممنوع است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

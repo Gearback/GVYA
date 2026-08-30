@@ -1,0 +1,126 @@
+{
+  "exported": true,
+  "id": "gvya.help.browser-compiler",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.browser-compiler",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is studio for"
+      },
+      {
+        "language": "en-US",
+        "text": "when is engine wasm rebuilt"
+      },
+      {
+        "language": "fa-IR",
+        "text": "استودیو برای چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "engine wasm چه وقت دوباره ساخته می شود"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "browseredge ffi transport archive diagnostics sameengine authority"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لبه مرورگر انتقال آرشیو تشخیص همان موتور اختیار"
+      },
+      {
+        "language": "en-US",
+        "text": "browser compiler wasm"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how does the browser compile a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya-ffi"
+      },
+      {
+        "language": "en-US",
+        "text": "does the browser edge own semantics"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the compiler function accept"
+      },
+      {
+        "language": "en-US",
+        "text": "is the same wasm used for compile and run"
+      },
+      {
+        "language": "en-US",
+        "text": "how are diagnostics returned in the browser"
+      },
+      {
+        "language": "en-US",
+        "text": "does studio have its own compiler"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the browser compiler edge"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرورگر چطور یک بات را کامپایل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya-ffi چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لبه مرورگر مالک معناشناسی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تابع کامپایلر چه چیزی می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای کامپایل و اجرا همان wasm استفاده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تشخیص ها در مرورگر چطور برمی گردند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "استودیو کامپایلر خودش را دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لبه کامپایلر مرورگر را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "can i run it in the browser"
+      },
+      {
+        "language": "en-US",
+        "text": "can i compile in the browser"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در مرورگر هم اجرا می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "browser compiler wasm"
+      }
+    ]
+  }
+}

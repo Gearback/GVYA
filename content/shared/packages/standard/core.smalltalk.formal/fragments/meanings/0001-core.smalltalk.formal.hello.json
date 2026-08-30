@@ -1,0 +1,105 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.hello",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.hello",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "say hello to Alex"
+      },
+      {
+        "language": "en-US",
+        "text": "he said hello to me"
+      },
+      {
+        "language": "en-US",
+        "text": "history is old"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به الکس سلام کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "او به من سلام کرد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "hello"
+      },
+      {
+        "language": "en-US",
+        "text": "hi"
+      },
+      {
+        "language": "en-US",
+        "text": "hey"
+      },
+      {
+        "language": "en-US",
+        "text": "yo"
+      },
+      {
+        "language": "en-US",
+        "text": "hiya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سلام"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سلام علیکم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "های"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درود"
+      },
+      {
+        "language": "en-US",
+        "text": "hey there"
+      },
+      {
+        "language": "en-US",
+        "text": "hi there"
+      },
+      {
+        "language": "en-US",
+        "text": "hello there"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سلام وقت بخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درود بر شما"
+      },
+      {
+        "language": "en-US",
+        "text": "hi again"
+      },
+      {
+        "language": "en-US",
+        "text": "hello again"
+      }
+    ]
+  }
+}

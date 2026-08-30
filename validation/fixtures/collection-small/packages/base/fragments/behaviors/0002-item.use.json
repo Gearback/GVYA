@@ -1,0 +1,11 @@
+{
+  "id": "item.use.behavior",
+  "value": {
+    "id": "item.use.behavior",
+    "meaning": "item.use",
+    "responses": [{
+      "id": "item.use.answer",
+      "texts": [{"language": "en", "variants": ["Item selected."]}]
+    }]
+  }
+}

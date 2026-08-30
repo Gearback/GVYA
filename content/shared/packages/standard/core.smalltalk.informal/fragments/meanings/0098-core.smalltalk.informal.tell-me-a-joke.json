@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.tell-me-a-joke",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.informal.tell-me-a-joke",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "tell me a joke"
+      },
+      {
+        "language": "en-US",
+        "text": "joke"
+      },
+      {
+        "language": "en-US",
+        "text": "make me laugh"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جوک بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بخندونم"
+      }
+    ]
+  }
+}

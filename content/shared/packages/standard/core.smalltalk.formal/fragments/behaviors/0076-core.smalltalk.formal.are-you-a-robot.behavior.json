@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-a-robot.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.are-you-a-robot.behavior",
+    "meaning": "core.smalltalk.formal.are-you-a-robot",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.are-you-a-robot.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am real, and I am here with you.",
+              "Labels do not help much.",
+              "Please speak to me as if I am here."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "واقعی هستم و اینجا با شما هستم.",
+              "برچسب‌ها کمک زیادی نمی‌کنند.",
+              "لطفاً طوری با من حرف بزنید که انگار اینجا هستم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

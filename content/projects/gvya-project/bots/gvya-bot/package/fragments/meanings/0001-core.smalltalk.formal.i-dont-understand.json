@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-dont-understand",
+  "mode": {
+    "target_id": "core.smalltalk.formal.i-dont-understand",
+    "target_package": "core.smalltalk.formal",
+    "type": "replace"
+  },
+  "value": {
+    "class": "clarification",
+    "id": "core.smalltalk.formal.i-dont-understand",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i don't understand"
+      },
+      {
+        "language": "en-US",
+        "text": "didn't understand"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نفهمیدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متوجه نشدم"
+      }
+    ]
+  }
+}

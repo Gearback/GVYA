@@ -1,0 +1,99 @@
+# Test 2 fair rerun: 115 user-language evidence rows.
+concept: ~c_device_about (foliobox purpose)
+concept: ~c_scan_single (single one)
+concept: ~c_scan_duplex (duplex sides)
+concept: ~c_scan_receipt (receipt narrow)
+concept: ~c_ocr_language (language recognition)
+concept: ~c_ocr_offline (offline local)
+concept: ~c_wifi_setup (wifi wireless)
+concept: ~c_export_pdf (pdf export)
+concept: ~c_export_searchable (searchable text)
+concept: ~c_security_encryption (encrypt security)
+concept: ~c_storage_capacity (capacity storage)
+concept: ~c_storage_delete (delete remove)
+concept: ~c_backup_usb (backup usb)
+concept: ~c_cloud_sync (sync cloud)
+concept: ~c_sharing_link (share link)
+concept: ~c_paper_jam (jam stuck)
+concept: ~c_rollers_clean (rollers clean)
+concept: ~c_battery_life (battery charge)
+concept: ~c_soft_restart (restart reboot)
+concept: ~c_factory_reset (factory reset)
+
+topic: ~benchmark []
+u: ( < what is foliobox > ) BENCH:DEVICE_ABOUT
+u: ( foliobox * ~c_device_about ) BENCH:DEVICE_ABOUT
+u: ( what * foliobox * do ) BENCH:DEVICE_ABOUT
+u: ( < how do i scan both sides of a page > ) BENCH:SCAN_DUPLEX
+u: ( < scan a double sided sheet > ) BENCH:SCAN_DUPLEX
+    a: ( < which side goes in first > ) BENCH:CONTEXT_DUPLEX_ORIENTATION
+    a: ( side * face * up ) BENCH:CONTEXT_DUPLEX_ORIENTATION
+    a: ( front * back * first ) BENCH:CONTEXT_DUPLEX_ORIENTATION
+u: ( scan * ~c_scan_duplex ) BENCH:SCAN_DUPLEX
+u: ( < how do i scan one page > ) BENCH:SCAN_SINGLE
+u: ( scan * ~c_scan_single ) BENCH:SCAN_SINGLE
+u: ( capture * one * page ) BENCH:SCAN_SINGLE
+u: ( < how do i scan a receipt > ) BENCH:SCAN_RECEIPT
+u: ( ~c_scan_receipt * scan ) BENCH:SCAN_RECEIPT
+u: ( receipt * mode ) BENCH:SCAN_RECEIPT
+u: ( < does text recognition work offline > ) BENCH:OCR_OFFLINE
+u: ( < tell me about offline text recognition > ) BENCH:OCR_OFFLINE
+    a: ( < does that still use my selected language > ) BENCH:CONTEXT_OCR_OFFLINE_LANGUAGE
+    a: ( language * still * apply ) BENCH:CONTEXT_OCR_OFFLINE_LANGUAGE
+    a: ( selected * language * offline ) BENCH:CONTEXT_OCR_OFFLINE_LANGUAGE
+u: ( ocr * ~c_ocr_offline ) BENCH:OCR_OFFLINE
+u: ( < how do i choose the ocr language > ) BENCH:OCR_LANGUAGE
+u: ( ocr * ~c_ocr_language ) BENCH:OCR_LANGUAGE
+u: ( recognition * language ) BENCH:OCR_LANGUAGE
+u: ( < how do i connect foliobox to wifi > ) BENCH:WIFI_SETUP
+u: ( foliobox * ~c_wifi_setup ) BENCH:WIFI_SETUP
+u: ( connect * wireless * network ) BENCH:WIFI_SETUP
+u: ( < how do i make a searchable pdf > ) BENCH:EXPORT_SEARCHABLE
+u: ( < make my scan into a searchable pdf > ) BENCH:EXPORT_SEARCHABLE
+    a: ( < is that still a normal pdf file > ) BENCH:CONTEXT_SEARCHABLE_IS_PDF
+    a: ( still * standard * pdf ) BENCH:CONTEXT_SEARCHABLE_IS_PDF
+    a: ( normal * pdf * file ) BENCH:CONTEXT_SEARCHABLE_IS_PDF
+u: ( ~c_export_searchable * pdf ) BENCH:EXPORT_SEARCHABLE
+u: ( < how do i export a scan as pdf > ) BENCH:EXPORT_PDF
+u: ( ~c_export_pdf * scan ) BENCH:EXPORT_PDF
+u: ( scan * pdf ) BENCH:EXPORT_PDF
+u: ( < are scans encrypted on foliobox > ) BENCH:SECURITY_ENCRYPTION
+u: ( scan * ~c_security_encryption ) BENCH:SECURITY_ENCRYPTION
+u: ( local * encrypt ) BENCH:SECURITY_ENCRYPTION
+u: ( < how much can foliobox store > ) BENCH:STORAGE_CAPACITY
+u: ( ~c_storage_capacity * pages ) BENCH:STORAGE_CAPACITY
+u: ( how * much * store ) BENCH:STORAGE_CAPACITY
+u: ( < how do i delete a scan from the device > ) BENCH:STORAGE_DELETE
+u: ( ~c_storage_delete * scan ) BENCH:STORAGE_DELETE
+u: ( document * remove ) BENCH:STORAGE_DELETE
+u: ( < how do i back up scans to usb > ) BENCH:BACKUP_USB
+u: ( ~c_backup_usb * scan ) BENCH:BACKUP_USB
+u: ( usb * document * backup ) BENCH:BACKUP_USB
+u: ( < how does cloud sync work > ) BENCH:CLOUD_SYNC
+u: ( ~c_cloud_sync * document ) BENCH:CLOUD_SYNC
+u: ( upload * cloud ) BENCH:CLOUD_SYNC
+u: ( < how do i share a document link > ) BENCH:SHARING_LINK
+u: ( ~c_sharing_link * document ) BENCH:SHARING_LINK
+u: ( create * link * document ) BENCH:SHARING_LINK
+u: ( < what do i do if paper is jammed > ) BENCH:PAPER_JAM
+u: ( paper * ~c_paper_jam ) BENCH:PAPER_JAM
+u: ( clear * jam ) BENCH:PAPER_JAM
+u: ( < how do i clean the feed rollers > ) BENCH:ROLLERS_CLEAN
+u: ( ~c_rollers_clean * feed ) BENCH:ROLLERS_CLEAN
+u: ( maintain * rollers ) BENCH:ROLLERS_CLEAN
+u: ( < how long does the battery last > ) BENCH:BATTERY_LIFE
+u: ( ~c_battery_life * scan ) BENCH:BATTERY_LIFE
+u: ( scans * per * charge ) BENCH:BATTERY_LIFE
+u: ( < how do i factory reset foliobox > ) BENCH:FACTORY_RESET
+u: ( < reset foliobox to factory settings > ) BENCH:FACTORY_RESET
+    a: ( < does that erase documents already synced to cloud > ) BENCH:CONTEXT_RESET_CLOUD
+    a: ( cloud * copies * remain ) BENCH:CONTEXT_RESET_CLOUD
+    a: ( delete * synced * documents ) BENCH:CONTEXT_RESET_CLOUD
+u: ( ~c_factory_reset * foliobox ) BENCH:FACTORY_RESET
+u: ( < how do i restart foliobox without losing scans > ) BENCH:SOFT_RESTART
+u: ( < restart foliobox without deleting anything > ) BENCH:SOFT_RESTART
+    a: ( < will my saved scans still be there > ) BENCH:CONTEXT_RESTART_PRESERVES
+    a: ( stored * scans * remain ) BENCH:CONTEXT_RESTART_PRESERVES
+    a: ( keep * saved * scans ) BENCH:CONTEXT_RESTART_PRESERVES
+u: ( ~c_soft_restart * keep * scan ) BENCH:SOFT_RESTART
+u: ( * ) BENCH:FALLBACK

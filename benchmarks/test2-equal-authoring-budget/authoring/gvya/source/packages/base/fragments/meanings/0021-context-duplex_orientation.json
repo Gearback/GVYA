@@ -1,0 +1,22 @@
+{
+  "id": "context.duplex_orientation",
+  "value": {
+    "id": "context.duplex_orientation",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "side orientation"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "which side goes in first"
+      },
+      {
+        "language": "en",
+        "text": "which side should face up first"
+      }
+    ]
+  }
+}

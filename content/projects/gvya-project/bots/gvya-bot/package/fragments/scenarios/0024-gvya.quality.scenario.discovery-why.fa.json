@@ -1,0 +1,45 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.discovery-why.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian discovery supports a natural why follow-up and another fact",
+    "generated": false,
+    "id": "gvya.quality.scenario.discovery-why.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.surprise-me"
+        },
+        "language": "fa-IR",
+        "say": "یه نکته جالب درباره GVYA بگو.",
+        "seed": 221,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.discovery",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.discovery-why"
+        },
+        "language": "fa-IR",
+        "say": "چرا این مهمه؟",
+        "seed": 222,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.discovery",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.discovery-again"
+        },
+        "language": "fa-IR",
+        "say": "یکی دیگه.",
+        "seed": 223,
+        "type": "turn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.quality.boundary.runtime-integration-minimal.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A minimal host integration question belongs to runtime integration, not building the artifact",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.build-artifact"
+      ],
+      "meaning": "gvya.help.runtime-integration"
+    },
+    "generated": false,
+    "id": "gvya.quality.boundary.runtime-integration-minimal.en",
+    "initial_state": {},
+    "input": "what is the smallest host integration i need to write",
+    "language": "en-US",
+    "seed": 1
+  }
+}

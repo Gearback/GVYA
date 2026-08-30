@@ -1,0 +1,20 @@
+{
+  "id": "security.two_factor.behavior",
+  "value": {
+    "id": "security.two_factor.behavior",
+    "meaning": "security.two_factor",
+    "responses": [
+      {
+        "id": "security.two_factor.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SECURITY_TWO_FACTOR"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

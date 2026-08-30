@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.promise.capability-boundary.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A follow-up the Bot promises in gvya.help.runtime-integration must resolve",
+    "expectation": {
+      "meaning": "gvya.help.capabilities"
+    },
+    "generated": false,
+    "id": "gvya.quality.promise.capability-boundary.en",
+    "initial_state": {},
+    "input": "where does capability execution stop?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

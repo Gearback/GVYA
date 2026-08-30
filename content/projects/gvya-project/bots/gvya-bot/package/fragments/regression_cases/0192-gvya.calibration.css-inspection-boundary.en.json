@@ -1,0 +1,20 @@
+{
+  "exported": true,
+  "id": "gvya.calibration.css-inspection-boundary.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Browser CSS inspection must not be mistaken for GVYA capability introspection",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.capability-introspection"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.calibration.css-inspection-boundary.en",
+    "initial_state": {},
+    "input": "How can browser devtools inspect declared CSS properties?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

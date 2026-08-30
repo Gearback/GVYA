@@ -1,0 +1,24 @@
+{
+  "id": "offline.mode",
+  "value": {
+    "id": "offline.mode",
+    "samples": [
+      {
+        "language": "en",
+        "text": "can i use the app offline"
+      },
+      {
+        "language": "en",
+        "text": "does the app work without internet"
+      },
+      {
+        "language": "en",
+        "text": "how do i enable offline mode"
+      },
+      {
+        "language": "en",
+        "text": "use the product with no connection"
+      }
+    ]
+  }
+}

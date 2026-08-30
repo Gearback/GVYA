@@ -1,0 +1,17 @@
+{
+  "format": "gvya.source.package",
+  "version": 1,
+  "manifest": {
+    "dependencies": [],
+    "id": "base",
+    "kind": "standard"
+  },
+  "fragments": {
+    "meanings": [
+      "fragments/meanings/0001-hello.json"
+    ],
+    "behaviors": [
+      "fragments/behaviors/0001-hello.json"
+    ]
+  }
+}

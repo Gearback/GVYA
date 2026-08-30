@@ -1,0 +1,211 @@
+{
+  "exported": true,
+  "id": "gvya.help.capability-introspection",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.capability-introspection",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "inspect css browser"
+      },
+      {
+        "language": "en-US",
+        "text": "inspect browser css properties"
+      },
+      {
+        "language": "fa-IR",
+        "text": "inspect کردن css در مرورگر"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a capability contract"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i report a capability result back"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability contract چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه capability را چطور برگردانم"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ CAPABILITY INTROSPECTION ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ CAPABILITY ^ SCHEMA ^ RUNTIME ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ READ ^ CAPABILITY ^ CONTRACT ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 30,
+        "text": "^ قرارداد ^ CAPABILITY ^ بخوانم ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "introspection catalog list summaries readonly declaration grants authority"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازرسی کاتالوگ فهرست خلاصه فقط خواندنی اعلام اختیار"
+      },
+      {
+        "language": "en-US",
+        "text": "introspect capability schema"
+      },
+      {
+        "language": "en-US",
+        "text": "capability introspection schema"
+      },
+      {
+        "language": "en-US",
+        "text": "inspect list capability metadata catalog schema read only no execution introspection tooling"
+      },
+      {
+        "language": "fa-IR",
+        "text": "inspect لیست capability metadata catalog schema فقط خواندنی بدون اجرا introspection tooling"
+      },
+      {
+        "language": "en-US",
+        "text": "discover browse enumerate available declared actions catalog inspect readonly"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کشف مرور فهرست اکشن های اعلام شده کاتالوگ بازرسی بدون اجرا"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how do i list declared capabilities"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i read one capability contract"
+      },
+      {
+        "language": "en-US",
+        "text": "does listing a capability make it callable"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the capability catalog"
+      },
+      {
+        "language": "en-US",
+        "text": "is introspection read only"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i see a capability schema at runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "does introspection grant execution authority"
+      },
+      {
+        "language": "en-US",
+        "text": "explain capability introspection"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور capability های اعلام شده را فهرست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک قرارداد capability را بخوانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فهرست کردن یک capability آن را قابل فراخوانی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کاتالوگ capability چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازرسی فقط خواندنی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور schema یک capability را در زمان اجرا ببینم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازرسی اختیار اجرا می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازرسی capability را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i introspect capabilities"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور capability های اعلام شده را ببینم"
+      },
+      {
+        "language": "en-US",
+        "text": "capability introspection schema"
+      },
+      {
+        "language": "en-US",
+        "text": "how does my app discover which actions this brain declares"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i see the full definition of one declared action at runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "can i browse the action catalog without running anything"
+      },
+      {
+        "language": "en-US",
+        "text": "does reading the catalog give permission to execute"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برنامه من چطور می فهمد این brain چه اکشن هایی اعلام کرده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور تعریف کامل یک اکشن اعلام شده را موقع اجرا ببینم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم کاتالوگ اکشن ها را بدون اجرای چیزی مرور کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خواندن کاتالوگ اجازه اجرا می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "How can declared capabilities be inspected without executing them?"
+      }
+    ]
+  }
+}

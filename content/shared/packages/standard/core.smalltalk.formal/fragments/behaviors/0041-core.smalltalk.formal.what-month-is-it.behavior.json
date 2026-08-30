@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what-month-is-it.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.what-month-is-it.behavior",
+    "meaning": "core.smalltalk.formal.what-month-is-it",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.what-month-is-it.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It is {{ system.monthName | unavailable }}.",
+              "It is month {{ system.month | unavailable }}, {{ system.monthName | unavailable }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "{{ system.monthName | نامشخص }} است.",
+              "ماه {{ system.month | نامشخص }}، یعنی {{ system.monthName | نامشخص }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

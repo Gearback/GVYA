@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.why-report.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A Persian Why-trace question resolves to the human-oriented Why report",
+    "expectation": {
+      "meaning": "gvya.help.why-report"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.why-report.fa",
+    "initial_state": {},
+    "input": "Why trace چه چیزی نشان می‌دهد؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

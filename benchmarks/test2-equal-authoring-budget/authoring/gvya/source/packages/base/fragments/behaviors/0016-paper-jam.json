@@ -1,0 +1,20 @@
+{
+  "id": "paper.jam.behavior",
+  "value": {
+    "id": "paper.jam.behavior",
+    "meaning": "paper.jam",
+    "responses": [
+      {
+        "id": "paper.jam.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:PAPER_JAM"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

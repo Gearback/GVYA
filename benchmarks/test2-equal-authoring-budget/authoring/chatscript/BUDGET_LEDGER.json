@@ -1,0 +1,581 @@
+{
+  "entries": [
+    {
+      "kind": "concept_member",
+      "label": "device.about",
+      "value": "foliobox"
+    },
+    {
+      "kind": "concept_member",
+      "label": "device.about",
+      "value": "purpose"
+    },
+    {
+      "kind": "concept_member",
+      "label": "scan.single",
+      "value": "single"
+    },
+    {
+      "kind": "concept_member",
+      "label": "scan.single",
+      "value": "one"
+    },
+    {
+      "kind": "concept_member",
+      "label": "scan.duplex",
+      "value": "duplex"
+    },
+    {
+      "kind": "concept_member",
+      "label": "scan.duplex",
+      "value": "sides"
+    },
+    {
+      "kind": "concept_member",
+      "label": "scan.receipt",
+      "value": "receipt"
+    },
+    {
+      "kind": "concept_member",
+      "label": "scan.receipt",
+      "value": "narrow"
+    },
+    {
+      "kind": "concept_member",
+      "label": "ocr.language",
+      "value": "language"
+    },
+    {
+      "kind": "concept_member",
+      "label": "ocr.language",
+      "value": "recognition"
+    },
+    {
+      "kind": "concept_member",
+      "label": "ocr.offline",
+      "value": "offline"
+    },
+    {
+      "kind": "concept_member",
+      "label": "ocr.offline",
+      "value": "local"
+    },
+    {
+      "kind": "concept_member",
+      "label": "wifi.setup",
+      "value": "wifi"
+    },
+    {
+      "kind": "concept_member",
+      "label": "wifi.setup",
+      "value": "wireless"
+    },
+    {
+      "kind": "concept_member",
+      "label": "export.pdf",
+      "value": "pdf"
+    },
+    {
+      "kind": "concept_member",
+      "label": "export.pdf",
+      "value": "export"
+    },
+    {
+      "kind": "concept_member",
+      "label": "export.searchable",
+      "value": "searchable"
+    },
+    {
+      "kind": "concept_member",
+      "label": "export.searchable",
+      "value": "text"
+    },
+    {
+      "kind": "concept_member",
+      "label": "security.encryption",
+      "value": "encrypt"
+    },
+    {
+      "kind": "concept_member",
+      "label": "security.encryption",
+      "value": "security"
+    },
+    {
+      "kind": "concept_member",
+      "label": "storage.capacity",
+      "value": "capacity"
+    },
+    {
+      "kind": "concept_member",
+      "label": "storage.capacity",
+      "value": "storage"
+    },
+    {
+      "kind": "concept_member",
+      "label": "storage.delete",
+      "value": "delete"
+    },
+    {
+      "kind": "concept_member",
+      "label": "storage.delete",
+      "value": "remove"
+    },
+    {
+      "kind": "concept_member",
+      "label": "backup.usb",
+      "value": "backup"
+    },
+    {
+      "kind": "concept_member",
+      "label": "backup.usb",
+      "value": "usb"
+    },
+    {
+      "kind": "concept_member",
+      "label": "cloud.sync",
+      "value": "sync"
+    },
+    {
+      "kind": "concept_member",
+      "label": "cloud.sync",
+      "value": "cloud"
+    },
+    {
+      "kind": "concept_member",
+      "label": "sharing.link",
+      "value": "share"
+    },
+    {
+      "kind": "concept_member",
+      "label": "sharing.link",
+      "value": "link"
+    },
+    {
+      "kind": "concept_member",
+      "label": "paper.jam",
+      "value": "jam"
+    },
+    {
+      "kind": "concept_member",
+      "label": "paper.jam",
+      "value": "stuck"
+    },
+    {
+      "kind": "concept_member",
+      "label": "rollers.clean",
+      "value": "rollers"
+    },
+    {
+      "kind": "concept_member",
+      "label": "rollers.clean",
+      "value": "clean"
+    },
+    {
+      "kind": "concept_member",
+      "label": "battery.life",
+      "value": "battery"
+    },
+    {
+      "kind": "concept_member",
+      "label": "battery.life",
+      "value": "charge"
+    },
+    {
+      "kind": "concept_member",
+      "label": "soft.restart",
+      "value": "restart"
+    },
+    {
+      "kind": "concept_member",
+      "label": "soft.restart",
+      "value": "reboot"
+    },
+    {
+      "kind": "concept_member",
+      "label": "factory.reset",
+      "value": "factory"
+    },
+    {
+      "kind": "concept_member",
+      "label": "factory.reset",
+      "value": "reset"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "device.about",
+      "value": "( < what is foliobox > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "device.about",
+      "value": "( foliobox * ~c_device_about )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "device.about",
+      "value": "( what * foliobox * do )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "scan.duplex",
+      "value": "( < how do i scan both sides of a page > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "scan.duplex",
+      "value": "( < scan a double sided sheet > )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.duplex_orientation",
+      "value": "( < which side goes in first > )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.duplex_orientation",
+      "value": "( side * face * up )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.duplex_orientation",
+      "value": "( front * back * first )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "scan.duplex",
+      "value": "( scan * ~c_scan_duplex )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "scan.single",
+      "value": "( < how do i scan one page > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "scan.single",
+      "value": "( scan * ~c_scan_single )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "scan.single",
+      "value": "( capture * one * page )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "scan.receipt",
+      "value": "( < how do i scan a receipt > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "scan.receipt",
+      "value": "( ~c_scan_receipt * scan )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "scan.receipt",
+      "value": "( receipt * mode )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "ocr.offline",
+      "value": "( < does text recognition work offline > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "ocr.offline",
+      "value": "( < tell me about offline text recognition > )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.ocr_offline_language",
+      "value": "( < does that still use my selected language > )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.ocr_offline_language",
+      "value": "( language * still * apply )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.ocr_offline_language",
+      "value": "( selected * language * offline )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "ocr.offline",
+      "value": "( ocr * ~c_ocr_offline )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "ocr.language",
+      "value": "( < how do i choose the ocr language > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "ocr.language",
+      "value": "( ocr * ~c_ocr_language )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "ocr.language",
+      "value": "( recognition * language )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "wifi.setup",
+      "value": "( < how do i connect foliobox to wifi > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "wifi.setup",
+      "value": "( foliobox * ~c_wifi_setup )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "wifi.setup",
+      "value": "( connect * wireless * network )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "export.searchable",
+      "value": "( < how do i make a searchable pdf > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "export.searchable",
+      "value": "( < make my scan into a searchable pdf > )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.searchable_is_pdf",
+      "value": "( < is that still a normal pdf file > )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.searchable_is_pdf",
+      "value": "( still * standard * pdf )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.searchable_is_pdf",
+      "value": "( normal * pdf * file )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "export.searchable",
+      "value": "( ~c_export_searchable * pdf )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "export.pdf",
+      "value": "( < how do i export a scan as pdf > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "export.pdf",
+      "value": "( ~c_export_pdf * scan )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "export.pdf",
+      "value": "( scan * pdf )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "security.encryption",
+      "value": "( < are scans encrypted on foliobox > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "security.encryption",
+      "value": "( scan * ~c_security_encryption )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "security.encryption",
+      "value": "( local * encrypt )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "storage.capacity",
+      "value": "( < how much can foliobox store > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "storage.capacity",
+      "value": "( ~c_storage_capacity * pages )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "storage.capacity",
+      "value": "( how * much * store )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "storage.delete",
+      "value": "( < how do i delete a scan from the device > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "storage.delete",
+      "value": "( ~c_storage_delete * scan )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "storage.delete",
+      "value": "( document * remove )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "backup.usb",
+      "value": "( < how do i back up scans to usb > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "backup.usb",
+      "value": "( ~c_backup_usb * scan )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "backup.usb",
+      "value": "( usb * document * backup )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "cloud.sync",
+      "value": "( < how does cloud sync work > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "cloud.sync",
+      "value": "( ~c_cloud_sync * document )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "cloud.sync",
+      "value": "( upload * cloud )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "sharing.link",
+      "value": "( < how do i share a document link > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "sharing.link",
+      "value": "( ~c_sharing_link * document )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "sharing.link",
+      "value": "( create * link * document )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "paper.jam",
+      "value": "( < what do i do if paper is jammed > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "paper.jam",
+      "value": "( paper * ~c_paper_jam )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "paper.jam",
+      "value": "( clear * jam )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "rollers.clean",
+      "value": "( < how do i clean the feed rollers > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "rollers.clean",
+      "value": "( ~c_rollers_clean * feed )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "rollers.clean",
+      "value": "( maintain * rollers )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "battery.life",
+      "value": "( < how long does the battery last > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "battery.life",
+      "value": "( ~c_battery_life * scan )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "battery.life",
+      "value": "( scans * per * charge )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "factory.reset",
+      "value": "( < how do i factory reset foliobox > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "factory.reset",
+      "value": "( < reset foliobox to factory settings > )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.reset_cloud",
+      "value": "( < does that erase documents already synced to cloud > )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.reset_cloud",
+      "value": "( cloud * copies * remain )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.reset_cloud",
+      "value": "( delete * synced * documents )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "factory.reset",
+      "value": "( ~c_factory_reset * foliobox )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "soft.restart",
+      "value": "( < how do i restart foliobox without losing scans > )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "soft.restart",
+      "value": "( < restart foliobox without deleting anything > )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.restart_preserves",
+      "value": "( < will my saved scans still be there > )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.restart_preserves",
+      "value": "( stored * scans * remain )"
+    },
+    {
+      "kind": "rejoinder",
+      "label": "context.restart_preserves",
+      "value": "( keep * saved * scans )"
+    },
+    {
+      "kind": "direct_rule",
+      "label": "soft.restart",
+      "value": "( ~c_soft_restart * keep * scan )"
+    }
+  ],
+  "rows": 115,
+  "system": "ChatScript 14.1"
+}

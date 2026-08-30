@@ -1,0 +1,52 @@
+{
+  "benchmark": "gvya-comparator-test-1-equal-authored-evidence",
+  "benchmark_spec_sha256": "8dc54256a3eebc5fbca4c2930d3ad133378d524fc54a002909c6b97482e220d4",
+  "format": "gvya.benchmark.runtime-lock",
+  "freeze_note": "Corpus and semantic sources were frozen before the first GVYA execution. No corpus, semantic source, expected label, or GVYA prediction was changed after that execution. Program-Y and ChatScript were then executed against the same frozen inputs.",
+  "scoring": {
+    "deterministic_replay": "two full passes; predictions must be identical",
+    "fallback_token": "BENCH:FALLBACK",
+    "no_composite_score": true,
+    "primary_metrics": [
+      "strict_intent_accuracy_in_domain",
+      "ood_false_positive_rate"
+    ],
+    "token_prefix": "BENCH:"
+  },
+  "semantic_source_lock_sha256": "add80b1f898b652928d024d3b3b50bd1525a4f1456ade2d7bfc023ab6ae73198",
+  "systems": {
+    "aiml2": {
+      "dependency_hash_file": "PROGRAMY_SDIST_SHA256SUMS.txt",
+      "distribution": "programy-3.6.tar.gz",
+      "distribution_sha256": "a3d3e2c2a1ff776acbe1f8866fe8673849fcaa3a275294b238249a08bf17d2f5",
+      "git_commit": "6c9a0d34bac9b0e83da8e3674b9d7ee28af5db6d",
+      "git_tag": "3.6",
+      "mode": "ProgramYChatbot/ConsoleBotClient with minimal file storage; frozen benchmark.aiml is the only category knowledge source",
+      "prediction_lock_sha256": "dcc0b6cf2732ae9501e1f27b40106a156179f24a221e6cab7b3789da168c0f8b",
+      "python": "3.7.17",
+      "runtime": "Program-Y",
+      "semantic_isolation": "No packaged/default Program-Y AIML categories, sets, maps, or spelling corpus are loaded.",
+      "status": "executed",
+      "version": "3.6"
+    },
+    "chatscript": {
+      "git_commit": "9f5eec4736ba22bd992a6498c1e0052e2a795125",
+      "git_tag": "14.1",
+      "linux_binary_git_blob_sha": "5c9df404a088c3675a26d4beef84f09e6ea9f20a",
+      "mode": "official Linux engine, benchmark build1 topic, local TCP protocol, unique user/session per evaluation case",
+      "prediction_lock_sha256": "ac9d2d45d091dc2368266ab287bfd62bc09ff53383b87d4e9e655e495d1ef80e",
+      "runtime": "ChatScript",
+      "status": "executed",
+      "version": "14.1"
+    },
+    "gvya": {
+      "engine_manifest_sha256": "f8d50e74422b070c2661f0217b803f333cfa0b30017773c291bcd7c097e0897f",
+      "prediction_lock_sha256": "3df5ed4c94e94efa83108b925b8ec213028a2ac11db909b9595e93155d4dcefd",
+      "repo_path": "apps/studio/public/engine/v1/gvya-ffi.wasm",
+      "runtime": "repository Engine v1 gvya-ffi.wasm",
+      "status": "executed",
+      "wasm_sha256": "4880e5b622171bdbf63dd28249ce553b2d7f720e01cfcd2b723f0c4763846f78"
+    }
+  },
+  "version": 2
+}

@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.evidence-tiers.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.evidence-tiers.behavior",
+    "meaning": "gvya.help.evidence-tiers",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "A lower tier number means stronger standalone evidence. Authored priority is consulted only near ties, under an explicit deterministic comparator contract."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "عدد لایهٔ کمتر یعنی شواهد مستقلِ قوی‌تر. اولویتِ نوشته‌شده فقط نزدیک تساوی و تحت قرارداد مقایسه‌گرِ قطعی و صریح مشورت می‌شود."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.evidence-tiers.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Every scored candidate is classified into an evidence tier with an evidence strength. Match kinds include exact, phrase-start, phrase-span, short phrase-end, content-token coverage, relaxed ordered subsequence, weighted token or edit or stem similarity, and numeric-window similarity."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "هر نامزدِ امتیازخورده در یک لایهٔ شواهد با قدرت شواهد مشخص دسته‌بندی می‌شود. انواع تطبیق شامل دقیق، شروع عبارت، بازهٔ عبارت، پایان عبارت کوتاه، پوشش توکن محتوایی، زیردنبالهٔ مرتبِ آزاد، شباهت وزنی توکن یا ویرایش یا ریشه، و شباهت پنجرهٔ عددی است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

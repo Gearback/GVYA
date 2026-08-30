@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.wire-budgets.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.wire-budgets.behavior",
+    "meaning": "gvya.help.wire-budgets",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The typed Rust Runtime validates the full result against its response-byte budget too, so direct API users cannot bypass the boundary. JSON output uses a capped writer that refuses to grow past max_response_bytes instead of building an unbounded buffer and rejecting it afterwards."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏Runtime تایپ‌شدهٔ Rust هم نتیجهٔ کامل را در برابر بودجهٔ بایت پاسخ اعتبارسنجی می‌کند، پس کاربران مستقیم API نمی‌توانند مرز را دور بزنند. خروجی JSON از نویسنده‌ای با سقف استفاده می‌کند که به‌جای ساختن بافر بی‌کران و رد کردن بعدی، از رشد فراتر از ‎max_response_bytes‎ خودداری می‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.wire-budgets.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Wire v1 is decoded through canonical WireLimits before typed conversion. It enforces a request-byte ceiling, JSON depth, node, string and collection ceilings, and explicit limits for visible references, available capabilities, resolver candidates, confirmations and language fallbacks."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏wire نسخهٔ ۱ پیش از تبدیل تایپ‌شده از میان ‎WireLimits‎ کانونی رمزگشایی می‌شود. سقف بایت درخواست، سقف عمق و گره و رشته و مجموعه در JSON، و محدودیت‌های صریح برای referenceهای قابل مشاهده، capabilityهای در دسترس، نامزدهای resolver، تأییدها و fallbackهای زبان را اعمال می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

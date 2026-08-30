@@ -1,0 +1,12 @@
+{
+  "id": "order.start",
+  "value": {
+    "id": "order.start",
+    "samples": [
+      {
+        "language": "en",
+        "text": "start order"
+      }
+    ]
+  }
+}

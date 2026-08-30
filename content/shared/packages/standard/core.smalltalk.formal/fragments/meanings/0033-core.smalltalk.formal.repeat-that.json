@@ -1,0 +1,56 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.repeat-that",
+  "mode": "add",
+  "value": {
+    "class": "clarification",
+    "id": "core.smalltalk.formal.repeat-that",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "repeat that"
+      },
+      {
+        "language": "en-US",
+        "text": "say that again"
+      },
+      {
+        "language": "en-US",
+        "text": "again"
+      },
+      {
+        "language": "en-US",
+        "text": "can you repeat"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دوباره بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تکرار کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه بار دیگه"
+      },
+      {
+        "language": "en-US",
+        "text": "can you repeat that"
+      },
+      {
+        "language": "en-US",
+        "text": "say it again"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میشه دوباره بگی"
+      }
+    ]
+  }
+}

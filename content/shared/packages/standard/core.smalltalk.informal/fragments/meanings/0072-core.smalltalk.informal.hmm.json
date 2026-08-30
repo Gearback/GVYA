@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.hmm",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.hmm",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "hmm"
+      },
+      {
+        "language": "en-US",
+        "text": "hmmm"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اممم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هوم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اِمم"
+      }
+    ]
+  }
+}

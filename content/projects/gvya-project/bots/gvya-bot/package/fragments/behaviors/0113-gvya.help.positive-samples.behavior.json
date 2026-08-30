@@ -1,0 +1,70 @@
+{
+  "exported": true,
+  "id": "gvya.help.positive-samples.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.positive-samples.behavior",
+    "meaning": "gvya.help.positive-samples",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Use a few genuinely different, discriminative phrasings and pair them with a close confounder. Near-duplicate stuffing adds less coverage than a new natural construction."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "چند صورت‌بندی واقعاً متفاوت و متمایزکننده بنویس و کنارشان یک confounder نزدیک بگذار. انباشتن جمله‌های تقریباً تکراری از یک ساخت طبیعی تازه پوشش کمتری می‌دهد."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "A short authored sample can also contribute evidence inside a longer utterance. Shorter samples receive more generic weight, while ambiguity, reporting context, negative evidence, and the rest of the sentence can still stop a weak embedded match from owning the turn."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "یک sample کوتاه می‌تواند داخل جملهٔ بلندتر هم evidence بدهد. sample کوتاه‌تر به‌صورت عمومی وزن بیشتری می‌گیرد، اما ambiguity، reported speech، negative evidence و بقیهٔ جمله هنوز می‌توانند جلوی یک match ضعیف و اشتباه را بگیرند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.positive-samples.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Positive samples are language-tagged whole utterances that provide fuzzy semantic evidence for a Meaning. They are representative examples, not structural rules, token lists, or a synonym dictionary."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Positive sampleها جمله‌های کامل و زبان‌دار هستند که برای یک Meaning شاهد معنایی فازی می‌دهند. آن‌ها مثال نماینده‌اند، نه rule ساختاری، فهرست token یا فرهنگ مترادف."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

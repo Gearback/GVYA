@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.example.getting-started.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.getting-started",
+    "id": "gvya.dialog.example.getting-started.behavior",
+    "meaning": "gvya.dialog.example",
+    "responses": [
+      {
+        "id": "gvya.dialog.example.getting-started.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.getting-started",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "First-Bot example: teach the message “hello” as one Meaning, connect it to a Behavior that replies “Hi, how can I help?”, then test “hello” plus a nearby phrase that must not trigger it."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "مثال اولین Bot: پیام «سلام» را به‌عنوان یک Meaning تعریف کن، آن را به Behavior با جواب «سلام، چطور کمکت کنم؟» وصل کن و بعد «سلام» و یک عبارت نزدیک که نباید اشتباه match شود را تست کن."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.bad.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.bad.behavior",
+    "meaning": "core.smalltalk.informal.bad",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.bad.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Not good.",
+              "Yeah. Bad.",
+              "Then be careful."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوب نیست.",
+              "آره. بده.",
+              "پس حواست باشه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

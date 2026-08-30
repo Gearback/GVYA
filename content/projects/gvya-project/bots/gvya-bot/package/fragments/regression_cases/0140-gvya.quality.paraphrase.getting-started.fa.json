@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.getting-started.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A possessive Persian first-bot question resolves",
+    "expectation": {
+      "meaning": "gvya.help.getting-started"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.getting-started.fa",
+    "initial_state": {},
+    "input": "اولین باتم را چطور بسازم؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

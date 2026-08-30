@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.use-cases-pronoun.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural pronoun-based use-case follow-up resolves after the Bot is introduced",
+    "generated": false,
+    "id": "gvya.quality.scenario.use-cases-pronoun.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.about"
+        },
+        "language": "en-US",
+        "say": "Tell me what GVYA is.",
+        "seed": 201,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.about-use-cases"
+        },
+        "language": "en-US",
+        "say": "What kinds of things can I build with it?",
+        "seed": 202,
+        "type": "turn"
+      }
+    ]
+  }
+}

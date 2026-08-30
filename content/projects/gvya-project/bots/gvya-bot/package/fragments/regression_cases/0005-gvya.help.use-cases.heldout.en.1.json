@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.use-cases.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Where GVYA fits and what can be built with it held-out en-US coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.use-cases",
+      "response_ids": [
+        "gvya.help.use-cases.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.use-cases.heldout.en.1",
+    "initial_state": {},
+    "input": "What sort of products would GVYA be useful in?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

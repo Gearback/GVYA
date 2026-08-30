@@ -1,0 +1,392 @@
+{
+  "exported": true,
+  "id": "gvya.help.getting-started",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.getting-started",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "do i need an ai model to build or run a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i install a package with npm"
+      },
+      {
+        "language": "en-US",
+        "text": "what can i build with gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i test a gvya bot"
+      },
+      {
+        "language": "en-US",
+        "text": "does every meaning need nine samples"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای هر meaning نه sample لازم است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "با gvya چی میشه ساخت"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات gvya را چطور تست کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "fragment index declaration source maintenance"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نگهداری source اعلام fragment در index"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرز مسئولیت gvya و میزبان کجاست"
+      },
+      {
+        "language": "en-US",
+        "text": "where is the boundary between gvya and the host"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "^ EMPTY WORKSPACE ^ FIRST ^ MEANING RESPONSE ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "first bot"
+      },
+      {
+        "language": "en-US",
+        "text": "quick start"
+      },
+      {
+        "language": "en-US",
+        "text": "create project"
+      },
+      {
+        "language": "en-US",
+        "text": "empty next step beginner talking bot minimum"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اولین بات"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شروع سریع"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساخت پروژه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه خالی قدم بعد مبتدی بات سخنگو حداقل"
+      },
+      {
+        "language": "en-US",
+        "text": "clone repository talking assistant next"
+      },
+      {
+        "language": "en-US",
+        "text": "smallest first milestone new bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "repo تازه دستیار سخنگو بعد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کوچک milestone شروع بات جدید"
+      },
+      {
+        "language": "en-US",
+        "text": "empty project next practical step start bot package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه خالی قدم بعدی شروع بات پکیج"
+      },
+      {
+        "language": "en-US",
+        "text": "empty project first bot minimum"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "begin an empty workspace with its first authored meaning and response"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اولین باتم را چطور بسازم"
+      },
+      {
+        "language": "en-US",
+        "text": "start with gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i create my first gvya bot"
+      },
+      {
+        "language": "en-US",
+        "text": "where should i start with gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "give me a gvya quick start"
+      },
+      {
+        "language": "en-US",
+        "text": "steps to build a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "new to gvya build my first bot"
+      },
+      {
+        "language": "en-US",
+        "text": "what files do i create first"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the minimum canonical source for a first compiled bot"
+      },
+      {
+        "language": "en-US",
+        "text": "what do i do first to make a bot talk"
+      },
+      {
+        "language": "en-US",
+        "text": "from a clean checkout what is the minimum first milestone for one talking bot"
+      },
+      {
+        "language": "en-US",
+        "text": "in an empty workspace which meaning and response should i create first"
+      },
+      {
+        "language": "en-US",
+        "text": "quickest way make first bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شروع با gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اولین بات gvya را چطور بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجای gvya شروع کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "راهنمای سریع gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مراحل ساخت بات چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تازه کارم چطور بات بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اول چه فایل هایی بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حداقل source مرجع برای اولین بات کامپایل شده چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اول چی کار کنم که بات حرف بزنه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه خالی قدم بعدی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "workspace خالی اولین meaning response"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i begin"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the very first thing to do"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای شروع چه کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اولین قدم چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "how to build a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "build a bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور bot بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساخت bot"
+      },
+      {
+        "language": "en-US",
+        "text": "i have an empty project what should i do next"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه خالی دارم قدم بعدی چیه"
+      },
+      {
+        "language": "en-US",
+        "text": "empty project next practical step"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروژه خالی قدم عملی بعدی"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i actually start"
+      },
+      {
+        "language": "en-US",
+        "text": "where should i start"
+      },
+      {
+        "language": "en-US",
+        "text": "walk me through building something small"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا شروع کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور اولین بات را بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای شروع چه کار کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک بات بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساخت بات را از کجا شروع کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "minimum path from empty project to first bot"
+      },
+      {
+        "language": "en-US",
+        "text": "empty project first bot minimum path"
+      },
+      {
+        "language": "en-US",
+        "text": "i am completely new where should i start"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need to know programming to start"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need to be a programmer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "من هیچ چیزی درباره gvya نمی دانم از کجا شروع کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "من تازه واردم از کجا شروع کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یعنی باید برنامه نویس باشم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای شروع باید برنامه نویسی بلد باشم"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need to know programming"
+      },
+      {
+        "language": "fa-IR",
+        "text": "من هیچ چیزی درباره gvya نمی دونم از کجا شروع کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "i have no idea where to start"
+      },
+      {
+        "language": "en-US",
+        "text": "where do i start"
+      },
+      {
+        "language": "en-US",
+        "text": "where do i start please"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i make a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "i know absolutely nothing about this what should i learn first"
+      },
+      {
+        "language": "en-US",
+        "text": "what should i learn first"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چجوری یه بات بسازم"
+      },
+      {
+        "language": "en-US",
+        "text": "smallest path from an empty checkout to a talking bot"
+      },
+      {
+        "language": "en-US",
+        "text": "empty checkout talking bot first step"
+      }
+    ]
+  }
+}

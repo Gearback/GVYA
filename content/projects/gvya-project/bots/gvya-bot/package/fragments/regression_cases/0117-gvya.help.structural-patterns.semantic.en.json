@@ -1,0 +1,24 @@
+{
+  "exported": true,
+  "id": "gvya.help.structural-patterns.semantic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural AIML boundary question falls through to the hybrid Meaning's semantic evidence",
+    "expectation": {
+      "meaning": "gvya.help.structural-patterns",
+      "response_contains": [
+        "AIML-inspired"
+      ],
+      "response_ids": [
+        "gvya.help.structural-patterns.overview"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.structural-patterns.semantic.en",
+    "initial_state": {},
+    "input": "Does GVYA import AIML files, or are its rules only inspired by AIML?",
+    "language": "en-US",
+    "seed": 73
+  }
+}

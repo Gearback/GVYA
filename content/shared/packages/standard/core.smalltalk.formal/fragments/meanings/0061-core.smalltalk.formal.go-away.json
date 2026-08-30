@@ -1,0 +1,44 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.go-away",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.go-away",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "go away"
+      },
+      {
+        "language": "en-US",
+        "text": "leave me alone"
+      },
+      {
+        "language": "en-US",
+        "text": "get lost"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برو گمشو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ولم کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تنها بذارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برو کنار"
+      }
+    ]
+  }
+}

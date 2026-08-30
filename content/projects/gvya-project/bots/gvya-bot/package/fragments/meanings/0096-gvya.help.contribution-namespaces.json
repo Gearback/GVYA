@@ -1,0 +1,118 @@
+{
+  "exported": true,
+  "id": "gvya.help.contribution-namespaces",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.contribution-namespaces",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a contribution mode"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a package supposed to contain"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالت مشارکت چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پکیج شامل چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "namespaces contribute meaningpatterns profilepatches stylelexicon types assets tests"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فضای نام مشارکت الگو وصله سبک نوع دارایی تست"
+      },
+      {
+        "language": "en-US",
+        "text": "contribution namespaces"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what contribution namespaces exist"
+      },
+      {
+        "language": "en-US",
+        "text": "what can a package contribute"
+      },
+      {
+        "language": "en-US",
+        "text": "can a package patch the semantic profile"
+      },
+      {
+        "language": "en-US",
+        "text": "which packages may patch a style lexicon"
+      },
+      {
+        "language": "en-US",
+        "text": "can a package contribute tests"
+      },
+      {
+        "language": "en-US",
+        "text": "are scenarios package contributions"
+      },
+      {
+        "language": "en-US",
+        "text": "what namespaces support composition"
+      },
+      {
+        "language": "en-US",
+        "text": "explain contribution namespaces"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه فضاهای نام مشارکتی وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پکیج چه چیزی می تواند بدهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پکیج می تواند پروفایل معنایی را وصله کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام پکیج ها می توانند style lexicon را وصله کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پکیج می تواند تست بدهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سناریوها مشارکت پکیج هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه فضاهای نامی از ترکیب پشتیبانی می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فضاهای نام مشارکت را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک package چه چیزهایی می تواند اضافه کند"
+      },
+      {
+        "language": "en-US",
+        "text": "contribution namespaces"
+      }
+    ]
+  }
+}

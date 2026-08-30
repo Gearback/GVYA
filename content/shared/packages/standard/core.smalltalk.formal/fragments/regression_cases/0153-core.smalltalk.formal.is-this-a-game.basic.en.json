@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.is-this-a-game.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.is-this-a-game",
+      "response_ids": [
+        "core.smalltalk.formal.is-this-a-game.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.is-this-a-game.basic.en",
+    "initial_state": {},
+    "input": "is this a game",
+    "language": "en-US",
+    "seed": 1
+  }
+}

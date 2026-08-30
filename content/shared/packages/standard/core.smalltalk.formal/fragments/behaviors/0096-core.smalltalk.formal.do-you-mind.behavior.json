@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.do-you-mind.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.do-you-mind.behavior",
+    "meaning": "core.smalltalk.formal.do-you-mind",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.do-you-mind.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It depends, but ask.",
+              "Go on.",
+              "I will tell you if it is a problem."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بستگی دارد، اما بپرسید.",
+              "ادامه بدهید.",
+              "اگر مشکلی باشد می‌گویم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

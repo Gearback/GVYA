@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.source-hand.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural hand-authoring question resolves to the transparent source contract",
+    "expectation": {
+      "meaning": "gvya.help.source-format"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.source-hand.en",
+    "initial_state": {},
+    "input": "Can I write it by hand?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

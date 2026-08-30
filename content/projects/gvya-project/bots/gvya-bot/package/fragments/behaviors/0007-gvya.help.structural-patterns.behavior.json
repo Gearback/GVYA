@@ -1,0 +1,180 @@
+{
+  "exported": true,
+  "id": "gvya.help.structural-patterns.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.structural-patterns.behavior",
+    "meaning": "gvya.help.structural-patterns",
+    "responses": [
+      {
+        "conditions": [
+          {
+            "namespace": "meaning",
+            "op": "missing",
+            "path": "slots.atom"
+          }
+        ],
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The grammar is deliberately small and AIML-inspired: ordered literals, * for one-or-more, ^ for zero-or-more, named String captures, and <set:name>. GVYA does not import AIML categories or implement <that>/SRAI; conversation scope stays explicit."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "grammar عمداً کوچک و AIML-inspired است: literalهای مرتب، * برای یک‌یا‌بیشتر، ^ برای صفر‌یا‌بیشتر، capture نام‌دار String و <set:name>. GVYA categoryهای AIML را import نمی‌کند و <that>/SRAI ندارد؛ scope مکالمه صریح می‌ماند."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Try “what does caret mean in a GVYA pattern?” to see this Bot’s set capture and slot-conditioned response. If a rule steals input, ask what to fix first."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "برای دیدن set capture و پاسخ شرطی همین Bot بپرس «علامت caret در pattern GVYA یعنی چی؟». اگر rule ورودی را می‌دزدد، بپرس اول چه چیزی را باید درست کرد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.structural-patterns.overview",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Structural patterns are deterministic whole-utterance rules that run before semantic scoring. Use them for stable input shapes; keep samples for open paraphrases."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Structural patternها قانون قطعیِ کل utterance هستند و پیش از semantic scoring اجرا می‌شوند. برای شکل ورودی ثابت از pattern و برای paraphrase باز از sample استفاده کن."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "meaning",
+            "op": "equal",
+            "path": "slots.atom",
+            "value": "one_or_more"
+          }
+        ],
+        "id": "gvya.help.structural-patterns.star",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "`*` consumes one or more normalized tokens. Use `*{slot}` only when a declared String slot is genuinely consumed by a response, template, or capability binding."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "`*` یک یا چند token نرمال‌شده را می‌گیرد. فقط وقتی از `*{slot}` استفاده کن که String slot اعلام‌شده واقعاً در پاسخ، template یا capability binding مصرف شود."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "meaning",
+            "op": "equal",
+            "path": "slots.atom",
+            "value": "zero_or_more"
+          }
+        ],
+        "id": "gvya.help.structural-patterns.caret",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "`^` consumes zero or more normalized tokens, so it makes a phrase optional. Keep literal or set anchors strong—broad rules such as `^ MATCHER ^` can steal unrelated utterances before scoring."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "`^` صفر یا چند token نرمال‌شده را می‌گیرد و یک بخش را optional می‌کند. anchorهای literal یا set را قوی نگه دار؛ rule پهنی مثل `^ MATCHER ^` پیش از scoring ورودی نامرتبط را می‌دزدد."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "meaning",
+            "op": "equal",
+            "path": "slots.atom",
+            "value": "capture"
+          }
+        ],
+        "id": "gvya.help.structural-patterns.capture",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "`*{name}` and `^{name}` capture normalized surface text into an explicitly declared String slot. A capture is data, not inferred meaning, so consume it or remove it."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "`*{name}` و `^{name}` متن surface نرمال‌شده را در String slot صریح می‌گیرند. capture فقط data است، نه معنای استنباط‌شده؛ آن را مصرف کن یا حذفش کن."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "meaning",
+            "op": "equal",
+            "path": "slots.atom",
+            "value": "set"
+          }
+        ],
+        "id": "gvya.help.structural-patterns.set",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "`<set:name>{slot}` matches one finite Matcher Profile alias and stores its authored canonical String value. It is ideal for bounded vocabularies, not arbitrary synonyms."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "`<set:name>{slot}` یک alias محدود در Matcher Profile را match می‌کند و canonical String نوشته‌شده‌اش را در slot می‌گذارد. برای واژگان finite خوب است، نه synonym نامحدود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

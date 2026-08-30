@@ -1,0 +1,14 @@
+{
+  "exported": true,
+  "id": "iot.device.close.binding",
+  "mode": "add",
+  "value": {
+    "arguments": [
+      { "source": { "kind": "iot.device", "projection": "id", "type": "meaning_reference" }, "target": "device" },
+      { "source": { "type": "literal", "value": "closed" }, "target": "position" }
+    ],
+    "capability": "iot.device.position",
+    "id": "iot.device.close.binding",
+    "trigger": { "meaning": "iot.device.close" }
+  }
+}

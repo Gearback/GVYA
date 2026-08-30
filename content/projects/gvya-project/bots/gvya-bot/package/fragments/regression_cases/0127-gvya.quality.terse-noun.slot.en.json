@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.terse-noun.slot.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A bare first-class domain noun reaches its concept Meaning",
+    "expectation": {
+      "meaning": "gvya.help.slot"
+    },
+    "generated": false,
+    "id": "gvya.quality.terse-noun.slot.en",
+    "initial_state": {},
+    "input": "slots",
+    "language": "en-US",
+    "seed": 1
+  }
+}

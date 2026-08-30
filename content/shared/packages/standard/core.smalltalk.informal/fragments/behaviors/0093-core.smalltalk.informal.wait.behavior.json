@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.wait.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.wait.behavior",
+    "meaning": "core.smalltalk.informal.wait",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.wait.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I’ll wait.",
+              "Take your moment.",
+              "Alright. One moment."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "صبر می‌کنم.",
+              "وقتت رو بگیر.",
+              "باشه. یه لحظه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "thanks.behavior",
+  "value": {
+    "id": "thanks.behavior",
+    "meaning": "thanks",
+    "responses": [
+      {
+        "id": "thanks.behavior.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "You are welcome."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

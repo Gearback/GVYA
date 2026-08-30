@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.please.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.please.behavior",
+    "meaning": "core.smalltalk.formal.please",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.please.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Then please ask clearly.",
+              "All right. Say it.",
+              "Please helps; clarity helps more."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پس لطفاً واضح بپرسید.",
+              "بسیار خوب. بفرمایید.",
+              "لطف خوب است؛ وضوح بهتر است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

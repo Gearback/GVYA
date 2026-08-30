@@ -1,0 +1,20 @@
+{
+  "id": "account.create.behavior",
+  "value": {
+    "id": "account.create.behavior",
+    "meaning": "account.create",
+    "responses": [
+      {
+        "id": "account.create.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:ACCOUNT_CREATE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

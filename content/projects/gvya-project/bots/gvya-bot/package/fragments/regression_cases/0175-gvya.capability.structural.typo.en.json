@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.typo.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Canonical token repair keeps the capability/runtime structural route available for known typos",
+    "expectation": {
+      "meaning": "gvya.help.capabilities"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.typo.en",
+    "initial_state": {},
+    "input": "how does a capabilty reach the runimte",
+    "language": "en-US",
+    "seed": 1
+  }
+}

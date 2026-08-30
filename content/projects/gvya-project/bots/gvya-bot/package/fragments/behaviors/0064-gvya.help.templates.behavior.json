@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.templates.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.templates.behavior",
+    "meaning": "gvya.help.templates",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "There is no eval and no ambient host state. Expansion is capped at eight passes, division by zero is defined as zero, and system facts are request-provided rather than read from an ambient clock."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هیچ ‎eval‎ و هیچ وضعیت محیطیِ میزبانی وجود ندارد. گسترش حداکثر هشت پاس است، تقسیم بر صفر برابر صفر تعریف شده، و واقعیت‌های system از درخواست می‌آیند نه از ساعت محیطی."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.templates.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The template DSL is deterministic and bounded. Allowlisted roots are author, context, meaning, conversation and system; assignment may target only author.*; and it supports conditions, comparisons, arithmetic, fallback interpolation and deterministic rnd and pick."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "زبان قالب قطعی و محدود است. ریشه‌های مجاز عبارت‌اند از author، context، meaning، conversation و system؛ انتساب فقط می‌تواند ‎author.*‎ را هدف بگیرد؛ و از شرط، مقایسه، محاسبات، درج جایگزین، و ‎rnd‎ و ‎pick‎ قطعی پشتیبانی می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

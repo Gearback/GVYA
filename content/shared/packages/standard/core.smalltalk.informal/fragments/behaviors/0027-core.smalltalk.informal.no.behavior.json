@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.no.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.no.behavior",
+    "meaning": "core.smalltalk.informal.no",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.no.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Alright.",
+              "Then no.",
+              "Fine.",
+              "Understood."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه.",
+              "پس نه.",
+              "قبوله.",
+              "فهمیدم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

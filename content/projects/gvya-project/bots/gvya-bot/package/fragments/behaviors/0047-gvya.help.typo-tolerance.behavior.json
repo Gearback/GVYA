@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.typo-tolerance.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.typo-tolerance.behavior",
+    "meaning": "gvya.help.typo-tolerance",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Separately, bounded Unicode n-gram signature retrieval makes the existing edit and stem scorers reachable for productive word variants — without assuming a language or scanning the catalog."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "جداگانه، بازیابی محدود بر پایهٔ امضای n-gram یونیکد باعث می‌شود امتیازدهنده‌های ویرایش و ریشه برای گونه‌های واژگانی در دسترس باشند — بدون فرض زبان و بدون اسکن کاتالوگ."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.typo-tolerance.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Typo-lite applies one-edit unique corrections, at most two, through a signature lookup that keeps per-turn work bounded. It is an additional view and never rewrites the original utterance."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "typo-lite اصلاح‌های یکتا با یک ویرایش، حداکثر دو مورد، را از طریق جست‌وجوی امضا اعمال می‌کند تا کار هر نوبت محدود بماند. این یک نمای اضافی است و هرگز گفتهٔ اصلی را بازنویسی نمی‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

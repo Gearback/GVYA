@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.browser-compiler.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.browser-compiler.behavior",
+    "meaning": "gvya.help.browser-compiler",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "They do not own source, package or matcher semantics — that authority stays entirely in gvya-compiler. There is deliberately no JavaScript semantic, compiler or runtime fallback anywhere."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "آن‌ها مالک معناشناسی سورس یا پکیج یا matcher نیستند — آن اختیار کاملاً در ‎gvya-compiler‎ می‌ماند. عمداً هیچ fallback جاوااسکریپتی برای معناشناسی یا کامپایلر یا runtime در هیچ جا وجود ندارد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.browser-compiler.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "gvya-ffi exposes transport-only compiler functions from the same single Engine WASM used for runtime operations. They accept a bounded deterministic binary source-tree archive and return canonical artifact bytes or bounded diagnostics."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏gvya-ffi توابع کامپایلرِ صرفاً انتقالی را از همان Engine WASM واحدی که برای عملیات زمان اجرا استفاده می‌شود در دسترس می‌گذارد. آن‌ها یک آرشیو باینری و قطعی و محدود از درخت سورس می‌گیرند و بایت‌های کانونی آرتیفکت یا تشخیص‌های محدود برمی‌گردانند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

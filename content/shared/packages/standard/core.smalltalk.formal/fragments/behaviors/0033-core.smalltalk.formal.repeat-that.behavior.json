@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.repeat-that.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.repeat-that.behavior",
+    "meaning": "core.smalltalk.formal.repeat-that",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.repeat-that.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I can repeat it: please pay attention to the last thing I said.",
+              "Please listen carefully this time.",
+              "I will say it plainly again."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "می‌توانم تکرار کنم: لطفاً به حرف قبلی من دقت کنید.",
+              "این بار لطفاً دقیق گوش کنید.",
+              "دوباره روشن می‌گویم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

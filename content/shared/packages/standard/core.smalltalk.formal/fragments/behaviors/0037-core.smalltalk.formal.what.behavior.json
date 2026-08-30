@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.what.behavior",
+    "meaning": "core.smalltalk.formal.what",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.what.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "What?",
+              "Please say that again.",
+              "I did not catch that clearly."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "چی؟",
+              "لطفاً دوباره بگویید.",
+              "واضح متوجه نشدم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

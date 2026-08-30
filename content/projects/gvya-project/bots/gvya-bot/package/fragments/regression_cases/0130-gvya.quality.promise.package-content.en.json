@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.promise.package-content.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A follow-up the Bot promises in gvya.help.packages must resolve",
+    "expectation": {
+      "meaning": "gvya.help.packages"
+    },
+    "generated": false,
+    "id": "gvya.quality.promise.package-content.en",
+    "initial_state": {},
+    "input": "where does reusable Package content live?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

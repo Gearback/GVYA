@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.use-cases-pronoun.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The Persian anaphoric use-case promise resolves only in the about follow-up",
+    "generated": false,
+    "id": "gvya.quality.scenario.use-cases-pronoun.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.about"
+        },
+        "language": "fa-IR",
+        "say": "GVYA چیست؟",
+        "seed": 251,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.about-use-cases"
+        },
+        "language": "fa-IR",
+        "say": "باهاش چه چیزهایی می‌شود ساخت؟",
+        "seed": 252,
+        "type": "turn"
+      }
+    ]
+  }
+}

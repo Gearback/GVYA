@@ -1,0 +1,9 @@
+{
+  "id": "cancel",
+  "value": {
+    "id": "cancel",
+    "patterns": [{"language": "en", "text": "never mind", "priority": 10}],
+    "samples": [{"language": "en", "text": "never mind"}],
+    "class": "clarification"
+  }
+}

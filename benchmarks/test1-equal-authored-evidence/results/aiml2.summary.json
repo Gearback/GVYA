@@ -1,0 +1,66 @@
+{
+  "cases": 288,
+  "correct_in_domain": 96,
+  "deterministic_replay": true,
+  "execution_path": "ProgramYChatbot -> ConsoleBotClient -> Program-Y Brain/AIMLParser",
+  "generated_source_bytes": 12085,
+  "implementation": "Program-Y",
+  "implementation_version": "3.6",
+  "in_domain_cases": 240,
+  "latency_ms": {
+    "mean": 0.239329583305587,
+    "p50": 0.19474700093269348,
+    "p95": 0.3274430000601569
+  },
+  "load_ms": 329.83897300073295,
+  "macro_f1_including_fallback": 0.5645714285714285,
+  "ood_cases": 48,
+  "ood_false_positive_count": 0,
+  "ood_false_positive_rate": 0.0,
+  "runtime": "Program-Y 3.6",
+  "semantic_isolation": "only frozen benchmark.aiml is configured as category knowledge; Program-Y parser node definitions are runtime grammar infrastructure",
+  "semantic_source": "frozen/bots/aiml2/benchmark.aiml",
+  "session_isolation": "fresh Program-Y client context/user id per evaluation case",
+  "strict_intent_accuracy_in_domain": 0.4,
+  "system": "AIML 2.0",
+  "tracks": {
+    "confounder": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 48,
+      "non_null": 0
+    },
+    "ood": {
+      "accuracy": 1.0,
+      "correct": 48,
+      "n": 48,
+      "non_null": 0
+    },
+    "paraphrase": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 48,
+      "non_null": 0
+    },
+    "seen": {
+      "accuracy": 1.0,
+      "correct": 96,
+      "n": 96,
+      "non_null": 96
+    },
+    "typo": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 24,
+      "non_null": 0
+    },
+    "word_order": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "n": 24,
+      "non_null": 0
+    }
+  },
+  "wrong_intent_count": 0,
+  "wrong_intent_rate": 0.0
+}

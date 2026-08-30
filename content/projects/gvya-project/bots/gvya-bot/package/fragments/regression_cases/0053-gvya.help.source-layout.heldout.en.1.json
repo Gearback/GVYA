@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.source-layout.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Portable on-disk Project and Package layout held-out en-US coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.source-layout",
+      "response_ids": [
+        "gvya.help.source-layout.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.source-layout.heldout.en.1",
+    "initial_state": {},
+    "input": "Which directory do I copy to move one complete project?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

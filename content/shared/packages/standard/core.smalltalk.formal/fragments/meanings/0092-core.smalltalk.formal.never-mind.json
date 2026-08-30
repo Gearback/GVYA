@@ -1,0 +1,57 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.never-mind",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.never-mind",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "forget to declare"
+      },
+      {
+        "language": "en-US",
+        "text": "forget to declare a required source file"
+      },
+      {
+        "language": "en-US",
+        "text": "forget to configure a package field"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فراموش کنم فایل را در manifest اعلام کنم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "never mind"
+      },
+      {
+        "language": "en-US",
+        "text": "forget it"
+      },
+      {
+        "language": "en-US",
+        "text": "leave it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بیخیال"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ولش کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فراموشش کن"
+      }
+    ]
+  }
+}

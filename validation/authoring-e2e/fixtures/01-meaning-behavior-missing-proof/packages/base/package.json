@@ -1,0 +1,22 @@
+{
+  "format": "gvya.source.package",
+  "version": 1,
+  "manifest": {
+    "id": "base",
+    "kind": "standard",
+    "dependencies": []
+  },
+  "fragments": {
+    "meanings": [
+      "fragments/meanings/0001-hello.json",
+      "fragments/meanings/0002-weather.ask.json"
+    ],
+    "behaviors": [
+      "fragments/behaviors/0001-hello.behavior.json",
+      "fragments/behaviors/0002-weather.ask.behavior.json"
+    ],
+    "regression_cases": [
+      "fragments/regression_cases/0001-hello.baseline.json"
+    ]
+  }
+}

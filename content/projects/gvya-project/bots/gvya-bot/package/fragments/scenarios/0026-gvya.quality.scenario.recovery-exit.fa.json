@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.recovery-exit.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian normal domain and social turns cleanly exit two consecutive recovery turns",
+    "generated": false,
+    "id": "gvya.quality.scenario.recovery-exit.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "conversation_mode": "fallback"
+        },
+        "language": "fa-IR",
+        "say": "می‌تونی دو وام مسکن را برایم مقایسه کنی؟",
+        "seed": 241,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "repeat_fallback"
+        },
+        "language": "fa-IR",
+        "say": "می‌تونی دو وام مسکن را برایم مقایسه کنی؟",
+        "seed": 242,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher"
+        },
+        "language": "fa-IR",
+        "say": "مچر چطوری معنی رو پیدا میکنه؟",
+        "seed": 243,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "core.smalltalk.formal.bye"
+        },
+        "language": "fa-IR",
+        "say": "مرسی، خداحافظ.",
+        "seed": 244,
+        "type": "turn"
+      }
+    ]
+  }
+}

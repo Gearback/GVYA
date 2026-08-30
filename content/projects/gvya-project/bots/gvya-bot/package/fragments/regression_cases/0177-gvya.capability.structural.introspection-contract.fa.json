@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.introspection-contract.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Reading a Persian capability contract is introspection and outranks the contract route",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.capability-contract"
+      ],
+      "meaning": "gvya.help.capability-introspection"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.introspection-contract.fa",
+    "initial_state": {},
+    "input": "چطور یک قرارداد capability را بخوانم",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

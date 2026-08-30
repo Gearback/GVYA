@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.wire-protocol.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.wire-protocol.behavior",
+    "meaning": "gvya.help.wire-protocol",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "It contains no target-specific semantic logic, and no adapter may augment a request with ambient clock, network or filesystem state. Serialization fails closed if internal state holds NaN or infinity rather than silently emitting null."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هیچ منطق معناییِ وابسته به پلتفرم ندارد، و هیچ آداپتری حق ندارد درخواست را با ساعت، شبکه یا فایل‌سیستم محیطی تکمیل کند. اگر وضعیت داخلی NaN یا بی‌نهایت داشته باشد، سریال‌سازی به‌جای تولید بی‌سروصدای null، fail-closed می‌شود."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.wire-protocol.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The wire protocol is the stable serialized boundary used by C, WASM and JS adapters. It is UTF-8 JSON, every request and result carries an explicit format and version, input structs reject unknown top-level and compiler-owned fields, and numbers must be finite."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پروتکل wire مرز سریال‌شدهٔ پایدار است که آداپترهای C و WASM و JS از آن استفاده می‌کنند. JSON با UTF-8 است، هر درخواست و نتیجه ‎format‎ و ‎version‎ صریح دارد، ساختارهای ورودی فیلدهای ناشناختهٔ سطح بالا و فیلدهای متعلق به کامپایلر را رد می‌کنند، و اعداد باید متناهی باشند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

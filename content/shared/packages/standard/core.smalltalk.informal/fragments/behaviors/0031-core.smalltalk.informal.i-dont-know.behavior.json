@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-dont-know.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.i-dont-know.behavior",
+    "meaning": "core.smalltalk.informal.i-dont-know",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.i-dont-know.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That happens.",
+              "Then we start from what we do know.",
+              "Fair enough."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پیش میاد.",
+              "پس از چیزی که می‌دونیم شروع می‌کنیم.",
+              "منصفانه‌ست."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

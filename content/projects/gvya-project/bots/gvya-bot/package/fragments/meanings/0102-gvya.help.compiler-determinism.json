@@ -1,0 +1,122 @@
+{
+  "exported": true,
+  "id": "gvya.help.compiler-determinism",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.compiler-determinism",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "is the artifact byte identical across machines"
+      },
+      {
+        "language": "en-US",
+        "text": "will i get the same output every time"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت روی ماشین های مختلف بایت به بایت یکسان است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آیا خروجی همیشه یکسان است"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "determinism build depends sourcetree options hostname environment ordering"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قطعیت build وابسته گزینه نام میزبان محیط ترتیب"
+      },
+      {
+        "language": "en-US",
+        "text": "deterministic build rules"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what does the build depend on"
+      },
+      {
+        "language": "en-US",
+        "text": "can the build depend on my hostname"
+      },
+      {
+        "language": "en-US",
+        "text": "does filesystem order affect the build"
+      },
+      {
+        "language": "en-US",
+        "text": "does the compiler read the wall clock"
+      },
+      {
+        "language": "en-US",
+        "text": "is object key order deterministic"
+      },
+      {
+        "language": "en-US",
+        "text": "do absolute paths leak into the artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "what makes two builds identical"
+      },
+      {
+        "language": "en-US",
+        "text": "explain compiler determinism"
+      },
+      {
+        "language": "fa-IR",
+        "text": "build به چه چیزی وابسته است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "build می تواند به نام میزبان وابسته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترتیب فایل سیستم روی build اثر دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کامپایلر ساعت سیستم را می خواند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترتیب کلید اشیا قطعی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مسیرهای مطلق به آرتیفکت نشت می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی دو build را یکسان می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قطعیت کامپایلر را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "is the build reproducible"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بیلد تکرارپذیر است"
+      },
+      {
+        "language": "en-US",
+        "text": "deterministic build rules"
+      }
+    ]
+  }
+}

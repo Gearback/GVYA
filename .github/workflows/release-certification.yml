@@ -1,0 +1,89 @@
+name: Release Certification
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gvya-release-certification
+  cancel-in-progress: false
+
+jobs:
+  certify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    env:
+      CARGO_AUDIT_VERSION: '0.21.2'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Set up exact Rust 1.85.0 release toolchain
+        shell: bash
+        run: |
+          rustup toolchain install 1.85.0 \
+            --profile minimal \
+            --component rustfmt \
+            --component clippy \
+            --target wasm32-unknown-unknown
+          rustup default 1.85.0
+          rustc --version
+          cargo --version
+          rustfmt --version
+          cargo clippy --version
+
+      - name: Resolve Chromium or Chrome
+        shell: bash
+        run: |
+          browser="$(command -v google-chrome-stable || command -v google-chrome || command -v chromium || command -v chromium-browser || true)"
+          test -n "$browser" || { echo 'Chromium/Chrome is required by the release gate.' >&2; exit 1; }
+          echo "GVYA_BROWSER=$browser" >> "$GITHUB_ENV"
+          "$browser" --version
+
+      - name: Install pinned Cargo security auditor
+        run: cargo install cargo-audit --version "$CARGO_AUDIT_VERSION" --locked
+
+      - name: Verify frozen toolchain and dependency graphs
+        run: npm run certify:preflight
+
+      - name: Run complete checkout release certification
+        run: npm run certify:release
+
+      - name: Clean and prove source manifests are already current
+        shell: bash
+        run: |
+          npm run clean
+          npm run refresh:manifests
+          npm run validate:source
+          git diff --exit-code -- SOURCE_MANIFEST.tsv INTEGRITY.sha256
+
+      - name: Build exact release archive
+        shell: bash
+        run: npm run package:release -- "$RUNNER_TEMP/GVYA-GitHub-Edition-certified.zip"
+
+      - name: Certify exact archive from a fresh extraction
+        shell: bash
+        run: npm run certify:archive -- "$RUNNER_TEMP/GVYA-GitHub-Edition-certified.zip"
+
+      - name: Record exact archive SHA-256
+        shell: bash
+        run: |
+          cd "$RUNNER_TEMP"
+          sha256sum GVYA-GitHub-Edition-certified.zip | tee GVYA-GitHub-Edition-certified.zip.sha256
+
+      - name: Upload certified source archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: gvya-certified-source
+          path: |
+            ${{ runner.temp }}/GVYA-GitHub-Edition-certified.zip
+            ${{ runner.temp }}/GVYA-GitHub-Edition-certified.zip.sha256
+          if-no-files-found: error
+          retention-days: 30

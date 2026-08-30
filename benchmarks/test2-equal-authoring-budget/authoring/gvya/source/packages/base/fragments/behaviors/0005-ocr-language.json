@@ -1,0 +1,20 @@
+{
+  "id": "ocr.language.behavior",
+  "value": {
+    "id": "ocr.language.behavior",
+    "meaning": "ocr.language",
+    "responses": [
+      {
+        "id": "ocr.language.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:OCR_LANGUAGE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

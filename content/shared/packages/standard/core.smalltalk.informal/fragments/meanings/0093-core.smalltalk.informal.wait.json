@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.wait",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.informal.wait",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "wait"
+      },
+      {
+        "language": "en-US",
+        "text": "hold on"
+      },
+      {
+        "language": "en-US",
+        "text": "one second"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صبر کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه لحظه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وایسا"
+      }
+    ]
+  }
+}

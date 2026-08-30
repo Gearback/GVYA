@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.continuation.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.continuation.behavior",
+    "meaning": "gvya.help.continuation",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "It requires at most five tokens, and it is refused when the utterance starts with a question starter or contains a task cue — so a how or what question is treated as a new question, not a continuation. The accepted phrases and referential tokens come from the Matcher Profile."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "حداکثر پنج توکن لازم دارد، و وقتی گفته با یک آغازگر پرسش شروع شود یا نشانهٔ تسک داشته باشد رد می‌شود — پس یک پرسش «چطور» یا «چه» پرسش جدید در نظر گرفته می‌شود، نه ادامه. عبارت‌های پذیرفته‌شده و توکن‌های ارجاعی از Matcher Profile می‌آیند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.continuation.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A tightly bounded referential utterance may reuse the prior Behavior and focus. It is tried after the follow-up scope and before global semantics, and no fake semantic score is manufactured for it."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک گفتهٔ ارجاعیِ بسیار محدود می‌تواند Behavior و تمرکز قبلی را دوباره استفاده کند. بعد از دامنهٔ follow-up و پیش از معناشناسی سراسری امتحان می‌شود، و هیچ امتیاز معناییِ ساختگی برایش تولید نمی‌شود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

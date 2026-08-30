@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m3.ambiguity-route.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "M3 route-collision proof",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.response-conditions"
+      ],
+      "meaning": "gvya.help.ambiguity"
+    },
+    "generated": false,
+    "id": "gvya.m3.ambiguity-route.en",
+    "initial_state": {},
+    "input": "What does it do if its two best matches are almost tied?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

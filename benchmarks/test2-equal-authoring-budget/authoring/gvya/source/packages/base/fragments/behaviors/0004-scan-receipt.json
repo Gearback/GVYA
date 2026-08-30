@@ -1,0 +1,20 @@
+{
+  "id": "scan.receipt.behavior",
+  "value": {
+    "id": "scan.receipt.behavior",
+    "meaning": "scan.receipt",
+    "responses": [
+      {
+        "id": "scan.receipt.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SCAN_RECEIPT"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

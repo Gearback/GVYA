@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-angry.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.are-you-angry.behavior",
+    "meaning": "core.smalltalk.informal.are-you-angry",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.are-you-angry.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Not exactly.",
+              "Don’t push it and we’re fine.",
+              "I’m keeping it together."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نه دقیقاً.",
+              "فشار نیار، خوبیم.",
+              "دارم خودمو کنترل می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

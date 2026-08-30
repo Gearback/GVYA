@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.audit-coverage.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.audit-coverage.behavior",
+    "meaning": "gvya.help.audit-coverage",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Expensive semantic and response-overlap work is bounded, and the report says explicitly when a configured work limit truncated the analysis rather than quietly reporting a clean result."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "کارهای سنگین هم‌پوشانی معنایی و پاسخ محدود شده‌اند، و گزارش صریحاً می‌گوید که محدودیت کاری تنظیم‌شده تحلیل را کوتاه کرده، به‌جای اینکه بی‌سروصدا نتیجهٔ تمیز گزارش کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.audit-coverage.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The built-in audit covers package composition, source and value identity, semantic overlap, multilingual sample and response coverage, exact and near-duplicate response text, conversation and follow-up integrity, capability-catalog findings, types, assets and tests."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ممیزی داخلی این‌ها را پوشش می‌دهد: ترکیب پکیج، هویت سورس و مقدار، هم‌پوشانی معنایی، پوشش چندزبانهٔ نمونه و پاسخ، متن پاسخ تکراری و نزدیک‌به‌تکراری، یکپارچگی مکالمه و follow-up، یافته‌های کاتالوگ capability، typeها، assetها و تست‌ها."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

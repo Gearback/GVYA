@@ -1,0 +1,130 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-entries",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.artifact-entries",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is inside a gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": "how are digests recorded"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل یک فایل gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چکیده ها چطور ثبت می شوند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "entries manifest program integrity essential debugmap signature kinds"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ورودی manifest program integrity ضروری نقشه دیباگ امضا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entry artifact"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what entries does an artifact require"
+      },
+      {
+        "language": "en-US",
+        "text": "what entry kinds exist"
+      },
+      {
+        "language": "en-US",
+        "text": "which artifact entry holds the compiled program"
+      },
+      {
+        "language": "en-US",
+        "text": "is the debug map required"
+      },
+      {
+        "language": "en-US",
+        "text": "which entries are essential"
+      },
+      {
+        "language": "en-US",
+        "text": "where do assets live in the artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "can i put an asset outside the assets folder"
+      },
+      {
+        "language": "en-US",
+        "text": "explain artifact entries"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک آرتیفکت چه entry هایی لازم دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه نوع entry هایی هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام entry آرتیفکت برنامه کامپایل شده را نگه می دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "debug map اجباری است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام entry ها essential هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "asset ها کجای آرتیفکت هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم asset را بیرون پوشه assets بگذارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entry های آرتیفکت را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what entries does an artifact have"
+      },
+      {
+        "language": "fa-IR",
+        "text": "artifact چه بخش هایی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entry artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "what is inside an artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the artifact contain inside"
+      }
+    ]
+  }
+}

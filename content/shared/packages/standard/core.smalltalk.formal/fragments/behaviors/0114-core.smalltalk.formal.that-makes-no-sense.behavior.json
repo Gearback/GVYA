@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.that-makes-no-sense.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.that-makes-no-sense.behavior",
+    "meaning": "core.smalltalk.formal.that-makes-no-sense",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.that-makes-no-sense.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Perhaps not yet.",
+              "Then find the part that does make sense.",
+              "Some things seem wrong before they matter."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید هنوز نه.",
+              "پس بخشی را پیدا کنید که معنا دارد.",
+              "بعضی چیزها پیش از آنکه مهم شوند غلط به نظر می‌رسند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

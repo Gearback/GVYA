@@ -1,0 +1,20 @@
+{
+  "id": "offline.mode.behavior",
+  "value": {
+    "id": "offline.mode.behavior",
+    "meaning": "offline.mode",
+    "responses": [
+      {
+        "id": "offline.mode.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:OFFLINE_MODE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

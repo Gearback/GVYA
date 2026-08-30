@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-determinism.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.artifact-determinism.behavior",
+    "meaning": "gvya.help.artifact-determinism",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Compression can arrive later as an explicitly versioned codec if measurements justify it — never as a silent default."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "فشرده‌سازی می‌تواند بعداً به‌صورت یک کدک با نسخهٔ صریح بیاید، اگر اندازه‌گیری‌ها توجیهش کنند — هرگز به‌عنوان پیش‌فرض بی‌سروصدا."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.artifact-determinism.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "There is no compression in v1, and that is intentional: identical inputs produce identical bytes across implementations without depending on a compressor version. The header also carries no timestamp and no machine metadata."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "در نسخهٔ ۱ هیچ فشرده‌سازی وجود ندارد و این عمدی است: ورودی یکسان روی پیاده‌سازی‌های مختلف بایت یکسان می‌دهد، بدون وابستگی به نسخهٔ فشرده‌ساز. هدر هم هیچ زمان و هیچ فرادادهٔ ماشینی ندارد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

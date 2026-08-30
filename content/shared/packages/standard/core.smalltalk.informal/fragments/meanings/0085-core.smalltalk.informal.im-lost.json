@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-lost",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.im-lost",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i'm lost"
+      },
+      {
+        "language": "en-US",
+        "text": "i feel lost"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گم شدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گیج شدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمی‌دونم کجام"
+      }
+    ]
+  }
+}

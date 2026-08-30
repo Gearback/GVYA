@@ -1,0 +1,128 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-bounds",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.artifact-bounds",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what are the runtime wire budgets"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the candidate budget"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بودجه های wire چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بودجه نامزد چیست"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 30,
+        "text": "^ محدودیت ^ اندازه ^ ARTIFACT ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "bounds limits ceiling maximum entries mib size tighten relax"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محدودیت سقف حداکثر ورودی اندازه سخت گیرانه"
+      },
+      {
+        "language": "en-US",
+        "text": "artifact size limits maximum file entries count section bounds caps contract"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سقف اندازه artifact حداکثر فایل entry تعداد بخش bounds limits contract"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are the artifact size limits"
+      },
+      {
+        "language": "en-US",
+        "text": "how many entries can an artifact hold"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the maximum artifact size"
+      },
+      {
+        "language": "en-US",
+        "text": "can i raise the limits"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the per entry cap"
+      },
+      {
+        "language": "en-US",
+        "text": "how long can a path be"
+      },
+      {
+        "language": "en-US",
+        "text": "are the bounds hard failures"
+      },
+      {
+        "language": "en-US",
+        "text": "explain artifact bounds"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محدودیت های اندازه آرتیفکت چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک آرتیفکت چند entry می تواند داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حداکثر اندازه آرتیفکت چقدر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم محدودیت ها را بالا ببرم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سقف هر entry چقدر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک مسیر چقدر می تواند بلند باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این محدودیت ها خطای قطعی هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محدودیت های آرتیفکت را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how big can an artifact be"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حداکثر اندازه artifact چقدر است"
+      }
+    ]
+  }
+}

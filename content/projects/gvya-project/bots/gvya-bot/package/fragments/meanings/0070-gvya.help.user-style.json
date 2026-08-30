@@ -1,0 +1,122 @@
+{
+  "exported": true,
+  "id": "gvya.help.user-style",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.user-style",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how does it pick the response language"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a matcher profile"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان پاسخ چطور انتخاب می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher profile چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "userstyle formality informal tone lexicon confidence observed"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سبک کاربر رسمیت خودمانی لحن واژه نامه اطمینان مشاهده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سبک پاسخ کاربر source"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "does it notice if i am formal or casual"
+      },
+      {
+        "language": "en-US",
+        "text": "what is user style"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a style lexicon"
+      },
+      {
+        "language": "en-US",
+        "text": "can a response react to formality"
+      },
+      {
+        "language": "en-US",
+        "text": "is formality hardcoded per language"
+      },
+      {
+        "language": "en-US",
+        "text": "what is style confidence"
+      },
+      {
+        "language": "en-US",
+        "text": "how is tone detected"
+      },
+      {
+        "language": "en-US",
+        "text": "explain user style"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متوجه می شود من رسمی هستم یا خودمانی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سبک کاربر چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واژه نامه سبک چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پاسخ می تواند به رسمیت واکنش نشان دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رسمیت برای هر زبان در کد نوشته شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اطمینان سبک چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لحن چطور تشخیص داده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سبک کاربر را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "does it notice formality"
+      },
+      {
+        "language": "fa-IR",
+        "text": "user style چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سبک پاسخ کاربر source"
+      }
+    ]
+  }
+}

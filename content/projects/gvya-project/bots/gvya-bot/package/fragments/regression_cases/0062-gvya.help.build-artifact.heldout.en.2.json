@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.build-artifact.heldout.en.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Compilation, .gvya artifacts, and Engine WASM ownership held-out en-US coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.build-artifact",
+      "response_ids": [
+        "gvya.help.build-artifact.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.build-artifact.heldout.en.2",
+    "initial_state": {},
+    "input": "What portable file comes out of compiling a resolved bot?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

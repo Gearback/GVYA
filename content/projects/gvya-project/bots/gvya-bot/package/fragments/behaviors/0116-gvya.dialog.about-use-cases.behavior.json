@@ -1,0 +1,34 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.about-use-cases.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "followup_scope": "gvya.about",
+    "id": "gvya.dialog.about-use-cases.behavior",
+    "meaning": "gvya.dialog.about-use-cases",
+    "responses": [
+      {
+        "id": "gvya.dialog.about-use-cases.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "You can use it for games, apps, devices, and services that need deterministic conversation without tying the content to one host. The same .gvya brain can move between hosts that implement its declared capability surface."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "می‌توانی از آن در بازی، برنامه، دستگاه و سرویسی استفاده کنی که مکالمهٔ قطعی و مستقل از یک host می‌خواهد. همان brain با پسوند .gvya می‌تواند بین hostهایی جابه‌جا شود که سطح capability اعلام‌شده‌اش را پیاده می‌کنند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

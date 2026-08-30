@@ -1,0 +1,33 @@
+{
+  "exported": false,
+  "id": "iot.policy.missing-safety",
+  "mode": "add",
+  "value": {
+    "context": {
+      "available_capabilities": [{ "id": "iot.device.switch", "version": "1" }],
+      "visible_references": [{ "id": "light.kitchen", "kind": "iot.device" }]
+    },
+    "description": "A mutating IoT action fails closed when the host omits its explicit confirmation classification.",
+    "generated": false,
+    "id": "iot.policy.missing-safety",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "forbidden_capabilities": ["iot.device.switch"],
+          "meaning": "iot.device.turn-on",
+          "meaning_references": [{ "id": "light.kitchen", "kind": "iot.device" }],
+          "proposal_receipts": [{ "arguments": { "device": "light.kitchen", "state": "on" }, "id": "iot.device.switch", "outcome": "rejected", "reason_code": "conditional_policy_unresolved", "version": "1" }],
+          "response_ids": ["iot.device.turn-on.requested"]
+        },
+        "language": "en-US",
+        "reference_candidates": [
+          { "aliases": ["kitchen light"], "label": "Kitchen light", "reference": { "id": "light.kitchen", "kind": "iot.device" } }
+        ],
+        "say": "turn on the kitchen light",
+        "seed": 251,
+        "type": "turn"
+      }
+    ]
+  }
+}

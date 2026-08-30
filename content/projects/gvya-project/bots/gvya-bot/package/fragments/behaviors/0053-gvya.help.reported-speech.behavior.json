@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.reported-speech.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.reported-speech.behavior",
+    "meaning": "gvya.help.reported-speech",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Like every other lexical rule, the reporting vocabulary is authored profile data, not a built-in language assumption."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "مثل هر قاعدهٔ واژگانی دیگر، واژگان نقل داده‌ای است که در پروفایل نوشته می‌شود، نه فرضی زبانی که در موتور تعبیه شده باشد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.reported-speech.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Reported speech suppression stops quoted or narrated content from being treated as a live request. It uses reporting verbs and nouns authored in the Matcher Profile plus span-aware pre-match reporting evidence, and records an explicit rejection reason."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "سرکوب نقل قول جلوی این را می‌گیرد که محتوای نقل‌شده یا روایت‌شده به‌عنوان درخواست زنده تلقی شود. از افعال و اسامی نقل که در Matcher Profile نوشته می‌شوند به‌همراه شواهد نقلِ آگاه به بازه پیش از تطبیق استفاده می‌کند و دلیل رد را صریح ثبت می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

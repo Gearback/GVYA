@@ -1,0 +1,258 @@
+{
+  "exported": true,
+  "id": "gvya.help.invocation-proposal",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.invocation-proposal",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is admission"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a capability contract"
+      },
+      {
+        "language": "fa-IR",
+        "text": "admission چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability contract چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "can the bot actually perform an action on my system"
+      },
+      {
+        "language": "en-US",
+        "text": "how do side effects reach the host"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات می تواند روی سیستم من کاری انجام دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "admission invocation proposal outcomes"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرگومان های یک عملیات از کجا می آیند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی اجرای runtime را محدود و تکرارپذیر نگه می دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "what keeps runtime execution bounded and reproducible"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ RUNTIME ^ EMIT ^ HOST ^ CAPABILITY ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ CAPABILITY ^ INVOCATION ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ CAPABILITY ^ PROPOSAL ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "invocationproposal typed request correlation fingerprint stale"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیشنهاد فراخوانی درخواست تایپ شده همبستگی اثرانگشت کهنه"
+      },
+      {
+        "language": "en-US",
+        "text": "typed host operation request capability contract arguments shape"
+      },
+      {
+        "language": "en-US",
+        "text": "host receives typed invocation proposal operation schema"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست عملیات host تایپ شده contract capability شکل آرگومان"
+      },
+      {
+        "language": "en-US",
+        "text": "runtime proposal host executes capability"
+      },
+      {
+        "language": "en-US",
+        "text": "typed request runtime hands host execute side effect invocation proposal arguments capability"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست typed runtime به host اجرا side effect invocation proposal آرگومان capability"
+      },
+      {
+        "language": "en-US",
+        "text": "handed to host object request execute correlate outcome pending identifier"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تحویل میزبان شیء درخواست اجرا ارتباط نتیجه در انتظار شناسه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تحویل گرفتن دریافت میزبان شیء پیشنهاد اجرا شناسه اثرانگشت"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is an invocation proposal"
+      },
+      {
+        "language": "en-US",
+        "text": "what does a proposal contain"
+      },
+      {
+        "language": "en-US",
+        "text": "is a proposal proof of execution"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the proposal fingerprint"
+      },
+      {
+        "language": "en-US",
+        "text": "is the fingerprint a security token"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the host report the outcome"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i correlate a proposal with a confirmation"
+      },
+      {
+        "language": "en-US",
+        "text": "explain invocation proposals"
+      },
+      {
+        "language": "fa-IR",
+        "text": "invocation proposal چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پیشنهاد شامل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیشنهاد مدرک اجرا شدن است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اثرانگشت پیشنهاد چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اثرانگشت یک توکن امنیتی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان نتیجه را چطور گزارش می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور پیشنهاد را با تایید مرتبط کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "invocation proposal را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a proposal"
+      },
+      {
+        "language": "en-US",
+        "text": "what can a capability propose"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک capability چه چیزی می تواند پیشنهاد دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "runtime proposal host executes capability"
+      },
+      {
+        "language": "en-US",
+        "text": "what object does the host receive when the bot wants something done"
+      },
+      {
+        "language": "en-US",
+        "text": "what exactly is handed to my application to execute"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i match an outcome back to the request that caused it"
+      },
+      {
+        "language": "en-US",
+        "text": "does receiving one mean the action already happened"
+      },
+      {
+        "language": "en-US",
+        "text": "what identifies one pending action request"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی بات می خواهد کاری انجام شود میزبان چه چیزی دریافت می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دقیقا چه چیزی برای اجرا به برنامه من داده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور نتیجه را به همان درخواستی که باعثش شده وصل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دریافتش یعنی اکشن قبلا انجام شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک درخواست اکشن در انتظار با چه چیزی شناخته می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the runtime give the host to execute"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime چه چیزی برای اجرا به میزبان می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان برای اجرا چه چیزی تحویل می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیشنهاد اجرا شامل چه اطلاعاتی است"
+      }
+    ]
+  }
+}

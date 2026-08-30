@@ -1,0 +1,194 @@
+{
+  "exported": true,
+  "id": "gvya.help.turn-pipeline",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.turn-pipeline",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what are the internal stages"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the matcher work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مراحل داخلی آن چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher چطور کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "planned response rendered"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سابقه تصمیم ها کجا ثبت می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "where is the record of one decision kept"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "turnpipeline lifecycle ordering respond steps tick snapshot commit"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خط لوله نوبت چرخه حیات ترتیب مراحل tick ثبت"
+      },
+      {
+        "language": "en-US",
+        "text": "message flow semantic resolution behavior selection response order"
+      },
+      {
+        "language": "en-US",
+        "text": "semantic decision before behavior execution turn lifecycle"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جریان پیام semantic resolution انتخاب behavior ترتیب پاسخ"
+      },
+      {
+        "language": "en-US",
+        "text": "incoming utterance stages runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "ordered runtime turn lifecycle incoming input normalize resolve behavior response stages pipeline"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترتیب lifecycle turn runtime input ورودی normalize resolve behavior response مراحل pipeline"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "user message arrives"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام کاربر می رسد"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens during one turn"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the order of the turn pipeline"
+      },
+      {
+        "language": "en-US",
+        "text": "what runs before semantic matching"
+      },
+      {
+        "language": "en-US",
+        "text": "when is the topic ticked"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the last step of a turn"
+      },
+      {
+        "language": "en-US",
+        "text": "walk me through the conversation lifecycle"
+      },
+      {
+        "language": "en-US",
+        "text": "in what order are follow up and topic tried"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the turn pipeline"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در یک نوبت چه اتفاقی می افتد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترتیب خط لوله نوبت چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبل از تطبیق معنایی چه چیزی اجرا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic چه وقت tick می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آخرین مرحله یک نوبت چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرخه حیات مکالمه را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "followup و topic به چه ترتیبی امتحان می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خط لوله نوبت را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the turn pipeline"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the runtime do"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the runtime actually do on a turn"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime دقیقا چه کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "incoming utterance stages runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "what order do the steps of one turn run in"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens step by step inside a single turn"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مراحل یک نوبت به چه ترتیبی اجرا می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل یک نوبت قدم به قدم چه اتفاقی می افتد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime چه کاری می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime در یک نوبت چه کاری انجام می دهد"
+      }
+    ]
+  }
+}

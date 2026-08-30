@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.wire-formats.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.wire-formats.behavior",
+    "meaning": "gvya.help.wire-formats",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Wire v1 carries stable Meaning IDs on semantic score rows. GVYA is pre-publication, so the wire contract is updated in place at version 1: adapters accept only v1 interaction messages and must not infer aliases or silently accept unknown versions."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏wire نسخهٔ ۱ شناسهٔ پایدار Meaning را روی ردیف‌های امتیاز معنایی دارد. GVYA هنوز منتشر نشده، پس قرارداد wire در همان نسخهٔ ۱ درجا به‌روزرسانی می‌شود: آداپترها فقط پیام‌های تعامل نسخهٔ ۱ را می‌پذیرند و نباید نام مستعار بسازند یا نسخه‌های ناشناخته را بی‌سروصدا قبول کنند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.wire-formats.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Nine interaction formats exist at version 1: gvya.runtime.turn and turn-result, gvya.runtime.open, gvya.runtime.capability-result and capability-result-result, gvya.runtime.info, gvya.runtime.capabilities, gvya.runtime.capability-info, and gvya.runtime.asset-info. The separate gvya.runtime.open-options loading contract is version 1 as well."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نُه فرمت تعامل در نسخهٔ ۱ وجود دارد: ‎gvya.runtime.turn‎ و ‎turn-result‎، ‎gvya.runtime.open‎، ‎gvya.runtime.capability-result‎ و ‎capability-result-result‎، ‎gvya.runtime.info‎، ‎gvya.runtime.capabilities‎، ‎gvya.runtime.capability-info‎، و ‎gvya.runtime.asset-info‎. قرارداد مستقل بارگذاری ‎gvya.runtime.open-options‎ هم نسخهٔ ۱ است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

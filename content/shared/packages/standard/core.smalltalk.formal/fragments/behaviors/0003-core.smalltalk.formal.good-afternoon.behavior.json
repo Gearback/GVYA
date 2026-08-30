@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.good-afternoon.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.good-afternoon.behavior",
+    "meaning": "core.smalltalk.formal.good-afternoon",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.good-afternoon.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good afternoon.",
+              "Afternoon.",
+              "I am still here."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بعدازظهر بخیر.",
+              "ظهر بخیر.",
+              "من همچنان اینجا هستم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

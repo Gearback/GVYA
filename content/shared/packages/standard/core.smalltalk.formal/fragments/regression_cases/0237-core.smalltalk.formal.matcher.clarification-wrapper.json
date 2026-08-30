@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.matcher.clarification-wrapper",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Manual matcher coverage with minimal authored samples",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.stop",
+      "response_ids": [
+        "core.smalltalk.formal.stop.response"
+      ]
+    },
+    "generated": false,
+    "id": "core.smalltalk.formal.matcher.clarification-wrapper",
+    "initial_state": {},
+    "input": "what do you mean stop",
+    "language": "en-US",
+    "seed": 1
+  }
+}

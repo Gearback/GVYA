@@ -1,0 +1,51 @@
+{
+  "name": "gvya-foundation",
+  "private": true,
+  "version": "0.0.0-dev",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "check": "tsc -b packages/runtime-sdk apps/studio",
+    "test:studio": "node validation/studio-contract.mjs && node validation/human-authoring-contract.mjs",
+    "build:studio": "tsc -b packages/runtime-sdk apps/studio && npm run build --workspace @gvya/studio",
+    "clean": "tsc -b --clean packages/runtime-sdk apps/studio && node tools/clean.mjs",
+    "test:source": "npm run check && npm run test:sdk && npm run test:godot && npm run test:studio && npm run test:web-export && npm run test:source-export && npm run test:authoring-e2e && npm run test:release-tooling",
+    "validate:source": "node tools/python.mjs tools/validate-source.py",
+    "test:sdk": "node validation/runtime-sdk-contract.mjs",
+    "bootstrap:locks": "node tools/python.mjs tools/release_gate.py bootstrap-locks",
+    "certify:preflight": "node tools/python.mjs tools/release_gate.py preflight",
+    "test:browser": "node validation/browser-acceptance.mjs",
+    "test:web-export": "node validation/web-export-contract.mjs",
+    "test:source-export": "node validation/source-export-contract.mjs",
+    "test:authoring-e2e": "node validation/authoring-e2e/run.mjs --source-proof",
+    "certify:core": "node tools/python.mjs tools/release_gate.py certify",
+    "certify:release": "node tools/python.mjs tools/release_gate.py certify --browser --security",
+    "test:release-tooling": "node tools/python.mjs validation/release-gate-contract.py",
+    "package:release": "node tools/python.mjs tools/release_gate.py package",
+    "certify:archive": "node tools/python.mjs tools/release_gate.py certify-archive --browser --security",
+    "refresh:manifests": "node tools/python.mjs tools/validate-source.py --write-manifests",
+    "predev:studio": "npm run check --silent",
+    "dev:studio": "npm run dev --workspace @gvya/studio",
+    "engine:build:v1": "node tools/python.mjs tools/build_engine_assets.py",
+    "engine:verify:v1": "node tools/python.mjs tools/verify_engine_assets.py",
+    "test:engine": "node validation/studio-engine-contract.mjs",
+    "test:gvya-help": "node validation/gvya-help-bot-contract.mjs",
+    "test:gvya-help:quality": "node validation/gvya-help-bot-contract.mjs --quality-only",
+    "engine:accept:v1": "npm run check && node tools/python.mjs tools/verify_engine_assets.py && node validation/engine-v1-acceptance.mjs",
+    "test:godot": "node validation/godot-adapter-contract.mjs && node validation/godot-web-wasm.mjs && node validation/godot-export-contract.mjs",
+    "benchmark:test1:verify": "node tools/python.mjs benchmarks/test1-equal-authored-evidence/runners/verify_frozen.py --root benchmarks/test1-equal-authored-evidence && node tools/python.mjs benchmarks/test1-equal-authored-evidence/runners/verify_runtime_lock.py --root benchmarks/test1-equal-authored-evidence --repo-root .",
+    "benchmark:test1:gvya": "node benchmarks/test1-equal-authored-evidence/runners/run_gvya.mjs --root benchmarks/test1-equal-authored-evidence --repo-root .",
+    "benchmark:test2:verify": "node tools/python.mjs benchmarks/test2-equal-authoring-budget/runners/verify.py"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.7",
+    "typescript": "5.8.3"
+  }
+}

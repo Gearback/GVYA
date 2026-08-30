@@ -1,0 +1,44 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.funny",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.funny",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "funny"
+      },
+      {
+        "language": "en-US",
+        "text": "haha"
+      },
+      {
+        "language": "en-US",
+        "text": "lol"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خنده‌دار"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هاها"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لول"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خندیدم"
+      }
+    ]
+  }
+}

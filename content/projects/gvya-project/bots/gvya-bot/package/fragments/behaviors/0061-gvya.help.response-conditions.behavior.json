@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.response-conditions.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.response-conditions.behavior",
+    "meaning": "gvya.help.response-conditions",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The conversation namespace exposes readable paths such as activeTopic, topicTtl, activeFollowup, followupTtl, lastMeaning, lastBehavior, lastTopic, turnIndex, repairCount and sameInputCount. Conditions select between responses; they do not replace Behavior-level required or forbidden values."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "فضای نام conversation مسیرهای قابل خواندنی مثل activeTopic، topicTtl، activeFollowup، followupTtl، lastMeaning، lastBehavior، lastTopic، turnIndex، repairCount و sameInputCount را در دسترس می‌گذارد. شرط‌ها بین پاسخ‌ها انتخاب می‌کنند؛ جایگزین مقادیر اجباری یا ممنوعِ سطح Behavior نمی‌شوند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.response-conditions.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Response conditions are typed ValueConditions evaluated after Behavior eligibility, and they choose between the Behavior's responses. Namespaces are author, conversation, context, meaning, system and interaction; operators are exists, missing, equal, not_equal, greater, greater_or_equal, less and less_or_equal."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شرط‌های پاسخ ‎ValueCondition‎های تایپ‌شده‌اند که پس از واجد شرایط بودن Behavior ارزیابی می‌شوند و بین پاسخ‌های همان Behavior انتخاب می‌کنند. فضاهای نام عبارت‌اند از author، conversation، context، meaning، system و interaction؛ عملگرها عبارت‌اند از exists، missing، equal، not_equal، greater، greater_or_equal، less و less_or_equal."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

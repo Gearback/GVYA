@@ -1,0 +1,11 @@
+{
+  "id": "order.submit.binding",
+  "value": {
+    "id": "order.submit.binding",
+    "trigger": {"meaning": "order.create"},
+    "capability": "order.submit",
+    "arguments": [
+      {"target": "count", "source": {"type": "meaning_slot", "name": "count"}}
+    ]
+  }
+}

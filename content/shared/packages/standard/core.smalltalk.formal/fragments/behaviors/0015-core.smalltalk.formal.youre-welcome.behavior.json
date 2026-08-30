@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.youre-welcome.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.youre-welcome.behavior",
+    "meaning": "core.smalltalk.formal.youre-welcome",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.youre-welcome.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Understood.",
+              "All right.",
+              "Good."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "فهمیدم.",
+              "باشه.",
+              "خوب است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

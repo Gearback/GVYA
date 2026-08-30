@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.really.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.really.behavior",
+    "meaning": "core.smalltalk.formal.really",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.really.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Really.",
+              "Yes, really.",
+              "It appears so."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "واقعاً.",
+              "بله، واقعاً.",
+              "چنین به نظر می‌رسد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

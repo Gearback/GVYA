@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.candidate-budget.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.candidate-budget.behavior",
+    "meaning": "gvya.help.candidate-budget",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Retrieval may not hide the runner-up, because the decision layer needs it to tell resolution apart from ambiguity."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "بازیابی حق ندارد نامزد دوم را پنهان کند، چون لایهٔ تصمیم به آن نیاز دارد تا تصمیم قطعی را از ابهام تشخیص دهد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.candidate-budget.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The canonical deterministic candidate budget is 2 to 256, configured per Bot as candidate_limit. A lower bound of two is part of the ambiguity contract."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بودجهٔ قطعی و کانونی نامزدها از ۲ تا ۲۵۶ است و برای هر Bot با ‎candidate_limit‎ تنظیم می‌شود. حد پایینِ دو بخشی از قرارداد ابهام است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

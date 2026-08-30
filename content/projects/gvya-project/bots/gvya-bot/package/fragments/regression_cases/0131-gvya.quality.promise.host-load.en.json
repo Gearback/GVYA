@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.promise.host-load.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A follow-up the Bot promises in gvya.help.architecture must resolve",
+    "expectation": {
+      "meaning": "gvya.help.runtime-integration"
+    },
+    "generated": false,
+    "id": "gvya.quality.promise.host-load.en",
+    "initial_state": {},
+    "input": "how does a host load the compiled artifact?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

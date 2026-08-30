@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.behavior.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A Persian role question resolves to Behavior",
+    "expectation": {
+      "meaning": "gvya.help.behavior"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.behavior.fa",
+    "initial_state": {},
+    "input": "Behavior چه نقشی دارد؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "account.delete",
+  "value": {
+    "id": "account.delete",
+    "samples": [
+      {
+        "language": "en",
+        "text": "delete my account"
+      },
+      {
+        "language": "en",
+        "text": "how do i close my account"
+      },
+      {
+        "language": "en",
+        "text": "remove my account permanently"
+      },
+      {
+        "language": "en",
+        "text": "i want to erase my account"
+      }
+    ]
+  }
+}

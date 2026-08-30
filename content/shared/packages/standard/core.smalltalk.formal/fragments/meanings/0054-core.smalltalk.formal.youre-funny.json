@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.youre-funny",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.youre-funny",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "you're funny"
+      },
+      {
+        "language": "en-US",
+        "text": "you are funny"
+      },
+      {
+        "language": "en-US",
+        "text": "that was funny"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باحالی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بامزه‌ای"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خنده‌دار بود"
+      }
+    ]
+  }
+}

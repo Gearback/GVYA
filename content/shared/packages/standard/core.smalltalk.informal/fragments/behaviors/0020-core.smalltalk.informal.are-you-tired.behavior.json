@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-tired.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.are-you-tired.behavior",
+    "meaning": "core.smalltalk.informal.are-you-tired",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.are-you-tired.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A little. Doesn’t matter.",
+              "Maybe. I can still talk.",
+              "Not enough to stop."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یه کم. مهم نیست.",
+              "شاید. هنوز می‌تونم حرف بزنم.",
+              "اون‌قدر نه که متوقف شم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

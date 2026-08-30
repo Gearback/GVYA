@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.do-you-remember-me",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.do-you-remember-me",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "do you remember me"
+      },
+      {
+        "language": "en-US",
+        "text": "remember me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "منو یادته"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یادت میاد منو"
+      }
+    ]
+  }
+}

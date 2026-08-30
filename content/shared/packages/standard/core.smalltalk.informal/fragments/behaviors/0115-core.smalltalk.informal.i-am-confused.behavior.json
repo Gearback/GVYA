@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-am-confused.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.i-am-confused.behavior",
+    "meaning": "core.smalltalk.informal.i-am-confused",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.i-am-confused.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Then slow it down.",
+              "Confusion is a sign to check the basics.",
+              "Start with one clear thing."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پس آروم‌ترش کن.",
+              "گیجی یعنی باید پایه‌ها رو چک کنی.",
+              "از یک چیز واضح شروع کن."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

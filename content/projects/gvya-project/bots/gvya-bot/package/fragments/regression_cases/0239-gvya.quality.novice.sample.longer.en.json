@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.quality.novice.sample.longer.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Novice natural-language regression: If my sample is just hey, will a longer sentence containing hey still match it?",
+    "expectation": {
+      "meaning": "gvya.help.positive-samples",
+      "response_ids": [
+        "gvya.help.positive-samples.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.quality.novice.sample.longer.en",
+    "initial_state": {},
+    "input": "If my sample is just hey, will a longer sentence containing hey still match it?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

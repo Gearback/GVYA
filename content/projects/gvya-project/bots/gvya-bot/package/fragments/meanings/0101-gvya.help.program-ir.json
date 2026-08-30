@@ -1,0 +1,114 @@
+{
+  "exported": true,
+  "id": "gvya.help.program-ir",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.program-ir",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what entries does an artifact require"
+      },
+      {
+        "language": "en-US",
+        "text": "what are the compiler stages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک آرتیفکت چه entry هایی لازم دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مراحل کامپایلر چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "programjson ir versioned indexes catalog provenance packageorder essential"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برنامه ir نسخه دار ایندکس کاتالوگ منشا ترتیب پکیج"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is program json"
+      },
+      {
+        "language": "en-US",
+        "text": "what is in the compiled ir"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya.program/1"
+      },
+      {
+        "language": "en-US",
+        "text": "are regression tests inside the runtime program"
+      },
+      {
+        "language": "en-US",
+        "text": "does the runtime rebuild the semantic indexes"
+      },
+      {
+        "language": "en-US",
+        "text": "does the ir keep package provenance"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the canonical runtime ir"
+      },
+      {
+        "language": "en-US",
+        "text": "explain program json"
+      },
+      {
+        "language": "fa-IR",
+        "text": "program json چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل ir کامپایل شده چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya.program/1 چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تست های regression داخل برنامه زمان اجرا هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime ایندکس های معنایی را دوباره می سازد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ir منشا پکیج را نگه می دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ir کانونی زمان اجرا چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "program json را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the program ir"
+      },
+      {
+        "language": "fa-IR",
+        "text": "program ir چیست"
+      }
+    ]
+  }
+}

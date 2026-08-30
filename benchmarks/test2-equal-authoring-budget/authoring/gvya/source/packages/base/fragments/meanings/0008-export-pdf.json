@@ -1,0 +1,30 @@
+{
+  "id": "export.pdf",
+  "value": {
+    "id": "export.pdf",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "export pdf"
+      },
+      {
+        "language": "en",
+        "text": "scan to pdf"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i export a scan as pdf"
+      },
+      {
+        "language": "en",
+        "text": "save a document as a pdf"
+      },
+      {
+        "language": "en",
+        "text": "turn a scan into pdf"
+      }
+    ]
+  }
+}

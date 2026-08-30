@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "iot.device.close",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "iot.device.close",
+    "negative_samples": [
+      { "language": "en-US", "text": "close the browser tab" },
+      { "language": "en-US", "text": "close the project" },
+      { "language": "fa-IR", "text": "تب مرورگر را ببند" }
+    ],
+    "references": [
+      {
+        "elicitation": [
+          { "language": "en-US", "text": "Which device should I close?" },
+          { "language": "fa-IR", "text": "کدام دستگاه را ببندم؟" }
+        ],
+        "kind": "iot.device",
+        "required": true
+      }
+    ],
+    "samples": [
+      { "language": "en-US", "text": "close" },
+      { "language": "en-US", "text": "close device" },
+      { "language": "en-US", "text": "close the cover" },
+      { "language": "en-US", "text": "close the blind" },
+      { "language": "en-US", "text": "close the curtain" },
+      { "language": "fa-IR", "text": "دستگاه را ببند" },
+      { "language": "fa-IR", "text": "ببند" },
+      { "language": "fa-IR", "text": "پوشش را ببند" },
+      { "language": "fa-IR", "text": "پرده را ببند" }
+    ]
+  }
+}

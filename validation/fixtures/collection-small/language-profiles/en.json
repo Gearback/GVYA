@@ -1,0 +1,20 @@
+{
+  "format": "gvya.source.language-profile",
+  "version": 1,
+  "language": "en",
+  "profile": {
+    "boolean_values": {
+      "yes": true,
+      "no": false
+    },
+    "custom_entities": {
+      "game.item": {
+        "health_potion": ["health potion", "healing flask"],
+        "iron_sword": ["iron sword", "blade"]
+      }
+    },
+    "relative_dates": {
+      "tomorrow": "tomorrow"
+    }
+  }
+}

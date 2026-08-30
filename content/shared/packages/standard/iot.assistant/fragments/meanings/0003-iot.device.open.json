@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "iot.device.open",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "iot.device.open",
+    "negative_samples": [
+      { "language": "en-US", "text": "open the package" },
+      { "language": "en-US", "text": "open the file" }
+    ],
+    "references": [
+      {
+        "elicitation": [
+          { "language": "en-US", "text": "Which device should I open?" },
+          { "language": "fa-IR", "text": "کدام دستگاه را باز کنم؟" }
+        ],
+        "kind": "iot.device",
+        "required": true
+      }
+    ],
+    "samples": [
+      { "language": "en-US", "text": "open" },
+      { "language": "en-US", "text": "open device" },
+      { "language": "en-US", "text": "open the cover" },
+      { "language": "en-US", "text": "open the blind" },
+      { "language": "en-US", "text": "open the curtain" },
+      { "language": "fa-IR", "text": "دستگاه را باز کن" },
+      { "language": "fa-IR", "text": "باز کن" },
+      { "language": "fa-IR", "text": "پوشش را باز کن" },
+      { "language": "fa-IR", "text": "پرده را باز کن" },
+      { "language": "fa-IR", "text": "پرده اتاق خواب را باز کن" }
+    ]
+  }
+}

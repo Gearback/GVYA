@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.architecture-to-runtime.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Architecture help moves through Package ownership into runtime integration in Persian",
+    "generated": false,
+    "id": "gvya.help.scenario.architecture-to-runtime.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.architecture",
+          "response_ids": [
+            "gvya.help.architecture.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "مسیر کامل از فایل‌های نوشته‌شده تا جواب چیه؟",
+        "seed": 104,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.packages",
+          "response_ids": [
+            "gvya.help.packages.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "فرق shared package با پکیج خود بات چیه؟",
+        "seed": 105,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.runtime-integration",
+          "response_ids": [
+            "gvya.help.runtime-integration.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "loop اصلی میزبان برای اجرای brain کامپایل‌شده چیه؟",
+        "seed": 106,
+        "type": "turn"
+      }
+    ]
+  }
+}

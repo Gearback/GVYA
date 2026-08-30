@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.bot-abilities-overview.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The abilities menu opens its promised overview follow-up in English",
+    "generated": false,
+    "id": "gvya.help.scenario.bot-abilities-overview.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.offer",
+          "meaning": "gvya.help.bot-abilities",
+          "response_ids": [
+            "gvya.help.bot-abilities.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "What can I ask you?",
+        "seed": 85,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "followup",
+          "meaning": "core.smalltalk.formal.yes",
+          "response_ids": [
+            "gvya.dialog.affirm.overview"
+          ]
+        },
+        "language": "en-US",
+        "say": "Yes, show me.",
+        "seed": 86,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.authoring-recipe",
+          "response_ids": [
+            "gvya.help.authoring-recipe.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "What mix of phrasings gives one intent broad natural coverage?",
+        "seed": 87,
+        "type": "turn"
+      }
+    ]
+  }
+}

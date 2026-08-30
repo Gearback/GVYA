@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.compiler-determinism.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.compiler-determinism.behavior",
+    "meaning": "gvya.help.compiler-determinism",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The unsigned artifact cannot depend on wall clock, randomness, locale, filesystem enumeration order, absolute path, process environment, hostname, network, or thread scheduling. Object keys, package graph, entry paths, provenance rows and indexes all have explicit deterministic ordering."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "آرتیفکت امضانشده نمی‌تواند به ساعت سیستم، تصادف، locale، ترتیب پیمایش فایل‌سیستم، مسیر مطلق، محیط پروسه، نام میزبان، شبکه، یا زمان‌بندی نخ‌ها وابسته باشد. کلیدهای اشیا، گراف پکیج، مسیرهای entry، ردیف‌های منشأ و ایندکس‌ها همگی ترتیب قطعی و صریح دارند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.compiler-determinism.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The build result depends only on the exact SourceTree bytes, the compiler version and format rules, explicit build options that are part of semantics, and optionally the signer output for the signed variant."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نتیجهٔ build فقط به بایت‌های دقیق SourceTree، نسخهٔ کامپایلر و قواعد فرمت، گزینه‌های صریح build که بخشی از معناشناسی‌اند، و به‌صورت اختیاری خروجی امضاکننده برای نسخهٔ امضاشده وابسته است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

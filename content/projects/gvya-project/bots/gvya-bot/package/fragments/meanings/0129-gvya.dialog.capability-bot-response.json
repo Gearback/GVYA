@@ -1,0 +1,72 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.capability-bot-response",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.capability-bot-response",
+    "negative_samples": [],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ WHAT ^ BOT ^ SAY ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ BOT ^ ANSWER ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "bot brain response answer after host rejection refuses"
+      },
+      {
+        "language": "fa-IR",
+        "text": "bot brain پاسخ جواب بعد host رد reject"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what does the brain answer after a rejection"
+      },
+      {
+        "language": "en-US",
+        "text": "what response follows a host rejection"
+      },
+      {
+        "language": "en-US",
+        "text": "after the host refuses what can the bot say"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از رد host بات چی جواب میده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر host رد کند پاسخ bot چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از reject بات چه می گوید"
+      },
+      {
+        "language": "en-US",
+        "text": "then what does it say"
+      },
+      {
+        "language": "en-US",
+        "text": "what can the bot say next"
+      },
+      {
+        "language": "en-US",
+        "text": "what answer follows that"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.thats-not-true",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.thats-not-true",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "that's not true"
+      },
+      {
+        "language": "en-US",
+        "text": "false"
+      },
+      {
+        "language": "en-US",
+        "text": "wrong"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دروغه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلطه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اشتباهه"
+      }
+    ]
+  }
+}

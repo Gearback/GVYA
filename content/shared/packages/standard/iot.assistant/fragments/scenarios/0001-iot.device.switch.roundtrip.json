@@ -1,0 +1,70 @@
+{
+  "exported": false,
+  "id": "iot.device.switch.roundtrip",
+  "mode": "add",
+  "value": {
+    "context": {
+      "available_capabilities": [{ "id": "iot.device.switch", "version": "1" }],
+      "values": { "iot": { "confirmation_required": false } },
+      "visible_references": [{ "id": "light.kitchen", "kind": "iot.device" }]
+    },
+    "description": "English and Persian switch intents bind a host device ID and exercise success and failure results.",
+    "generated": false,
+    "id": "iot.device.switch.roundtrip",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "capabilities": [{ "arguments": { "device": "light.kitchen", "state": "on" }, "id": "iot.device.switch", "version": "1" }],
+          "meaning": "iot.device.turn-on",
+          "meaning_references": [{ "id": "light.kitchen", "kind": "iot.device" }],
+          "proposal_receipts": [{ "arguments": { "device": "light.kitchen", "state": "on" }, "id": "iot.device.switch", "outcome": "admitted", "version": "1" }],
+          "response_ids": ["iot.device.turn-on.requested"]
+        },
+        "language": "en-US",
+        "reference_candidates": [
+          { "aliases": ["kitchen light", "چراغ آشپزخانه"], "label": "Kitchen light", "reference": { "id": "light.kitchen", "kind": "iot.device" } }
+        ],
+        "say": "turn on the kitchen light",
+        "seed": 201,
+        "type": "turn"
+      },
+      {
+        "expectation": { "capability_result_accepted": true, "response_ids": ["iot.device.switch.success.response"] },
+        "language": "en-US",
+        "output": { "device": "Kitchen light", "state": "on" },
+        "proposal_capability": "iot.device.switch",
+        "proposal_from_step": 1,
+        "seed": 202,
+        "succeeded": true,
+        "type": "capability_result"
+      },
+      {
+        "expectation": {
+          "capabilities": [{ "arguments": { "device": "light.kitchen", "state": "off" }, "id": "iot.device.switch", "version": "1" }],
+          "meaning": "iot.device.turn-off",
+          "meaning_references": [{ "id": "light.kitchen", "kind": "iot.device" }],
+          "proposal_receipts": [{ "arguments": { "device": "light.kitchen", "state": "off" }, "id": "iot.device.switch", "outcome": "admitted", "version": "1" }],
+          "response_ids": ["iot.device.turn-off.requested"]
+        },
+        "language": "fa-IR",
+        "reference_candidates": [
+          { "aliases": ["چراغ آشپزخانه", "kitchen light"], "label": "چراغ آشپزخانه", "reference": { "id": "light.kitchen", "kind": "iot.device" } }
+        ],
+        "say": "چراغ آشپزخانه را خاموش کن",
+        "seed": 203,
+        "type": "turn"
+      },
+      {
+        "error_code": "device_offline",
+        "expectation": { "capability_result_accepted": true, "response_ids": ["iot.device.switch.failure.response"] },
+        "language": "fa-IR",
+        "proposal_capability": "iot.device.switch",
+        "proposal_from_step": 3,
+        "seed": 204,
+        "succeeded": false,
+        "type": "capability_result"
+      }
+    ]
+  }
+}

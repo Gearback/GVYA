@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.runtime.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Mixed-script capability/runtime wording reaches the general capability Meaning in Persian",
+    "expectation": {
+      "meaning": "gvya.help.capabilities"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.runtime.fa",
+    "initial_state": {},
+    "input": "capability runtime",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

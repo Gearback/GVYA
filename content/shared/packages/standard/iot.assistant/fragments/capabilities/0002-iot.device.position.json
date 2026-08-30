@@ -1,0 +1,38 @@
+{
+  "exported": true,
+  "id": "iot.device.position",
+  "mode": "add",
+  "value": {
+    "contract": {
+      "confirmation_hint": "conditional",
+      "description": "Set one host-resolved cover, blind, door, or similar IoT device to an open or closed position. The host validates that the target supports the requested state.",
+      "effect_class": "reversible",
+      "id": "iot.device.position",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "device": { "maxLength": 160, "minLength": 1, "type": "string" },
+          "position": { "enum": ["open", "closed"], "type": "string" }
+        },
+        "required": ["device", "position"],
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "detail": { "maxLength": 500, "minLength": 1, "type": "string" },
+          "device": { "maxLength": 160, "minLength": 1, "type": "string" },
+          "state": { "maxLength": 160, "minLength": 1, "type": "string" }
+        },
+        "required": ["device", "state"],
+        "type": "object"
+      },
+      "reference_kinds": ["iot.device"],
+      "title": "Position IoT device",
+      "version": "1"
+    },
+    "host_effects": [
+      { "kind": "update", "resource": "iot.device.position", "summary": "Change device open or closed state" }
+    ]
+  }
+}

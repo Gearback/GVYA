@@ -1,0 +1,7 @@
+{
+  "system": "ChatScript 14.1",
+  "cases": 150,
+  "build_ms": 621.562599999379,
+  "source_bytes": 5260,
+  "deterministic_replay": true
+}

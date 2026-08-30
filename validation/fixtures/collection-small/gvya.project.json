@@ -1,0 +1,12 @@
+{
+  "format": "gvya.source.project",
+  "version": 1,
+  "project_id": "collection-fixture",
+  "brain_id": "collection-small-bot",
+  "languages": ["en"],
+  "enabled_languages": ["en"],
+  "default_language": "en",
+  "language_profiles": ["language-profiles/en.json"],
+  "matcher_profiles": ["matcher-profiles/en.json"],
+  "packages": ["packages/base/package.json"]
+}

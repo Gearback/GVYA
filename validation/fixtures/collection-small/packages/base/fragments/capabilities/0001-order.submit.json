@@ -1,0 +1,21 @@
+{
+  "id": "order.submit",
+  "value": {
+    "contract": {
+      "id": "order.submit",
+      "version": "1",
+      "title": "Submit order",
+      "description": "Submit a small fixture order",
+      "input_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {"count": {"type": "number"}},
+        "required": ["count"]
+      },
+      "reference_kinds": [],
+      "effect_class": "pure",
+      "confirmation_hint": "never"
+    },
+    "host_effects": []
+  }
+}

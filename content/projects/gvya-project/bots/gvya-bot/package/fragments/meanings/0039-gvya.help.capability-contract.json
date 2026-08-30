@@ -1,0 +1,245 @@
+{
+  "exported": true,
+  "id": "gvya.help.capability-contract",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.capability-contract",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a capability binding"
+      },
+      {
+        "language": "en-US",
+        "text": "what is admission"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability binding چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "admission چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i fill in the arguments of an action"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرگومان های یک اکشن را چطور پر کنم"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ CAPABILITY ^ CONTRACT ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 30,
+        "text": "^ قرارداد ^ CAPABILITY ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "capabilitycontract declares effectful operation schema version risk"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قرارداد capability عملیات اثرگذار schema نسخه ریسک"
+      },
+      {
+        "language": "en-US",
+        "text": "capability contract fields"
+      },
+      {
+        "language": "en-US",
+        "text": "capability shape policy surface"
+      },
+      {
+        "language": "en-US",
+        "text": "typed action declaration input output schema policy shape capability contract effect operation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تعریف action typed ورودی خروجی schema policy shape capability contract effect operation"
+      },
+      {
+        "language": "en-US",
+        "text": "declare describe operation definition signature input output risk version identity"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اعلام توصیف عملیات تعریف امضا ورودی خروجی ریسک نسخه هویت"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a capability contract"
+      },
+      {
+        "language": "en-US",
+        "text": "what fields does a capability declare"
+      },
+      {
+        "language": "en-US",
+        "text": "how is capability identity defined"
+      },
+      {
+        "language": "en-US",
+        "text": "does a contract contain the implementation"
+      },
+      {
+        "language": "en-US",
+        "text": "what schema profile is used for capability input"
+      },
+      {
+        "language": "en-US",
+        "text": "can a capability schema fetch a remote ref"
+      },
+      {
+        "language": "en-US",
+        "text": "what is capability version"
+      },
+      {
+        "language": "en-US",
+        "text": "explain capability contracts"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability contract چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک capability چه فیلدهایی اعلام می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هویت capability چطور تعریف می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قرارداد شامل پیاده سازی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای ورودی capability چه schema ای استفاده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "schema می تواند ref راه دور بگیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نسخه capability چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قرارداد capability را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قرارداد capability چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "capability shape policy surface"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i declare an action the host can perform"
+      },
+      {
+        "language": "en-US",
+        "text": "is the host code part of the declaration"
+      },
+      {
+        "language": "en-US",
+        "text": "how are the inputs of a declared action described"
+      },
+      {
+        "language": "en-US",
+        "text": "where is the risk level of an action recorded"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اکشنی که میزبان اجرا می کند را چطور اعلام کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ورودی های یک اکشن اعلام شده چطور توصیف می شوند"
+      },
+      {
+        "language": "en-US",
+        "text": "what do i write when i declare an action"
+      },
+      {
+        "language": "en-US",
+        "text": "does declaring an action include writing the code"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i specify the arguments an action accepts"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی یک اکشن اعلام می کنم چه چیزی می نویسم"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i describe an operation the app can perform"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the definition of a tool look like"
+      },
+      {
+        "language": "en-US",
+        "text": "where do i write down what an action needs and returns"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i say this action is risky"
+      },
+      {
+        "language": "en-US",
+        "text": "what makes two versions of an action different"
+      },
+      {
+        "language": "en-US",
+        "text": "do i declare the action or implement it here"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور عملیاتی که برنامه می تواند اجرا کند را توصیف کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تعریف یک ابزار چه شکلی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کجا بنویسم یک اکشن چه ورودی می خواهد و چه بر می گرداند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بگویم این اکشن پرخطر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو نسخه از یک اکشن چه فرقی دارند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اینجا اکشن را اعلام می کنم یا پیاده سازی می کنم"
+      }
+    ]
+  }
+}

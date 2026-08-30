@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.quality.positive-samples.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Positive sample semantics have a dedicated answer distinct from negative samples",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.negative-samples"
+      ],
+      "meaning": "gvya.help.positive-samples"
+    },
+    "generated": false,
+    "id": "gvya.quality.positive-samples.en",
+    "initial_state": {},
+    "input": "How do samples teach a Meaning?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

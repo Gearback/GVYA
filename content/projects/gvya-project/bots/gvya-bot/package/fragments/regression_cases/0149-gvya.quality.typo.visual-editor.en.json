@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.typo.visual-editor.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A single typo is repaired only after the clean visual-editor phrasing is supported",
+    "expectation": {
+      "meaning": "gvya.help.studio"
+    },
+    "generated": false,
+    "id": "gvya.quality.typo.visual-editor.en",
+    "initial_state": {},
+    "input": "Is there a visaul editor?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

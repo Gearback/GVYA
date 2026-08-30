@@ -1,0 +1,72 @@
+{
+  "exported": true,
+  "id": "gvya.help.matcher.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.matcher.behavior",
+    "meaning": "gvya.help.matcher",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Structural patterns are explicit whole-utterance author rules and run first; semantic samples remain fuzzy evidence. If no structural rule wins, exact, phrase-boundary, ordered coverage, and numeric evidence use different tiers, with authored priority only breaking near ties. No embedding service is required."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "Structural patternها rule صریحِ کل utterance هستند و اول اجرا می‌شوند؛ sampleهای semantic همچنان evidence فازی‌اند. اگر rule ساختاری برنده نشود، exact match، مرز عبارت، پوشش ترتیبی و evidence عددی tierهای متفاوت دارند و priority فقط نزدیک tie اثر دارد. سرویس embedding لازم نیست."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "For rule grammar, ask “how do GVYA structural patterns work?”; for a bad match, ask “what should I fix first when a Meaning wins incorrectly?”"
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "برای grammar قانون بپرس «structural patternهای GVYA چطور کار می‌کنند؟»؛ برای match اشتباه بپرس «وقتی یک Meaning اشتباه برنده می‌شود اول چه چیزی را درست کنم؟»"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.matcher.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The matcher first checks eligible explicit structural patterns. A structural winner is authoritative and may bind named String slots. If no structural rule wins, GVYA retrieves a bounded semantic candidate set, scores positive and negative evidence, then resolves only above the Bot threshold and outside its ambiguity margin.",
+              "Matching runs in two stages. Eligible structural patterns are tried first and a structural winner is authoritative, binding any named String slots. Otherwise GVYA pulls a bounded candidate set, scores positive and negative evidence, and resolves only above the Bot threshold and outside the ambiguity margin."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Matcher اول structural patternهای صریح و eligible را بررسی می‌کند. برندهٔ ساختاری authoritative است و می‌تواند String slot نام‌دار را bind کند. اگر rule ساختاری برنده نشود، GVYA مجموعهٔ bounded از candidateهای semantic می‌گیرد، evidence مثبت و منفی را امتیاز می‌دهد و فقط بالای threshold و بیرون ambiguity margin نتیجه می‌دهد.",
+              "تطبیق دو مرحله دارد. اول structural patternهای eligible امتحان می‌شوند و برندهٔ ساختاری authoritative است و String slotهای نام‌دار را bind می‌کند. در غیر این صورت GVYA یک مجموعهٔ bounded از candidate می‌گیرد، evidence مثبت و منفی را امتیاز می‌دهد و فقط بالای threshold و بیرون از ambiguity margin resolve می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

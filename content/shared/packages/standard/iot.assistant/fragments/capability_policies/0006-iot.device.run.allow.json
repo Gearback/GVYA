@@ -1,0 +1,14 @@
+{
+  "exported": true,
+  "id": "iot.device.run.allow",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.run",
+    "conditions": [
+      { "namespace": "context", "op": "equal", "path": "iot.confirmation_required", "value": false }
+    ],
+    "effect": { "type": "allow" },
+    "id": "iot.device.run.allow",
+    "priority": 0
+  }
+}

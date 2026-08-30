@@ -1,0 +1,114 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.discovery-why",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.discovery-why",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is the why report"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گزارش why چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "why useful matter benefit problem prevent design choice discovery"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا مفید مهم فایده مشکل جلوگیری انتخاب طراحی نکته"
+      },
+      {
+        "language": "en-US",
+        "text": "good idea care buy me better goes wrong without"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوب مهم سود بهتر بدون این اتفاق"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "why is that useful"
+      },
+      {
+        "language": "en-US",
+        "text": "why does that matter"
+      },
+      {
+        "language": "en-US",
+        "text": "what problem does that prevent"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا این مفیده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا این مهمه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این جلوی چه مشکلی را می گیرد"
+      },
+      {
+        "language": "en-US",
+        "text": "and why is that a good idea"
+      },
+      {
+        "language": "en-US",
+        "text": "why should i care about that"
+      },
+      {
+        "language": "en-US",
+        "text": "what does that buy me"
+      },
+      {
+        "language": "en-US",
+        "text": "why is that better"
+      },
+      {
+        "language": "en-US",
+        "text": "what goes wrong without it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خب چرا این خوبه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا باید برایم مهم باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این چه سودی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا این بهتر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون این چه اتفاقی می افتد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا مهمه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این چرا مهمه"
+      }
+    ]
+  }
+}

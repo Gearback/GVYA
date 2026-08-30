@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>WHAT IS FOLIOBOX</pattern>
+    <template>BENCH:DEVICE_ABOUT</template>
+  </category>
+  <category>
+    <pattern>EXPLAIN FOLIOBOX</pattern>
+    <template>BENCH:DEVICE_ABOUT</template>
+  </category>
+  <category>
+    <pattern>TELL ME ABOUT FOLIOBOX</pattern>
+    <template>BENCH:DEVICE_ABOUT</template>
+  </category>
+  <category>
+    <pattern>^ WHAT ^ FOLIOBOX ^</pattern>
+    <template>BENCH:DEVICE_ABOUT</template>
+  </category>
+  <category>
+    <pattern>^ FOLIOBOX ^ DO ^</pattern>
+    <template>BENCH:DEVICE_ABOUT</template>
+  </category>
+  <category>
+    <pattern>HOW DO I SCAN ONE PAGE</pattern>
+    <template>BENCH:SCAN_SINGLE</template>
+  </category>
+  <category>
+    <pattern>SCAN A SINGLE SHEET</pattern>
+    <template>BENCH:SCAN_SINGLE</template>
+  </category>
+  <category>
+    <pattern>CAPTURE ONE PAPER PAGE</pattern>
+    <template>BENCH:SCAN_SINGLE</template>
+  </category>
+  <category>
+    <pattern>^ SCAN ^ ONE ^ PAGE ^</pattern>
+    <template>BENCH:SCAN_SINGLE</template>
+  </category>
+  <category>
+    <pattern>^ SINGLE ^ SHEET ^ SCAN ^</pattern>
+    <template>BENCH:SCAN_SINGLE</template>
+  </category>
+  <category>
+    <pattern>HOW DO I SCAN BOTH SIDES OF A PAGE</pattern>
+    <template>BENCH:SCAN_DUPLEX</template>
+  </category>
+  <category>
+    <pattern>SCAN A DOUBLE SIDED SHEET</pattern>
+    <template>BENCH:SCAN_DUPLEX</template>
+  </category>
+  <category>
+    <pattern>CAPTURE FRONT AND BACK TOGETHER</pattern>
+    <template>BENCH:SCAN_DUPLEX</template>
+  </category>
+  <category>
+    <pattern>^ SCAN ^ BOTH ^ SIDES ^</pattern>
+    <template>BENCH:SCAN_DUPLEX</template>
+  </category>
+  <category>
+    <pattern>^ FRONT ^ BACK ^ SCAN ^</pattern>
+    <template>BENCH:SCAN_DUPLEX</template>
+  </category>
+  <category>
+    <pattern>HOW DO I SCAN A RECEIPT</pattern>
+    <template>BENCH:SCAN_RECEIPT</template>
+  </category>
+  <category>
+    <pattern>SCAN NARROW RECEIPT PAPER</pattern>
+    <template>BENCH:SCAN_RECEIPT</template>
+  </category>
+  <category>
+    <pattern>USE RECEIPT SCANNING MODE</pattern>
+    <template>BENCH:SCAN_RECEIPT</template>
+  </category>
+  <category>
+    <pattern>^ SCAN ^ RECEIPT ^</pattern>
+    <template>BENCH:SCAN_RECEIPT</template>
+  </category>
+  <category>
+    <pattern>^ RECEIPT ^ MODE ^</pattern>
+    <template>BENCH:SCAN_RECEIPT</template>
+  </category>
+  <category>
+    <pattern>HOW DO I CHOOSE THE OCR LANGUAGE</pattern>
+    <template>BENCH:OCR_LANGUAGE</template>
+  </category>
+  <category>
+    <pattern>SET THE TEXT RECOGNITION LANGUAGE</pattern>
+    <template>BENCH:OCR_LANGUAGE</template>
+  </category>
+  <category>
+    <pattern>CHANGE RECOGNITION LANGUAGE FOR A SCAN</pattern>
+    <template>BENCH:OCR_LANGUAGE</template>
+  </category>
+  <category>
+    <pattern>^ OCR ^ LANGUAGE ^</pattern>
+    <template>BENCH:OCR_LANGUAGE</template>
+  </category>
+  <category>
+    <pattern>^ RECOGNITION ^ LANGUAGE ^</pattern>
+    <template>BENCH:OCR_LANGUAGE</template>
+  </category>
+  <category>
+    <pattern>DOES TEXT RECOGNITION WORK OFFLINE</pattern>
+    <template>BENCH:OCR_OFFLINE</template>
+  </category>
+  <category>
+    <pattern>TELL ME ABOUT OFFLINE TEXT RECOGNITION</pattern>
+    <template>BENCH:OCR_OFFLINE</template>
+  </category>
+  <category>
+    <pattern>CAN OCR RUN WITHOUT INTERNET</pattern>
+    <template>BENCH:OCR_OFFLINE</template>
+  </category>
+  <category>
+    <pattern>^ OCR ^ OFFLINE ^</pattern>
+    <template>BENCH:OCR_OFFLINE</template>
+  </category>
+  <category>
+    <pattern>^ TEXT RECOGNITION ^ WITHOUT INTERNET ^</pattern>
+    <template>BENCH:OCR_OFFLINE</template>
+  </category>
+  <category>
+    <pattern>HOW DO I CONNECT FOLIOBOX TO WIFI</pattern>
+    <template>BENCH:WIFI_SETUP</template>
+  </category>
+  <category>
+    <pattern>SET UP WIRELESS ON FOLIOBOX</pattern>
+    <template>BENCH:WIFI_SETUP</template>
+  </category>
+  <category>
+    <pattern>JOIN THE DEVICE TO MY NETWORK</pattern>
+    <template>BENCH:WIFI_SETUP</template>
+  </category>
+  <category>
+    <pattern>^ FOLIOBOX ^ WIFI ^</pattern>
+    <template>BENCH:WIFI_SETUP</template>
+  </category>
+  <category>
+    <pattern>^ CONNECT ^ WIRELESS ^ NETWORK ^</pattern>
+    <template>BENCH:WIFI_SETUP</template>
+  </category>
+  <category>
+    <pattern>HOW DO I EXPORT A SCAN AS PDF</pattern>
+    <template>BENCH:EXPORT_PDF</template>
+  </category>
+  <category>
+    <pattern>SAVE A DOCUMENT AS A PDF</pattern>
+    <template>BENCH:EXPORT_PDF</template>
+  </category>
+  <category>
+    <pattern>TURN A SCAN INTO PDF</pattern>
+    <template>BENCH:EXPORT_PDF</template>
+  </category>
+  <category>
+    <pattern>^ EXPORT ^ PDF ^</pattern>
+    <template>BENCH:EXPORT_PDF</template>
+  </category>
+  <category>
+    <pattern>^ SCAN ^ PDF ^</pattern>
+    <template>BENCH:EXPORT_PDF</template>
+  </category>
+  <category>
+    <pattern>HOW DO I MAKE A SEARCHABLE PDF</pattern>
+    <template>BENCH:EXPORT_SEARCHABLE</template>
+  </category>
+  <category>
+    <pattern>MAKE MY SCAN INTO A SEARCHABLE PDF</pattern>
+    <template>BENCH:EXPORT_SEARCHABLE</template>
+  </category>
+  <category>
+    <pattern>EXPORT PDF WITH RECOGNIZED TEXT</pattern>
+    <template>BENCH:EXPORT_SEARCHABLE</template>
+  </category>
+  <category>
+    <pattern>^ SEARCHABLE ^ PDF ^</pattern>
+    <template>BENCH:EXPORT_SEARCHABLE</template>
+  </category>
+  <category>
+    <pattern>^ PDF ^ RECOGNIZED TEXT ^</pattern>
+    <template>BENCH:EXPORT_SEARCHABLE</template>
+  </category>
+  <category>
+    <pattern>ARE SCANS ENCRYPTED ON FOLIOBOX</pattern>
+    <template>BENCH:SECURITY_ENCRYPTION</template>
+  </category>
+  <category>
+    <pattern>IS LOCAL DOCUMENT STORAGE ENCRYPTED</pattern>
+    <template>BENCH:SECURITY_ENCRYPTION</template>
+  </category>
+  <category>
+    <pattern>HOW ARE SAVED SCANS PROTECTED</pattern>
+    <template>BENCH:SECURITY_ENCRYPTION</template>
+  </category>
+  <category>
+    <pattern>^ SCAN ^ ENCRYPTED ^</pattern>
+    <template>BENCH:SECURITY_ENCRYPTION</template>
+  </category>
+  <category>
+    <pattern>^ LOCAL ^ ENCRYPTION ^</pattern>
+    <template>BENCH:SECURITY_ENCRYPTION</template>
+  </category>
+  <category>
+    <pattern>HOW MUCH CAN FOLIOBOX STORE</pattern>
+    <template>BENCH:STORAGE_CAPACITY</template>
+  </category>
+  <category>
+    <pattern>WHAT IS THE LOCAL STORAGE CAPACITY</pattern>
+    <template>BENCH:STORAGE_CAPACITY</template>
+  </category>
+  <category>
+    <pattern>HOW MANY PAGES FIT ON THE DEVICE</pattern>
+    <template>BENCH:STORAGE_CAPACITY</template>
+  </category>
+  <category>
+    <pattern>^ STORAGE ^ CAPACITY ^</pattern>
+    <template>BENCH:STORAGE_CAPACITY</template>
+  </category>
+  <category>
+    <pattern>^ HOW MANY ^ PAGES ^ STORE ^</pattern>
+    <template>BENCH:STORAGE_CAPACITY</template>
+  </category>
+  <category>
+    <pattern>HOW DO I DELETE A SCAN FROM THE DEVICE</pattern>
+    <template>BENCH:STORAGE_DELETE</template>
+  </category>
+  <category>
+    <pattern>REMOVE A SAVED DOCUMENT</pattern>
+    <template>BENCH:STORAGE_DELETE</template>
+  </category>
+  <category>
+    <pattern>DELETE A LOCAL SCAN</pattern>
+    <template>BENCH:STORAGE_DELETE</template>
+  </category>
+  <category>
+    <pattern>^ DELETE ^ SCAN ^</pattern>
+    <template>BENCH:STORAGE_DELETE</template>
+  </category>
+  <category>
+    <pattern>^ REMOVE ^ DOCUMENT ^ DEVICE ^</pattern>
+    <template>BENCH:STORAGE_DELETE</template>
+  </category>
+  <category>
+    <pattern>HOW DO I BACK UP SCANS TO USB</pattern>
+    <template>BENCH:BACKUP_USB</template>
+  </category>
+  <category>
+    <pattern>MAKE A USB BACKUP OF DOCUMENTS</pattern>
+    <template>BENCH:BACKUP_USB</template>
+  </category>
+  <category>
+    <pattern>COPY SCANS TO A USB DRIVE</pattern>
+    <template>BENCH:BACKUP_USB</template>
+  </category>
+  <category>
+    <pattern>^ USB ^ BACKUP ^</pattern>
+    <template>BENCH:BACKUP_USB</template>
+  </category>
+  <category>
+    <pattern>^ BACK UP ^ SCANS ^ USB ^</pattern>
+    <template>BENCH:BACKUP_USB</template>
+  </category>
+  <category>
+    <pattern>HOW DOES CLOUD SYNC WORK</pattern>
+    <template>BENCH:CLOUD_SYNC</template>
+  </category>
+  <category>
+    <pattern>SYNC DOCUMENTS TO THE CLOUD WORKSPACE</pattern>
+    <template>BENCH:CLOUD_SYNC</template>
+  </category>
+  <category>
+    <pattern>WHEN ARE SCANS UPLOADED TO CLOUD</pattern>
+    <template>BENCH:CLOUD_SYNC</template>
+  </category>
+  <category>
+    <pattern>^ CLOUD ^ SYNC ^</pattern>
+    <template>BENCH:CLOUD_SYNC</template>
+  </category>
+  <category>
+    <pattern>^ SYNC ^ DOCUMENTS ^ CLOUD ^</pattern>
+    <template>BENCH:CLOUD_SYNC</template>
+  </category>
+  <category>
+    <pattern>HOW DO I SHARE A DOCUMENT LINK</pattern>
+    <template>BENCH:SHARING_LINK</template>
+  </category>
+  <category>
+    <pattern>CREATE A LINK TO A SYNCED DOCUMENT</pattern>
+    <template>BENCH:SHARING_LINK</template>
+  </category>
+  <category>
+    <pattern>SHARE A DOCUMENT BY URL</pattern>
+    <template>BENCH:SHARING_LINK</template>
+  </category>
+  <category>
+    <pattern>^ SHARE ^ DOCUMENT ^ LINK ^</pattern>
+    <template>BENCH:SHARING_LINK</template>
+  </category>
+  <category>
+    <pattern>^ CREATE ^ LINK ^ DOCUMENT ^</pattern>
+    <template>BENCH:SHARING_LINK</template>
+  </category>
+  <category>
+    <pattern>WHAT DO I DO IF PAPER IS JAMMED</pattern>
+    <template>BENCH:PAPER_JAM</template>
+  </category>
+  <category>
+    <pattern>CLEAR A JAMMED PAGE</pattern>
+    <template>BENCH:PAPER_JAM</template>
+  </category>
+  <category>
+    <pattern>PAPER IS STUCK IN THE FEEDER</pattern>
+    <template>BENCH:PAPER_JAM</template>
+  </category>
+  <category>
+    <pattern>^ PAPER ^ JAM ^</pattern>
+    <template>BENCH:PAPER_JAM</template>
+  </category>
+  <category>
+    <pattern>^ PAPER ^ STUCK ^ FEED ^</pattern>
+    <template>BENCH:PAPER_JAM</template>
+  </category>
+  <category>
+    <pattern>HOW DO I CLEAN THE FEED ROLLERS</pattern>
+    <template>BENCH:ROLLERS_CLEAN</template>
+  </category>
+  <category>
+    <pattern>CLEAN THE DOCUMENT ROLLERS</pattern>
+    <template>BENCH:ROLLERS_CLEAN</template>
+  </category>
+  <category>
+    <pattern>MAINTAIN THE PAPER FEED ROLLERS</pattern>
+    <template>BENCH:ROLLERS_CLEAN</template>
+  </category>
+  <category>
+    <pattern>^ CLEAN ^ ROLLERS ^</pattern>
+    <template>BENCH:ROLLERS_CLEAN</template>
+  </category>
+  <category>
+    <pattern>^ FEED ^ ROLLERS ^ CLEAN ^</pattern>
+    <template>BENCH:ROLLERS_CLEAN</template>
+  </category>
+  <category>
+    <pattern>HOW LONG DOES THE BATTERY LAST</pattern>
+    <template>BENCH:BATTERY_LIFE</template>
+  </category>
+  <category>
+    <pattern>HOW MANY SCANS PER CHARGE</pattern>
+    <template>BENCH:BATTERY_LIFE</template>
+  </category>
+  <category>
+    <pattern>BATTERY RUNTIME WHILE SCANNING</pattern>
+    <template>BENCH:BATTERY_LIFE</template>
+  </category>
+  <category>
+    <pattern>^ BATTERY ^ LAST ^</pattern>
+    <template>BENCH:BATTERY_LIFE</template>
+  </category>
+  <category>
+    <pattern>^ SCANS ^ CHARGE ^</pattern>
+    <template>BENCH:BATTERY_LIFE</template>
+  </category>
+  <category>
+    <pattern>HOW DO I RESTART FOLIOBOX WITHOUT LOSING SCANS</pattern>
+    <template>BENCH:SOFT_RESTART</template>
+  </category>
+  <category>
+    <pattern>RESTART FOLIOBOX WITHOUT DELETING ANYTHING</pattern>
+    <template>BENCH:SOFT_RESTART</template>
+  </category>
+  <category>
+    <pattern>REBOOT AND KEEP MY SCANS</pattern>
+    <template>BENCH:SOFT_RESTART</template>
+  </category>
+  <category>
+    <pattern>^ RESTART ^ WITHOUT ^ LOSING ^</pattern>
+    <template>BENCH:SOFT_RESTART</template>
+  </category>
+  <category>
+    <pattern>^ REBOOT ^ KEEP ^ SCANS ^</pattern>
+    <template>BENCH:SOFT_RESTART</template>
+  </category>
+  <category>
+    <pattern>HOW DO I FACTORY RESET FOLIOBOX</pattern>
+    <template>BENCH:FACTORY_RESET</template>
+  </category>
+  <category>
+    <pattern>RESET FOLIOBOX TO FACTORY SETTINGS</pattern>
+    <template>BENCH:FACTORY_RESET</template>
+  </category>
+  <category>
+    <pattern>WIPE LOCAL SETUP AND START OVER</pattern>
+    <template>BENCH:FACTORY_RESET</template>
+  </category>
+  <category>
+    <pattern>^ FACTORY ^ RESET ^</pattern>
+    <template>BENCH:FACTORY_RESET</template>
+  </category>
+  <category>
+    <pattern>^ WIPE ^ FOLIOBOX ^</pattern>
+    <template>BENCH:FACTORY_RESET</template>
+  </category>
+  <category>
+    <pattern>WHICH SIDE GOES IN FIRST</pattern>
+    <that>BENCH SCAN_DUPLEX</that>
+    <template>BENCH:CONTEXT_DUPLEX_ORIENTATION</template>
+  </category>
+  <category>
+    <pattern>WHICH SIDE SHOULD FACE UP FIRST</pattern>
+    <that>BENCH SCAN_DUPLEX</that>
+    <template>BENCH:CONTEXT_DUPLEX_ORIENTATION</template>
+  </category>
+  <category>
+    <pattern>^ SIDE ^ FIRST ^</pattern>
+    <that>BENCH SCAN_DUPLEX</that>
+    <template>BENCH:CONTEXT_DUPLEX_ORIENTATION</template>
+  </category>
+  <category>
+    <pattern>DOES THAT STILL USE MY SELECTED LANGUAGE</pattern>
+    <that>BENCH OCR_OFFLINE</that>
+    <template>BENCH:CONTEXT_OCR_OFFLINE_LANGUAGE</template>
+  </category>
+  <category>
+    <pattern>DOES OFFLINE OCR KEEP THE CHOSEN LANGUAGE</pattern>
+    <that>BENCH OCR_OFFLINE</that>
+    <template>BENCH:CONTEXT_OCR_OFFLINE_LANGUAGE</template>
+  </category>
+  <category>
+    <pattern>^ LANGUAGE ^ OFFLINE ^</pattern>
+    <that>BENCH OCR_OFFLINE</that>
+    <template>BENCH:CONTEXT_OCR_OFFLINE_LANGUAGE</template>
+  </category>
+  <category>
+    <pattern>IS THAT STILL A NORMAL PDF FILE</pattern>
+    <that>BENCH EXPORT_SEARCHABLE</that>
+    <template>BENCH:CONTEXT_SEARCHABLE_IS_PDF</template>
+  </category>
+  <category>
+    <pattern>IS A SEARCHABLE EXPORT STILL A STANDARD PDF</pattern>
+    <that>BENCH EXPORT_SEARCHABLE</that>
+    <template>BENCH:CONTEXT_SEARCHABLE_IS_PDF</template>
+  </category>
+  <category>
+    <pattern>^ STILL ^ PDF ^</pattern>
+    <that>BENCH EXPORT_SEARCHABLE</that>
+    <template>BENCH:CONTEXT_SEARCHABLE_IS_PDF</template>
+  </category>
+  <category>
+    <pattern>WILL MY SAVED SCANS STILL BE THERE</pattern>
+    <that>BENCH SOFT_RESTART</that>
+    <template>BENCH:CONTEXT_RESTART_PRESERVES</template>
+  </category>
+  <category>
+    <pattern>DOES THAT RESTART KEEP STORED SCANS</pattern>
+    <that>BENCH SOFT_RESTART</that>
+    <template>BENCH:CONTEXT_RESTART_PRESERVES</template>
+  </category>
+  <category>
+    <pattern>^ SCANS ^ STILL ^</pattern>
+    <that>BENCH SOFT_RESTART</that>
+    <template>BENCH:CONTEXT_RESTART_PRESERVES</template>
+  </category>
+  <category>
+    <pattern>DOES THAT ERASE DOCUMENTS ALREADY SYNCED TO CLOUD</pattern>
+    <that>BENCH FACTORY_RESET</that>
+    <template>BENCH:CONTEXT_RESET_CLOUD</template>
+  </category>
+  <category>
+    <pattern>DOES FACTORY RESET DELETE CLOUD COPIES</pattern>
+    <that>BENCH FACTORY_RESET</that>
+    <template>BENCH:CONTEXT_RESET_CLOUD</template>
+  </category>
+  <category>
+    <pattern>^ CLOUD ^ COPIES ^</pattern>
+    <that>BENCH FACTORY_RESET</that>
+    <template>BENCH:CONTEXT_RESET_CLOUD</template>
+  </category>
+  <category>
+    <pattern>*</pattern>
+    <template>BENCH:FALLBACK</template>
+  </category>
+</aiml>

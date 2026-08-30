@@ -1,0 +1,98 @@
+{
+  "exported": true,
+  "id": "gvya.help.positive-samples",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.positive-samples",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what are negative samples"
+      },
+      {
+        "language": "en-US",
+        "text": "what are structural patterns"
+      },
+      {
+        "language": "fa-IR",
+        "text": "negative sample چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i widen the vocabulary that reaches a meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i add keywords to a meaning without full sentences"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بدون جمله کامل به یک meaning کلیدواژه بدهم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "positive sample representative natural utterance semantic evidence meaning paraphrase matching"
+      },
+      {
+        "language": "fa-IR",
+        "text": "positive sample نمونه مثبت جمله طبیعی شاهد معنایی meaning پارافریز تطبیق"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are positive samples"
+      },
+      {
+        "language": "en-US",
+        "text": "how do samples teach a meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a positive sample affect matching"
+      },
+      {
+        "language": "fa-IR",
+        "text": "positive sample چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمونه مثبت چطور meaning را یاد می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a sample"
+      },
+      {
+        "language": "en-US",
+        "text": "what does a sample do"
+      },
+      {
+        "language": "en-US",
+        "text": "if my sample is just hey will a longer sentence containing hey still match it"
+      },
+      {
+        "language": "en-US",
+        "text": "can a short sample match inside a longer sentence"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سمپل یعنی چی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sample یعنی چی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sample چیه"
+      }
+    ]
+  }
+}

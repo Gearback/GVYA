@@ -1,0 +1,30 @@
+{
+  "id": "battery.life",
+  "value": {
+    "id": "battery.life",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "battery life"
+      },
+      {
+        "language": "en",
+        "text": "scans per charge"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how long does the battery last"
+      },
+      {
+        "language": "en",
+        "text": "how many scans per charge"
+      },
+      {
+        "language": "en",
+        "text": "battery runtime while scanning"
+      }
+    ]
+  }
+}

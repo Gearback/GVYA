@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.quality.boundary.why-report.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian meaning-selection wording reaches the Why report, not the Trace record",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.trace"
+      ],
+      "meaning": "gvya.help.why-report"
+    },
+    "generated": false,
+    "id": "gvya.quality.boundary.why-report.fa",
+    "initial_state": {},
+    "input": "چرا آن معنی را انتخاب کرد",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

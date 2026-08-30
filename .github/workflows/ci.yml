@@ -1,0 +1,63 @@
+name: GVYA CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gvya-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  source-and-studio:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Validate clean source boundary
+        run: npm run validate:source
+
+      - name: Install frozen Node dependencies
+        run: npm ci
+
+      - name: Run bounded source test suite
+        run: npm run test:source
+
+      - name: Verify bundled Engine v1 assets
+        run: npm run engine:verify:v1
+
+  rust:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up exact Rust toolchain
+        shell: bash
+        run: |
+          rustup toolchain install 1.85.0 --profile minimal --component rustfmt --target wasm32-unknown-unknown
+          rustup default 1.85.0
+          rustc --version
+          cargo --version
+          rustfmt --version
+
+      - name: Check formatting
+        run: cargo fmt --check
+
+      - name: Check Rust workspace
+        run: cargo check --workspace --locked
+
+      - name: Test Rust workspace
+        run: cargo test --workspace --locked

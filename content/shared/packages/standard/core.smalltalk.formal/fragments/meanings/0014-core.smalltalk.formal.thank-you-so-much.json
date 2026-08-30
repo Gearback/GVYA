@@ -1,0 +1,44 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.thank-you-so-much",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.thank-you-so-much",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "thank you so much"
+      },
+      {
+        "language": "en-US",
+        "text": "really thank you"
+      },
+      {
+        "language": "en-US",
+        "text": "you helped me"
+      },
+      {
+        "language": "en-US",
+        "text": "you saved me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خیلی لطف کردی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واقعا ممنونم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خیلی کمک کردی"
+      }
+    ]
+  }
+}

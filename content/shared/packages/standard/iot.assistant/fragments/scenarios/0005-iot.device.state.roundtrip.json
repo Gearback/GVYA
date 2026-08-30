@@ -1,0 +1,69 @@
+{
+  "exported": false,
+  "id": "iot.device.state.roundtrip",
+  "mode": "add",
+  "value": {
+    "context": {
+      "available_capabilities": [{ "id": "iot.device.state", "version": "1" }],
+      "visible_references": [{ "id": "light.kitchen", "kind": "iot.device" }]
+    },
+    "description": "Pure state reads bind a typed device and exercise success and failure without confirmation policy data.",
+    "generated": false,
+    "id": "iot.device.state.roundtrip",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "capabilities": [{ "arguments": { "device": "light.kitchen" }, "id": "iot.device.state", "version": "1" }],
+          "meaning": "iot.device.state",
+          "meaning_references": [{ "id": "light.kitchen", "kind": "iot.device" }],
+          "proposal_receipts": [{ "arguments": { "device": "light.kitchen" }, "id": "iot.device.state", "outcome": "admitted", "version": "1" }],
+          "response_ids": ["iot.device.state.requested"]
+        },
+        "language": "fa-IR",
+        "reference_candidates": [
+          { "aliases": ["چراغ آشپزخانه", "kitchen light"], "label": "چراغ آشپزخانه", "reference": { "id": "light.kitchen", "kind": "iot.device" } }
+        ],
+        "say": "وضعیت چراغ آشپزخانه را بررسی کن",
+        "seed": 241,
+        "type": "turn"
+      },
+      {
+        "expectation": { "capability_result_accepted": true, "response_ids": ["iot.device.state.success.response"] },
+        "language": "fa-IR",
+        "output": { "device": "چراغ آشپزخانه", "state": "روشن" },
+        "proposal_capability": "iot.device.state",
+        "proposal_from_step": 1,
+        "seed": 242,
+        "succeeded": true,
+        "type": "capability_result"
+      },
+      {
+        "expectation": {
+          "capabilities": [{ "arguments": { "device": "light.kitchen" }, "id": "iot.device.state", "version": "1" }],
+          "meaning": "iot.device.state",
+          "meaning_references": [{ "id": "light.kitchen", "kind": "iot.device" }],
+          "proposal_receipts": [{ "arguments": { "device": "light.kitchen" }, "id": "iot.device.state", "outcome": "admitted", "version": "1" }],
+          "response_ids": ["iot.device.state.requested"]
+        },
+        "language": "en-US",
+        "reference_candidates": [
+          { "aliases": ["kitchen light", "چراغ آشپزخانه"], "label": "Kitchen light", "reference": { "id": "light.kitchen", "kind": "iot.device" } }
+        ],
+        "say": "check the kitchen light status",
+        "seed": 243,
+        "type": "turn"
+      },
+      {
+        "error_code": "device_offline",
+        "expectation": { "capability_result_accepted": true, "response_ids": ["iot.device.state.failure.response"] },
+        "language": "en-US",
+        "proposal_capability": "iot.device.state",
+        "proposal_from_step": 3,
+        "seed": 244,
+        "succeeded": false,
+        "type": "capability_result"
+      }
+    ]
+  }
+}

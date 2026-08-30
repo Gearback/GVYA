@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.about.heldout.en.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "What GVYA is and the product boundary held-out en-US coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.about",
+      "response_ids": [
+        "gvya.help.about.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.about.heldout.en.2",
+    "initial_state": {},
+    "input": "Give me the simple version of this GVYA thing.",
+    "language": "en-US",
+    "seed": 1
+  }
+}

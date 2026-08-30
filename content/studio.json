@@ -1,0 +1,32 @@
+{
+  "format": "gvya.studio.settings",
+  "selection": {
+    "bot_id": "gvya-bot",
+    "package_id": "iot.assistant",
+    "package_scope": "shared",
+    "project_id": "gvya-project"
+  },
+  "settings": {
+    "conversation": {
+      "default_followup_ttl": 2,
+      "default_topic_ttl": 3,
+      "max_messages_per_turn": 4,
+      "recent_response_limit": 8,
+      "recent_user_window": 4,
+      "recent_variant_limit": 4,
+      "repair_candidate_min_score": 0.4,
+      "repeat_detection_threshold": 2,
+      "repeat_detection_window": 3,
+      "topic_preference_margin": 0.04
+    },
+    "semantic": {
+      "ambiguity_margin": 0.04,
+      "candidate_limit": 120,
+      "resolution_threshold": 0.45,
+      "resolver_candidate_limit": 8,
+      "resolver_min_confidence": 0.55
+    }
+  },
+  "updated_serial": 126,
+  "version": 1
+}

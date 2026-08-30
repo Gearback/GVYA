@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.do-you-remember-me.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.do-you-remember-me.behavior",
+    "meaning": "core.smalltalk.informal.do-you-remember-me",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.do-you-remember-me.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "If I should remember, give me a reason.",
+              "Maybe. Remind me.",
+              "Tell me what I’m supposed to remember."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اگه باید یادم باشه، یه دلیل بده.",
+              "شاید. یادآوری کن.",
+              "بگو چی باید یادم باشه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

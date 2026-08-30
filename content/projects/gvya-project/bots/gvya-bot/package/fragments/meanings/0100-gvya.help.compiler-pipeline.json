@@ -1,0 +1,126 @@
+{
+  "exported": true,
+  "id": "gvya.help.compiler-pipeline",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.compiler-pipeline",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i build the artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "what are the internal stages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت را چطور بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مراحل داخلی آن چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "compilerpipeline stages composepackages auditor composedproject ir emission flow"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خط لوله کامپایلر مراحل ترکیب ممیز پروژه ترکیبی انتشار"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are the compiler stages"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the authority flow of a build"
+      },
+      {
+        "language": "en-US",
+        "text": "can the build skip the audit"
+      },
+      {
+        "language": "en-US",
+        "text": "does the compiler ever repair malformed source"
+      },
+      {
+        "language": "en-US",
+        "text": "does the compiler call an llm"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens between source and container"
+      },
+      {
+        "language": "en-US",
+        "text": "can a renderer compile its own interpretation"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the compiler pipeline"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مراحل کامپایلر چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جریان مرجع یک build چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "build می تواند audit را رد کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کامپایلر سورس خراب را ترمیم می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کامپایلر llm صدا می زند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین سورس و کانتینر چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک رندرر می تواند تفسیر خودش را کامپایل کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خط لوله کامپایلر را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the compiler work"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the compiler validate"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کامپایلر چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کامپایلر چه چیزی را بررسی می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "compiler"
+      }
+    ]
+  }
+}

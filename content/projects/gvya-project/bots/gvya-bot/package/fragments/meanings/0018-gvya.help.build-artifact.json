@@ -1,0 +1,472 @@
+{
+  "exported": true,
+  "id": "gvya.help.build-artifact",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.build-artifact",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "the studio editor compiles and chats with the currently selected bot"
+      },
+      {
+        "language": "en-US",
+        "text": "source files linux package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل source پکیج لینوکس"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل pdf دستکاری"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i integrate gvya at runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i test a gvya bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya را چطور به برنامه وصل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات gvya را چطور تست کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "what does a host need to load and talk to a compiled brain"
+      },
+      {
+        "language": "en-US",
+        "text": "how does an application talk to the artifact at runtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان چطور با آرتیفکت حرف می زند"
+      },
+      {
+        "language": "en-US",
+        "text": "test the current bot without cargo"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون cargo بات فعلی را تست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "locale هر بات کجا نگه داشته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از load فایل .gvya میزبان چه request و stateای ردوبدل می‌کنه؟"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خروجی مدل به candidate IDها و confidence محدود می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "asset link اعلام شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سبک پاسخ کاربر source"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سلامت .gvya load بررسی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "build source خروجی باینری تکرارپذیر"
+      },
+      {
+        "language": "en-US",
+        "text": "browser compiler wasm"
+      },
+      {
+        "language": "en-US",
+        "text": "engine wasm rebuild executable contract"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازسازی engine wasm قرارداد اجرایی"
+      },
+      {
+        "language": "en-US",
+        "text": "was the compiled file tampered with"
+      },
+      {
+        "language": "en-US",
+        "text": "what keeps a gvya file safe from silent corruption"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل خروجی zip است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساختار داخلی فایل خروجی چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور مطمئن شوم فایل کامپایل شده دستکاری نشده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل کامپایل شده سالم مانده یا دستکاری شده"
+      },
+      {
+        "language": "en-US",
+        "text": "artifact tamper hash integrity checksum"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دستکاری هش سلامت یکپارچگی artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "artifact signature signing authenticity"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضا اصالت signing artifact"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "^ RESPONSE ^ REBUILD ^ WASM ENGINE ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "compiled artifact"
+      },
+      {
+        "language": "en-US",
+        "text": ".gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "cargo build"
+      },
+      {
+        "language": "en-US",
+        "text": "response rebuild rust portable output resolved bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت کامپایل شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل .gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "cargo build"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جواب rebuild rust قابل حمل خروجی بات کامل"
+      },
+      {
+        "language": "en-US",
+        "text": "persian wording engine binary invalidate"
+      },
+      {
+        "language": "en-US",
+        "text": "command resolved source deployable brain"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متن فارسی engine binary بی اعتبار"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دستور source نهایی brain انتشار"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل خروجی gvya شامل ساخته می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "stored gvya file contents build step creates"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محتوای فایل gvya مرحله ساخت ایجاد خروجی"
+      },
+      {
+        "language": "en-US",
+        "text": "authored source content edit rebuild compiled artifact compiler output not engine"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ویرایش source محتوای authored rebuild آرتیفکت خروجی compiler نه engine"
+      },
+      {
+        "language": "en-US",
+        "text": "compiled brain engine distinction"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "after changing an authored response recompile the gvya artifact not rust engine wasm"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i ship a finished bot"
+      },
+      {
+        "language": "en-US",
+        "text": "build gvya artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i build gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a gvya artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "does bot content need cargo"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the compiler output"
+      },
+      {
+        "language": "en-US",
+        "text": "if i edit one answer what do i rebuild"
+      },
+      {
+        "language": "en-US",
+        "text": "file deploy after compilation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساخت آرتیفکت gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya را چطور build کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه وقت wasm را دوباره build کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تغییر محتوای بات cargo لازم دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "engine wasm متعلق به چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خروجی compiler چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام تغییر قرارداد اجرایی engine wasm را عوض می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر فقط یک جواب رو ویرایش کنم چی رو دوباره بسازم"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i turn the source into a file"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور source را به فایل تبدیل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کامپایل چه چیزی تولید می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i emit the portable output"
+      },
+      {
+        "language": "en-US",
+        "text": "shipping"
+      },
+      {
+        "language": "en-US",
+        "text": "deployment"
+      },
+      {
+        "language": "en-US",
+        "text": "back to shipping"
+      },
+      {
+        "language": "en-US",
+        "text": "lets talk shipping"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انتشار"
+      },
+      {
+        "language": "fa-IR",
+        "text": "shipping"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برگردیم به انتشار"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درباره انتشار بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the .gvya output contain"
+      },
+      {
+        "language": "en-US",
+        "text": "where is the .gvya output produced"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل فایل .gvya چه چیزهایی قرار می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل .gvya در کدام مرحله ساخته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محتوای فایل خروجی gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل خروجی gvya شامل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل خروجی gvya کجا ساخته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل خروجی gvya شامل چیست و کجا ساخته می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the .gvya file store"
+      },
+      {
+        "language": "en-US",
+        "text": "which stage writes the .gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": "what is stored in the compiled .gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": "what gets stored in the gvya artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "which build step creates the gvya artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the compiled gvya artifact contain"
+      },
+      {
+        "language": "en-US",
+        "text": "when is the gvya output file created"
+      },
+      {
+        "language": "en-US",
+        "text": "what does a gvya artifact contain and when is it created"
+      },
+      {
+        "language": "en-US",
+        "text": "what is inside the gvya output and what creates it"
+      },
+      {
+        "language": "en-US",
+        "text": "what is stored in the gvya file and what build stage creates it"
+      },
+      {
+        "language": "en-US",
+        "text": "what goes inside the gvya file and when does the compiler create it"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i ship it"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the final output"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the artifact built"
+      },
+      {
+        "language": "en-US",
+        "text": "artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya brain versus engine"
+      },
+      {
+        "language": "en-US",
+        "text": "compiled brain compared with engine wasm"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya brain engine"
+      },
+      {
+        "language": "en-US",
+        "text": "what portable file comes out of compiling a bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کامپایل یک بات چه فایل قابل حملی بیرون می آید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تغییر content فقط آرتیفکت را دوباره کامپایل می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "compile a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "compile my bot into a gvya artifact"
+      }
+    ]
+  }
+}

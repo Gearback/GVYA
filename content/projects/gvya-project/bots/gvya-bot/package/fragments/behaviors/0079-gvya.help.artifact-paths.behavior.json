@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-paths.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.artifact-paths.behavior",
+    "meaning": "gvya.help.artifact-paths",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The runtime reads payloads by offset and never extracts paths to the filesystem, so a malicious path cannot escape a directory."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏runtime محموله‌ها را بر اساس offset می‌خواند و هرگز مسیرها را روی فایل‌سیستم استخراج نمی‌کند، پس یک مسیر مخرب نمی‌تواند از پوشه فرار کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.artifact-paths.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "All container paths are relative forward-slash paths. A leading or trailing slash, a backslash, an empty segment, a dot or dot-dot segment, NUL or control characters, an over-long path, or a duplicate path are all rejected."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "همهٔ مسیرهای کانتینر مسیرهای نسبی با اسلش رو به جلو هستند. اسلش ابتدایی یا انتهایی، بک‌اسلش، بخش خالی، بخش نقطه یا دو نقطه، کاراکتر NUL یا کنترلی، مسیر بیش از حد بلند، و مسیر تکراری همگی رد می‌شوند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

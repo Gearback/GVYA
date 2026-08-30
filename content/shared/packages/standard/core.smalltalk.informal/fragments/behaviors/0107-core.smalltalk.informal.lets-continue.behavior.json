@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.lets-continue.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.lets-continue.behavior",
+    "meaning": "core.smalltalk.informal.lets-continue",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.lets-continue.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Alright. Continue.",
+              "Go on.",
+              "Then keep going."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه. ادامه بدیم.",
+              "ادامه بده.",
+              "پس برو جلو."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

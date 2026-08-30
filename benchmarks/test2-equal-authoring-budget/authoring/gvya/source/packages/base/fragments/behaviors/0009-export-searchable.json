@@ -1,0 +1,25 @@
+{
+  "id": "export.searchable.behavior",
+  "value": {
+    "id": "export.searchable.behavior",
+    "meaning": "export.searchable",
+    "responses": [
+      {
+        "id": "export.searchable.answer",
+        "opens_followup": {
+          "id": "context.searchable_is_pdf.followup",
+          "refresh_if_same": false,
+          "ttl": 2
+        },
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:EXPORT_SEARCHABLE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

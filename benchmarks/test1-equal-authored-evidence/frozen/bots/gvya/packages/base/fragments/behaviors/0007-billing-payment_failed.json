@@ -1,0 +1,20 @@
+{
+  "id": "billing.payment_failed.behavior",
+  "value": {
+    "id": "billing.payment_failed.behavior",
+    "meaning": "billing.payment_failed",
+    "responses": [
+      {
+        "id": "billing.payment_failed.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:BILLING_PAYMENT_FAILED"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

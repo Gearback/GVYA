@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-like-you.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.i-like-you.behavior",
+    "meaning": "core.smalltalk.informal.i-like-you",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.i-like-you.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That’s good to hear.",
+              "I don’t mind talking to you either.",
+              "Good. Keep it honest."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوبه که می‌گی.",
+              "منم از حرف زدن باهات بدم نمیاد.",
+              "خوبه. صادق بمون."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

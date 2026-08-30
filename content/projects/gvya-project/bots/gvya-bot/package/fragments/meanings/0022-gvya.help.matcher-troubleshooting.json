@@ -1,0 +1,378 @@
+{
+  "exported": true,
+  "id": "gvya.help.matcher-troubleshooting",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.matcher-troubleshooting",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "lock a correct intent with held out regression coverage"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واژه غلط تایپ meaning درست پیدا"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the gvya matcher work"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i test a gvya bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher در gvya چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات gvya را چطور تست کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "proof promoting authored change"
+      },
+      {
+        "language": "en-US",
+        "text": "teach meaning must not match"
+      },
+      {
+        "language": "en-US",
+        "text": "evidence tier lexical numeric similarity hierarchy"
+      },
+      {
+        "language": "en-US",
+        "text": "negative sample neighboring meaning boundary"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "wrong match"
+      },
+      {
+        "language": "en-US",
+        "text": "no match"
+      },
+      {
+        "language": "en-US",
+        "text": "ambiguous meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "sample coverage"
+      },
+      {
+        "language": "en-US",
+        "text": "intent neighbor losing tune phrase evidence resolution"
+      },
+      {
+        "language": "fa-IR",
+        "text": "match اشتباه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "no match"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning مبهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پوشش sample"
+      },
+      {
+        "language": "fa-IR",
+        "text": "intent همسایه باخت تنظیم عبارت evidence resolution"
+      },
+      {
+        "language": "en-US",
+        "text": "query under threshold diagnose correct intent"
+      },
+      {
+        "language": "en-US",
+        "text": "two meanings tie same words change"
+      },
+      {
+        "language": "fa-IR",
+        "text": "query زیر threshold عیب یابی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو meaning کلمه tie تغییر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "intent درست match نمیشه sample matcher code"
+      },
+      {
+        "language": "en-US",
+        "text": "nearby neighbouring related steals input wrong subject answered instead of correct"
+      },
+      {
+        "language": "fa-IR",
+        "text": "همسایه نزدیک مرتبط دزدیدن ورودی موضوع اشتباه به جای درست"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "fix gvya matching"
+      },
+      {
+        "language": "en-US",
+        "text": "why is my meaning not matching"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i improve matcher accuracy"
+      },
+      {
+        "language": "en-US",
+        "text": "my samples are ambiguous"
+      },
+      {
+        "language": "en-US",
+        "text": "why did the wrong intent win"
+      },
+      {
+        "language": "en-US",
+        "text": "how many samples should i add"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i fix no match"
+      },
+      {
+        "language": "en-US",
+        "text": "why does the bot keep picking the wrong thing"
+      },
+      {
+        "language": "en-US",
+        "text": "similar phrases solve no match"
+      },
+      {
+        "language": "en-US",
+        "text": "phrases solve no match"
+      },
+      {
+        "language": "en-US",
+        "text": "which evidence should i fix first when two meanings are confused"
+      },
+      {
+        "language": "en-US",
+        "text": "meaning confused with another fix first"
+      },
+      {
+        "language": "en-US",
+        "text": "what should i inspect first when the right meaning scores below the floor"
+      },
+      {
+        "language": "en-US",
+        "text": "repair meaning below score floor"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رفع مشکل match در gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا meaning من match نمی شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دقت matcher را چطور بهتر کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sample های من ambiguous هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا intent اشتباه برنده شد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چند sample باید اضافه کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "no match را چطور درست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام evidence tier باعث resolution اشتباه شد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا بات هی چیز اشتباه رو انتخاب می کنه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "intent به همسایه می بازه تنظیم کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "no match جمله یکسان اضافه کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "no match جمله"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی meaning درست زیر کف score می ماند اول کدام evidence را اصلاح کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تعمیر meaning زیر کف score"
+      },
+      {
+        "language": "en-US",
+        "text": "it keeps answering the wrong thing"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i fix a bad match"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مدام جواب اشتباه می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک match بد را درست کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "what if a meaning wins incorrectly"
+      },
+      {
+        "language": "en-US",
+        "text": "the wrong meaning keeps winning"
+      },
+      {
+        "language": "en-US",
+        "text": "my meaning is not matching"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا جواب اشتباه داد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning اشتباه برنده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning من match نمی شود"
+      },
+      {
+        "language": "en-US",
+        "text": "what do i fix first when a rule steals input"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اول چه چیزی را درست کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "a nearby meaning keeps stealing my input"
+      },
+      {
+        "language": "en-US",
+        "text": "the neighbouring meaning wins instead of mine"
+      },
+      {
+        "language": "en-US",
+        "text": "the bot answers a related but wrong subject"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک meaning همسایه ورودی من را می دزدد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معنی کناری به جای معنی درست برنده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات یک موضوع مرتبط ولی اشتباه را جواب می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "what should i change first"
+      },
+      {
+        "language": "en-US",
+        "text": "what do i fix first"
+      },
+      {
+        "language": "en-US",
+        "text": "where do i start fixing a bad match"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اول چه چیزی را بررسی کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا شروع به رفع مشکل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اول چه چیزی را عوض کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i separate two meanings that share the same words"
+      },
+      {
+        "language": "en-US",
+        "text": "two meanings cover the same wording what do i change"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو معنی کلمات مشترک دارند چطور جدایشان کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو معنی یک عبارت را پوشش می دهند چه چیزی را عوض کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معنی اشتباه برنده می شود چه کار کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی جواب اشتباه می دهد از کجا شروع کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "make matching less brittle"
+      },
+      {
+        "language": "en-US",
+        "text": "my bot keeps falling back even though i wrote a similar sample why"
+      },
+      {
+        "language": "en-US",
+        "text": "why does my bot fallback when i have a similar sample"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگه مچ اشتباه باشه چی کار کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر match اشتباه باشد چه کار کنم"
+      }
+    ]
+  }
+}

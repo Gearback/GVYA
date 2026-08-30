@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.matcher-troubleshooting.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.matcher-troubleshooting.behavior",
+    "meaning": "gvya.help.matcher-troubleshooting",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Use negatives for real confounders and Matcher Profiles for reusable language rules. If useful near-misses sit below the normal threshold, compare their scores with close/off-domain confounders, put a separate repair floor only inside a real gap, and opt in only safe Behaviors. Then ask where to inspect why the candidate won."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "برای confounder واقعی negative و برای قاعدهٔ reusable زبانی Matcher Profile استفاده کن. اگر near-missهای مفید زیر threshold عادی‌اند، score آن‌ها را با confounderهای نزدیک و off-domain مقایسه کن، repair floor جدا را فقط داخل gap واقعی بگذار و فقط Behavior امن را opt-in کن. بعد بپرس دلیل برد candidate را کجا ببینم."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.matcher-troubleshooting.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "First verify the Meaning boundary, then inspect the Why trace against its closest neighbor. Add a discriminative natural sample or semantic spine—not punctuation variants or keyword bags."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اول مرز Meaning را بررسی کن، بعد Why trace را با نزدیک‌ترین رقیب مقایسه کن. یک sample طبیعی متمایز یا semantic spine اضافه کن، نه variant نگارشی یا کیسهٔ کلمه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

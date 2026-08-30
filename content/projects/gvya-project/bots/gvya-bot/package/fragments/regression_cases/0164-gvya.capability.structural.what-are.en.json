@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.what-are.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A plural what-are capabilities question reaches the general capability Meaning",
+    "expectation": {
+      "meaning": "gvya.help.capabilities"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.what-are.en",
+    "initial_state": {},
+    "input": "what are capabilities for?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

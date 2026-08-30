@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.admission.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.admission.behavior",
+    "meaning": "gvya.help.admission",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The three outcomes are Admitted, NeedsConfirmation and Rejected. Semantic ambiguity is resolved upstream and stays separately traceable."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "سه نتیجه وجود دارد: Admitted، NeedsConfirmation و Rejected. ابهام معنایی بالادست حل می‌شود و جداگانه قابل ردیابی می‌ماند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.admission.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Admission is the deterministic pipeline between a proposed binding and a host-visible proposal. In order: the capability is declared by the brain; arguments bind without unresolved ambiguity; arguments conform to the compiled schema; the host snapshot exposes that exact CapabilityId and version; policy permits, denies or requires confirmation; and any required confirmation matches the exact proposal fingerprint."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Admission خط لولهٔ قطعی میان یک binding پیشنهادی و پیشنهاد قابل‌مشاهده برای میزبان است. به ترتیب: capability توسط brain اعلام شده باشد؛ آرگومان‌ها بدون ابهام حل‌نشده بایند شوند؛ آرگومان‌ها با schema کامپایل‌شده منطبق باشند؛ snapshot میزبان همان CapabilityId و نسخهٔ دقیق را نشان دهد؛ policy اجازه، رد یا تأیید بخواهد؛ و تأیید لازم با اثرانگشت دقیق همان پیشنهاد منطبق باشد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

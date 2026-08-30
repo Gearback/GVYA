@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.maybe",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.maybe",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "maybe"
+      },
+      {
+        "language": "en-US",
+        "text": "not sure"
+      },
+      {
+        "language": "en-US",
+        "text": "i'm not sure"
+      },
+      {
+        "language": "en-US",
+        "text": "perhaps"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شاید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مطمئن نیستم"
+      }
+    ]
+  }
+}

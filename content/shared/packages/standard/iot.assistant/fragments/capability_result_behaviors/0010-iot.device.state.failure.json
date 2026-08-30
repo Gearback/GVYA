@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "iot.device.state.failure",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.state",
+    "capability_version": "1",
+    "id": "iot.device.state.failure",
+    "responses": [
+      {
+        "id": "iot.device.state.failure.response",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device state could not be read."] },
+          { "language": "fa-IR", "variants": ["خواندن وضعیت دستگاه انجام نشد."] }
+        ]
+      }
+    ],
+    "succeeded": false
+  }
+}

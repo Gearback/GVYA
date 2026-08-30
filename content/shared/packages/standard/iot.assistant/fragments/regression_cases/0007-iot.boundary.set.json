@@ -1,0 +1,16 @@
+{
+  "exported": false,
+  "id": "iot.boundary.set",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Creating a reminder must not become an IoT property action.",
+    "expectation": { "forbidden_meanings": ["iot.device.set"] },
+    "generated": false,
+    "id": "iot.boundary.set",
+    "initial_state": {},
+    "input": "set a reminder",
+    "language": "en-US",
+    "seed": 107
+  }
+}

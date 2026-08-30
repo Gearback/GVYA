@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.openings.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.openings.behavior",
+    "meaning": "gvya.help.openings",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "It never fabricates a Meaning: an opening is a response, not a semantic result."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هرگز Meaning جعلی نمی‌سازد: یک opening یک پاسخ است، نه نتیجهٔ معنایی."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.openings.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "An Opening is an authored OpeningDefinition invoked through open(), letting the host start a conversation before any user input. It supports a topic, topic TTL, effects and follow-up directives."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Opening همان ‎OpeningDefinition‎ نوشته‌شده است که از طریق ‎open()‎ فراخوانی می‌شود و به میزبان اجازه می‌دهد پیش از هر ورودی کاربر مکالمه را شروع کند. از topic، TTL مربوط به topic، effect و دستورهای follow-up پشتیبانی می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

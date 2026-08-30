@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.short.bot.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian short Bot question routes directly",
+    "expectation": {
+      "meaning": "gvya.help.projects-bots",
+      "response_ids": [
+        "gvya.help.projects-bots.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.short.bot.fa",
+    "initial_state": {},
+    "input": "بات چیه",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

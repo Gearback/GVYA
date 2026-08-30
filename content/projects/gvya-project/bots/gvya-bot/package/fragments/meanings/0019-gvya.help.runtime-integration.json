@@ -1,0 +1,379 @@
+{
+  "exported": true,
+  "id": "gvya.help.runtime-integration",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.runtime-integration",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "locale انتخابی هر بات در تنظیمات خودش کجا نگه داشته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پرامپت و api key نویسندگی هوش مصنوعی کجا ذخیره می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "how does gvya work"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i build gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya را چطور build کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host runtime wire contract"
+      },
+      {
+        "language": "fa-IR",
+        "text": "turn request runtime فیلد"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ TYPESCRIPT ^ آرتیفکت ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "RUNTIME"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "IS THERE ^ SDK ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "DOES ^ GVYA ^ HAVE ^ SDK ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "wire browser runtime application embed integration"
+      },
+      {
+        "language": "en-US",
+        "text": "runtime sdk"
+      },
+      {
+        "language": "en-US",
+        "text": "typescript sdk"
+      },
+      {
+        "language": "en-US",
+        "text": "godot adapter"
+      },
+      {
+        "language": "en-US",
+        "text": "c abi"
+      },
+      {
+        "language": "en-US",
+        "text": "wasm host"
+      },
+      {
+        "language": "en-US",
+        "text": "compiled brain loop web app game state load"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime sdk"
+      },
+      {
+        "language": "fa-IR",
+        "text": "typescript sdk"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اتصال godot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "c abi"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان wasm"
+      },
+      {
+        "language": "fa-IR",
+        "text": "brain کامپایل شده loop وب برنامه بازی state load"
+      },
+      {
+        "language": "en-US",
+        "text": "host save after every turn state"
+      },
+      {
+        "language": "en-US",
+        "text": "typescript app open converse artifact"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان بعد هر turn نگه state"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برنامه typescript آرتیفکت باز حرف"
+      },
+      {
+        "language": "en-US",
+        "text": "embed runtime host app integration compiled brain load open turns persist state sdk adapter"
+      },
+      {
+        "language": "fa-IR",
+        "text": "embed runtime host app integration brain کامپایل load open turn ذخیره state sdk adapter"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "a typescript host loads the gvya artifact sends turns and receives state"
+      },
+      {
+        "language": "en-US",
+        "text": "after artifact load the host exchanges a turn request and persisted conversation state"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برنامه TypeScript آرتیفکت را load می کند و turn و state ردوبدل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از load آرتیفکت میزبان turn request می فرستد و state برگشتی را نگه می دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "integrate gvya runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i integrate gvya at runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "which runtimes does gvya support"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a typescript sdk"
+      },
+      {
+        "language": "en-US",
+        "text": "can i use gvya with godot"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i load a gvya artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "rust c wasm integration"
+      },
+      {
+        "language": "en-US",
+        "text": "what stateful host contract surrounds a runtime turn"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i put the gvya brain inside my game"
+      },
+      {
+        "language": "en-US",
+        "text": "host loop running compiled brain"
+      },
+      {
+        "language": "en-US",
+        "text": "application open file"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اتصال runtime gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya را چطور به برنامه وصل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چه runtime هایی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sdk تایپ اسکریپت دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم gvya را با godot استفاده کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت gvya را چطور load کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اتصال rust c wasm"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه قرارداد stateful میزبان دور runtime turn وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان در هر turn چه request ای به runtime می دهد و چه state ای پس می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور brain گویا رو داخل بازیم بذارم"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i wire it into my application"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the host have to pass in"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور آن را به برنامه ام وصل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان چه چیزی باید بدهد"
+      },
+      {
+        "language": "en-US",
+        "text": "what does an application need in order to load and use the brain"
+      },
+      {
+        "language": "en-US",
+        "text": "back to runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "lets talk runtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برگردیم به runtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درباره runtime بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a host load the compiled artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "how does my app load it"
+      },
+      {
+        "language": "en-US",
+        "text": "which host languages are supported"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برنامه من چطور آن را بارگذاری می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بات را روی برنامه ام سوار کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از چه زبان هایی برای host پشتیبانی می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i embed a compiled brain in my own program"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the host responsible for at runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the smallest integration i need to write"
+      },
+      {
+        "language": "en-US",
+        "text": "can i drive gvya from a server backend"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مغز کامپایل شده را چطور داخل برنامه خودم جا بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان در زمان اجرا مسئول چه چیزی است"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i wire the runtime into a web service"
+      },
+      {
+        "language": "en-US",
+        "text": "where does the runtime fit"
+      },
+      {
+        "language": "en-US",
+        "text": "where does the runtime sit in all of this"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime کجای این ماجرا قرار می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime دقیقا کجا وارد می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i connect this to a web app"
+      },
+      {
+        "language": "en-US",
+        "text": "can i use this in godot"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i connect gvya to my app"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya را چطور به وب وصل کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "How is the browser runtime wired into an application?"
+      }
+    ]
+  }
+}

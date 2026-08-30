@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.requires-forbidden.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.requires-forbidden.behavior",
+    "meaning": "gvya.help.requires-forbidden",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The asymmetry is deliberate: a missing value does not block a forbidden check, so absence never accidentally denies a Behavior."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "این عدم تقارن عمدی است: مقدار غایب بررسی ممنوع را مسدود نمی‌کند، پس نبودِ یک مقدار هرگز تصادفاً یک Behavior را رد نمی‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.requires-forbidden.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "requires_values makes a Behavior eligible only when every listed exact typed value matches. forbidden_values makes it ineligible when any listed value matches exactly."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏requires_values باعث می‌شود یک Behavior فقط وقتی واجد شرایط باشد که هر مقدار دقیق و تایپ‌شدهٔ فهرست‌شده منطبق باشد. ‎forbidden_values‎ وقتی هر مقدار فهرست‌شده دقیقاً منطبق باشد آن را ناواجد شرایط می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

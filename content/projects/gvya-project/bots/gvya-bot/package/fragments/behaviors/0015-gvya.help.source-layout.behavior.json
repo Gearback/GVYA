@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.source-layout.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.source-layout.behavior",
+    "meaning": "gvya.help.source-layout",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "A Project folder preserves Project- and Bot-owned authoring only. Referenced Shared Packages and profiles remain in Shared, so move the required Shared library with the Project—or build the resolved .gvya artifact for runtime distribution."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "پوشهٔ Project فقط authoring متعلق به Project و Bot را نگه می‌دارد. Shared Package و profileهای referenceشده در Shared می‌مانند؛ پس برای انتقال authoring، کتابخانهٔ Shared لازم را هم منتقل کن—یا برای توزیع runtime فایل resolved .gvya را build کن."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.source-layout.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A portable Project folder contains project.json, paired language-profiles/ and matcher-profiles/, packages/, and bots/. Each Bot has bot.json plus its own package/package.json."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Project قابل‌حمل شامل project.json، دو پوشهٔ جفت‌شدهٔ language-profiles و matcher-profiles، به‌علاوهٔ packages و bots است. هر Bot یک bot.json و یک package/package.json مخصوص خودش دارد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

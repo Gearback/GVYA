@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.happy-birthday",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.happy-birthday",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "happy birthday"
+      },
+      {
+        "language": "en-US",
+        "text": "birthday"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تولدت مبارک"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تولد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تولدمه"
+      }
+    ]
+  }
+}

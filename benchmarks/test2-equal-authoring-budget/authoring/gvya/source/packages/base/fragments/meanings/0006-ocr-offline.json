@@ -1,0 +1,30 @@
+{
+  "id": "ocr.offline",
+  "value": {
+    "id": "ocr.offline",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "offline ocr"
+      },
+      {
+        "language": "en",
+        "text": "text recognition offline"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "does text recognition work offline"
+      },
+      {
+        "language": "en",
+        "text": "tell me about offline text recognition"
+      },
+      {
+        "language": "en",
+        "text": "can ocr run without internet"
+      }
+    ]
+  }
+}

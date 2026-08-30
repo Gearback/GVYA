@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-like-you.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.i-like-you.behavior",
+    "meaning": "core.smalltalk.formal.i-like-you",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.i-like-you.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That is good to hear.",
+              "I do not mind speaking with you either.",
+              "Good. Keep it honest."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شنیدن این خوب است.",
+              "من هم از صحبت با شما بدم نمی‌آید.",
+              "خوب است. صادق بمانید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

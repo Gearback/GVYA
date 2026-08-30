@@ -1,0 +1,202 @@
+{
+  "exported": true,
+  "id": "gvya.help.language-selection",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.language-selection",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "غلط گیر املایی چطور واژه پیشنهادی را انتخاب می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط گیر واژه فارسی پیشنهادی را انتخاب می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "موتور شطرنج حرکت انتخاب"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a matcher profile"
+      },
+      {
+        "language": "en-US",
+        "text": "what languages does the bot support"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher profile چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات چه زبان هایی را پشتیبانی می کند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "language selected response locale selection"
+      },
+      {
+        "language": "en-US",
+        "text": "language selection active default enabled base tag silent"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انتخاب زبان فعال پیش فرض مجاز تگ پایه خاموش"
+      },
+      {
+        "language": "en-US",
+        "text": "runtime language variant"
+      },
+      {
+        "language": "en-US",
+        "text": "which language reply answer chosen switch active default request language"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام زبان جواب پاسخ انتخاب عوض کردن زبان فعال پیش فرض"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how does it pick the response language"
+      },
+      {
+        "language": "en-US",
+        "text": "what is active_language"
+      },
+      {
+        "language": "en-US",
+        "text": "can the host force a language"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens with an unknown language tag"
+      },
+      {
+        "language": "en-US",
+        "text": "how do base tags fall back"
+      },
+      {
+        "language": "en-US",
+        "text": "does the selected response language change the session"
+      },
+      {
+        "language": "en-US",
+        "text": "what if no candidate language exists"
+      },
+      {
+        "language": "en-US",
+        "text": "explain language selection"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان پاسخ چطور انتخاب می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "active_language چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان می تواند زبان را اجبار کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "با یک تگ زبان ناشناخته چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تگ پایه چطور fallback می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان پاسخ انتخاب شده جلسه را عوض می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر هیچ زبان نامزدی نباشد چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انتخاب زبان را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "does it support persian"
+      },
+      {
+        "language": "en-US",
+        "text": "what languages can a bot speak"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the language chosen"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آیا از فارسی پشتیبانی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک بات چه زبان هایی می تواند داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان چطور انتخاب می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya support persian"
+      },
+      {
+        "language": "en-US",
+        "text": "can a bot speak two languages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya از فارسی پشتیبانی می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "runtime language variant"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it decide which language to reply in"
+      },
+      {
+        "language": "en-US",
+        "text": "what picks the language of the answer"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i switch the conversation to another language"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens if i do not say which language i am using"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات چطور تصمیم می گیرد به چه زبانی جواب بدهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور زبان مکالمه را عوض کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر زبانم را مشخص نکنم چه می شود"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.runtime-integration.heldout.fa.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Embedding the runtime through supported host edges held-out fa-IR coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.runtime-integration",
+      "response_ids": [
+        "gvya.help.runtime-integration.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.runtime-integration.heldout.fa.2",
+    "initial_state": {},
+    "input": "هم وب‌اپ و هم بازی Godot می‌تونن میزبان GVYA باشن؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

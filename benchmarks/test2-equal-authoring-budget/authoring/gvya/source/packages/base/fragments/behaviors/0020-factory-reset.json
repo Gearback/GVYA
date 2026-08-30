@@ -1,0 +1,25 @@
+{
+  "id": "factory.reset.behavior",
+  "value": {
+    "id": "factory.reset.behavior",
+    "meaning": "factory.reset",
+    "responses": [
+      {
+        "id": "factory.reset.answer",
+        "opens_followup": {
+          "id": "context.reset_cloud.followup",
+          "refresh_if_same": false,
+          "ttl": 2
+        },
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:FACTORY_RESET"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

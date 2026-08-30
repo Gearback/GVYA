@@ -1,0 +1,20 @@
+{
+  "id": "weather.ask.behavior",
+  "value": {
+    "id": "weather.ask.behavior",
+    "meaning": "weather.ask",
+    "responses": [
+      {
+        "id": "weather.ask.behavior.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "Weather changed."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

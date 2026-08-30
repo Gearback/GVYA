@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.use-cases.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural Persian use-case summary reaches use cases",
+    "expectation": {
+      "meaning": "gvya.help.use-cases"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.use-cases.fa",
+    "initial_state": {},
+    "input": "خلاصه بگو GVYA به چه درد می‌خوره",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

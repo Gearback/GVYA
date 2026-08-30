@@ -1,0 +1,87 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.summary",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.summary",
+    "negative_samples": [],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ SUMMARIZE ^ SENTENCE ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ SUMMARY ^ SENTENCE ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 40,
+        "text": "^ یک جمله ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ SINGLE SENTENCE ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ ONE SENTENCE ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "summary summarize one sentence briefly short version"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خلاصه جمع بندی یک جمله کوتاه"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "give me the one sentence version"
+      },
+      {
+        "language": "en-US",
+        "text": "sum that up briefly"
+      },
+      {
+        "language": "en-US",
+        "text": "compress that into one sentence"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در یک جمله جمع بندیش کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خیلی کوتاه خلاصه اش کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک جمله ای بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "summarize it in a sentence"
+      },
+      {
+        "language": "en-US",
+        "text": "one sentence summary please"
+      },
+      {
+        "language": "en-US",
+        "text": "sum this up in one line"
+      }
+    ]
+  }
+}

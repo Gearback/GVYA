@@ -1,0 +1,24 @@
+{
+  "id": "shipping.address_change",
+  "value": {
+    "id": "shipping.address_change",
+    "samples": [
+      {
+        "language": "en",
+        "text": "change my shipping address"
+      },
+      {
+        "language": "en",
+        "text": "update the delivery address"
+      },
+      {
+        "language": "en",
+        "text": "send my order to a different address"
+      },
+      {
+        "language": "en",
+        "text": "how do i correct the shipping address"
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "exported": true,
+  "id": "gvya.help.identity",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.identity",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what can you do"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کارهایی می توانی انجام دهی"
+      },
+      {
+        "language": "en-US",
+        "text": "who approves and executes the action proposal"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی proposal اکشن را تایید و اجرا می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی capability را اجرا می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "what kind of work is it good for"
+      },
+      {
+        "language": "en-US",
+        "text": "what kind of products suit it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای چه جور کاری خوب است"
+      },
+      {
+        "language": "en-US",
+        "text": "what is this tool good for"
+      },
+      {
+        "language": "en-US",
+        "text": "what is it useful for"
+      },
+      {
+        "language": "en-US",
+        "text": "what problems is it for"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این ابزار به چه دردی می خورد"
+      },
+      {
+        "language": "en-US",
+        "text": "help bot subject coverage"
+      },
+      {
+        "language": "en-US",
+        "text": "subjects help bot answer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "template پاسخ کاربرد"
+      },
+      {
+        "language": "en-US",
+        "text": "prime minister"
+      },
+      {
+        "language": "en-US",
+        "text": "what can this bot do for my app"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این بات برای برنامه من چه کاری می تواند بکند"
+      },
+      {
+        "language": "en-US",
+        "text": "will this bot still understand intents with no ai service connected"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون سرویس هوش مصنوعی هم منظور را می فهمد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "bot role introduction self description"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هویت این دستیار"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقش و معرفی بات"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معرفی و هویت خود بات"
+      },
+      {
+        "language": "en-US",
+        "text": "assistant identity speaker persona"
+      },
+      {
+        "language": "en-US",
+        "text": "introduce yourself self description"
+      },
+      {
+        "language": "fa-IR",
+        "text": "طرف صحبت گفتگو چه چیزی کی هستی معرفی نقش دستیار بات"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "who are you"
+      },
+      {
+        "language": "en-US",
+        "text": "what are you exactly"
+      },
+      {
+        "language": "en-US",
+        "text": "who am i talking to"
+      },
+      {
+        "language": "en-US",
+        "text": "what is this bot"
+      },
+      {
+        "language": "en-US",
+        "text": "introduce yourself"
+      },
+      {
+        "language": "en-US",
+        "text": "are you the gvya assistant"
+      },
+      {
+        "language": "en-US",
+        "text": "what is your role here"
+      },
+      {
+        "language": "en-US",
+        "text": "tell me who you are"
+      },
+      {
+        "language": "en-US",
+        "text": "what are you here for"
+      },
+      {
+        "language": "en-US",
+        "text": "describe yourself"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو کی هستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو دقیقا چی هستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دارم با کی حرف می زنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این بات چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خودت را معرفی کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو دستیار gvya هستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نقش تو اینجا چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بگو کی هستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای چه کاری اینجایی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خودت را توصیف کن"
+      },
+      {
+        "language": "en-US",
+        "text": "who is behind these answers"
+      },
+      {
+        "language": "en-US",
+        "text": "what am i chatting with"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پشت این پاسخ ها کیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "با چه چیزی دارم چت می کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "are you the bot that explains gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو همان باتی هستی که gvya را توضیح می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "what is your name"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اسم تو چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "با چه کسی صحبت می کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "طرف صحبت من چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو یک برنامه ای یا یک آدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو چی هستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو چی هستی؟"
+      }
+    ]
+  }
+}

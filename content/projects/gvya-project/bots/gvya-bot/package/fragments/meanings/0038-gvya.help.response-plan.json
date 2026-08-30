@@ -1,0 +1,158 @@
+{
+  "exported": true,
+  "id": "gvya.help.response-plan",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.response-plan",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "an empty workspace needs its first authored meaning and response pair"
+      },
+      {
+        "language": "en-US",
+        "text": "what is an invocation proposal"
+      },
+      {
+        "language": "en-US",
+        "text": "how are extra messages rendered"
+      },
+      {
+        "language": "fa-IR",
+        "text": "invocation proposal چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام های اضافی چطور رندر می شوند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "responseplan ordered items renderer independent presentation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "طرح پاسخ آیتم مرتب مستقل از رندر ارائه"
+      },
+      {
+        "language": "en-US",
+        "text": "planned response rendered"
+      },
+      {
+        "language": "en-US",
+        "text": "intermediate response decision before rendering renderer independent ordered items response plan"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تصمیم میانی پاسخ قبل render مستقل renderer آیتم مرتب response plan"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a response plan"
+      },
+      {
+        "language": "en-US",
+        "text": "what can a response plan contain"
+      },
+      {
+        "language": "en-US",
+        "text": "is a response plan a side effect channel"
+      },
+      {
+        "language": "en-US",
+        "text": "how is rendering separated from response"
+      },
+      {
+        "language": "en-US",
+        "text": "can a response exist without a capability"
+      },
+      {
+        "language": "en-US",
+        "text": "what are ordered response items"
+      },
+      {
+        "language": "en-US",
+        "text": "does the response plan know about my ui"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the response plan"
+      },
+      {
+        "language": "fa-IR",
+        "text": "response plan چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "response plan شامل چه چیزی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "response plan کانال اثر جانبی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رندر چطور از پاسخ جدا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پاسخ بدون capability هم وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آیتم های مرتب پاسخ چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "response plan از ui من خبر دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "response plan را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "where do responses live"
+      },
+      {
+        "language": "en-US",
+        "text": "can one meaning have several responses"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پاسخ ها کجا تعریف می شوند"
+      },
+      {
+        "language": "en-US",
+        "text": "planned response rendered"
+      },
+      {
+        "language": "en-US",
+        "text": "how do responses fit"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a response in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a response"
+      },
+      {
+        "language": "fa-IR",
+        "text": "response در gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "response چیه"
+      }
+    ]
+  }
+}

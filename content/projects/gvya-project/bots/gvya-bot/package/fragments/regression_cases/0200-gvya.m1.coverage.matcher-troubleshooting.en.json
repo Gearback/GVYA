@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.matcher-troubleshooting.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural brittleness complaint reaches matcher troubleshooting",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.matcher"
+      ],
+      "meaning": "gvya.help.matcher-troubleshooting"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.matcher-troubleshooting.en",
+    "initial_state": {},
+    "input": "How do I make matching less brittle?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

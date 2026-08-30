@@ -1,0 +1,76 @@
+{
+  "id": "lamp.set.proof",
+  "value": {
+    "context": {
+      "available_capabilities": [
+        {
+          "id": "lamp.set",
+          "version": "1"
+        }
+      ]
+    },
+    "description": "Direct scenario proof",
+    "generated": false,
+    "id": "lamp.set.proof",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "lamp.turn-on",
+          "proposal_receipts": [
+            {
+              "arguments": {
+                "on": true
+              },
+              "id": "lamp.set",
+              "outcome": "needs_confirmation",
+              "reason_code": "lamp.confirm",
+              "version": "1"
+            }
+          ],
+          "response_ids": [
+            "lamp.turn-on.behavior.answer"
+          ]
+        },
+        "language": "en",
+        "say": "turn lamp on",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "confirmed": true,
+        "expectation": {
+          "capabilities": [
+            {
+              "arguments": {
+                "on": true
+              },
+              "id": "lamp.set",
+              "version": "1"
+            }
+          ]
+        },
+        "proposal_capability": "lamp.set",
+        "proposal_from_step": 1,
+        "type": "confirm"
+      },
+      {
+        "expectation": {
+          "capability_result_accepted": true,
+          "response_ids": [
+            "lamp.set.result.answer"
+          ]
+        },
+        "language": "en",
+        "output": {
+          "ok": true
+        },
+        "proposal_capability": "lamp.set",
+        "proposal_from_step": 2,
+        "seed": 1,
+        "succeeded": true,
+        "type": "capability_result"
+      }
+    ]
+  }
+}

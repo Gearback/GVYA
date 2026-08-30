@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.tell-me-a-joke.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.tell-me-a-joke.behavior",
+    "meaning": "core.smalltalk.informal.tell-me-a-joke",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.tell-me-a-joke.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Not my best skill, but I can try: don’t trust a door that looks too polite.",
+              "A joke? Fine. I’m still waiting for the punchline too."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بهترین کارم نیست، ولی امتحان می‌کنم: به دری که زیادی مودبه اعتماد نکن.",
+              "جوک؟ باشه. منم هنوز منتظر نکته خنده‌دارشم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

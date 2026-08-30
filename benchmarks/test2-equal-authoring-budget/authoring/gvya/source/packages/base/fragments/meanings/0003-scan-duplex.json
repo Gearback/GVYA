@@ -1,0 +1,30 @@
+{
+  "id": "scan.duplex",
+  "value": {
+    "id": "scan.duplex",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "duplex scan"
+      },
+      {
+        "language": "en",
+        "text": "both sides"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i scan both sides of a page"
+      },
+      {
+        "language": "en",
+        "text": "scan a double sided sheet"
+      },
+      {
+        "language": "en",
+        "text": "capture front and back together"
+      }
+    ]
+  }
+}

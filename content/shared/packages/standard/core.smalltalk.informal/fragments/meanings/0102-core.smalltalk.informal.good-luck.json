@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.good-luck",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.good-luck",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "good luck"
+      },
+      {
+        "language": "en-US",
+        "text": "wish me luck"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برام آرزوی موفقیت کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "موفق باشم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دعا کن"
+      }
+    ]
+  }
+}

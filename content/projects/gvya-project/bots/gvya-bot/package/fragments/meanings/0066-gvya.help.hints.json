@@ -1,0 +1,190 @@
+{
+  "exported": true,
+  "id": "gvya.help.hints",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.hints",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i choose between two responses"
+      },
+      {
+        "language": "en-US",
+        "text": "what are extra messages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بین دو پاسخ انتخاب کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام های اضافی چیستند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "hint ladder level progress progressive clue escalate"
+      },
+      {
+        "language": "fa-IR",
+        "text": "راهنمایی نردبان سطح پیشرفت پله ای سرنخ"
+      },
+      {
+        "language": "fa-IR",
+        "text": "hint recovery ادامه مکالمه"
+      },
+      {
+        "language": "en-US",
+        "text": "recovery suggestion hint ladder response helpful next clue without matcher rule"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیشنهاد recovery hint نردبان پاسخ راهنمای بعدی بدون matcher rule"
+      },
+      {
+        "language": "en-US",
+        "text": "gradually step by step nudge clue progressively more explicit ladder reveal"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پله پله کم کم راهنمایی سرنخ صریح تر نردبان لو دادن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سرنخ راهنمایی مرحله به مرحله پله سطح بازتر لو دادن نردبان"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are hint ladders"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i give progressively bigger hints"
+      },
+      {
+        "language": "en-US",
+        "text": "what is hint_level"
+      },
+      {
+        "language": "en-US",
+        "text": "how does hint progress work"
+      },
+      {
+        "language": "en-US",
+        "text": "can i author a first and second hint"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the hint level chosen"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a hint response"
+      },
+      {
+        "language": "en-US",
+        "text": "explain hints"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نردبان راهنمایی چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور راهنمایی های پله ای بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "hint_level چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیشرفت راهنمایی چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم راهنمایی اول و دوم بنویسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سطح راهنمایی چطور انتخاب می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پاسخ راهنمایی چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "راهنمایی ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a hint"
+      },
+      {
+        "language": "fa-IR",
+        "text": "hint چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "hint"
+      },
+      {
+        "language": "en-US",
+        "text": "hints"
+      },
+      {
+        "language": "fa-IR",
+        "text": "hint recovery ادامه مکالمه"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i reveal an answer step by step"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i give a nudge before the full answer"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i make replies get more explicit each time"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i build a ladder of progressively clearer replies"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور جواب را پله پله لو بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور اول یک راهنمایی کوچک و بعد جواب کامل بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور کاری کنم هر بار پاسخ صریح تر شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک نردبان از پاسخ های واضح تر بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور جواب را مرحله به مرحله بازتر کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور سطح راهنمایی را کم کم بالا ببرم"
+      }
+    ]
+  }
+}

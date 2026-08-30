@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.speak-persian.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.speak-persian.behavior",
+    "meaning": "core.smalltalk.formal.speak-persian",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.speak-persian.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Very well. I will continue in Persian.",
+              "Of course. I can speak Persian.",
+              "Persian it is."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "فارسی، پس.",
+              "بسیار خوب. فارسی ادامه می‌دهم.",
+              "باشه، فارسی."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

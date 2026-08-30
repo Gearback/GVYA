@@ -1,0 +1,11 @@
+{
+  "id": "cancel.behavior",
+  "value": {
+    "id": "cancel.behavior",
+    "meaning": "cancel",
+    "responses": [{
+      "id": "cancel.answer",
+      "texts": [{"language": "en", "variants": ["Cancelled."]}]
+    }]
+  }
+}

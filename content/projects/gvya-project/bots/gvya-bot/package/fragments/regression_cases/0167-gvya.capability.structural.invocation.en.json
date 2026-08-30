@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.invocation.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The capability/invocation structural phrase belongs to the invocation proposal Meaning",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.capabilities"
+      ],
+      "meaning": "gvya.help.invocation-proposal"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.invocation.en",
+    "initial_state": {},
+    "input": "how is a capability invocation proposed?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

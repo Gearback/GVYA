@@ -1,0 +1,31 @@
+{
+  "exported": true,
+  "id": "iot.device.turn-off",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "iot.device.turn-off",
+    "negative_samples": [
+      { "language": "en-US", "text": "I am feeling off" },
+      { "language": "en-US", "text": "turn off notifications" },
+      { "language": "fa-IR", "text": "حالم خوب نیست" }
+    ],
+    "references": [
+      {
+        "elicitation": [
+          { "language": "en-US", "text": "Which device should I turn off?" },
+          { "language": "fa-IR", "text": "کدام دستگاه را خاموش کنم؟" }
+        ],
+        "kind": "iot.device",
+        "required": true
+      }
+    ],
+    "samples": [
+      { "language": "en-US", "text": "turn off" },
+      { "language": "en-US", "text": "switch off" },
+      { "language": "en-US", "text": "power off" },
+      { "language": "fa-IR", "text": "خاموش کن" },
+      { "language": "fa-IR", "text": "غیرفعال کن" }
+    ]
+  }
+}

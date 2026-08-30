@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.sing",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.sing",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "sing"
+      },
+      {
+        "language": "en-US",
+        "text": "sing something"
+      },
+      {
+        "language": "en-US",
+        "text": "can you sing"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آواز بخون"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه آهنگ بخون"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بخون"
+      }
+    ]
+  }
+}

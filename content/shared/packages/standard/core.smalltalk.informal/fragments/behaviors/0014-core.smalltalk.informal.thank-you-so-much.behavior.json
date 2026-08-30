@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.thank-you-so-much.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.thank-you-so-much.behavior",
+    "meaning": "core.smalltalk.informal.thank-you-so-much",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.thank-you-so-much.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I'm glad it helped.",
+              "Good. That matters.",
+              "You’re welcome. Really."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوشحالم کمک کرد.",
+              "خوبه. همین مهمه.",
+              "واقعاً خواهش می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

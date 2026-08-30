@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.fallback-promise.concepts.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A concepts-topic fallback suggestion routes to real capability-boundary knowledge",
+    "generated": false,
+    "id": "gvya.dialog.fallback-promise.concepts.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.about",
+          "response_ids": [
+            "gvya.help.about.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "what is gvya",
+        "seed": 51,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "fallback",
+          "response_ids": [
+            "gvya.fallback.formal.unresolved.concepts-pivot.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "tell me about orbital mechanics",
+        "seed": 52,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.capabilities",
+          "response_ids": [
+            "gvya.help.capabilities.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "why does that host boundary matter",
+        "seed": 53,
+        "type": "turn"
+      }
+    ]
+  }
+}

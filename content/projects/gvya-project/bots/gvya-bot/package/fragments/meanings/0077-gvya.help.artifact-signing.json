@@ -1,0 +1,202 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-signing",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.artifact-signing",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "امضای سند بررسی"
+      },
+      {
+        "language": "en-US",
+        "text": "how is artifact integrity checked"
+      },
+      {
+        "language": "en-US",
+        "text": "is it safe to run untrusted content"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یکپارچگی آرتیفکت چطور بررسی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اجرای محتوای نامطمئن امن است"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "signing signature envelope contentroot trust policy authenticity attach"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضا پاکت ریشه محتوا اعتماد سیاست اصالت پیوست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضای artifact تضمین"
+      },
+      {
+        "language": "en-US",
+        "text": "prove origin authorship producer publisher trust provenance vouch identity signature"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اثبات منشا سازنده ناشر اعتماد تضمین هویت امضا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضا ناشر منتشر کننده اصالت اعتماد ثابت کردن هویت سازنده"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how is an artifact signed"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the signing content root"
+      },
+      {
+        "language": "en-US",
+        "text": "does adding a signature change the artifact identity"
+      },
+      {
+        "language": "en-US",
+        "text": "who decides if a signature is trusted"
+      },
+      {
+        "language": "en-US",
+        "text": "can i attach a signature after building"
+      },
+      {
+        "language": "en-US",
+        "text": "what is in the signature envelope"
+      },
+      {
+        "language": "en-US",
+        "text": "is signing required"
+      },
+      {
+        "language": "en-US",
+        "text": "explain signing"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت چطور امضا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ریشه محتوای امضا چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اضافه کردن امضا هویت آرتیفکت را عوض می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی تصمیم می گیرد یک امضا معتبر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم بعد از ساخت امضا پیوست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل پاکت امضا چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضا اجباری است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضا را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "is the artifact signed"
+      },
+      {
+        "language": "en-US",
+        "text": "can i sign the artifact"
+      },
+      {
+        "language": "fa-IR",
+        "text": "artifact امضا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضای دیجیتال دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضای artifact تضمین"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i prove who produced this brain file"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a consumer know the artifact came from me"
+      },
+      {
+        "language": "en-US",
+        "text": "can i vouch for the origin of a shipped bot"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i establish authorship of a compiled bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور ثابت کنم این فایل brain را من ساخته ام"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مصرف کننده از کجا بفهمد این آرتیفکت از طرف من است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور منشا یک بات منتشر شده را تضمین کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور مالکیت یک بات کامپایل شده را اثبات کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور ثابت کنم ناشر این فایل من هستم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضای فایل خروجی چطور کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need to sign the gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need to sign the .gvya file"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باید فایل gvya را امضا کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "Where are signed artifacts verified?"
+      }
+    ]
+  }
+}

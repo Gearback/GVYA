@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.nice-to-meet-you",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.nice-to-meet-you",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "nice to meet you"
+      },
+      {
+        "language": "en-US",
+        "text": "good to meet you"
+      },
+      {
+        "language": "en-US",
+        "text": "pleased to meet you"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوشبختم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از دیدنت خوشحالم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آشنایی باهات خوبه"
+      }
+    ]
+  }
+}

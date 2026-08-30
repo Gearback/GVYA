@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-tired.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.im-tired.behavior",
+    "meaning": "core.smalltalk.informal.im-tired",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.im-tired.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Then breathe for a moment.",
+              "Rest if you can.",
+              "Don’t burn yourself out."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پس یه لحظه نفس بکش.",
+              "اگه می‌تونی استراحت کن.",
+              "خودتو نسوزون."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

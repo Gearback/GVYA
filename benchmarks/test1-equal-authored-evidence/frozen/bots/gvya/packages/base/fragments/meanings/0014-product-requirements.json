@@ -1,0 +1,24 @@
+{
+  "id": "product.requirements",
+  "value": {
+    "id": "product.requirements",
+    "samples": [
+      {
+        "language": "en",
+        "text": "what are the system requirements"
+      },
+      {
+        "language": "en",
+        "text": "what do i need to run the app"
+      },
+      {
+        "language": "en",
+        "text": "minimum requirements for the product"
+      },
+      {
+        "language": "en",
+        "text": "what hardware does the app require"
+      }
+    ]
+  }
+}

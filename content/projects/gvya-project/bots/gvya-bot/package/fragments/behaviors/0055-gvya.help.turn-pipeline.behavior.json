@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.turn-pipeline.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.turn-pipeline.behavior",
+    "meaning": "gvya.help.turn-pipeline",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Then it selects an eligible response, applies author effects before rendering, applies follow-up and topic directives, renders messages under the cap, and commits repeat and history state. Every branch emits a trace event, so no route wins invisibly."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "سپس یک پاسخ واجد شرایط انتخاب می‌کند، اثرهای نویسنده را پیش از رندر اعمال می‌کند، دستورهای follow-up و topic را اعمال می‌کند، پیام‌ها را زیر سقف رندر می‌کند، و حالت تکرار و تاریخچه را ثبت می‌کند. هر شاخه یک رویداد trace می‌دهد، پس هیچ مسیری نامرئی برنده نمی‌شود."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.turn-pipeline.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "One turn runs in a fixed order: normalize input, tick the active topic, snapshot follow-up state, observe user style, intercept a global identical-message repeat, try the active follow-up scope, try short referential continuation, compare global against active-topic semantics, finalize a missed follow-up TTL, then answer a resolved Behavior or evaluate the Fallback Package."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "هر نوبت با ترتیبی ثابت اجرا می‌شود: نرمال‌سازی ورودی، tick کردن topic فعال، گرفتن snapshot از حالت follow-up، مشاهدهٔ سبک کاربر، رهگیری تکرار سراسری پیام یکسان، امتحان کردن دامنهٔ follow-up فعال، امتحان کردن ادامهٔ ارجاعی کوتاه، مقایسهٔ نتیجهٔ سراسری با نتیجهٔ topic فعال، نهایی کردن TTL از دست رفتهٔ follow-up، و در پایان پاسخ دادن با یک Behavior حل‌شده یا ارزیابی Fallback Package."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

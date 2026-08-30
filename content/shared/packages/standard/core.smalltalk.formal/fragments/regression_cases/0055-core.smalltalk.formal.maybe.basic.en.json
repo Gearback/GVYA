@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.maybe.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.maybe",
+      "response_ids": [
+        "core.smalltalk.formal.maybe.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.maybe.basic.en",
+    "initial_state": {},
+    "input": "maybe",
+    "language": "en-US",
+    "seed": 1
+  }
+}

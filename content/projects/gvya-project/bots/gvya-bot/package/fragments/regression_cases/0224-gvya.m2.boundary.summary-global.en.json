@@ -1,0 +1,20 @@
+{
+  "exported": true,
+  "id": "gvya.m2.boundary.summary-global.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A bare summary request outside a contextual thread stays outside the scoped summary route",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.dialog.summary"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.m2.boundary.summary-global.en",
+    "initial_state": {},
+    "input": "Summarize this in one sentence.",
+    "language": "en-US",
+    "seed": 221
+  }
+}

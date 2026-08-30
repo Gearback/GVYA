@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.youre-nice.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.youre-nice.behavior",
+    "meaning": "core.smalltalk.informal.youre-nice",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.youre-nice.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That’s decent of you to say.",
+              "Thanks.",
+              "I’ll take that."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "لطف داری.",
+              "مرسی.",
+              "قبول می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

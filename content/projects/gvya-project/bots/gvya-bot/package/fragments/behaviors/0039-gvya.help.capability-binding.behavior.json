@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.capability-binding.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.capability-binding.behavior",
+    "meaning": "gvya.help.capability-binding",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "A binding may be triggered by a Meaning, a selected Behavior, a selected Response, or a conjunction of those. Bindings are typed and validated: missing required inputs, stale or ambiguous references and out-of-range values are never repaired by guessing."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "یک binding می‌تواند با یک Meaning، یک Behavior انتخاب‌شده، یک Response انتخاب‌شده، یا ترکیبی از آن‌ها فعال شود. bindingها تایپ‌شده و اعتبارسنجی‌شده‌اند: ورودی اجباری گمشده، reference کهنه یا مبهم، و مقدار خارج از بازه هرگز با حدس ترمیم نمی‌شوند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.capability-binding.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Capability Binding maps resolved conversation state into arguments for one declared Capability Contract. Its sources are resolved Slots, typed host references from semantics or focus, immutable context paths, author-state paths, and literals."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Capability Binding وضعیت حل‌شدهٔ مکالمه را به آرگومان‌های یک Capability Contract اعلام‌شده نگاشت می‌کند. منابعش عبارت‌اند از Slotهای حل‌شده، referenceهای تایپ‌شدهٔ میزبان، مسیرهای تغییرناپذیر context، مسیرهای author state، و مقادیر ثابت."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

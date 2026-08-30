@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.followups.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.followups.behavior",
+    "meaning": "gvya.help.followups",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "A TTL of one is still eligible on the current turn and expires only after a miss. Opening the same follow-up id does not implicitly refresh it unless refresh_if_same is set, and a follow-up that expired on this turn cannot silently reopen itself on the same turn."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏TTL برابر یک در نوبت جاری هنوز معتبر است و فقط پس از یک miss منقضی می‌شود. باز کردن همان شناسهٔ follow-up آن را به‌صورت ضمنی تازه نمی‌کند مگر ‎refresh_if_same‎ ست شده باشد، و follow-upی که در همین نوبت منقضی شده نمی‌تواند در همان نوبت بی‌سروصدا خودش را باز کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.followups.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A response opens a follow-up with opens_followup, and a Behavior carrying followup_scope is eligible only while that follow-up is active. The follow-up scope is tried first in the turn, before continuation and before global semantics."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک پاسخ با ‎opens_followup‎ یک follow-up باز می‌کند، و Behaviorی که ‎followup_scope‎ دارد فقط تا وقتی آن follow-up فعال است واجد شرایط است. دامنهٔ follow-up اول از همه در نوبت امتحان می‌شود، پیش از continuation و پیش از معناشناسی سراسری."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

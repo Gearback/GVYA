@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.really",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.really",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "really"
+      },
+      {
+        "language": "en-US",
+        "text": "seriously"
+      },
+      {
+        "language": "en-US",
+        "text": "for real"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واقعا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جدی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "راستی"
+      }
+    ]
+  }
+}

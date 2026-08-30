@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.is-this-a-game.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.is-this-a-game",
+      "response_ids": [
+        "core.smalltalk.formal.is-this-a-game.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.is-this-a-game.basic.fa",
+    "initial_state": {},
+    "input": "این بازیه",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

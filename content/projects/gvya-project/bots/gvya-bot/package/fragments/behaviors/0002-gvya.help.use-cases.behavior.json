@@ -1,0 +1,70 @@
+{
+  "exported": true,
+  "id": "gvya.help.use-cases.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.use-cases.behavior",
+    "meaning": "gvya.help.use-cases",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "It is a good fit when you want authored, testable conversation that can move between hosts without handing the brain hidden access to the network or device."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "وقتی مناسب است که مکالمه‌ای نوشته‌شده و قابل‌تست می‌خواهی که بین میزبان‌های مختلف جابه‌جا شود، بدون اینکه brain دسترسی پنهانی به شبکه یا دستگاه بگیرد."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Example: a game NPC can understand an authored request such as “open the gate,” let GVYA resolve the Meaning and propose a typed capability, then let the game host open the gate and return the result so the NPC can answer."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "مثال: یک NPC بازی می‌تواند درخواست نوشته‌شده‌ای مثل «دروازه را باز کن» را بفهمد؛ GVYA Meaning را resolve و یک capability typed پیشنهاد می‌کند، بعد خود بازی دروازه را باز می‌کند و نتیجه را برمی‌گرداند تا NPC جواب بدهد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.use-cases.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "You can use GVYA for game NPCs, in-app guides, support flows, interactive kiosks, and device assistants—anywhere you need predictable conversation instead of invented answers."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "می‌توانی از GVYA برای NPC بازی، راهنمای داخل برنامه، مسیر پشتیبانی، کیوسک تعاملی یا دستیار دستگاه استفاده کنی؛ هرجا مکالمهٔ قابل‌پیش‌بینی می‌خواهی، نه جواب‌های ساخته‌شده."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "data.delete.behavior",
+  "value": {
+    "id": "data.delete.behavior",
+    "meaning": "data.delete",
+    "responses": [
+      {
+        "id": "data.delete.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:DATA_DELETE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

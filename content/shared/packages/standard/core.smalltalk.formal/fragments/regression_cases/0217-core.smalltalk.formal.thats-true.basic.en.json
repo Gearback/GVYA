@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.thats-true.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.thats-true",
+      "response_ids": [
+        "core.smalltalk.formal.thats-true.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.thats-true.basic.en",
+    "initial_state": {},
+    "input": "that's true",
+    "language": "en-US",
+    "seed": 1
+  }
+}

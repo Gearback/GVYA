@@ -1,0 +1,16 @@
+{
+  "exported": true,
+  "id": "gvya.quality.off-domain.worldcup.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Clearly off-domain input must not be converted into a domain answer",
+    "expectation": {},
+    "generated": false,
+    "id": "gvya.quality.off-domain.worldcup.en",
+    "initial_state": {},
+    "input": "who won the world cup?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

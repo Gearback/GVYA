@@ -1,0 +1,63 @@
+{
+  "format": "gvya.source.package",
+  "fragments": {
+    "behaviors": [
+      "fragments/behaviors/0001-account-create.json",
+      "fragments/behaviors/0002-account-delete.json",
+      "fragments/behaviors/0003-password-reset.json",
+      "fragments/behaviors/0004-email-change.json",
+      "fragments/behaviors/0005-billing-receipt.json",
+      "fragments/behaviors/0006-billing-refund.json",
+      "fragments/behaviors/0007-billing-payment_failed.json",
+      "fragments/behaviors/0008-subscription-cancel.json",
+      "fragments/behaviors/0009-order-status.json",
+      "fragments/behaviors/0010-order-cancel.json",
+      "fragments/behaviors/0011-shipping-address_change.json",
+      "fragments/behaviors/0012-shipping-cost.json",
+      "fragments/behaviors/0013-product-compatibility.json",
+      "fragments/behaviors/0014-product-requirements.json",
+      "fragments/behaviors/0015-app-install.json",
+      "fragments/behaviors/0016-app-update.json",
+      "fragments/behaviors/0017-data-export.json",
+      "fragments/behaviors/0018-data-delete.json",
+      "fragments/behaviors/0019-data-sync.json",
+      "fragments/behaviors/0020-offline-mode.json",
+      "fragments/behaviors/0021-security-two_factor.json",
+      "fragments/behaviors/0022-security-sessions.json",
+      "fragments/behaviors/0023-support-contact.json",
+      "fragments/behaviors/0024-support-hours.json"
+    ],
+    "meanings": [
+      "fragments/meanings/0001-account-create.json",
+      "fragments/meanings/0002-account-delete.json",
+      "fragments/meanings/0003-password-reset.json",
+      "fragments/meanings/0004-email-change.json",
+      "fragments/meanings/0005-billing-receipt.json",
+      "fragments/meanings/0006-billing-refund.json",
+      "fragments/meanings/0007-billing-payment_failed.json",
+      "fragments/meanings/0008-subscription-cancel.json",
+      "fragments/meanings/0009-order-status.json",
+      "fragments/meanings/0010-order-cancel.json",
+      "fragments/meanings/0011-shipping-address_change.json",
+      "fragments/meanings/0012-shipping-cost.json",
+      "fragments/meanings/0013-product-compatibility.json",
+      "fragments/meanings/0014-product-requirements.json",
+      "fragments/meanings/0015-app-install.json",
+      "fragments/meanings/0016-app-update.json",
+      "fragments/meanings/0017-data-export.json",
+      "fragments/meanings/0018-data-delete.json",
+      "fragments/meanings/0019-data-sync.json",
+      "fragments/meanings/0020-offline-mode.json",
+      "fragments/meanings/0021-security-two_factor.json",
+      "fragments/meanings/0022-security-sessions.json",
+      "fragments/meanings/0023-support-contact.json",
+      "fragments/meanings/0024-support-hours.json"
+    ]
+  },
+  "manifest": {
+    "dependencies": [],
+    "id": "base",
+    "kind": "standard"
+  },
+  "version": 1
+}

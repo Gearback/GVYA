@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.compiler-pipeline.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.compiler-pipeline.behavior",
+    "meaning": "gvya.help.compiler-pipeline",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "There is no fallback branch anywhere in that flow that skips the audit, silently repairs malformed source, fetches data, invokes an LLM, or lets a renderer compile its own interpretation."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "در هیچ جای این جریان مسیر جایگزینی وجود ندارد که ممیزی را رد کند، سورس خراب را بی‌سروصدا ترمیم کند، داده بگیرد، LLM صدا بزند، یا به یک رندرر اجازه دهد تفسیر خودش را کامپایل کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.compiler-pipeline.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The flow is: a SourceTree snapshot, strict JSON path and bounds parsing, derived package and asset digests, PackageDefinitions, compose_packages, the Auditor whose errors fail the build, a ComposedProject, canonical runtime IR, program.json plus verified asset bytes, integrity.json and manifest.json, the deterministic container, and optionally a signer over the content root."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "جریان این است: یک snapshot از SourceTree، تجزیهٔ سخت‌گیرانهٔ JSON و مسیر و محدودیت‌ها، چکیده‌های مشتق‌شدهٔ پکیج و asset، ‎PackageDefinition‎ها، ‎compose_packages‎، Auditor که خطاهایش build را می‌شکنند، یک ‎ComposedProject‎، IR کانونی زمان اجرا، ‎program.json‎ به‌همراه بایت‌های تأییدشدهٔ asset، ‎integrity.json‎ و ‎manifest.json‎، کانتینر قطعی، و به‌صورت اختیاری یک امضاکننده روی ریشهٔ محتوا."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

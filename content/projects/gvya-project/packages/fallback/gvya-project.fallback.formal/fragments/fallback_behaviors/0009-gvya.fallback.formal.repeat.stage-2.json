@@ -1,0 +1,61 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.formal.repeat.stage-2",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "equal",
+        "path": "sameInputCount",
+        "value": 2
+      }
+    ],
+    "id": "gvya.fallback.formal.repeat.stage-2",
+    "priority": 0,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Pick one: concepts, example, authoring, matcher—or ask a new GVYA question."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "یکی را انتخاب کن: مفاهیم، مثال، authoring، matcher؛ یا یک سؤال تازهٔ GVYA بپرس."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.fallback.formal.repeat.stage-2.pivot",
+        "kind": "repeat",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "We are repeating the same turn, so let us choose a different path.",
+              "This has become a loop. I will stop repeating and offer a fresh route.",
+              "That is the third identical input. Let us reset the goal."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "همان turn تکرار می‌شود؛ بهتر است مسیر دیگری انتخاب کنیم.",
+              "این مکالمه وارد loop شده است. تکرار را متوقف می‌کنم و یک مسیر تازه پیشنهاد می‌دهم.",
+              "این سومین ورودی یکسان است. هدف را از نو انتخاب کنیم."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "repeat"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.lets-continue.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.lets-continue.behavior",
+    "meaning": "core.smalltalk.formal.lets-continue",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.lets-continue.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "All right. Continue.",
+              "Go on.",
+              "Then keep going."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بسیار خوب. ادامه دهید.",
+              "ادامه بدهید.",
+              "پس پیش بروید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

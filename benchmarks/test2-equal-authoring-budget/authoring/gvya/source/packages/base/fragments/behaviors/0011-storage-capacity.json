@@ -1,0 +1,20 @@
+{
+  "id": "storage.capacity.behavior",
+  "value": {
+    "id": "storage.capacity.behavior",
+    "meaning": "storage.capacity",
+    "responses": [
+      {
+        "id": "storage.capacity.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:STORAGE_CAPACITY"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

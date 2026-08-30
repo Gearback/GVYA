@@ -1,0 +1,30 @@
+{
+  "id": "rollers.clean",
+  "value": {
+    "id": "rollers.clean",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "clean rollers"
+      },
+      {
+        "language": "en",
+        "text": "feed rollers"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i clean the feed rollers"
+      },
+      {
+        "language": "en",
+        "text": "clean the document rollers"
+      },
+      {
+        "language": "en",
+        "text": "maintain the paper feed rollers"
+      }
+    ]
+  }
+}

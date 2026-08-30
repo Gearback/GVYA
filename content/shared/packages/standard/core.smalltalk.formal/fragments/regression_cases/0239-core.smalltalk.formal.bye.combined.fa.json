@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.bye.combined.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural Persian thanks-plus-goodbye closing resolves as goodbye",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.bye"
+    },
+    "generated": false,
+    "id": "core.smalltalk.formal.bye.combined.fa",
+    "initial_state": {},
+    "input": "مرسی، خداحافظ.",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

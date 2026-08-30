@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.comparison.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.comparison.behavior",
+    "meaning": "gvya.help.comparison",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "That gives you repeatable offline behavior, reviewable source, and explicit tests. The trade-off is that GVYA only knows the meanings and answers you author; it is not an open-ended knowledge model."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "نتیجه، رفتار تکرارپذیر آفلاین، source قابل‌بازبینی و تست‌های صریح است. در عوض GVYA فقط Meaningها و جواب‌هایی را می‌داند که نوشته‌ای؛ مدل دانشِ باز و بی‌انتها نیست."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.comparison.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "ChatGPT and other generative assistants create answers from a trained model. GVYA runs conversation behavior you explicitly author and compiles it into a portable .gvya brain, so the same proven inputs stay predictable across hosts."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ChatGPT و دستیارهای مولد جواب را از یک مدل آموزش‌دیده می‌سازند. GVYA رفتار مکالمه‌ای را که خودت صریح نوشته‌ای اجرا و به brain قابل‌حمل ‎.gvya‎ تبدیل می‌کند، بنابراین ورودی‌های اثبات‌شده بین hostهای مختلف قابل‌پیش‌بینی می‌مانند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

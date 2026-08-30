@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.im-sad",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.im-sad",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i'm sad"
+      },
+      {
+        "language": "en-US",
+        "text": "i feel sad"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ناراحتم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غمگینم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حالم بده"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "aiml2.raw.jsonl": {
+    "bytes": 48550,
+    "sha256": "460806e3a39a8a812fd4fb7cc7294fa961dc6dc1def48f5d60ec31e5c11ef3bc"
+  },
+  "aiml2.replay.jsonl": {
+    "bytes": 48544,
+    "sha256": "295a2022af350025f0ed2a9c23a29662bd8c1af5195478820b5eda329f2046d6"
+  },
+  "aiml2.runmeta.json": {
+    "bytes": 149,
+    "sha256": "a83c46619e18810ee5c74e0b8ce65ace0aeed3e6ced0ac7a032a7aa93e7507bc"
+  },
+  "analysis.first.json": {
+    "bytes": 162548,
+    "sha256": "8e578c1da4d3f36b0111dfe8cb989f3df9400790c075d7a9a84f35fb6c9f9fee"
+  },
+  "analysis.json": {
+    "bytes": 162551,
+    "sha256": "82e516733e4fa5ff96600d4c18ed1b575f66e3c074b9753738223a92cc050964"
+  },
+  "chatscript.build.log": {
+    "bytes": 1766,
+    "sha256": "f3582074244dfd44c7af6f4a9090ab1bc25c9089cf91e1deab8dfa38030fe3a3"
+  },
+  "chatscript.raw.jsonl": {
+    "bytes": 46395,
+    "sha256": "5c075ed4e61d4b3685c304c1df986d9c145043ad81b785671e7bea1ab2500c39"
+  },
+  "chatscript.replay.jsonl": {
+    "bytes": 46393,
+    "sha256": "8a626509b1da16888ead7aa8c763a4a70c7e7a0d49520ac42f5ea13e1b649813"
+  },
+  "chatscript.runmeta.json": {
+    "bytes": 138,
+    "sha256": "d255d1c9879e67df3e92b9e30b07e5a3000d340208e00c2a17d643f0dd863d21"
+  },
+  "chatscript.server.log": {
+    "bytes": 29,
+    "sha256": "0cba0b0fc52ec2967c0e875d0d01ee64b6829de3757218aba894733d493f9c67"
+  },
+  "gvya.artifact.gvya": {
+    "bytes": 27997,
+    "sha256": "1eea74c47adfda697fa8c2d38c58304d55ea6afc382bdb93ff095fa7307ca2c6"
+  },
+  "gvya.raw.jsonl": {
+    "bytes": 39737,
+    "sha256": "65492fefbe6eff30359e1251e5f8df0b0b02dfe627ed1a5de3ea46c96046bdf8"
+  },
+  "gvya.replay.jsonl": {
+    "bytes": 39733,
+    "sha256": "6b24efa54d6e98580aaea49475c335cf0d4a4023f67a9bd95d34e14926feaebc"
+  },
+  "gvya.runmeta.json": {
+    "bytes": 157,
+    "sha256": "7c0cc5cc6e452da737f746f45ec44f54f947489e9bf4df1576c88fc8fd555a6e"
+  }
+}

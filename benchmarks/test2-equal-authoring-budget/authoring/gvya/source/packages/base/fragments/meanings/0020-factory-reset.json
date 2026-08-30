@@ -1,0 +1,30 @@
+{
+  "id": "factory.reset",
+  "value": {
+    "id": "factory.reset",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "factory reset"
+      },
+      {
+        "language": "en",
+        "text": "wipe device"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i factory reset foliobox"
+      },
+      {
+        "language": "en",
+        "text": "reset foliobox to factory settings"
+      },
+      {
+        "language": "en",
+        "text": "wipe local setup and start over"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "item.use",
+  "value": {
+    "id": "item.use",
+    "patterns": [
+      {"language": "en", "text": "use <set:entity.game.item>{item}", "priority": 5}
+    ],
+    "samples": [{"language": "en", "text": "use health potion"}],
+    "slots": [
+      {
+        "name": "item",
+        "type": "entity",
+        "entity_kind": "game.item",
+        "required": true,
+        "elicitation": [{"language": "en", "text": "Which item?"}]
+      }
+    ]
+  }
+}

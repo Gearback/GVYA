@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what-date-is-it",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.what-date-is-it",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what date is it"
+      },
+      {
+        "language": "en-US",
+        "text": "what is today's date"
+      },
+      {
+        "language": "en-US",
+        "text": "today's date"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تاریخ امروز"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امروز چه تاریخی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تاریخ چنده"
+      }
+    ]
+  }
+}

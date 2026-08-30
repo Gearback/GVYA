@@ -1,0 +1,37 @@
+{
+  "format": "gvya.source.matcher-profile",
+  "language": "en-US",
+  "profile": {
+    "pattern_sets": {
+      "gvya_pattern_atoms": {
+        "asterisk": "one_or_more",
+        "caret": "zero_or_more",
+        "named capture": "capture",
+        "one or more": "one_or_more",
+        "pattern set": "set",
+        "set capture": "set",
+        "star wildcard": "one_or_more",
+        "zero or more": "zero_or_more"
+      },
+      "gvya_recovery_routes": {
+        "1": "understand",
+        "2": "build",
+        "3": "debug",
+        "4": "explore",
+        "authoring": "build",
+        "build a bot": "build",
+        "concepts": "understand",
+        "debug matching": "debug",
+        "explore": "explore",
+        "first": "understand",
+        "fourth": "explore",
+        "matcher": "debug",
+        "second": "build",
+        "something interesting": "explore",
+        "third": "debug",
+        "understand gvya": "understand"
+      }
+    }
+  },
+  "version": 1
+}

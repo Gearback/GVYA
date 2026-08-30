@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.good-afternoon.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.good-afternoon",
+      "response_ids": [
+        "core.smalltalk.informal.good-afternoon.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.good-afternoon.basic.en",
+    "initial_state": {},
+    "input": "good afternoon",
+    "language": "en-US",
+    "seed": 1
+  }
+}

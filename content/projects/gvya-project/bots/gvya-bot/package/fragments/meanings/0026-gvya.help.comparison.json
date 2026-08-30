@@ -1,0 +1,288 @@
+{
+  "exported": true,
+  "id": "gvya.help.comparison",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.comparison",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "فایل pdf دستکاری"
+      },
+      {
+        "language": "en-US",
+        "text": "chess engine choose next move"
+      },
+      {
+        "language": "fa-IR",
+        "text": "موتور شطرنج حرکت بعدی را انتخاب می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya require an llm"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya به llm نیاز دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بهترین فریم ورک جاوااسکریپت کدام است"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the best javascript framework"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از load فایل gvya میزبان چه request و state ای ردوبدل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو وام مسکن را با هم مقایسه کن"
+      },
+      {
+        "language": "en-US",
+        "text": "compare two mortgage loans"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 40,
+        "text": "فرقش با چت بات هوش مصنوعی معمولی چیه"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "difference comparison alternative competitor"
+      },
+      {
+        "language": "en-US",
+        "text": "rasa dialogflow botpress intent engine framework"
+      },
+      {
+        "language": "en-US",
+        "text": "why choose instead of other platform"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تفاوت مقایسه جایگزین رقیب"
+      },
+      {
+        "language": "fa-IR",
+        "text": "rasa dialogflow botpress موتور intent فریمورک"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا به جای پلتفرم دیگر"
+      },
+      {
+        "language": "en-US",
+        "text": "aiml matcher comparison"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق مزیت برتری نسبت به gvya چت بات میزبانی شده چرا این را انتخاب کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "versus compared with other frameworks hosted service platform advantage why choose"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقایسه مزیت برتری فرق نسبت به پلتفرم ابزار چت بات سرویس میزبانی شده"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how is gvya different from rasa"
+      },
+      {
+        "language": "en-US",
+        "text": "how does gvya compare to dialogflow"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya versus other chatbot frameworks"
+      },
+      {
+        "language": "en-US",
+        "text": "why use gvya instead of an intent engine"
+      },
+      {
+        "language": "en-US",
+        "text": "what makes gvya different"
+      },
+      {
+        "language": "en-US",
+        "text": "compare gvya to existing bot platforms"
+      },
+      {
+        "language": "en-US",
+        "text": "is gvya just another chatbot builder"
+      },
+      {
+        "language": "en-US",
+        "text": "what does gvya do that other tools do not"
+      },
+      {
+        "language": "en-US",
+        "text": "how is this different from a normal nlu library"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya compared to botpress"
+      },
+      {
+        "language": "en-US",
+        "text": "why would i pick gvya over a dialog framework"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya با rasa چه فرقی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya در مقایسه با dialogflow چطور است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya در برابر سایر فریمورک های چت بات"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا gvya به جای یک موتور intent"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی gvya را متفاوت می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقایسه gvya با پلتفرم های موجود بات"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya فقط یک بات ساز دیگر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چه کاری می کند که ابزارهای دیگر نمی کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این با یک کتابخانه nlu معمولی چه فرقی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقایسه gvya با botpress"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا gvya را به یک فریمورک دیالوگ ترجیح بدهم"
+      },
+      {
+        "language": "en-US",
+        "text": "how is it different from rasa"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it stack up against other tools"
+      },
+      {
+        "language": "fa-IR",
+        "text": "با rasa چه فرقی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در برابر ابزارهای دیگر چطور است"
+      },
+      {
+        "language": "en-US",
+        "text": "how is this different from dialogflow"
+      },
+      {
+        "language": "en-US",
+        "text": "why would i use this instead of rasa"
+      },
+      {
+        "language": "en-US",
+        "text": "is this a chatbot builder"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق آن با dialogflow چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا به جای rasa از این استفاده کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "aiml matcher comparison"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این چه فرقی با فریم ورک های دیگر چت بات دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نسبت به ابزارهای مشابه چه مزیتی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا این را به جای یک سرویس چت بات انتخاب کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "why choose this over a hosted chatbot service"
+      },
+      {
+        "language": "en-US",
+        "text": "what does this give me that a normal bot platform does not"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در مقایسه با بقیه ابزارهای چت بات چه فرقی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی دارد که یک پلتفرم معمولی بات ندارد"
+      },
+      {
+        "language": "en-US",
+        "text": "how is it different from chatgpt"
+      },
+      {
+        "language": "en-US",
+        "text": "how is gvya different from a generative ai chatbot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرقش با chatgpt چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چه فرقی با چت بات هوش مصنوعی معمولی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرقش با چت بات هوش مصنوعی معمولی چیه"
+      }
+    ]
+  }
+}

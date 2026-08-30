@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.speak-persian",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.informal.speak-persian",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "speak persian"
+      },
+      {
+        "language": "en-US",
+        "text": "speak farsi"
+      },
+      {
+        "language": "en-US",
+        "text": "farsi please"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فارسی حرف بزن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به فارسی بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فارسی"
+      }
+    ]
+  }
+}

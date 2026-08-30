@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.assets-links.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.assets-links.behavior",
+    "meaning": "gvya.help.assets-links",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Both are renderer-independent: GVYA describes what to present, and the host decides how."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هر دو مستقل از رندر هستند: GVYA توصیف می‌کند چه چیزی ارائه شود، و میزبان تصمیم می‌گیرد چگونه."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.assets-links.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A response item may be a typed asset reference with an AssetId and optional alt text, or a validated link. Only HTTP and HTTPS urls are accepted, the label is capped at 120 characters, and urls are deduplicated case-insensitively per message."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک آیتم پاسخ می‌تواند ارجاع تایپ‌شده به asset با ‎AssetId‎ و متن جایگزین اختیاری باشد، یا یک لینک اعتبارسنجی‌شده. فقط url با HTTP و HTTPS پذیرفته می‌شود، برچسب حداکثر ۱۲۰ کاراکتر است، و url‌ها در هر پیام بدون حساسیت به بزرگی و کوچکی حروف یکتا می‌شوند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

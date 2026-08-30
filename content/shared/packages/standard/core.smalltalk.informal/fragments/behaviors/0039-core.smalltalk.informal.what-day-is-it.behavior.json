@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-day-is-it.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.what-day-is-it.behavior",
+    "meaning": "core.smalltalk.informal.what-day-is-it",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.what-day-is-it.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Today is {{ system.dayOfWeek | unavailable }}.",
+              "It’s {{ system.dayOfWeek | unavailable }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "امروز {{ system.dayOfWeek | نامشخص }} است.",
+              "{{ system.dayOfWeek | نامشخص }} است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

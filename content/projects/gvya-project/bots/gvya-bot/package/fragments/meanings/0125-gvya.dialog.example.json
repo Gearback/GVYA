@@ -1,0 +1,84 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.example",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.example",
+    "negative_samples": [],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ GIVE ^ EXAMPLE ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ SHOW ^ EXAMPLE ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "example concrete practical show scenario"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مثال واقعی عملی روشن نمونه"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "show me a concrete example"
+      },
+      {
+        "language": "en-US",
+        "text": "can you give a practical example"
+      },
+      {
+        "language": "en-US",
+        "text": "make that concrete with an example"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک مثال واقعی بزن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه مثال عملی بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "با مثال روشنش کن"
+      },
+      {
+        "language": "en-US",
+        "text": "give me a simple example"
+      },
+      {
+        "language": "en-US",
+        "text": "can i see an example"
+      },
+      {
+        "language": "en-US",
+        "text": "show an example"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه مثال ساده بزن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه مثال خیلی ساده بزن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک نمونه ساده بگو"
+      }
+    ]
+  }
+}

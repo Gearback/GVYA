@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.whatever",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.whatever",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "whatever"
+      },
+      {
+        "language": "en-US",
+        "text": "as you wish"
+      },
+      {
+        "language": "en-US",
+        "text": "do what you want"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هرچی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هر طور می‌خوای"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به خودت مربوطه"
+      }
+    ]
+  }
+}

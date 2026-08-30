@@ -1,0 +1,1 @@
+Generated mechanically from benchmark-spec.json. Each rule is sentence-anchored and uses the exact authored token sequence. Native ChatScript tokenization, canonicalization/morphology, and spell correction remain enabled; no system-specific authored evidence is added. The final * rule is fallback infrastructure only.

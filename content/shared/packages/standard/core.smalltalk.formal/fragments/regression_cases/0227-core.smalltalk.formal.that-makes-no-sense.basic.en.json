@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.that-makes-no-sense.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.that-makes-no-sense",
+      "response_ids": [
+        "core.smalltalk.formal.that-makes-no-sense.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.that-makes-no-sense.basic.en",
+    "initial_state": {},
+    "input": "that makes no sense",
+    "language": "en-US",
+    "seed": 1
+  }
+}

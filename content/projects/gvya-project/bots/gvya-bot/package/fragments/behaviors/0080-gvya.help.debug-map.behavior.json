@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.debug-map.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.debug-map.behavior",
+    "meaning": "gvya.help.debug-map",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Because it is non-essential it can be dropped for distribution without changing runtime behavior, and it is excluded from the signing content root only in the sense that it is not an essential tuple."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "چون non-essential است، برای توزیع می‌توان آن را حذف کرد بدون اینکه رفتار زمان اجرا عوض شود، و از ریشهٔ محتوای امضا فقط به این معنا کنار است که جزو سه‌تایی‌های essential نیست."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.debug-map.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "debug/source-map.json is a non-essential adjunct entry that maps compiled program elements back to authored source. A Bot enables it with emit_debug_map, and it is capped at 16 MiB."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏debug/source-map.json یک entry جانبی و non-essential است که عناصر برنامهٔ کامپایل‌شده را به source نوشته‌شده برمی‌گرداند. یک Bot با ‎emit_debug_map‎ آن را فعال می‌کند و سقفش ۱۶ مگابایت است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

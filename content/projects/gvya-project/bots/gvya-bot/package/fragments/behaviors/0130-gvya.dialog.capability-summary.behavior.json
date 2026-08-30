@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.capability-summary.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.capability-thread",
+    "id": "gvya.dialog.capability-summary.behavior",
+    "meaning": "gvya.dialog.summary",
+    "responses": [
+      {
+        "id": "gvya.dialog.capability-summary.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.capability-thread",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "GVYA decides and validates the capability proposal, while your host remains the only code that can approve, execute, and report the external action."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "GVYA proposal مربوط به capability را تصمیم‌گیری و اعتبارسنجی می‌کند، اما فقط host می‌تواند اکشن بیرونی را تأیید، اجرا و نتیجه‌اش را گزارش کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

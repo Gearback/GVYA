@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-there.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.are-you-there.behavior",
+    "meaning": "core.smalltalk.informal.are-you-there",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.are-you-there.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I'm here.",
+              "I hear you.",
+              "Yeah, I'm listening."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اینجام.",
+              "می‌شنوم.",
+              "آره، دارم گوش می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-time-is-it",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.informal.what-time-is-it",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what time is it"
+      },
+      {
+        "language": "en-US",
+        "text": "time"
+      },
+      {
+        "language": "en-US",
+        "text": "current time"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساعت چنده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "الان ساعت چنده"
+      }
+    ]
+  }
+}

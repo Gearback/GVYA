@@ -1,0 +1,61 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.pick-one",
+  "mode": {
+    "target_id": "core.smalltalk.formal.pick-one",
+    "target_package": "core.smalltalk.formal",
+    "type": "replace"
+  },
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.pick-one",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "my bot picks a neighbouring topic instead of the right one"
+      },
+      {
+        "language": "en-US",
+        "text": "it keeps picking the wrong meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the matcher pick one meaning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات مدام معنی اشتباه را انتخاب می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher چطور معنی برنده را تشخیص می دهد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "pick one"
+      },
+      {
+        "language": "en-US",
+        "text": "choose one"
+      },
+      {
+        "language": "en-US",
+        "text": "choose for me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یکی رو انتخاب کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برام انتخاب کن"
+      }
+    ]
+  }
+}

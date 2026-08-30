@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.cli-commands.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.cli-commands.behavior",
+    "meaning": "gvya.help.cli-commands",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Both check commands emit bounded JSON without needing an extra output flag, which is what makes the CLI the machine-authoring interface."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هر دو دستور check بدون نیاز به فلگ خروجی اضافی، JSON محدود تولید می‌کنند، و همین است که CLI را به رابط نویسندگی ماشینی تبدیل می‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.cli-commands.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The canonical surface is gvya init bot and gvya init package for non-overwriting scaffolds, gvya check-package for a standalone package, gvya check for a complete one-Bot source target, gvya build to produce a .gvya, gvya audit, gvya test, and gvya signing-root and attach-signature."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "سطح کانونی شامل ‎gvya init bot‎ و ‎gvya init package‎ برای داربست‌های بدون بازنویسی، ‎gvya check-package‎ برای یک پکیج مستقل، ‎gvya check‎ برای یک هدف سورس کاملِ تک‌بات، ‎gvya build‎ برای تولید ‎.gvya‎، ‎gvya audit‎، ‎gvya test‎، و ‎gvya signing-root‎ و ‎attach-signature‎ است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

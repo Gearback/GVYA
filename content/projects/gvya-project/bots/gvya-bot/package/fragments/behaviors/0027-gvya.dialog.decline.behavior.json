@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.decline.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.offer",
+    "id": "gvya.dialog.decline.behavior",
+    "meaning": "core.smalltalk.formal.no",
+    "responses": [
+      {
+        "id": "gvya.dialog.decline.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "No problem. Ask me anything else about GVYA — concepts, authoring, matching, or shipping."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "مشکلی نیست. هر چیز دیگری از GVYA خواستی بپرس — مفاهیم، نویسندگی، تطبیق، یا انتشار."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

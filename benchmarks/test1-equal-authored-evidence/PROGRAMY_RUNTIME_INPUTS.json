@@ -1,0 +1,73 @@
+{
+  "format": "gvya.benchmark.programy-runtime-inputs",
+  "packages": [
+    {
+      "filename": "programy-3.6.tar.gz",
+      "project": "programy",
+      "sha256": "a3d3e2c2a1ff776acbe1f8866fe8673849fcaa3a275294b238249a08bf17d2f5",
+      "version": "3.6"
+    },
+    {
+      "filename": "PyYAML-4.2b4.tar.gz",
+      "project": "PyYAML",
+      "sha256": "3c17fb92c8ba2f525e4b5f7941d850e7a48c3a59b32d331e2502a3cdc6648e76",
+      "version": "4.2b4"
+    },
+    {
+      "filename": "APScheduler-3.5.3.tar.gz",
+      "project": "APScheduler",
+      "sha256": "6599bc78901ee7e9be85cbd073d9cc155c42d2bc867c5cde4d4d1cc339ebfbeb",
+      "version": "3.5.3"
+    },
+    {
+      "filename": "beautifulsoup4-4.6.3.tar.gz",
+      "project": "beautifulsoup4",
+      "sha256": "90f8e61121d6ae58362ce3bed8cd997efb00c914eae0ff3d363c32f9a9822d10",
+      "version": "4.6.3"
+    },
+    {
+      "filename": "SQLAlchemy-1.2.12.tar.gz",
+      "project": "SQLAlchemy",
+      "sha256": "c5951d9ef1d5404ed04bae5a16b60a0779087378928f997a294d1229c6ca4d3e",
+      "version": "1.2.12"
+    },
+    {
+      "filename": "pymongo-3.7.1.tar.gz",
+      "project": "pymongo",
+      "sha256": "f14fb6c4058772a0d74d82874d3b89d7264d89b4ed7fa0413ea0ef8112b268b9",
+      "version": "3.7.1"
+    },
+    {
+      "filename": "redis-2.10.6.tar.gz",
+      "project": "redis",
+      "sha256": "a22ca993cea2962dbb588f9f30d0015ac4afcc45bee27d3978c0dbe9e97c6c0f",
+      "version": "2.10.6"
+    },
+    {
+      "filename": "six-1.12.0.tar.gz",
+      "project": "six",
+      "sha256": "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73",
+      "version": "1.12.0"
+    },
+    {
+      "filename": "pytz-2018.9.tar.gz",
+      "project": "pytz",
+      "sha256": "d5f05e487007e29e03409f9398d074e158d920d36eb82eaf66fb1136b0c5374c",
+      "version": "2018.9"
+    },
+    {
+      "filename": "tzlocal-1.5.1.tar.gz",
+      "project": "tzlocal",
+      "sha256": "4ebeb848845ac898da6519b9b31879cf13b6626f7184c496037b818e238f2c4e",
+      "version": "1.5.1"
+    },
+    {
+      "filename": "python-dateutil-2.7.3.tar.gz",
+      "project": "python-dateutil",
+      "sha256": "e27001de32f627c22380a688bcc43ce83504a7bc5da472209b4c70f02829f0b8",
+      "version": "2.7.3"
+    }
+  ],
+  "python": "3.7.17",
+  "version": 1
+}

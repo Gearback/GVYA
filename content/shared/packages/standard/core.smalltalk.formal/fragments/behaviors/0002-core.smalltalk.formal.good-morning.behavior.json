@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.good-morning.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.good-morning.behavior",
+    "meaning": "core.smalltalk.formal.good-morning",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.good-morning.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good morning.",
+              "Morning.",
+              "I hope the day goes well."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "صبح بخیر.",
+              "صبح شما بخیر.",
+              "امیدوارم روز خوبی داشته باشید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

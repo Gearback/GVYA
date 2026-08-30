@@ -1,0 +1,30 @@
+{
+  "id": "scan.single",
+  "value": {
+    "id": "scan.single",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "single page"
+      },
+      {
+        "language": "en",
+        "text": "one sheet"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i scan one page"
+      },
+      {
+        "language": "en",
+        "text": "scan a single sheet"
+      },
+      {
+        "language": "en",
+        "text": "capture one paper page"
+      }
+    ]
+  }
+}

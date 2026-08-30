@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.simplify.capability.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.capability-thread",
+    "id": "gvya.dialog.simplify.capability.behavior",
+    "meaning": "gvya.dialog.simplify",
+    "responses": [
+      {
+        "id": "gvya.dialog.simplify.capability.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.capability-thread",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Plain English: the Bot can ask your app to do something, but your app stays in charge of whether the thing actually happens."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خیلی ساده: Bot می‌تواند از برنامه‌ات بخواهد کاری انجام شود، ولی اینکه آن کار واقعاً انجام بشود یا نه همچنان دست برنامه است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

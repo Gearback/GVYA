@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.effects.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.effects.behavior",
+    "meaning": "gvya.help.effects",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Effects execute before the response template renders, so the same turn's response can immediately describe the state transition it just made. Host and context mutation is prohibited."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏effectها پیش از رندر شدن قالب پاسخ اجرا می‌شوند، پس پاسخِ همان نوبت می‌تواند بلافاصله تغییر وضعیتی را که ایجاد کرده توصیف کند. تغییر میزبان و context ممنوع است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.effects.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A response may carry effects that write conversational memory. Two types exist: assign, which sets a value, and increment, which adds a numeric delta. Effects may target only author state."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک پاسخ می‌تواند effectهایی داشته باشد که حافظهٔ مکالمه را می‌نویسند. دو نوع وجود دارد: assign که یک مقدار را ست می‌کند، و increment که یک دلتای عددی اضافه می‌کند. effectها فقط می‌توانند author state را هدف بگیرند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

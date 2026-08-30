@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.matcher.extended-thanks",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Manual matcher coverage with minimal authored samples",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.thanks",
+      "response_ids": [
+        "core.smalltalk.formal.thanks.response"
+      ]
+    },
+    "generated": false,
+    "id": "core.smalltalk.formal.matcher.extended-thanks",
+    "initial_state": {},
+    "input": "thank you for your help man",
+    "language": "en-US",
+    "seed": 1
+  }
+}

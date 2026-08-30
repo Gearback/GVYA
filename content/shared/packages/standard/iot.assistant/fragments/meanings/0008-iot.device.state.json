@@ -1,0 +1,34 @@
+{
+  "exported": true,
+  "id": "iot.device.state",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "iot.device.state",
+    "negative_samples": [
+      { "language": "en-US", "text": "state your name" },
+      { "language": "en-US", "text": "application state management" },
+      { "language": "fa-IR", "text": "اسمت را بگو" }
+    ],
+    "references": [
+      {
+        "elicitation": [
+          { "language": "en-US", "text": "Which device should I check?" },
+          { "language": "fa-IR", "text": "وضعیت کدام دستگاه را بررسی کنم؟" }
+        ],
+        "kind": "iot.device",
+        "required": true
+      }
+    ],
+    "samples": [
+      { "language": "en-US", "text": "check device status" },
+      { "language": "en-US", "text": "what is the device state" },
+      { "language": "en-US", "text": "is the device on" },
+      { "language": "en-US", "text": "check the light status" },
+      { "language": "fa-IR", "text": "وضعیت دستگاه را بررسی کن" },
+      { "language": "fa-IR", "text": "دستگاه چه وضعیتی دارد" },
+      { "language": "fa-IR", "text": "دستگاه روشن است" },
+      { "language": "fa-IR", "text": "وضعیت چراغ را بررسی کن" }
+    ]
+  }
+}

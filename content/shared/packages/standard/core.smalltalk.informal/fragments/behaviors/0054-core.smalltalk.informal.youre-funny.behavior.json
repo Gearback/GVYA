@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.youre-funny.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.youre-funny.behavior",
+    "meaning": "core.smalltalk.informal.youre-funny",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.youre-funny.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good. Didn’t waste it, then.",
+              "I’ll take that too.",
+              "A little humor helps."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوبه. پس بی‌اثر نبود.",
+              "اینم قبول می‌کنم.",
+              "یه کم شوخی بد نیست."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

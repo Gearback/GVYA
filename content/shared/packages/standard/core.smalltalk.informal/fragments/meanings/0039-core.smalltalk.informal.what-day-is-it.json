@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-day-is-it",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.informal.what-day-is-it",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what day is it"
+      },
+      {
+        "language": "en-US",
+        "text": "what day is today"
+      },
+      {
+        "language": "en-US",
+        "text": "today is what day"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امروز چه روزیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امروز چندشنبه است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چندشنبه‌ست"
+      }
+    ]
+  }
+}

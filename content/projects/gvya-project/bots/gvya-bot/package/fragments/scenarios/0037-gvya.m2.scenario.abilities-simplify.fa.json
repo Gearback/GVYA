@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "gvya.m2.scenario.abilities-simplify.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The abilities offer handles a natural Persian simplify follow-up before yes/no routing",
+    "generated": false,
+    "id": "gvya.m2.scenario.abilities-simplify.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.offer",
+          "meaning": "gvya.help.bot-abilities",
+          "response_ids": [
+            "gvya.help.bot-abilities.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "میشه کمکم کنی؟",
+        "seed": 218,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.simplify",
+          "response_ids": [
+            "gvya.dialog.simplify.offer.abilities"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "یکم ساده‌ترش کن.",
+        "seed": 219,
+        "type": "turn"
+      }
+    ]
+  }
+}

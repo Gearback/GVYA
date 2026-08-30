@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-dont-speak-english",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.informal.i-dont-speak-english",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i don't speak english"
+      },
+      {
+        "language": "en-US",
+        "text": "my english is bad"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انگلیسیم خوب نیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انگلیسی بلد نیستم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انگلیسی سخت است"
+      }
+    ]
+  }
+}

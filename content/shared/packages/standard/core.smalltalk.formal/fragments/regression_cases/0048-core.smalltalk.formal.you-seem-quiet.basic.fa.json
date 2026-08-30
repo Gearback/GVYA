@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.you-seem-quiet.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.you-seem-quiet",
+      "response_ids": [
+        "core.smalltalk.formal.you-seem-quiet.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.you-seem-quiet.basic.fa",
+    "initial_state": {},
+    "input": "ساکتی",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

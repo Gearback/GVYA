@@ -1,0 +1,14 @@
+{
+  "exported": true,
+  "id": "iot.device.turn-on.binding",
+  "mode": "add",
+  "value": {
+    "arguments": [
+      { "source": { "kind": "iot.device", "projection": "id", "type": "meaning_reference" }, "target": "device" },
+      { "source": { "type": "literal", "value": "on" }, "target": "state" }
+    ],
+    "capability": "iot.device.switch",
+    "id": "iot.device.turn-on.binding",
+    "trigger": { "meaning": "iot.device.turn-on" }
+  }
+}

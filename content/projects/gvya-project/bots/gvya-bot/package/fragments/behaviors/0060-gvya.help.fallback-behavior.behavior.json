@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.fallback-behavior.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.fallback-behavior.behavior",
+    "meaning": "gvya.help.fallback-behavior",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Because conditions are ordinary typed ValueConditions, the same state can select an angry, friendly or contextual fallback personality. If nothing is eligible the kernel returns a Silent outcome — there is no hidden engine-owned prose, so all recovery text must be authored in a Fallback Package."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "چون شرط‌ها ‎ValueCondition‎های تایپ‌شدهٔ معمولی‌اند، همان وضعیت می‌تواند شخصیت fallback عصبانی، دوستانه یا زمینه‌ای را انتخاب کند. اگر هیچ‌کدام واجد شرایط نباشند، هسته نتیجهٔ Silent برمی‌گرداند — هیچ متن پنهانی در موتور نیست، پس همهٔ متن‌های بازیابی باید در Fallback Package نوشته شوند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.fallback-behavior.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Fallback Behavior is first-class: it has no Meaning and cannot participate in semantic matching. Selection is deterministic — trigger, which is unresolved or repeat, then condition eligibility, then the highest priority tier, then ordinary response and locale selection."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Fallback Behavior موجودیتی درجه‌یک است: هیچ Meaningی ندارد و نمی‌تواند در تطبیق معنایی شرکت کند. انتخاب قطعی است — تریگر، که ‎unresolved‎ یا ‎repeat‎ است، سپس واجد شرایط بودن شرط‌ها، سپس بالاترین لایهٔ اولویت، سپس انتخاب عادی پاسخ و زبان."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

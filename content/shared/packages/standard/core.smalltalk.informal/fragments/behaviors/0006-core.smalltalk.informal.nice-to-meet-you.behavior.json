@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.nice-to-meet-you.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.nice-to-meet-you.behavior",
+    "meaning": "core.smalltalk.informal.nice-to-meet-you",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.nice-to-meet-you.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good to meet you.",
+              "Same here.",
+              "Yeah. Good to meet you too."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوشبختم.",
+              "منم همین‌طور.",
+              "آره، منم از آشنایی باهات خوشحالم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-dont-understand.behavior",
+  "mode": {
+    "target_id": "core.smalltalk.formal.i-dont-understand.behavior",
+    "target_package": "core.smalltalk.formal",
+    "type": "replace"
+  },
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.i-dont-understand.behavior",
+    "meaning": "core.smalltalk.formal.i-dont-understand",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.i-dont-understand.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "No problem. Tell me which direction would help: what GVYA is, what you can build with it, or how to start your first Bot."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اشکالی ندارد. بگو کدام مسیر کمکت می‌کند: GVYA چیست، چه چیزهایی می‌شود با آن ساخت، یا اولین Bot را از کجا شروع کنی."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

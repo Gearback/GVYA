@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.long-time-no-see.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.long-time-no-see.behavior",
+    "meaning": "core.smalltalk.formal.long-time-no-see",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.long-time-no-see.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Yes, it has been some time.",
+              "It does feel that way.",
+              "I am still here."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بله، مدتی گذشته است.",
+              "همین‌طور به نظر می‌رسد.",
+              "من همچنان اینجا هستم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

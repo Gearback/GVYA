@@ -1,0 +1,22 @@
+{
+  "exported": true,
+  "id": "gvya.quality.boundary.artifact-integrity-tamper.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A tampering question is artifact integrity, not building or signing the artifact",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.build-artifact",
+        "gvya.help.artifact-signing"
+      ],
+      "meaning": "gvya.help.artifact-integrity"
+    },
+    "generated": false,
+    "id": "gvya.quality.boundary.artifact-integrity-tamper.en",
+    "initial_state": {},
+    "input": "was this compiled artifact tampered with",
+    "language": "en-US",
+    "seed": 1
+  }
+}

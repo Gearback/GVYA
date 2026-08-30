@@ -1,0 +1,24 @@
+{
+  "exported": true,
+  "id": "gvya.help.authoring-recipe.minimum-evidence.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Authoring guidance must teach the matrix as a gap checklist rather than a data quota",
+    "expectation": {
+      "meaning": "gvya.help.authoring-recipe",
+      "response_contains": [
+        "not a 3×3 quota"
+      ],
+      "response_ids": [
+        "gvya.help.authoring-recipe.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.authoring-recipe.minimum-evidence.en",
+    "initial_state": {},
+    "input": "Do I need nine samples for every Meaning?",
+    "language": "en-US",
+    "seed": 79
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-real.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.are-you-real",
+      "response_ids": [
+        "core.smalltalk.formal.are-you-real.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.are-you-real.basic.en",
+    "initial_state": {},
+    "input": "are you real",
+    "language": "en-US",
+    "seed": 1
+  }
+}

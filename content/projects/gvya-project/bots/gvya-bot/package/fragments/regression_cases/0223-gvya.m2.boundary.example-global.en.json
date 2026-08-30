@@ -1,0 +1,20 @@
+{
+  "exported": true,
+  "id": "gvya.m2.boundary.example-global.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A bare request for an example outside a GVYA detail scope does not steal a domain answer",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.dialog.example"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.m2.boundary.example-global.en",
+    "initial_state": {},
+    "input": "Give me an example.",
+    "language": "en-US",
+    "seed": 220
+  }
+}

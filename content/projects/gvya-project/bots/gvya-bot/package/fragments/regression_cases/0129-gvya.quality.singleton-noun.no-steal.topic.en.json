@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.singleton-noun.no-steal.topic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Topic singleton evidence stays inside its own boundary",
+    "expectation": {
+      "meaning": "gvya.help.topics"
+    },
+    "generated": false,
+    "id": "gvya.quality.singleton-noun.no-steal.topic.en",
+    "initial_state": {},
+    "input": "does a topic expire after a few turns",
+    "language": "en-US",
+    "seed": 1
+  }
+}

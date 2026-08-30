@@ -1,0 +1,67 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.bad",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.bad",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "سفارش بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به من بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه پیتزا بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یادم بده"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "بده"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "bad"
+      },
+      {
+        "language": "en-US",
+        "text": "that's bad"
+      },
+      {
+        "language": "en-US",
+        "text": "not good"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوب نیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "افتضاحه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خیلی بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واقعاً بده"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "exported": true,
+  "id": "iot.device.open.behavior",
+  "mode": "add",
+  "value": {
+    "id": "iot.device.open.behavior",
+    "meaning": "iot.device.open",
+    "responses": [
+      {
+        "id": "iot.device.open.requested",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device-open request is ready."] },
+          { "language": "fa-IR", "variants": ["درخواست بازکردن دستگاه آماده است."] }
+        ]
+      }
+    ]
+  }
+}

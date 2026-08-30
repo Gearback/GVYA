@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.lets-continue",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.informal.lets-continue",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "let's continue"
+      },
+      {
+        "language": "en-US",
+        "text": "continue"
+      },
+      {
+        "language": "en-US",
+        "text": "carry on"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ادامه بدیم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بریم ادامه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ادامه بده"
+      }
+    ]
+  }
+}

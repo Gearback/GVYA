@@ -1,0 +1,2012 @@
+{
+  "benchmark": "gvya-comparator-test-1-data-parity",
+  "domain": {
+    "description": "fictional product-support assistant; facts are represented only by intent IDs so factual knowledge does not bias matching",
+    "name": "Northstar Desk"
+  },
+  "evaluation": [
+    {
+      "expected": "account.create",
+      "id": "seen-001",
+      "text": "create an account",
+      "track": "seen"
+    },
+    {
+      "expected": "account.create",
+      "id": "seen-002",
+      "text": "how do i make an account",
+      "track": "seen"
+    },
+    {
+      "expected": "account.create",
+      "id": "seen-003",
+      "text": "i want to sign up",
+      "track": "seen"
+    },
+    {
+      "expected": "account.create",
+      "id": "seen-004",
+      "text": "help me open a new account",
+      "track": "seen"
+    },
+    {
+      "expected": "account.delete",
+      "id": "seen-005",
+      "text": "delete my account",
+      "track": "seen"
+    },
+    {
+      "expected": "account.delete",
+      "id": "seen-006",
+      "text": "how do i close my account",
+      "track": "seen"
+    },
+    {
+      "expected": "account.delete",
+      "id": "seen-007",
+      "text": "remove my account permanently",
+      "track": "seen"
+    },
+    {
+      "expected": "account.delete",
+      "id": "seen-008",
+      "text": "i want to erase my account",
+      "track": "seen"
+    },
+    {
+      "expected": "password.reset",
+      "id": "seen-009",
+      "text": "reset my password",
+      "track": "seen"
+    },
+    {
+      "expected": "password.reset",
+      "id": "seen-010",
+      "text": "i forgot my password",
+      "track": "seen"
+    },
+    {
+      "expected": "password.reset",
+      "id": "seen-011",
+      "text": "how can i change a forgotten password",
+      "track": "seen"
+    },
+    {
+      "expected": "password.reset",
+      "id": "seen-012",
+      "text": "help me recover my password",
+      "track": "seen"
+    },
+    {
+      "expected": "email.change",
+      "id": "seen-013",
+      "text": "change my email address",
+      "track": "seen"
+    },
+    {
+      "expected": "email.change",
+      "id": "seen-014",
+      "text": "update the email on my account",
+      "track": "seen"
+    },
+    {
+      "expected": "email.change",
+      "id": "seen-015",
+      "text": "use a different email for my account",
+      "track": "seen"
+    },
+    {
+      "expected": "email.change",
+      "id": "seen-016",
+      "text": "how do i replace my login email",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "seen-017",
+      "text": "i need a receipt",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "seen-018",
+      "text": "where can i get my invoice",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "seen-019",
+      "text": "download my billing receipt",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "seen-020",
+      "text": "show me the invoice for my payment",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "seen-021",
+      "text": "i want a refund",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "seen-022",
+      "text": "how do i get my money back",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "seen-023",
+      "text": "refund my payment",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "seen-024",
+      "text": "can you return the charge",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.payment_failed",
+      "id": "seen-025",
+      "text": "my payment failed",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.payment_failed",
+      "id": "seen-026",
+      "text": "the card payment was declined",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.payment_failed",
+      "id": "seen-027",
+      "text": "why did my payment not go through",
+      "track": "seen"
+    },
+    {
+      "expected": "billing.payment_failed",
+      "id": "seen-028",
+      "text": "i cannot complete the payment",
+      "track": "seen"
+    },
+    {
+      "expected": "subscription.cancel",
+      "id": "seen-029",
+      "text": "cancel my subscription",
+      "track": "seen"
+    },
+    {
+      "expected": "subscription.cancel",
+      "id": "seen-030",
+      "text": "stop my subscription",
+      "track": "seen"
+    },
+    {
+      "expected": "subscription.cancel",
+      "id": "seen-031",
+      "text": "i want to end my plan",
+      "track": "seen"
+    },
+    {
+      "expected": "subscription.cancel",
+      "id": "seen-032",
+      "text": "turn off my paid subscription",
+      "track": "seen"
+    },
+    {
+      "expected": "order.status",
+      "id": "seen-033",
+      "text": "where is my order",
+      "track": "seen"
+    },
+    {
+      "expected": "order.status",
+      "id": "seen-034",
+      "text": "check my order status",
+      "track": "seen"
+    },
+    {
+      "expected": "order.status",
+      "id": "seen-035",
+      "text": "track my order",
+      "track": "seen"
+    },
+    {
+      "expected": "order.status",
+      "id": "seen-036",
+      "text": "what is happening with my order",
+      "track": "seen"
+    },
+    {
+      "expected": "order.cancel",
+      "id": "seen-037",
+      "text": "cancel my order",
+      "track": "seen"
+    },
+    {
+      "expected": "order.cancel",
+      "id": "seen-038",
+      "text": "stop the order i placed",
+      "track": "seen"
+    },
+    {
+      "expected": "order.cancel",
+      "id": "seen-039",
+      "text": "i want to cancel a purchase order",
+      "track": "seen"
+    },
+    {
+      "expected": "order.cancel",
+      "id": "seen-040",
+      "text": "can i call off my order",
+      "track": "seen"
+    },
+    {
+      "expected": "shipping.address_change",
+      "id": "seen-041",
+      "text": "change my shipping address",
+      "track": "seen"
+    },
+    {
+      "expected": "shipping.address_change",
+      "id": "seen-042",
+      "text": "update the delivery address",
+      "track": "seen"
+    },
+    {
+      "expected": "shipping.address_change",
+      "id": "seen-043",
+      "text": "send my order to a different address",
+      "track": "seen"
+    },
+    {
+      "expected": "shipping.address_change",
+      "id": "seen-044",
+      "text": "how do i correct the shipping address",
+      "track": "seen"
+    },
+    {
+      "expected": "shipping.cost",
+      "id": "seen-045",
+      "text": "how much is shipping",
+      "track": "seen"
+    },
+    {
+      "expected": "shipping.cost",
+      "id": "seen-046",
+      "text": "what does delivery cost",
+      "track": "seen"
+    },
+    {
+      "expected": "shipping.cost",
+      "id": "seen-047",
+      "text": "tell me the shipping fee",
+      "track": "seen"
+    },
+    {
+      "expected": "shipping.cost",
+      "id": "seen-048",
+      "text": "is there a delivery charge",
+      "track": "seen"
+    },
+    {
+      "expected": "product.compatibility",
+      "id": "seen-049",
+      "text": "is this product compatible with windows",
+      "track": "seen"
+    },
+    {
+      "expected": "product.compatibility",
+      "id": "seen-050",
+      "text": "does it work with android",
+      "track": "seen"
+    },
+    {
+      "expected": "product.compatibility",
+      "id": "seen-051",
+      "text": "what devices is the product compatible with",
+      "track": "seen"
+    },
+    {
+      "expected": "product.compatibility",
+      "id": "seen-052",
+      "text": "will this work on my mac",
+      "track": "seen"
+    },
+    {
+      "expected": "product.requirements",
+      "id": "seen-053",
+      "text": "what are the system requirements",
+      "track": "seen"
+    },
+    {
+      "expected": "product.requirements",
+      "id": "seen-054",
+      "text": "what do i need to run the app",
+      "track": "seen"
+    },
+    {
+      "expected": "product.requirements",
+      "id": "seen-055",
+      "text": "minimum requirements for the product",
+      "track": "seen"
+    },
+    {
+      "expected": "product.requirements",
+      "id": "seen-056",
+      "text": "what hardware does the app require",
+      "track": "seen"
+    },
+    {
+      "expected": "app.install",
+      "id": "seen-057",
+      "text": "how do i install the app",
+      "track": "seen"
+    },
+    {
+      "expected": "app.install",
+      "id": "seen-058",
+      "text": "help me install the application",
+      "track": "seen"
+    },
+    {
+      "expected": "app.install",
+      "id": "seen-059",
+      "text": "where do i start the installation",
+      "track": "seen"
+    },
+    {
+      "expected": "app.install",
+      "id": "seen-060",
+      "text": "installing the app",
+      "track": "seen"
+    },
+    {
+      "expected": "app.update",
+      "id": "seen-061",
+      "text": "how do i update the app",
+      "track": "seen"
+    },
+    {
+      "expected": "app.update",
+      "id": "seen-062",
+      "text": "install the latest app update",
+      "track": "seen"
+    },
+    {
+      "expected": "app.update",
+      "id": "seen-063",
+      "text": "upgrade my application",
+      "track": "seen"
+    },
+    {
+      "expected": "app.update",
+      "id": "seen-064",
+      "text": "where can i get the newest version",
+      "track": "seen"
+    },
+    {
+      "expected": "data.export",
+      "id": "seen-065",
+      "text": "export my data",
+      "track": "seen"
+    },
+    {
+      "expected": "data.export",
+      "id": "seen-066",
+      "text": "how do i download my data",
+      "track": "seen"
+    },
+    {
+      "expected": "data.export",
+      "id": "seen-067",
+      "text": "get a copy of my information",
+      "track": "seen"
+    },
+    {
+      "expected": "data.export",
+      "id": "seen-068",
+      "text": "i want to export everything from my account",
+      "track": "seen"
+    },
+    {
+      "expected": "data.delete",
+      "id": "seen-069",
+      "text": "delete my stored data",
+      "track": "seen"
+    },
+    {
+      "expected": "data.delete",
+      "id": "seen-070",
+      "text": "remove my saved information",
+      "track": "seen"
+    },
+    {
+      "expected": "data.delete",
+      "id": "seen-071",
+      "text": "erase the data you have about me",
+      "track": "seen"
+    },
+    {
+      "expected": "data.delete",
+      "id": "seen-072",
+      "text": "how do i clear all my data",
+      "track": "seen"
+    },
+    {
+      "expected": "data.sync",
+      "id": "seen-073",
+      "text": "sync my data",
+      "track": "seen"
+    },
+    {
+      "expected": "data.sync",
+      "id": "seen-074",
+      "text": "why is my data not syncing",
+      "track": "seen"
+    },
+    {
+      "expected": "data.sync",
+      "id": "seen-075",
+      "text": "how do i synchronize my devices",
+      "track": "seen"
+    },
+    {
+      "expected": "data.sync",
+      "id": "seen-076",
+      "text": "keep my data in sync",
+      "track": "seen"
+    },
+    {
+      "expected": "offline.mode",
+      "id": "seen-077",
+      "text": "can i use the app offline",
+      "track": "seen"
+    },
+    {
+      "expected": "offline.mode",
+      "id": "seen-078",
+      "text": "does the app work without internet",
+      "track": "seen"
+    },
+    {
+      "expected": "offline.mode",
+      "id": "seen-079",
+      "text": "how do i enable offline mode",
+      "track": "seen"
+    },
+    {
+      "expected": "offline.mode",
+      "id": "seen-080",
+      "text": "use the product with no connection",
+      "track": "seen"
+    },
+    {
+      "expected": "security.two_factor",
+      "id": "seen-081",
+      "text": "enable two factor authentication",
+      "track": "seen"
+    },
+    {
+      "expected": "security.two_factor",
+      "id": "seen-082",
+      "text": "turn on 2fa",
+      "track": "seen"
+    },
+    {
+      "expected": "security.two_factor",
+      "id": "seen-083",
+      "text": "how do i set up two step verification",
+      "track": "seen"
+    },
+    {
+      "expected": "security.two_factor",
+      "id": "seen-084",
+      "text": "protect my account with a second factor",
+      "track": "seen"
+    },
+    {
+      "expected": "security.sessions",
+      "id": "seen-085",
+      "text": "show my active sessions",
+      "track": "seen"
+    },
+    {
+      "expected": "security.sessions",
+      "id": "seen-086",
+      "text": "where am i currently signed in",
+      "track": "seen"
+    },
+    {
+      "expected": "security.sessions",
+      "id": "seen-087",
+      "text": "list devices logged into my account",
+      "track": "seen"
+    },
+    {
+      "expected": "security.sessions",
+      "id": "seen-088",
+      "text": "check my login sessions",
+      "track": "seen"
+    },
+    {
+      "expected": "support.contact",
+      "id": "seen-089",
+      "text": "how do i contact support",
+      "track": "seen"
+    },
+    {
+      "expected": "support.contact",
+      "id": "seen-090",
+      "text": "i need to talk to support",
+      "track": "seen"
+    },
+    {
+      "expected": "support.contact",
+      "id": "seen-091",
+      "text": "where can i reach customer service",
+      "track": "seen"
+    },
+    {
+      "expected": "support.contact",
+      "id": "seen-092",
+      "text": "help me contact your support team",
+      "track": "seen"
+    },
+    {
+      "expected": "support.hours",
+      "id": "seen-093",
+      "text": "when is support open",
+      "track": "seen"
+    },
+    {
+      "expected": "support.hours",
+      "id": "seen-094",
+      "text": "what are support hours",
+      "track": "seen"
+    },
+    {
+      "expected": "support.hours",
+      "id": "seen-095",
+      "text": "when can i contact customer service",
+      "track": "seen"
+    },
+    {
+      "expected": "support.hours",
+      "id": "seen-096",
+      "text": "what time does the support team work",
+      "track": "seen"
+    },
+    {
+      "expected": "account.create",
+      "id": "paraphrase-001",
+      "text": "register me for a new profile",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "account.create",
+      "id": "paraphrase-002",
+      "text": "what is the process for opening a user account",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "account.delete",
+      "id": "paraphrase-003",
+      "text": "shut down my profile for good",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "account.delete",
+      "id": "paraphrase-004",
+      "text": "how can i permanently get rid of my user account",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "password.reset",
+      "id": "paraphrase-005",
+      "text": "i cannot remember my login secret",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "password.reset",
+      "id": "paraphrase-006",
+      "text": "what should i do if i lost my password",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "email.change",
+      "id": "paraphrase-007",
+      "text": "i have a new email and need it on my profile",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "email.change",
+      "id": "paraphrase-008",
+      "text": "replace the address i use to sign in",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "paraphrase-009",
+      "text": "can i have proof of this charge",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "paraphrase-010",
+      "text": "where is the bill for my purchase",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "paraphrase-011",
+      "text": "reverse this payment for me",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "paraphrase-012",
+      "text": "i would like the purchase amount returned",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "billing.payment_failed",
+      "id": "paraphrase-013",
+      "text": "the checkout will not accept my payment",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "billing.payment_failed",
+      "id": "paraphrase-014",
+      "text": "my transaction keeps being rejected",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "subscription.cancel",
+      "id": "paraphrase-015",
+      "text": "do not renew my membership",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "subscription.cancel",
+      "id": "paraphrase-016",
+      "text": "i want to discontinue the paid plan",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "order.status",
+      "id": "paraphrase-017",
+      "text": "has my purchase shipped yet",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "order.status",
+      "id": "paraphrase-018",
+      "text": "give me an update on my purchase",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "order.cancel",
+      "id": "paraphrase-019",
+      "text": "please stop the purchase before it is processed",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "order.cancel",
+      "id": "paraphrase-020",
+      "text": "i no longer want the order i submitted",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "shipping.address_change",
+      "id": "paraphrase-021",
+      "text": "the parcel needs to go somewhere else",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "shipping.address_change",
+      "id": "paraphrase-022",
+      "text": "i entered the wrong delivery location",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "shipping.cost",
+      "id": "paraphrase-023",
+      "text": "what will you charge to send it",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "shipping.cost",
+      "id": "paraphrase-024",
+      "text": "is delivery free or paid",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "product.compatibility",
+      "id": "paraphrase-025",
+      "text": "which platforms can run this",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "product.compatibility",
+      "id": "paraphrase-026",
+      "text": "does this support my operating system",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "product.requirements",
+      "id": "paraphrase-027",
+      "text": "what specs are necessary",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "product.requirements",
+      "id": "paraphrase-028",
+      "text": "how powerful must my computer be",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "app.install",
+      "id": "paraphrase-029",
+      "text": "how can i put the software on my device",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "app.install",
+      "id": "paraphrase-030",
+      "text": "walk me through getting the application installed",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "app.update",
+      "id": "paraphrase-031",
+      "text": "how can i move to the current release",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "app.update",
+      "id": "paraphrase-032",
+      "text": "my app is old and i need the latest one",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "data.export",
+      "id": "paraphrase-033",
+      "text": "let me take my information out",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "data.export",
+      "id": "paraphrase-034",
+      "text": "can i obtain an archive of everything i stored",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "data.delete",
+      "id": "paraphrase-035",
+      "text": "wipe the information saved for me",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "data.delete",
+      "id": "paraphrase-036",
+      "text": "i want my stored records removed",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "data.sync",
+      "id": "paraphrase-037",
+      "text": "my devices show different information",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "data.sync",
+      "id": "paraphrase-038",
+      "text": "how can i keep the same data across devices",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "offline.mode",
+      "id": "paraphrase-039",
+      "text": "will it still run if i lose connectivity",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "offline.mode",
+      "id": "paraphrase-040",
+      "text": "can i keep using it on an airplane with no network",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "security.two_factor",
+      "id": "paraphrase-041",
+      "text": "add another verification step to login",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "security.two_factor",
+      "id": "paraphrase-042",
+      "text": "i want login codes as extra protection",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "security.sessions",
+      "id": "paraphrase-043",
+      "text": "which computers are signed into my profile",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "security.sessions",
+      "id": "paraphrase-044",
+      "text": "show every current login",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "support.contact",
+      "id": "paraphrase-045",
+      "text": "how can i speak with someone who can help",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "support.contact",
+      "id": "paraphrase-046",
+      "text": "give me a way to reach the help team",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "support.hours",
+      "id": "paraphrase-047",
+      "text": "what times can an agent answer me",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "support.hours",
+      "id": "paraphrase-048",
+      "text": "when is customer service available",
+      "track": "paraphrase"
+    },
+    {
+      "expected": "account.create",
+      "id": "typo-001",
+      "text": "creat an acount",
+      "track": "typo"
+    },
+    {
+      "expected": "account.delete",
+      "id": "typo-002",
+      "text": "delet my acccount",
+      "track": "typo"
+    },
+    {
+      "expected": "password.reset",
+      "id": "typo-003",
+      "text": "resrt my pasword",
+      "track": "typo"
+    },
+    {
+      "expected": "email.change",
+      "id": "typo-004",
+      "text": "chnage my emial adress",
+      "track": "typo"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "typo-005",
+      "text": "i ned my reciept",
+      "track": "typo"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "typo-006",
+      "text": "i wan a refnd",
+      "track": "typo"
+    },
+    {
+      "expected": "billing.payment_failed",
+      "id": "typo-007",
+      "text": "my paymnt faield",
+      "track": "typo"
+    },
+    {
+      "expected": "subscription.cancel",
+      "id": "typo-008",
+      "text": "cancell my subscriptin",
+      "track": "typo"
+    },
+    {
+      "expected": "order.status",
+      "id": "typo-009",
+      "text": "ware is my odrer",
+      "track": "typo"
+    },
+    {
+      "expected": "order.cancel",
+      "id": "typo-010",
+      "text": "cancle my ordr",
+      "track": "typo"
+    },
+    {
+      "expected": "shipping.address_change",
+      "id": "typo-011",
+      "text": "chnage my shiping adress",
+      "track": "typo"
+    },
+    {
+      "expected": "shipping.cost",
+      "id": "typo-012",
+      "text": "how much is shiping",
+      "track": "typo"
+    },
+    {
+      "expected": "product.compatibility",
+      "id": "typo-013",
+      "text": "is it compatable with windws",
+      "track": "typo"
+    },
+    {
+      "expected": "product.requirements",
+      "id": "typo-014",
+      "text": "wat are systm requirments",
+      "track": "typo"
+    },
+    {
+      "expected": "app.install",
+      "id": "typo-015",
+      "text": "how do i instll the ap",
+      "track": "typo"
+    },
+    {
+      "expected": "app.update",
+      "id": "typo-016",
+      "text": "how do i updte the app",
+      "track": "typo"
+    },
+    {
+      "expected": "data.export",
+      "id": "typo-017",
+      "text": "expot my datta",
+      "track": "typo"
+    },
+    {
+      "expected": "data.delete",
+      "id": "typo-018",
+      "text": "delet my stord data",
+      "track": "typo"
+    },
+    {
+      "expected": "data.sync",
+      "id": "typo-019",
+      "text": "my data isnt sycing",
+      "track": "typo"
+    },
+    {
+      "expected": "offline.mode",
+      "id": "typo-020",
+      "text": "can i use it ofline",
+      "track": "typo"
+    },
+    {
+      "expected": "security.two_factor",
+      "id": "typo-021",
+      "text": "enabel two factr auth",
+      "track": "typo"
+    },
+    {
+      "expected": "security.sessions",
+      "id": "typo-022",
+      "text": "show my actve sesions",
+      "track": "typo"
+    },
+    {
+      "expected": "support.contact",
+      "id": "typo-023",
+      "text": "how do i contat suport",
+      "track": "typo"
+    },
+    {
+      "expected": "support.hours",
+      "id": "typo-024",
+      "text": "wat are suport ours",
+      "track": "typo"
+    },
+    {
+      "expected": "account.create",
+      "id": "word_order-001",
+      "text": "account new create please",
+      "track": "word_order"
+    },
+    {
+      "expected": "account.delete",
+      "id": "word_order-002",
+      "text": "my account permanently delete",
+      "track": "word_order"
+    },
+    {
+      "expected": "password.reset",
+      "id": "word_order-003",
+      "text": "password forgotten need reset",
+      "track": "word_order"
+    },
+    {
+      "expected": "email.change",
+      "id": "word_order-004",
+      "text": "account email address change",
+      "track": "word_order"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "word_order-005",
+      "text": "payment invoice show me",
+      "track": "word_order"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "word_order-006",
+      "text": "payment money back please",
+      "track": "word_order"
+    },
+    {
+      "expected": "billing.payment_failed",
+      "id": "word_order-007",
+      "text": "payment not going through card",
+      "track": "word_order"
+    },
+    {
+      "expected": "subscription.cancel",
+      "id": "word_order-008",
+      "text": "my paid plan please cancel",
+      "track": "word_order"
+    },
+    {
+      "expected": "order.status",
+      "id": "word_order-009",
+      "text": "order tracking status please",
+      "track": "word_order"
+    },
+    {
+      "expected": "order.cancel",
+      "id": "word_order-010",
+      "text": "the purchase order please cancel",
+      "track": "word_order"
+    },
+    {
+      "expected": "shipping.address_change",
+      "id": "word_order-011",
+      "text": "delivery address for order change",
+      "track": "word_order"
+    },
+    {
+      "expected": "shipping.cost",
+      "id": "word_order-012",
+      "text": "delivery fee how much",
+      "track": "word_order"
+    },
+    {
+      "expected": "product.compatibility",
+      "id": "word_order-013",
+      "text": "android this product works with",
+      "track": "word_order"
+    },
+    {
+      "expected": "product.requirements",
+      "id": "word_order-014",
+      "text": "app hardware requirements minimum",
+      "track": "word_order"
+    },
+    {
+      "expected": "app.install",
+      "id": "word_order-015",
+      "text": "application on device install",
+      "track": "word_order"
+    },
+    {
+      "expected": "app.update",
+      "id": "word_order-016",
+      "text": "latest version app get",
+      "track": "word_order"
+    },
+    {
+      "expected": "data.export",
+      "id": "word_order-017",
+      "text": "my information copy download",
+      "track": "word_order"
+    },
+    {
+      "expected": "data.delete",
+      "id": "word_order-018",
+      "text": "all my saved information erase",
+      "track": "word_order"
+    },
+    {
+      "expected": "data.sync",
+      "id": "word_order-019",
+      "text": "devices data same keep",
+      "track": "word_order"
+    },
+    {
+      "expected": "offline.mode",
+      "id": "word_order-020",
+      "text": "without internet app use",
+      "track": "word_order"
+    },
+    {
+      "expected": "security.two_factor",
+      "id": "word_order-021",
+      "text": "second login factor turn on",
+      "track": "word_order"
+    },
+    {
+      "expected": "security.sessions",
+      "id": "word_order-022",
+      "text": "logged in devices show",
+      "track": "word_order"
+    },
+    {
+      "expected": "support.contact",
+      "id": "word_order-023",
+      "text": "customer service reach how",
+      "track": "word_order"
+    },
+    {
+      "expected": "support.hours",
+      "id": "word_order-024",
+      "text": "customer service open when",
+      "track": "word_order"
+    },
+    {
+      "expected": "account.create",
+      "id": "confounder-001",
+      "text": "i need a new account but keep my old email",
+      "track": "confounder"
+    },
+    {
+      "expected": "account.create",
+      "id": "confounder-002",
+      "text": "sign me up without changing my current password",
+      "track": "confounder"
+    },
+    {
+      "expected": "account.delete",
+      "id": "confounder-003",
+      "text": "delete the account not just its saved data",
+      "track": "confounder"
+    },
+    {
+      "expected": "account.delete",
+      "id": "confounder-004",
+      "text": "close my account even though my subscription is already cancelled",
+      "track": "confounder"
+    },
+    {
+      "expected": "password.reset",
+      "id": "confounder-005",
+      "text": "change my password not my email address",
+      "track": "confounder"
+    },
+    {
+      "expected": "password.reset",
+      "id": "confounder-006",
+      "text": "i can sign in with my email but forgot the password",
+      "track": "confounder"
+    },
+    {
+      "expected": "email.change",
+      "id": "confounder-007",
+      "text": "change the login email but keep the same password",
+      "track": "confounder"
+    },
+    {
+      "expected": "email.change",
+      "id": "confounder-008",
+      "text": "update my email without creating another account",
+      "track": "confounder"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "confounder-009",
+      "text": "i do not want a refund i only need the receipt",
+      "track": "confounder"
+    },
+    {
+      "expected": "billing.receipt",
+      "id": "confounder-010",
+      "text": "show the invoice for the payment that succeeded",
+      "track": "confounder"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "confounder-011",
+      "text": "refund the charge but do not cancel my subscription",
+      "track": "confounder"
+    },
+    {
+      "expected": "billing.refund",
+      "id": "confounder-012",
+      "text": "i need my money back for an order that already arrived",
+      "track": "confounder"
+    },
+    {
+      "expected": "billing.payment_failed",
+      "id": "confounder-013",
+      "text": "my payment failed but i am not asking for a refund",
+      "track": "confounder"
+    },
+    {
+      "expected": "billing.payment_failed",
+      "id": "confounder-014",
+      "text": "the order is fine but checkout keeps declining my card",
+      "track": "confounder"
+    },
+    {
+      "expected": "subscription.cancel",
+      "id": "confounder-015",
+      "text": "cancel my subscription but leave my account open",
+      "track": "confounder"
+    },
+    {
+      "expected": "subscription.cancel",
+      "id": "confounder-016",
+      "text": "end the plan not the order i just placed",
+      "track": "confounder"
+    },
+    {
+      "expected": "order.status",
+      "id": "confounder-017",
+      "text": "tell me where the order is but do not cancel it",
+      "track": "confounder"
+    },
+    {
+      "expected": "order.status",
+      "id": "confounder-018",
+      "text": "i know the shipping cost i need the order status",
+      "track": "confounder"
+    },
+    {
+      "expected": "order.cancel",
+      "id": "confounder-019",
+      "text": "cancel this order but keep my subscription",
+      "track": "confounder"
+    },
+    {
+      "expected": "order.cancel",
+      "id": "confounder-020",
+      "text": "stop the purchase not my account",
+      "track": "confounder"
+    },
+    {
+      "expected": "shipping.address_change",
+      "id": "confounder-021",
+      "text": "change where the order ships not my account email",
+      "track": "confounder"
+    },
+    {
+      "expected": "shipping.address_change",
+      "id": "confounder-022",
+      "text": "the order is active but the delivery address is wrong",
+      "track": "confounder"
+    },
+    {
+      "expected": "shipping.cost",
+      "id": "confounder-023",
+      "text": "i know the address i only need the delivery price",
+      "track": "confounder"
+    },
+    {
+      "expected": "shipping.cost",
+      "id": "confounder-024",
+      "text": "before i order tell me the shipping fee",
+      "track": "confounder"
+    },
+    {
+      "expected": "product.compatibility",
+      "id": "confounder-025",
+      "text": "i meet the requirements but is it compatible with linux",
+      "track": "confounder"
+    },
+    {
+      "expected": "product.compatibility",
+      "id": "confounder-026",
+      "text": "do not tell me specs just whether it works on android",
+      "track": "confounder"
+    },
+    {
+      "expected": "product.requirements",
+      "id": "confounder-027",
+      "text": "i know it works on windows but what hardware is required",
+      "track": "confounder"
+    },
+    {
+      "expected": "product.requirements",
+      "id": "confounder-028",
+      "text": "tell me minimum specs not supported platforms",
+      "track": "confounder"
+    },
+    {
+      "expected": "app.install",
+      "id": "confounder-029",
+      "text": "i have not installed it yet so updates are not the issue",
+      "track": "confounder"
+    },
+    {
+      "expected": "app.install",
+      "id": "confounder-030",
+      "text": "i downloaded the app now how do i install it",
+      "track": "confounder"
+    },
+    {
+      "expected": "app.update",
+      "id": "confounder-031",
+      "text": "the app is already installed i just need to update it",
+      "track": "confounder"
+    },
+    {
+      "expected": "app.update",
+      "id": "confounder-032",
+      "text": "do not reinstall it just get me the newest release",
+      "track": "confounder"
+    },
+    {
+      "expected": "data.export",
+      "id": "confounder-033",
+      "text": "give me a copy of my data before i delete anything",
+      "track": "confounder"
+    },
+    {
+      "expected": "data.export",
+      "id": "confounder-034",
+      "text": "download my information without removing it",
+      "track": "confounder"
+    },
+    {
+      "expected": "data.delete",
+      "id": "confounder-035",
+      "text": "erase my saved data but keep the account",
+      "track": "confounder"
+    },
+    {
+      "expected": "data.delete",
+      "id": "confounder-036",
+      "text": "remove stored information after i export it",
+      "track": "confounder"
+    },
+    {
+      "expected": "data.sync",
+      "id": "confounder-037",
+      "text": "my account works offline but my devices will not sync",
+      "track": "confounder"
+    },
+    {
+      "expected": "data.sync",
+      "id": "confounder-038",
+      "text": "the app is updated but the data differs across devices",
+      "track": "confounder"
+    },
+    {
+      "expected": "offline.mode",
+      "id": "confounder-039",
+      "text": "i do not need syncing i need to work without internet",
+      "track": "confounder"
+    },
+    {
+      "expected": "offline.mode",
+      "id": "confounder-040",
+      "text": "can i use the installed app when there is no network",
+      "track": "confounder"
+    },
+    {
+      "expected": "security.two_factor",
+      "id": "confounder-041",
+      "text": "secure login with 2fa not a password reset",
+      "track": "confounder"
+    },
+    {
+      "expected": "security.two_factor",
+      "id": "confounder-042",
+      "text": "i can see my sessions now help me add a second factor",
+      "track": "confounder"
+    },
+    {
+      "expected": "security.sessions",
+      "id": "confounder-043",
+      "text": "show signed in devices so i can review them before enabling 2fa",
+      "track": "confounder"
+    },
+    {
+      "expected": "security.sessions",
+      "id": "confounder-044",
+      "text": "i changed my password now show every active login",
+      "track": "confounder"
+    },
+    {
+      "expected": "support.contact",
+      "id": "confounder-045",
+      "text": "i know the opening hours but how do i reach support",
+      "track": "confounder"
+    },
+    {
+      "expected": "support.contact",
+      "id": "confounder-046",
+      "text": "give me support contact details not the schedule",
+      "track": "confounder"
+    },
+    {
+      "expected": "support.hours",
+      "id": "confounder-047",
+      "text": "i already know how to contact you tell me when support is open",
+      "track": "confounder"
+    },
+    {
+      "expected": "support.hours",
+      "id": "confounder-048",
+      "text": "what time can i use the support contact channel",
+      "track": "confounder"
+    },
+    {
+      "expected": null,
+      "id": "ood-001",
+      "text": "hello",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-002",
+      "text": "good morning",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-003",
+      "text": "thanks a lot",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-004",
+      "text": "nice job",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-005",
+      "text": "who are you",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-006",
+      "text": "what can you do",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-007",
+      "text": "tell me a joke",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-008",
+      "text": "what is the weather today",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-009",
+      "text": "play some music",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-010",
+      "text": "set a timer for ten minutes",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-011",
+      "text": "what is two plus two",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-012",
+      "text": "translate hello to french",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-013",
+      "text": "who won the game",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-014",
+      "text": "tell me the news",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-015",
+      "text": "what is your favorite color",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-016",
+      "text": "are you a robot",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-017",
+      "text": "i love this app",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-018",
+      "text": "this product is terrible",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-019",
+      "text": "i have a suggestion",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-020",
+      "text": "where is your company located",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-021",
+      "text": "do you have a phone app",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-022",
+      "text": "is there a free trial",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-023",
+      "text": "what plans do you offer",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-024",
+      "text": "how much does the subscription cost",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-025",
+      "text": "do you accept paypal",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-026",
+      "text": "can i pay with cash",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-027",
+      "text": "do you ship internationally",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-028",
+      "text": "how long does delivery take",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-029",
+      "text": "what is your return policy",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-030",
+      "text": "is there a warranty",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-031",
+      "text": "do you sell gift cards",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-032",
+      "text": "can i change the product color",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-033",
+      "text": "i received the wrong item",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-034",
+      "text": "the package arrived damaged",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-035",
+      "text": "i want to add another item to my order",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-036",
+      "text": "can i reorder something",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-037",
+      "text": "is my information encrypted",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-038",
+      "text": "what is your privacy policy",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-039",
+      "text": "do you sell my data",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-040",
+      "text": "is the service down",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-041",
+      "text": "why is the app slow",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-042",
+      "text": "the app keeps crashing",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-043",
+      "text": "where are the release notes",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-044",
+      "text": "does the app have dark mode",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-045",
+      "text": "can multiple people share one account",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-046",
+      "text": "how many devices can i use",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-047",
+      "text": "can i change my username",
+      "track": "ood"
+    },
+    {
+      "expected": null,
+      "id": "ood-048",
+      "text": "how do i log out",
+      "track": "ood"
+    }
+  ],
+  "intents": [
+    {
+      "answer_token": "BENCH:ACCOUNT_CREATE",
+      "id": "account.create",
+      "train": [
+        "create an account",
+        "how do i make an account",
+        "i want to sign up",
+        "help me open a new account"
+      ]
+    },
+    {
+      "answer_token": "BENCH:ACCOUNT_DELETE",
+      "id": "account.delete",
+      "train": [
+        "delete my account",
+        "how do i close my account",
+        "remove my account permanently",
+        "i want to erase my account"
+      ]
+    },
+    {
+      "answer_token": "BENCH:PASSWORD_RESET",
+      "id": "password.reset",
+      "train": [
+        "reset my password",
+        "i forgot my password",
+        "how can i change a forgotten password",
+        "help me recover my password"
+      ]
+    },
+    {
+      "answer_token": "BENCH:EMAIL_CHANGE",
+      "id": "email.change",
+      "train": [
+        "change my email address",
+        "update the email on my account",
+        "use a different email for my account",
+        "how do i replace my login email"
+      ]
+    },
+    {
+      "answer_token": "BENCH:BILLING_RECEIPT",
+      "id": "billing.receipt",
+      "train": [
+        "i need a receipt",
+        "where can i get my invoice",
+        "download my billing receipt",
+        "show me the invoice for my payment"
+      ]
+    },
+    {
+      "answer_token": "BENCH:BILLING_REFUND",
+      "id": "billing.refund",
+      "train": [
+        "i want a refund",
+        "how do i get my money back",
+        "refund my payment",
+        "can you return the charge"
+      ]
+    },
+    {
+      "answer_token": "BENCH:BILLING_PAYMENT_FAILED",
+      "id": "billing.payment_failed",
+      "train": [
+        "my payment failed",
+        "the card payment was declined",
+        "why did my payment not go through",
+        "i cannot complete the payment"
+      ]
+    },
+    {
+      "answer_token": "BENCH:SUBSCRIPTION_CANCEL",
+      "id": "subscription.cancel",
+      "train": [
+        "cancel my subscription",
+        "stop my subscription",
+        "i want to end my plan",
+        "turn off my paid subscription"
+      ]
+    },
+    {
+      "answer_token": "BENCH:ORDER_STATUS",
+      "id": "order.status",
+      "train": [
+        "where is my order",
+        "check my order status",
+        "track my order",
+        "what is happening with my order"
+      ]
+    },
+    {
+      "answer_token": "BENCH:ORDER_CANCEL",
+      "id": "order.cancel",
+      "train": [
+        "cancel my order",
+        "stop the order i placed",
+        "i want to cancel a purchase order",
+        "can i call off my order"
+      ]
+    },
+    {
+      "answer_token": "BENCH:SHIPPING_ADDRESS_CHANGE",
+      "id": "shipping.address_change",
+      "train": [
+        "change my shipping address",
+        "update the delivery address",
+        "send my order to a different address",
+        "how do i correct the shipping address"
+      ]
+    },
+    {
+      "answer_token": "BENCH:SHIPPING_COST",
+      "id": "shipping.cost",
+      "train": [
+        "how much is shipping",
+        "what does delivery cost",
+        "tell me the shipping fee",
+        "is there a delivery charge"
+      ]
+    },
+    {
+      "answer_token": "BENCH:PRODUCT_COMPATIBILITY",
+      "id": "product.compatibility",
+      "train": [
+        "is this product compatible with windows",
+        "does it work with android",
+        "what devices is the product compatible with",
+        "will this work on my mac"
+      ]
+    },
+    {
+      "answer_token": "BENCH:PRODUCT_REQUIREMENTS",
+      "id": "product.requirements",
+      "train": [
+        "what are the system requirements",
+        "what do i need to run the app",
+        "minimum requirements for the product",
+        "what hardware does the app require"
+      ]
+    },
+    {
+      "answer_token": "BENCH:APP_INSTALL",
+      "id": "app.install",
+      "train": [
+        "how do i install the app",
+        "help me install the application",
+        "where do i start the installation",
+        "installing the app"
+      ]
+    },
+    {
+      "answer_token": "BENCH:APP_UPDATE",
+      "id": "app.update",
+      "train": [
+        "how do i update the app",
+        "install the latest app update",
+        "upgrade my application",
+        "where can i get the newest version"
+      ]
+    },
+    {
+      "answer_token": "BENCH:DATA_EXPORT",
+      "id": "data.export",
+      "train": [
+        "export my data",
+        "how do i download my data",
+        "get a copy of my information",
+        "i want to export everything from my account"
+      ]
+    },
+    {
+      "answer_token": "BENCH:DATA_DELETE",
+      "id": "data.delete",
+      "train": [
+        "delete my stored data",
+        "remove my saved information",
+        "erase the data you have about me",
+        "how do i clear all my data"
+      ]
+    },
+    {
+      "answer_token": "BENCH:DATA_SYNC",
+      "id": "data.sync",
+      "train": [
+        "sync my data",
+        "why is my data not syncing",
+        "how do i synchronize my devices",
+        "keep my data in sync"
+      ]
+    },
+    {
+      "answer_token": "BENCH:OFFLINE_MODE",
+      "id": "offline.mode",
+      "train": [
+        "can i use the app offline",
+        "does the app work without internet",
+        "how do i enable offline mode",
+        "use the product with no connection"
+      ]
+    },
+    {
+      "answer_token": "BENCH:SECURITY_TWO_FACTOR",
+      "id": "security.two_factor",
+      "train": [
+        "enable two factor authentication",
+        "turn on 2fa",
+        "how do i set up two step verification",
+        "protect my account with a second factor"
+      ]
+    },
+    {
+      "answer_token": "BENCH:SECURITY_SESSIONS",
+      "id": "security.sessions",
+      "train": [
+        "show my active sessions",
+        "where am i currently signed in",
+        "list devices logged into my account",
+        "check my login sessions"
+      ]
+    },
+    {
+      "answer_token": "BENCH:SUPPORT_CONTACT",
+      "id": "support.contact",
+      "train": [
+        "how do i contact support",
+        "i need to talk to support",
+        "where can i reach customer service",
+        "help me contact your support team"
+      ]
+    },
+    {
+      "answer_token": "BENCH:SUPPORT_HOURS",
+      "id": "support.hours",
+      "train": [
+        "when is support open",
+        "what are support hours",
+        "when can i contact customer service",
+        "what time does the support team work"
+      ]
+    }
+  ],
+  "language": "en",
+  "metrics": {
+    "descriptive_only": [
+      "runtime_version",
+      "generated_source_bytes",
+      "runtime_latency_ms"
+    ],
+    "no_composite_score": true,
+    "primary": [
+      "strict_intent_accuracy_in_domain",
+      "ood_false_positive_rate"
+    ],
+    "secondary": [
+      "macro_f1_including_fallback",
+      "track_accuracy",
+      "wrong_intent_rate",
+      "deterministic_replay"
+    ]
+  },
+  "rules": {
+    "adapter_bug_fixes": "permitted only when they do not change corpus, generated semantic rules, or runtime configuration semantics",
+    "authored_evidence": "exactly the same four training utterances per intent",
+    "fallback": "adapter-level or one final catch-all is permitted only to express no-match as BENCH:FALLBACK",
+    "no_tuning_after_freeze": true,
+    "translation": "mechanical; no system-specific synonyms, wildcard intent rules, concepts, sets, maps, redirects, or added paraphrases"
+  },
+  "status": "frozen-before-first-engine-run",
+  "systems": [
+    "GVYA",
+    "AIML 2.0",
+    "ChatScript"
+  ],
+  "version": 1
+}

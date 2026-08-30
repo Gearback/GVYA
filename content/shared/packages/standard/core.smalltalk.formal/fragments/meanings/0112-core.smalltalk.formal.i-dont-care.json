@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-dont-care",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.i-dont-care",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i don't care"
+      },
+      {
+        "language": "en-US",
+        "text": "not important"
+      },
+      {
+        "language": "en-US",
+        "text": "who cares"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مهم نیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برام مهم نیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کی اهمیت می‌ده"
+      }
+    ]
+  }
+}

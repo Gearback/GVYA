@@ -1,0 +1,22 @@
+{
+  "exported": true,
+  "id": "gvya.quality.boundary.capabilities-singular-work.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The singular capability question stays general and must not reach a capability sibling",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.capability-binding",
+        "gvya.help.capability-contract"
+      ],
+      "meaning": "gvya.help.capabilities"
+    },
+    "generated": false,
+    "id": "gvya.quality.boundary.capabilities-singular-work.en",
+    "initial_state": {},
+    "input": "how does a capability work",
+    "language": "en-US",
+    "seed": 1
+  }
+}

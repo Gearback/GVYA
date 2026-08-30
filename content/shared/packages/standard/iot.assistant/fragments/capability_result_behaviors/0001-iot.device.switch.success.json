@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "iot.device.switch.success",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.switch",
+    "capability_version": "1",
+    "id": "iot.device.switch.success",
+    "responses": [
+      {
+        "id": "iot.device.switch.success.response",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["{{interaction.output.device}}: {{interaction.output.state}}."] },
+          { "language": "fa-IR", "variants": ["وضعیت {{interaction.output.device}}: {{interaction.output.state}}."] }
+        ]
+      }
+    ],
+    "succeeded": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "backup.usb.behavior",
+  "value": {
+    "id": "backup.usb.behavior",
+    "meaning": "backup.usb",
+    "responses": [
+      {
+        "id": "backup.usb.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:BACKUP_USB"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

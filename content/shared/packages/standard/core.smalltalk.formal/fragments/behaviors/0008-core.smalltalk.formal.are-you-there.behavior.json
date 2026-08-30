@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-there.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.are-you-there.behavior",
+    "meaning": "core.smalltalk.formal.are-you-there",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.are-you-there.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am here.",
+              "I can hear you.",
+              "Yes, I am listening."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اینجا هستم.",
+              "صدای شما را می‌شنوم.",
+              "بله، گوش می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

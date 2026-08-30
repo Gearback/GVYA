@@ -1,0 +1,36 @@
+{
+  "format": "gvya.source.package",
+  "version": 1,
+  "manifest": {
+    "id": "collection-small",
+    "kind": "standard",
+    "description": "Small focused Bot for partial Meaning and value-collection tests",
+    "dependencies": []
+  },
+  "fragments": {
+    "meanings": [
+      "fragments/meanings/0001-order.create.json",
+      "fragments/meanings/0002-item.use.json",
+      "fragments/meanings/0003-event.schedule.json",
+      "fragments/meanings/0004-cancel.json"
+    ],
+    "behaviors": [
+      "fragments/behaviors/0001-order.create.json",
+      "fragments/behaviors/0002-item.use.json",
+      "fragments/behaviors/0003-event.schedule.json",
+      "fragments/behaviors/0004-cancel.json"
+    ],
+    "capabilities": ["fragments/capabilities/0001-order.submit.json"],
+    "capability_bindings": ["fragments/capability_bindings/0001-order.submit.json"],
+    "capability_policies": ["fragments/capability_policies/0001-order.submit.json"],
+    "regression_cases": [
+      "fragments/regression_cases/0001-item.use.json",
+      "fragments/regression_cases/0002-order.direct.json"
+    ],
+    "scenarios": [
+      "fragments/scenarios/0001-order.collection.json",
+      "fragments/scenarios/0002-event.collection.json",
+      "fragments/scenarios/0003-cancel.collection.json"
+    ]
+  }
+}

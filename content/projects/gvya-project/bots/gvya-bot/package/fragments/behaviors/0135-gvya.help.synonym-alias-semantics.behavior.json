@@ -1,0 +1,34 @@
+{
+  "exported": true,
+  "id": "gvya.help.synonym-alias-semantics.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.synonym-alias-semantics.behavior",
+    "meaning": "gvya.help.synonym-alias-semantics",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "id": "gvya.help.synonym-alias-semantics.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Not as an open-ended synonym oracle. GVYA can learn representative phrasings through authored Meaning samples, and structural pattern sets can map a finite authored set of surface aliases to one canonical String value. Unauthored synonyms are not silently invented at runtime."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نه به‌صورت یک synonym oracle نامحدود. در GVYA می‌شود phrasingهای نماینده را با sampleهای Meaning نوشت و در structural pattern set یک مجموعهٔ محدود و authored از aliasهای سطحی را به یک String canonical نگاشت. runtime مترادفِ نوشته‌نشده را خودش حدس نمی‌زند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

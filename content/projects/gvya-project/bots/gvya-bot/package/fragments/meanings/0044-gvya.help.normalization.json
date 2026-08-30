@@ -1,0 +1,202 @@
+{
+  "exported": true,
+  "id": "gvya.help.normalization",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.normalization",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a matcher profile"
+      },
+      {
+        "language": "en-US",
+        "text": "how does scoring work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher profile چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امتیازدهی چطور کار می کند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "normalization unicode nfc lowercase whitespace diacritic rewrite"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نرمال سازی یونیکد حروف کوچک فاصله اعراب بازنویسی"
+      },
+      {
+        "language": "en-US",
+        "text": "canonical canonicalize canonicalization messy text preserve original utterance normalize input surface form"
+      },
+      {
+        "language": "fa-IR",
+        "text": "canonical نرمال canonicalize متن نامرتب حفظ utterance اصلی normalize ورودی شکل متن"
+      },
+      {
+        "language": "en-US",
+        "text": "before matching text changed capital letters extra spaces character rewrite same letter"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبل از تطبیق متن تغییر حروف بزرگ فاصله اضافه بازنویسی حرف یکسان"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how is input text normalized"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens to case and whitespace"
+      },
+      {
+        "language": "en-US",
+        "text": "does it use unicode normalization"
+      },
+      {
+        "language": "en-US",
+        "text": "are diacritics removed"
+      },
+      {
+        "language": "en-US",
+        "text": "how are script rewrites configured"
+      },
+      {
+        "language": "en-US",
+        "text": "is normalization language specific"
+      },
+      {
+        "language": "en-US",
+        "text": "what unicode version is pinned"
+      },
+      {
+        "language": "en-US",
+        "text": "explain text normalization"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متن ورودی چطور نرمال سازی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حروف بزرگ و فاصله چه می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از نرمال سازی یونیکد استفاده می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اعراب حذف می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازنویسی خط چطور تنظیم می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نرمال سازی وابسته به زبان است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام نسخه یونیکد پین شده است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نرمال سازی متن را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how does normalization work"
+      },
+      {
+        "language": "en-US",
+        "text": "what is normalization"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نرمال سازی چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "normalization چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "normalization"
+      },
+      {
+        "language": "en-US",
+        "text": "normalize user text before matching"
+      },
+      {
+        "language": "en-US",
+        "text": "user text normalized before matching"
+      },
+      {
+        "language": "en-US",
+        "text": "user text normalized matching"
+      },
+      {
+        "language": "en-US",
+        "text": "what is done to the text before matching starts"
+      },
+      {
+        "language": "en-US",
+        "text": "is my input changed before it is compared"
+      },
+      {
+        "language": "en-US",
+        "text": "do capital letters matter"
+      },
+      {
+        "language": "en-US",
+        "text": "are extra spaces ignored"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i configure character rewrites for my language"
+      },
+      {
+        "language": "en-US",
+        "text": "where do i declare that two letters should count as the same"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبل از شروع تطبیق روی متن چه کاری انجام می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ورودی من قبل از مقایسه تغییر می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حروف بزرگ و کوچک فرقی می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فاصله های اضافه نادیده گرفته می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بازنویسی حرف ها را برای زبان خودم تنظیم کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کجا اعلام کنم دو حرف یکسان حساب شوند"
+      }
+    ]
+  }
+}

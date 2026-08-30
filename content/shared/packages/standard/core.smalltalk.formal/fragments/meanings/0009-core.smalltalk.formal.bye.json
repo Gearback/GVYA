@@ -1,0 +1,64 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.bye",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.bye",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "thanks goodbye"
+      },
+      {
+        "language": "en-US",
+        "text": "thank you bye for now"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرسی خداحافظ"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ممنون فعلا خداحافظ"
+      },
+      {
+        "language": "en-US",
+        "text": "bye"
+      },
+      {
+        "language": "en-US",
+        "text": "goodbye"
+      },
+      {
+        "language": "en-US",
+        "text": "see you"
+      },
+      {
+        "language": "en-US",
+        "text": "see ya"
+      },
+      {
+        "language": "en-US",
+        "text": "later"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خداحافظ"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فعلا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعدا می‌بینمت"
+      }
+    ]
+  }
+}

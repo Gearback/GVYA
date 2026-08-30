@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-back",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.im-back",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i'm back"
+      },
+      {
+        "language": "en-US",
+        "text": "back"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برگشتم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اومدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دوباره اومدم"
+      }
+    ]
+  }
+}

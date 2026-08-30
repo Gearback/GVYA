@@ -1,0 +1,20 @@
+{
+  "id": "cloud.sync.behavior",
+  "value": {
+    "id": "cloud.sync.behavior",
+    "meaning": "cloud.sync",
+    "responses": [
+      {
+        "id": "cloud.sync.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:CLOUD_SYNC"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

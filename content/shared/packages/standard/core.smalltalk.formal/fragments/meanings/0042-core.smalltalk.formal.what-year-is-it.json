@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what-year-is-it",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.what-year-is-it",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what year is it"
+      },
+      {
+        "language": "en-US",
+        "text": "which year is it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سال چنده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه سالیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "الان سال چنده"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.discovery-why.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.discovery",
+    "id": "gvya.dialog.discovery-why.behavior",
+    "meaning": "gvya.dialog.discovery-why",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Ask for another one, or name a lane: architecture, authoring, matcher, runtime, shipping."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "یک نکتهٔ دیگر بخواه، یا یک مسیر را نام ببر: معماری، authoring، matcher، runtime، انتشار."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.dialog.discovery-why.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.discovery",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Because that choice turns hidden behavior into an explicit, testable boundary. The exact benefit depends on the fact you just heard, but the shared payoff is a brain whose decisions, ownership, and failure modes stay bounded and inspectable.",
+              "Its practical value is control: the design makes an important assumption visible enough to test, review, and move between hosts without relying on ambient magic."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "چون آن انتخاب یک رفتار پنهان را به مرزی صریح و قابل‌تست تبدیل می‌کند. فایدهٔ دقیق به نکته‌ای که شنیدی بستگی دارد، اما حاصل مشترک brainای است که تصمیم‌ها، مالکیت و failure modeهایش محدود و قابل‌بررسی می‌مانند.",
+              "ارزش عملی‌اش کنترل است: طراحی یک فرض مهم را آن‌قدر آشکار می‌کند که بتوان آن را تست و review کرد و بدون تکیه بر جادوی محیطی بین hostها جابه‌جا شد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

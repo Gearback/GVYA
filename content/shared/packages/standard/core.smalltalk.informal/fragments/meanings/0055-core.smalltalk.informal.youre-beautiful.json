@@ -1,0 +1,48 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.youre-beautiful",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.youre-beautiful",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "you're beautiful"
+      },
+      {
+        "language": "en-US",
+        "text": "you look good"
+      },
+      {
+        "language": "en-US",
+        "text": "you are pretty"
+      },
+      {
+        "language": "en-US",
+        "text": "you are handsome"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوشگلی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زیبایی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قشنگی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوشتیپی"
+      }
+    ]
+  }
+}

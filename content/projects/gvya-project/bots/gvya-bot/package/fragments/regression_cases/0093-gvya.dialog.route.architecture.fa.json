@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.route.architecture.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Menu route architecture Persian",
+    "expectation": {
+      "meaning": "gvya.help.architecture",
+      "response_ids": [
+        "gvya.help.architecture.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.route.architecture.fa",
+    "initial_state": {},
+    "input": "معماری",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

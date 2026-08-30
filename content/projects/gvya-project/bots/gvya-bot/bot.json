@@ -1,0 +1,37 @@
+{
+  "conversation": {
+    "author_numbers": [],
+    "default_followup_ttl": 2,
+    "default_topic_ttl": 3,
+    "max_messages_per_turn": 4,
+    "recent_response_limit": 8,
+    "recent_user_window": 4,
+    "recent_variant_limit": 4,
+    "repair_candidate_min_score": 0.42,
+    "repeat_detection_threshold": 2,
+    "repeat_detection_window": 3,
+    "topic_preference_margin": 0.04
+  },
+  "default_language": "en-US",
+  "description": "Bilingual GVYA product guide with deterministic topic-aware recovery and conversational pivots",
+  "emit_debug_map": true,
+  "enabled_languages": [
+    "en-US",
+    "fa-IR"
+  ],
+  "fallback_package_id": "gvya-project.fallback.formal",
+  "format": "gvya.studio.bot",
+  "id": "gvya-bot",
+  "package_ids": [
+    "core.smalltalk.formal"
+  ],
+  "semantic": {
+    "ambiguity_margin": 0.04,
+    "candidate_limit": 120,
+    "resolution_threshold": 0.45,
+    "resolver_candidate_limit": 8,
+    "resolver_min_confidence": 0.55
+  },
+  "title": "GVYA bot",
+  "version": 1
+}

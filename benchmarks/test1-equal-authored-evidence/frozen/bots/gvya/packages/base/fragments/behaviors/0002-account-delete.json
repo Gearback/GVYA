@@ -1,0 +1,20 @@
+{
+  "id": "account.delete.behavior",
+  "value": {
+    "id": "account.delete.behavior",
+    "meaning": "account.delete",
+    "responses": [
+      {
+        "id": "account.delete.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:ACCOUNT_DELETE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

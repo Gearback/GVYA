@@ -1,0 +1,166 @@
+{
+  "exported": true,
+  "id": "gvya.help.response-conditions",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.response-conditions",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what are behavior required values"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the template language"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقادیر اجباری behavior چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان قالب چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i store a value between turns"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک مقدار را بین نوبت ها ذخیره کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "two matcher candidates are almost tied"
+      },
+      {
+        "language": "en-US",
+        "text": "best two meanings have close scores"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو candidate matcher امتیاز نزدیک دارند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو meaning برتر تقریبا مساوی هستند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "responsecondition namespace operator equal exists missing select between"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شرط پاسخ فضای نام عملگر برابر موجود غایب انتخاب"
+      },
+      {
+        "language": "en-US",
+        "text": "conditional response variant current state choose selection condition value condition response"
+      },
+      {
+        "language": "fa-IR",
+        "text": "response شرطی variant وضعیت فعلی انتخاب condition value condition پاسخ"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how do i choose between two responses"
+      },
+      {
+        "language": "en-US",
+        "text": "what are response conditions"
+      },
+      {
+        "language": "en-US",
+        "text": "what namespaces can a condition read"
+      },
+      {
+        "language": "en-US",
+        "text": "what operators do conditions support"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the difference between conditions and requires_values"
+      },
+      {
+        "language": "en-US",
+        "text": "can a condition read the active topic"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i make a response state aware"
+      },
+      {
+        "language": "en-US",
+        "text": "explain response conditions"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بین دو پاسخ انتخاب کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شرط های پاسخ چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک شرط از چه فضاهای نامی می خواند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شرط ها چه عملگرهایی دارند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق شرط ها با requires_values چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک شرط می تواند topic فعال را بخواند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک پاسخ را آگاه به وضعیت کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شرط های پاسخ را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "can a response depend on state"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a response condition"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پاسخ می تواند به state وابسته باشد"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i pick between two replies based on state"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i choose a different answer when a value is set"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بر اساس state بین دو پاسخ یکی را انتخاب کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور وقتی یک مقدار ست شده جواب دیگری بدهم"
+      }
+    ]
+  }
+}

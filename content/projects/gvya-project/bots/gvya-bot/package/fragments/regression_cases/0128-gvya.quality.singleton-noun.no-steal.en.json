@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.singleton-noun.no-steal.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Single-token noun evidence must not steal a longer neighbouring question",
+    "expectation": {
+      "meaning": "gvya.help.capability-binding"
+    },
+    "generated": false,
+    "id": "gvya.quality.singleton-noun.no-steal.en",
+    "initial_state": {},
+    "input": "how many slots can a capability binding have",
+    "language": "en-US",
+    "seed": 1
+  }
+}

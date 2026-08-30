@@ -1,0 +1,19 @@
+{
+  "exported": true,
+  "id": "iot.device.close.behavior",
+  "mode": "add",
+  "value": {
+    "id": "iot.device.close.behavior",
+    "meaning": "iot.device.close",
+    "responses": [
+      {
+        "id": "iot.device.close.requested",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device-close request is ready."] },
+          { "language": "fa-IR", "variants": ["درخواست بستن دستگاه آماده است."] }
+        ]
+      }
+    ]
+  }
+}

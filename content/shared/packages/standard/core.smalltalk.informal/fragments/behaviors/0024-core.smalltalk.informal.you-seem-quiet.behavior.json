@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.you-seem-quiet.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.you-seem-quiet.behavior",
+    "meaning": "core.smalltalk.informal.you-seem-quiet",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.you-seem-quiet.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Sometimes quiet is better.",
+              "I’m listening.",
+              "Not every silence is empty."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "گاهی سکوت بهتره.",
+              "دارم گوش می‌کنم.",
+              "هر سکوتی خالی نیست."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.formal.unresolved.matching-pivot",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "less_or_equal",
+        "path": "repairCount",
+        "value": 0
+      },
+      {
+        "namespace": "conversation",
+        "op": "equal",
+        "path": "activeTopic",
+        "value": "gvya.topic.matching"
+      }
+    ],
+    "id": "gvya.fallback.formal.unresolved.matching-pivot",
+    "priority": 20,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Is the wrong Meaning winning, is nothing matching, or is one natural phrasing being missed?"
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "Meaning اشتباه برنده می‌شود، هیچ‌چیز match نمی‌شود، یا فقط یک شکل طبیعی از جمله جا می‌افتد؟"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.fallback.formal.unresolved.matching-pivot.response",
+        "kind": "fallback",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am not sure which matching problem you have, and the fix depends on that distinction."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "مطمئن نیستم با کدام مشکل matching روبه‌رو هستی و راه‌حل به همین تفاوت بستگی دارد."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "unresolved"
+  }
+}

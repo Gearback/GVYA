@@ -1,0 +1,20 @@
+{
+  "exported": false,
+  "id": "iot.reference.required",
+  "mode": "add",
+  "value": {
+    "context": { "available_capabilities": [{ "id": "iot.device.switch", "version": "1" }] },
+    "description": "An action without a host-resolved device collects the missing reference and emits no capability.",
+    "expectation": {
+      "conversation_mode": "collection",
+      "forbidden_capabilities": ["iot.device.switch"],
+      "response_contains": ["Which device should I turn on?"]
+    },
+    "generated": false,
+    "id": "iot.reference.required",
+    "initial_state": {},
+    "input": "turn on",
+    "language": "en-US",
+    "seed": 109
+  }
+}

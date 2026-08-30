@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.roll-a-dice.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.roll-a-dice",
+      "response_ids": [
+        "core.smalltalk.informal.roll-a-dice.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.roll-a-dice.basic.en",
+    "initial_state": {},
+    "input": "roll a dice",
+    "language": "en-US",
+    "seed": 1
+  }
+}

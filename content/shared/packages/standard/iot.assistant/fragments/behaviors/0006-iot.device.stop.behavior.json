@@ -1,0 +1,19 @@
+{
+  "exported": true,
+  "id": "iot.device.stop.behavior",
+  "mode": "add",
+  "value": {
+    "id": "iot.device.stop.behavior",
+    "meaning": "iot.device.stop",
+    "responses": [
+      {
+        "id": "iot.device.stop.requested",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device-stop request is ready."] },
+          { "language": "fa-IR", "variants": ["درخواست توقف دستگاه آماده است."] }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.funny.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.funny.behavior",
+    "meaning": "core.smalltalk.formal.funny",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.funny.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "At least something landed.",
+              "Good. A laugh can help.",
+              "Fair enough."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "حداقل چیزی اثر گذاشت.",
+              "خوب است. خنده می‌تواند کمک کند.",
+              "منصفانه است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

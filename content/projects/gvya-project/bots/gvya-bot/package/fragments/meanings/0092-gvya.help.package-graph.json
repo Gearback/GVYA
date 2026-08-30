@@ -1,0 +1,258 @@
+{
+  "exported": true,
+  "id": "gvya.help.package-graph",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.package-graph",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "install a javascript package with npm"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a package supposed to contain"
+      },
+      {
+        "language": "en-US",
+        "text": "what is package visibility"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پکیج شامل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دیده شدن پکیج چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "package source fragments monolithic json storage layout"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چیدمان source پکیج fragment فایل json یکپارچه"
+      },
+      {
+        "language": "en-US",
+        "text": "package source stored as one json document"
+      },
+      {
+        "language": "en-US",
+        "text": "package source fragments and file layout"
+      },
+      {
+        "language": "fa-IR",
+        "text": "source پکیج در یک فایل json و fragment ها"
+      },
+      {
+        "language": "en-US",
+        "text": "package stored json document"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج فایل json fragment"
+      },
+      {
+        "language": "en-US",
+        "text": "npm package manager dependency resolution"
+      },
+      {
+        "language": "en-US",
+        "text": "javascript package manager resolves dependency tree"
+      },
+      {
+        "language": "en-US",
+        "text": "node package lock dependency graph"
+      },
+      {
+        "language": "en-US",
+        "text": "npm package dependencies"
+      },
+      {
+        "language": "en-US",
+        "text": "package manager dependencies"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "fa-IR",
+        "text": "وابستگی پکیج وصل گراف dependency"
+      },
+      {
+        "language": "en-US",
+        "text": "packagegraph manifest topological dependency order tiebreak digest buildtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گراف پکیج مانیفست توپولوژیک وابستگی ترتیب چکیده"
+      },
+      {
+        "language": "en-US",
+        "text": "package dependency one package depends on another dependency graph"
+      },
+      {
+        "language": "en-US",
+        "text": "package precedence dependency order not filesystem load order"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وابستگی پکیج یک package به package دیگر گراف dependency"
+      },
+      {
+        "language": "en-US",
+        "text": "compose composition resolved graph dependencies dependency closure bot package manifest precedence"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترکیب composition گراف نهایی وابستگی dependency closure بات پکیج manifest تقدم"
+      },
+      {
+        "language": "en-US",
+        "text": "conflict precedence layered merged combined ordering resolution dependency packages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تعارض برنده تقدم لایه ادغام ترکیب ترتیب حل بین پکیج"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "package dependency"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the package graph resolved"
+      },
+      {
+        "language": "en-US",
+        "text": "does load order decide precedence"
+      },
+      {
+        "language": "en-US",
+        "text": "what is in a package manifest"
+      },
+      {
+        "language": "en-US",
+        "text": "how are packages ordered during composition"
+      },
+      {
+        "language": "en-US",
+        "text": "is a package a runtime plugin"
+      },
+      {
+        "language": "en-US",
+        "text": "what breaks a tie between packages"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a package source digest"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the package graph"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گراف پکیج چطور حل می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترتیب بارگذاری تقدم را تعیین می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل manifest یک پکیج چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج ها هنگام ترکیب چطور مرتب می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پکیج افزونه زمان اجراست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی تساوی بین پکیج ها را می شکند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چکیده سورس پکیج چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گراف پکیج را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how are packages resolved"
+      },
+      {
+        "language": "en-US",
+        "text": "does package load order matter"
+      },
+      {
+        "language": "fa-IR",
+        "text": "package ها چطور resolve می شوند"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the resolved graph reach runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the resolved package graph reach the runtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گراف resolve شده چطور به runtime می رسد"
+      },
+      {
+        "language": "en-US",
+        "text": "if two packages define the same thing which one wins"
+      },
+      {
+        "language": "en-US",
+        "text": "how are overlapping packages layered"
+      },
+      {
+        "language": "en-US",
+        "text": "in what order are packages combined"
+      },
+      {
+        "language": "en-US",
+        "text": "what decides precedence when dependencies conflict"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the bot end up with one merged set of content"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر دو پکیج یک چیز را تعریف کنند کدام برنده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج های هم پوشان چطور روی هم لایه می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج ها به چه ترتیبی با هم ترکیب می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی وابستگی ها تعارض دارند چه چیزی تقدم را تعیین می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات در نهایت چطور به یک مجموعه محتوای یکپارچه می رسد"
+      }
+    ]
+  }
+}

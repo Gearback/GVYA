@@ -1,0 +1,226 @@
+{
+  "exported": true,
+  "id": "gvya.help.ambiguity",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.ambiguity",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is the resolution threshold"
+      },
+      {
+        "language": "en-US",
+        "text": "what are evidence tiers"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آستانه تصمیم چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لایه های شواهد چیستند"
+      },
+      {
+        "language": "en-US",
+        "text": "spellchecker candidate word scoring"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امتیازدهی کلمه های پیشنهادی غلط گیر"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "ambiguity tie margin too close preserved never guess frontier"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ابهام تساوی حاشیه خیلی نزدیک حفظ هرگز حدس"
+      },
+      {
+        "language": "en-US",
+        "text": "top meanings near tie ambiguity"
+      },
+      {
+        "language": "en-US",
+        "text": "first second close score"
+      },
+      {
+        "language": "en-US",
+        "text": "top candidates close scores refuse guess ambiguity margin near tie unresolved"
+      },
+      {
+        "language": "fa-IR",
+        "text": "candidate برتر امتیاز نزدیک عدم حدس ambiguity margin تساوی نزدیک unresolved"
+      },
+      {
+        "language": "en-US",
+        "text": "two best matches candidates almost equal choose refuse guess"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو match برتر candidate نزدیک انتخاب عدم حدس"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what happens when two meanings tie"
+      },
+      {
+        "language": "en-US",
+        "text": "what is top_candidates_too_close"
+      },
+      {
+        "language": "en-US",
+        "text": "does it guess when unsure"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the ambiguity margin"
+      },
+      {
+        "language": "en-US",
+        "text": "why did it answer nothing when it clearly understood"
+      },
+      {
+        "language": "en-US",
+        "text": "how is ambiguity preserved"
+      },
+      {
+        "language": "en-US",
+        "text": "can response availability break a tie"
+      },
+      {
+        "language": "en-US",
+        "text": "explain ambiguity"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی دو meaning مساوی شوند چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "top_candidates_too_close چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی مطمئن نیست حدس می زند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حاشیه ابهام چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا با اینکه فهمید جواب نداد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ابهام چطور حفظ می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در دسترس بودن پاسخ می تواند تساوی را بشکند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ابهام را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "two meanings keep colliding"
+      },
+      {
+        "language": "en-US",
+        "text": "what does preserved semantic ambiguity mean"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو تا meaning با هم تداخل دارند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ambiguity margin چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "ambiguity"
+      },
+      {
+        "language": "en-US",
+        "text": "two best meanings are nearly tied"
+      },
+      {
+        "language": "en-US",
+        "text": "first second close score"
+      },
+      {
+        "language": "en-US",
+        "text": "what if two are too close"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens when two are nearly equal"
+      },
+      {
+        "language": "en-US",
+        "text": "what if it cannot separate two readings"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر دو تا خیلی نزدیک باشند چه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر نتواند دو برداشت را از هم جدا کند چه می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "how does gvya handle two nearly equal matches"
+      },
+      {
+        "language": "en-US",
+        "text": "what if the best two matcher candidates are close"
+      },
+      {
+        "language": "en-US",
+        "text": "how is a near tie between matches resolved"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر دو match برتر خیلی نزدیک باشند چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تساوی نزدیک بین candidate ها چطور حل می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "two close matches"
+      },
+      {
+        "language": "en-US",
+        "text": "choose between two close matches"
+      },
+      {
+        "language": "en-US",
+        "text": "two best matches almost tied"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو match نزدیک"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو match برتر هم امتیاز"
+      }
+    ]
+  }
+}

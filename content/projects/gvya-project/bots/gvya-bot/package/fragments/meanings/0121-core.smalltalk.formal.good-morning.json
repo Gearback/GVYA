@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.good-morning",
+  "mode": {
+    "target_id": "core.smalltalk.formal.good-morning",
+    "target_package": "core.smalltalk.formal",
+    "type": "replace"
+  },
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.good-morning",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "translate good morning into german"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صبح بخیر را به آلمانی ترجمه کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عبارت صبح بخیر را ترجمه کن"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "good morning"
+      },
+      {
+        "language": "en-US",
+        "text": "morning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صبح بخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صبح شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صبحت بخیر"
+      }
+    ]
+  }
+}

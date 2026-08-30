@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.authoring.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian author asks about samples and a failed match",
+    "generated": false,
+    "id": "gvya.help.scenario.authoring.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.authoring-recipe",
+          "response_ids": [
+            "gvya.help.authoring-recipe.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "روش درست انتخاب sample برای matcher رو یادم بده.",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher-troubleshooting",
+          "response_ids": [
+            "gvya.help.matcher-troubleshooting.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "دو تا meaning با هم اشتباه میشن؛ اول چی رو درست کنم؟",
+        "seed": 2,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.why-report",
+          "response_ids": [
+            "gvya.help.why-report.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "دلیل انتخاب candidate برنده رو کجا ببینم؟",
+        "seed": 3,
+        "type": "turn"
+      }
+    ]
+  }
+}

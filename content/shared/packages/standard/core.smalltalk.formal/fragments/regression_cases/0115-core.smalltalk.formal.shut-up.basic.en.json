@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.shut-up.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.shut-up",
+      "response_ids": [
+        "core.smalltalk.formal.shut-up.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.shut-up.basic.en",
+    "initial_state": {},
+    "input": "shut up",
+    "language": "en-US",
+    "seed": 1
+  }
+}

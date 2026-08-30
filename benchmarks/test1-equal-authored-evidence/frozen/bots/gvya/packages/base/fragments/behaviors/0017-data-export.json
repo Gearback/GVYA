@@ -1,0 +1,20 @@
+{
+  "id": "data.export.behavior",
+  "value": {
+    "id": "data.export.behavior",
+    "meaning": "data.export",
+    "responses": [
+      {
+        "id": "data.export.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:DATA_EXPORT"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

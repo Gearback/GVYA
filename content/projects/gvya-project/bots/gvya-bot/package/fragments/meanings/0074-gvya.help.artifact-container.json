@@ -1,0 +1,166 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-container",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.artifact-container",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i build the artifact"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the compiler produce"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت را چطور بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کامپایلر چه چیزی تولید می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل خروجی gvya شامل چیست و کجا ساخته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل خروجی gvya در کدام مرحله تولید می شود"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "container header magic entrytable payload contiguous zip layout"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کانتینر هدر جادویی جدول ورودی محموله پشت سر هم"
+      },
+      {
+        "language": "fa-IR",
+        "text": ".gvya container ساختار"
+      },
+      {
+        "language": "en-US",
+        "text": ".gvya container parts header entry table payload sections file structure"
+      },
+      {
+        "language": "fa-IR",
+        "text": ".gvya container بخش ها header entry table payload ساختار فایل"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کانتینر ظرف zip فرمت هدر جدول entry ساختار داخلی فایل"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is inside a gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the container format"
+      },
+      {
+        "language": "en-US",
+        "text": "is a gvya file a zip"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the file magic"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the entry table laid out"
+      },
+      {
+        "language": "en-US",
+        "text": "why not use zip"
+      },
+      {
+        "language": "en-US",
+        "text": "are payloads contiguous"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the gvya container"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل یک فایل gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرمت کانتینر چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل gvya یک zip است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "magic فایل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جدول entry چطور چیده شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا از zip استفاده نمی شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "payload ها پشت سر هم هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کانتینر gvya را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what exactly is inside a gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": "is the artifact a zip"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل فایل gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": ".gvya container ساختار"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل خروجی zip است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساختار داخلی کانتینر gvya چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the gvya file"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the .gvya file"
+      }
+    ]
+  }
+}

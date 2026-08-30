@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.say-something.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.say-something.behavior",
+    "meaning": "core.smalltalk.informal.say-something",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.say-something.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Something.",
+              "I’m here. Say what you need.",
+              "Words are easy. Meaning is harder."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یه چیزی.",
+              "اینجام. بگو چی لازم داری.",
+              "حرف زدن آسونه؛ معنی سخت‌تره."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

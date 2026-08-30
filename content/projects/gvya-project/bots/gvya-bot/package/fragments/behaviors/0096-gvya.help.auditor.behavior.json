@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.auditor.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.auditor.behavior",
+    "meaning": "gvya.help.auditor",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Audit errors fail the build; there is no branch that skips the auditor. AuditRule lets domain packages or Studio tooling add rules without changing the core report model."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "خطاهای audit باعث شکست build می‌شوند؛ هیچ مسیری وجود ندارد که ممیز را رد کند. ‎AuditRule‎ اجازه می‌دهد پکیج‌های دامنه‌ای یا ابزار استودیو قواعد اضافه کنند بدون تغییر مدل گزارش اصلی."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.auditor.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Auditing is compiler-owned and serves humans and machines at once. An AuditIssue carries a stable code, severity, category, summary, structured location, related items, optional remediation and details. Reports sort deterministically: Error, then Warning, then Info, then category and code."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ممیزی متعلق به کامپایلر است و همزمان به انسان و ماشین خدمت می‌کند. یک ‎AuditIssue‎ شامل کد پایدار، شدت، دسته، خلاصه، موقعیت ساختاریافته، آیتم‌های مرتبط، پیشنهاد اصلاح اختیاری و جزئیات است. گزارش‌ها قطعی مرتب می‌شوند: Error، سپس Warning، سپس Info، سپس دسته و کد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-determinism",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.artifact-determinism",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "will i get the same output every time"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i build the artifact"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آیا خروجی همیشه یکسان است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت را چطور بسازم"
+      },
+      {
+        "language": "en-US",
+        "text": "How do two machines get reproducible artifact bytes?"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "reproducible byte identical compression codec deterministic build machines"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازتولیدپذیر بایت یکسان فشرده سازی کدک قطعی ماشین"
+      },
+      {
+        "language": "fa-IR",
+        "text": "build source خروجی باینری تکرارپذیر"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "is the artifact byte identical across machines"
+      },
+      {
+        "language": "en-US",
+        "text": "why is there no compression"
+      },
+      {
+        "language": "en-US",
+        "text": "do two builds produce the same bytes"
+      },
+      {
+        "language": "en-US",
+        "text": "does the artifact contain a timestamp"
+      },
+      {
+        "language": "en-US",
+        "text": "will compression be added later"
+      },
+      {
+        "language": "en-US",
+        "text": "why does reproducibility matter here"
+      },
+      {
+        "language": "en-US",
+        "text": "does the build depend on my machine"
+      },
+      {
+        "language": "en-US",
+        "text": "explain artifact determinism"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت روی ماشین های مختلف بایت به بایت یکسان است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا فشرده سازی وجود ندارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دو بار build بایت یکسان می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت زمان دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعدا فشرده سازی اضافه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا بازتولیدپذیری اینجا مهم است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "build به ماشین من وابسته است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قطعیت آرتیفکت را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "are the artifact bytes reproducible"
+      },
+      {
+        "language": "en-US",
+        "text": "is the artifact compressed"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بایت های artifact تکرارپذیر هستند"
+      },
+      {
+        "language": "en-US",
+        "text": "is it deterministic"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قطعی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "build source خروجی باینری تکرارپذیر"
+      },
+      {
+        "language": "en-US",
+        "text": "is the output deterministic"
+      },
+      {
+        "language": "en-US",
+        "text": "is gvya output deterministic"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خروجی قطعی است"
+      }
+    ]
+  }
+}

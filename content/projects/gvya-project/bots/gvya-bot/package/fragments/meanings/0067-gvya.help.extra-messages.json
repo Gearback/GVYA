@@ -1,0 +1,118 @@
+{
+  "exported": true,
+  "id": "gvya.help.extra-messages",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.extra-messages",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a response plan"
+      },
+      {
+        "language": "en-US",
+        "text": "what are hint ladders"
+      },
+      {
+        "language": "fa-IR",
+        "text": "response plan چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نردبان راهنمایی چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "extramessages bubbles chance cap separate concatenated timing"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام اضافی حباب شانس سقف جدا چسبیده زمان بندی"
+      },
+      {
+        "language": "en-US",
+        "text": "additional messages besides main response behavior emit separate response messages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام اضافی جدا از پاسخ اصلی behavior emit response message جدا"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are extra messages"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i send two bubbles in one turn"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the message cap"
+      },
+      {
+        "language": "en-US",
+        "text": "what does chance do on an extra message"
+      },
+      {
+        "language": "en-US",
+        "text": "are extra messages concatenated"
+      },
+      {
+        "language": "en-US",
+        "text": "how many messages can one turn emit"
+      },
+      {
+        "language": "en-US",
+        "text": "why separate messages instead of one string"
+      },
+      {
+        "language": "en-US",
+        "text": "explain extra messages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام های اضافی چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور در یک نوبت دو حباب بفرستم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سقف پیام چقدر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "chance روی پیام اضافی چه می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام های اضافی به هم چسبانده می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک نوبت چند پیام می تواند بدهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا پیام جدا به جای یک رشته"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام های اضافی را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "extra message چیست"
+      }
+    ]
+  }
+}

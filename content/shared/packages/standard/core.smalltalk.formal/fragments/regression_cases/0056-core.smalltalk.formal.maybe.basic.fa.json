@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.maybe.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.maybe",
+      "response_ids": [
+        "core.smalltalk.formal.maybe.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.maybe.basic.fa",
+    "initial_state": {},
+    "input": "شاید",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

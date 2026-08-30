@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.hurry",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.hurry",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "hurry"
+      },
+      {
+        "language": "en-US",
+        "text": "quick"
+      },
+      {
+        "language": "en-US",
+        "text": "faster"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عجله کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زود باش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سریع‌تر"
+      }
+    ]
+  }
+}

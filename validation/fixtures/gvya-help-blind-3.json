@@ -1,0 +1,134 @@
+{
+  "format": "gvya.validation.blind-conversation",
+  "version": 1,
+  "bot_id": "gvya-bot",
+  "description": "Fresh third-pass one-turn corpus authored after the first two corpora were green.",
+  "cases": [
+    {
+      "id": "fresh-3.about.en",
+      "input": "Give me the elevator pitch for GVYA.",
+      "language": "en-US",
+      "meaning": "gvya.help.about"
+    },
+    {
+      "id": "fresh-3.use-cases.fa",
+      "input": "آیا میشه ازش برای راهنمای تعاملی نمایشگاه استفاده کرد؟",
+      "language": "fa-IR",
+      "meaning": "gvya.help.use-cases"
+    },
+    {
+      "id": "fresh-3.architecture.en",
+      "input": "Map the handoffs from authored JSON to an effect in my app.",
+      "language": "en-US",
+      "meaning": "gvya.help.architecture"
+    },
+    {
+      "id": "fresh-3.projects-bots.fa",
+      "input": "یک پروژه می‌تونه چند بات با زبان‌های متفاوت داشته باشه؟",
+      "language": "fa-IR",
+      "meaning": "gvya.help.projects-bots"
+    },
+    {
+      "id": "fresh-3.packages.en",
+      "input": "Which layer should own reusable intents versus one bot's custom reply?",
+      "language": "en-US",
+      "meaning": "gvya.help.packages"
+    },
+    {
+      "id": "fresh-3.matcher.fa",
+      "input": "رتبه‌بندی candidateها قبل از انتخاب meaning چجوریه؟",
+      "language": "fa-IR",
+      "meaning": "gvya.help.matcher"
+    },
+    {
+      "id": "fresh-3.matcher-profiles.en",
+      "input": "What file teaches matching rules for a locale?",
+      "language": "en-US",
+      "meaning": "gvya.help.matcher-profiles"
+    },
+    {
+      "id": "fresh-3.conversation.fa",
+      "input": "بین دو پیام topic و follow-up کجا نگه داشته میشن؟",
+      "language": "fa-IR",
+      "meaning": "gvya.help.conversation"
+    },
+    {
+      "id": "fresh-3.fallback.en",
+      "input": "Can I swap the tone of the last-resort recovery responses?",
+      "language": "en-US",
+      "meaning": "gvya.help.fallback"
+    },
+    {
+      "id": "fresh-3.capabilities.fa",
+      "input": "چه کسی proposal اکشن رو تأیید و واقعاً اجرا می‌کنه؟",
+      "language": "fa-IR",
+      "meaning": "gvya.help.capabilities"
+    },
+    {
+      "id": "fresh-3.studio.en",
+      "input": "Is the browser tool only an authoring and simulation surface?",
+      "language": "en-US",
+      "meaning": "gvya.help.studio"
+    },
+    {
+      "id": "fresh-3.machine-authoring.fa",
+      "input": "یک agent برای ساخت بات باید مستقیم کدوم source رو ویرایش کنه؟",
+      "language": "fa-IR",
+      "meaning": "gvya.help.machine-authoring"
+    },
+    {
+      "id": "fresh-3.getting-started.en",
+      "input": "I have an empty checkout; what is the smallest path to a talking bot?",
+      "language": "en-US",
+      "meaning": "gvya.help.getting-started"
+    },
+    {
+      "id": "fresh-3.source-layout.fa",
+      "input": "برای انتقال کامل مشتری کدام پوشه را zip کنم؟",
+      "language": "fa-IR",
+      "meaning": "gvya.help.source-layout"
+    },
+    {
+      "id": "fresh-3.testing-debugging.en",
+      "input": "How can I see why one candidate outranked another?",
+      "language": "en-US",
+      "meaning": "gvya.help.why-report"
+    },
+    {
+      "id": "fresh-3.build-artifact.fa",
+      "input": "فایل خروجی .gvya شامل چیه و کجا ساخته میشه؟",
+      "language": "fa-IR",
+      "meaning": "gvya.help.build-artifact"
+    },
+    {
+      "id": "fresh-3.runtime-integration.en",
+      "input": "What does a game need to load and talk to a compiled brain?",
+      "language": "en-US",
+      "meaning": "gvya.help.runtime-integration"
+    },
+    {
+      "id": "fresh-3.determinism-security.fa",
+      "input": "آیا دو اجرای آفلاین با state و seed یکسان خروجی یکسان دارن؟",
+      "language": "fa-IR",
+      "meaning": "gvya.help.determinism-security"
+    },
+    {
+      "id": "fresh-3.neural-resolver.en",
+      "input": "May an LLM pick outside the deterministic shortlist?",
+      "language": "en-US",
+      "meaning": "gvya.help.neural-resolver"
+    },
+    {
+      "id": "fresh-3.matcher-troubleshooting.fa",
+      "input": "intent درست match نمیشه؛ اول sample رو عوض کنم یا matcher code رو؟",
+      "language": "fa-IR",
+      "meaning": "gvya.help.matcher-troubleshooting"
+    },
+    {
+      "id": "fresh-3.authoring-recipe.en",
+      "input": "How should I balance user voice and domain knowledge when drafting utterances?",
+      "language": "en-US",
+      "meaning": "gvya.help.authoring-recipe"
+    }
+  ]
+}

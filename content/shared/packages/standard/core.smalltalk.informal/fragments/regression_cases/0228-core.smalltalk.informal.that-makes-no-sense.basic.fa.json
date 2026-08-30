@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.that-makes-no-sense.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.that-makes-no-sense",
+      "response_ids": [
+        "core.smalltalk.informal.that-makes-no-sense.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.that-makes-no-sense.basic.fa",
+    "initial_state": {},
+    "input": "بی معنیه",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

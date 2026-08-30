@@ -1,0 +1,41 @@
+{
+  "format": "gvya.source.matcher-profile",
+  "language": "fa-IR",
+  "profile": {
+    "pattern_sets": {
+      "gvya_pattern_atoms": {
+        "asterisk": "one_or_more",
+        "capture نام دار": "capture",
+        "caret": "zero_or_more",
+        "named capture": "capture",
+        "pattern set": "set",
+        "set capture": "set",
+        "ستاره": "one_or_more",
+        "ستاره wildcard": "one_or_more"
+      },
+      "gvya_recovery_routes": {
+        "1": "understand",
+        "2": "build",
+        "3": "debug",
+        "4": "explore",
+        "authoring": "build",
+        "explore": "explore",
+        "matcher": "debug",
+        "اولی": "understand",
+        "دومی": "build",
+        "رفع مشکل match": "debug",
+        "ساخت بات": "build",
+        "سومی": "debug",
+        "فهمیدن gvya": "understand",
+        "مفاهیم": "understand",
+        "چهارمی": "explore",
+        "یه چیز جالب": "explore",
+        "۱": "understand",
+        "۲": "build",
+        "۳": "debug",
+        "۴": "explore"
+      }
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-hour-is-it",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.informal.what-hour-is-it",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what hour is it"
+      },
+      {
+        "language": "en-US",
+        "text": "what minute is it"
+      },
+      {
+        "language": "en-US",
+        "text": "hour and minute"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساعت و دقیقه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دقیقه چنده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساعت دقیق"
+      }
+    ]
+  }
+}

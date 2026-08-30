@@ -1,0 +1,174 @@
+{
+  "exported": true,
+  "id": "gvya.help.package-kinds",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.package-kinds",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "install an npm package dependency"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a fallback behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "how is the package graph resolved"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback behavior چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گراف پکیج چطور حل می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "what kinds of things can i build with it"
+      },
+      {
+        "language": "en-US",
+        "text": "what kinds of products can gvya power"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزهایی می توانم با آن بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya برای چه جور محصولی مناسب است"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "packagekind standard fallback selfcontained root precedence separate"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نوع پکیج استاندارد جایگزین خودبسنده ریشه تقدم جدا"
+      },
+      {
+        "language": "en-US",
+        "text": "types sorts categories varieties kinds package standard fallback distinction"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انواع دسته گونه جور پکیج standard fallback تفاوت"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what package kinds exist"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the difference between standard and fallback packages"
+      },
+      {
+        "language": "en-US",
+        "text": "can a fallback package have dependencies"
+      },
+      {
+        "language": "en-US",
+        "text": "can a fallback package contribute meanings"
+      },
+      {
+        "language": "en-US",
+        "text": "how many fallback packages can a bot select"
+      },
+      {
+        "language": "en-US",
+        "text": "can a bot override a fallback package"
+      },
+      {
+        "language": "en-US",
+        "text": "why is fallback outside the dependency graph"
+      },
+      {
+        "language": "en-US",
+        "text": "explain package kinds"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه نوع پکیج هایی وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق پکیج standard و fallback چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج fallback می تواند وابستگی داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج fallback می تواند meaning بدهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک بات چند پکیج fallback انتخاب می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک بات می تواند پکیج fallback را override کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا fallback بیرون گراف وابستگی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انواع پکیج را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what kinds of packages are there"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه نوع package هایی وجود دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "what types of packages exist"
+      },
+      {
+        "language": "en-US",
+        "text": "how many sorts of package are there"
+      },
+      {
+        "language": "en-US",
+        "text": "is a fallback package just a normal package"
+      },
+      {
+        "language": "en-US",
+        "text": "which categories of package can a bot use"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه انواعی از پکیج وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چند جور پکیج داریم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج fallback هم یک پکیج معمولی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک بات از چه دسته هایی از پکیج می تواند استفاده کند"
+      }
+    ]
+  }
+}

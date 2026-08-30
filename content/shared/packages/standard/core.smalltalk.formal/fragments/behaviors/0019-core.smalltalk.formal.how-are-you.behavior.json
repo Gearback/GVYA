@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.how-are-you.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.how-are-you.behavior",
+    "meaning": "core.smalltalk.formal.how-are-you",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.how-are-you.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am all right.",
+              "I am well enough.",
+              "I am here and listening."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "حال من خوب است.",
+              "به اندازه کافی خوبم.",
+              "اینجا هستم و گوش می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

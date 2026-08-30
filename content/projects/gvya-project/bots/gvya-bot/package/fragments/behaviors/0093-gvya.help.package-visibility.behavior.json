@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.package-visibility.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.package-visibility.behavior",
+    "meaning": "gvya.help.package-visibility",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "This matters for specialization: a package cannot reach through an encapsulation boundary and replace a contribution it did not explicitly receive."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "این برای تخصصی‌سازی مهم است: یک پکیج نمی‌تواند از مرز کپسوله‌سازی عبور کند و مشارکتی را جایگزین کند که صریحاً دریافت نکرده است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.package-visibility.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A package sees every direct dependency. A transitive dependency is visible only through an explicit re-export chain, declared with the reexport flag on a dependency entry."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک پکیج همهٔ وابستگی‌های مستقیمش را می‌بیند. یک وابستگی غیرمستقیم فقط از طریق زنجیرهٔ ‎reexport‎ صریح دیده می‌شود که با پرچم ‎reexport‎ روی یک وابستگی اعلام می‌شود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

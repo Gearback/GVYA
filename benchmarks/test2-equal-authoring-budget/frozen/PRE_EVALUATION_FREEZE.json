@@ -1,0 +1,305 @@
+{
+  "benchmark": "test2-fair-rerun-pre-evaluation-freeze",
+  "blind_corpus_sha256": "bcd484e6bed27c9902bf9fbc9a9213759cab79466db7c1b49f500cdbe5d6bc5a",
+  "budgets": {
+    "aiml2": 115,
+    "chatscript": 115,
+    "gvya": 115
+  },
+  "gvya_wasm_sha256": "4880e5b622171bdbf63dd28249ce553b2d7f720e01cfcd2b723f0c4763846f78",
+  "no_semantic_changes_after_this_file": true,
+  "preflight": {
+    "aiml2": "25/25 PASS",
+    "chatscript": "25/25 PASS",
+    "gvya": "25/25 PASS"
+  },
+  "problem_brief_sha256": "a3d0c060d4acbd4807efc7dedad5b025c4ab9d83af8c5c879fdadeb9b8c85b6d",
+  "semantic_files": [
+    {
+      "bytes": 13900,
+      "path": "authoring/gvya/BUDGET_LEDGER.json",
+      "sha256": "efe23e6866a81dff2daf58524ecd671389df8e2eb809c62379df60530fdd90e9"
+    },
+    {
+      "bytes": 278,
+      "path": "authoring/gvya/source/gvya.project.json",
+      "sha256": "8e8a205612e238d8bd9dca8bb3a86d89e25b9d4877ebd5e4eb0a4a343a11aedf"
+    },
+    {
+      "bytes": 356,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0001-device-about.json",
+      "sha256": "08f2b233d3dda183e306ade7d5c0d99a040595c03231d9c177b53f6a483ef286"
+    },
+    {
+      "bytes": 351,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0002-scan-single.json",
+      "sha256": "efde2d6d496cc931e3444c23c84d0db6915e8de5f24ce095c6de89a958a1f279"
+    },
+    {
+      "bytes": 500,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0003-scan-duplex.json",
+      "sha256": "e4b60f23a1637cbc9ff8beacfdf86c8a1953399a723fed9deb68dfb4a42a0af1"
+    },
+    {
+      "bytes": 356,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0004-scan-receipt.json",
+      "sha256": "5c9a64713c58652a9218c8357491003d759b2d9c07c5d1204a252f182f8733a2"
+    },
+    {
+      "bytes": 356,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0005-ocr-language.json",
+      "sha256": "4df80f559a7710ad825e417193ee81260d03d6bfd6ba7b4706e4554247a4c40c"
+    },
+    {
+      "bytes": 502,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0006-ocr-offline.json",
+      "sha256": "7c992171a78b39bed2907888ccaae42795354ac1c5e94a7b7a73d288020180b2"
+    },
+    {
+      "bytes": 346,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0007-wifi-setup.json",
+      "sha256": "fd55e11ee1cc768eec503d6eebaed8a78289d4389850488dfb5a74f85df5267d"
+    },
+    {
+      "bytes": 346,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0008-export-pdf.json",
+      "sha256": "58e654e1c5b7108f011ea6ad6675c2ae2fdd9043f567d0bbb3843669a1b2fae3"
+    },
+    {
+      "bytes": 529,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0009-export-searchable.json",
+      "sha256": "21a887d2302432c34ae39f2a4cd7ad5eea44c18d569436d58d13939ec7fc7ce9"
+    },
+    {
+      "bytes": 391,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0010-security-encryption.json",
+      "sha256": "7f637dad32edc809758f2d272a4d3b0e91c396102a8ef308d853ef181ee6ca3a"
+    },
+    {
+      "bytes": 376,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0011-storage-capacity.json",
+      "sha256": "a443ab717fc99337e009babba1e63d1ead8649e287aaae36f28993d775cbcef2"
+    },
+    {
+      "bytes": 366,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0012-storage-delete.json",
+      "sha256": "535d02eeeaec79c5f461b7ccce0d6b9785c8f1a78729ff9201e8f19d24430aa9"
+    },
+    {
+      "bytes": 346,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0013-backup-usb.json",
+      "sha256": "92e7cbafc0312407abed0deb973e40dd382535049e4372ce272f16f6b18ba1d4"
+    },
+    {
+      "bytes": 346,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0014-cloud-sync.json",
+      "sha256": "250a7b2c2afa4c79b38b60e8982a64a965896f72e90291ea9c39591345392bf1"
+    },
+    {
+      "bytes": 356,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0015-sharing-link.json",
+      "sha256": "e764f5f3ed7e6d639084563e284668ed1bbdc1994b306447b8b960536555bcad"
+    },
+    {
+      "bytes": 341,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0016-paper-jam.json",
+      "sha256": "79130c13e3aeb28e99174ecc727e183690386c4df8d61ff1803b4e5e4ce92d08"
+    },
+    {
+      "bytes": 361,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0017-rollers-clean.json",
+      "sha256": "c064e27487dad922669072225d579d9b3497782a7728a84c4318ac6de74a47b9"
+    },
+    {
+      "bytes": 356,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0018-battery-life.json",
+      "sha256": "bc00d684d94580e1cab53fc60226e27d0c1c8c7838defd2261c630e20d895c60"
+    },
+    {
+      "bytes": 504,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0019-soft-restart.json",
+      "sha256": "0757554303f747e8b17d09d2cefb4f149e8290b85049de5e31eca246130b67e5"
+    },
+    {
+      "bytes": 503,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0020-factory-reset.json",
+      "sha256": "5fb1f88a3cc4b395364e8c3069f30932fa4b14c2d2289255f05153dee00d5fd8"
+    },
+    {
+      "bytes": 487,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0021-context-duplex_orientation.json",
+      "sha256": "617234039026afda71636ad0f604594057fb8512094744bcdd51cac25fc9c142"
+    },
+    {
+      "bytes": 499,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0022-context-ocr_offline_language.json",
+      "sha256": "ba6f9ed52fe7fa5e4fa79ae3ac8fa3d2be5ad29b2db0d495a51255bef695bb49"
+    },
+    {
+      "bytes": 481,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0023-context-searchable_is_pdf.json",
+      "sha256": "fc136bf053bb354cb7dd78e34ea7cfe403732e0a2078e5bbdc0b179a57e28168"
+    },
+    {
+      "bytes": 481,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0024-context-restart_preserves.json",
+      "sha256": "0d89f14e0262b94d568d0acb8055de2d971d29c149d075f8632143dc048cf363"
+    },
+    {
+      "bytes": 445,
+      "path": "authoring/gvya/source/packages/base/fragments/behaviors/0025-context-reset_cloud.json",
+      "sha256": "6e6c23e7aa22a134edff86b99e48f366a37eaaa1de337d2cccceaad0a7c4ac6b"
+    },
+    {
+      "bytes": 538,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0001-device-about.json",
+      "sha256": "750ad4a5929a5f1d5507f038287ddab3d115fd6c875cf40f79b09c688abe435e"
+    },
+    {
+      "bytes": 515,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0002-scan-single.json",
+      "sha256": "0eeed16799fcb5bf67b8203625c16667107f17041667435f7be899ff3be0c21c"
+    },
+    {
+      "bytes": 543,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0003-scan-duplex.json",
+      "sha256": "340ce0189ea68af039db344807f32790ae11af398c484d799832ad2c4045887f"
+    },
+    {
+      "bytes": 531,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0004-scan-receipt.json",
+      "sha256": "c65d4b8a89cd60eea0bb38689a8558479b875a280f54f191b18e27df986ea7a0"
+    },
+    {
+      "bytes": 569,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0005-ocr-language.json",
+      "sha256": "afba1d180e833dd60f7a0ea630a18e05e3c0099bffb9128aa5f0dd229670d1bd"
+    },
+    {
+      "bytes": 567,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0006-ocr-offline.json",
+      "sha256": "1b49e7de600cfdd97f2aa34dc7086fc56def4a8b98fa695d5ec8efe776fb8715"
+    },
+    {
+      "bytes": 545,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0007-wifi-setup.json",
+      "sha256": "b456cefdfd019a48fd9e1c4ce4ecc859771fa3ce10c0eaead7c4a4226e8c1cef"
+    },
+    {
+      "bytes": 524,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0008-export-pdf.json",
+      "sha256": "4aa7cbc91525139b4b9ce8b680a81e301d78f8916faee8bf9213e0917d5c2f61"
+    },
+    {
+      "bytes": 567,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0009-export-searchable.json",
+      "sha256": "e1ae15d51f2014db28c8b003ee77e4be923a7b7ec9bd8d85a8bcf91f4356b8db"
+    },
+    {
+      "bytes": 574,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0010-security-encryption.json",
+      "sha256": "2057249a71b5502dae3c0761df8a93b36911bdc5638a32e6f1413e2dee955731"
+    },
+    {
+      "bytes": 563,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0011-storage-capacity.json",
+      "sha256": "ee2ba4babd557d0ff8683173a3dcb25305aa6a96b6852bc8f8376826696e9348"
+    },
+    {
+      "bytes": 544,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0012-storage-delete.json",
+      "sha256": "0b31033d2bc325c9b79345fc74e037e4e2f156a10585c447ea6037f5dd6f0c9f"
+    },
+    {
+      "bytes": 536,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0013-backup-usb.json",
+      "sha256": "6e449a10de37af2969fe0c18f5a7f8f2d9fa2e7cb91294fe20643f7b872d95b9"
+    },
+    {
+      "bytes": 547,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0014-cloud-sync.json",
+      "sha256": "e1d7bdb394810ee745bbcf0637c77102ca59435688c35eb94c2bb6d1c496889a"
+    },
+    {
+      "bytes": 544,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0015-sharing-link.json",
+      "sha256": "d5910f8d90e4eb37ab28cf2953e7e35d086219b4a32d4170c455ca5c765eb4c8"
+    },
+    {
+      "bytes": 526,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0016-paper-jam.json",
+      "sha256": "bd5b3b924b844c7bc1a297cd0b46eae02d636607418a814d1f807f139ad1bbae"
+    },
+    {
+      "bytes": 549,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0017-rollers-clean.json",
+      "sha256": "9c01a44c1016a14ae207a439f7029ce4725ddba77a2511313d4eb8f01f0a9ffc"
+    },
+    {
+      "bytes": 547,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0018-battery-life.json",
+      "sha256": "c2fcd94a011328f65a5f9bd4a887193dd8516993040b20b459de82c16279b314"
+    },
+    {
+      "bytes": 574,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0019-soft-restart.json",
+      "sha256": "2187f62adb22e44cfb1bdee222a2ecbbd02fc8c5bab618e708cd188bf8176452"
+    },
+    {
+      "bytes": 556,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0020-factory-reset.json",
+      "sha256": "532682a415bdf793c6bc996c1b48837bc0f6cd911de4b3f43050468e57211b21"
+    },
+    {
+      "bytes": 409,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0021-context-duplex_orientation.json",
+      "sha256": "671f26cb2922cc3a239835979bdb5dd8858162f9e5aa5a774950d3cf2ea4d371"
+    },
+    {
+      "bytes": 440,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0022-context-ocr_offline_language.json",
+      "sha256": "8955a908a656e66911d5e57cfa965b5993ceeea954f94e3afa9a1fe133ca7134"
+    },
+    {
+      "bytes": 420,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0023-context-searchable_is_pdf.json",
+      "sha256": "734464f5476769c5150151b7995dc58aa646a20ad20b60758472ee17f7e38be4"
+    },
+    {
+      "bytes": 416,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0024-context-restart_preserves.json",
+      "sha256": "83bfcc366eb444023a8ba54b3bd8af54077b057a6c5fa1dd0e9f15117d762c61"
+    },
+    {
+      "bytes": 423,
+      "path": "authoring/gvya/source/packages/base/fragments/meanings/0025-context-reset_cloud.json",
+      "sha256": "5dfdfa1ec255167ae72f1c0742cfc97aae34e8e8c3c64853533a58e4fd687665"
+    },
+    {
+      "bytes": 2923,
+      "path": "authoring/gvya/source/packages/base/package.json",
+      "sha256": "da8b5b50539bb45e01ef9127a26f3cc0def606305c334be67d0f0392d4d27b5f"
+    },
+    {
+      "bytes": 14930,
+      "path": "authoring/aiml2/BUDGET_LEDGER.json",
+      "sha256": "bed253b7f152d0b2d0f74904561042b68f69eec96f447b76e0dcb4d526008f53"
+    },
+    {
+      "bytes": 14923,
+      "path": "authoring/aiml2/source/benchmark.aiml",
+      "sha256": "562a66a81c7fba36b2593e5e72348656c5427a4a9b3f83dfce679e1fb2bbd419"
+    },
+    {
+      "bytes": 13424,
+      "path": "authoring/chatscript/BUDGET_LEDGER.json",
+      "sha256": "ed2bb0bd8710e2e80d669dc63caf2d69cb5b9df91a318ab4ef7203d4a9168039"
+    },
+    {
+      "bytes": 5260,
+      "path": "authoring/chatscript/source/benchmark.top",
+      "sha256": "7431599fa5c1ecbec5ac4fdf65b54e27f4ad934d2befebf0d5f7824a38099732"
+    }
+  ],
+  "version": 1
+}

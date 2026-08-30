@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.slot.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.slot.behavior",
+    "meaning": "gvya.help.slot",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Slot values may come from utterance extraction, conversation state, context, a host reference resolver, or an optional neural resolver — and the provenance stays inspectable."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "مقدار Slot می‌تواند از استخراج گفته، حالت مکالمه، context، یک reference resolver میزبان، یا یک neural resolver اختیاری بیاید — و منشأ همیشه قابل بازرسی می‌ماند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.slot.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Slot is a named typed value needed to represent a Meaning or bind a capability argument. It declares a stable name, a type, cardinality, required or optional status, provenance once resolved, and validation status."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Slot مقداری نام‌دار و تایپ‌شده است که برای بازنمایی یک Meaning یا اتصال آرگومان capability لازم است. نام پایدار، نوع، تعداد، اجباری یا اختیاری بودن، منشأ پس از حل شدن، و وضعیت اعتبارسنجی را اعلام می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

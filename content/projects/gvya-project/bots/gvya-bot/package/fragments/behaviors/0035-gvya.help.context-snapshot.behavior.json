@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.context-snapshot.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.context-snapshot.behavior",
+    "meaning": "gvya.help.context-snapshot",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The compiler and runtime must know the schema of any context path they depend on. Arbitrary ambient host access is forbidden, and context is read-only inside the conversation kernel."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "کامپایلر و runtime باید schema هر مسیر context که به آن وابسته‌اند را بدانند. دسترسی محیطی دلخواه به میزبان ممنوع است و context داخل هستهٔ مکالمه فقط خواندنی است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.context-snapshot.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Context Snapshot is immutable host-supplied information for one interaction: visible host facts, active or focused references, available reference candidates, capability availability, user or device context, and locale and time values the host explicitly exposes."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Context Snapshot اطلاعات تغییرناپذیری است که میزبان برای یک interaction می‌دهد: واقعیت‌های قابل مشاهده، referenceهای فعال یا متمرکز، نامزدهای reference موجود، در دسترس بودن capability، زمینهٔ کاربر یا دستگاه، و مقادیر locale و زمان که میزبان صریحاً افشا می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

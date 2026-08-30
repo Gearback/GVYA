@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.capability-result.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.capability-result.behavior",
+    "meaning": "gvya.help.capability-result",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "GVYA requires an exact pending receipt, then checks the proposal id and version, the argument schema and fingerprint, and the output schema and correlation. The receipt is consumed before continuation, so fabricated, modified, stale and replayed results never re-enter authored handlers — and this path never executes host effects."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "‏GVYA یک رسید در انتظارِ دقیق می‌خواهد، سپس شناسه و نسخهٔ پیشنهاد، schema و اثرانگشت آرگومان‌ها، و schema و همبستگی خروجی را بررسی می‌کند. رسید پیش از ادامه مصرف می‌شود، پس نتایج جعلی، دستکاری‌شده، کهنه و بازپخش‌شده هرگز دوباره وارد هندلرهای نوشته‌شده نمی‌شوند — و این مسیر هرگز اثرهای میزبان را اجرا نمی‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.capability-result.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The host returns the exact proposal, the execution result, and the latest GVYA state from the interaction that admitted it. That state holds a bounded runtime-owned conversation.pending_capabilities receipt ledger."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "میزبان همان پیشنهاد دقیق، نتیجهٔ اجرا، و آخرین وضعیت GVYA از همان interactionی که آن را پذیرفته بود برمی‌گرداند. آن وضعیت شامل دفتر رسیدِ محدود و متعلق به runtime با نام ‎conversation.pending_capabilities‎ است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

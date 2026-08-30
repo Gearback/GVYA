@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-hate-you.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.i-hate-you.behavior",
+    "meaning": "core.smalltalk.informal.i-hate-you",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.i-hate-you.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "You can feel that way.",
+              "Fine. Still here.",
+              "That doesn’t change what I know."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "می‌تونی این حس رو داشته باشی.",
+              "باشه. هنوز اینجام.",
+              "این چیزی رو که می‌دونم عوض نمی‌کنه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

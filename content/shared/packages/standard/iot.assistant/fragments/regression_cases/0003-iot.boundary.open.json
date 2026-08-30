@@ -1,0 +1,16 @@
+{
+  "exported": false,
+  "id": "iot.boundary.open",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Opening a software package must not become an IoT position action.",
+    "expectation": { "forbidden_meanings": ["iot.device.open"] },
+    "generated": false,
+    "id": "iot.boundary.open",
+    "initial_state": {},
+    "input": "open the package",
+    "language": "en-US",
+    "seed": 103
+  }
+}

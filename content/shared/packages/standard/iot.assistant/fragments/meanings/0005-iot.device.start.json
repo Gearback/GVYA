@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "iot.device.start",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "iot.device.start",
+    "negative_samples": [
+      { "language": "en-US", "text": "start a conversation" },
+      { "language": "en-US", "text": "start the project" },
+      { "language": "fa-IR", "text": "گفتگو را شروع کن" }
+    ],
+    "references": [
+      {
+        "elicitation": [
+          { "language": "en-US", "text": "Which device should I start?" },
+          { "language": "fa-IR", "text": "کدام دستگاه را راه‌اندازی کنم؟" }
+        ],
+        "kind": "iot.device",
+        "required": true
+      }
+    ],
+    "samples": [
+      { "language": "en-US", "text": "start" },
+      { "language": "en-US", "text": "start device" },
+      { "language": "en-US", "text": "run device" },
+      { "language": "en-US", "text": "start the vacuum" },
+      { "language": "en-US", "text": "start the fan" },
+      { "language": "fa-IR", "text": "دستگاه را راه بینداز" },
+      { "language": "fa-IR", "text": "راه بینداز" },
+      { "language": "fa-IR", "text": "دستگاه را شروع کن" },
+      { "language": "fa-IR", "text": "جارو را راه بینداز" }
+    ]
+  }
+}

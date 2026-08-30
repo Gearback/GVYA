@@ -1,0 +1,38 @@
+{
+  "exported": true,
+  "id": "iot.device.switch",
+  "mode": "add",
+  "value": {
+    "contract": {
+      "confirmation_hint": "conditional",
+      "description": "Set one host-resolved IoT device to on or off. The host owns device availability, authorization, safety classification, and execution.",
+      "effect_class": "reversible",
+      "id": "iot.device.switch",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "device": { "maxLength": 160, "minLength": 1, "type": "string" },
+          "state": { "enum": ["on", "off"], "type": "string" }
+        },
+        "required": ["device", "state"],
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "detail": { "maxLength": 500, "minLength": 1, "type": "string" },
+          "device": { "maxLength": 160, "minLength": 1, "type": "string" },
+          "state": { "maxLength": 160, "minLength": 1, "type": "string" }
+        },
+        "required": ["device", "state"],
+        "type": "object"
+      },
+      "reference_kinds": ["iot.device"],
+      "title": "Switch IoT device",
+      "version": "1"
+    },
+    "host_effects": [
+      { "kind": "update", "resource": "iot.device.power", "summary": "Change device power state" }
+    ]
+  }
+}

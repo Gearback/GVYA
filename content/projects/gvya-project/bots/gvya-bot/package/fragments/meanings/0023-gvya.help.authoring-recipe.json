@@ -1,0 +1,350 @@
+{
+  "exported": true,
+  "id": "gvya.help.authoring-recipe",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.authoring-recipe",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i improve matcher accuracy"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i create my first gvya bot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دقت matcher را چطور بهتر کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اولین بات gvya را چطور بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تست را چطور بنویسم"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i write a regression case"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط گیر املایی واژه پیشنهادی را چطور انتخاب می کند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "semantic spine"
+      },
+      {
+        "language": "en-US",
+        "text": "sample matrix"
+      },
+      {
+        "language": "en-US",
+        "text": "held out utterance"
+      },
+      {
+        "language": "en-US",
+        "text": "authoring recipe"
+      },
+      {
+        "language": "en-US",
+        "text": "phrasing intent natural coverage short full question persona familiarity"
+      },
+      {
+        "language": "fa-IR",
+        "text": "semantic spine"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ماتریس sample"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عبارت holdout"
+      },
+      {
+        "language": "fa-IR",
+        "text": "recipe نویسندگی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جمله intent پوشش طبیعی کوتاه سؤال کامل persona آشنایی"
+      },
+      {
+        "language": "en-US",
+        "text": "coverage checklist training phrases"
+      },
+      {
+        "language": "en-US",
+        "text": "vary questions expertise speaking style"
+      },
+      {
+        "language": "fa-IR",
+        "text": "phrase آموزشی checklist پوشش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سؤال میزان تخصص مدل حرف زدن متنوع"
+      },
+      {
+        "language": "en-US",
+        "text": "user voice domain knowledge drafting utterance"
+      },
+      {
+        "language": "en-US",
+        "text": "authoring samples boundary tests order"
+      },
+      {
+        "language": "en-US",
+        "text": "recommended grow build order discipline practice vertical slice approach"
+      },
+      {
+        "language": "fa-IR",
+        "text": "روش پیشنهادی رشد ترتیب ساخت نظم رویه برش به برش رویکرد"
+      },
+      {
+        "language": "en-US",
+        "text": "two word short sample versus full question length wording"
+      },
+      {
+        "language": "fa-IR",
+        "text": "روش درست انتخاب sample یاد دادن نویسندگی matcher"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "lets start with authoring"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya authoring recipe"
+      },
+      {
+        "language": "en-US",
+        "text": "how should i write meaning samples"
+      },
+      {
+        "language": "en-US",
+        "text": "what makes a good matcher sample"
+      },
+      {
+        "language": "en-US",
+        "text": "samples for expert and beginner users"
+      },
+      {
+        "language": "en-US",
+        "text": "should matcher samples be short"
+      },
+      {
+        "language": "en-US",
+        "text": "package authoring best practices"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i design an intent sample set"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i cover persona and familiarity in meaning samples"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i teach the bot all the ways people ask"
+      },
+      {
+        "language": "en-US",
+        "text": "choose matcher samples for authoring"
+      },
+      {
+        "language": "en-US",
+        "text": "choose matcher samples"
+      },
+      {
+        "language": "en-US",
+        "text": "teach choose matcher samples"
+      },
+      {
+        "language": "fa-IR",
+        "text": "recipe نویسندگی gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sample های meaning را چطور بنویسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sample خوب برای matcher چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sample برای کاربر حرفه ای و مبتدی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sample های matcher باید کوتاه باشند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "روش درست نوشتن package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مجموعه sample یک intent را چطور طراحی کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "persona و میزان آشنایی را چطور در sample ها پوشش بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور همه جور سؤال پرسیدن مردم رو به بات یاد بدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انتخاب sample برای نویسندگی matcher"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انتخاب sample matcher"
+      },
+      {
+        "language": "fa-IR",
+        "text": "sample دو کلمه همیشه بهتره"
+      },
+      {
+        "language": "en-US",
+        "text": "how should i write the examples"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a good sample set"
+      },
+      {
+        "language": "en-US",
+        "text": "does every meaning need nine samples"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمونه ها را چطور بنویسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک مجموعه نمونه خوب چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای هر meaning نه sample لازم است"
+      },
+      {
+        "language": "en-US",
+        "text": "authoring"
+      },
+      {
+        "language": "en-US",
+        "text": "back to authoring"
+      },
+      {
+        "language": "en-US",
+        "text": "lets talk authoring"
+      },
+      {
+        "language": "fa-IR",
+        "text": "authoring"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برگردیم به authoring"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درباره authoring بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "show me that workflow"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the authoring workflow"
+      },
+      {
+        "language": "en-US",
+        "text": "workflow"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اون workflow رو بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "workflow authoring رو توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "workflow"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a vertical slice"
+      },
+      {
+        "language": "en-US",
+        "text": "how many samples do i need"
+      },
+      {
+        "language": "fa-IR",
+        "text": "vertical slice چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چند تا sample لازم دارم"
+      },
+      {
+        "language": "en-US",
+        "text": "sample and boundary test authoring workflow"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the recommended way to grow a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "in what order should i build things out"
+      },
+      {
+        "language": "en-US",
+        "text": "should i list all my intents up front"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a good discipline for adding content"
+      },
+      {
+        "language": "fa-IR",
+        "text": "روش پیشنهادی برای رشد دادن یک بات چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به چه ترتیبی چیزها را بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باید اول همه intent ها را فهرست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای اضافه کردن محتوا چه نظمی خوب است"
+      }
+    ]
+  }
+}

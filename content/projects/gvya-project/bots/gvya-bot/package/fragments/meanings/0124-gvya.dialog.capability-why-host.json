@@ -1,0 +1,77 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.capability-why-host",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.capability-why-host",
+    "negative_samples": [],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ WHY ^ EXECUTE ^ DIRECTLY ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ WHY ^ EXECUTE ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ WHY ^ ACTION ^ APPLICATION ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "why host execute external action boundary runtime portable"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا host اجرا action مرز runtime قابل حمل"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "why leave execution to the host"
+      },
+      {
+        "language": "en-US",
+        "text": "why cant the brain perform the action itself"
+      },
+      {
+        "language": "en-US",
+        "text": "why keep execution outside the runtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا اجرا دست host می ماند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا brain خودش action را انجام نمی دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا runtime خودش اجرا نمی کند"
+      },
+      {
+        "language": "en-US",
+        "text": "why keep this outside the brain"
+      },
+      {
+        "language": "en-US",
+        "text": "why not let gvya do it"
+      },
+      {
+        "language": "en-US",
+        "text": "why is it not executed here"
+      }
+    ]
+  }
+}

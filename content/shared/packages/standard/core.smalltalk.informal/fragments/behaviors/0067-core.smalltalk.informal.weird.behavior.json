@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.weird.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.weird.behavior",
+    "meaning": "core.smalltalk.informal.weird",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.weird.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It is strange.",
+              "Yeah. Weird.",
+              "Strange things happen."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "عجیبه.",
+              "آره. عجیب.",
+              "چیزهای عجیب پیش میاد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

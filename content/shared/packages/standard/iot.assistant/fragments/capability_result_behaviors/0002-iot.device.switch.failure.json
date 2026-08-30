@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "iot.device.switch.failure",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.switch",
+    "capability_version": "1",
+    "id": "iot.device.switch.failure",
+    "responses": [
+      {
+        "id": "iot.device.switch.failure.response",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device power state could not be changed."] },
+          { "language": "fa-IR", "variants": ["تغییر وضعیت روشن یا خاموش دستگاه انجام نشد."] }
+        ]
+      }
+    ],
+    "succeeded": false
+  }
+}

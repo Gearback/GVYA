@@ -1,0 +1,56 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.is-it-morning",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.is-it-morning",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "is it morning"
+      },
+      {
+        "language": "en-US",
+        "text": "is it afternoon"
+      },
+      {
+        "language": "en-US",
+        "text": "is it evening"
+      },
+      {
+        "language": "en-US",
+        "text": "is it night"
+      },
+      {
+        "language": "en-US",
+        "text": "what part of day is it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صبحه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ظهره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عصره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شبه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه وقت روزه"
+      }
+    ]
+  }
+}

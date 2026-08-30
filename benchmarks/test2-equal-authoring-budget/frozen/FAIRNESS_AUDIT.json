@@ -1,0 +1,21 @@
+{
+  "aiml2": {
+    "context_categories": 15,
+    "direct_categories": 100,
+    "global_fallback_excluded": 1,
+    "total": 115
+  },
+  "chatscript": {
+    "concept_members": 40,
+    "context_rejoinders": 15,
+    "direct_rules": 60,
+    "global_fallback_excluded": 1,
+    "total": 115
+  },
+  "gvya": {
+    "context_evidence": 15,
+    "direct_evidence": 100,
+    "total": 115
+  },
+  "verdict": "PASS: 115 user-language evidence rows per engine; no hidden AIML set/map or ChatScript alternatives."
+}

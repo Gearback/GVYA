@@ -1,0 +1,81 @@
+name: Benchmark Test 1
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  equal-authored-evidence:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 45
+    env:
+      BENCH: benchmarks/test1-equal-authored-evidence
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify frozen benchmark
+        run: python3 "$BENCH/runners/verify_frozen.py" --root "$BENCH"
+
+      - name: Set up Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Run frozen GVYA Engine
+        run: node "$BENCH/runners/run_gvya.mjs" --root "$BENCH" --repo-root "$GITHUB_WORKSPACE"
+
+      - name: Set up Python 3.7.17
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.7.17'
+
+      - name: Fetch exact Program-Y 3.6 runtime sources
+        shell: bash
+        run: |
+          mkdir -p .deps/pypi .deps/src
+          python "$BENCH/runners/fetch_programy_sdists.py" --root "$BENCH" --output .deps/pypi
+          while IFS= read -r archive; do
+            tar -xzf "$archive" -C .deps/src
+          done < <(find .deps/pypi -maxdepth 1 -type f -name '*.tar.gz' | sort)
+          cp -a .deps/src/beautifulsoup4-4.6.3 .deps/src/beautifulsoup4-4.6.3-py3
+          python -m lib2to3 -w -n .deps/src/beautifulsoup4-4.6.3-py3/bs4 >/dev/null
+          {
+            echo "PYTHONPATH=$GITHUB_WORKSPACE/.deps/src/programy-3.6:$GITHUB_WORKSPACE/.deps/src/PyYAML-4.2b4/lib3:$GITHUB_WORKSPACE/.deps/src/APScheduler-3.5.3:$GITHUB_WORKSPACE/.deps/src/beautifulsoup4-4.6.3-py3:$GITHUB_WORKSPACE/.deps/src/SQLAlchemy-1.2.12/lib:$GITHUB_WORKSPACE/.deps/src/pymongo-3.7.1:$GITHUB_WORKSPACE/.deps/src/redis-2.10.6:$GITHUB_WORKSPACE/.deps/src/six-1.12.0:$GITHUB_WORKSPACE/.deps/src/pytz-2018.9:$GITHUB_WORKSPACE/.deps/src/tzlocal-1.5.1:$GITHUB_WORKSPACE/.deps/src/python-dateutil-2.7.3:$GITHUB_WORKSPACE/$BENCH/runners"
+          } >> "$GITHUB_ENV"
+
+      - name: Run AIML 2.0 / Program-Y 3.6
+        run: python "$BENCH/runners/run_aiml_programy.py" --root "$BENCH"
+
+      - name: Fetch exact ChatScript 14.1 runtime
+        shell: bash
+        run: |
+          git clone --quiet https://github.com/ChatScript/ChatScript.git .deps/chatscript
+          cd .deps/chatscript
+          git checkout --quiet 9f5eec4736ba22bd992a6498c1e0052e2a795125
+          test "$(git rev-parse HEAD)" = '9f5eec4736ba22bd992a6498c1e0052e2a795125'
+          test "$(git hash-object BINARIES/LinuxChatScript64)" = '5c9df404a088c3675a26d4beef84f09e6ea9f20a'
+          chmod +x BINARIES/LinuxChatScript64
+
+      - name: Run ChatScript 14.1
+        run: python "$BENCH/runners/run_chatscript.py" --root "$BENCH" --chatscript-root "$GITHUB_WORKSPACE/.deps/chatscript"
+
+      - name: Verify final runtime and prediction locks
+        run: python "$BENCH/runners/verify_runtime_lock.py" --root "$BENCH" --repo-root "$GITHUB_WORKSPACE"
+
+      - name: Build final report
+        run: python "$BENCH/runners/build_report.py" --root "$BENCH"
+
+      - name: Upload raw benchmark evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: gvya-benchmark-test1-results
+          path: |
+            benchmarks/test1-equal-authored-evidence/results/*.json
+            benchmarks/test1-equal-authored-evidence/results/*.jsonl
+            benchmarks/test1-equal-authored-evidence/RESULTS.md
+            benchmarks/test1-equal-authored-evidence/RUNTIME_LOCK.json
+            benchmarks/test1-equal-authored-evidence/frozen/BENCHMARK_SPEC_SHA256.txt
+            benchmarks/test1-equal-authored-evidence/frozen/SEMANTIC_SOURCE_LOCK.json
+          if-no-files-found: error

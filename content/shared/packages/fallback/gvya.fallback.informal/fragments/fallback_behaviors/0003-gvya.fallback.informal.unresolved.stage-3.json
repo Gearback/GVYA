@@ -1,0 +1,40 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.informal.unresolved.stage-3",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "greater_or_equal",
+        "path": "repairCount",
+        "value": 2
+      }
+    ],
+    "id": "gvya.fallback.informal.unresolved.stage-3",
+    "priority": 0,
+    "responses": [
+      {
+        "id": "gvya.fallback.informal.unresolved.insufficient-information",
+        "kind": "fallback",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I don't know enough to answer that.",
+              "I'm not sure how to answer that."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اون‌قدر اطلاعات ندارم که جواب بدم.",
+              "مطمئن نیستم چطور جوابش رو بدم."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "unresolved"
+  }
+}

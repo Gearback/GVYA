@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.scary.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.scary.behavior",
+    "meaning": "core.smalltalk.informal.scary",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.scary.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Fear makes sense sometimes.",
+              "Then move carefully.",
+              "Don’t ignore that feeling."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ترس گاهی منطقیه.",
+              "پس با احتیاط حرکت کن.",
+              "اون حس رو نادیده نگیر."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

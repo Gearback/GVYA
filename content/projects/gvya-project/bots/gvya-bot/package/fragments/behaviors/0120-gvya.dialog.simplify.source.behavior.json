@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.simplify.source.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.source-explain",
+    "id": "gvya.dialog.simplify.source.behavior",
+    "meaning": "gvya.dialog.simplify",
+    "responses": [
+      {
+        "id": "gvya.dialog.simplify.source.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Plain version: the editable JSON is the source; the compiled .gvya file is the brain your app loads. They are two different things."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ساده‌اش: JSON قابل‌ویرایش source است؛ فایل کامپایل‌شدهٔ .gvya همان brainی است که برنامه load می‌کند. این دو یکی نیستند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

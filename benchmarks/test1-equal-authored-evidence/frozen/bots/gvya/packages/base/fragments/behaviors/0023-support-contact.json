@@ -1,0 +1,20 @@
+{
+  "id": "support.contact.behavior",
+  "value": {
+    "id": "support.contact.behavior",
+    "meaning": "support.contact",
+    "responses": [
+      {
+        "id": "support.contact.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SUPPORT_CONTACT"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

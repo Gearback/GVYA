@@ -1,0 +1,318 @@
+{
+  "exported": true,
+  "id": "gvya.help.architecture",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.architecture",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "برنامه TypeScript فایل gvya را باز می کند و با runtime حرف می زند"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i integrate gvya at runtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya را چطور به برنامه وصل کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "rebuild artifact after content edit"
+      },
+      {
+        "language": "fa-IR",
+        "text": "rebuild آرتیفکت بعد از ویرایش محتوا"
+      },
+      {
+        "language": "en-US",
+        "text": "incoming utterance stages runtime"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "authority path"
+      },
+      {
+        "language": "en-US",
+        "text": "source compiler artifact runtime host"
+      },
+      {
+        "language": "en-US",
+        "text": "authored file reply compiling matching action responsibility pipeline"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مسیر authority"
+      },
+      {
+        "language": "fa-IR",
+        "text": "source compiler artifact runtime host"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل نوشته شده جواب کامپایل تشخیص اجرا اکشن مسئول pipeline"
+      },
+      {
+        "language": "en-US",
+        "text": "component utterance handoff host proposal"
+      },
+      {
+        "language": "en-US",
+        "text": "authored json execution stage flow"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام بخش عبور proposal میزبان"
+      },
+      {
+        "language": "fa-IR",
+        "text": "json نوشته شده اجرا مرحله تحویل"
+      },
+      {
+        "language": "en-US",
+        "text": "handoff authored json effect app"
+      },
+      {
+        "language": "en-US",
+        "text": "authored source reply path"
+      },
+      {
+        "language": "en-US",
+        "text": "layer layers separation responsibility boundary authored source compiler runtime host artifact flow"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لایه لایه‌ها تفکیک مسئولیت مرز source نویسندگی compiler runtime host artifact جریان"
+      },
+      {
+        "language": "en-US",
+        "text": "components stages chain compiler runtime host application responsible each stage"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بخش مرحله زنجیره کامپایلر runtime میزبان برنامه مسئول هر مرحله"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اجزا بخش ها ساختار کلی وصل مربوط کامپایلر runtime سورس آرتیفکت مسیر"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "answers without llm"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون llm جواب می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "how gvya works"
+      },
+      {
+        "language": "en-US",
+        "text": "explain gvya architecture"
+      },
+      {
+        "language": "en-US",
+        "text": "walk me through the gvya pipeline"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens from source to response"
+      },
+      {
+        "language": "en-US",
+        "text": "how does a message become an answer"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya internals"
+      },
+      {
+        "language": "en-US",
+        "text": "who owns each gvya stage"
+      },
+      {
+        "language": "en-US",
+        "text": "which component has semantic authority in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what part turns my words into a reply"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معماری gvya را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مراحل پردازش gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از سورس تا پاسخ چه اتفاقی می افتد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام چطور تبدیل به جواب می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل گویا چه خبر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مسئول هر مرحله در gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام بخش مرجع semantic در gvya است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدوم قسمت حرف منو تبدیل به جواب می کنه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زنجیره مسئولیت compiler runtime برنامه"
+      },
+      {
+        "language": "en-US",
+        "text": "what are the internal stages"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it get from input to output"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مراحل داخلی آن چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از ورودی تا خروجی چه می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "architecture"
+      },
+      {
+        "language": "en-US",
+        "text": "back to architecture"
+      },
+      {
+        "language": "en-US",
+        "text": "lets talk architecture"
+      },
+      {
+        "language": "en-US",
+        "text": "how gvya thinks"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معماری"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برگردیم به معماری"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درباره معماری بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چطور فکر می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it work end to end"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the overall design"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از اول تا آخر چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معماری کلی چگونه است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام از چه بخش هایی رد می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "source to reply path"
+      },
+      {
+        "language": "en-US",
+        "text": "how do the compiler and runtime fit together"
+      },
+      {
+        "language": "en-US",
+        "text": "walk me through the pieces end to end"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کامپایلر و runtime چطور کنار هم قرار می گیرند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قطعات را از اول تا آخر برایم بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "which components touch an utterance on its way through"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the chain from compiler to runtime to application"
+      },
+      {
+        "language": "en-US",
+        "text": "who is responsible for compiling matching and producing a proposal"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک گفته در مسیرش از چه بخش هایی رد می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زنجیره از کامپایلر تا runtime تا برنامه چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بخش های مختلف چطور به هم مربوط می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ساختار کلی سیستم چیست"
+      }
+    ]
+  }
+}

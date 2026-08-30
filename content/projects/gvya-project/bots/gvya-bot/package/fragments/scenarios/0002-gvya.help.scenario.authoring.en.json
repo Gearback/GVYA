@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.authoring.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "English author asks about samples and a failed match",
+    "generated": false,
+    "id": "gvya.help.scenario.authoring.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.authoring-recipe",
+          "response_ids": [
+            "gvya.help.authoring-recipe.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Teach me the right way to choose matcher samples.",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher-troubleshooting",
+          "response_ids": [
+            "gvya.help.matcher-troubleshooting.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "One meaning is being confused with another; what do I fix first?",
+        "seed": 2,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.why-report",
+          "response_ids": [
+            "gvya.help.why-report.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Where can I inspect the reason that candidate won?",
+        "seed": 3,
+        "type": "turn"
+      }
+    ]
+  }
+}

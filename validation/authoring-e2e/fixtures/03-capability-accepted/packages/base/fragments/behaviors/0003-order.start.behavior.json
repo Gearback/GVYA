@@ -1,0 +1,38 @@
+{
+  "id": "order.start.behavior",
+  "value": {
+    "activates_topic": true,
+    "id": "order.start.behavior",
+    "meaning": "order.start",
+    "responses": [
+      {
+        "effects": [
+          {
+            "target": {
+              "namespace": "author",
+              "path": "order.started"
+            },
+            "type": "assign",
+            "value": true
+          }
+        ],
+        "id": "order.start.behavior.answer",
+        "opens_followup": {
+          "id": "order.confirm.followup",
+          "refresh_if_same": false,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "Order started."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "order.flow",
+    "topic_ttl": 4
+  }
+}

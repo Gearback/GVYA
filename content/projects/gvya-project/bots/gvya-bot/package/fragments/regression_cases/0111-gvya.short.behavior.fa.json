@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.short.behavior.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian Behavior question routes directly",
+    "expectation": {
+      "meaning": "gvya.help.behavior",
+      "response_ids": [
+        "gvya.help.behavior.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.short.behavior.fa",
+    "initial_state": {},
+    "input": "behavior چیه",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

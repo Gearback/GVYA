@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.hello.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.hello.behavior",
+    "meaning": "core.smalltalk.informal.hello",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.hello.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Hey.",
+              "Hi.",
+              "Hello.",
+              "Yeah, I'm here."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "سلام.",
+              "هی.",
+              "درود.",
+              "آره، اینجام."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

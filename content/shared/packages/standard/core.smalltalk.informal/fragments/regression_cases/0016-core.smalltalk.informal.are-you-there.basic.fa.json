@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-there.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.are-you-there",
+      "response_ids": [
+        "core.smalltalk.informal.are-you-there.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.are-you-there.basic.fa",
+    "initial_state": {},
+    "input": "صدامو داری",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

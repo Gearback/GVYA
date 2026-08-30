@@ -1,0 +1,20 @@
+{
+  "id": "security.sessions.behavior",
+  "value": {
+    "id": "security.sessions.behavior",
+    "meaning": "security.sessions",
+    "responses": [
+      {
+        "id": "security.sessions.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SECURITY_SESSIONS"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cancel.collection",
+  "value": {
+    "id": "cancel.collection",
+    "description": "A strong authored cancel Meaning supersedes active collection",
+    "context": {},
+    "initial_state": {},
+    "generated": false,
+    "steps": [
+      {
+        "type": "turn",
+        "say": "create order",
+        "language": "en",
+        "seed": 1,
+        "expectation": {"conversation_mode": "collection", "response_contains": ["How many items?"]}
+      },
+      {
+        "type": "turn",
+        "say": "never mind",
+        "language": "en",
+        "seed": 2,
+        "expectation": {"meaning": "cancel", "response_ids": ["cancel.answer"]}
+      }
+    ]
+  }
+}

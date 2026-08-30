@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.topics.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.topics.behavior",
+    "meaning": "gvya.help.topics",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "While a topic is active the kernel scores its Meanings in a separate pass and prefers that result within topic_preference_margin — but the topic pass must itself resolve, so a topic sharpens ties, it does not raise a below-threshold score. mentioned_topics and last_topic survive expiry for conditions and templates."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "تا وقتی یک topic فعال است، هسته Meaningهای آن را در یک پاس جداگانه امتیاز می‌دهد و نتیجهٔ آن را در محدودهٔ ‎topic_preference_margin‎ ترجیح می‌دهد — اما خودِ پاس topic باید حل شود، پس topic تساوی‌ها را تیز می‌کند، امتیازِ زیرِ آستانه را بالا نمی‌برد. ‎mentioned_topics‎ و ‎last_topic‎ پس از انقضا برای شرط‌ها و قالب‌ها باقی می‌مانند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.topics.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Behavior may declare a topic, and it becomes active only if that Behavior also sets activates_topic, or the same topic is already active. TTL is decremented at the start of each user turn, so a TTL of one is no longer active on the next turn unless something refreshes it."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Behavior می‌تواند یک topic اعلام کند، و آن topic تنها زمانی فعال می‌شود که همان Behavior مقدار ‎activates_topic‎ را هم بگذارد، یا همان topic از قبل فعال باشد. TTL در شروع هر نوبت کاربر یک واحد کم می‌شود، پس TTL برابر یک در نوبت بعد دیگر فعال نیست مگر چیزی آن را تازه کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

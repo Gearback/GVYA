@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.congratulations.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.congratulations.behavior",
+    "meaning": "core.smalltalk.formal.congratulations",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.congratulations.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Thank you.",
+              "That is kind.",
+              "Good of you to say."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "سپاسگزارم.",
+              "لطف دارید.",
+              "خوب است که گفتید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

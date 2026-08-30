@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.sorry.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.sorry.behavior",
+    "meaning": "core.smalltalk.formal.sorry",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.sorry.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It is all right.",
+              "No harm done.",
+              "Let us move on."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اشکالی ندارد.",
+              "چیزی نشده است.",
+              "بگذریم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

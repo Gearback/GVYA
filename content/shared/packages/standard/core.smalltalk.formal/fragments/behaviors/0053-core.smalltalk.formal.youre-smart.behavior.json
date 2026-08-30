@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.youre-smart.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.youre-smart.behavior",
+    "meaning": "core.smalltalk.formal.youre-smart",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.youre-smart.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Perhaps.",
+              "I try to notice what matters.",
+              "I try to listen carefully."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید.",
+              "سعی می‌کنم به چیزهای مهم توجه کنم.",
+              "سعی می‌کنم دقیق گوش کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

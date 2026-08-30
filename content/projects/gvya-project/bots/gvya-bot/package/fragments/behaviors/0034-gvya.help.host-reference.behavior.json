@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.host-reference.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.host-reference.behavior",
+    "meaning": "gvya.help.host-reference",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "GVYA never infers authority from a display name: labels and aliases are match hints only, and the id stays authoritative. A remembered reference is not invocation authority unless the current host snapshot still exposes that exact identity."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "GVYA هرگز از نام نمایشی اختیار استنتاج نمی‌کند: برچسب و نام مستعار فقط راهنمای تطبیق‌اند و id مرجع می‌ماند. یک reference به‌خاطر سپرده‌شده تا وقتی snapshot فعلی میزبان همان هویت دقیق را نشان ندهد، مجوز فراخوانی نیست."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.host-reference.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Host Reference identifies an object owned by the embedding host — a room, device, character, file, account. It consists of a declared kind, an opaque stable id, and optional safe display metadata supplied in the Context Snapshot."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Host Reference شیئی را که میزبان مالکش است شناسایی می‌کند — اتاق، دستگاه، شخصیت، فایل، حساب. از یک kind اعلام‌شده، یک id پایدار و مبهم، و فرادادهٔ نمایشی اختیاری در Context Snapshot تشکیل می‌شود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

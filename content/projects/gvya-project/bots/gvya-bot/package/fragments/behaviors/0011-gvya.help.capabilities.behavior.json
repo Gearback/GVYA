@@ -1,0 +1,77 @@
+{
+  "exported": true,
+  "id": "gvya.help.capabilities.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.capabilities.behavior",
+    "meaning": "gvya.help.capabilities",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The host confirms or rejects as required, executes admitted work, and returns a typed result that the runtime can validate and continue from."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "میزبان در صورت نیاز تأیید می‌گیرد، کار مجاز را اجرا می‌کند و نتیجهٔ typed برمی‌گرداند تا runtime آن را اعتبارسنجی و ادامه دهد."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "You can keep this thread going naturally—ask how it is used, why the host executes it, what happens next, or for a concrete example."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "می‌توانی همین بحث را طبیعی ادامه بدهی—بپرس چطور استفاده می‌شود، چرا host اجرا می‌کند، بعدش چه می‌شود، یا یک مثال واقعی بخواه."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.capabilities.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.capability-thread",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Capabilities are versioned typed contracts for host effects. GVYA validates policy and emits a proposal; it never performs the external action itself.",
+              "A Capability is a typed, versioned contract for something the host does. GVYA checks policy and hands back a proposal — the external action itself always stays on your side."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Capability قرارداد typed و versioned برای اثرهای میزبان است. GVYA policy را بررسی و proposal تولید می‌کند و هیچ‌وقت خودش اکشن خارجی را اجرا نمی‌کند.",
+              "هر Capability یک قرارداد typed و versioned برای کاری است که میزبان انجام می‌دهد. GVYA فقط policy را بررسی می‌کند و proposal می‌دهد؛ خود اکشن بیرونی همیشه سمت تو می‌ماند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

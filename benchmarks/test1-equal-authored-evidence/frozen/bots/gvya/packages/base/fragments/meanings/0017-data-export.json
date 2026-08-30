@@ -1,0 +1,24 @@
+{
+  "id": "data.export",
+  "value": {
+    "id": "data.export",
+    "samples": [
+      {
+        "language": "en",
+        "text": "export my data"
+      },
+      {
+        "language": "en",
+        "text": "how do i download my data"
+      },
+      {
+        "language": "en",
+        "text": "get a copy of my information"
+      },
+      {
+        "language": "en",
+        "text": "i want to export everything from my account"
+      }
+    ]
+  }
+}

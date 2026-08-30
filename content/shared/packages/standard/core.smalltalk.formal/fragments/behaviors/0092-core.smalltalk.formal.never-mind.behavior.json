@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.never-mind.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.never-mind.behavior",
+    "meaning": "core.smalltalk.formal.never-mind",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.never-mind.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Very well.",
+              "All right. Dropped.",
+              "Then we move on."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بسیار خوب.",
+              "باشه. کنار گذاشته شد.",
+              "پس بگذریم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

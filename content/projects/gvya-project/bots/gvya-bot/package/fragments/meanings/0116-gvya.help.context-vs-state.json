@@ -1,0 +1,66 @@
+{
+  "exported": true,
+  "id": "gvya.help.context-vs-state",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.context-vs-state",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "the host exchanges a runtime turn request and returned state after loading an artifact"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان پس از load فایل request می فرستد و state برگشتی را ذخیره می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a context snapshot"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya state"
+      },
+      {
+        "language": "en-US",
+        "text": "how do response conditions read state"
+      },
+      {
+        "language": "fa-IR",
+        "text": "context snapshot چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "difference context snapshot gvya state immutable host facts evolving conversation data compare"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تفاوت context snapshot gvya state اطلاعات میزبان تغییرناپذیر داده مکالمه درحال تغییر مقایسه"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is the difference between context and state"
+      },
+      {
+        "language": "en-US",
+        "text": "how does context differ from gvya state"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق context و state چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "context چه فرقی با gvya state دارد"
+      }
+    ]
+  }
+}

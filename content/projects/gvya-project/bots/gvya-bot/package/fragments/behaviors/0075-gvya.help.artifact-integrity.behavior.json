@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-integrity.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.artifact-integrity.behavior",
+    "meaning": "gvya.help.artifact-integrity",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Hashes give you integrity, not authenticity. Proving who produced the artifact needs the separate optional signature envelope."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هش‌ها یکپارچگی می‌دهند، نه اصالت. اثبات اینکه چه کسی آرتیفکت را ساخته، به پاکت امضای اختیاری و جداگانه نیاز دارد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.artifact-integrity.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "There are four integrity layers. Every entry-table row carries an exact SHA-256 digest of its payload; integrity.json records the compiled program digest plus asset digests and sizes and canonical source-package digests; manifest.json records the digests of integrity.json and program.json; and the whole artifact may be hashed for distribution or cache identity."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "چهار لایهٔ یکپارچگی وجود دارد. هر ردیف جدول entry یک چکیدهٔ دقیق SHA-256 از payload خودش دارد؛ ‎integrity.json‎ چکیدهٔ برنامهٔ کامپایل‌شده به‌همراه چکیده و اندازهٔ assetها و چکیدهٔ کانونی بسته‌های source را ثبت می‌کند؛ ‎manifest.json‎ چکیدهٔ ‎integrity.json‎ و ‎program.json‎ را ثبت می‌کند؛ و کل آرتیفکت می‌تواند برای هویت توزیع یا کش هش شود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "security.sessions",
+  "value": {
+    "id": "security.sessions",
+    "samples": [
+      {
+        "language": "en",
+        "text": "show my active sessions"
+      },
+      {
+        "language": "en",
+        "text": "where am i currently signed in"
+      },
+      {
+        "language": "en",
+        "text": "list devices logged into my account"
+      },
+      {
+        "language": "en",
+        "text": "check my login sessions"
+      }
+    ]
+  }
+}

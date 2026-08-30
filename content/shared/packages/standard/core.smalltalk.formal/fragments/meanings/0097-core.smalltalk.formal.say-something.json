@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.say-something",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.say-something",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "say something"
+      },
+      {
+        "language": "en-US",
+        "text": "talk to me"
+      },
+      {
+        "language": "en-US",
+        "text": "say anything"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه چیزی بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حرف بزن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه چیزی بگو ببینم"
+      }
+    ]
+  }
+}

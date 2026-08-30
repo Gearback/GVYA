@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-angry",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.are-you-angry",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "are you angry"
+      },
+      {
+        "language": "en-US",
+        "text": "you sound angry"
+      },
+      {
+        "language": "en-US",
+        "text": "mad at me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عصبانی‌ای"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ازم عصبانی هستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ناراحتی ازم"
+      }
+    ]
+  }
+}

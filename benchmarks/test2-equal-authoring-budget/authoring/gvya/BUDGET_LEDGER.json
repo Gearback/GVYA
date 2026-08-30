@@ -1,0 +1,581 @@
+{
+  "entries": [
+    {
+      "kind": "positive_sample",
+      "label": "device.about",
+      "value": "what is foliobox"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "device.about",
+      "value": "explain what foliobox does"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "device.about",
+      "value": "tell me about the document capture box"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "device.about",
+      "value": "foliobox"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "device.about",
+      "value": "document capture"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "scan.single",
+      "value": "how do i scan one page"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "scan.single",
+      "value": "scan a single sheet"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "scan.single",
+      "value": "capture one paper page"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "scan.single",
+      "value": "single page"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "scan.single",
+      "value": "one sheet"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "scan.duplex",
+      "value": "how do i scan both sides of a page"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "scan.duplex",
+      "value": "scan a double sided sheet"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "scan.duplex",
+      "value": "capture front and back together"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "scan.duplex",
+      "value": "duplex scan"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "scan.duplex",
+      "value": "both sides"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "scan.receipt",
+      "value": "how do i scan a receipt"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "scan.receipt",
+      "value": "scan narrow receipt paper"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "scan.receipt",
+      "value": "use receipt scanning mode"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "scan.receipt",
+      "value": "receipt scan"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "scan.receipt",
+      "value": "receipt mode"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "ocr.language",
+      "value": "how do i choose the ocr language"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "ocr.language",
+      "value": "set the text recognition language"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "ocr.language",
+      "value": "change recognition language for a scan"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "ocr.language",
+      "value": "ocr language"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "ocr.language",
+      "value": "recognition language"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "ocr.offline",
+      "value": "does text recognition work offline"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "ocr.offline",
+      "value": "tell me about offline text recognition"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "ocr.offline",
+      "value": "can ocr run without internet"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "ocr.offline",
+      "value": "offline ocr"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "ocr.offline",
+      "value": "text recognition offline"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "wifi.setup",
+      "value": "how do i connect foliobox to wifi"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "wifi.setup",
+      "value": "set up wireless on foliobox"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "wifi.setup",
+      "value": "join the device to my network"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "wifi.setup",
+      "value": "wifi setup"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "wifi.setup",
+      "value": "wireless network"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "export.pdf",
+      "value": "how do i export a scan as pdf"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "export.pdf",
+      "value": "save a document as a pdf"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "export.pdf",
+      "value": "turn a scan into pdf"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "export.pdf",
+      "value": "export pdf"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "export.pdf",
+      "value": "scan to pdf"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "export.searchable",
+      "value": "how do i make a searchable pdf"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "export.searchable",
+      "value": "make my scan into a searchable pdf"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "export.searchable",
+      "value": "export pdf with recognized text"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "export.searchable",
+      "value": "searchable pdf"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "export.searchable",
+      "value": "ocr text layer"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "security.encryption",
+      "value": "are scans encrypted on foliobox"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "security.encryption",
+      "value": "is local document storage encrypted"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "security.encryption",
+      "value": "how are saved scans protected"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "security.encryption",
+      "value": "encrypted scans"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "security.encryption",
+      "value": "local encryption"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "storage.capacity",
+      "value": "how much can foliobox store"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "storage.capacity",
+      "value": "what is the local storage capacity"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "storage.capacity",
+      "value": "how many pages fit on the device"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "storage.capacity",
+      "value": "storage capacity"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "storage.capacity",
+      "value": "pages stored"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "storage.delete",
+      "value": "how do i delete a scan from the device"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "storage.delete",
+      "value": "remove a saved document"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "storage.delete",
+      "value": "delete a local scan"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "storage.delete",
+      "value": "delete scan"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "storage.delete",
+      "value": "remove document"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "backup.usb",
+      "value": "how do i back up scans to usb"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "backup.usb",
+      "value": "make a usb backup of documents"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "backup.usb",
+      "value": "copy scans to a usb drive"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "backup.usb",
+      "value": "usb backup"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "backup.usb",
+      "value": "backup scans"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "cloud.sync",
+      "value": "how does cloud sync work"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "cloud.sync",
+      "value": "sync documents to the cloud workspace"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "cloud.sync",
+      "value": "when are scans uploaded to cloud"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "cloud.sync",
+      "value": "cloud sync"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "cloud.sync",
+      "value": "sync documents"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "sharing.link",
+      "value": "how do i share a document link"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "sharing.link",
+      "value": "create a link to a synced document"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "sharing.link",
+      "value": "share a document by url"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "sharing.link",
+      "value": "share link"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "sharing.link",
+      "value": "document link"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "paper.jam",
+      "value": "what do i do if paper is jammed"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "paper.jam",
+      "value": "clear a jammed page"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "paper.jam",
+      "value": "paper is stuck in the feeder"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "paper.jam",
+      "value": "paper jam"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "paper.jam",
+      "value": "stuck paper"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "rollers.clean",
+      "value": "how do i clean the feed rollers"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "rollers.clean",
+      "value": "clean the document rollers"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "rollers.clean",
+      "value": "maintain the paper feed rollers"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "rollers.clean",
+      "value": "clean rollers"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "rollers.clean",
+      "value": "feed rollers"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "battery.life",
+      "value": "how long does the battery last"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "battery.life",
+      "value": "how many scans per charge"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "battery.life",
+      "value": "battery runtime while scanning"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "battery.life",
+      "value": "battery life"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "battery.life",
+      "value": "scans per charge"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "soft.restart",
+      "value": "how do i restart foliobox without losing scans"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "soft.restart",
+      "value": "restart foliobox without deleting anything"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "soft.restart",
+      "value": "reboot and keep my scans"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "soft.restart",
+      "value": "soft restart"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "soft.restart",
+      "value": "restart preserve"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "factory.reset",
+      "value": "how do i factory reset foliobox"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "factory.reset",
+      "value": "reset foliobox to factory settings"
+    },
+    {
+      "kind": "positive_sample",
+      "label": "factory.reset",
+      "value": "wipe local setup and start over"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "factory.reset",
+      "value": "factory reset"
+    },
+    {
+      "kind": "retrieval_term",
+      "label": "factory.reset",
+      "value": "wipe device"
+    },
+    {
+      "kind": "followup_sample",
+      "label": "context.duplex_orientation",
+      "value": "which side goes in first"
+    },
+    {
+      "kind": "followup_sample",
+      "label": "context.duplex_orientation",
+      "value": "which side should face up first"
+    },
+    {
+      "kind": "followup_retrieval_term",
+      "label": "context.duplex_orientation",
+      "value": "side orientation"
+    },
+    {
+      "kind": "followup_sample",
+      "label": "context.ocr_offline_language",
+      "value": "does that still use my selected language"
+    },
+    {
+      "kind": "followup_sample",
+      "label": "context.ocr_offline_language",
+      "value": "does offline ocr keep the chosen language"
+    },
+    {
+      "kind": "followup_retrieval_term",
+      "label": "context.ocr_offline_language",
+      "value": "selected language"
+    },
+    {
+      "kind": "followup_sample",
+      "label": "context.searchable_is_pdf",
+      "value": "is that still a normal pdf file"
+    },
+    {
+      "kind": "followup_sample",
+      "label": "context.searchable_is_pdf",
+      "value": "is a searchable export still a standard pdf"
+    },
+    {
+      "kind": "followup_retrieval_term",
+      "label": "context.searchable_is_pdf",
+      "value": "normal pdf"
+    },
+    {
+      "kind": "followup_sample",
+      "label": "context.restart_preserves",
+      "value": "will my saved scans still be there"
+    },
+    {
+      "kind": "followup_sample",
+      "label": "context.restart_preserves",
+      "value": "does that restart keep stored scans"
+    },
+    {
+      "kind": "followup_retrieval_term",
+      "label": "context.restart_preserves",
+      "value": "saved scans"
+    },
+    {
+      "kind": "followup_sample",
+      "label": "context.reset_cloud",
+      "value": "does that erase documents already synced to cloud"
+    },
+    {
+      "kind": "followup_sample",
+      "label": "context.reset_cloud",
+      "value": "does factory reset delete cloud copies"
+    },
+    {
+      "kind": "followup_retrieval_term",
+      "label": "context.reset_cloud",
+      "value": "cloud copies"
+    }
+  ],
+  "rows": 115,
+  "system": "GVYA"
+}

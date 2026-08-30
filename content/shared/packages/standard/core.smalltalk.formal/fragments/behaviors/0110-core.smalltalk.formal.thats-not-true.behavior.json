@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.thats-not-true.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.thats-not-true.behavior",
+    "meaning": "core.smalltalk.formal.thats-not-true",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.thats-not-true.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Perhaps.",
+              "Then prove it.",
+              "I am not attached to that claim."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید.",
+              "پس ثابتش کنید.",
+              "من به آن ادعا وابسته نیستم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

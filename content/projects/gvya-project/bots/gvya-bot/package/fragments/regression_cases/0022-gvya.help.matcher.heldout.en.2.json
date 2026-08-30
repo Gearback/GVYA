@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.matcher.heldout.en.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Deterministic semantic retrieval, scoring, and resolution held-out en-US coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.matcher",
+      "response_ids": [
+        "gvya.help.matcher.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.matcher.heldout.en.2",
+    "initial_state": {},
+    "input": "Is intent detection based on a deterministic score or an embedding API?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

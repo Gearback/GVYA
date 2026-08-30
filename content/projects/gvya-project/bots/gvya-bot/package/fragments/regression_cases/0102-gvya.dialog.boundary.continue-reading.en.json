@@ -1,0 +1,23 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.boundary.continue-reading.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Continue as task verb must not become conversational continue Smalltalk",
+    "expectation": {
+      "forbidden_meanings": [
+        "core.smalltalk.formal.lets-continue"
+      ],
+      "response_ids": [
+        "gvya.fallback.formal.unresolved.stage-1.redirect"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.boundary.continue-reading.en",
+    "initial_state": {},
+    "input": "continue reading this paragraph",
+    "language": "en-US",
+    "seed": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "sharing.link",
+  "value": {
+    "id": "sharing.link",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "share link"
+      },
+      {
+        "language": "en",
+        "text": "document link"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i share a document link"
+      },
+      {
+        "language": "en",
+        "text": "create a link to a synced document"
+      },
+      {
+        "language": "en",
+        "text": "share a document by url"
+      }
+    ]
+  }
+}

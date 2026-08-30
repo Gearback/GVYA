@@ -1,0 +1,19 @@
+{
+  "id": "lamp.set.binding",
+  "value": {
+    "arguments": [
+      {
+        "source": {
+          "type": "literal",
+          "value": true
+        },
+        "target": "on"
+      }
+    ],
+    "capability": "lamp.set",
+    "id": "lamp.set.binding",
+    "trigger": {
+      "meaning": "lamp.turn-on"
+    }
+  }
+}

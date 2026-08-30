@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-like-you.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.i-like-you",
+      "response_ids": [
+        "core.smalltalk.formal.i-like-you.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.i-like-you.basic.en",
+    "initial_state": {},
+    "input": "i like you",
+    "language": "en-US",
+    "seed": 1
+  }
+}

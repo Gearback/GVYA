@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.capability.structural.capability-runtime.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The bare capability/runtime anchor is owned by the general capability Meaning",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.invocation-proposal"
+      ],
+      "meaning": "gvya.help.capabilities"
+    },
+    "generated": false,
+    "id": "gvya.capability.structural.capability-runtime.en",
+    "initial_state": {},
+    "input": "capability runtime",
+    "language": "en-US",
+    "seed": 1
+  }
+}

@@ -1,0 +1,44 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/gvya-model",
+    "crates/gvya-artifact",
+    "crates/gvya-kernel",
+    "crates/gvya-compiler",
+    "crates/gvya-runtime",
+    "crates/gvya-ffi",
+    "crates/gvya-cli",
+]
+
+[workspace.package]
+version = "0.0.0-dev"
+edition = "2024"
+license = "Apache-2.0"
+rust-version = "1.85"
+
+# Production profile for the one shipped executable asset, the Engine WASM module.
+# `tools/build_engine_assets.py` is the only consumer. Ordinary `release` builds stay fast.
+#
+# Measured on the real Bot (1,023 Meanings, 300 turns through the WASM runtime):
+#   default release        4,293,597 raw / 1,082,397 gzip / 697,470 brotli   98.6 ms/turn
+#   this profile           3,530,411 raw / 1,025,726 gzip / 668,316 brotli   95.8 ms/turn
+#   + opt-level = "s"      2,772,207 raw /   715,592 gzip / 498,507 brotli  126.0 ms/turn
+#   + opt-level = "z"      2,525,889 raw /   641,436 gzip / 450,891 brotli  228.8 ms/turn
+#
+# `opt-level` stays at the release default: "s" costs 31% and "z" 138% per-turn latency, which is
+# a real conversational-quality regression, not a cosmetic one. `panic = "abort"` was measured and
+# rejected too: wasm32-unknown-unknown already aborts, so it changed nothing (+321 raw bytes).
+[profile.engine-wasm]
+inherits = "release"
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = "symbols"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+warnings = "deny"
+
+[workspace.lints.clippy]
+all = "warn"
+pedantic = "warn"

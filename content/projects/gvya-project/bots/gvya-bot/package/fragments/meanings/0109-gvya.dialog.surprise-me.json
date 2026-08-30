@@ -1,0 +1,105 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.surprise-me",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.surprise-me",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 1,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "random interesting gvya fact rabbit hole"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نکته جالب تصادفی درباره gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "weird odd surprising unusual design detail fact worth knowing"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عجیب غیرمنتظره جالب جزئیات طراحی نکته دانستنی"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "surprise me"
+      },
+      {
+        "language": "en-US",
+        "text": "tell me something interesting"
+      },
+      {
+        "language": "en-US",
+        "text": "show me something cool"
+      },
+      {
+        "language": "en-US",
+        "text": "pick a topic for me"
+      },
+      {
+        "language": "en-US",
+        "text": "give me a random gvya fact"
+      },
+      {
+        "language": "en-US",
+        "text": "take me down a rabbit hole"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه چیز جالب بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سورپرایزم کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه موضوع خودت انتخاب کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه نکته تصادفی درباره gvya بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه چیز باحال درباره گویا بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "منو ببر یه بحث جالب"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه چیز جالب درباره gvya بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه نکته جالب از gvya بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "give me a weird useful gvya fact"
+      },
+      {
+        "language": "en-US",
+        "text": "tell me an odd design detail"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک نکته عجیب و مفید درباره gvya بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک جزئیات طراحی عجیب بگو"
+      }
+    ]
+  }
+}

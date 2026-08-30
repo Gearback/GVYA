@@ -1,0 +1,20 @@
+{
+  "id": "product.requirements.behavior",
+  "value": {
+    "id": "product.requirements.behavior",
+    "meaning": "product.requirements",
+    "responses": [
+      {
+        "id": "product.requirements.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:PRODUCT_REQUIREMENTS"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

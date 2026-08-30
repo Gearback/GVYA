@@ -1,0 +1,63 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.formal.unresolved.authoring-pivot",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "less_or_equal",
+        "path": "repairCount",
+        "value": 0
+      },
+      {
+        "namespace": "conversation",
+        "op": "equal",
+        "path": "activeTopic",
+        "value": "gvya.topic.authoring"
+      }
+    ],
+    "id": "gvya.fallback.formal.unresolved.authoring-pivot",
+    "priority": 20,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Are you creating your first Bot, teaching it a user message, or testing a match that went wrong?"
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "می‌خواهی اولین Bot را بسازی، یک پیام کاربر به آن یاد بدهی، یا match اشتباه را تست کنی؟"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.fallback.formal.unresolved.authoring-pivot.response",
+        "kind": "fallback",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am not sure which authoring step you mean, so I will not send you down the wrong path."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "مطمئن نیستم منظورت کدام مرحلهٔ ساخت است، پس نمی‌خواهم مسیر اشتباه پیشنهاد بدهم."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "unresolved"
+  }
+}

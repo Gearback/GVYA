@@ -1,0 +1,23 @@
+{
+  "exported": true,
+  "id": "gvya.quality.boundary.npm-package.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "An npm package question remains off-domain despite package and debugging vocabulary",
+    "expectation": {
+      "conversation_mode": "fallback",
+      "forbidden_meanings": [
+        "gvya.help.testing-debugging",
+        "gvya.help.getting-started",
+        "gvya.help.packages"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.quality.boundary.npm-package.en",
+    "initial_state": {},
+    "input": "How do I install a package with npm?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.do-you-sleep.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.do-you-sleep",
+      "response_ids": [
+        "core.smalltalk.formal.do-you-sleep.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.do-you-sleep.basic.fa",
+    "initial_state": {},
+    "input": "می‌خوابی",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

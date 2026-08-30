@@ -1,0 +1,20 @@
+{
+  "id": "scan.single.behavior",
+  "value": {
+    "id": "scan.single.behavior",
+    "meaning": "scan.single",
+    "responses": [
+      {
+        "id": "scan.single.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SCAN_SINGLE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

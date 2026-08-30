@@ -1,0 +1,20 @@
+{
+  "exported": true,
+  "id": "gvya.calibration.regex-boundary.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A Persian regex question must not be mistaken for GVYA capability behavior",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.capabilities"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.calibration.regex-boundary.fa",
+    "initial_state": {},
+    "input": "علامت caret در regex چه کار می‌کند؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

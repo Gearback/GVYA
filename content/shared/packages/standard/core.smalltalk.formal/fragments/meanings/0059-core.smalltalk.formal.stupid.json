@@ -1,0 +1,48 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.stupid",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.stupid",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "stupid"
+      },
+      {
+        "language": "en-US",
+        "text": "idiot"
+      },
+      {
+        "language": "en-US",
+        "text": "dumb"
+      },
+      {
+        "language": "en-US",
+        "text": "moron"
+      },
+      {
+        "language": "fa-IR",
+        "text": "احمق"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اسکل"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خنگ"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نفهم"
+      }
+    ]
+  }
+}

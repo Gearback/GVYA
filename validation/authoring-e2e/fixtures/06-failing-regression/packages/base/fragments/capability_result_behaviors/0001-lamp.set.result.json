@@ -1,0 +1,22 @@
+{
+  "id": "lamp.set.result",
+  "value": {
+    "capability": "lamp.set",
+    "capability_version": "1",
+    "id": "lamp.set.result",
+    "responses": [
+      {
+        "id": "lamp.set.result.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "Lamp is on."
+            ]
+          }
+        ]
+      }
+    ],
+    "succeeded": true
+  }
+}

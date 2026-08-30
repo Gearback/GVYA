@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.youre-nice",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.youre-nice",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "you're nice"
+      },
+      {
+        "language": "en-US",
+        "text": "you are kind"
+      },
+      {
+        "language": "en-US",
+        "text": "you are good"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مهربونی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آدم خوبی هستی"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "support.help.behavior",
+  "value": {
+    "id": "support.help.behavior",
+    "meaning": "support.help",
+    "responses": [
+      {
+        "id": "support.help.behavior.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "How can I help?"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

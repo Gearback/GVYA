@@ -1,0 +1,67 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what",
+  "mode": {
+    "type": "replace",
+    "target_package": "core.smalltalk.formal",
+    "target_id": "core.smalltalk.formal.what"
+  },
+  "value": {
+    "class": "clarification",
+    "id": "core.smalltalk.formal.what",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "then what should i create next"
+      },
+      {
+        "language": "en-US",
+        "text": "and what comes after that step"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درباره یک موضوع تازه چی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "موسیقی و فیلم چی"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "WHAT"
+      },
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "HUH"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "چی"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "ها"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "هان"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "چی گفتی"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": []
+  }
+}

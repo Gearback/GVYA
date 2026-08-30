@@ -1,0 +1,21 @@
+{
+  "id": "context.reset_cloud.behavior",
+  "value": {
+    "followup_scope": "context.reset_cloud.followup",
+    "id": "context.reset_cloud.behavior",
+    "meaning": "context.reset_cloud",
+    "responses": [
+      {
+        "id": "context.reset_cloud.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:CONTEXT_RESET_CLOUD"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

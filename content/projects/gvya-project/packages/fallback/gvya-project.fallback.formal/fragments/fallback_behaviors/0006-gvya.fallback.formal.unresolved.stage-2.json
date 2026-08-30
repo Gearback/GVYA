@@ -1,0 +1,70 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.formal.unresolved.stage-2",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "equal",
+        "path": "repairCount",
+        "value": 1
+      }
+    ],
+    "id": "gvya.fallback.formal.unresolved.stage-2",
+    "priority": 0,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Reply with 1 concepts, 2 example, 3 authoring, or 4 matcher. A single number is enough.",
+                  "Choose one word: concepts, example, authoring, or matcher.",
+                  "We can leave that wording behind. Pick a goal, or say “surprise me” and I will choose a GVYA topic."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "با ۱ مفاهیم، ۲ مثال، ۳ authoring یا ۴ matcher جواب بده. یک شماره کافی است.",
+                  "یک کلمه انتخاب کن: concepts، مثال، authoring یا matcher.",
+                  "می‌توانیم آن جمله را کنار بگذاریم. یک هدف انتخاب کن یا بگو «یه چیز جالب بگو» تا خودم یک موضوع GVYA بردارم."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.fallback.formal.unresolved.stage-2.switch-track",
+        "kind": "fallback",
+        "opens_followup": {
+          "id": "gvya.recovery-route",
+          "refresh_if_same": true,
+          "ttl": 2
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am still not sure, so let us switch to a clear choice instead of fighting the wording.",
+              "I still missed it. That is okay—we can change the path without restarting the conversation.",
+              "We are not getting closer with the same wording. Let us choose the goal directly."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "هنوز مطمئن نیستم؛ به‌جای درگیرشدن با جمله، یک انتخاب روشن داشته باشیم.",
+              "باز هم نگرفتم. اشکالی ندارد؛ می‌توانیم بدون شروع دوباره مسیر را عوض کنیم.",
+              "با همین شکل جمله نزدیک‌تر نمی‌شویم. بهتر است هدف را مستقیم انتخاب کنیم."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "unresolved"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "iot.device.position.success",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.position",
+    "capability_version": "1",
+    "id": "iot.device.position.success",
+    "responses": [
+      {
+        "id": "iot.device.position.success.response",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["{{interaction.output.device}}: {{interaction.output.state}}."] },
+          { "language": "fa-IR", "variants": ["وضعیت {{interaction.output.device}}: {{interaction.output.state}}."] }
+        ]
+      }
+    ],
+    "succeeded": true
+  }
+}

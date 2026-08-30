@@ -1,0 +1,134 @@
+{
+  "exported": true,
+  "id": "gvya.help.test-scenario",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.test-scenario",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "برای context چند جواب باید regression انتخاب کنم یا scenario"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i test my bot"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a trace"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بات خودم را تست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "trace چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "testscenario assert expectation multiturn stateful generated privileged"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سناریو تست ادعا انتظار چندنوبتی وضعیت دار تولید شده"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "regression case"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a test scenario"
+      },
+      {
+        "language": "en-US",
+        "text": "what can a scenario assert"
+      },
+      {
+        "language": "en-US",
+        "text": "how is a scenario different from a regression case"
+      },
+      {
+        "language": "en-US",
+        "text": "can i test multi turn conversations"
+      },
+      {
+        "language": "en-US",
+        "text": "do generated tests get special treatment"
+      },
+      {
+        "language": "en-US",
+        "text": "can i assert a trace reason code"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i test state transitions"
+      },
+      {
+        "language": "en-US",
+        "text": "explain scenarios"
+      },
+      {
+        "language": "fa-IR",
+        "text": "test scenario چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک سناریو چه چیزی را assert می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق سناریو با regression case چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم مکالمه چند نوبتی تست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تست های تولید شده امتیاز ویژه دارند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم کد دلیل trace را assert کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور انتقال وضعیت را تست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سناریوها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a scenario"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a conversation scenario"
+      },
+      {
+        "language": "fa-IR",
+        "text": "scenario چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "scenario"
+      },
+      {
+        "language": "en-US",
+        "text": "scenarios"
+      }
+    ]
+  }
+}

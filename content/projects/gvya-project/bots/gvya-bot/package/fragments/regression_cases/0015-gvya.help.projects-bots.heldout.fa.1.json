@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.projects-bots.heldout.fa.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Project and Bot ownership, languages, and configuration held-out fa-IR coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.projects-bots",
+      "response_ids": [
+        "gvya.help.projects-bots.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.projects-bots.heldout.fa.1",
+    "initial_state": {},
+    "input": "هر بات زبان‌ها و پکیج‌های خودش رو انتخاب می‌کنه؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

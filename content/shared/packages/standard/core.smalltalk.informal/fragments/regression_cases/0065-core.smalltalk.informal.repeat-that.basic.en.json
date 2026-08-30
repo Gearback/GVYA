@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.repeat-that.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.repeat-that",
+      "response_ids": [
+        "core.smalltalk.informal.repeat-that.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.repeat-that.basic.en",
+    "initial_state": {},
+    "input": "repeat that",
+    "language": "en-US",
+    "seed": 1
+  }
+}

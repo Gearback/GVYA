@@ -1,0 +1,144 @@
+{
+  "exported": true,
+  "id": "gvya.help.interaction-input",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.interaction-input",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what kinds of things can i build with wood"
+      },
+      {
+        "language": "en-US",
+        "text": "what is an entity"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a context snapshot"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entity چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "context snapshot چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "accept reject confirmation needed admission decision"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبول رد نیاز تایید admission decision"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ CAPABILITY RESULT INPUT ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "input kinds utterance host signal confirmation decision"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انواع ورودی utterance سیگنال میزبان تایید تصمیم"
+      },
+      {
+        "language": "en-US",
+        "text": "interaction input fields accepted"
+      },
+      {
+        "language": "en-US",
+        "text": "host inputs besides utterance signal capability result confirmation decision interaction input kinds"
+      },
+      {
+        "language": "fa-IR",
+        "text": "input های host غیر utterance signal capability result confirmation decision interaction انواع"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what kinds of input can a brain receive"
+      },
+      {
+        "language": "en-US",
+        "text": "what are the input kinds"
+      },
+      {
+        "language": "en-US",
+        "text": "can the host send events not just text"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a host signal"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a capability result input"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a confirmation decision"
+      },
+      {
+        "language": "en-US",
+        "text": "does every input have to be an utterance"
+      },
+      {
+        "language": "en-US",
+        "text": "list the interaction input types"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک brain چه نوع ورودی هایی می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انواع ورودی کدامند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان می تواند رویداد بفرستد نه فقط متن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host signal چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ورودی capability result چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "confirmation decision چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هر ورودی باید utterance باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انواع interaction input را بگو"
+      },
+      {
+        "language": "en-US",
+        "text": "what kinds of input are there"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه نوع ورودی هایی وجود دارد"
+      }
+    ]
+  }
+}

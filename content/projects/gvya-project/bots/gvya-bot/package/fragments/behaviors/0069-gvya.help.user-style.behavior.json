@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.user-style.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.user-style.behavior",
+    "meaning": "gvya.help.user-style",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Responses can read conversation.userStyle.formality and conversation.userStyle.confidence in their conditions, so tone-matched answers are ordinary authored content."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "پاسخ‌ها می‌توانند ‎conversation.userStyle.formality‎ و ‎conversation.userStyle.confidence‎ را در شرط‌هایشان بخوانند، پس پاسخ‌های هماهنگ با لحن، محتوای نوشته‌شدهٔ معمولی هستند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.user-style.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The kernel observes user formality each turn using a configurable StyleLexicon, producing a UserStyle with a formality value of unknown, formal or informal plus a confidence number. No language is hardcoded in the kernel."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "هسته در هر نوبت رسمیت کاربر را با یک ‎StyleLexicon‎ قابل تنظیم مشاهده می‌کند و یک ‎UserStyle‎ می‌سازد که مقدار رسمیتش unknown یا formal یا informal است به‌همراه عددی برای اطمینان. هیچ زبانی در هسته hardcode نشده است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

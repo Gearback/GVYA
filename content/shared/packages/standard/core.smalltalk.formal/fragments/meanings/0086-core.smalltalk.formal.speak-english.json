@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.speak-english",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.speak-english",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "speak english"
+      },
+      {
+        "language": "en-US",
+        "text": "english please"
+      },
+      {
+        "language": "en-US",
+        "text": "can you speak english"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انگلیسی حرف بزن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به انگلیسی بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انگلیسی"
+      }
+    ]
+  }
+}

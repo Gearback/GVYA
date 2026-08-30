@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.identity.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.identity.behavior",
+    "meaning": "gvya.help.identity",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "I can explain GVYA itself — its concepts, authoring workflow, matching, and shipping. Ask about any of those."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "می‌توانم خودِ GVYA را توضیح دهم — مفاهیم، روند نویسندگی، تطبیق، و انتشار. دربارهٔ هرکدام بپرس."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.identity.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am the GVYA help Bot: a Bot authored in canonical GVYA source and executed by the Rust runtime, so every answer here comes from declared Meanings and Behaviors."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "من بات راهنمای GVYA هستم: باتی که در GVYA source کانونی نوشته شده و توسط Rust runtime اجرا می‌شود، پس هر پاسخی که اینجا می‌گیری از Meaning و Behaviorهای اعلام‌شده می‌آید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

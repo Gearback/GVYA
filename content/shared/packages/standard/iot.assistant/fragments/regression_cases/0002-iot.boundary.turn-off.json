@@ -1,0 +1,16 @@
+{
+  "exported": false,
+  "id": "iot.boundary.turn-off",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A notification preference must not become an IoT power action.",
+    "expectation": { "forbidden_meanings": ["iot.device.turn-off"] },
+    "generated": false,
+    "id": "iot.boundary.turn-off",
+    "initial_state": {},
+    "input": "turn off notifications",
+    "language": "en-US",
+    "seed": 102
+  }
+}

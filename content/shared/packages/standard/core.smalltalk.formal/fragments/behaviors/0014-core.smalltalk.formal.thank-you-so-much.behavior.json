@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.thank-you-so-much.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.thank-you-so-much.behavior",
+    "meaning": "core.smalltalk.formal.thank-you-so-much",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.thank-you-so-much.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am glad it helped.",
+              "I am pleased that it was useful.",
+              "You are very welcome."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوشحالم که کمک کرد.",
+              "خوشحالم که مفید بود.",
+              "واقعاً خواهش می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

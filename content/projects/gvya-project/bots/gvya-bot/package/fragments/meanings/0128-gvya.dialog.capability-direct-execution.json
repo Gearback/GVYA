@@ -1,0 +1,49 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.capability-direct-execution",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.capability-direct-execution",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "brain runtime gvya api call execute external network itself"
+      },
+      {
+        "language": "fa-IR",
+        "text": "brain runtime GVYA api اجرا صدا خودش network"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "does the brain call the external api itself"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya perform the network call"
+      },
+      {
+        "language": "en-US",
+        "text": "is the runtime the thing that invokes the api"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خود brain api را صدا می زند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "GVYA خودش network call را انجام می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime خودش api را اجرا می کند"
+      }
+    ]
+  }
+}

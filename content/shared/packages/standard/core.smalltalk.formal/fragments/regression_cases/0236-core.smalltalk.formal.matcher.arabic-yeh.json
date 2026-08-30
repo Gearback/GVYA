@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.matcher.arabic-yeh",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Manual matcher coverage with minimal authored samples",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.how-are-you",
+      "response_ids": [
+        "core.smalltalk.formal.how-are-you.response"
+      ]
+    },
+    "generated": false,
+    "id": "core.smalltalk.formal.matcher.arabic-yeh",
+    "initial_state": {},
+    "input": "خوبي",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

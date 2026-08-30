@@ -1,0 +1,120 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.nice",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.nice",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "nice"
+      },
+      {
+        "language": "en-US",
+        "text": "good"
+      },
+      {
+        "language": "en-US",
+        "text": "great"
+      },
+      {
+        "language": "en-US",
+        "text": "awesome"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوبه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عالیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باحاله"
+      },
+      {
+        "language": "en-US",
+        "text": "nice job"
+      },
+      {
+        "language": "en-US",
+        "text": "good job"
+      },
+      {
+        "language": "en-US",
+        "text": "great job"
+      },
+      {
+        "language": "en-US",
+        "text": "awesome job"
+      },
+      {
+        "language": "en-US",
+        "text": "nice work"
+      },
+      {
+        "language": "en-US",
+        "text": "good work"
+      },
+      {
+        "language": "en-US",
+        "text": "great work"
+      },
+      {
+        "language": "en-US",
+        "text": "awesome work"
+      },
+      {
+        "language": "en-US",
+        "text": "well done"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کار خوبی بود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کار عالی بود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کارتان خوب بود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کارتان عالی بود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوب انجام دادید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عالی انجام دادید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کارت خوب بود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کارت عالی بود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوب انجامش دادی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عالی انجامش دادی"
+      }
+    ]
+  }
+}

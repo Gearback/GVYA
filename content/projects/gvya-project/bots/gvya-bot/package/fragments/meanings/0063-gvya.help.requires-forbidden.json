@@ -1,0 +1,122 @@
+{
+  "exported": true,
+  "id": "gvya.help.requires-forbidden",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.requires-forbidden",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what are response conditions"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a follow up scope"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شرط های پاسخ چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دامنه follow up چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "requiresvalues forbiddenvalues gate eligible ineligible exact typed"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقادیر اجباری ممنوع دروازه واجد شرایط دقیق تایپ شده"
+      },
+      {
+        "language": "en-US",
+        "text": "state values eligibility require block behavior required forbidden exact value conditions"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقادیر state eligibility الزام block behavior required forbidden شرط مقدار دقیق"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are behavior required values"
+      },
+      {
+        "language": "en-US",
+        "text": "what does forbidden_values do"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i gate a behavior on state"
+      },
+      {
+        "language": "en-US",
+        "text": "does a missing value block a forbidden check"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the difference between required and forbidden"
+      },
+      {
+        "language": "en-US",
+        "text": "when is a behavior ineligible"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i make a behavior conditional"
+      },
+      {
+        "language": "en-US",
+        "text": "explain required and forbidden values"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقادیر اجباری behavior چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "forbidden_values چه می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک behavior را به وضعیت مشروط کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقدار غایب بررسی ممنوع را مسدود می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق اجباری و ممنوع چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک behavior چه وقت واجد شرایط نیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک behavior را شرطی کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقادیر اجباری و ممنوع را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is requires values"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک behavior را به state محدود کنم"
+      }
+    ]
+  }
+}

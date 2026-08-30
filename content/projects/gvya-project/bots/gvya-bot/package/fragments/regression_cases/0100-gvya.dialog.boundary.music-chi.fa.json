@@ -1,0 +1,23 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.boundary.music-chi.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Subject + chi must not become bare what Smalltalk",
+    "expectation": {
+      "forbidden_meanings": [
+        "core.smalltalk.formal.what"
+      ],
+      "response_ids": [
+        "gvya.fallback.formal.unresolved.stage-1.redirect"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.boundary.music-chi.fa",
+    "initial_state": {},
+    "input": "موسیقی چی؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.sorry.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.sorry",
+      "response_ids": [
+        "core.smalltalk.formal.sorry.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.sorry.basic.fa",
+    "initial_state": {},
+    "input": "ببخشید",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

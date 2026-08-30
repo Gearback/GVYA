@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-dont-care.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.i-dont-care",
+      "response_ids": [
+        "core.smalltalk.informal.i-dont-care.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.i-dont-care.basic.fa",
+    "initial_state": {},
+    "input": "مهم نیست",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

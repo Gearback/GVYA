@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.be-clear.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.be-clear.behavior",
+    "meaning": "core.smalltalk.informal.be-clear",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.be-clear.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Simple, then.",
+              "Fine. No extra noise.",
+              "I’ll keep it plain."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پس ساده.",
+              "باشه. بدون اضافه‌کاری.",
+              "روشن می‌گم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

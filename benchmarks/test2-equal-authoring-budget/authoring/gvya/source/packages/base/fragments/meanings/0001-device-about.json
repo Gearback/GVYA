@@ -1,0 +1,30 @@
+{
+  "id": "device.about",
+  "value": {
+    "id": "device.about",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "foliobox"
+      },
+      {
+        "language": "en",
+        "text": "document capture"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "what is foliobox"
+      },
+      {
+        "language": "en",
+        "text": "explain what foliobox does"
+      },
+      {
+        "language": "en",
+        "text": "tell me about the document capture box"
+      }
+    ]
+  }
+}

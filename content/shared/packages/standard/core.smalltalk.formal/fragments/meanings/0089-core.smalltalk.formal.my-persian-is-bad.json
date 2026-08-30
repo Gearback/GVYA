@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.my-persian-is-bad",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.my-persian-is-bad",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "my persian is bad"
+      },
+      {
+        "language": "en-US",
+        "text": "i don't speak persian"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فارسی بلد نیستم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فارسی‌ام خوب نیست"
+      }
+    ]
+  }
+}

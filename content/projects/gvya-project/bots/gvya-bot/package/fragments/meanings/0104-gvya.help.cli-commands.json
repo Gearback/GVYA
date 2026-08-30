@@ -1,0 +1,189 @@
+{
+  "exported": true,
+  "id": "gvya.help.cli-commands",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.cli-commands",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i inspect css behavior in a browser"
+      },
+      {
+        "language": "en-US",
+        "text": "where do i start as a beginner"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i build the artifact"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا شروع کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت را چطور بسازم"
+      },
+      {
+        "language": "en-US",
+        "text": "inspect css styles with browser developer tools"
+      },
+      {
+        "language": "en-US",
+        "text": "debug html css behavior in a browser"
+      },
+      {
+        "language": "en-US",
+        "text": "browser devtools inspect page styles"
+      },
+      {
+        "language": "en-US",
+        "text": "inspect css browser"
+      },
+      {
+        "language": "en-US",
+        "text": "browser css behavior"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "^ AGENT INSPECT ^ BEHAVIOR ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "BEHAVOR INSPECT"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "cli command init check checkpackage build audit test scaffold"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خط فرمان دستور راه اندازی بررسی ساخت ممیزی تست داربست"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya cli authored object lookup by id and source provenance"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya cli schema lookup for authored object ids"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جستجوی آبجکت authored با id در schema و cli"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what cli commands exist"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i scaffold a new bot from the command line"
+      },
+      {
+        "language": "en-US",
+        "text": "what does gvya check do"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i validate a standalone package"
+      },
+      {
+        "language": "en-US",
+        "text": "what is check-package"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i run tests from the cli"
+      },
+      {
+        "language": "en-US",
+        "text": "what does gvya audit output"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the cli"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه دستورهای cli وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور از خط فرمان یک بات جدید بسازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya check چه می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک پکیج مستقل را اعتبارسنجی کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "check-package چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور از cli تست اجرا کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya audit چه خروجی می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "cli را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "which cli commands exist"
+      },
+      {
+        "language": "en-US",
+        "text": "what can the cli do"
+      },
+      {
+        "language": "en-US",
+        "text": "what commands does the cli offer"
+      },
+      {
+        "language": "en-US",
+        "text": "what can i run from the terminal"
+      },
+      {
+        "language": "fa-IR",
+        "text": "cli چه دستوراتی دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از ترمینال چه چیزی می توانم اجرا کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a command line tool"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya have a command line tool"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ابزار خط فرمان دارد"
+      }
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "exported": true,
+  "id": "gvya.help.bot-abilities",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.bot-abilities",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "who are you"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو کی هستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "what request and state does the host exchange"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان چه request و state ای ردوبدل می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از load فایل gvya چه چیزی رد و بدل می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "what can a capability propose"
+      },
+      {
+        "language": "fa-IR",
+        "text": "علامت caret در regex چه کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "how you doing"
+      },
+      {
+        "language": "en-US",
+        "text": "how are you doing"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 20,
+        "text": "^ کارهایی ^ بلدی ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "capability menu topic list"
+      },
+      {
+        "language": "en-US",
+        "text": "what questions are supported here"
+      },
+      {
+        "language": "en-US",
+        "text": "scope coverage areas index"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فهرست موضوعات و توانایی ها"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دامنه پوشش و حوزه ها"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فهرست حوزه های راهنما"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya assistant help areas"
+      },
+      {
+        "language": "en-US",
+        "text": "subjects range scope coverage areas knowledge expertise topics"
+      },
+      {
+        "language": "fa-IR",
+        "text": "موضوع دامنه گستره پوشش حوزه دانش چه می دانی"
+      }
+    ],
+    "samples": [
+      {
+        "language": "fa-IR",
+        "text": "چه کمکی می تونی به من بکنی"
+      },
+      {
+        "language": "en-US",
+        "text": "what can you do"
+      },
+      {
+        "language": "en-US",
+        "text": "what are you"
+      },
+      {
+        "language": "en-US",
+        "text": "what can i ask you"
+      },
+      {
+        "language": "en-US",
+        "text": "what topics do you know"
+      },
+      {
+        "language": "en-US",
+        "text": "what do you cover"
+      },
+      {
+        "language": "en-US",
+        "text": "show me what you know"
+      },
+      {
+        "language": "en-US",
+        "text": "give me a list of topics"
+      },
+      {
+        "language": "en-US",
+        "text": "what subjects can you explain"
+      },
+      {
+        "language": "en-US",
+        "text": "what should i ask you"
+      },
+      {
+        "language": "en-US",
+        "text": "what are my options here"
+      },
+      {
+        "language": "en-US",
+        "text": "what kind of questions do you answer"
+      },
+      {
+        "language": "en-US",
+        "text": "where can you help me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کارهایی می توانی انجام دهی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزهایی می توانم از تو بپرسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه موضوعاتی بلدی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزهایی را پوشش می دهی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بگو چه می دانی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فهرست موضوعات را بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه مباحثی را توضیح می دهی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چی از تو بپرسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گزینه های من اینجا چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به چه سوالاتی جواب می دهی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در چه زمینه ای می توانی کمک کنی"
+      },
+      {
+        "language": "en-US",
+        "text": "what else can i ask"
+      },
+      {
+        "language": "en-US",
+        "text": "list what you handle"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دیگر چه می توانم بپرسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزهایی را مدیریت می کنی"
+      },
+      {
+        "language": "en-US",
+        "text": "what do you actually do"
+      },
+      {
+        "language": "en-US",
+        "text": "can you help me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کاری از تو بر می آید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانی کمکم کنی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی می توانم از تو بپرسم"
+      },
+      {
+        "language": "en-US",
+        "text": "help"
+      },
+      {
+        "language": "en-US",
+        "text": "which subjects does the help bot cover"
+      },
+      {
+        "language": "en-US",
+        "text": "help bot subject coverage"
+      },
+      {
+        "language": "en-US",
+        "text": "which subjects can the help bot answer"
+      },
+      {
+        "language": "en-US",
+        "text": "subjects help bot answer"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya assistant help areas"
+      },
+      {
+        "language": "en-US",
+        "text": "what subjects do you know about"
+      },
+      {
+        "language": "en-US",
+        "text": "what is inside your knowledge"
+      },
+      {
+        "language": "en-US",
+        "text": "give me an idea of your range"
+      },
+      {
+        "language": "en-US",
+        "text": "what ground can you cover"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درباره چه چیزهایی می توانی کمک کنی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزهایی بلدی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دامنه دانش تو تا کجاست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه حوزه هایی را پوشش می دهی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می شود کمکم کنی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درباره gvya کمکم می کنی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو چه کاری انجام می دی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تو چه کار می کنی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کاری بلدی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اینجا چه کمکی ازت بر میاد"
+      }
+    ]
+  }
+}

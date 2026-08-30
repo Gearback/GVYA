@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.conversation.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Conversation state, topics, follow-ups, repetition, and language carry held-out en-US coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.conversation",
+      "response_ids": [
+        "gvya.help.conversation.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.conversation.heldout.en.1",
+    "initial_state": {},
+    "input": "What state survives from one user turn to the next?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

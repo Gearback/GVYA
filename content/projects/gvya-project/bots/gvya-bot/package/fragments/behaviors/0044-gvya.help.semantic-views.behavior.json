@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.semantic-views.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.semantic-views.behavior",
+    "meaning": "gvya.help.semantic-views",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Conservative typo-lite is applied as an additional view, never by mutating the original utterance, so the raw input stays authoritative in the trace."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "اصلاح محتاطانهٔ غلط املایی به‌عنوان یک نمای اضافی اعمال می‌شود، نه با تغییر گفتهٔ اصلی، پس ورودی خام در trace مرجع می‌ماند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.semantic-views.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The kernel builds several typed views of one utterance — normalized, colloquial, entity, clean and content — so different evidence shapes can be matched without committing to a single reading."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "هسته چند نمای تایپ‌شده از یک گفته می‌سازد — normalized، colloquial، entity، clean و content — تا شکل‌های مختلف شواهد بدون تعهد به یک قرائت واحد تطبیق داده شوند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

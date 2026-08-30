@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.interaction.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.interaction.behavior",
+    "meaning": "gvya.help.interaction",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "It produces an InteractionResult: the interpreted Meaning or explicit ambiguity, a Response Plan, zero or more admitted Invocation Proposals, the next state, and a structured Trace."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "و یک InteractionResult تولید می‌کند: Meaning تفسیرشده یا ابهام صریح، یک Response Plan، صفر یا چند Invocation Proposal پذیرفته‌شده، وضعیت بعدی، و یک Trace ساختاریافته."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.interaction.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "An Interaction is one deterministic evaluation boundary. It consumes an InteractionInput, a ContextSnapshot, prior GvyaState, and explicit environment values such as locale, time and seed when enabled."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Interaction یک مرز ارزیابی قطعی است. ورودی InteractionInput، یک ContextSnapshot، وضعیت قبلی GvyaState، و مقادیر محیطی صریح مانند locale و زمان و seed را در صورت فعال بودن مصرف می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

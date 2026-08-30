@@ -1,0 +1,178 @@
+{
+  "exported": true,
+  "id": "gvya.help.templates",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.templates",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what are response effects"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i choose between two responses"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اثرهای پاسخ چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بین دو پاسخ انتخاب کنم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "template dsl interpolation expression rnd pick passes allowlist"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قالب درج عبارت گسترش مجاز فهرست سفید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "template پاسخ کاربرد"
+      },
+      {
+        "language": "en-US",
+        "text": "response template interpolate resolved values placeholders deterministic template dsl"
+      },
+      {
+        "language": "fa-IR",
+        "text": "template پاسخ interpolate مقدار resolved placeholder deterministic template dsl"
+      },
+      {
+        "language": "en-US",
+        "text": "insert placeholder variable interpolation dynamic text inside response arithmetic condition"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درج جای خالی متغیر متن پویا داخل پاسخ محاسبه شرط"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is the template language"
+      },
+      {
+        "language": "en-US",
+        "text": "can i interpolate state into a response"
+      },
+      {
+        "language": "en-US",
+        "text": "what roots can a template read"
+      },
+      {
+        "language": "en-US",
+        "text": "does the template support if else"
+      },
+      {
+        "language": "en-US",
+        "text": "is there eval in the template"
+      },
+      {
+        "language": "en-US",
+        "text": "how many expansion passes are allowed"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens on division by zero"
+      },
+      {
+        "language": "en-US",
+        "text": "explain templates"
+      },
+      {
+        "language": "fa-IR",
+        "text": "زبان قالب چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم وضعیت را داخل پاسخ درج کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قالب از چه ریشه هایی می خواند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قالب از if else پشتیبانی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در قالب eval وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چند پاس گسترش مجاز است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تقسیم بر صفر چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قالب ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a template"
+      },
+      {
+        "language": "fa-IR",
+        "text": "template چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "template"
+      },
+      {
+        "language": "en-US",
+        "text": "templates"
+      },
+      {
+        "language": "fa-IR",
+        "text": "template پاسخ کاربرد"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i insert a stored value into an answer"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i write dynamic text in a response"
+      },
+      {
+        "language": "en-US",
+        "text": "can response text do a condition or some arithmetic"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i put a placeholder in a reply"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک مقدار ذخیره شده را داخل جواب بگذارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور متن پویا در پاسخ بنویسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متن پاسخ می تواند شرط یا محاسبه داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور در یک پاسخ جای خالی بگذارم که پر شود"
+      }
+    ]
+  }
+}

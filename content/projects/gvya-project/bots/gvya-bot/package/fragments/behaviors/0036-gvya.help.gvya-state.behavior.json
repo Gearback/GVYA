@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.gvya-state.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.gvya-state.behavior",
+    "meaning": "gvya.help.gvya-state",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Authored rules must not be able to mutate runtime-internal metadata through arbitrary paths. Inside the conversation kernel only author.* is mutable."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "قواعد نوشته‌شده نباید بتوانند فرادادهٔ داخلی runtime را از مسیرهای دلخواه تغییر دهند. داخل هستهٔ مکالمه فقط ‎author.*‎ قابل تغییر است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.gvya-state.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "GVYA State is runtime-owned conversational state, separate from host state. It has three namespaces: author state that authored behaviors may address, conversation state the runtime manages for continuity, and runtime metadata that authors cannot address."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "GVYA State وضعیت مکالمه‌ای است که runtime مالک آن است و از وضعیت میزبان جداست. سه فضای نام دارد: author state که رفتارهای نوشته‌شده می‌توانند به آن دسترسی داشته باشند، conversation state که runtime برای پیوستگی مدیریت می‌کند، و فرادادهٔ runtime که نویسنده به آن دسترسی ندارد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

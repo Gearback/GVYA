@@ -1,0 +1,24 @@
+{
+  "id": "product.compatibility",
+  "value": {
+    "id": "product.compatibility",
+    "samples": [
+      {
+        "language": "en",
+        "text": "is this product compatible with windows"
+      },
+      {
+        "language": "en",
+        "text": "does it work with android"
+      },
+      {
+        "language": "en",
+        "text": "what devices is the product compatible with"
+      },
+      {
+        "language": "en",
+        "text": "will this work on my mac"
+      }
+    ]
+  }
+}

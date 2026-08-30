@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-hate-you.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.i-hate-you.behavior",
+    "meaning": "core.smalltalk.formal.i-hate-you",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.i-hate-you.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "You may feel that way.",
+              "Very well. I am still here.",
+              "That does not change what I know."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "می‌توانید چنین حسی داشته باشید.",
+              "بسیار خوب. من همچنان اینجا هستم.",
+              "این چیزی را که می‌دانم تغییر نمی‌دهد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.stupid.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.stupid",
+      "response_ids": [
+        "core.smalltalk.informal.stupid.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.stupid.basic.en",
+    "initial_state": {},
+    "input": "stupid",
+    "language": "en-US",
+    "seed": 1
+  }
+}

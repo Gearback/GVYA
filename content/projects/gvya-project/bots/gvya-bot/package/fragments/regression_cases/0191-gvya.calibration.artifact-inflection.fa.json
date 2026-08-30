@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.calibration.artifact-inflection.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian plural, half-space and colloquial verb forms preserve artifact-integrity intent",
+    "expectation": {
+      "meaning": "gvya.help.artifact-integrity"
+    },
+    "generated": false,
+    "id": "gvya.calibration.artifact-inflection.fa",
+    "initial_state": {},
+    "input": "فایل‌های artifact دستکاری‌شده چطور قبل از load شدن رد می‌شن؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

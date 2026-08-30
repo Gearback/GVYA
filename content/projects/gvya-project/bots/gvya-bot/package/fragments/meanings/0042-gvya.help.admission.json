@@ -1,0 +1,209 @@
+{
+  "exported": true,
+  "id": "gvya.help.admission",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.admission",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "چه کسی proposal یک اکشن را تایید و در میزبان اجرا می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "can an llm override the deterministic decision"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a policy"
+      },
+      {
+        "language": "en-US",
+        "text": "what is an invocation proposal"
+      },
+      {
+        "language": "fa-IR",
+        "text": "policy چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "invocation proposal چیست"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ ADMISSION ^ INVOCATION PROPOSAL ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ WHO ^ CAPABILITY ^ INVOCATION ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "admission deterministic pipeline admitted rejected needsconfirmation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پذیرش خط لوله قطعی پذیرفته رد شده نیازمند تایید"
+      },
+      {
+        "language": "en-US",
+        "text": "admission invocation proposal outcomes"
+      },
+      {
+        "language": "en-US",
+        "text": "accept reject confirmation needed decision proposal pipeline admission permit deny confirm"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبول رد نیاز تایید decision proposal pipeline admission permit deny confirmation"
+      },
+      {
+        "language": "en-US",
+        "text": "gate ordered checks proposal allowed refused rejected sequence pipeline stages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دروازه بررسی ترتیبی قبل از پیشنهاد مجاز رد شد مرحله خط لوله"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is admission"
+      },
+      {
+        "language": "en-US",
+        "text": "what checks run before a proposal"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the admission order"
+      },
+      {
+        "language": "en-US",
+        "text": "what are the admission outcomes"
+      },
+      {
+        "language": "en-US",
+        "text": "when is a proposal rejected"
+      },
+      {
+        "language": "en-US",
+        "text": "does admission handle semantic ambiguity"
+      },
+      {
+        "language": "en-US",
+        "text": "what makes a confirmation stale"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the admission pipeline"
+      },
+      {
+        "language": "fa-IR",
+        "text": "admission چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبل از یک پیشنهاد چه بررسی هایی اجرا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترتیب admission چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتایج admission کدامند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه وقت یک پیشنهاد رد می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "admission ابهام معنایی را مدیریت می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی یک تایید را کهنه می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خط لوله admission را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "who approves a proposal"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the admission pipeline"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه کسی proposal را تایید می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "admission decision"
+      },
+      {
+        "language": "en-US",
+        "text": "decision admission makes"
+      },
+      {
+        "language": "en-US",
+        "text": "admission invocation proposal outcomes"
+      },
+      {
+        "language": "en-US",
+        "text": "what has to pass before the bot may ask for an action"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the gate between a binding and a proposal"
+      },
+      {
+        "language": "en-US",
+        "text": "why was my capability request refused"
+      },
+      {
+        "language": "en-US",
+        "text": "in what order are the capability checks applied"
+      },
+      {
+        "language": "en-US",
+        "text": "what stops an action the host does not currently offer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبل از اینکه بات اجازه درخواست اکشن پیدا کند چه چیزی باید رد شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دروازه بین binding و proposal چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا درخواست capability من رد شد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بررسی های capability به چه ترتیبی انجام می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی جلوی اکشنی که میزبان الان ارائه نمی دهد را می گیرد"
+      }
+    ]
+  }
+}

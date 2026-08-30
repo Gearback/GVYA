@@ -1,0 +1,21 @@
+{
+  "id": "context.ocr_offline_language.behavior",
+  "value": {
+    "followup_scope": "context.ocr_offline_language.followup",
+    "id": "context.ocr_offline_language.behavior",
+    "meaning": "context.ocr_offline_language",
+    "responses": [
+      {
+        "id": "context.ocr_offline_language.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:CONTEXT_OCR_OFFLINE_LANGUAGE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-tired",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.im-tired",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i'm tired"
+      },
+      {
+        "language": "en-US",
+        "text": "i am tired"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خسته‌ام"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خسته شدم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دیگه خسته شدم"
+      }
+    ]
+  }
+}

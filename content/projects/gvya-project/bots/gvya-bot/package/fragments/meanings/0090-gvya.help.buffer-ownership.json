@@ -1,0 +1,114 @@
+{
+  "exported": true,
+  "id": "gvya.help.buffer-ownership",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.buffer-ownership",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i wire it into my application"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i read an asset at runtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور آن را به برنامه ام وصل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک asset را در زمان اجرا بخوانم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "buffer ownership free dealloc pointer capacity leak abi memory"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بافر مالکیت آزادسازی اشاره گر ظرفیت نشتی حافظه"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how do i free a buffer from the c abi"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya_buffer"
+      },
+      {
+        "language": "en-US",
+        "text": "who owns memory returned by the runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya_alloc for"
+      },
+      {
+        "language": "en-US",
+        "text": "do i need the exact length to deallocate"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i avoid a leak in the c api"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya_buffer_free"
+      },
+      {
+        "language": "en-US",
+        "text": "explain buffer ownership"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک بافر را در c abi آزاد کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya_buffer چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حافظه برگشتی از runtime مال کیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya_alloc برای چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای آزادسازی طول دقیق لازم است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور در api زبان c نشتی نداشته باشم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya_buffer_free چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مالکیت بافر را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "who frees the buffer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بافر را چه کسی آزاد می کند"
+      }
+    ]
+  }
+}

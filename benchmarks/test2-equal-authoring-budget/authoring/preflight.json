@@ -1,0 +1,137 @@
+[
+  {
+    "expected": "device.about",
+    "id": "direct:device.about",
+    "text": "what is foliobox"
+  },
+  {
+    "expected": "scan.single",
+    "id": "direct:scan.single",
+    "text": "how do i scan one page"
+  },
+  {
+    "expected": "scan.duplex",
+    "id": "direct:scan.duplex",
+    "text": "how do i scan both sides of a page"
+  },
+  {
+    "expected": "scan.receipt",
+    "id": "direct:scan.receipt",
+    "text": "how do i scan a receipt"
+  },
+  {
+    "expected": "ocr.language",
+    "id": "direct:ocr.language",
+    "text": "how do i choose the ocr language"
+  },
+  {
+    "expected": "ocr.offline",
+    "id": "direct:ocr.offline",
+    "text": "does text recognition work offline"
+  },
+  {
+    "expected": "wifi.setup",
+    "id": "direct:wifi.setup",
+    "text": "how do i connect foliobox to wifi"
+  },
+  {
+    "expected": "export.pdf",
+    "id": "direct:export.pdf",
+    "text": "how do i export a scan as pdf"
+  },
+  {
+    "expected": "export.searchable",
+    "id": "direct:export.searchable",
+    "text": "how do i make a searchable pdf"
+  },
+  {
+    "expected": "security.encryption",
+    "id": "direct:security.encryption",
+    "text": "are scans encrypted on foliobox"
+  },
+  {
+    "expected": "storage.capacity",
+    "id": "direct:storage.capacity",
+    "text": "how much can foliobox store"
+  },
+  {
+    "expected": "storage.delete",
+    "id": "direct:storage.delete",
+    "text": "how do i delete a scan from the device"
+  },
+  {
+    "expected": "backup.usb",
+    "id": "direct:backup.usb",
+    "text": "how do i back up scans to usb"
+  },
+  {
+    "expected": "cloud.sync",
+    "id": "direct:cloud.sync",
+    "text": "how does cloud sync work"
+  },
+  {
+    "expected": "sharing.link",
+    "id": "direct:sharing.link",
+    "text": "how do i share a document link"
+  },
+  {
+    "expected": "paper.jam",
+    "id": "direct:paper.jam",
+    "text": "what do i do if paper is jammed"
+  },
+  {
+    "expected": "rollers.clean",
+    "id": "direct:rollers.clean",
+    "text": "how do i clean the feed rollers"
+  },
+  {
+    "expected": "battery.life",
+    "id": "direct:battery.life",
+    "text": "how long does the battery last"
+  },
+  {
+    "expected": "soft.restart",
+    "id": "direct:soft.restart",
+    "text": "how do i restart foliobox without losing scans"
+  },
+  {
+    "expected": "factory.reset",
+    "id": "direct:factory.reset",
+    "text": "how do i factory reset foliobox"
+  },
+  {
+    "expected": "context.duplex_orientation",
+    "id": "context:context.duplex_orientation",
+    "setup": "scan a double sided sheet",
+    "setup_expected": "scan.duplex",
+    "text": "which side goes in first"
+  },
+  {
+    "expected": "context.ocr_offline_language",
+    "id": "context:context.ocr_offline_language",
+    "setup": "tell me about offline text recognition",
+    "setup_expected": "ocr.offline",
+    "text": "does that still use my selected language"
+  },
+  {
+    "expected": "context.searchable_is_pdf",
+    "id": "context:context.searchable_is_pdf",
+    "setup": "make my scan into a searchable pdf",
+    "setup_expected": "export.searchable",
+    "text": "is that still a normal pdf file"
+  },
+  {
+    "expected": "context.restart_preserves",
+    "id": "context:context.restart_preserves",
+    "setup": "restart foliobox without deleting anything",
+    "setup_expected": "soft.restart",
+    "text": "will my saved scans still be there"
+  },
+  {
+    "expected": "context.reset_cloud",
+    "id": "context:context.reset_cloud",
+    "setup": "reset foliobox to factory settings",
+    "setup_expected": "factory.reset",
+    "text": "does that erase documents already synced to cloud"
+  }
+]

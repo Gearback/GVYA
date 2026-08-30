@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-dont-understand.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.i-dont-understand.behavior",
+    "meaning": "core.smalltalk.formal.i-dont-understand",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.i-dont-understand.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That is fair. Please ask another way.",
+              "I may need you to be clearer.",
+              "Try asking it more simply."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "منصفانه است. لطفاً به شکل دیگری بپرسید.",
+              "شاید لازم باشد واضح‌تر بگویید.",
+              "ساده‌تر بپرسید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

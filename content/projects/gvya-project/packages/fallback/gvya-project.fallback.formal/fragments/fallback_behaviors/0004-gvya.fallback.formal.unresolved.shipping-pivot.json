@@ -1,0 +1,63 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.formal.unresolved.shipping-pivot",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "less_or_equal",
+        "path": "repairCount",
+        "value": 0
+      },
+      {
+        "namespace": "conversation",
+        "op": "equal",
+        "path": "activeTopic",
+        "value": "gvya.topic.shipping"
+      }
+    ],
+    "id": "gvya.fallback.formal.unresolved.shipping-pivot",
+    "priority": 20,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Are you asking how to build the .gvya file, load it in a host, or package it for release?"
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "می‌پرسی فایل .gvya چطور ساخته می‌شود، داخل host چطور load می‌شود، یا برای انتشار چطور package می‌شود؟"
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.fallback.formal.unresolved.shipping-pivot.response",
+        "kind": "fallback",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am not sure which shipping step you mean, and I do not want to invent one."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "مطمئن نیستم منظورت کدام مرحلهٔ انتشار است و نمی‌خواهم چیزی از خودم بسازم."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "unresolved"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "exported": true,
+  "id": "gvya.help.signing-workflow",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.signing-workflow",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how is an artifact signed"
+      },
+      {
+        "language": "en-US",
+        "text": "what are the cli commands"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت چطور امضا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دستورهای cli چیستند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "signingworkflow cli signingroot attachsignature envelope keycustody external"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گردش کار امضا cli ریشه پیوست پاکت نگهداری کلید بیرونی"
+      },
+      {
+        "language": "en-US",
+        "text": "signing workflow"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how do i sign an artifact with the cli"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya signing-root"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i attach a signature"
+      },
+      {
+        "language": "en-US",
+        "text": "do private keys enter the compiler"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the signer receive"
+      },
+      {
+        "language": "en-US",
+        "text": "can i replace an existing signature"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya.signature.input"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the signing workflow"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور با cli یک آرتیفکت را امضا کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya signing-root چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک امضا پیوست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کلید خصوصی وارد کامپایلر می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امضاکننده چه چیزی دریافت می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم یک امضای موجود را عوض کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya.signature.input چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گردش کار امضا را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i sign a build"
+      },
+      {
+        "language": "en-US",
+        "text": "where is the signing key kept"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک بیلد را امضا کنم"
+      }
+    ]
+  }
+}

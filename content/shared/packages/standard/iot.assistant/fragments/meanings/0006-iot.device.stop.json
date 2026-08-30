@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "iot.device.stop",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "iot.device.stop",
+    "negative_samples": [
+      { "language": "en-US", "text": "stop talking" },
+      { "language": "en-US", "text": "stop the discussion" }
+    ],
+    "references": [
+      {
+        "elicitation": [
+          { "language": "en-US", "text": "Which device should I stop?" },
+          { "language": "fa-IR", "text": "کدام دستگاه را متوقف کنم؟" }
+        ],
+        "kind": "iot.device",
+        "required": true
+      }
+    ],
+    "samples": [
+      { "language": "en-US", "text": "stop" },
+      { "language": "en-US", "text": "stop device" },
+      { "language": "en-US", "text": "halt device" },
+      { "language": "en-US", "text": "stop the vacuum" },
+      { "language": "en-US", "text": "stop the fan" },
+      { "language": "fa-IR", "text": "دستگاه را متوقف کن" },
+      { "language": "fa-IR", "text": "متوقف کن" },
+      { "language": "fa-IR", "text": "دستگاه را نگه دار" },
+      { "language": "fa-IR", "text": "جارو را متوقف کن" },
+      { "language": "fa-IR", "text": "جارو اتاق خواب را متوقف کن" }
+    ]
+  }
+}

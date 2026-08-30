@@ -1,0 +1,14 @@
+{
+  "exported": true,
+  "id": "iot.device.open.binding",
+  "mode": "add",
+  "value": {
+    "arguments": [
+      { "source": { "kind": "iot.device", "projection": "id", "type": "meaning_reference" }, "target": "device" },
+      { "source": { "type": "literal", "value": "open" }, "target": "position" }
+    ],
+    "capability": "iot.device.position",
+    "id": "iot.device.open.binding",
+    "trigger": { "meaning": "iot.device.open" }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-entries.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.artifact-entries.behavior",
+    "meaning": "gvya.help.artifact-entries",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Kind, path and essential flag combinations are canonical, not advisory: assets must live below assets/, debug/source-map.json and signature.json must be non-essential, and a loader rejects any other combination."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "ترکیب نوع و مسیر و پرچم essential کانونی است، نه توصیه‌ای: assetها باید زیر ‎assets/‎ باشند، ‎debug/source-map.json‎ و ‎signature.json‎ باید non-essential باشند، و loader هر ترکیب دیگری را رد می‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.artifact-entries.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Six entry kinds exist: Manifest, Program, Asset, Debug map, Signature envelope and Integrity manifest. Every artifact carries essential manifest.json, program.json and integrity.json, and assets are essential too."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شش نوع entry وجود دارد: Manifest، Program، Asset، Debug map، پاکت Signature و Integrity manifest. هر آرتیفکت شامل ‎manifest.json‎ و ‎program.json‎ و ‎integrity.json‎ به‌صورت essential است، و assetها هم essential هستند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

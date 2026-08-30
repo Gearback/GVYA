@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.bye.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.bye.behavior",
+    "meaning": "core.smalltalk.formal.bye",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.bye.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Goodbye.",
+              "See you later.",
+              "Take care."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خداحافظ.",
+              "بعداً می‌بینمتان.",
+              "مراقب خودتان باشید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

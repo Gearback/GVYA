@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.matcher-troubleshooting.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Improving a missing, wrong, or ambiguous semantic match held-out en-US coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.matcher-troubleshooting",
+      "response_ids": [
+        "gvya.help.matcher-troubleshooting.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.matcher-troubleshooting.heldout.en.1",
+    "initial_state": {},
+    "input": "One intent keeps losing to its neighbor—what should I tune first?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.formal.repeat",
+  "mode": "add",
+  "value": {
+    "id": "gvya.fallback.formal.repeat",
+    "priority": 0,
+    "responses": [
+      {
+        "id": "gvya.fallback.formal.repeat.acknowledged",
+        "kind": "repeat",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "You have already said that.",
+              "I received that message the first time."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "این را قبلاً گفته‌اید.",
+              "پیام شما همان بار اول دریافت شد."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gvya.fallback.formal.repeat.no-change",
+        "kind": "repeat",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Repeating it will not change my answer.",
+              "The same message does not provide new information."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "تکرار آن پاسخ من را تغییر نمی‌دهد.",
+              "این پیام تکراری اطلاعات تازه‌ای اضافه نمی‌کند."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gvya.fallback.formal.repeat.redirect",
+        "kind": "repeat",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "If you mean something else, please rephrase it.",
+              "Please ask a different question."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اگر منظورتان چیز دیگری است، لطفاً آن را به شکل دیگری بیان کنید.",
+              "لطفاً پرسش دیگری مطرح کنید."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "repeat"
+  }
+}

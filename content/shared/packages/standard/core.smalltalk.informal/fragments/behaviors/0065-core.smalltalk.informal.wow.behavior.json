@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.wow.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.wow.behavior",
+    "meaning": "core.smalltalk.informal.wow",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.wow.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Yeah.",
+              "That’s one way to react.",
+              "I get it."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "آره.",
+              "اینم یه واکنشه.",
+              "می‌فهمم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

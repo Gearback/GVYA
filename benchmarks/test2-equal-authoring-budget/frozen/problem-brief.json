@@ -1,0 +1,163 @@
+{
+  "benchmark": "gvya-comparator-test-2-equal-evidence-budget-fair-rerun",
+  "budget": {
+    "allocation_constraint": "100 rows for 20 direct meanings (5 each) and 15 rows for 5 contextual follow-ups (3 each). Each engine may spend those rows idiomatically inside that partition.",
+    "definition": "One manually authored user-language evidence row counts as one row. GVYA samples/retrieval terms/negative samples/structural patterns; AIML categories/patterns and separately authored set members; ChatScript rules/rejoinders and separately authored concept members each count. Engine wiring, IDs, response facts, context plumbing, generated wrappers, and one global fallback do not count.",
+    "user_language_evidence_rows_per_system": 115
+  },
+  "contexts": [
+    {
+      "canonical_followup": "which side goes in first",
+      "fact": "For Duplex mode, insert the first side face up; FolioBox handles the second side automatically.",
+      "id": "context.duplex_orientation",
+      "setup": "scan a double sided sheet",
+      "setup_intent": "scan.duplex"
+    },
+    {
+      "canonical_followup": "does that still use my selected language",
+      "fact": "Yes. Offline OCR uses the installed language pack selected for the scan.",
+      "id": "context.ocr_offline_language",
+      "setup": "tell me about offline text recognition",
+      "setup_intent": "ocr.offline"
+    },
+    {
+      "canonical_followup": "is that still a normal pdf file",
+      "fact": "Yes. It remains a standard PDF with an OCR text layer behind the page image.",
+      "id": "context.searchable_is_pdf",
+      "setup": "make my scan into a searchable pdf",
+      "setup_intent": "export.searchable"
+    },
+    {
+      "canonical_followup": "will my saved scans still be there",
+      "fact": "Yes. A soft restart preserves stored scans and settings.",
+      "id": "context.restart_preserves",
+      "setup": "restart foliobox without deleting anything",
+      "setup_intent": "soft.restart"
+    },
+    {
+      "canonical_followup": "does that erase documents already synced to cloud",
+      "fact": "No. Factory reset erases local data but does not delete already-synced cloud copies.",
+      "id": "context.reset_cloud",
+      "setup": "reset foliobox to factory settings",
+      "setup_intent": "factory.reset"
+    }
+  ],
+  "domain": {
+    "description": "A fictional offline-capable document capture appliance. Routing/understanding only; response prose is not scored.",
+    "name": "FolioBox"
+  },
+  "intents": [
+    {
+      "canonical": "what is foliobox",
+      "fact": "FolioBox scans paper documents, runs OCR, stores encrypted local copies, and can export or sync them.",
+      "id": "device.about"
+    },
+    {
+      "canonical": "how do i scan one page",
+      "fact": "Insert one page face up and press Scan; FolioBox creates one document item.",
+      "id": "scan.single"
+    },
+    {
+      "canonical": "how do i scan both sides of a page",
+      "fact": "Enable Duplex before scanning; FolioBox captures the front and back into one document.",
+      "id": "scan.duplex"
+    },
+    {
+      "canonical": "how do i scan a receipt",
+      "fact": "Use Receipt mode for narrow paper; it adjusts feed speed and crop detection.",
+      "id": "scan.receipt"
+    },
+    {
+      "canonical": "how do i choose the ocr language",
+      "fact": "Choose the OCR language per scan or set a default language in Text Recognition settings.",
+      "id": "ocr.language"
+    },
+    {
+      "canonical": "does text recognition work offline",
+      "fact": "OCR runs locally and works without internet for installed language packs.",
+      "id": "ocr.offline"
+    },
+    {
+      "canonical": "how do i connect foliobox to wifi",
+      "fact": "Hold Link for three seconds, open FolioBox Setup on a phone, then select the Wi-Fi network.",
+      "id": "wifi.setup"
+    },
+    {
+      "canonical": "how do i export a scan as pdf",
+      "fact": "Open the document, choose Export, then select PDF.",
+      "id": "export.pdf"
+    },
+    {
+      "canonical": "how do i make a searchable pdf",
+      "fact": "Enable Searchable PDF during export; OCR text is embedded behind the page image.",
+      "id": "export.searchable"
+    },
+    {
+      "canonical": "are scans encrypted on foliobox",
+      "fact": "Local documents are encrypted at rest with the device storage key.",
+      "id": "security.encryption"
+    },
+    {
+      "canonical": "how much can foliobox store",
+      "fact": "The built-in storage holds about twenty thousand ordinary text pages, depending on image complexity.",
+      "id": "storage.capacity"
+    },
+    {
+      "canonical": "how do i delete a scan from the device",
+      "fact": "Open the document, choose Delete, and confirm; deleted local items move to Recently Deleted for seven days.",
+      "id": "storage.delete"
+    },
+    {
+      "canonical": "how do i back up scans to usb",
+      "fact": "Connect a USB drive and choose Backup to USB; FolioBox writes an encrypted backup archive.",
+      "id": "backup.usb"
+    },
+    {
+      "canonical": "how does cloud sync work",
+      "fact": "When enabled and online, completed documents sync to the linked cloud workspace.",
+      "id": "cloud.sync"
+    },
+    {
+      "canonical": "how do i share a document link",
+      "fact": "Synced documents can create a revocable share link from the app.",
+      "id": "sharing.link"
+    },
+    {
+      "canonical": "what do i do if paper is jammed",
+      "fact": "Open the feed door, remove paper in the feed direction, close the door, and retry.",
+      "id": "paper.jam"
+    },
+    {
+      "canonical": "how do i clean the feed rollers",
+      "fact": "Power FolioBox off and wipe the feed rollers with a lightly damp lint-free cloth.",
+      "id": "rollers.clean"
+    },
+    {
+      "canonical": "how long does the battery last",
+      "fact": "A full charge supports about four hundred single-sided page scans under normal conditions.",
+      "id": "battery.life"
+    },
+    {
+      "canonical": "how do i restart foliobox without losing scans",
+      "fact": "Hold Power for five seconds for a soft restart; stored scans and settings are preserved.",
+      "id": "soft.restart"
+    },
+    {
+      "canonical": "how do i factory reset foliobox",
+      "fact": "Hold Reset for twelve seconds; local settings and local documents are erased, but already-synced cloud copies remain.",
+      "id": "factory.reset"
+    }
+  ],
+  "language": "en",
+  "rules": {
+    "blind_corpus_frozen_before_authoring": true,
+    "external_llm_at_runtime": false,
+    "idiomatic_engine_authoring_allowed": true,
+    "no_authoring_after_blind_reveal": true,
+    "preflight": "20 canonical direct prompts + 5 canonical setup/follow-up exchanges must pass before semantic source freeze.",
+    "same_facts_and_answer_tokens": true,
+    "same_problem": true
+  },
+  "status": "brief-and-blind-frozen-before-authoring",
+  "version": 2
+}

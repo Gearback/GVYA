@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.route.shipping.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Menu route shipping",
+    "expectation": {
+      "meaning": "gvya.help.build-artifact",
+      "response_ids": [
+        "gvya.help.build-artifact.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.route.shipping.en",
+    "initial_state": {},
+    "input": "shipping",
+    "language": "en-US",
+    "seed": 1
+  }
+}

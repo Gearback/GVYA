@@ -1,0 +1,120 @@
+{
+  "exported": true,
+  "id": "gvya.help.wire-formats",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.wire-formats",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is the runtime wire protocol"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a turn request"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروتکل wire رانتایم چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست turn چیست"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ FORMAT ^ CAPABILITY ^ RESULT ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "formats turn open capabilityresult info catalog assetinfo names"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرمت ها نوبت افتتاح نتیجه اطلاعات کاتالوگ نام"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what wire formats exist"
+      },
+      {
+        "language": "en-US",
+        "text": "what is gvya runtime turn"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the opening request format"
+      },
+      {
+        "language": "en-US",
+        "text": "what format reports a capability result"
+      },
+      {
+        "language": "en-US",
+        "text": "which wire format reports runtime info"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the capability catalog format"
+      },
+      {
+        "language": "en-US",
+        "text": "list the wire message types"
+      },
+      {
+        "language": "en-US",
+        "text": "explain wire formats"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه فرمت های wire ای وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya runtime turn چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرمت درخواست opening چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه فرمتی نتیجه capability را گزارش می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام فرمت wire اطلاعات runtime را گزارش می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرمت کاتالوگ capability چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انواع پیام wire را بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرمت های wire را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "which wire formats exist"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه فرمت هایی در wire وجود دارد"
+      }
+    ]
+  }
+}

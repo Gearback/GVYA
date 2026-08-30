@@ -1,0 +1,33 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.pick-a-number.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.pick-a-number.behavior",
+    "meaning": "core.smalltalk.informal.pick-a-number",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.pick-a-number.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "{{ rnd(1, 100) }}.",
+              "I pick {{ rnd(1, 100) }}."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "عدد {{ rnd(1, 100) }}.",
+              "من {{ rnd(1, 100) }} رو انتخاب می‌کنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

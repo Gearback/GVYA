@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.hurry.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.hurry",
+      "response_ids": [
+        "core.smalltalk.informal.hurry.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.hurry.basic.en",
+    "initial_state": {},
+    "input": "hurry",
+    "language": "en-US",
+    "seed": 1
+  }
+}

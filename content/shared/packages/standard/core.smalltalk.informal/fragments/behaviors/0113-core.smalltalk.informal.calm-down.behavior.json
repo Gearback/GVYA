@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.calm-down.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.calm-down.behavior",
+    "meaning": "core.smalltalk.informal.calm-down",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.calm-down.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am calm enough.",
+              "You first.",
+              "Calm is useful. Panic isn’t."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "به اندازه کافی آرومم.",
+              "اول تو.",
+              "آرامش مفیده. وحشت نه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.fallback.heldout.fa.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Fallback Packages and unresolved or repeated conversation recovery held-out fa-IR coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.fallback",
+      "response_ids": [
+        "gvya.help.fallback.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.fallback.heldout.fa.1",
+    "initial_state": {},
+    "input": "وقتی تشخیص معنا کامل شکست بخوره چه بخشی جواب میده؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

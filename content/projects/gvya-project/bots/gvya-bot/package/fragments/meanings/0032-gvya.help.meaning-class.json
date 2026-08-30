@@ -1,0 +1,118 @@
+{
+  "exported": true,
+  "id": "gvya.help.meaning-class",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.meaning-class",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a meaning in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "how does scoring work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning در gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امتیازدهی چطور کار می کند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "meaningclass class explicit classifier social general"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کلاس صریح دسته بند اجتماعی عمومی"
+      },
+      {
+        "language": "en-US",
+        "text": "meaning class semantics"
+      },
+      {
+        "language": "en-US",
+        "text": "explicit social general classification class metadata not id inference meaning category"
+      },
+      {
+        "language": "fa-IR",
+        "text": "صریح social general دسته بندی class metadata نه id inference meaning category"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a meaning class"
+      },
+      {
+        "language": "en-US",
+        "text": "what does general class mean"
+      },
+      {
+        "language": "en-US",
+        "text": "why does a meaning declare a class"
+      },
+      {
+        "language": "en-US",
+        "text": "how are social phrases classified"
+      },
+      {
+        "language": "en-US",
+        "text": "is the package name used to classify a meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens when a social phrase sits beside a task"
+      },
+      {
+        "language": "en-US",
+        "text": "does the meaning id affect classification"
+      },
+      {
+        "language": "en-US",
+        "text": "explain meaning class"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning class چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کلاس general یعنی چه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا یک meaning کلاس اعلام می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عبارت های اجتماعی چطور دسته بندی می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نام پکیج برای دسته بندی استفاده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی عبارت اجتماعی کنار یک تسک بیاید چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شناسه meaning روی دسته بندی اثر دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning class را توضیح بده"
+      }
+    ]
+  }
+}

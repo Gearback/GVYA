@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.hints.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.hints.behavior",
+    "meaning": "gvya.help.hints",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Hint rows are excluded from ordinary normal-turn selection, so authoring a ladder never disturbs the plain answer."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "ردیف‌های راهنمایی از انتخاب عادی نوبت معمولی کنار گذاشته می‌شوند، پس نوشتن یک نردبان هرگز پاسخ ساده را به‌هم نمی‌زند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.hints.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A response may declare hint_level, turning the Behavior's responses into a ladder. The kernel tracks hint progress per key and selects the exact, next higher, or lower authored level."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک پاسخ می‌تواند ‎hint_level‎ اعلام کند و پاسخ‌های آن Behavior را به یک نردبان تبدیل کند. هسته پیشرفت راهنمایی را به‌ازای هر کلید دنبال می‌کند و سطح دقیق، سطح بالاتر بعدی، یا سطح پایین‌ترِ نوشته‌شده را انتخاب می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

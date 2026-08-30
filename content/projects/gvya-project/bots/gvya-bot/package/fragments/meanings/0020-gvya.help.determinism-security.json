@@ -1,0 +1,322 @@
+{
+  "exported": true,
+  "id": "gvya.help.determinism-security",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.determinism-security",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "a booking request exits the brain through a typed host capability"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درخواست رزرو از brain به capability میزبان تحویل داده می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya require an llm"
+      },
+      {
+        "language": "en-US",
+        "text": "how can a bot call the host"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya به llm نیاز دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات چطور از میزبان درخواست کار می کند"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "deterministic runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "resource budget"
+      },
+      {
+        "language": "en-US",
+        "text": "artifact integrity"
+      },
+      {
+        "language": "en-US",
+        "text": "fail closed"
+      },
+      {
+        "language": "en-US",
+        "text": "environment network offline reproducible bounded ambient"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime قطعی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بودجه منابع"
+      },
+      {
+        "language": "fa-IR",
+        "text": "integrity آرتیفکت"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fail closed"
+      },
+      {
+        "language": "fa-IR",
+        "text": "environment شبکه آفلاین تکرارپذیر محدود ambient"
+      },
+      {
+        "language": "en-US",
+        "text": "package secretly current clock read"
+      },
+      {
+        "language": "en-US",
+        "text": "two machines reproducible artifact bytes"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج یواشکی ساعت فعلی سیستم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کامپیوتر byte آرتیفکت یکسان"
+      },
+      {
+        "language": "en-US",
+        "text": "deterministic runtime offline network"
+      },
+      {
+        "language": "en-US",
+        "text": "reach internet network files environment shell ambient access sandbox untrusted safe"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اینترنت شبکه فایل محیط شل دسترسی محیطی سندباکس نامطمئن امن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محدود تکرارپذیر قطعی یکسان بدون دسترسی محیطی مرز اجرا امن"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "gvya determinism and security"
+      },
+      {
+        "language": "en-US",
+        "text": "how is gvya deterministic"
+      },
+      {
+        "language": "en-US",
+        "text": "is gvya safe for offline use"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya use ambient state"
+      },
+      {
+        "language": "en-US",
+        "text": "how are resource limits enforced"
+      },
+      {
+        "language": "en-US",
+        "text": "can gvya artifacts be signed"
+      },
+      {
+        "language": "en-US",
+        "text": "what security checks exist"
+      },
+      {
+        "language": "en-US",
+        "text": "which ambient authorities are excluded from gvya source"
+      },
+      {
+        "language": "en-US",
+        "text": "can the same input give the same answer offline"
+      },
+      {
+        "language": "en-US",
+        "text": "authored source cannot access shell environment network"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قطعی بودن و امنیت gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چطور deterministic است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya برای استفاده آفلاین امن است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya از ambient state استفاده می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محدودیت منابع چطور اعمال می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آرتیفکت gvya امضا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه بررسی های امنیتی وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام اختیارهای ambient از source gvya حذف شده اند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آفلاین هم ورودی یکسان جواب یکسان می ده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محتوای نوشته شده env و شبکه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "env شبکه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "json نوشته شده بدون shell environment شبکه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "shell environment شبکه دسترسی"
+      },
+      {
+        "language": "en-US",
+        "text": "is the output repeatable"
+      },
+      {
+        "language": "en-US",
+        "text": "can authored content reach the network"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آیا خروجی تکرارپذیر است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محتوای نوشته شده به شبکه دسترسی دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "is the same input always the same output"
+      },
+      {
+        "language": "en-US",
+        "text": "does it need a network connection"
+      },
+      {
+        "language": "en-US",
+        "text": "what stops it from doing something dangerous"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آیا ورودی یکسان همیشه خروجی یکسان می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به اینترنت نیاز دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امنیت آن چطور است"
+      },
+      {
+        "language": "en-US",
+        "text": "can i ship it offline"
+      },
+      {
+        "language": "en-US",
+        "text": "does it work offline"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آفلاین کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "deterministic runtime without network"
+      },
+      {
+        "language": "en-US",
+        "text": "can the bot reach the internet on its own"
+      },
+      {
+        "language": "en-US",
+        "text": "can authored content read files or environment variables"
+      },
+      {
+        "language": "en-US",
+        "text": "is it safe to run a brain file i did not write"
+      },
+      {
+        "language": "en-US",
+        "text": "what can the source not get to"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات خودش می تواند به اینترنت وصل شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محتوای authored می تواند فایل یا متغیر محیطی بخواند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اجرای فایل brain که خودم ننوشته ام امن است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سورس به چه چیزهایی دسترسی ندارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی اجرای runtime را محدود و تکرارپذیر نگه می دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا خروجی با ورودی یکسان همیشه یکی است"
+      },
+      {
+        "language": "en-US",
+        "text": "what keeps runtime execution bounded and repeatable"
+      },
+      {
+        "language": "en-US",
+        "text": "what do you mean by deterministic behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "what does deterministic mean here"
+      },
+      {
+        "language": "fa-IR",
+        "text": "منظورت از رفتار قطعی چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قطعی یعنی چی"
+      }
+    ]
+  }
+}

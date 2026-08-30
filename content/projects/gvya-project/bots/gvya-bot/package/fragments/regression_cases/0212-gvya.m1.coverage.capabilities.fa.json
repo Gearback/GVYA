@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.capabilities.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural Persian capability definition question reaches capabilities",
+    "expectation": {
+      "meaning": "gvya.help.capabilities"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.capabilities.fa",
+    "initial_state": {},
+    "input": "قابلیت یعنی چی؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

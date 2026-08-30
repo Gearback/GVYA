@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-happy.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.are-you-happy.behavior",
+    "meaning": "core.smalltalk.formal.are-you-happy",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.are-you-happy.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Enough, for now.",
+              "I will accept a good moment when it comes.",
+              "Perhaps a little."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "فعلاً به اندازه کافی.",
+              "اگر لحظه خوبی باشد، می‌پذیرمش.",
+              "شاید کمی."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

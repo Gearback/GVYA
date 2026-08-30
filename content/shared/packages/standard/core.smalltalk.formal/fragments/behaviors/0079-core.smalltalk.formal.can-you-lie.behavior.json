@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.can-you-lie.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.can-you-lie.behavior",
+    "meaning": "core.smalltalk.formal.can-you-lie",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.can-you-lie.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I can be wrong. That is different.",
+              "I am telling you what I can.",
+              "Take my words seriously, not blindly."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ممکن است اشتباه کنم. این متفاوت است.",
+              "چیزی را می‌گویم که می‌توانم.",
+              "حرفم را جدی بگیرید، نه کورکورانه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.youre-beautiful.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.youre-beautiful.behavior",
+    "meaning": "core.smalltalk.informal.youre-beautiful",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.youre-beautiful.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That’s a bold thing to say.",
+              "Thanks. I guess.",
+              "Careful with compliments."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "جسورانه‌ست.",
+              "مرسی، فکر کنم.",
+              "با تعریف کردن احتیاط کن."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

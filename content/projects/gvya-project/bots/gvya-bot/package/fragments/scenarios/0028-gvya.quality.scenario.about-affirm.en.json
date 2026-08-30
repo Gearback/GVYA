@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.about-affirm.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Agreeing right after the About answer resolves inside the gvya.about follow-up instead of a bare acknowledgement",
+    "generated": false,
+    "id": "gvya.quality.scenario.about-affirm.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.about"
+        },
+        "language": "en-US",
+        "say": "what is gvya",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "core.smalltalk.formal.yes",
+          "response_ids": [
+            "gvya.dialog.affirm-about.pipeline"
+          ]
+        },
+        "language": "en-US",
+        "say": "yes please",
+        "seed": 2,
+        "type": "turn"
+      }
+    ]
+  }
+}

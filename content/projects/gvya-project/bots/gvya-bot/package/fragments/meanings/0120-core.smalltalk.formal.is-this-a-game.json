@@ -1,0 +1,57 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.is-this-a-game",
+  "mode": {
+    "target_id": "core.smalltalk.formal.is-this-a-game",
+    "target_package": "core.smalltalk.formal",
+    "type": "replace"
+  },
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.is-this-a-game",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "could this run dialogue for something besides a game"
+      },
+      {
+        "language": "en-US",
+        "text": "can i use this inside a game i am building"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم از این داخل بازی ای که می سازم استفاده کنم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "is this a game"
+      },
+      {
+        "language": "en-US",
+        "text": "are we in a game"
+      },
+      {
+        "language": "en-US",
+        "text": "is this fake"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این بازیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ما تو بازی هستیم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "این الکیه"
+      }
+    ]
+  }
+}

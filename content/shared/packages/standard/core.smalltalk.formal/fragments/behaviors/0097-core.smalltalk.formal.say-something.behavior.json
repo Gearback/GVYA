@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.say-something.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.say-something.behavior",
+    "meaning": "core.smalltalk.formal.say-something",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.say-something.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Something.",
+              "I am here. Say what you need.",
+              "Words are easy. Meaning is harder."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "چیزی.",
+              "اینجا هستم. بگویید چه لازم دارید.",
+              "حرف زدن آسان است؛ معنا سخت‌تر است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

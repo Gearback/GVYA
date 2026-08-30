@@ -1,0 +1,24 @@
+{
+  "id": "app.update",
+  "value": {
+    "id": "app.update",
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i update the app"
+      },
+      {
+        "language": "en",
+        "text": "install the latest app update"
+      },
+      {
+        "language": "en",
+        "text": "upgrade my application"
+      },
+      {
+        "language": "en",
+        "text": "where can i get the newest version"
+      }
+    ]
+  }
+}

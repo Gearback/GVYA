@@ -1,0 +1,114 @@
+{
+  "exported": true,
+  "id": "gvya.help.schema-profile",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.schema-profile",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a capability contract"
+      },
+      {
+        "language": "en-US",
+        "text": "what does gvya source look like"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability contract چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سورس gvya چه شکلی است"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "schemaprofile jsonschema 2020-12 constrained selfcontained ref forbidden valueschema"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروفایل schema محدود خودبسنده ارجاع ممنوع"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what json schema profile is supported"
+      },
+      {
+        "language": "en-US",
+        "text": "can a schema reference a remote url"
+      },
+      {
+        "language": "en-US",
+        "text": "is the schema profile self contained"
+      },
+      {
+        "language": "en-US",
+        "text": "what draft is used"
+      },
+      {
+        "language": "en-US",
+        "text": "how is a schema executed at runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "must capability input be an object"
+      },
+      {
+        "language": "en-US",
+        "text": "what is valueschema"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the schema profile"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه پروفایل json schema پشتیبانی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک schema می تواند به url راه دور ارجاع دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروفایل schema خودبسنده است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام draft استفاده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک schema در زمان اجرا چطور اجرا می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ورودی capability باید شی باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "valueschema چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پروفایل schema را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a schema profile"
+      },
+      {
+        "language": "fa-IR",
+        "text": "schema profile چیست"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "format": "gvya.validation.authoring-quality",
+  "version": 1,
+  "bot_id": "gvya-bot",
+  "domain_smoke": [
+    {"id":"domain.about.en","language":"en-US","input":"what is gvya","meaning":"gvya.help.about"},
+    {"id":"domain.package.en","language":"en-US","input":"what is a package","meaning":"gvya.help.packages"},
+    {"id":"domain.meaning.en","language":"en-US","input":"what is a meaning","meaning":"gvya.help.meaning"},
+    {"id":"domain.bot.en","language":"en-US","input":"what is a bot","meaning":"gvya.help.projects-bots"},
+    {"id":"domain.behavior.en","language":"en-US","input":"what is a behavior","meaning":"gvya.help.behavior"},
+    {"id":"domain.architecture.en","language":"en-US","input":"architecture","meaning":"gvya.help.architecture"},
+    {"id":"domain.matcher.en","language":"en-US","input":"matcher","meaning":"gvya.help.matcher"},
+    {"id":"domain.runtime.en","language":"en-US","input":"runtime","meaning":"gvya.help.runtime-integration"},
+    {"id":"domain.shipping.en","language":"en-US","input":"shipping","meaning":"gvya.help.build-artifact"},
+    {"id":"domain.package.fa","language":"fa-IR","input":"پکیج چیه","meaning":"gvya.help.packages"},
+    {"id":"domain.bot.fa","language":"fa-IR","input":"بات چیه","meaning":"gvya.help.projects-bots"},
+    {"id":"domain.structural.en","language":"en-US","input":"How do GVYA structural patterns work?","meaning":"gvya.help.structural-patterns"},
+    {"id":"domain.structural.fa","language":"fa-IR","input":"pattern ساختاری GVYA را توضیح بده","meaning":"gvya.help.structural-patterns"}
+  ],
+  "boundary_cases": [
+    {"id":"boundary.embedded-short-sample.hey-identity.en","language":"en-US","input":"Hey you, what are you?","conversation_mode":"answer","forbidden_meanings":["core.smalltalk.formal.how-are-you"]},
+    {"id":"boundary.right.standalone","language":"en-US","input":"right","meaning":"core.smalltalk.formal.thats-true"},
+    {"id":"boundary.right.embedded","language":"en-US","input":"right triangle formula","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback","forbidden_meanings":["core.smalltalk.formal.thats-true"]},
+    {"id":"boundary.continue.standalone","language":"en-US","input":"continue","meaning":"core.smalltalk.formal.lets-continue"},
+    {"id":"boundary.continue.embedded","language":"en-US","input":"continue reading this paragraph","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback","forbidden_meanings":["core.smalltalk.formal.lets-continue"]},
+    {"id":"boundary.recovery-number.out-of-scope","language":"en-US","input":"2","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback","forbidden_meanings":["gvya.dialog.recovery-route"]},
+    {"id":"boundary.what.standalone.fa","language":"fa-IR","input":"چی","meaning":"core.smalltalk.formal.what"},
+    {"id":"boundary.what.embedded.fa","language":"fa-IR","input":"سیاهچاله چطور تبخیر میشه","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback","forbidden_meanings":["core.smalltalk.formal.what"]}
+  ],
+  "off_domain_precision": [
+    {"id":"off.birthday.en","language":"en-US","input":"tell me about the birthday paradox","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback"},
+    {"id":"off.jazz.en","language":"en-US","input":"best jazz album of all time","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback"},
+    {"id":"off.black-holes.en","language":"en-US","input":"how do black holes evaporate","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback"},
+    {"id":"off.weather.en","language":"en-US","input":"what is the weather tomorrow","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback"},
+    {"id":"off.capital.fa","language":"fa-IR","input":"پایتخت پرو کجاست؟","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback"},
+    {"id":"off.jazz.fa","language":"fa-IR","input":"بهترین آلبوم جاز چیه؟","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback"},
+    {"id":"off.regex-caret.en","language":"en-US","input":"What does caret mean in a regular expression?","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback"},
+    {"id":"off.regex-caret.fa","language":"fa-IR","input":"علامت caret در regex چه کار می‌کند؟","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback"}
+  ],
+  "sessions": [
+    {
+      "id":"quality.recovery.en",
+      "turns":[
+        {"language":"en-US","input":"tell me about the birthday paradox","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback","response_ids":["gvya.fallback.formal.unresolved.stage-1.redirect"],"seed":20},
+        {"language":"en-US","input":"surprise me","meaning":"gvya.dialog.surprise-me","conversation_mode":"answer","response_ids":["gvya.dialog.surprise-me.response"],"seed":21},
+        {"language":"en-US","input":"another one","meaning":"gvya.dialog.discovery-again","conversation_mode":"followup","response_ids":["gvya.dialog.discovery-again.response"],"seed":22},
+        {"language":"en-US","input":"matcher","meaning":"gvya.help.matcher","conversation_mode":"answer","response_ids":["gvya.help.matcher.response"],"seed":23}
+      ]
+    },
+    {
+      "id":"quality.truthful-promise.en",
+      "turns":[
+        {"language":"en-US","input":"what is gvya","meaning":"gvya.help.about","conversation_mode":"answer","response_ids":["gvya.help.about.response"],"seed":51},
+        {"language":"en-US","input":"tell me about orbital mechanics","meaning":null,"behavior":"gvya.fallback.formal.unresolved.concepts-pivot","conversation_mode":"fallback","response_ids":["gvya.fallback.formal.unresolved.concepts-pivot.response"],"seed":52},
+        {"language":"en-US","input":"why does that host boundary matter","meaning":"gvya.help.capabilities","conversation_mode":"answer","response_ids":["gvya.help.capabilities.response"],"seed":53}
+      ]
+    },
+    {
+      "id":"quality.repeat-ladder.en",
+      "turns":[
+        {"language":"en-US","input":"what is gvya","meaning":"gvya.help.about","conversation_mode":"answer","response_ids":["gvya.help.about.response"],"seed":31},
+        {"language":"en-US","input":"what is gvya","meaning":null,"behavior":"gvya.fallback.formal.repeat.stage-1","conversation_mode":"repeat_fallback","response_ids":["gvya.fallback.formal.repeat.stage-1.acknowledge"],"seed":32},
+        {"language":"en-US","input":"what is gvya","meaning":null,"behavior":"gvya.fallback.formal.repeat.stage-2","conversation_mode":"repeat_fallback","response_ids":["gvya.fallback.formal.repeat.stage-2.pivot"],"seed":33},
+        {"language":"en-US","input":"what is gvya","meaning":null,"behavior":"gvya.fallback.formal.repeat.stage-3","conversation_mode":"repeat_fallback","response_ids":["gvya.fallback.formal.repeat.stage-3.rabbit-hole"],"seed":34}
+      ]
+    },
+    {
+      "id":"quality.progressive-recovery.en",
+      "turns":[
+        {"language":"en-US","input":"help me choose a bicycle","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback","active_followup":"gvya.recovery-route","response_ids":["gvya.fallback.formal.unresolved.stage-1.redirect"],"seed":90},
+        {"language":"en-US","input":"build a bot","meaning":"gvya.dialog.recovery-route","conversation_mode":"followup","active_followup":"gvya.recovery-route","response_ids":["gvya.dialog.recovery-route.build"],"seed":91},
+        {"language":"en-US","input":"debug matching","meaning":"gvya.dialog.recovery-route","conversation_mode":"followup","active_followup":"gvya.recovery-route","response_ids":["gvya.dialog.recovery-route.debug"],"seed":92},
+        {"language":"en-US","input":"something interesting","meaning":"gvya.dialog.recovery-route","conversation_mode":"followup","active_followup":"gvya.discovery","response_ids":["gvya.dialog.recovery-route.explore"],"seed":93},
+        {"language":"en-US","input":"one more","meaning":"gvya.dialog.discovery-again","conversation_mode":"followup","active_followup":"gvya.discovery","response_ids":["gvya.dialog.discovery-again.response"],"seed":94}
+      ]
+    },
+    {
+      "id":"quality.progressive-recovery.fa",
+      "turns":[
+        {"language":"fa-IR","input":"برای شام چی درست کنم؟","meaning":null,"behavior":"gvya.fallback.formal.unresolved.stage-1","conversation_mode":"fallback","active_followup":"gvya.recovery-route","response_ids":["gvya.fallback.formal.unresolved.stage-1.redirect"],"seed":95},
+        {"language":"fa-IR","input":"ساخت بات","meaning":"gvya.dialog.recovery-route","conversation_mode":"followup","active_followup":"gvya.recovery-route","response_ids":["gvya.dialog.recovery-route.build"],"seed":96},
+        {"language":"fa-IR","input":"رفع مشکل match","meaning":"gvya.dialog.recovery-route","conversation_mode":"followup","active_followup":"gvya.recovery-route","response_ids":["gvya.dialog.recovery-route.debug"],"seed":97},
+        {"language":"fa-IR","input":"یه چیز جالب","meaning":"gvya.dialog.recovery-route","conversation_mode":"followup","active_followup":"gvya.discovery","response_ids":["gvya.dialog.recovery-route.explore"],"seed":98},
+        {"language":"fa-IR","input":"بازم","meaning":"gvya.dialog.discovery-again","conversation_mode":"followup","active_followup":"gvya.discovery","response_ids":["gvya.dialog.discovery-again.response"],"seed":99}
+      ]
+    },
+    {
+      "id":"quality.structural-route.en",
+      "turns":[
+        {"language":"en-US","input":"How does GVYA rank possible Meanings?","meaning":"gvya.help.matcher","conversation_mode":"answer","response_ids":["gvya.help.matcher.response"],"seed":81},
+        {"language":"en-US","input":"How do GVYA structural patterns work?","meaning":"gvya.help.structural-patterns","conversation_mode":"topic_context","response_ids":["gvya.help.structural-patterns.overview"],"seed":82}
+      ]
+    },
+    {
+      "id":"quality.structural-route.fa",
+      "turns":[
+        {"language":"fa-IR","input":"matcher در GVYA چطور کار می‌کند؟","meaning":"gvya.help.matcher","conversation_mode":"answer","response_ids":["gvya.help.matcher.response"],"seed":83},
+        {"language":"fa-IR","input":"pattern ساختاری GVYA را توضیح بده","meaning":"gvya.help.structural-patterns","conversation_mode":"topic_context","response_ids":["gvya.help.structural-patterns.overview"],"seed":84}
+      ]
+    }
+  ]
+}

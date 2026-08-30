@@ -1,0 +1,30 @@
+{
+  "id": "backup.usb",
+  "value": {
+    "id": "backup.usb",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "usb backup"
+      },
+      {
+        "language": "en",
+        "text": "backup scans"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i back up scans to usb"
+      },
+      {
+        "language": "en",
+        "text": "make a usb backup of documents"
+      },
+      {
+        "language": "en",
+        "text": "copy scans to a usb drive"
+      }
+    ]
+  }
+}

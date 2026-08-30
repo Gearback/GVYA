@@ -1,0 +1,142 @@
+{
+  "exported": true,
+  "id": "gvya.help.assets-links",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.assets-links",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what are extra messages"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a response plan"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پیام های اضافی چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "response plan چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "asset link image url https label alt renderer dedupe"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دارایی لینک تصویر url برچسب جایگزین رندر حذف تکراری"
+      },
+      {
+        "language": "fa-IR",
+        "text": "asset link اعلام شده"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "can a response include an image"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i attach an asset"
+      },
+      {
+        "language": "en-US",
+        "text": "can a response contain a link"
+      },
+      {
+        "language": "en-US",
+        "text": "what url schemes are allowed"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a label length limit"
+      },
+      {
+        "language": "en-US",
+        "text": "are duplicate urls removed"
+      },
+      {
+        "language": "en-US",
+        "text": "how are assets rendered"
+      },
+      {
+        "language": "en-US",
+        "text": "explain assets and links"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پاسخ می تواند تصویر داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک asset پیوست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پاسخ می تواند لینک داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه پروتکل هایی برای url مجاز است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای برچسب محدودیت طول هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "url های تکراری حذف می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "asset ها چطور رندر می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "asset و لینک را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "can i attach an image"
+      },
+      {
+        "language": "en-US",
+        "text": "can a response include a link"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم عکس ضمیمه کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "asset link اعلام شده"
+      },
+      {
+        "language": "en-US",
+        "text": "what are assets for"
+      },
+      {
+        "language": "en-US",
+        "text": "what are assets used for"
+      },
+      {
+        "language": "fa-IR",
+        "text": "asset ها به چه درد می خورند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "asset برای چیست"
+      }
+    ]
+  }
+}

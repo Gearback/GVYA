@@ -1,0 +1,170 @@
+{
+  "exported": true,
+  "id": "gvya.help.trace",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.trace",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i test my bot"
+      },
+      {
+        "language": "en-US",
+        "text": "what tools exist for finding a bad answer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بات خودم را تست کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای پیدا کردن پاسخ غلط چه ابزاری هست"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate won reason explanation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دلیل برنده candidate توضیح"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "trace why event reason code correlation visibility inspect"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رد چرا رویداد کد دلیل همبستگی مشاهده بازرسی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "trace تصمیم matcher اطلاعات"
+      },
+      {
+        "language": "en-US",
+        "text": "audit trail decision record explanation single interaction recorded"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ثبت رکورد سابقه رویداد دلیل کد توضیح ساختاریافته تعامل"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a trace"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i see why it answered that"
+      },
+      {
+        "language": "en-US",
+        "text": "what is in a trace event"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the why panel built from"
+      },
+      {
+        "language": "en-US",
+        "text": "are trace ids stable"
+      },
+      {
+        "language": "en-US",
+        "text": "can i debug a decision without raw logs"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a reason code"
+      },
+      {
+        "language": "en-US",
+        "text": "explain traces"
+      },
+      {
+        "language": "fa-IR",
+        "text": "trace چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور ببینم چرا این جواب را داد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک رویداد trace شامل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پنل why از چه چیزی ساخته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شناسه trace پایدار است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم بدون لاگ خام یک تصمیم را دیباگ کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کد دلیل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "trace ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "show me the trace"
+      },
+      {
+        "language": "fa-IR",
+        "text": "trace را نشانم بده"
+      },
+      {
+        "language": "en-US",
+        "text": "trace"
+      },
+      {
+        "language": "fa-IR",
+        "text": "trace تصمیم matcher اطلاعات"
+      },
+      {
+        "language": "en-US",
+        "text": "what is recorded while gvya answers one turn"
+      },
+      {
+        "language": "en-US",
+        "text": "is there an audit trail for a single interaction"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the structured explanation record contain"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هنگام پاسخ دادن به یک نوبت چه چیزی ثبت می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برای یک تعامل رد پای قابل بازرسی وجود دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سابقه تصمیم ها کجا ثبت می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رکورد ساختاریافته یک تعامل چیست"
+      }
+    ]
+  }
+}

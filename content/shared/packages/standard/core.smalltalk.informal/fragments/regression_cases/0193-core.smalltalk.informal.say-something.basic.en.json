@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.say-something.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.say-something",
+      "response_ids": [
+        "core.smalltalk.informal.say-something.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.say-something.basic.en",
+    "initial_state": {},
+    "input": "say something",
+    "language": "en-US",
+    "seed": 1
+  }
+}

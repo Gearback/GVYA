@@ -1,0 +1,154 @@
+{
+  "exported": true,
+  "id": "gvya.help.entity",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.entity",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a slot"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a host reference"
+      },
+      {
+        "language": "fa-IR",
+        "text": "slot چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host reference چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "entity typed value number date duration color enum span"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entity مقدار تایپ شده عدد تاریخ مدت رنگ"
+      },
+      {
+        "language": "en-US",
+        "text": "recognized entities meaning data"
+      },
+      {
+        "language": "en-US",
+        "text": "recognized typed value attached semantic result entity extracted number date span enum"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقدار typed تشخیص داده شده متصل نتیجه semantic entity استخراج عدد تاریخ span enum"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is an entity in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what entity types are recognized"
+      },
+      {
+        "language": "en-US",
+        "text": "does it detect numbers and dates"
+      },
+      {
+        "language": "en-US",
+        "text": "can i add my own entity kinds"
+      },
+      {
+        "language": "en-US",
+        "text": "are entities host objects"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a typed semantic value"
+      },
+      {
+        "language": "en-US",
+        "text": "does it recognize colors and units"
+      },
+      {
+        "language": "en-US",
+        "text": "explain entities"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entity در gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه نوع entity هایی شناسایی می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عدد و تاریخ را تشخیص می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم نوع entity خودم را اضافه کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entity ها شی میزبان هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مقدار معنایی تایپ شده چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رنگ و واحد را تشخیص می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entity ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is an entity"
+      },
+      {
+        "language": "fa-IR",
+        "text": "entity چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "entity"
+      },
+      {
+        "language": "en-US",
+        "text": "entities"
+      },
+      {
+        "language": "en-US",
+        "text": "recognized entities meaning data"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it recognise a number or a date in my sentence"
+      },
+      {
+        "language": "en-US",
+        "text": "what typed values can it pull out of text"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور عدد یا تاریخ را داخل جمله تشخیص می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه مقادیر typed ای را از متن بیرون می کشد"
+      }
+    ]
+  }
+}

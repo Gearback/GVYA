@@ -1,0 +1,30 @@
+{
+  "id": "soft.restart",
+  "value": {
+    "id": "soft.restart",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "soft restart"
+      },
+      {
+        "language": "en",
+        "text": "restart preserve"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i restart foliobox without losing scans"
+      },
+      {
+        "language": "en",
+        "text": "restart foliobox without deleting anything"
+      },
+      {
+        "language": "en",
+        "text": "reboot and keep my scans"
+      }
+    ]
+  }
+}

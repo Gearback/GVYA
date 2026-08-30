@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.projects-bots.heldout.fa.2",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Project and Bot ownership, languages, and configuration held-out fa-IR coverage 2",
+    "expectation": {
+      "meaning": "gvya.help.projects-bots",
+      "response_ids": [
+        "gvya.help.projects-bots.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.projects-bots.heldout.fa.2",
+    "initial_state": {},
+    "input": "پروژه چه نسبتی با بات‌های داخلش داره؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

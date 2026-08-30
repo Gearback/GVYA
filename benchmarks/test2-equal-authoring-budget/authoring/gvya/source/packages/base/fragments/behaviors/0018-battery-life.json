@@ -1,0 +1,20 @@
+{
+  "id": "battery.life.behavior",
+  "value": {
+    "id": "battery.life.behavior",
+    "meaning": "battery.life",
+    "responses": [
+      {
+        "id": "battery.life.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:BATTERY_LIFE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

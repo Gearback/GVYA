@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.candidate-retrieval.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.candidate-retrieval.behavior",
+    "meaning": "gvya.help.candidate-retrieval",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Ranking uses integer and fixed-point posting weights so ordering never depends on platform floating-point behavior. Posting saturation is traced, and dangerous exact fanout fails closed rather than becoming hidden catalog-order authority."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "رتبه‌بندی از وزن‌های صحیح و ممیزثابت استفاده می‌کند تا ترتیب هرگز به رفتار اعشاری پلتفرم وابسته نباشد. اشباع posting ردیابی می‌شود و فن‌اوت دقیقِ خطرناک به‌جای تبدیل شدن به مرجع پنهانِ ترتیب کاتالوگ، fail-closed می‌شود."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.candidate-retrieval.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Candidates normally come from deterministic bounded indexes — exact-sample, content, meta and start indexes. If that frontier contains no decision-grade sample evidence, a small or medium catalog can run one bounded exhaustive strong-sample rescue through the same scorer; weak or retrieval-only rows found by that scan are discarded."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نامزدها معمولاً از ایندکس‌های قطعی و محدود می‌آیند — نمونهٔ دقیق، محتوا، متا و شروع. اگر این frontier هیچ شاهد نمونه‌ای در حد تصمیم نداشته باشد، کاتالوگ کوچک یا متوسط می‌تواند یک rescue سراسریِ محدود برای نمونه‌های قوی با همان scorer اجرا کند؛ ردیف‌های ضعیف یا صرفاً retrieval که در این اسکن پیدا شوند کنار گذاشته می‌شوند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "support.help.proof",
+  "value": {
+    "context": {},
+    "description": "Direct proof",
+    "expectation": {
+      "meaning": "support.help",
+      "response_ids": [
+        "support.help.behavior.answer"
+      ]
+    },
+    "generated": false,
+    "id": "support.help.proof",
+    "initial_state": {},
+    "input": "help me",
+    "language": "en",
+    "seed": 1
+  }
+}

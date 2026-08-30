@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-angry.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.im-angry.behavior",
+    "meaning": "core.smalltalk.informal.im-angry",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.im-angry.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Then don’t waste it blindly.",
+              "Anger needs direction.",
+              "Use it, don’t let it use you."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پس کورکورانه هدرش نده.",
+              "خشم جهت می‌خواد.",
+              "ازش استفاده کن، نذار ازت استفاده کنه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

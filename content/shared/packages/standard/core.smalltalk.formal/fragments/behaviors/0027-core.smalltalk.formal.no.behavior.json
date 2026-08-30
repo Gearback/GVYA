@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.no.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.no.behavior",
+    "meaning": "core.smalltalk.formal.no",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.no.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "All right.",
+              "Then no.",
+              "Understood.",
+              "Very well."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه.",
+              "پس نه.",
+              "فهمیدم.",
+              "بسیار خوب."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

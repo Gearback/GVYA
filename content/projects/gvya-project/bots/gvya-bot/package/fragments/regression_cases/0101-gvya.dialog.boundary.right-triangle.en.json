@@ -1,0 +1,23 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.boundary.right-triangle.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Right as adjective must not become agreement Smalltalk",
+    "expectation": {
+      "forbidden_meanings": [
+        "core.smalltalk.formal.thats-true"
+      ],
+      "response_ids": [
+        "gvya.fallback.formal.unresolved.stage-1.redirect"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.boundary.right-triangle.en",
+    "initial_state": {},
+    "input": "right triangle formula",
+    "language": "en-US",
+    "seed": 1
+  }
+}

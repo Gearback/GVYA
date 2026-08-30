@@ -1,0 +1,14 @@
+{
+  "exported": true,
+  "id": "iot.device.switch.allow",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.switch",
+    "conditions": [
+      { "namespace": "context", "op": "equal", "path": "iot.confirmation_required", "value": false }
+    ],
+    "effect": { "type": "allow" },
+    "id": "iot.device.switch.allow",
+    "priority": 0
+  }
+}

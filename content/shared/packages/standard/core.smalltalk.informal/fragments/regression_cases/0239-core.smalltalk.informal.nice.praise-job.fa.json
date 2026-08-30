@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.nice.praise-job.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Informal fa-IR praise phrase coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.nice",
+      "response_ids": [
+        "core.smalltalk.informal.nice.response"
+      ]
+    },
+    "generated": false,
+    "id": "core.smalltalk.informal.nice.praise-job.fa",
+    "initial_state": {},
+    "input": "کارت عالی بود",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "exported": true,
+  "id": "gvya.m1.boundary.regex-patterns.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generic regex pattern wording must not be stolen by GVYA structural-pattern help",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.structural-patterns"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.m1.boundary.regex-patterns.en",
+    "initial_state": {},
+    "input": "What are regular expression patterns for?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

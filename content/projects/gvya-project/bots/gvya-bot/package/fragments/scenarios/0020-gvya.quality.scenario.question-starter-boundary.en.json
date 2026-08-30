@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.question-starter-boundary.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "An auxiliary-verb question after an answer starts a new Meaning instead of reusing the previous Behavior",
+    "generated": false,
+    "id": "gvya.quality.scenario.question-starter-boundary.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.about"
+        },
+        "language": "en-US",
+        "say": "what is GVYA?",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.comparison"
+        },
+        "language": "en-US",
+        "say": "is this a chatbot builder?",
+        "seed": 2,
+        "type": "turn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.simplify.offer.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.offer",
+    "id": "gvya.dialog.simplify.offer.behavior",
+    "meaning": "gvya.dialog.simplify",
+    "responses": [
+      {
+        "conditions": [
+          {
+            "namespace": "conversation",
+            "op": "equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.bot-abilities"
+          }
+        ],
+        "id": "gvya.dialog.simplify.offer.abilities",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Short version: I can explain GVYA, help you author and test Bots, debug matching, and show how the compiled brain connects to your app without executing host actions itself."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نسخهٔ ساده: می‌توانم GVYA را توضیح بدهم، در ساخت و تست Bot کمک کنم، matching را عیب‌یابی کنم و نشان بدهم brain کامپایل‌شده چطور به برنامه وصل می‌شود بدون اینکه خودش کارهای host را اجرا کند."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "conversation",
+            "op": "equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.build-artifact"
+          }
+        ],
+        "id": "gvya.dialog.simplify.offer.build",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Short version: edit the Bot source, compile a new .gvya brain, and ship that file; ordinary content changes do not require rebuilding the Rust Engine."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نسخهٔ ساده: source بات را تغییر بده، یک brain جدید با پسوند .gvya کامپایل کن و همان فایل را منتشر کن؛ تغییر معمول محتوا نیاز به rebuild کردن Rust Engine ندارد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

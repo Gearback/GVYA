@@ -1,0 +1,218 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.yes",
+  "mode": {
+    "target_id": "core.smalltalk.formal.yes",
+    "target_package": "core.smalltalk.formal",
+    "type": "replace"
+  },
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.yes",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "no thanks"
+      },
+      {
+        "language": "en-US",
+        "text": "not now"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نه ممنون"
+      },
+      {
+        "language": "fa-IR",
+        "text": "الان نه"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "accepting affirmative proceed"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پذیرش موافقت ادامه"
+      },
+      {
+        "language": "en-US",
+        "text": "yes"
+      },
+      {
+        "language": "en-US",
+        "text": "ok"
+      },
+      {
+        "language": "en-US",
+        "text": "okay"
+      },
+      {
+        "language": "en-US",
+        "text": "sure"
+      },
+      {
+        "language": "en-US",
+        "text": "yeah"
+      },
+      {
+        "language": "en-US",
+        "text": "yep"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بله"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باشه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اوکی"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "yeah"
+      },
+      {
+        "language": "en-US",
+        "text": "yep"
+      },
+      {
+        "language": "en-US",
+        "text": "sure"
+      },
+      {
+        "language": "en-US",
+        "text": "ok"
+      },
+      {
+        "language": "en-US",
+        "text": "okay"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باشه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اوکی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حتما"
+      },
+      {
+        "language": "en-US",
+        "text": "yes"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بله"
+      },
+      {
+        "language": "en-US",
+        "text": "yes please"
+      },
+      {
+        "language": "en-US",
+        "text": "yes go ahead"
+      },
+      {
+        "language": "en-US",
+        "text": "go ahead"
+      },
+      {
+        "language": "en-US",
+        "text": "please do"
+      },
+      {
+        "language": "en-US",
+        "text": "sounds good"
+      },
+      {
+        "language": "en-US",
+        "text": "yes show me"
+      },
+      {
+        "language": "en-US",
+        "text": "sure tell me"
+      },
+      {
+        "language": "en-US",
+        "text": "yes i want that"
+      },
+      {
+        "language": "en-US",
+        "text": "lets do it"
+      },
+      {
+        "language": "en-US",
+        "text": "yes please continue"
+      },
+      {
+        "language": "en-US",
+        "text": "that would help"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بله لطفا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آره بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بگو ببینم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لطفا بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خوب است بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بله می خواهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حتما بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بله همین را می خواهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بریم جلو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آره لطفا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بله بگو"
+      }
+    ]
+  }
+}

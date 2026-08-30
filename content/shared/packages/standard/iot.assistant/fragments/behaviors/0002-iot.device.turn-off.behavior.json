@@ -1,0 +1,19 @@
+{
+  "exported": true,
+  "id": "iot.device.turn-off.behavior",
+  "mode": "add",
+  "value": {
+    "id": "iot.device.turn-off.behavior",
+    "meaning": "iot.device.turn-off",
+    "responses": [
+      {
+        "id": "iot.device.turn-off.requested",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device turn-off request is ready."] },
+          { "language": "fa-IR", "variants": ["درخواست خاموش‌کردن دستگاه آماده است."] }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.route.back-architecture.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Natural topic return",
+    "expectation": {
+      "meaning": "gvya.help.architecture",
+      "response_ids": [
+        "gvya.help.architecture.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.route.back-architecture.en",
+    "initial_state": {},
+    "input": "back to architecture",
+    "language": "en-US",
+    "seed": 1
+  }
+}

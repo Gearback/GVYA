@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.im-scared.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.im-scared",
+      "response_ids": [
+        "core.smalltalk.informal.im-scared.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.im-scared.basic.fa",
+    "initial_state": {},
+    "input": "می‌ترسم",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

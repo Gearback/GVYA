@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.interesting",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.interesting",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "interesting"
+      },
+      {
+        "language": "en-US",
+        "text": "that's interesting"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جالبه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه جالب"
+      }
+    ]
+  }
+}

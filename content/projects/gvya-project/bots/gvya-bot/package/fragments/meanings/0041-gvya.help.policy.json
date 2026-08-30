@@ -1,0 +1,194 @@
+{
+  "exported": true,
+  "id": "gvya.help.policy",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.policy",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is admission"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a capability binding"
+      },
+      {
+        "language": "fa-IR",
+        "text": "admission چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "capability binding چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the ordered gate between a binding and a proposal"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین binding و proposal چه دروازه ترتیب داری هست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "policy deterministic rule constrains clearance ownership risk"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سیاست قاعده قطعی محدود کننده نقش مالکیت ریسک"
+      },
+      {
+        "language": "en-US",
+        "text": "permission policy action evaluation"
+      },
+      {
+        "language": "en-US",
+        "text": "proposed action permitted policy"
+      },
+      {
+        "language": "en-US",
+        "text": "side effect allowed denied rule permission proposal authored policy risk role confirmation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "side effect مجاز رد rule permission proposal authored policy ریسک نقش confirmation"
+      },
+      {
+        "language": "en-US",
+        "text": "guardrail restrict allow deny require approval permission ratelimit role clearance"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محدودیت ایمنی اجازه رد تایید اجباری مجوز سقف تعداد چه کسی"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a policy in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i restrict a capability"
+      },
+      {
+        "language": "en-US",
+        "text": "can policy check roles and ownership"
+      },
+      {
+        "language": "en-US",
+        "text": "does policy execute the capability"
+      },
+      {
+        "language": "en-US",
+        "text": "what can a policy look at"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i require confirmation"
+      },
+      {
+        "language": "en-US",
+        "text": "what is risk class"
+      },
+      {
+        "language": "en-US",
+        "text": "explain policies"
+      },
+      {
+        "language": "fa-IR",
+        "text": "policy در gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک capability را محدود کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "policy می تواند نقش و مالکیت را بررسی کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "policy خود capability را اجرا می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "policy به چه چیزی نگاه می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور تایید اجباری کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کلاس ریسک چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "policy ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a policy"
+      },
+      {
+        "language": "fa-IR",
+        "text": "policy چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "policy"
+      },
+      {
+        "language": "en-US",
+        "text": "proposed action permitted policy"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i stop a dangerous action unless the user confirms"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i put a guard rail on an operation"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i limit who is allowed to trigger something"
+      },
+      {
+        "language": "en-US",
+        "text": "can i require approval before anything destructive"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i rate limit an action"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور جلوی یک اکشن خطرناک را بگیرم مگر اینکه کاربر تایید کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور روی یک عملیات محدودیت ایمنی بگذارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور محدود کنم چه کسی اجازه دارد کاری را شروع کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم قبل از هر کار مخرب تایید اجباری کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور تعداد دفعات اجرای یک اکشن را محدود کنم"
+      }
+    ]
+  }
+}

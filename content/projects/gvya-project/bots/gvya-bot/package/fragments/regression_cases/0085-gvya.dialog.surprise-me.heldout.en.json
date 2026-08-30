@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.surprise-me.heldout.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Discovery mode held-out English",
+    "expectation": {
+      "meaning": "gvya.dialog.surprise-me",
+      "response_ids": [
+        "gvya.dialog.surprise-me.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.surprise-me.heldout.en",
+    "initial_state": {},
+    "input": "Give me a weird useful GVYA fact.",
+    "language": "en-US",
+    "seed": 7
+  }
+}

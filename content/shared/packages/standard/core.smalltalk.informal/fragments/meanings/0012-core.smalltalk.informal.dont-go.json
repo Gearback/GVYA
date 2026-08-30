@@ -1,0 +1,44 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.dont-go",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.dont-go",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "don't go"
+      },
+      {
+        "language": "en-US",
+        "text": "stay"
+      },
+      {
+        "language": "en-US",
+        "text": "please stay"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمون"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نرو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لطفا بمون"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بمون"
+      }
+    ]
+  }
+}

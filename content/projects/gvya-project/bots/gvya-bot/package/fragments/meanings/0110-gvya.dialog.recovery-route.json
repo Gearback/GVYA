@@ -1,0 +1,43 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.recovery-route",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.recovery-route",
+    "negative_samples": [],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "<set:gvya_recovery_routes>{route}"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 40,
+        "text": "<set:gvya_recovery_routes>{route}"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [],
+    "slots": [
+      {
+        "elicitation": [
+          {
+            "language": "en-US",
+            "text": "Which route? Send 1 for concepts, 2 for authoring, 3 for debug matching, or 4 to explore."
+          },
+          {
+            "language": "fa-IR",
+            "text": "کدام مسیر؟ ۱ برای مفاهیم، ۲ برای ساخت بات، ۳ برای رفع مشکل match، یا ۴ برای یه چیز جالب."
+          }
+        ],
+        "name": "route",
+        "required": true,
+        "type": "string"
+      }
+    ]
+  }
+}

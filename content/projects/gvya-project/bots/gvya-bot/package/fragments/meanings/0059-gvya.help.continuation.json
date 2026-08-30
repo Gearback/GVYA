@@ -1,0 +1,158 @@
+{
+  "exported": true,
+  "id": "gvya.help.continuation",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.continuation",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "tell me about an unrelated science topic"
+      },
+      {
+        "language": "en-US",
+        "text": "tell me a cooking recipe for soup"
+      },
+      {
+        "language": "en-US",
+        "text": "explain a new subject instead of continuing the prior answer"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a follow up scope"
+      },
+      {
+        "language": "en-US",
+        "text": "what does it remember between turns"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دامنه follow up چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین نوبت ها چه چیزی را به یاد دارد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "continuation referential short prior focus pronoun starter blocked"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ادامه ارجاعی کوتاه قبلی تمرکز ضمیر آغازگر مسدود"
+      },
+      {
+        "language": "en-US",
+        "text": "tell me more previous meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "vague referential reply previous subject reuse prior focus more about that continuation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پاسخ مبهم ارجاعی موضوع قبلی reuse focus prior بیشتر continuation وصل turn قبلی"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is short referential continuation"
+      },
+      {
+        "language": "en-US",
+        "text": "why does tell me more repeat the last answer"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it understand that one"
+      },
+      {
+        "language": "en-US",
+        "text": "what blocks a continuation"
+      },
+      {
+        "language": "en-US",
+        "text": "does continuation invent a score"
+      },
+      {
+        "language": "en-US",
+        "text": "why is a how question not a continuation"
+      },
+      {
+        "language": "en-US",
+        "text": "which phrases count as continuation"
+      },
+      {
+        "language": "en-US",
+        "text": "explain continuation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ادامه ارجاعی کوتاه چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا بیشتر بگو همان جواب قبلی را تکرار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور می فهمد منظور همان است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی جلوی continuation را می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "continuation امتیاز جعلی می سازد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا یک سوال چطور یک continuation نیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه عبارت هایی continuation حساب می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "continuation را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a continuation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "continuation چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "tell me more previous meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "can it understand a short reply that refers to the last answer"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens if i just say and what about that"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می تواند یک جواب کوتاه که به پاسخ قبلی اشاره دارد را بفهمد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر فقط بگویم و آن یکی چه می شود"
+      }
+    ]
+  }
+}

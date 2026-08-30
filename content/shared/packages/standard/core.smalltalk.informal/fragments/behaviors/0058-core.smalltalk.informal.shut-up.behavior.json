@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.shut-up.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.shut-up.behavior",
+    "meaning": "core.smalltalk.informal.shut-up",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.shut-up.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "No.",
+              "You can ask better than that.",
+              "Try again without that tone."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نه.",
+              "بهتر از این هم می‌تونی بپرسی.",
+              "با اون لحن نه؛ دوباره تلاش کن."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

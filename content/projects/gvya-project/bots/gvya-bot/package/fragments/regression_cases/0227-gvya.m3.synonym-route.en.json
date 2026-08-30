@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m3.synonym-route.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "M3 route-collision proof",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.typo-tolerance"
+      ],
+      "meaning": "gvya.help.synonym-alias-semantics"
+    },
+    "generated": false,
+    "id": "gvya.m3.synonym-route.en",
+    "initial_state": {},
+    "input": "Can the matcher understand equivalent wording?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

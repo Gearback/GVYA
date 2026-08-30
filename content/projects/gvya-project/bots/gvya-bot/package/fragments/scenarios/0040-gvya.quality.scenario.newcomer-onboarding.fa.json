@@ -1,0 +1,134 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.newcomer-onboarding.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A Persian newcomer can discover the Bot, get a concrete example, start building, and switch topics through natural colloquial questions",
+    "generated": false,
+    "id": "gvya.quality.scenario.newcomer-onboarding.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "core.smalltalk.formal.hello",
+          "response_ids": [
+            "core.smalltalk.formal.hello.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "سلام",
+        "seed": 821,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.bot-abilities",
+          "response_ids": [
+            "gvya.help.bot-abilities.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "تو چه کاری انجام می‌دی؟",
+        "seed": 822,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.determinism-security",
+          "response_ids": [
+            "gvya.help.determinism-security.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "منظورت از رفتار قطعی چیه؟",
+        "seed": 823,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.example",
+          "response_ids": [
+            "gvya.dialog.example.determinism.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "یه مثال خیلی ساده بزن",
+        "seed": 824,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.getting-started",
+          "response_ids": [
+            "gvya.help.getting-started.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "من تازه‌کارم از کجا شروع کنم؟",
+        "seed": 825,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.getting-started",
+          "response_ids": [
+            "gvya.help.getting-started.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "برای ساخت بات باید برنامه‌نویسی بلد باشم؟",
+        "seed": 826,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.comparison",
+          "response_ids": [
+            "gvya.help.comparison.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "فرقش با چت‌بات هوش مصنوعی معمولی چیه؟",
+        "seed": 827,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.use-cases",
+          "response_ids": [
+            "gvya.help.use-cases.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "می‌تونم باهاش برای بازی NPC بسازم؟",
+        "seed": 828,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.use-cases",
+          "response_ids": [
+            "gvya.help.use-cases.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "خلاصه بگو این ابزار به درد من می‌خوره یا نه",
+        "seed": 829,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.fallback",
+          "response_ids": [
+            "gvya.help.fallback.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "اگه بات منظورم رو اشتباه بفهمه چی؟",
+        "seed": 830,
+        "type": "turn"
+      }
+    ]
+  }
+}

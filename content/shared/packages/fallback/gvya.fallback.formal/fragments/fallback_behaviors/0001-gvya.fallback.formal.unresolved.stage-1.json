@@ -1,0 +1,60 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.formal.unresolved.stage-1",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "less_or_equal",
+        "path": "repairCount",
+        "value": 0
+      }
+    ],
+    "id": "gvya.fallback.formal.unresolved.stage-1",
+    "priority": 0,
+    "responses": [
+      {
+        "id": "gvya.fallback.formal.unresolved.not-understood",
+        "kind": "fallback",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Pardon?",
+              "I did not catch that clearly."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ببخشید؟",
+              "متوجه منظورتان نشدم."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gvya.fallback.formal.unresolved.more-detail",
+        "kind": "fallback",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Please provide a little more detail.",
+              "Could you make the question more specific?"
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "لطفاً کمی جزئیات بیشتری ارائه دهید.",
+              "ممکن است پرسش را مشخص‌تر مطرح کنید؟"
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "unresolved"
+  }
+}

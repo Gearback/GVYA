@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-agree.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.i-agree.behavior",
+    "meaning": "core.smalltalk.formal.i-agree",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.i-agree.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good.",
+              "Then we agree.",
+              "I am glad we are aligned."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوب است.",
+              "پس موافقیم.",
+              "خوشحالم که هم‌نظر هستیم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

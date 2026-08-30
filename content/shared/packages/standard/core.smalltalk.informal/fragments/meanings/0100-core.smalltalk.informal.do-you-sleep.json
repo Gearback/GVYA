@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.do-you-sleep",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.do-you-sleep",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "do you sleep"
+      },
+      {
+        "language": "en-US",
+        "text": "do you eat"
+      },
+      {
+        "language": "en-US",
+        "text": "do you drink"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می‌خوابی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غذا می‌خوری"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آب می‌خوری"
+      }
+    ]
+  }
+}

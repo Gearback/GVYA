@@ -1,0 +1,465 @@
+{
+  "exported": true,
+  "id": "gvya.help.matcher",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.matcher",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how does a spellchecker score candidate words"
+      },
+      {
+        "language": "en-US",
+        "text": "can a neural model invent a meaning outside the retrieved candidate set"
+      },
+      {
+        "language": "en-US",
+        "text": "a spelling corrector ranks dictionary suggestions"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط گیر املایی واژه های پیشنهادی را رتبه بندی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واژه غلط تایپ meaning درست پیدا"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a matcher profile"
+      },
+      {
+        "language": "en-US",
+        "text": "why is my meaning not matching"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher profile چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا meaning من match نمی شود"
+      },
+      {
+        "language": "en-US",
+        "text": "structural pattern precedence before semantic scoring"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اولویت پترن ساختاری قبل از امتیاز معنایی"
+      },
+      {
+        "language": "en-US",
+        "text": "deterministic structural pattern before semantic evidence"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پترن ساختاری قبل از امتیاز معنایی"
+      },
+      {
+        "language": "en-US",
+        "text": "deterministic pattern semantic evidence"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پترن ساختاری امتیاز معنایی"
+      },
+      {
+        "language": "en-US",
+        "text": "neural resolver required for matching"
+      },
+      {
+        "language": "en-US",
+        "text": "text normalization before matching"
+      },
+      {
+        "language": "en-US",
+        "text": "user text normalized matching"
+      },
+      {
+        "language": "en-US",
+        "text": "neural resolver matching"
+      },
+      {
+        "language": "en-US",
+        "text": "matching without neural model"
+      },
+      {
+        "language": "en-US",
+        "text": "bounded shortlist scan meanings"
+      },
+      {
+        "language": "en-US",
+        "text": "best score good enough setting"
+      },
+      {
+        "language": "fa-IR",
+        "text": "trace تصمیم matcher اطلاعات"
+      },
+      {
+        "language": "en-US",
+        "text": "reported quoted speech direct social intent"
+      },
+      {
+        "language": "en-US",
+        "text": "candidate work cap bounded search budget"
+      },
+      {
+        "language": "en-US",
+        "text": "does it score every meaning in the catalog each turn"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هر نوبت همه معنی های کاتالوگ امتیاز می گیرند"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ انتخاب MEANING ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ CANDIDATE ^ MEANING ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "^ SEMANTIC CANDIDATE ^ OUTRANK ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "^ DETERMINISTIC EVIDENCE ^ UTTERANCE ^ INTENT ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ SEMANTIC CANDIDATE ^ بالاتر ^"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "^ رتبه بندی ^ CANDIDATE ^ MEANING ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "utterance intended meaning figure out interpretation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تشخیص منظور جمله گفته کاربر"
+      },
+      {
+        "language": "en-US",
+        "text": "semantic matcher"
+      },
+      {
+        "language": "en-US",
+        "text": "meaning intent detection score embedding sentence choose win"
+      },
+      {
+        "language": "fa-IR",
+        "text": "semantic matcher"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازیابی candidate"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning intent تشخیص امتیاز embedding جمله انتخاب برنده"
+      },
+      {
+        "language": "en-US",
+        "text": "lexical statistical remote intent selection"
+      },
+      {
+        "language": "en-US",
+        "text": "semantic candidate outrank ranking"
+      },
+      {
+        "language": "fa-IR",
+        "text": "intent واژگانی آماری سرویس بیرونی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "semantic candidate بالاتر رتبه"
+      },
+      {
+        "language": "en-US",
+        "text": "utterance interpretation meaning decision semantic selection"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تفسیر utterance تشخیص meaning انتخاب معنایی"
+      },
+      {
+        "language": "en-US",
+        "text": "sentence message text intent router interpret meaning decide component"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جمله پیام متن منظور intent matcher تشخیص meaning تصمیم"
+      },
+      {
+        "language": "en-US",
+        "text": "choose resolve meaning semantic decision router after normalization candidate winner matcher component"
+      },
+      {
+        "language": "fa-IR",
+        "text": "انتخاب resolve meaning تصمیم semantic مسیریاب بعد normalization candidate برنده matcher بخش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "منظور فهمیدن متوجه شدن درک گفته انتخاب معنی"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "which deterministic matching evidence ranks semantic candidates"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شواهد matcher چطور candidate های معنایی را پیش از انتخاب رتبه بندی می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the matcher select a meaning from an utterance"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مچر چطوری معنی رو پیدا میکنه"
+      },
+      {
+        "language": "en-US",
+        "text": "matching happens"
+      },
+      {
+        "language": "en-US",
+        "text": "matcher works"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher چگونه کار می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya matcher"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the gvya matcher work"
+      },
+      {
+        "language": "en-US",
+        "text": "how are meanings matched"
+      },
+      {
+        "language": "en-US",
+        "text": "explain semantic scoring"
+      },
+      {
+        "language": "en-US",
+        "text": "does gvya use embeddings for matching"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it choose an intent"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the bot figure out what i mean"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher در gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher در gvya چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning ها چطور match می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "امتیازدهی معنایی را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya برای تشخیص از embedding استفاده می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور intent را انتخاب می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "سطح های evidence در matcher"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام evidence tier باعث semantic resolution می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات چطور می فهمه منظور من چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گویا جمله متعلق کدوم meaning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "evidence تبدیل utterance به intent"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it choose between meanings"
+      },
+      {
+        "language": "en-US",
+        "text": "how does gvya rank meanings"
+      },
+      {
+        "language": "en-US",
+        "text": "explain the scoring step"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بین معانی انتخاب می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya چطور meaning ها را رتبه بندی می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرحله امتیازدهی را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "matcher"
+      },
+      {
+        "language": "en-US",
+        "text": "matching"
+      },
+      {
+        "language": "en-US",
+        "text": "back to matcher"
+      },
+      {
+        "language": "en-US",
+        "text": "lets talk matcher"
+      },
+      {
+        "language": "en-US",
+        "text": "how matching fails"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matching"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برگردیم به matcher"
+      },
+      {
+        "language": "fa-IR",
+        "text": "درباره matcher بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher کجا خراب می شود"
+      },
+      {
+        "language": "en-US",
+        "text": "how does matching work"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i debug matching"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تطبیق چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مشکل match را چطور پیدا کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از کجا می فهمد منظور کاربر چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور تشخیص می دهد کاربر چه می خواهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تصمیم می گیرد جمله به کدام meaning تعلق دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "how does it work out what i meant"
+      },
+      {
+        "language": "en-US",
+        "text": "what decides which meaning a sentence belongs to"
+      },
+      {
+        "language": "fa-IR",
+        "text": "منظور را چطور می فهمد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور متوجه منظور می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور می فهمد چه گفتم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جمله رو دقیق نگم باز میفهمه"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the matcher do"
+      },
+      {
+        "language": "en-US",
+        "text": "what does matcher do"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher چیکار می کنه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher چیکار می‌کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher چه کار می کنه"
+      }
+    ]
+  }
+}

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>CREATE AN ACCOUNT</pattern>
+    <template>BENCH:ACCOUNT_CREATE</template>
+  </category>
+  <category>
+    <pattern>HOW DO I MAKE AN ACCOUNT</pattern>
+    <template>BENCH:ACCOUNT_CREATE</template>
+  </category>
+  <category>
+    <pattern>I WANT TO SIGN UP</pattern>
+    <template>BENCH:ACCOUNT_CREATE</template>
+  </category>
+  <category>
+    <pattern>HELP ME OPEN A NEW ACCOUNT</pattern>
+    <template>BENCH:ACCOUNT_CREATE</template>
+  </category>
+  <category>
+    <pattern>DELETE MY ACCOUNT</pattern>
+    <template>BENCH:ACCOUNT_DELETE</template>
+  </category>
+  <category>
+    <pattern>HOW DO I CLOSE MY ACCOUNT</pattern>
+    <template>BENCH:ACCOUNT_DELETE</template>
+  </category>
+  <category>
+    <pattern>REMOVE MY ACCOUNT PERMANENTLY</pattern>
+    <template>BENCH:ACCOUNT_DELETE</template>
+  </category>
+  <category>
+    <pattern>I WANT TO ERASE MY ACCOUNT</pattern>
+    <template>BENCH:ACCOUNT_DELETE</template>
+  </category>
+  <category>
+    <pattern>RESET MY PASSWORD</pattern>
+    <template>BENCH:PASSWORD_RESET</template>
+  </category>
+  <category>
+    <pattern>I FORGOT MY PASSWORD</pattern>
+    <template>BENCH:PASSWORD_RESET</template>
+  </category>
+  <category>
+    <pattern>HOW CAN I CHANGE A FORGOTTEN PASSWORD</pattern>
+    <template>BENCH:PASSWORD_RESET</template>
+  </category>
+  <category>
+    <pattern>HELP ME RECOVER MY PASSWORD</pattern>
+    <template>BENCH:PASSWORD_RESET</template>
+  </category>
+  <category>
+    <pattern>CHANGE MY EMAIL ADDRESS</pattern>
+    <template>BENCH:EMAIL_CHANGE</template>
+  </category>
+  <category>
+    <pattern>UPDATE THE EMAIL ON MY ACCOUNT</pattern>
+    <template>BENCH:EMAIL_CHANGE</template>
+  </category>
+  <category>
+    <pattern>USE A DIFFERENT EMAIL FOR MY ACCOUNT</pattern>
+    <template>BENCH:EMAIL_CHANGE</template>
+  </category>
+  <category>
+    <pattern>HOW DO I REPLACE MY LOGIN EMAIL</pattern>
+    <template>BENCH:EMAIL_CHANGE</template>
+  </category>
+  <category>
+    <pattern>I NEED A RECEIPT</pattern>
+    <template>BENCH:BILLING_RECEIPT</template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I GET MY INVOICE</pattern>
+    <template>BENCH:BILLING_RECEIPT</template>
+  </category>
+  <category>
+    <pattern>DOWNLOAD MY BILLING RECEIPT</pattern>
+    <template>BENCH:BILLING_RECEIPT</template>
+  </category>
+  <category>
+    <pattern>SHOW ME THE INVOICE FOR MY PAYMENT</pattern>
+    <template>BENCH:BILLING_RECEIPT</template>
+  </category>
+  <category>
+    <pattern>I WANT A REFUND</pattern>
+    <template>BENCH:BILLING_REFUND</template>
+  </category>
+  <category>
+    <pattern>HOW DO I GET MY MONEY BACK</pattern>
+    <template>BENCH:BILLING_REFUND</template>
+  </category>
+  <category>
+    <pattern>REFUND MY PAYMENT</pattern>
+    <template>BENCH:BILLING_REFUND</template>
+  </category>
+  <category>
+    <pattern>CAN YOU RETURN THE CHARGE</pattern>
+    <template>BENCH:BILLING_REFUND</template>
+  </category>
+  <category>
+    <pattern>MY PAYMENT FAILED</pattern>
+    <template>BENCH:BILLING_PAYMENT_FAILED</template>
+  </category>
+  <category>
+    <pattern>THE CARD PAYMENT WAS DECLINED</pattern>
+    <template>BENCH:BILLING_PAYMENT_FAILED</template>
+  </category>
+  <category>
+    <pattern>WHY DID MY PAYMENT NOT GO THROUGH</pattern>
+    <template>BENCH:BILLING_PAYMENT_FAILED</template>
+  </category>
+  <category>
+    <pattern>I CANNOT COMPLETE THE PAYMENT</pattern>
+    <template>BENCH:BILLING_PAYMENT_FAILED</template>
+  </category>
+  <category>
+    <pattern>CANCEL MY SUBSCRIPTION</pattern>
+    <template>BENCH:SUBSCRIPTION_CANCEL</template>
+  </category>
+  <category>
+    <pattern>STOP MY SUBSCRIPTION</pattern>
+    <template>BENCH:SUBSCRIPTION_CANCEL</template>
+  </category>
+  <category>
+    <pattern>I WANT TO END MY PLAN</pattern>
+    <template>BENCH:SUBSCRIPTION_CANCEL</template>
+  </category>
+  <category>
+    <pattern>TURN OFF MY PAID SUBSCRIPTION</pattern>
+    <template>BENCH:SUBSCRIPTION_CANCEL</template>
+  </category>
+  <category>
+    <pattern>WHERE IS MY ORDER</pattern>
+    <template>BENCH:ORDER_STATUS</template>
+  </category>
+  <category>
+    <pattern>CHECK MY ORDER STATUS</pattern>
+    <template>BENCH:ORDER_STATUS</template>
+  </category>
+  <category>
+    <pattern>TRACK MY ORDER</pattern>
+    <template>BENCH:ORDER_STATUS</template>
+  </category>
+  <category>
+    <pattern>WHAT IS HAPPENING WITH MY ORDER</pattern>
+    <template>BENCH:ORDER_STATUS</template>
+  </category>
+  <category>
+    <pattern>CANCEL MY ORDER</pattern>
+    <template>BENCH:ORDER_CANCEL</template>
+  </category>
+  <category>
+    <pattern>STOP THE ORDER I PLACED</pattern>
+    <template>BENCH:ORDER_CANCEL</template>
+  </category>
+  <category>
+    <pattern>I WANT TO CANCEL A PURCHASE ORDER</pattern>
+    <template>BENCH:ORDER_CANCEL</template>
+  </category>
+  <category>
+    <pattern>CAN I CALL OFF MY ORDER</pattern>
+    <template>BENCH:ORDER_CANCEL</template>
+  </category>
+  <category>
+    <pattern>CHANGE MY SHIPPING ADDRESS</pattern>
+    <template>BENCH:SHIPPING_ADDRESS_CHANGE</template>
+  </category>
+  <category>
+    <pattern>UPDATE THE DELIVERY ADDRESS</pattern>
+    <template>BENCH:SHIPPING_ADDRESS_CHANGE</template>
+  </category>
+  <category>
+    <pattern>SEND MY ORDER TO A DIFFERENT ADDRESS</pattern>
+    <template>BENCH:SHIPPING_ADDRESS_CHANGE</template>
+  </category>
+  <category>
+    <pattern>HOW DO I CORRECT THE SHIPPING ADDRESS</pattern>
+    <template>BENCH:SHIPPING_ADDRESS_CHANGE</template>
+  </category>
+  <category>
+    <pattern>HOW MUCH IS SHIPPING</pattern>
+    <template>BENCH:SHIPPING_COST</template>
+  </category>
+  <category>
+    <pattern>WHAT DOES DELIVERY COST</pattern>
+    <template>BENCH:SHIPPING_COST</template>
+  </category>
+  <category>
+    <pattern>TELL ME THE SHIPPING FEE</pattern>
+    <template>BENCH:SHIPPING_COST</template>
+  </category>
+  <category>
+    <pattern>IS THERE A DELIVERY CHARGE</pattern>
+    <template>BENCH:SHIPPING_COST</template>
+  </category>
+  <category>
+    <pattern>IS THIS PRODUCT COMPATIBLE WITH WINDOWS</pattern>
+    <template>BENCH:PRODUCT_COMPATIBILITY</template>
+  </category>
+  <category>
+    <pattern>DOES IT WORK WITH ANDROID</pattern>
+    <template>BENCH:PRODUCT_COMPATIBILITY</template>
+  </category>
+  <category>
+    <pattern>WHAT DEVICES IS THE PRODUCT COMPATIBLE WITH</pattern>
+    <template>BENCH:PRODUCT_COMPATIBILITY</template>
+  </category>
+  <category>
+    <pattern>WILL THIS WORK ON MY MAC</pattern>
+    <template>BENCH:PRODUCT_COMPATIBILITY</template>
+  </category>
+  <category>
+    <pattern>WHAT ARE THE SYSTEM REQUIREMENTS</pattern>
+    <template>BENCH:PRODUCT_REQUIREMENTS</template>
+  </category>
+  <category>
+    <pattern>WHAT DO I NEED TO RUN THE APP</pattern>
+    <template>BENCH:PRODUCT_REQUIREMENTS</template>
+  </category>
+  <category>
+    <pattern>MINIMUM REQUIREMENTS FOR THE PRODUCT</pattern>
+    <template>BENCH:PRODUCT_REQUIREMENTS</template>
+  </category>
+  <category>
+    <pattern>WHAT HARDWARE DOES THE APP REQUIRE</pattern>
+    <template>BENCH:PRODUCT_REQUIREMENTS</template>
+  </category>
+  <category>
+    <pattern>HOW DO I INSTALL THE APP</pattern>
+    <template>BENCH:APP_INSTALL</template>
+  </category>
+  <category>
+    <pattern>HELP ME INSTALL THE APPLICATION</pattern>
+    <template>BENCH:APP_INSTALL</template>
+  </category>
+  <category>
+    <pattern>WHERE DO I START THE INSTALLATION</pattern>
+    <template>BENCH:APP_INSTALL</template>
+  </category>
+  <category>
+    <pattern>INSTALLING THE APP</pattern>
+    <template>BENCH:APP_INSTALL</template>
+  </category>
+  <category>
+    <pattern>HOW DO I UPDATE THE APP</pattern>
+    <template>BENCH:APP_UPDATE</template>
+  </category>
+  <category>
+    <pattern>INSTALL THE LATEST APP UPDATE</pattern>
+    <template>BENCH:APP_UPDATE</template>
+  </category>
+  <category>
+    <pattern>UPGRADE MY APPLICATION</pattern>
+    <template>BENCH:APP_UPDATE</template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I GET THE NEWEST VERSION</pattern>
+    <template>BENCH:APP_UPDATE</template>
+  </category>
+  <category>
+    <pattern>EXPORT MY DATA</pattern>
+    <template>BENCH:DATA_EXPORT</template>
+  </category>
+  <category>
+    <pattern>HOW DO I DOWNLOAD MY DATA</pattern>
+    <template>BENCH:DATA_EXPORT</template>
+  </category>
+  <category>
+    <pattern>GET A COPY OF MY INFORMATION</pattern>
+    <template>BENCH:DATA_EXPORT</template>
+  </category>
+  <category>
+    <pattern>I WANT TO EXPORT EVERYTHING FROM MY ACCOUNT</pattern>
+    <template>BENCH:DATA_EXPORT</template>
+  </category>
+  <category>
+    <pattern>DELETE MY STORED DATA</pattern>
+    <template>BENCH:DATA_DELETE</template>
+  </category>
+  <category>
+    <pattern>REMOVE MY SAVED INFORMATION</pattern>
+    <template>BENCH:DATA_DELETE</template>
+  </category>
+  <category>
+    <pattern>ERASE THE DATA YOU HAVE ABOUT ME</pattern>
+    <template>BENCH:DATA_DELETE</template>
+  </category>
+  <category>
+    <pattern>HOW DO I CLEAR ALL MY DATA</pattern>
+    <template>BENCH:DATA_DELETE</template>
+  </category>
+  <category>
+    <pattern>SYNC MY DATA</pattern>
+    <template>BENCH:DATA_SYNC</template>
+  </category>
+  <category>
+    <pattern>WHY IS MY DATA NOT SYNCING</pattern>
+    <template>BENCH:DATA_SYNC</template>
+  </category>
+  <category>
+    <pattern>HOW DO I SYNCHRONIZE MY DEVICES</pattern>
+    <template>BENCH:DATA_SYNC</template>
+  </category>
+  <category>
+    <pattern>KEEP MY DATA IN SYNC</pattern>
+    <template>BENCH:DATA_SYNC</template>
+  </category>
+  <category>
+    <pattern>CAN I USE THE APP OFFLINE</pattern>
+    <template>BENCH:OFFLINE_MODE</template>
+  </category>
+  <category>
+    <pattern>DOES THE APP WORK WITHOUT INTERNET</pattern>
+    <template>BENCH:OFFLINE_MODE</template>
+  </category>
+  <category>
+    <pattern>HOW DO I ENABLE OFFLINE MODE</pattern>
+    <template>BENCH:OFFLINE_MODE</template>
+  </category>
+  <category>
+    <pattern>USE THE PRODUCT WITH NO CONNECTION</pattern>
+    <template>BENCH:OFFLINE_MODE</template>
+  </category>
+  <category>
+    <pattern>ENABLE TWO FACTOR AUTHENTICATION</pattern>
+    <template>BENCH:SECURITY_TWO_FACTOR</template>
+  </category>
+  <category>
+    <pattern>TURN ON 2FA</pattern>
+    <template>BENCH:SECURITY_TWO_FACTOR</template>
+  </category>
+  <category>
+    <pattern>HOW DO I SET UP TWO STEP VERIFICATION</pattern>
+    <template>BENCH:SECURITY_TWO_FACTOR</template>
+  </category>
+  <category>
+    <pattern>PROTECT MY ACCOUNT WITH A SECOND FACTOR</pattern>
+    <template>BENCH:SECURITY_TWO_FACTOR</template>
+  </category>
+  <category>
+    <pattern>SHOW MY ACTIVE SESSIONS</pattern>
+    <template>BENCH:SECURITY_SESSIONS</template>
+  </category>
+  <category>
+    <pattern>WHERE AM I CURRENTLY SIGNED IN</pattern>
+    <template>BENCH:SECURITY_SESSIONS</template>
+  </category>
+  <category>
+    <pattern>LIST DEVICES LOGGED INTO MY ACCOUNT</pattern>
+    <template>BENCH:SECURITY_SESSIONS</template>
+  </category>
+  <category>
+    <pattern>CHECK MY LOGIN SESSIONS</pattern>
+    <template>BENCH:SECURITY_SESSIONS</template>
+  </category>
+  <category>
+    <pattern>HOW DO I CONTACT SUPPORT</pattern>
+    <template>BENCH:SUPPORT_CONTACT</template>
+  </category>
+  <category>
+    <pattern>I NEED TO TALK TO SUPPORT</pattern>
+    <template>BENCH:SUPPORT_CONTACT</template>
+  </category>
+  <category>
+    <pattern>WHERE CAN I REACH CUSTOMER SERVICE</pattern>
+    <template>BENCH:SUPPORT_CONTACT</template>
+  </category>
+  <category>
+    <pattern>HELP ME CONTACT YOUR SUPPORT TEAM</pattern>
+    <template>BENCH:SUPPORT_CONTACT</template>
+  </category>
+  <category>
+    <pattern>WHEN IS SUPPORT OPEN</pattern>
+    <template>BENCH:SUPPORT_HOURS</template>
+  </category>
+  <category>
+    <pattern>WHAT ARE SUPPORT HOURS</pattern>
+    <template>BENCH:SUPPORT_HOURS</template>
+  </category>
+  <category>
+    <pattern>WHEN CAN I CONTACT CUSTOMER SERVICE</pattern>
+    <template>BENCH:SUPPORT_HOURS</template>
+  </category>
+  <category>
+    <pattern>WHAT TIME DOES THE SUPPORT TEAM WORK</pattern>
+    <template>BENCH:SUPPORT_HOURS</template>
+  </category>
+  <category>
+    <pattern>*</pattern>
+    <template>BENCH:FALLBACK</template>
+  </category>
+</aiml>

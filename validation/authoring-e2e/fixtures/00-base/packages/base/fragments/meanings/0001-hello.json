@@ -1,0 +1,12 @@
+{
+  "id": "hello",
+  "value": {
+    "id": "hello",
+    "samples": [
+      {
+        "language": "en",
+        "text": "hello"
+      }
+    ]
+  }
+}

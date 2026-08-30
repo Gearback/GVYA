@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.quality.novice.identity.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Novice natural-language regression: تو چی هستی؟",
+    "expectation": {
+      "meaning": "gvya.help.identity",
+      "response_ids": [
+        "gvya.help.identity.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.quality.novice.identity.fa",
+    "initial_state": {},
+    "input": "تو چی هستی؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

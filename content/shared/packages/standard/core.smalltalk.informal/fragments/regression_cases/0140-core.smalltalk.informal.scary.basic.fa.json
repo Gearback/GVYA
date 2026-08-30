@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.scary.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.scary",
+      "response_ids": [
+        "core.smalltalk.informal.scary.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.scary.basic.fa",
+    "initial_state": {},
+    "input": "ترسناکه",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

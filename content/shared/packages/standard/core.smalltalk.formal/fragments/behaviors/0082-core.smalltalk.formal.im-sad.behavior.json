@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.im-sad.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.im-sad.behavior",
+    "meaning": "core.smalltalk.formal.im-sad",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.im-sad.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I hear you.",
+              "That is difficult.",
+              "Do not pretend it is nothing."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "می‌شنوم.",
+              "این سخت است.",
+              "وانمود نکنید که چیزی نیست."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "exported": true,
+  "id": "gvya.help.negative-samples",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.negative-samples",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what are retrieval terms"
+      },
+      {
+        "language": "en-US",
+        "text": "how many samples should i write"
+      },
+      {
+        "language": "fa-IR",
+        "text": "retrieval term ها چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چند نمونه بنویسم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "negativesample block veto penalty discriminate separate"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمونه منفی مسدود وتو جریمه تمایز جداسازی"
+      },
+      {
+        "language": "en-US",
+        "text": "teach meaning must not match"
+      },
+      {
+        "language": "en-US",
+        "text": "negative counterexample confounder neighboring meaning wrong boundary reject phrase counter evidence author"
+      },
+      {
+        "language": "fa-IR",
+        "text": "negative مثال مخالف confounder meaning همسایه مرز اشتباه رد عبارت شواهد مخالف نویسندگی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نباید نرسد کنار گذاشتن جلوگیری اشتباه نگیرد ضد نمونه منفی مرز"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are negative samples"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i stop a meaning from matching"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a hard block"
+      },
+      {
+        "language": "en-US",
+        "text": "does a fuzzy negative veto a match"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a soft negative penalty"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i separate two close meanings"
+      },
+      {
+        "language": "en-US",
+        "text": "when should i add a negative sample"
+      },
+      {
+        "language": "en-US",
+        "text": "explain negative samples"
+      },
+      {
+        "language": "fa-IR",
+        "text": "negative sample ها چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور جلوی تطبیق یک meaning را بگیرم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بلاک سخت چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک منفی فازی تطبیق را وتو می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جریمه منفی نرم چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور دو معنی نزدیک را جدا کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه وقت باید نمونه منفی اضافه کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمونه های منفی را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "when do i use a negative sample"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a negative sample"
+      },
+      {
+        "language": "fa-IR",
+        "text": "negative sample چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کی از negative sample استفاده کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "teach meaning must not match"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک جمله را از یک معنی کنار بگذارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور به بات بگویم این مورد را اشتباه نگیرد"
+      }
+    ]
+  }
+}

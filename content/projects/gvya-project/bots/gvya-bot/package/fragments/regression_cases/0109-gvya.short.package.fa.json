@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.short.package.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian short Package question routes directly",
+    "expectation": {
+      "meaning": "gvya.help.packages",
+      "response_ids": [
+        "gvya.help.packages.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.short.package.fa",
+    "initial_state": {},
+    "input": "پکیج چیه",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

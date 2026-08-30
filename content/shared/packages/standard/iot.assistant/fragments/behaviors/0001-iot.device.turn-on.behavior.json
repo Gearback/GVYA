@@ -1,0 +1,19 @@
+{
+  "exported": true,
+  "id": "iot.device.turn-on.behavior",
+  "mode": "add",
+  "value": {
+    "id": "iot.device.turn-on.behavior",
+    "meaning": "iot.device.turn-on",
+    "responses": [
+      {
+        "id": "iot.device.turn-on.requested",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device turn-on request is ready."] },
+          { "language": "fa-IR", "variants": ["درخواست روشن‌کردن دستگاه آماده است."] }
+        ]
+      }
+    ]
+  }
+}

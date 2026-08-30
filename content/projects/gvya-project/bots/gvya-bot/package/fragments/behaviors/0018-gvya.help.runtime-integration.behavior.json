@@ -1,0 +1,55 @@
+{
+  "exported": true,
+  "id": "gvya.help.runtime-integration.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.runtime-integration.behavior",
+    "meaning": "gvya.help.runtime-integration",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The repository provides the canonical Rust runtime plus host edges such as C, WASM/TypeScript, and a Godot reference integration; capability execution remains in your host. Next ask what a capability may propose, or how the artifact is built."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "مخزن runtime مرجع Rust و edgeهایی مثل C، WASM/TypeScript و نمونهٔ اتصال Godot دارد؛ اجرای capability همچنان وظیفهٔ میزبان است. بعد بپرس capability چه چیزی می‌تواند propose کند، یا آرتیفکت چطور build می‌شود."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.runtime-integration.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Compile the Bot to .gvya, load it through the runtime edge for your host, pass explicit input/context/state, and persist the returned state between turns.",
+              "Integration is four steps: compile the Bot to .gvya, open it through the runtime edge for your platform, send explicit input, context and state each turn, and store the state you get back."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Bot را به .gvya کامپایل کن، آن را با runtime edge میزبان load کن، input/context/state صریح بده و state برگشتی را بین turnها نگه دار.",
+              "یکپارچه‌سازی چهار قدم است: Bot را به .gvya کامپایل کن، با runtime edge پلتفرم خودت بازش کن، هر turn ورودی و context و state صریح بفرست و state برگشتی را ذخیره کن."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

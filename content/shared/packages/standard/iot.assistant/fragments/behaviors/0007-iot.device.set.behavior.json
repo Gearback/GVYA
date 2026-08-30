@@ -1,0 +1,19 @@
+{
+  "exported": true,
+  "id": "iot.device.set.behavior",
+  "mode": "add",
+  "value": {
+    "id": "iot.device.set.behavior",
+    "meaning": "iot.device.set",
+    "responses": [
+      {
+        "id": "iot.device.set.requested",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device-setting request is ready."] },
+          { "language": "fa-IR", "variants": ["درخواست تغییر تنظیم دستگاه آماده است."] }
+        ]
+      }
+    ]
+  }
+}

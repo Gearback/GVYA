@@ -1,0 +1,34 @@
+{
+  "exported": true,
+  "id": "gvya.help.fragment-index.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.fragment-index.behavior",
+    "meaning": "gvya.help.fragment-index",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "id": "gvya.help.fragment-index.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Package's package.json explicitly indexes every fragment. Separate files keep each authored object small and independently editable. If a JSON file exists under fragments/ but is not listed, source loading fails with source.fragment_undeclared; the file is never silently ignored."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "فایل package.json هر Package همهٔ fragmentها را صریح فهرست می‌کند. فایل‌های جدا هر شیء نویسندگی را کوچک و مستقل نگه می‌دارند. اگر فایل JSON زیر fragments/ باشد ولی در index اعلام نشده باشد، بارگذاری source با source.fragment_undeclared شکست می‌خورد؛ فایل هیچ‌وقت بی‌صدا نادیده گرفته نمی‌شود."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

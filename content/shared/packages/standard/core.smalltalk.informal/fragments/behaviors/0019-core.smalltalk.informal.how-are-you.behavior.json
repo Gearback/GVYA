@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.how-are-you.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.how-are-you.behavior",
+    "meaning": "core.smalltalk.informal.how-are-you",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.how-are-you.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I'm alright.",
+              "Still here. That's something.",
+              "I’m fine enough."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بد نیستم.",
+              "هنوز اینجام. خودش چیزیه.",
+              "فعلاً خوبم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

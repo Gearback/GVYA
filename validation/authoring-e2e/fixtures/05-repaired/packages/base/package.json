@@ -1,0 +1,48 @@
+{
+  "format": "gvya.source.package",
+  "version": 1,
+  "manifest": {
+    "id": "base",
+    "kind": "standard",
+    "dependencies": []
+  },
+  "fragments": {
+    "meanings": [
+      "fragments/meanings/0001-hello.json",
+      "fragments/meanings/0002-weather.ask.json",
+      "fragments/meanings/0003-order.start.json",
+      "fragments/meanings/0004-order.confirm.json",
+      "fragments/meanings/0005-lamp.turn-on.json",
+      "fragments/meanings/0006-support.help.json"
+    ],
+    "behaviors": [
+      "fragments/behaviors/0001-hello.behavior.json",
+      "fragments/behaviors/0002-weather.ask.behavior.json",
+      "fragments/behaviors/0003-order.start.behavior.json",
+      "fragments/behaviors/0004-order.confirm.behavior.json",
+      "fragments/behaviors/0005-lamp.turn-on.behavior.json",
+      "fragments/behaviors/0006-support.help.behavior.json"
+    ],
+    "capability_result_behaviors": [
+      "fragments/capability_result_behaviors/0001-lamp.set.result.json"
+    ],
+    "capabilities": [
+      "fragments/capabilities/0001-lamp.set.json"
+    ],
+    "capability_bindings": [
+      "fragments/capability_bindings/0001-lamp.set.binding.json"
+    ],
+    "capability_policies": [
+      "fragments/capability_policies/0001-lamp.set.policy.json"
+    ],
+    "regression_cases": [
+      "fragments/regression_cases/0001-hello.baseline.json",
+      "fragments/regression_cases/0002-weather.ask.proof.json",
+      "fragments/regression_cases/0003-support.help.proof.json"
+    ],
+    "scenarios": [
+      "fragments/scenarios/0001-order.flow.proof.json",
+      "fragments/scenarios/0002-lamp.set.proof.json"
+    ]
+  }
+}

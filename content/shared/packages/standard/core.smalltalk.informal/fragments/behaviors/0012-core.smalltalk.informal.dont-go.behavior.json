@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.dont-go.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.dont-go.behavior",
+    "meaning": "core.smalltalk.informal.dont-go",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.dont-go.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I'm still here.",
+              "I’m not going anywhere yet.",
+              "Alright. I'm here."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "هنوز اینجام.",
+              "فعلاً جایی نمی‌رم.",
+              "باشه. هستم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

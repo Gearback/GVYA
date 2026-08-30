@@ -1,0 +1,178 @@
+{
+  "exported": true,
+  "id": "gvya.help.retrieval-terms",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.retrieval-terms",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "غلط گیر املایی واژه پیشنهادی را انتخاب می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "what are negative samples"
+      },
+      {
+        "language": "en-US",
+        "text": "how many samples should i write"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمونه های منفی چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چند نمونه بنویسم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "retrievalterms explicit metadata vocabulary widen reachable"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عبارت بازیابی فراداده صریح واژگان گسترش دسترس"
+      },
+      {
+        "language": "en-US",
+        "text": "retrieval terms separate samples"
+      },
+      {
+        "language": "en-US",
+        "text": "retrieval metadata vocabulary reach candidate pool discover meaning without positive sample semantic spine"
+      },
+      {
+        "language": "fa-IR",
+        "text": "retrieval metadata واژگان دسترسی candidate pool پیدا meaning بدون positive sample semantic spine"
+      },
+      {
+        "language": "en-US",
+        "text": "extra words keywords vocabulary reach meaning without full sentences metadata"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کلمات اضافه کلیدواژه واژگان رسیدن به meaning بدون جمله کامل"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واژه کلمه کلیدواژه اضافه وصل کردن گسترش دایره لغات رسیدن به معنی"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are retrieval terms"
+      },
+      {
+        "language": "en-US",
+        "text": "what is retrieval_terms for"
+      },
+      {
+        "language": "en-US",
+        "text": "do ids and topics act as hidden features"
+      },
+      {
+        "language": "en-US",
+        "text": "how do retrieval terms differ from samples"
+      },
+      {
+        "language": "en-US",
+        "text": "should retrieval terms be full sentences"
+      },
+      {
+        "language": "en-US",
+        "text": "do retrieval terms affect the score"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i widen vocabulary for a meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "explain retrieval terms"
+      },
+      {
+        "language": "fa-IR",
+        "text": "retrieval term ها چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "retrieval_terms برای چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شناسه و topic ویژگی پنهان هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق retrieval term با نمونه چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "retrieval term باید جمله کامل باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "retrieval term روی امتیاز اثر دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور دایره واژگان یک meaning را گسترش دهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "retrieval term ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what are retrieval terms for"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a retrieval term"
+      },
+      {
+        "language": "fa-IR",
+        "text": "retrieval term برای چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i add extra words that should reach a meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i attach keywords to a meaning without writing sentences"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i widen the vocabulary that reaches a meaning"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور کلمات اضافه ای که باید به یک meaning برسند را اضافه کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بدون نوشتن جمله به یک meaning کلیدواژه بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور دایره واژگانی که به یک meaning می رسد را باز کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور واژه های بیشتری به یک معنی وصل کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور بدون نمونه جدید دایره کلمات را باز کنم"
+      }
+    ]
+  }
+}

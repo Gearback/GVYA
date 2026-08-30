@@ -1,0 +1,69 @@
+{
+  "exported": true,
+  "id": "gvya.help.fallback.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.fallback.behavior",
+    "meaning": "gvya.help.fallback",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The recovery wording and tone are authored too, so a Bot can stay honest, helpful, and consistent in every enabled language."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "متن و لحن recovery هم نوشته می‌شود، پس Bot می‌تواند در هر زبان فعال صادق، مفید و یکدست بماند."
+                ]
+              }
+            ]
+          },
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "After repeated misses, the fallback can change strategy and offer a few clear next steps instead of making the user keep rephrasing the same sentence."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "بعد از چند miss، fallback می‌تواند روشش را عوض کند و چند قدم بعدی روشن پیشنهاد بدهد، به‌جای اینکه کاربر همان جمله را مدام بازنویسی کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.fallback.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "If the Bot cannot identify a safe meaning, it does not guess. It uses its authored fallback to say that clearly and offer a useful next step."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اگر Bot نتواند با اطمینان منظور را تشخیص بدهد، حدس نمی‌زند. از fallback نوشته‌شده‌اش استفاده می‌کند تا این را روشن بگوید و یک قدم بعدی مفید پیشنهاد کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

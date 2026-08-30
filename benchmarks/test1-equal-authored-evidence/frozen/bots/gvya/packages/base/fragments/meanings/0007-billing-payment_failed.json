@@ -1,0 +1,24 @@
+{
+  "id": "billing.payment_failed",
+  "value": {
+    "id": "billing.payment_failed",
+    "samples": [
+      {
+        "language": "en",
+        "text": "my payment failed"
+      },
+      {
+        "language": "en",
+        "text": "the card payment was declined"
+      },
+      {
+        "language": "en",
+        "text": "why did my payment not go through"
+      },
+      {
+        "language": "en",
+        "text": "i cannot complete the payment"
+      }
+    ]
+  }
+}

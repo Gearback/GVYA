@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what-month-is-it",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.what-month-is-it",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what month is it"
+      },
+      {
+        "language": "en-US",
+        "text": "which month is it"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه ماهیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ماه چنده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اسم ماه چیه"
+      }
+    ]
+  }
+}

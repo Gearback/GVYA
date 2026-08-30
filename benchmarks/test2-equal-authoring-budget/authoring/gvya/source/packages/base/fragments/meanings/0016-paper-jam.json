@@ -1,0 +1,30 @@
+{
+  "id": "paper.jam",
+  "value": {
+    "id": "paper.jam",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "paper jam"
+      },
+      {
+        "language": "en",
+        "text": "stuck paper"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "what do i do if paper is jammed"
+      },
+      {
+        "language": "en",
+        "text": "clear a jammed page"
+      },
+      {
+        "language": "en",
+        "text": "paper is stuck in the feeder"
+      }
+    ]
+  }
+}

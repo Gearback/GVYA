@@ -1,0 +1,31 @@
+{
+  "exported": true,
+  "id": "iot.device.turn-on",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "iot.device.turn-on",
+    "negative_samples": [
+      { "language": "en-US", "text": "what turns you on" },
+      { "language": "en-US", "text": "turn on subtitles" },
+      { "language": "fa-IR", "text": "چی خوشحالت می کند" }
+    ],
+    "references": [
+      {
+        "elicitation": [
+          { "language": "en-US", "text": "Which device should I turn on?" },
+          { "language": "fa-IR", "text": "کدام دستگاه را روشن کنم؟" }
+        ],
+        "kind": "iot.device",
+        "required": true
+      }
+    ],
+    "samples": [
+      { "language": "en-US", "text": "turn on" },
+      { "language": "en-US", "text": "switch on" },
+      { "language": "en-US", "text": "power on" },
+      { "language": "fa-IR", "text": "روشن کن" },
+      { "language": "fa-IR", "text": "فعال کن" }
+    ]
+  }
+}

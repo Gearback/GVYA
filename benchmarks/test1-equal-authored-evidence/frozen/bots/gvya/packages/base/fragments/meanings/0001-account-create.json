@@ -1,0 +1,24 @@
+{
+  "id": "account.create",
+  "value": {
+    "id": "account.create",
+    "samples": [
+      {
+        "language": "en",
+        "text": "create an account"
+      },
+      {
+        "language": "en",
+        "text": "how do i make an account"
+      },
+      {
+        "language": "en",
+        "text": "i want to sign up"
+      },
+      {
+        "language": "en",
+        "text": "help me open a new account"
+      }
+    ]
+  }
+}

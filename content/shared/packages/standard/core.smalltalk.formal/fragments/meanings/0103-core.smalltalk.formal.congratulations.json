@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.congratulations",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.congratulations",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "congratulations"
+      },
+      {
+        "language": "en-US",
+        "text": "congrats"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تبریک"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مبارک باشه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آفرین"
+      }
+    ]
+  }
+}

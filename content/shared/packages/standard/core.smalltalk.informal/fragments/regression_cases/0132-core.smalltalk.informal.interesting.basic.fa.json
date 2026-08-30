@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.interesting.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.interesting",
+      "response_ids": [
+        "core.smalltalk.informal.interesting.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.interesting.basic.fa",
+    "initial_state": {},
+    "input": "جالبه",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

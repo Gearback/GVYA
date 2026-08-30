@@ -1,0 +1,369 @@
+{
+  "exported": true,
+  "id": "gvya.help.packages",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.packages",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how do i install a package with npm"
+      },
+      {
+        "language": "en-US",
+        "text": "how does fallback work"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a matcher profile"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher profile چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "project bot package sources disk"
+      },
+      {
+        "language": "en-US",
+        "text": "package visibility shared content"
+      },
+      {
+        "language": "en-US",
+        "text": "package dependency graph composition order"
+      },
+      {
+        "language": "en-US",
+        "text": "compiler runtime host layers architecture"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گراف وابستگی package ترتیب composition"
+      },
+      {
+        "language": "en-US",
+        "text": "does every bot choose its own languages and packages"
+      },
+      {
+        "language": "en-US",
+        "text": "where is the bot package json file located"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "WHAT ARE PACKAGES"
+      },
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "WHAT R PACKAGES"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "shared package"
+      },
+      {
+        "language": "en-US",
+        "text": "project package"
+      },
+      {
+        "language": "en-US",
+        "text": "bot package"
+      },
+      {
+        "language": "en-US",
+        "text": "package override"
+      },
+      {
+        "language": "fa-IR",
+        "text": "shared package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "project package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "bot package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "override پکیج"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رفتار reusable composition تقدم متعلق"
+      },
+      {
+        "language": "en-US",
+        "text": "reusable faq intent location"
+      },
+      {
+        "language": "en-US",
+        "text": "customer specific reply shared content bot owned layer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "intent پرسش متداول چند بات محل"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جواب مشتری shared لایه خود بات"
+      },
+      {
+        "language": "en-US",
+        "text": "package reuse between bots"
+      },
+      {
+        "language": "en-US",
+        "text": "reusable behavior package ownership shared bot layer"
+      },
+      {
+        "language": "en-US",
+        "text": "content two bots both need avoid duplicating same answer several bots"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محتوای مشترک چند بات تکرار نکردن یک جواب"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "you mentioned packages what are they"
+      },
+      {
+        "language": "fa-IR",
+        "text": "package به چه درد می خورد"
+      },
+      {
+        "language": "en-US",
+        "text": "packages shared"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya packages"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a gvya package"
+      },
+      {
+        "language": "en-US",
+        "text": "how do shared packages work"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the bot package"
+      },
+      {
+        "language": "en-US",
+        "text": "can a bot override a package"
+      },
+      {
+        "language": "en-US",
+        "text": "standard package versus bot package"
+      },
+      {
+        "language": "en-US",
+        "text": "where do behaviors live"
+      },
+      {
+        "language": "en-US",
+        "text": "are packages like add-ons for a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "shared flow between bots"
+      },
+      {
+        "language": "en-US",
+        "text": "same greeting flow"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج های gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج های مشترک چطور کار می کنند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "bot package چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بات می تواند پکیج را override کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق standard package و bot package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "behavior ها کجا هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ترتیب تقدم در composition پکیج چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج ها مثل بخش های اضافه شونده به بات هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رفتار قابل استفاده مجدد کجا بنویسم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رفتار قابل استفاده مجدد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رفتار مشترک کجا بذارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جریان مشترک بین بات ها"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جریان خوشامد مشترک"
+      },
+      {
+        "language": "en-US",
+        "text": "what lives inside a package"
+      },
+      {
+        "language": "en-US",
+        "text": "why would i split content into packages"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل یک package چه چیزی است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا محتوا را به package تقسیم کنم"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a package"
+      },
+      {
+        "language": "en-US",
+        "text": "package in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "packages in gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "package چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج در gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "where does reusable behavior belong"
+      },
+      {
+        "language": "en-US",
+        "text": "where should shared behavior live"
+      },
+      {
+        "language": "en-US",
+        "text": "which package holds reusable behavior"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the difference between a package and a bot"
+      },
+      {
+        "language": "en-US",
+        "text": "where does reusable package content live"
+      },
+      {
+        "language": "en-US",
+        "text": "what goes inside a package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق package و bot چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محتوای قابل استفاده مجدد کجا نگهداری می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "داخل یک package چه چیزی هست"
+      },
+      {
+        "language": "en-US",
+        "text": "packages reused between bots"
+      },
+      {
+        "language": "en-US",
+        "text": "where do i put something two bots both need"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i avoid writing the same answer twice for two bots"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محتوایی که چند بات لازم دارند کجا نگه دارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر دو بات یک جواب مشترک دارند کجا بنویسمش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک جواب را برای دو بات دوبار ننویسم"
+      },
+      {
+        "language": "en-US",
+        "text": "how do packages work"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج ها چطور کار می کنند"
+      },
+      {
+        "language": "en-US",
+        "text": "how can i reuse a behavior across bots"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i reuse behaviors"
+      }
+    ]
+  }
+}

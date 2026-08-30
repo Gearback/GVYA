@@ -1,0 +1,14 @@
+{
+  "exported": true,
+  "id": "iot.device.position.confirm",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.position",
+    "conditions": [
+      { "namespace": "context", "op": "equal", "path": "iot.confirmation_required", "value": true }
+    ],
+    "effect": { "reason_code": "iot.confirmation_required", "type": "require_confirmation" },
+    "id": "iot.device.position.confirm",
+    "priority": 100
+  }
+}

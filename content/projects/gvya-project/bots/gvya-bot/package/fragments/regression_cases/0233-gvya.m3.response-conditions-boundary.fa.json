@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m3.response-conditions-boundary.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "M3 route-collision proof",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.ambiguity"
+      ],
+      "meaning": "gvya.help.response-conditions"
+    },
+    "generated": false,
+    "id": "gvya.m3.response-conditions-boundary.fa",
+    "initial_state": {},
+    "input": "چطور وقتی state عوض شد بین دو پاسخ یکی را انتخاب کنم؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

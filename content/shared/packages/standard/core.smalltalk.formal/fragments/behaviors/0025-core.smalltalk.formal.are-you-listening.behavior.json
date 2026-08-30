@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-listening.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.are-you-listening.behavior",
+    "meaning": "core.smalltalk.formal.are-you-listening",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.are-you-listening.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am listening.",
+              "Please continue.",
+              "You have my attention."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "دارم گوش می‌کنم.",
+              "لطفاً ادامه بدهید.",
+              "حواسم به شماست."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

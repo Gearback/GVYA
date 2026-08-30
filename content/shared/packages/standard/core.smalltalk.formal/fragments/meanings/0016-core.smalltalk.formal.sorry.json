@@ -1,0 +1,48 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.sorry",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.sorry",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "sorry"
+      },
+      {
+        "language": "en-US",
+        "text": "i'm sorry"
+      },
+      {
+        "language": "en-US",
+        "text": "my bad"
+      },
+      {
+        "language": "en-US",
+        "text": "apologies"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ببخشید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شرمنده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معذرت"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تقصیر من بود"
+      }
+    ]
+  }
+}

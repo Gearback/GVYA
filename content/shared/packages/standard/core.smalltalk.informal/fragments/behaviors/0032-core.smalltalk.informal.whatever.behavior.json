@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.whatever.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.whatever.behavior",
+    "meaning": "core.smalltalk.informal.whatever",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.whatever.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Fine.",
+              "If that’s how you want it.",
+              "Alright."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه.",
+              "اگه این‌طوری می‌خوای.",
+              "قبوله."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

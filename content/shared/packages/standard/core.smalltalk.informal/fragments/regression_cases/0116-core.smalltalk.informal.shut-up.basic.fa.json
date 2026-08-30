@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.shut-up.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.shut-up",
+      "response_ids": [
+        "core.smalltalk.informal.shut-up.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.shut-up.basic.fa",
+    "initial_state": {},
+    "input": "خفه شو",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

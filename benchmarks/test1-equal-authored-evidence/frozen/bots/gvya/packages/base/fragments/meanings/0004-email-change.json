@@ -1,0 +1,24 @@
+{
+  "id": "email.change",
+  "value": {
+    "id": "email.change",
+    "samples": [
+      {
+        "language": "en",
+        "text": "change my email address"
+      },
+      {
+        "language": "en",
+        "text": "update the email on my account"
+      },
+      {
+        "language": "en",
+        "text": "use a different email for my account"
+      },
+      {
+        "language": "en",
+        "text": "how do i replace my login email"
+      }
+    ]
+  }
+}

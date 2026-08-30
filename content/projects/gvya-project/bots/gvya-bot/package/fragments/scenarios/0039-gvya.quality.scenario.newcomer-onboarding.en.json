@@ -1,0 +1,146 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.newcomer-onboarding.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "An English newcomer can discover GVYA, ask for simpler wording and an example, then reach practical guidance without stale-topic hijacks",
+    "generated": false,
+    "id": "gvya.quality.scenario.newcomer-onboarding.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "core.smalltalk.formal.hello",
+          "response_ids": [
+            "core.smalltalk.formal.hello.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Hi",
+        "seed": 801,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.bot-abilities",
+          "response_ids": [
+            "gvya.help.bot-abilities.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "What can you do?",
+        "seed": 802,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.about",
+          "response_ids": [
+            "gvya.help.about.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "What is GVYA?",
+        "seed": 803,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.simplify",
+          "response_ids": [
+            "gvya.dialog.simplify.about.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "I do not get it. Explain it like I am new.",
+        "seed": 804,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.example",
+          "response_ids": [
+            "gvya.dialog.example.about.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Give me a simple example.",
+        "seed": 805,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.use-cases",
+          "response_ids": [
+            "gvya.help.use-cases.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Can I use GVYA for an NPC in a game?",
+        "seed": 806,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.getting-started",
+          "response_ids": [
+            "gvya.help.getting-started.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "I am completely new. Where should I start?",
+        "seed": 807,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.getting-started",
+          "response_ids": [
+            "gvya.help.getting-started.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Do I need to know programming to build a bot?",
+        "seed": 808,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.fallback",
+          "response_ids": [
+            "gvya.help.fallback.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "What if the bot misunderstands me?",
+        "seed": 809,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.capabilities",
+          "response_ids": [
+            "gvya.help.capabilities.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "Can it call APIs?",
+        "seed": 810,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.comparison",
+          "response_ids": [
+            "gvya.help.comparison.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "How is it different from ChatGPT?",
+        "seed": 811,
+        "type": "turn"
+      }
+    ]
+  }
+}

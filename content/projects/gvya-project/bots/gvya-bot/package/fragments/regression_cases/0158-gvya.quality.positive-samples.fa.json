@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.positive-samples.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian positive sample semantics resolve to the dedicated meaning",
+    "expectation": {
+      "meaning": "gvya.help.positive-samples"
+    },
+    "generated": false,
+    "id": "gvya.quality.positive-samples.fa",
+    "initial_state": {},
+    "input": "Positive sample چطور Meaning را یاد می‌دهد؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

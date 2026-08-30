@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.its-okay.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.its-okay",
+      "response_ids": [
+        "core.smalltalk.formal.its-okay.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.its-okay.basic.en",
+    "initial_state": {},
+    "input": "it's okay",
+    "language": "en-US",
+    "seed": 1
+  }
+}

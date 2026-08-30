@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.quality.scenario.recovery-exit.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A normal domain Meaning and a social closing cleanly exit two consecutive recovery turns",
+    "generated": false,
+    "id": "gvya.quality.scenario.recovery-exit.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "conversation_mode": "fallback"
+        },
+        "language": "en-US",
+        "say": "Could you compare two mortgage rates for me?",
+        "seed": 231,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "repeat_fallback"
+        },
+        "language": "en-US",
+        "say": "Could you compare two mortgage rates for me?",
+        "seed": 232,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher"
+        },
+        "language": "en-US",
+        "say": "How does the matcher select a Meaning from an utterance?",
+        "seed": 233,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "core.smalltalk.formal.bye"
+        },
+        "language": "en-US",
+        "say": "Thanks, goodbye.",
+        "seed": 234,
+        "type": "turn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.im-back.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.im-back.behavior",
+    "meaning": "core.smalltalk.formal.im-back",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.im-back.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Welcome back.",
+              "There you are.",
+              "You are back, then."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوش برگشتید.",
+              "پس آمدید.",
+              "پس برگشتید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

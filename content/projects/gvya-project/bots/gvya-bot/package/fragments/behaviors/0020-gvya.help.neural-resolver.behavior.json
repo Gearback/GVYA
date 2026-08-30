@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.neural-resolver.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.neural-resolver.behavior",
+    "meaning": "gvya.help.neural-resolver",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "That result is an untrusted suggestion: the runtime checks candidate membership, confidence, and policy before accepting it. The resolver cannot invent authority or behavior."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "نتیجهٔ resolver پیشنهاد غیرقابل‌اعتماد است؛ runtime عضویت candidate، confidence و policy را بررسی می‌کند. resolver نمی‌تواند behavior یا اختیار تازه بسازد."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.neural-resolver.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "GVYA does not require an LLM and can run fully offline. A host may optionally ask a neural resolver to choose only among bounded deterministic candidates after ambiguity."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "GVYA به LLM نیاز ندارد و می‌تواند کاملاً آفلاین اجرا شود. میزبان می‌تواند بعد از ambiguity از neural resolver بخواهد فقط بین candidateهای محدود انتخاب کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

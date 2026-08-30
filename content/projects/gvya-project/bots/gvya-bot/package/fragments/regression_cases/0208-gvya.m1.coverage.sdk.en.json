@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.sdk.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A direct SDK availability question reaches runtime integration",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.artifact-container"
+      ],
+      "meaning": "gvya.help.runtime-integration"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.sdk.en",
+    "initial_state": {},
+    "input": "Is there an SDK?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

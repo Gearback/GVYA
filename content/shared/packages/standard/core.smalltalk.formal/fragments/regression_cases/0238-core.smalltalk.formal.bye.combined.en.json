@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.bye.combined.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural thanks-plus-goodbye closing resolves as goodbye",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.bye"
+    },
+    "generated": false,
+    "id": "core.smalltalk.formal.bye.combined.en",
+    "initial_state": {},
+    "input": "Thanks, goodbye.",
+    "language": "en-US",
+    "seed": 1
+  }
+}

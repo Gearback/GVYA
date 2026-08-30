@@ -1,0 +1,25 @@
+{
+  "id": "ocr.offline.behavior",
+  "value": {
+    "id": "ocr.offline.behavior",
+    "meaning": "ocr.offline",
+    "responses": [
+      {
+        "id": "ocr.offline.answer",
+        "opens_followup": {
+          "id": "context.ocr_offline_language.followup",
+          "refresh_if_same": false,
+          "ttl": 2
+        },
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:OCR_OFFLINE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

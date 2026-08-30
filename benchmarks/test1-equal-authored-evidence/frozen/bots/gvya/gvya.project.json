@@ -1,0 +1,16 @@
+{
+  "brain_id": "benchmark-test1-bot",
+  "default_language": "en",
+  "enabled_languages": [
+    "en"
+  ],
+  "format": "gvya.source.project",
+  "languages": [
+    "en"
+  ],
+  "packages": [
+    "packages/base/package.json"
+  ],
+  "project_id": "benchmark-test1",
+  "version": 1
+}

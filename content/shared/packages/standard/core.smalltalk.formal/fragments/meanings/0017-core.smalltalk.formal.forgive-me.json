@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.forgive-me",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.forgive-me",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "forgive me"
+      },
+      {
+        "language": "en-US",
+        "text": "can you forgive me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "منو ببخش"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می‌بخشیم؟"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می‌تونی ببخشی"
+      }
+    ]
+  }
+}

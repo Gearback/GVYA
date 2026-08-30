@@ -1,0 +1,30 @@
+{
+  "id": "ocr.language",
+  "value": {
+    "id": "ocr.language",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "ocr language"
+      },
+      {
+        "language": "en",
+        "text": "recognition language"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "how do i choose the ocr language"
+      },
+      {
+        "language": "en",
+        "text": "set the text recognition language"
+      },
+      {
+        "language": "en",
+        "text": "change recognition language for a scan"
+      }
+    ]
+  }
+}

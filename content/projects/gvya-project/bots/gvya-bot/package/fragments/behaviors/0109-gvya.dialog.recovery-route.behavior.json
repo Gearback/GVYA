@@ -1,0 +1,250 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.recovery-route.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.recovery-route",
+    "id": "gvya.dialog.recovery-route.behavior",
+    "meaning": "gvya.dialog.recovery-route",
+    "responses": [
+      {
+        "conditions": [
+          {
+            "namespace": "meaning",
+            "op": "equal",
+            "path": "slots.route",
+            "value": "understand"
+          }
+        ],
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Choose 2 to build, 3 to debug matching, or 4 to explore.",
+                  "Next jump: build a Bot, debug matching, or ask for something interesting. A number or the words both work.",
+                  "Stay on concepts, or pivot with 2 build, 3 debug, 4 explore."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "برای ساخت ۲، برای debug کردن matching عدد ۳، یا برای گشتن عدد ۴ را بفرست.",
+                  "پرش بعدی: ساخت Bot، رفع مشکل match، یا یک چیز جالب. هم شماره کار می‌کند هم خود عبارت.",
+                  "روی concepts بمان، یا بپیچ: ۲ ساخت، ۳ debug، ۴ explore."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.dialog.recovery-route.understand",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.recovery-route",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Start with the useful distinction: GVYA compiles explicit conversational source into a portable brain; it does not improvise runtime semantics.",
+              "Think of GVYA less as a chatbot guessing answers and more as a compiler for authored conversation: evidence and state stay explicit.",
+              "Its useful intelligence comes from explicit Meaning evidence, Behavior rules, and conversation state—not a hidden runtime guess."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "از این تفاوت مفید شروع کن: GVYA سورس صریحِ مکالمه را به یک brain قابل‌حمل کامپایل می‌کند؛ runtime معنا را بداهه‌سازی نمی‌کند.",
+              "GVYA را کمتر شبیه chatbot حدس‌زن و بیشتر شبیه compiler مکالمهٔ authored ببین؛ evidence و state صریح می‌مانند.",
+              "هوشمندی مفیدش از evidence صریح Meaning، ruleهای Behavior و conversation state می‌آید، نه یک حدس پنهان runtime."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "meaning",
+            "op": "equal",
+            "path": "slots.route",
+            "value": "build"
+          }
+        ],
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Choose 3 for a matching problem, 4 for a rabbit hole, or ask the concrete authoring question now.",
+                  "You have a working slice now. Throw me the next concrete problem, or jump to 3 debug and 4 explore.",
+                  "No ceremony needed: ask the next build question, say debug matching, or ask for something interesting."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "برای مشکل matching عدد ۳، برای یک rabbit hole عدد ۴ را بفرست، یا همین حالا سؤال مشخص authoring را بپرس.",
+                  "حالا یک slice قابل‌کار داری. مشکل مشخص بعدی را پرت کن، یا برو روی ۳ debug و ۴ explore.",
+                  "تشریفات لازم نیست: سؤال بعدی ساخت را بپرس، بگو رفع مشکل match، یا یک چیز جالب بخواه."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.dialog.recovery-route.build",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.recovery-route",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The smallest useful slice is a Project with its Matcher Profiles, one Bot, one Meaning, its Behavior, and one direct test.",
+              "Do not begin with a taxonomy. Build one utterance-to-answer path—Meaning, Behavior, response, direct test—then grow from the first real gap.",
+              "One working conversation slice beats twenty empty intent names: make it resolve, answer, and prove the promised next move."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "کوچک‌ترین برش مفید یک Project با Matcher Profileهایش، یک Bot، یک Meaning، Behavior همان Meaning و یک تست مستقیم است.",
+              "از taxonomy شروع نکن. یک مسیر کامل utterance تا answer بساز—Meaning، Behavior، response و تست مستقیم—بعد از اولین gap واقعی رشدش بده.",
+              "یک conversation slice کار‌کننده از بیست اسم intent خالی بهتر است: resolve شود، جواب بدهد و حرکت بعدیِ وعده‌داده‌شده را ثابت کند."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "meaning",
+            "op": "equal",
+            "path": "slots.route",
+            "value": "debug"
+          }
+        ],
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Choose 2 to return to authoring, or 4 to switch tracks completely.",
+                  "If the boundary is clear, go back to build a Bot. If not, switch tracks with something interesting.",
+                  "Next move: another concrete matcher symptom, 2 for authoring, or 4 for a clean detour."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "برای برگشتن به authoring عدد ۲، یا برای عوض کردن کامل مسیر عدد ۴ را بفرست.",
+                  "اگر boundary روشن شد برگرد به ساخت Bot؛ اگر نه با یک چیز جالب مسیر را کامل عوض کن.",
+                  "حرکت بعدی: یک علامت مشخص دیگر از matcher، عدد ۲ برای authoring، یا ۴ برای یک detour تمیز."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.dialog.recovery-route.debug",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.recovery-route",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Read the Why trace against the nearest neighbor, then change one discriminative sample or negative. Do not lower the threshold by feel.",
+              "Wrong match? Compare the winner with the Meaning that should have won, then repair the smallest evidence boundary between those two.",
+              "If it stays unresolved, inspect whether there were credible candidates before touching thresholds; repair is not a second fuzzy matcher."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Why trace را در برابر نزدیک‌ترین همسایه بخوان، بعد فقط یک sample یا negative متمایزکننده را عوض کن؛ threshold را با حدس پایین نیاور.",
+              "Match اشتباه؟ برنده را با Meaning درست مقایسه کن، بعد کوچک‌ترین evidence boundary بین همان دو را تعمیر کن.",
+              "اگر unresolved ماند، قبل از دست‌زدن به threshold ببین candidate معتبر داشته یا نه؛ repair نباید matcher فازی دوم شود."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "meaning",
+            "op": "equal",
+            "path": "slots.route",
+            "value": "explore"
+          }
+        ],
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Say “another one” to stay in the rabbit hole, or ask about the detail that caught you."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "برای ماندن در rabbit hole بگو «یکی دیگه»، یا دربارهٔ همان جزئیاتی که توجهت را گرفت بپرس."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.dialog.recovery-route.explore",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.discovery",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A useful rabbit hole: GVYA keeps conversation continuity in explicit state, so a brain can move between hosts without depending on a secret server session.",
+              "An authoring oddity worth knowing: one discriminative boundary example is often more valuable than ten paraphrases that repeat the same evidence.",
+              "A safety detail: the brain may propose a capability call, but the host still admits and executes it; the authored brain never becomes the hidden executor.",
+              "A conversation trick with no model magic: keep `2` meaningless globally, then let a short-lived follow-up turn it into an exact route only after the Bot offers that route.",
+              "A low-data lesson: connect many answers to the same few truthful lanes. Reuse beats inventing a new intent for every possible next turn.",
+              "A matcher lesson: explicit patterns handle stable shapes; semantic samples handle open paraphrase. Mixing those jobs creates either brittle rules or fuzzy commands.",
+              "A quality lesson: first-turn accuracy is not enough. An honest miss that reaches a useful answer in the next turn can be a better product than a confident near-match."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک rabbit hole مفید: GVYA پیوستگی مکالمه را در state صریح نگه می‌دارد، پس brain می‌تواند بدون وابستگی به session پنهان سرور بین hostها جابه‌جا شود.",
+              "یک نکتهٔ مهم authoring: یک مثال مرزیِ متمایزکننده معمولاً از ده paraphrase که همان evidence را تکرار می‌کنند باارزش‌تر است.",
+              "یک جزئیات ایمنی: brain می‌تواند capability call پیشنهاد کند، اما پذیرش و اجرا هنوز دست host است؛ brain نوشته‌شده هیچ‌وقت executor پنهان نمی‌شود.",
+              "یک ترفند مکالمه بدون جادوی مدل: `۲` بیرون scope هیچ معنایی ندارد، ولی بعد از پیشنهاد Bot یک follow-up کوتاه آن را به route دقیق تبدیل می‌کند.",
+              "یک درس low-data: جواب‌های زیاد را به چند مسیر صادق مشترک وصل کن؛ reuse بهتر از ساخت intent تازه برای هر نوبت احتمالی است.",
+              "یک درس matcher: pattern صریح برای shape ثابت است و sample semantic برای paraphrase باز؛ قاطی‌کردن این دو یا rule شکننده می‌سازد یا command فازی.",
+              "یک درس کیفیت: first-turn accuracy کافی نیست. یک miss صادق که turn بعد به جواب مفید برسد می‌تواند از near-match مطمئن محصول بهتری باشد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

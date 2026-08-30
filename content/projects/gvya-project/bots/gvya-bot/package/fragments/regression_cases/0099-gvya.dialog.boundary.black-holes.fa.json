@@ -1,0 +1,24 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.boundary.black-holes.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Subject question ending in chie must not become clarification Smalltalk",
+    "expectation": {
+      "forbidden_meanings": [
+        "core.smalltalk.formal.i-dont-understand",
+        "core.smalltalk.formal.what"
+      ],
+      "response_ids": [
+        "gvya.fallback.formal.unresolved.stage-1.redirect"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.dialog.boundary.black-holes.fa",
+    "initial_state": {},
+    "input": "نظرت درباره سیاهچاله چیه؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

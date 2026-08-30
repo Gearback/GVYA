@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.discovery.scenario.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian discovery rabbit-hole continuation",
+    "generated": false,
+    "id": "gvya.dialog.discovery.scenario.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.surprise-me",
+          "response_ids": [
+            "gvya.dialog.surprise-me.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "یه چیز جالب درباره GVYA بگو.",
+        "seed": 11,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.dialog.discovery-again",
+          "response_ids": [
+            "gvya.dialog.discovery-again.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "یکی دیگه.",
+        "seed": 12,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher",
+          "response_ids": [
+            "gvya.help.matcher.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "فعلاً از discovery بیرون بیا—GVYA چطور Meaning برنده را انتخاب می‌کند؟",
+        "seed": 13,
+        "type": "turn"
+      }
+    ]
+  }
+}

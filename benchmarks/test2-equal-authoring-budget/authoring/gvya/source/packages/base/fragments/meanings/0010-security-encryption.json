@@ -1,0 +1,30 @@
+{
+  "id": "security.encryption",
+  "value": {
+    "id": "security.encryption",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "encrypted scans"
+      },
+      {
+        "language": "en",
+        "text": "local encryption"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "are scans encrypted on foliobox"
+      },
+      {
+        "language": "en",
+        "text": "is local document storage encrypted"
+      },
+      {
+        "language": "en",
+        "text": "how are saved scans protected"
+      }
+    ]
+  }
+}

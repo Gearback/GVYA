@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.terse-noun.studio.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian parity for the terse domain-noun contract",
+    "expectation": {
+      "meaning": "gvya.help.studio"
+    },
+    "generated": false,
+    "id": "gvya.quality.terse-noun.studio.fa",
+    "initial_state": {},
+    "input": "studio چیست",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

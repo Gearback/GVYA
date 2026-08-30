@@ -1,0 +1,252 @@
+{
+  "exported": true,
+  "id": "gvya.help.capability-result",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.capability-result",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "قبل از ادامه دیالوگ چه کسی نتیجه capability را validate می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "what is an invocation proposal"
+      },
+      {
+        "language": "en-US",
+        "text": "what is admission"
+      },
+      {
+        "language": "fa-IR",
+        "text": "invocation proposal چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "admission چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی اجرای runtime را محدود و تکرارپذیر نگه می دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "what keeps runtime execution bounded and repeatable"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 30,
+        "text": "^ CAPABILITY ^ RESULT ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "capabilityresult receipt ledger replay stale fabricated consumed continuation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه رسید دفتر بازپخش کهنه جعلی مصرف ادامه"
+      },
+      {
+        "language": "en-US",
+        "text": "host capability result returned after operation finishes"
+      },
+      {
+        "language": "en-US",
+        "text": "operation result correlation receipt continuation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه capability بعد از پایان عملیات host بازگشت"
+      },
+      {
+        "language": "en-US",
+        "text": "host finished capability call completion result returned proposal execution outcome input brain"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host اتمام capability call نتیجه completion برگشت proposal execution outcome input brain"
+      },
+      {
+        "language": "en-US",
+        "text": "finished executed report success failure outcome completion receipt continuation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تمام شد اجرا شد گزارش موفقیت شکست نتیجه برگشت ادامه رسید"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تمام کرد اجرا خروجی برگرداندن موفق ناموفق دادن به runtime نتیجه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از انجام دادن برنامه نتیجه برگرداندن فرستادن اجرا شد"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how do i report a capability result back"
+      },
+      {
+        "language": "en-US",
+        "text": "what stops a replayed capability result"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the pending capability ledger"
+      },
+      {
+        "language": "en-US",
+        "text": "what is checked before a result is accepted"
+      },
+      {
+        "language": "en-US",
+        "text": "can a fabricated result reach my handlers"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens after a valid result"
+      },
+      {
+        "language": "en-US",
+        "text": "does the result path execute host effects"
+      },
+      {
+        "language": "en-US",
+        "text": "explain capability results"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه capability را چطور برگردانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی جلوی نتیجه تکراری را می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دفتر capability های در انتظار چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "قبل از پذیرش نتیجه چه چیزی بررسی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک نتیجه جعلی به هندلرهای من می رسد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از یک نتیجه معتبر چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مسیر نتیجه اثرهای میزبان را اجرا می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتایج capability را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i return a capability result"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a capability result"
+      },
+      {
+        "language": "en-US",
+        "text": "my app finished the work how do i tell the bot"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i report success or failure of an action"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the conversation continue after the host executed something"
+      },
+      {
+        "language": "en-US",
+        "text": "what stops someone sending a fake outcome"
+      },
+      {
+        "language": "en-US",
+        "text": "where is the receipt for an executed action kept"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برنامه من کار را تمام کرد چطور به بات خبر بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور موفقیت یا شکست یک اکشن را گزارش کنم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از اینکه میزبان کاری را اجرا کرد مکالمه چطور ادامه پیدا می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی جلوی ارسال یک نتیجه جعلی را می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "رسید یک اکشن اجرا شده کجا نگه داشته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی برنامه اجرای اکشن را تمام کرد نتیجه را چطور بفرستم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خروجی اجرای میزبان را چطور به بات برگردانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از اجرای موفق یا ناموفق چه چیزی به runtime می دهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از انجام شدن عمل نتیجه را چطور برگردانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه اجرای عمل را چطور به بات بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه capability را قبل از ادامه دیالوگ چه کسی بررسی می کند"
+      },
+      {
+        "language": "en-US",
+        "text": "who validates a capability result before the dialogue continues"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعد از اینکه برنامه عمل را انجام داد نتیجه را چطور برگردانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی برنامه کار را انجام داد نتیجه اش را کجا بفرستم"
+      },
+      {
+        "language": "en-US",
+        "text": "how does result come back"
+      },
+      {
+        "language": "en-US",
+        "text": "where does the result return after execution"
+      }
+    ]
+  }
+}

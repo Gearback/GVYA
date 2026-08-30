@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.artifact-to-capability.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Artifact guidance keeps its promised follow-up and reaches the capability boundary in Persian",
+    "generated": false,
+    "id": "gvya.help.scenario.artifact-to-capability.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.offer",
+          "meaning": "gvya.help.build-artifact",
+          "response_ids": [
+            "gvya.help.build-artifact.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "وقتی content بات عوض می‌شود دقیقاً چه چیزی دوباره build می‌شود؟",
+        "seed": 110,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "conversation_mode": "followup",
+          "meaning": "core.smalltalk.formal.yes",
+          "response_ids": [
+            "gvya.dialog.affirm.integration"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "بله، می‌خواهم.",
+        "seed": 111,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.capabilities",
+          "response_ids": [
+            "gvya.help.capabilities.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "runtime خودش ایمیل می‌فرسته یا فقط از برنامه درخواست می‌کنه؟",
+        "seed": 112,
+        "type": "turn"
+      }
+    ]
+  }
+}

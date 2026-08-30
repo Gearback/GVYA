@@ -1,0 +1,20 @@
+{
+  "id": "shipping.address_change.behavior",
+  "value": {
+    "id": "shipping.address_change.behavior",
+    "meaning": "shipping.address_change",
+    "responses": [
+      {
+        "id": "shipping.address_change.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SHIPPING_ADDRESS_CHANGE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

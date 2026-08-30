@@ -1,0 +1,60 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.yes",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.yes",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "yes"
+      },
+      {
+        "language": "en-US",
+        "text": "yeah"
+      },
+      {
+        "language": "en-US",
+        "text": "yep"
+      },
+      {
+        "language": "en-US",
+        "text": "sure"
+      },
+      {
+        "language": "en-US",
+        "text": "ok"
+      },
+      {
+        "language": "en-US",
+        "text": "okay"
+      },
+      {
+        "language": "fa-IR",
+        "text": "آره"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بله"
+      },
+      {
+        "language": "fa-IR",
+        "text": "باشه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اوکی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حتما"
+      }
+    ]
+  }
+}

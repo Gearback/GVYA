@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.i-dont-know.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.i-dont-know.behavior",
+    "meaning": "core.smalltalk.formal.i-dont-know",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.i-dont-know.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That is understandable.",
+              "Then we begin with what we do know.",
+              "Fair enough."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "قابل درک است.",
+              "پس از چیزی شروع می‌کنیم که می‌دانیم.",
+              "منصفانه است."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

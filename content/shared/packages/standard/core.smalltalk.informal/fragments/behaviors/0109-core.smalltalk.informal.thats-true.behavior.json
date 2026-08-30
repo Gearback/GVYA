@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.thats-true.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.thats-true.behavior",
+    "meaning": "core.smalltalk.informal.thats-true",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.thats-true.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "It is.",
+              "Seems so.",
+              "Then we agree on that."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "همینه.",
+              "به نظر همین‌طوره.",
+              "پس سر این موافقیم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

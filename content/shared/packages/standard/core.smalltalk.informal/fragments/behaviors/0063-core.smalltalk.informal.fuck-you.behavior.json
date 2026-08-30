@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.fuck-you.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.fuck-you.behavior",
+    "meaning": "core.smalltalk.informal.fuck-you",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.fuck-you.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That’s enough.",
+              "Careful.",
+              "Try again without that."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "کافیه.",
+              "حواست باشه.",
+              "بدون این حرف‌ها دوباره بپرس."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.help.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A concise Persian help request reaches bot abilities",
+    "expectation": {
+      "meaning": "gvya.help.bot-abilities"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.help.fa",
+    "initial_state": {},
+    "input": "میشه کمکم کنی؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

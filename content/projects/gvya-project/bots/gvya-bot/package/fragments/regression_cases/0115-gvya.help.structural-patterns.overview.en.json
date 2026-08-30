@@ -1,0 +1,25 @@
+{
+  "exported": true,
+  "id": "gvya.help.structural-patterns.overview.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A narrow literal/optional structural rule owns the documented GVYA pattern form",
+    "expectation": {
+      "meaning": "gvya.help.structural-patterns",
+      "response_ids": [
+        "gvya.help.structural-patterns.overview"
+      ],
+      "why_codes": [
+        "semantic.structural.matched",
+        "semantic.decision.structural"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.structural-patterns.overview.en",
+    "initial_state": {},
+    "input": "Explain GVYA deterministic structural patterns",
+    "language": "en-US",
+    "seed": 71
+  }
+}

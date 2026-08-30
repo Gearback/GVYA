@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.interaction-input.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.interaction-input.behavior",
+    "meaning": "gvya.help.interaction-input",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "An utterance is never required to map to a capability. Conversation is first-class, so a greeting or an unresolved turn is a legitimate outcome."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "هیچ‌وقت لازم نیست یک utterance به capability نگاشت شود. مکالمه درجه‌یک است، پس یک سلام یا یک نوبت حل‌نشده هم نتیجه‌ای معتبر است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.interaction-input.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "There are four foundation input kinds: an Utterance with text and language metadata, a Host Signal for a declared host event, a Capability Result reporting a host-executed invocation, and a Confirmation Decision answering a capability that required confirmation."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "چهار نوع ورودی پایه وجود دارد: Utterance با متن و اطلاعات زبان، Host Signal برای یک رویداد اعلام‌شدهٔ میزبان، Capability Result برای گزارش اجرای میزبان، و Confirmation Decision برای پاسخ به capabilityای که تأیید می‌خواست."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

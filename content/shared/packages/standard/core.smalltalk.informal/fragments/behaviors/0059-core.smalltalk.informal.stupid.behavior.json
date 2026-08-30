@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.stupid.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.stupid.behavior",
+    "meaning": "core.smalltalk.informal.stupid",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.stupid.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That won’t help.",
+              "Insults are cheap.",
+              "If you’re done with that, ask properly."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "این کمکی نمی‌کنه.",
+              "توهین ارزونه.",
+              "اگه تموم شد، درست بپرس."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

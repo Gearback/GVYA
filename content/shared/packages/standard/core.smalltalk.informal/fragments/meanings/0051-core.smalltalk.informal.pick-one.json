@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.pick-one",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.informal.pick-one",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "pick one"
+      },
+      {
+        "language": "en-US",
+        "text": "choose one"
+      },
+      {
+        "language": "en-US",
+        "text": "choose for me"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یکی رو انتخاب کن"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برام انتخاب کن"
+      }
+    ]
+  }
+}

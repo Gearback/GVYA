@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.response-plan.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.response-plan.behavior",
+    "meaning": "gvya.help.response-plan",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "A Response Plan may exist with no capability proposal at all. It is explicitly not a side-effect channel."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "یک Response Plan می‌تواند بدون هیچ پیشنهاد capability وجود داشته باشد. صریحاً کانال اثر جانبی نیست."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.response-plan.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "A Response Plan is what GVYA intends to communicate, independent of host rendering. It holds ordered response items: localized text variants, presentation hints, asset references, links, and additional or conditional messages."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "یک Response Plan همان چیزی است که GVYA قصد دارد منتقل کند، مستقل از نحوهٔ رندر میزبان. آیتم‌های مرتب پاسخ را نگه می‌دارد: متن‌های محلی‌شده، راهنمای ارائه، ارجاع به asset، لینک، و پیام‌های اضافی یا شرطی."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

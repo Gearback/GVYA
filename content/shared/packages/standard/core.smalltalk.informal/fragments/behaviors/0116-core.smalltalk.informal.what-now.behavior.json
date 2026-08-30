@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.what-now.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.what-now.behavior",
+    "meaning": "core.smalltalk.informal.what-now",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.what-now.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Take the next clear step.",
+              "Start with what you can confirm.",
+              "Don’t make it bigger than it is."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "قدم واضح بعدی رو بردار.",
+              "از چیزی شروع کن که می‌تونی مطمئن بشی.",
+              "بزرگ‌تر از چیزی که هستش نکن."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

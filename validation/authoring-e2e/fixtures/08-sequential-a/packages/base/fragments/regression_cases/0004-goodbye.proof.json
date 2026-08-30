@@ -1,0 +1,19 @@
+{
+  "id": "goodbye.proof",
+  "value": {
+    "context": {},
+    "description": "Direct proof",
+    "expectation": {
+      "meaning": "goodbye",
+      "response_ids": [
+        "goodbye.behavior.answer"
+      ]
+    },
+    "generated": false,
+    "id": "goodbye.proof",
+    "initial_state": {},
+    "input": "goodbye",
+    "language": "en",
+    "seed": 1
+  }
+}

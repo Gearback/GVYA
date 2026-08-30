@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.you-are-useless",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.you-are-useless",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "you are useless"
+      },
+      {
+        "language": "en-US",
+        "text": "useless"
+      },
+      {
+        "language": "fa-IR",
+        "text": "به درد نمی‌خوری"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هیچی بلد نیستی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بی‌مصرفی"
+      }
+    ]
+  }
+}

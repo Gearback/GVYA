@@ -1,0 +1,114 @@
+{
+  "exported": true,
+  "id": "gvya.help.synonym-alias-semantics",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.synonym-alias-semantics",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "does it correct misspelled words"
+      },
+      {
+        "language": "en-US",
+        "text": "how does typo tolerance work"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a matcher profile"
+      },
+      {
+        "language": "fa-IR",
+        "text": "غلط املایی را اصلاح می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "matcher profile چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "synonym equivalent word alias canonical vocabulary same concept authored finite set"
+      },
+      {
+        "language": "en-US",
+        "text": "different surface words same canonical value no synonym oracle"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مترادف واژه هم معنی alias canonical مجموعه محدود authored بدون synonym oracle"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کلمه متفاوت مفهوم یکسان مقدار canonical"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "does gvya support synonyms"
+      },
+      {
+        "language": "en-US",
+        "text": "can different words mean the same thing to the matcher"
+      },
+      {
+        "language": "en-US",
+        "text": "are equivalent words matched automatically"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a synonym dictionary"
+      },
+      {
+        "language": "en-US",
+        "text": "how do authored aliases work"
+      },
+      {
+        "language": "en-US",
+        "text": "can aliases map to one canonical value"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya مترادف ها را می فهمد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کلمات هم معنی خودکار match می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دیکشنری مترادف دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "alias ها چطور به یک مقدار canonical می رسند"
+      },
+      {
+        "language": "en-US",
+        "text": "understand synonyms"
+      },
+      {
+        "language": "en-US",
+        "text": "equivalent wording"
+      },
+      {
+        "language": "en-US",
+        "text": "synonym support"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فهمیدن مترادف"
+      },
+      {
+        "language": "fa-IR",
+        "text": "واژه های هم معنی"
+      }
+    ]
+  }
+}

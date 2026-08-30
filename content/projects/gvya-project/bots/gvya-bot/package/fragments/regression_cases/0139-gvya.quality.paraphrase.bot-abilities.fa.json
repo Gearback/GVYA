@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.bot-abilities.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A colloquial Persian abilities question resolves",
+    "expectation": {
+      "meaning": "gvya.help.bot-abilities"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.bot-abilities.fa",
+    "initial_state": {},
+    "input": "چه کمکی می‌تونی به من بکنی؟",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

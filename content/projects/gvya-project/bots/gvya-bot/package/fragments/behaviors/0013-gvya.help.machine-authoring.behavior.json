@@ -1,0 +1,53 @@
+{
+  "exported": true,
+  "id": "gvya.help.machine-authoring.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.machine-authoring.behavior",
+    "meaning": "gvya.help.machine-authoring",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "GVYA stores no model registry, credentials, prompts, or agent sessions. The agent host owns those concerns; GVYA owns deterministic source and execution contracts."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "GVYA مدل، credential، prompt یا session agent نگه نمی‌دارد. این‌ها متعلق به agent host هستند و GVYA قرارداد قطعی source و اجرا را مالک است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.machine-authoring.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "An external agent authors the same canonical JSON source as a human and uses the Rust CLI to check, inspect, test, and build it. Studio automation is unnecessary."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "Agent خارجی همان JSON مرجع را که انسان می‌نویسد author می‌کند و با CLI مبتنی بر Rust آن را check، inspect، test و build می‌کند؛ اتوماسیون Studio لازم نیست."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

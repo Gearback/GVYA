@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.sing.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.sing.behavior",
+    "meaning": "core.smalltalk.formal.sing",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.sing.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "No. Speaking is safer.",
+              "I will spare you that.",
+              "Trust me, you do not want that."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "نه. صحبت کردن امن‌تر است.",
+              "شما را از این یکی معاف می‌کنم.",
+              "باور کنید، نمی‌خواهید بشنوید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

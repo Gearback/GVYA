@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.m1.coverage.ownership.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A host-role question reaches ownership boundaries",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.runtime-integration"
+      ],
+      "meaning": "gvya.help.ownership"
+    },
+    "generated": false,
+    "id": "gvya.m1.coverage.ownership.en",
+    "initial_state": {},
+    "input": "So what does the host do?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

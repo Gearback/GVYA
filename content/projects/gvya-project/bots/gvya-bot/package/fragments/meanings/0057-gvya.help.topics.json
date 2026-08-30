@@ -1,0 +1,202 @@
+{
+  "exported": true,
+  "id": "gvya.help.topics",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.topics",
+    "negative_samples": [
+      {
+        "language": "fa-IR",
+        "text": "topic و follow-up در حافظه مکالمه بین دو پیام نگه داشته می شوند"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a follow up scope"
+      },
+      {
+        "language": "en-US",
+        "text": "what does it remember between turns"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دامنه follow up چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بین نوبت ها چه چیزی را به یاد دارد"
+      },
+      {
+        "language": "en-US",
+        "text": "How long does a topic stay active?"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "topic ttl active expiry stickiness preference margin mentioned"
+      },
+      {
+        "language": "fa-IR",
+        "text": "موضوع ttl فعال انقضا چسبندگی حاشیه ترجیح"
+      },
+      {
+        "language": "en-US",
+        "text": "activating topic later turns"
+      },
+      {
+        "language": "en-US",
+        "text": "keep subject alive active for turns stay on theme how long lifetime ttl"
+      },
+      {
+        "language": "fa-IR",
+        "text": "موضوع زنده فعال نگه داشتن چند نوبت ماندن طول عمر"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how does an active topic work"
+      },
+      {
+        "language": "en-US",
+        "text": "what is topic ttl"
+      },
+      {
+        "language": "en-US",
+        "text": "when does a topic expire"
+      },
+      {
+        "language": "en-US",
+        "text": "does a topic make the bot stick to a subject"
+      },
+      {
+        "language": "en-US",
+        "text": "what is topic_preference_margin"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the difference between last topic and active topic"
+      },
+      {
+        "language": "en-US",
+        "text": "what does activates_topic do"
+      },
+      {
+        "language": "en-US",
+        "text": "explain topics"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic فعال چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ttl مربوط به topic چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک topic چه وقت منقضی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic باعث می شود بات روی یک موضوع بماند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic_preference_margin چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق last topic و active topic چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "activates_topic چه کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic ها را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a topic in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya topics"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic چیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic در gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a topic"
+      },
+      {
+        "language": "fa-IR",
+        "text": "topic چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "topic"
+      },
+      {
+        "language": "en-US",
+        "text": "topics"
+      },
+      {
+        "language": "en-US",
+        "text": "does a topic expire after a few turns"
+      },
+      {
+        "language": "en-US",
+        "text": "how long does a topic stay active"
+      },
+      {
+        "language": "en-US",
+        "text": "activating topic later turns"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i keep the current subject active for a while"
+      },
+      {
+        "language": "en-US",
+        "text": "how long does a subject stay in effect"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i make several turns stay on the same subject"
+      },
+      {
+        "language": "en-US",
+        "text": "what makes the bot stay on one theme across turns"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور موضوع فعلی را چند نوبت زنده نگه دارم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک موضوع چقدر فعال می ماند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور کاری کنم چند نوبت روی همان موضوع بماند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی باعث می شود بات روی یک تم بماند"
+      }
+    ]
+  }
+}

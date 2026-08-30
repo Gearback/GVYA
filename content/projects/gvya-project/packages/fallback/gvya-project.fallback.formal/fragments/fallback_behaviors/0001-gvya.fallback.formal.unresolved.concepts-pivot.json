@@ -1,0 +1,63 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.formal.unresolved.concepts-pivot",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "less_or_equal",
+        "path": "repairCount",
+        "value": 0
+      },
+      {
+        "namespace": "conversation",
+        "op": "equal",
+        "path": "activeTopic",
+        "value": "gvya.topic.concepts"
+      }
+    ],
+    "id": "gvya.fallback.formal.unresolved.concepts-pivot",
+    "priority": 20,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Choose one clear path: what GVYA is, what deterministic means, or how a Bot asks the host to do something."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "یک مسیر روشن انتخاب کن: GVYA چیست، قطعی یعنی چه، یا Bot چطور از host درخواست انجام کار می‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.fallback.formal.unresolved.concepts-pivot.response",
+        "kind": "fallback",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am not sure which GVYA concept you mean, and I do not want to guess."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "مطمئن نیستم منظورت کدام مفهوم GVYA است و نمی‌خواهم حدس بزنم."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "unresolved"
+  }
+}

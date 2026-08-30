@@ -1,0 +1,31 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.flip-a-coin.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.flip-a-coin.behavior",
+    "meaning": "core.smalltalk.formal.flip-a-coin",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.flip-a-coin.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "{{ pick(\"Heads.\", \"Tails.\") }}"
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "{{ pick(\"شیر.\", \"خط.\") }}"
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

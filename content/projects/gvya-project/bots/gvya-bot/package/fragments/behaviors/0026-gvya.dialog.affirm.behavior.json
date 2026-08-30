@@ -1,0 +1,264 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.affirm.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.offer",
+    "id": "gvya.dialog.affirm.behavior",
+    "meaning": "core.smalltalk.formal.yes",
+    "responses": [
+      {
+        "conditions": [
+          {
+            "namespace": "conversation",
+            "op": "equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.about"
+          }
+        ],
+        "id": "gvya.dialog.affirm.pipeline",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Here is the pipeline: you author explicit JSON source, the Rust compiler validates it and compiles one .gvya artifact, and the Rust runtime matches each utterance against that artifact and returns a response or a capability proposal."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خط لوله این است: تو source صریح JSON می‌نویسی، کامپایلر Rust آن را اعتبارسنجی و به یک آرتیفکت ‎.gvya‎ کامپایل می‌کند، و runtime رست هر گفته را با همان آرتیفکت تطبیق می‌دهد و پاسخ یا پیشنهاد capability برمی‌گرداند."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "conversation",
+            "op": "equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.getting-started"
+          }
+        ],
+        "id": "gvya.dialog.affirm.layout",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The layout is project.json at the root, then paired language-profiles/ and matcher-profiles/, packages/, and bots/. Your Bot lives in bots/<id>/ with bot.json next to its own package/package.json."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "ساختار این است: project.json در ریشه، سپس دو پوشهٔ جفت‌شدهٔ ‎language-profiles/‎ و ‎matcher-profiles/‎ و بعد ‎packages/‎ و ‎bots/‎. بات تو در ‎bots/<id>/‎ قرار می‌گیرد، با bot.json کنار ‎package/package.json‎ خودش."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "conversation",
+            "op": "equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.studio"
+          }
+        ],
+        "id": "gvya.dialog.affirm.first-steps",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Start here: open or create a Project, make sure its Matcher Profiles exist, add a Bot, pick its enabled languages, then author one Meaning with its Behavior and simulate it."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "از اینجا شروع کن: یک Project باز یا ایجاد کن، مطمئن شو Matcher Profileهایش هستند، یک Bot اضافه کن، زبان‌های فعالش را انتخاب کن، بعد یک Meaning با Behavior آن بنویس و شبیه‌سازی کن."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "conversation",
+            "op": "equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.build-artifact"
+          }
+        ],
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Next ask where capability execution stops; that is the host boundary this loading loop preserves."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "بعد بپرس اجرای capability کجا متوقف می‌شود؛ این همان مرز host است که loading loop حفظ می‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.dialog.affirm.integration",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The host loads the .gvya through the runtime edge for its platform, passes explicit input, context and state on every turn, and persists the state it gets back."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "میزبان فایل ‎.gvya‎ را از طریق لبهٔ runtime مخصوص پلتفرم خودش بارگذاری می‌کند، در هر نوبت ورودی و context و state صریح می‌دهد، و state برگشتی را ذخیره می‌کند."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "conversation",
+            "op": "equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.matcher"
+          }
+        ],
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Then ask where to inspect why that candidate won; the Why trace closes the debugging loop."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "بعد بپرس چرا آن candidate برنده شد؛ Why trace حلقهٔ debugging را کامل می‌کند."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.dialog.affirm.troubleshooting",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "When it picks the wrong Meaning: check the Meaning boundary first, then read the Why trace against the closest neighbour, and add one discriminative sample rather than more of the same."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "وقتی Meaning اشتباه انتخاب می‌شود: اول مرز Meaning را بررسی کن، بعد ردّ Why را در برابر نزدیک‌ترین همسایه بخوان، و به‌جای نمونه‌های مشابه بیشتر، یک نمونهٔ متمایزکننده اضافه کن."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "conversation",
+            "op": "equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.bot-abilities"
+          }
+        ],
+        "id": "gvya.dialog.affirm.overview",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "GVYA compiles conversational behavior into a small portable brain: transparent source, a Rust compiler, a .gvya artifact, and a Rust runtime. The host stays the only executor of declared capabilities. Pick the next lane directly: authoring, matcher, runtime, or shipping."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "GVYA رفتار مکالمه‌ای را به یک brain کوچک و قابل‌حمل کامپایل می‌کند: source شفاف، کامپایلر Rust، آرتیفکت ‎.gvya‎، و runtime رست. میزبان تنها مجری capabilityهای اعلام‌شده می‌ماند. مسیر بعدی را مستقیم انتخاب کن: authoring، matcher، runtime یا shipping."
+            ]
+          }
+        ]
+      },
+      {
+        "conditions": [
+          {
+            "namespace": "conversation",
+            "op": "not_equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.about"
+          },
+          {
+            "namespace": "conversation",
+            "op": "not_equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.getting-started"
+          },
+          {
+            "namespace": "conversation",
+            "op": "not_equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.studio"
+          },
+          {
+            "namespace": "conversation",
+            "op": "not_equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.build-artifact"
+          },
+          {
+            "namespace": "conversation",
+            "op": "not_equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.matcher"
+          },
+          {
+            "namespace": "conversation",
+            "op": "not_equal",
+            "path": "lastMeaning",
+            "value": "gvya.help.bot-abilities"
+          }
+        ],
+        "id": "gvya.dialog.affirm.generic",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Go ahead and ask the next question directly — concepts, authoring, matching, or shipping."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "سوال بعدی را مستقیم بپرس — مفاهیم، نویسندگی، تطبیق، یا انتشار."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.hurry.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.hurry.behavior",
+    "meaning": "core.smalltalk.informal.hurry",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.hurry.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Rushing makes mistakes.",
+              "Fast isn’t always better.",
+              "I’ll be quick if I can."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "عجله اشتباه می‌سازه.",
+              "سریع‌تر همیشه بهتر نیست.",
+              "اگه بتونم سریع می‌گم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

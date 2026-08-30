@@ -1,0 +1,60 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.host-reject",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.host-reject",
+    "negative_samples": [],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ HOST ^ NO ^"
+      },
+      {
+        "language": "en-US",
+        "priority": 40,
+        "text": "^ HOST ^ REJECT ^"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "host rejects refuses declines proposal capability request"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host رد قبول نکند proposal capability درخواست"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what happens if the host rejects the proposal"
+      },
+      {
+        "language": "en-US",
+        "text": "if the app refuses the capability request what happens"
+      },
+      {
+        "language": "en-US",
+        "text": "what if the host declines that request"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر host proposal را رد کند چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگه برنامه درخواست capability رو قبول نکنه چی میشه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر host درخواست را نپذیرد چه اتفاقی می افتد"
+      }
+    ]
+  }
+}

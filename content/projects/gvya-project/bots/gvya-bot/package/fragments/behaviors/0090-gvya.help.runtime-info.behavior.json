@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.runtime-info.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.runtime-info.behavior",
+    "meaning": "gvya.help.runtime-info",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The broader Studio and Project authoring catalog is deliberately not part of the artifact or the wire contract, and array order is never an implicit fallback contract."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "کاتالوگ گسترده‌ترِ نویسندگی در استودیو و Project عمداً بخشی از آرتیفکت یا قرارداد wire نیست، و ترتیب آرایه هرگز قرارداد fallback ضمنی نیست."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.runtime-info.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "gvya.runtime.info exposes the artifact's enabled_languages and default_language, which is how a host discovers what a compiled Bot actually supports."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏gvya.runtime.info مقادیر ‎enabled_languages‎ و ‎default_language‎ آرتیفکت را نشان می‌دهد، و میزبان از همین راه می‌فهمد یک Bot کامپایل‌شده واقعاً چه چیزی را پشتیبانی می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

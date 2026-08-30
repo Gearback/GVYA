@@ -1,0 +1,54 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what-time-is-it",
+  "mode": {
+    "type": "replace",
+    "target_package": "core.smalltalk.formal",
+    "target_id": "core.smalltalk.formal.what-time-is-it"
+  },
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.what-time-is-it",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "greatest music album of all time"
+      },
+      {
+        "language": "en-US",
+        "text": "best artist of all time"
+      }
+    ],
+    "patterns": [
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "WHAT TIME IS IT"
+      },
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "TIME"
+      },
+      {
+        "language": "en-US",
+        "priority": 0,
+        "text": "CURRENT TIME"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "ساعت چنده"
+      },
+      {
+        "language": "fa-IR",
+        "priority": 0,
+        "text": "الان ساعت چنده"
+      }
+    ],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": []
+  }
+}

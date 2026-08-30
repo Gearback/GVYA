@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.artifact-bounds.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.artifact-bounds.behavior",
+    "meaning": "gvya.help.artifact-bounds",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Caller-supplied limits may only tighten these ceilings, never relax them. They are hard failure bounds, not permission to silently truncate."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "محدودیت‌هایی که فراخوان می‌دهد فقط می‌توانند این سقف‌ها را سخت‌گیرانه‌تر کنند، هرگز شل‌تر. این‌ها مرزهای شکست قطعی‌اند، نه اجازه‌ای برای کوتاه کردن بی‌سروصدا."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.artifact-bounds.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "The v1 contract allows at most 16,384 entries, 512 bytes per path, 64 MiB per entry and 512 MiB total. manifest.json and integrity.json are capped at 8 MiB each, signature.json at 256 KiB, and debug/source-map.json at 16 MiB."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "قرارداد نسخهٔ ۱ حداکثر ۱۶٬۳۸۴ entry، ۵۱۲ بایت برای هر مسیر، ۶۴ مگابایت برای هر entry و ۵۱۲ مگابایت در مجموع را مجاز می‌داند. ‎manifest.json‎ و ‎integrity.json‎ هرکدام تا ۸ مگابایت، ‎signature.json‎ تا ۲۵۶ کیلوبایت، و ‎debug/source-map.json‎ تا ۱۶ مگابایت."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.shipping",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.can-i-ask-you-something.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.can-i-ask-you-something.behavior",
+    "meaning": "core.smalltalk.informal.can-i-ask-you-something",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.can-i-ask-you-something.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Ask.",
+              "Go ahead.",
+              "If I can answer, I will."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بپرس.",
+              "بفرما.",
+              "اگه بتونم جواب می‌دم."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

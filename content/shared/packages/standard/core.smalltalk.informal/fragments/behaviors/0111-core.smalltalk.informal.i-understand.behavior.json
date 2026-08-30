@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-understand.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.i-understand.behavior",
+    "meaning": "core.smalltalk.informal.i-understand",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.i-understand.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good.",
+              "Then use it.",
+              "Alright."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوبه.",
+              "پس ازش استفاده کن.",
+              "باشه."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.structural-route.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian matcher help offers the same truthful structural-pattern route",
+    "generated": false,
+    "id": "gvya.help.scenario.structural-route.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher",
+          "response_ids": [
+            "gvya.help.matcher.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "matcher در GVYA چطور کار می‌کند؟",
+        "seed": 83,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.structural-patterns",
+          "response_ids": [
+            "gvya.help.structural-patterns.overview"
+          ],
+          "why_codes": [
+            "semantic.structural.matched",
+            "semantic.decision.structural"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "pattern ساختاری GVYA را توضیح بده",
+        "seed": 84,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.matcher-troubleshooting",
+          "response_ids": [
+            "gvya.help.matcher-troubleshooting.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "یک intent همیشه به همسایه‌اش می‌بازه؛ اول چی رو تنظیم کنم؟",
+        "seed": 85,
+        "type": "turn"
+      }
+    ]
+  }
+}

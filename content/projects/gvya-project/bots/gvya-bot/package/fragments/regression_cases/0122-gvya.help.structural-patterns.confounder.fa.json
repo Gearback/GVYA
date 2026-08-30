@@ -1,0 +1,24 @@
+{
+  "exported": true,
+  "id": "gvya.help.structural-patterns.confounder.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian regex caret question remains outside GVYA help",
+    "expectation": {
+      "conversation_mode": "fallback",
+      "forbidden_meanings": [
+        "gvya.help.structural-patterns"
+      ],
+      "response_ids": [
+        "gvya.fallback.formal.unresolved.stage-1.redirect"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.structural-patterns.confounder.fa",
+    "initial_state": {},
+    "input": "علامت caret در regex چه کار می‌کند؟",
+    "language": "fa-IR",
+    "seed": 78
+  }
+}

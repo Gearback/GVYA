@@ -1,0 +1,58 @@
+{
+  "exported": true,
+  "id": "gvya.help.determinism-security.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.determinism-security.behavior",
+    "meaning": "gvya.help.determinism-security",
+    "repair_continuation_candidate": true,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "The runtime uses only explicit inputs and bounded rules. It does not secretly consult the network, the machine environment, or a generative model, so it can run fully offline."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "Runtime فقط از ورودی‌های صریح و قانون‌های محدود استفاده می‌کند. پنهانی سراغ شبکه، محیط دستگاه یا مدل مولد نمی‌رود، پس می‌تواند کاملاً آفلاین اجرا شود."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.determinism-security.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.determinism",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Here, deterministic means the same authored brain with the same input and state makes the same decision. There is no hidden model guess or ambient data changing the answer."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "اینجا قطعی یعنی همان brain نوشته‌شده با همان ورودی و state، همان تصمیم را می‌گیرد. حدس پنهان مدل یا دادهٔ محیطی وجود ندارد که جواب را عوض کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.concepts",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.stupid.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.stupid.behavior",
+    "meaning": "core.smalltalk.formal.stupid",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.stupid.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "That will not help.",
+              "Insults are not useful.",
+              "If you are finished with that, ask properly."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "این کمکی نمی‌کند.",
+              "توهین مفید نیست.",
+              "اگر تمام شد، درست بپرسید."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

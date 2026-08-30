@@ -1,0 +1,24 @@
+{
+  "id": "order.cancel",
+  "value": {
+    "id": "order.cancel",
+    "samples": [
+      {
+        "language": "en",
+        "text": "cancel my order"
+      },
+      {
+        "language": "en",
+        "text": "stop the order i placed"
+      },
+      {
+        "language": "en",
+        "text": "i want to cancel a purchase order"
+      },
+      {
+        "language": "en",
+        "text": "can i call off my order"
+      }
+    ]
+  }
+}

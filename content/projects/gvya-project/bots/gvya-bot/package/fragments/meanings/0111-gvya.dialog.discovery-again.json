@@ -1,0 +1,101 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.discovery-again",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.dialog.discovery-again",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 2,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "another discovery one more"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یکی دیگه ادامه نکته"
+      },
+      {
+        "language": "en-US",
+        "text": "one more keep going next another fact more"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازم ادامه بعدی دیگه بیشتر نکته"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "another one"
+      },
+      {
+        "language": "en-US",
+        "text": "one more"
+      },
+      {
+        "language": "en-US",
+        "text": "give me another"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یکی دیگه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یکی دیگه بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دوباره"
+      },
+      {
+        "language": "en-US",
+        "text": "one more please"
+      },
+      {
+        "language": "en-US",
+        "text": "keep going"
+      },
+      {
+        "language": "en-US",
+        "text": "next one"
+      },
+      {
+        "language": "en-US",
+        "text": "give me another fact"
+      },
+      {
+        "language": "en-US",
+        "text": "more"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بازم بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعدی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یه نکته دیگه بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بیشتر بگو"
+      },
+      {
+        "language": "fa-IR",
+        "text": "همین جوری ادامه بده"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "exported": true,
+  "id": "iot.device.state.behavior",
+  "mode": "add",
+  "value": {
+    "id": "iot.device.state.behavior",
+    "meaning": "iot.device.state",
+    "responses": [
+      {
+        "id": "iot.device.state.requested",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["I’ll check the device state."] },
+          { "language": "fa-IR", "variants": ["وضعیت دستگاه را بررسی می‌کنم."] }
+        ]
+      }
+    ]
+  }
+}

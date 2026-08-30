@@ -1,0 +1,30 @@
+{
+  "id": "event.collection",
+  "value": {
+    "id": "event.collection",
+    "description": "A built-in typed date is collected on the next turn",
+    "context": {},
+    "initial_state": {},
+    "generated": false,
+    "steps": [
+      {
+        "type": "turn",
+        "say": "schedule event",
+        "language": "en",
+        "seed": 1,
+        "expectation": {"conversation_mode": "collection", "response_contains": ["For which date?"]}
+      },
+      {
+        "type": "turn",
+        "say": "tomorrow",
+        "language": "en",
+        "seed": 2,
+        "expectation": {
+          "meaning": "event.schedule",
+          "meaning_slots": {"date": "relative:tomorrow"},
+          "response_ids": ["event.schedule.answer"]
+        }
+      }
+    ]
+  }
+}

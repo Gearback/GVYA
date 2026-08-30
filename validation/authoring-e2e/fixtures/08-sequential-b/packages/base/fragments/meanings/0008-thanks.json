@@ -1,0 +1,12 @@
+{
+  "id": "thanks",
+  "value": {
+    "id": "thanks",
+    "samples": [
+      {
+        "language": "en",
+        "text": "thanks"
+      }
+    ]
+  }
+}

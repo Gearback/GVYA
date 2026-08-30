@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.youre-beautiful.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Informal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.informal.youre-beautiful",
+      "response_ids": [
+        "core.smalltalk.informal.youre-beautiful.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.informal.youre-beautiful.basic.en",
+    "initial_state": {},
+    "input": "you're beautiful",
+    "language": "en-US",
+    "seed": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.capability-next.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "followup_scope": "gvya.capability-thread",
+    "id": "gvya.dialog.capability-next.behavior",
+    "meaning": "gvya.dialog.next-step",
+    "responses": [
+      {
+        "id": "gvya.dialog.capability-next.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.capability-thread",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "After the host executes admitted work, it sends a typed CapabilityResult back through the runtime edge. GVYA validates that result and can select the authored result Behavior that continues the conversation."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "بعد از اجرای کار مجاز، host یک CapabilityResult تایپ‌شده از runtime edge برمی‌گرداند. GVYA نتیجه را اعتبارسنجی می‌کند و می‌تواند Behavior نوشته‌شده برای نتیجه را انتخاب کند تا مکالمه ادامه پیدا کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

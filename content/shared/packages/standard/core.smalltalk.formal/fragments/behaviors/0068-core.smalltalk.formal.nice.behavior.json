@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.nice.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.nice.behavior",
+    "meaning": "core.smalltalk.formal.nice",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.nice.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Good.",
+              "Nice.",
+              "That works."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "خوب است.",
+              "خوشایند است.",
+              "این کار می‌کند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

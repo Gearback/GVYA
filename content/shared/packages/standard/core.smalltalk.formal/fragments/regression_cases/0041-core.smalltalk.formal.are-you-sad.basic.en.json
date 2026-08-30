@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.are-you-sad.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.are-you-sad",
+      "response_ids": [
+        "core.smalltalk.formal.are-you-sad.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.are-you-sad.basic.en",
+    "initial_state": {},
+    "input": "are you sad",
+    "language": "en-US",
+    "seed": 1
+  }
+}

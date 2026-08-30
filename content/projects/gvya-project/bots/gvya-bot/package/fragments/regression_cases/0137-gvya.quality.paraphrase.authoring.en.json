@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.authoring.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "A natural authoring transition resolves to the authoring recipe",
+    "expectation": {
+      "meaning": "gvya.help.authoring-recipe"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.authoring.en",
+    "initial_state": {},
+    "input": "Let's start with authoring.",
+    "language": "en-US",
+    "seed": 1
+  }
+}

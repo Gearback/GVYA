@@ -1,0 +1,59 @@
+{
+  "exported": false,
+  "id": "gvya.fallback.formal.repeat.stage-1",
+  "mode": "add",
+  "value": {
+    "conditions": [
+      {
+        "namespace": "conversation",
+        "op": "less_or_equal",
+        "path": "sameInputCount",
+        "value": 1
+      }
+    ],
+    "id": "gvya.fallback.formal.repeat.stage-1",
+    "priority": 0,
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "If the previous answer did not help, ask for a simpler explanation or choose a different GVYA topic."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "اگر جواب قبلی کمک نکرد، توضیح ساده‌تر بخواه یا یک موضوع دیگر GVYA انتخاب کن."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.fallback.formal.repeat.stage-1.acknowledge",
+        "kind": "repeat",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I received the same message again.",
+              "That is the same input, and I am still with you."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "همان پیام را دوباره دریافت کردم.",
+              "این همان ورودی قبلی است و هنوز همراهت هستم."
+            ]
+          }
+        ]
+      }
+    ],
+    "trigger": "repeat"
+  }
+}

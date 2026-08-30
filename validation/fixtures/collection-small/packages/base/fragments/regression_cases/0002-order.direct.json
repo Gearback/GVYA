@@ -1,0 +1,19 @@
+{
+  "id": "order.direct",
+  "value": {
+    "id": "order.direct",
+    "description": "One-turn completion reaches the same capability arguments as collection",
+    "input": "create order 3",
+    "language": "en",
+    "context": {"available_capabilities": [{"id": "order.submit", "version": "1"}]},
+    "initial_state": {},
+    "seed": 2,
+    "generated": false,
+    "expectation": {
+      "meaning": "order.create",
+      "meaning_slots": {"count": 3},
+      "response_ids": ["order.create.answer"],
+      "capabilities": [{"id": "order.submit", "version": "1", "arguments": {"count": 3}}]
+    }
+  }
+}

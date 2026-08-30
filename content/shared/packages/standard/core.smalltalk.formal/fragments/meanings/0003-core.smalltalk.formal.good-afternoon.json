@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.good-afternoon",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.good-afternoon",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "good afternoon"
+      },
+      {
+        "language": "en-US",
+        "text": "afternoon"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بعدازظهر بخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ظهر بخیر"
+      },
+      {
+        "language": "fa-IR",
+        "text": "ظهر شده"
+      }
+    ]
+  }
+}

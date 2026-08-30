@@ -1,0 +1,38 @@
+{
+  "exported": true,
+  "id": "iot.device.run",
+  "mode": "add",
+  "value": {
+    "contract": {
+      "confirmation_hint": "conditional",
+      "description": "Start or stop one host-resolved IoT appliance or process. The host validates support and classifies the concrete operation for safety.",
+      "effect_class": "reversible",
+      "id": "iot.device.run",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "device": { "maxLength": 160, "minLength": 1, "type": "string" },
+          "state": { "enum": ["running", "stopped"], "type": "string" }
+        },
+        "required": ["device", "state"],
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "detail": { "maxLength": 500, "minLength": 1, "type": "string" },
+          "device": { "maxLength": 160, "minLength": 1, "type": "string" },
+          "state": { "maxLength": 160, "minLength": 1, "type": "string" }
+        },
+        "required": ["device", "state"],
+        "type": "object"
+      },
+      "reference_kinds": ["iot.device"],
+      "title": "Run IoT device",
+      "version": "1"
+    },
+    "host_effects": [
+      { "kind": "update", "resource": "iot.device.run", "summary": "Start or stop device operation" }
+    ]
+  }
+}

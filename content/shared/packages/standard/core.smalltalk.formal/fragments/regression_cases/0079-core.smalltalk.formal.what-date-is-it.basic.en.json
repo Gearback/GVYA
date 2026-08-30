@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.what-date-is-it.basic.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal en-US exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.what-date-is-it",
+      "response_ids": [
+        "core.smalltalk.formal.what-date-is-it.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.what-date-is-it.basic.en",
+    "initial_state": {},
+    "input": "what date is it",
+    "language": "en-US",
+    "seed": 1
+  }
+}

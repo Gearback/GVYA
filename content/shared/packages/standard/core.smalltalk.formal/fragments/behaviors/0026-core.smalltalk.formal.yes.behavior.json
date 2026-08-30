@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.yes.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.formal.yes.behavior",
+    "meaning": "core.smalltalk.formal.yes",
+    "responses": [
+      {
+        "id": "core.smalltalk.formal.yes.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "All right.",
+              "Good.",
+              "Understood.",
+              "Very well."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه.",
+              "خوب است.",
+              "فهمیدم.",
+              "بسیار خوب."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

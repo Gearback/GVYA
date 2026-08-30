@@ -1,0 +1,20 @@
+{
+  "id": "sharing.link.behavior",
+  "value": {
+    "id": "sharing.link.behavior",
+    "meaning": "sharing.link",
+    "responses": [
+      {
+        "id": "sharing.link.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:SHARING_LINK"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

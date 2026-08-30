@@ -1,0 +1,42 @@
+{
+  "id": "order.flow.proof",
+  "value": {
+    "context": {},
+    "description": "Direct scenario proof",
+    "generated": false,
+    "id": "order.flow.proof",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "order.confirm.followup",
+          "active_topic": "order.flow",
+          "author_values": {
+            "order.started": true
+          },
+          "meaning": "order.start",
+          "response_ids": [
+            "order.start.behavior.answer"
+          ]
+        },
+        "language": "en",
+        "say": "start order",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_topic": "order.flow",
+          "meaning": "order.confirm",
+          "response_ids": [
+            "order.confirm.behavior.answer"
+          ]
+        },
+        "language": "en",
+        "say": "yes confirm",
+        "seed": 1,
+        "type": "turn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "context.searchable_is_pdf",
+  "value": {
+    "id": "context.searchable_is_pdf",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "normal pdf"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "is that still a normal pdf file"
+      },
+      {
+        "language": "en",
+        "text": "is a searchable export still a standard pdf"
+      }
+    ]
+  }
+}

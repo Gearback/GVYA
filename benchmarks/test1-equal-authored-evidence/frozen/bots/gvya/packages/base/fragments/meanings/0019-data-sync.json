@@ -1,0 +1,24 @@
+{
+  "id": "data.sync",
+  "value": {
+    "id": "data.sync",
+    "samples": [
+      {
+        "language": "en",
+        "text": "sync my data"
+      },
+      {
+        "language": "en",
+        "text": "why is my data not syncing"
+      },
+      {
+        "language": "en",
+        "text": "how do i synchronize my devices"
+      },
+      {
+        "language": "en",
+        "text": "keep my data in sync"
+      }
+    ]
+  }
+}

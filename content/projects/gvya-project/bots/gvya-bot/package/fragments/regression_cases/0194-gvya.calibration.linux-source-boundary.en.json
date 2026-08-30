@@ -1,0 +1,22 @@
+{
+  "exported": true,
+  "id": "gvya.calibration.linux-source-boundary.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Linux package source layout must stay outside the GVYA source and artifact meanings",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.build-artifact",
+        "gvya.help.fragment-index",
+        "gvya.help.source-layout"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.calibration.linux-source-boundary.en",
+    "initial_state": {},
+    "input": "Where are source files stored in a Linux package?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

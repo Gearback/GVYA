@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.that-makes-no-sense",
+  "mode": "add",
+  "value": {
+    "class": "clarification",
+    "id": "core.smalltalk.informal.that-makes-no-sense",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "that makes no sense"
+      },
+      {
+        "language": "en-US",
+        "text": "nonsense"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بی معنیه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مزخرفه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "معنی نداره"
+      }
+    ]
+  }
+}

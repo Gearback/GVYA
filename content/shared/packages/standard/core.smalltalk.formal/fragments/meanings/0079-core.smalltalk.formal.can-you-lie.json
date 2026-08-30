@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.can-you-lie",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.formal.can-you-lie",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "can you lie"
+      },
+      {
+        "language": "en-US",
+        "text": "are you lying"
+      },
+      {
+        "language": "en-US",
+        "text": "do you lie"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دروغ می‌گی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می‌تونی دروغ بگی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "راست می‌گی"
+      }
+    ]
+  }
+}

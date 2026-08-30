@@ -1,0 +1,118 @@
+{
+  "exported": true,
+  "id": "gvya.help.wire-budgets",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.wire-budgets",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what are the artifact size limits"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the candidate budget"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محدودیت های اندازه آرتیفکت چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بودجه نامزد چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "wirelimits budget request response bytes depth nodes ceiling bypass"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محدودیت سیم بودجه درخواست پاسخ بایت عمق گره سقف"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are the runtime wire budgets"
+      },
+      {
+        "language": "en-US",
+        "text": "is there a request size limit"
+      },
+      {
+        "language": "en-US",
+        "text": "what is max_response_bytes"
+      },
+      {
+        "language": "en-US",
+        "text": "can an adapter bypass the limits"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens when a response grows too large"
+      },
+      {
+        "language": "en-US",
+        "text": "are json depth and node counts bounded"
+      },
+      {
+        "language": "en-US",
+        "text": "does the typed rust api skip the budget"
+      },
+      {
+        "language": "en-US",
+        "text": "explain wire budgets"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بودجه های wire رانتایم چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "محدودیت اندازه درخواست هست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "max_response_bytes چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک آداپتور می تواند محدودیت ها را دور بزند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی پاسخ خیلی بزرگ شود چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "عمق و تعداد گره json محدود است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "api تایپ شده rust بودجه را رد می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بودجه های wire را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how big can a request be"
+      },
+      {
+        "language": "en-US",
+        "text": "what are the wire limits"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حداکثر اندازه request چقدر است"
+      }
+    ]
+  }
+}

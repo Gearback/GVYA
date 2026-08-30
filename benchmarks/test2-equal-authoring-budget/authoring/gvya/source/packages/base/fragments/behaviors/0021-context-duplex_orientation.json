@@ -1,0 +1,21 @@
+{
+  "id": "context.duplex_orientation.behavior",
+  "value": {
+    "followup_scope": "context.duplex_orientation.followup",
+    "id": "context.duplex_orientation.behavior",
+    "meaning": "context.duplex_orientation",
+    "responses": [
+      {
+        "id": "context.duplex_orientation.answer",
+        "texts": [
+          {
+            "language": "en",
+            "variants": [
+              "BENCH:CONTEXT_DUPLEX_ORIENTATION"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

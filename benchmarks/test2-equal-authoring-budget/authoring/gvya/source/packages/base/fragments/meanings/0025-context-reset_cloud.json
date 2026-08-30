@@ -1,0 +1,22 @@
+{
+  "id": "context.reset_cloud",
+  "value": {
+    "id": "context.reset_cloud",
+    "retrieval_terms": [
+      {
+        "language": "en",
+        "text": "cloud copies"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en",
+        "text": "does that erase documents already synced to cloud"
+      },
+      {
+        "language": "en",
+        "text": "does factory reset delete cloud copies"
+      }
+    ]
+  }
+}

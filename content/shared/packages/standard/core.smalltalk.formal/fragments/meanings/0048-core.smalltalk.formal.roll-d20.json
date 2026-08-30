@@ -1,0 +1,40 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.roll-d20",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "core.smalltalk.formal.roll-d20",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "roll d20"
+      },
+      {
+        "language": "en-US",
+        "text": "roll a d20"
+      },
+      {
+        "language": "en-US",
+        "text": "twenty sided die"
+      },
+      {
+        "language": "en-US",
+        "text": "d20"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تاس بیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تاس ۲۰"
+      }
+    ]
+  }
+}

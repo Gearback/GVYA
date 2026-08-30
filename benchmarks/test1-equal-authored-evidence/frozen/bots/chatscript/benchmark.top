@@ -1,0 +1,102 @@
+# Generated mechanically from benchmark-spec.json
+# Semantic rules only; no hand-authored concepts, synonyms, or wildcards.
+topic: ~benchmark []
+u: ( < create an account > ) BENCH:ACCOUNT_CREATE
+u: ( < how do i make an account > ) BENCH:ACCOUNT_CREATE
+u: ( < i want to sign up > ) BENCH:ACCOUNT_CREATE
+u: ( < help me open a new account > ) BENCH:ACCOUNT_CREATE
+u: ( < delete my account > ) BENCH:ACCOUNT_DELETE
+u: ( < how do i close my account > ) BENCH:ACCOUNT_DELETE
+u: ( < remove my account permanently > ) BENCH:ACCOUNT_DELETE
+u: ( < i want to erase my account > ) BENCH:ACCOUNT_DELETE
+u: ( < reset my password > ) BENCH:PASSWORD_RESET
+u: ( < i forgot my password > ) BENCH:PASSWORD_RESET
+u: ( < how can i change a forgotten password > ) BENCH:PASSWORD_RESET
+u: ( < help me recover my password > ) BENCH:PASSWORD_RESET
+u: ( < change my email address > ) BENCH:EMAIL_CHANGE
+u: ( < update the email on my account > ) BENCH:EMAIL_CHANGE
+u: ( < use a different email for my account > ) BENCH:EMAIL_CHANGE
+u: ( < how do i replace my login email > ) BENCH:EMAIL_CHANGE
+u: ( < i need a receipt > ) BENCH:BILLING_RECEIPT
+u: ( < where can i get my invoice > ) BENCH:BILLING_RECEIPT
+u: ( < download my billing receipt > ) BENCH:BILLING_RECEIPT
+u: ( < show me the invoice for my payment > ) BENCH:BILLING_RECEIPT
+u: ( < i want a refund > ) BENCH:BILLING_REFUND
+u: ( < how do i get my money back > ) BENCH:BILLING_REFUND
+u: ( < refund my payment > ) BENCH:BILLING_REFUND
+u: ( < can you return the charge > ) BENCH:BILLING_REFUND
+u: ( < my payment failed > ) BENCH:BILLING_PAYMENT_FAILED
+u: ( < the card payment was declined > ) BENCH:BILLING_PAYMENT_FAILED
+u: ( < why did my payment not go through > ) BENCH:BILLING_PAYMENT_FAILED
+u: ( < i cannot complete the payment > ) BENCH:BILLING_PAYMENT_FAILED
+u: ( < cancel my subscription > ) BENCH:SUBSCRIPTION_CANCEL
+u: ( < stop my subscription > ) BENCH:SUBSCRIPTION_CANCEL
+u: ( < i want to end my plan > ) BENCH:SUBSCRIPTION_CANCEL
+u: ( < turn off my paid subscription > ) BENCH:SUBSCRIPTION_CANCEL
+u: ( < where is my order > ) BENCH:ORDER_STATUS
+u: ( < check my order status > ) BENCH:ORDER_STATUS
+u: ( < track my order > ) BENCH:ORDER_STATUS
+u: ( < what is happening with my order > ) BENCH:ORDER_STATUS
+u: ( < cancel my order > ) BENCH:ORDER_CANCEL
+u: ( < stop the order i placed > ) BENCH:ORDER_CANCEL
+u: ( < i want to cancel a purchase order > ) BENCH:ORDER_CANCEL
+u: ( < can i call off my order > ) BENCH:ORDER_CANCEL
+u: ( < change my shipping address > ) BENCH:SHIPPING_ADDRESS_CHANGE
+u: ( < update the delivery address > ) BENCH:SHIPPING_ADDRESS_CHANGE
+u: ( < send my order to a different address > ) BENCH:SHIPPING_ADDRESS_CHANGE
+u: ( < how do i correct the shipping address > ) BENCH:SHIPPING_ADDRESS_CHANGE
+u: ( < how much is shipping > ) BENCH:SHIPPING_COST
+u: ( < what does delivery cost > ) BENCH:SHIPPING_COST
+u: ( < tell me the shipping fee > ) BENCH:SHIPPING_COST
+u: ( < is there a delivery charge > ) BENCH:SHIPPING_COST
+u: ( < is this product compatible with windows > ) BENCH:PRODUCT_COMPATIBILITY
+u: ( < does it work with android > ) BENCH:PRODUCT_COMPATIBILITY
+u: ( < what devices is the product compatible with > ) BENCH:PRODUCT_COMPATIBILITY
+u: ( < will this work on my mac > ) BENCH:PRODUCT_COMPATIBILITY
+u: ( < what are the system requirements > ) BENCH:PRODUCT_REQUIREMENTS
+u: ( < what do i need to run the app > ) BENCH:PRODUCT_REQUIREMENTS
+u: ( < minimum requirements for the product > ) BENCH:PRODUCT_REQUIREMENTS
+u: ( < what hardware does the app require > ) BENCH:PRODUCT_REQUIREMENTS
+u: ( < how do i install the app > ) BENCH:APP_INSTALL
+u: ( < help me install the application > ) BENCH:APP_INSTALL
+u: ( < where do i start the installation > ) BENCH:APP_INSTALL
+u: ( < installing the app > ) BENCH:APP_INSTALL
+u: ( < how do i update the app > ) BENCH:APP_UPDATE
+u: ( < install the latest app update > ) BENCH:APP_UPDATE
+u: ( < upgrade my application > ) BENCH:APP_UPDATE
+u: ( < where can i get the newest version > ) BENCH:APP_UPDATE
+u: ( < export my data > ) BENCH:DATA_EXPORT
+u: ( < how do i download my data > ) BENCH:DATA_EXPORT
+u: ( < get a copy of my information > ) BENCH:DATA_EXPORT
+u: ( < i want to export everything from my account > ) BENCH:DATA_EXPORT
+u: ( < delete my stored data > ) BENCH:DATA_DELETE
+u: ( < remove my saved information > ) BENCH:DATA_DELETE
+u: ( < erase the data you have about me > ) BENCH:DATA_DELETE
+u: ( < how do i clear all my data > ) BENCH:DATA_DELETE
+u: ( < sync my data > ) BENCH:DATA_SYNC
+u: ( < why is my data not syncing > ) BENCH:DATA_SYNC
+u: ( < how do i synchronize my devices > ) BENCH:DATA_SYNC
+u: ( < keep my data in sync > ) BENCH:DATA_SYNC
+u: ( < can i use the app offline > ) BENCH:OFFLINE_MODE
+u: ( < does the app work without internet > ) BENCH:OFFLINE_MODE
+u: ( < how do i enable offline mode > ) BENCH:OFFLINE_MODE
+u: ( < use the product with no connection > ) BENCH:OFFLINE_MODE
+u: ( < enable two factor authentication > ) BENCH:SECURITY_TWO_FACTOR
+u: ( < turn on 2fa > ) BENCH:SECURITY_TWO_FACTOR
+u: ( < how do i set up two step verification > ) BENCH:SECURITY_TWO_FACTOR
+u: ( < protect my account with a second factor > ) BENCH:SECURITY_TWO_FACTOR
+u: ( < show my active sessions > ) BENCH:SECURITY_SESSIONS
+u: ( < where am i currently signed in > ) BENCH:SECURITY_SESSIONS
+u: ( < list devices logged into my account > ) BENCH:SECURITY_SESSIONS
+u: ( < check my login sessions > ) BENCH:SECURITY_SESSIONS
+u: ( < how do i contact support > ) BENCH:SUPPORT_CONTACT
+u: ( < i need to talk to support > ) BENCH:SUPPORT_CONTACT
+u: ( < where can i reach customer service > ) BENCH:SUPPORT_CONTACT
+u: ( < help me contact your support team > ) BENCH:SUPPORT_CONTACT
+u: ( < when is support open > ) BENCH:SUPPORT_HOURS
+u: ( < what are support hours > ) BENCH:SUPPORT_HOURS
+u: ( < when can i contact customer service > ) BENCH:SUPPORT_HOURS
+u: ( < what time does the support team work > ) BENCH:SUPPORT_HOURS
+
+# Fallback adapter rule (non-semantic infrastructure)
+u: ( * ) BENCH:FALLBACK

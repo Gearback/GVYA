@@ -1,0 +1,55 @@
+{
+  "exported": true,
+  "id": "gvya.help.bot-abilities.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "gvya.help.bot-abilities.behavior",
+    "meaning": "gvya.help.bot-abilities",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "If you are new, say “give me the simple overview.” You can also ask for a real example, help making your first Bot, or a useful surprise."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "اگر تازه‌واردی بگو «ساده توضیح بده». می‌توانی یک مثال واقعی، راه ساخت اولین Bot یا یک نکتهٔ جالب هم بخواهی."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.bot-abilities.response",
+        "kind": "normal",
+        "opens_followup": {
+          "id": "gvya.offer",
+          "refresh_if_same": true,
+          "ttl": 3
+        },
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "I am the GVYA product guide. I can explain what GVYA is, show what you can build, help you make and test a Bot, debug a wrong match, and explain how the finished brain connects to an app."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "من راهنمای GVYA هستم. می‌توانم بگویم GVYA چیست، چه چیزهایی می‌شود با آن ساخت، چطور یک Bot را بسازی و تست کنی، match اشتباه را عیب‌یابی کنی و brain نهایی را به برنامه وصل کنی."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

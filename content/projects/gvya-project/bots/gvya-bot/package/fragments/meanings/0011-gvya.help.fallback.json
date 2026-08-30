@@ -1,0 +1,390 @@
+{
+  "exported": true,
+  "id": "gvya.help.fallback",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.fallback",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a gvya package"
+      },
+      {
+        "language": "en-US",
+        "text": "why is my meaning not matching"
+      },
+      {
+        "language": "fa-IR",
+        "text": "پکیج gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا meaning من match نمی شود"
+      },
+      {
+        "language": "en-US",
+        "text": "semantic unit user intent"
+      },
+      {
+        "language": "en-US",
+        "text": "unresolved recovery behavior"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "unresolved fallback"
+      },
+      {
+        "language": "en-US",
+        "text": "repeat fallback"
+      },
+      {
+        "language": "en-US",
+        "text": "fallback package"
+      },
+      {
+        "language": "en-US",
+        "text": "semantic resolution failure response recovery behavior"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback unresolved"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback تکرار"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "semantic resolution شکست پاسخ recovery رفتار"
+      },
+      {
+        "language": "en-US",
+        "text": "last resort do not understand reply owns"
+      },
+      {
+        "language": "en-US",
+        "text": "recovery tone swap normal intent"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جواب نهایی متوجه نشدم محتوا متعلق"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لحن recovery تغییر intent عادی"
+      },
+      {
+        "language": "en-US",
+        "text": "no match no convincing candidate unresolved route conversation recovery"
+      },
+      {
+        "language": "en-US",
+        "text": "nothing matches semantic route fails recovery response"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون match candidate نامطمئن مسیر unresolved recovery گفتگو"
+      },
+      {
+        "language": "en-US",
+        "text": "unresolved no winner recovery"
+      },
+      {
+        "language": "en-US",
+        "text": "no meaning no match unresolved recovery route last resort safe fallback package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بدون meaning بدون match unresolved recovery مسیر آخرین راه امن fallback package"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نفهمید متوجه نشد هیچ meaning برنده نشد جواب آخر"
+      },
+      {
+        "language": "en-US",
+        "text": "nothing matched no meaning won last resort unresolved answer"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نفهمد منظور match نشد چیزی پیدا نشد جواب آخر آخرین راه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متوجه نشود نفهمد اتفاق رخ می دهد جواب آخر لایه fallback"
+      }
+    ],
+    "samples": [
+      {
+        "language": "fa-IR",
+        "text": "چیزی match نشود"
+      },
+      {
+        "language": "en-US",
+        "text": "gvya fallback"
+      },
+      {
+        "language": "en-US",
+        "text": "how does fallback work"
+      },
+      {
+        "language": "en-US",
+        "text": "how should fallback keep the user engaged"
+      },
+      {
+        "language": "en-US",
+        "text": "what is recovery first fallback"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens when nothing matches"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a fallback package"
+      },
+      {
+        "language": "en-US",
+        "text": "formal versus informal fallback"
+      },
+      {
+        "language": "en-US",
+        "text": "why did the bot say it did not understand"
+      },
+      {
+        "language": "en-US",
+        "text": "how are repeated failures handled"
+      },
+      {
+        "language": "en-US",
+        "text": "is unresolved recovery outside standard package composition"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the bot do when it has no answer"
+      },
+      {
+        "language": "en-US",
+        "text": "last resort do not understand reply"
+      },
+      {
+        "language": "en-US",
+        "text": "last-resort i-don't-understand reply"
+      },
+      {
+        "language": "en-US",
+        "text": "selected fallback layer responds"
+      },
+      {
+        "language": "en-US",
+        "text": "resolution returns nothing"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback در gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback چطور کار می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback چطور کاربر را در گفتگو نگه می دارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback با رویکرد recovery first یعنی چی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی هیچ چیز match نشود چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback package چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فرق fallback رسمی و صمیمی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا بات گفت متوجه نشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "شکست های تکراری چطور مدیریت می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "recovery حالت unresolved بیرون از composition پکیج standard است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی بات جواب نداره چی کار می کنه"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تشخیص معنا شکست می خوره کی جواب میده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback پکیج رفتار معمولی"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لحن پاسخ های recovery را می شود مستقل از intent های عادی عوض کرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تشخیص معنا شکست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "intent نگرفت جواب کجا"
+      },
+      {
+        "language": "fa-IR",
+        "text": "لایه fallback انتخاب شده جواب"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens when nothing matches"
+      },
+      {
+        "language": "en-US",
+        "text": "who answers when it fails to understand"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی چیزی match نشود چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی نمی فهمد کی جواب می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "what is fallback"
+      },
+      {
+        "language": "en-US",
+        "text": "fallback in gvya"
+      },
+      {
+        "language": "fa-IR",
+        "text": "fallback چیه"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens when it does not understand"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی چیزی را نمی فهمد چه می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "package فالبک چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "fallback"
+      },
+      {
+        "language": "en-US",
+        "text": "semantic resolution has no winner"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر نفهمد چه جوابی می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی هیچ meaning ای برنده نشود چه اتفاقی می افتد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی متوجه حرف من نشود چه می گوید"
+      },
+      {
+        "language": "en-US",
+        "text": "what does it say when nothing matches"
+      },
+      {
+        "language": "en-US",
+        "text": "what happens on a turn where no meaning wins"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر منظورم را نفهمد چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی هیچ چیز match نشود چه جوابی می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جواب آخر وقتی چیزی پیدا نشد چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی نفهمد چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر متوجه نشود چه جوابی می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی چیزی را متوجه نشود چه اتفاقی می افتد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی resolution چیزی بر نمی گرداند کدام لایه جواب می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کدام لایه جواب آخر را می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "which layer answers when resolution returns nothing"
+      },
+      {
+        "language": "fa-IR",
+        "text": "وقتی متوجه نشود چه اتفاقی می افتد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر بات متوجه نشود چه رخ می دهد"
+      },
+      {
+        "language": "en-US",
+        "text": "what if the bot misunderstands me"
+      },
+      {
+        "language": "en-US",
+        "text": "what if the bot does not understand what i mean"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگر بات منظورم را اشتباه بفهمد چه می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اگه بات منظورم رو اشتباه بفهمه چی"
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "exported": true,
+  "id": "gvya.help.semantic-views",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.semantic-views",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "how is input text normalized"
+      },
+      {
+        "language": "en-US",
+        "text": "what is typo tolerance"
+      },
+      {
+        "language": "fa-IR",
+        "text": "متن ورودی چطور نرمال سازی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تحمل غلط املایی چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "fa-IR",
+        "text": "semantic view جدا امتیاز گرفتن"
+      },
+      {
+        "language": "en-US",
+        "text": "semanticview views normalized colloquial clean content entity"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمای معنایی نماها نرمال محاوره ای تمیز محتوا"
+      },
+      {
+        "language": "en-US",
+        "text": "several readings interpretations of one utterance multiple ways parallel views"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چند برداشت خوانش از یک گفته چند زاویه همزمان نما"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نما برداشت خوانش چند جور یک جمله گفته همزمان view"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what are semantic views"
+      },
+      {
+        "language": "en-US",
+        "text": "why build multiple views of one utterance"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the content view"
+      },
+      {
+        "language": "en-US",
+        "text": "is the original utterance ever rewritten"
+      },
+      {
+        "language": "en-US",
+        "text": "what views does it build"
+      },
+      {
+        "language": "en-US",
+        "text": "how does typo correction avoid mutating input"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the clean view"
+      },
+      {
+        "language": "en-US",
+        "text": "explain semantic views"
+      },
+      {
+        "language": "fa-IR",
+        "text": "semantic view ها چیستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا از یک گفته چند نما ساخته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمای content چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "گفته اصلی بازنویسی می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه نماهایی ساخته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اصلاح غلط املایی چطور ورودی را دست نمی زند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نمای clean چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نماهای معنایی را توضیح بده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "semantic view چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "matching build semantic views"
+      },
+      {
+        "language": "en-US",
+        "text": "how many interpretations of one sentence are built"
+      },
+      {
+        "language": "en-US",
+        "text": "does it look at my sentence in more than one way"
+      },
+      {
+        "language": "en-US",
+        "text": "why is one utterance read several ways at once"
+      },
+      {
+        "language": "fa-IR",
+        "text": "از یک جمله چند برداشت ساخته می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "جمله من را از چند زاویه نگاه می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چرا یک گفته همزمان چند جور خوانده می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک جمله را چند جور می خواند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نماهای مختلف یک گفته چیستند"
+      },
+      {
+        "language": "en-US",
+        "text": "Why are meanings scored through separate semantic views?"
+      }
+    ]
+  }
+}

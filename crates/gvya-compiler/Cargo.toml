@@ -1,0 +1,17 @@
+[package]
+name = "gvya-compiler"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+gvya-artifact = { path = "../gvya-artifact" }
+gvya-model = { path = "../gvya-model" }
+gvya-kernel = { path = "../gvya-kernel" }
+serde_json = "1.0"
+sha2 = "0.10"
+
+[lints]
+workspace = true

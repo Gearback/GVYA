@@ -1,0 +1,20 @@
+{
+  "exported": true,
+  "id": "gvya.m1.boundary.npm-packages.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "External npm package wording must not be stolen by GVYA package help",
+    "expectation": {
+      "forbidden_meanings": [
+        "gvya.help.packages"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.m1.boundary.npm-packages.en",
+    "initial_state": {},
+    "input": "What are npm packages?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

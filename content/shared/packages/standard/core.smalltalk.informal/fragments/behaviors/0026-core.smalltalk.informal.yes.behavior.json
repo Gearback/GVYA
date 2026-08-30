@@ -1,0 +1,37 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.yes.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.yes.behavior",
+    "meaning": "core.smalltalk.informal.yes",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.yes.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Alright.",
+              "Good.",
+              "Fine.",
+              "Got it."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "باشه.",
+              "خوبه.",
+              "فهمیدم.",
+              "قبوله."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

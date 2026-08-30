@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.retrieval-terms.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.retrieval-terms.behavior",
+    "meaning": "gvya.help.retrieval-terms",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Positive samples, negative samples and retrieval terms all carry explicit language tags, and per-Meaning counts and text bytes are bounded by the compiler and runtime."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "نمونه‌های مثبت، نمونه‌های منفی و عبارت‌های بازیابی همگی برچسب زبان صریح دارند، و تعداد و حجم متن هر Meaning توسط کامپایلر و runtime محدود شده است."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.retrieval-terms.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "retrieval_terms are explicit language-tagged metadata that widen how a Meaning can be reached. They replaced the old hidden intent and topic-name domain rescue: IDs and topics are never secret retrieval features."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "‏retrieval_terms فراداده‌ای صریح و برچسب‌خوردهٔ زبانی است که دامنهٔ دسترسی به یک Meaning را گسترش می‌دهد. جایگزین بازیابی پنهان بر پایهٔ نام intent و topic شد: شناسه‌ها و topicها هرگز ویژگی بازیابی مخفی نیستند."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.matching",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

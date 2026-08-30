@@ -1,0 +1,134 @@
+{
+  "exported": true,
+  "id": "gvya.help.context-snapshot",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.context-snapshot",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is gvya state"
+      },
+      {
+        "language": "en-US",
+        "text": "what is a host reference"
+      },
+      {
+        "language": "fa-IR",
+        "text": "gvya state چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "host reference چیست"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "contextsnapshot immutable host supplied visible facts"
+      },
+      {
+        "language": "fa-IR",
+        "text": "snapshot زمینه تغییرناپذیر میزبان واقعیت قابل مشاهده"
+      },
+      {
+        "language": "en-US",
+        "text": "read only host facts one turn expose immutable context snapshot application facts"
+      },
+      {
+        "language": "fa-IR",
+        "text": "اطلاعات فقط خواندنی host یک turn expose immutable context snapshot application facts"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is a context snapshot"
+      },
+      {
+        "language": "en-US",
+        "text": "what does the host put in context"
+      },
+      {
+        "language": "en-US",
+        "text": "can the brain read arbitrary host state"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i expose facts to the bot"
+      },
+      {
+        "language": "en-US",
+        "text": "is context mutable during a turn"
+      },
+      {
+        "language": "en-US",
+        "text": "what belongs in the context snapshot"
+      },
+      {
+        "language": "en-US",
+        "text": "does the compiler need to know context paths"
+      },
+      {
+        "language": "en-US",
+        "text": "explain context"
+      },
+      {
+        "language": "fa-IR",
+        "text": "context snapshot چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان چه چیزی در context می گذارد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "brain می تواند هر حالت میزبان را بخواند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور واقعیت ها را به بات نشان بدهم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "context در طول یک نوبت تغییر می کند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چه چیزی در context snapshot قرار می گیرد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "کامپایلر باید مسیرهای context را بداند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "context را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "what goes in the context snapshot"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i tell the bot what is on screen right now"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the host pass in facts about the current situation"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور به بات بگویم الان چه چیزی روی صفحه است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "میزبان چطور واقعیت های وضعیت فعلی را می دهد"
+      }
+    ]
+  }
+}

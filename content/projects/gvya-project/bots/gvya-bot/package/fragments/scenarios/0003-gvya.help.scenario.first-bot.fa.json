@@ -1,0 +1,50 @@
+{
+  "exported": true,
+  "id": "gvya.help.scenario.first-bot.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Persian beginner moves from overview to first Bot and testing",
+    "generated": false,
+    "id": "gvya.help.scenario.first-bot.fa",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "gvya.help.about",
+          "response_ids": [
+            "gvya.help.about.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "تا حالا با گویا کار نکردم؛ اصلاً چیه؟",
+        "seed": 1,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.getting-started",
+          "response_ids": [
+            "gvya.help.getting-started.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "خب سریع‌ترین راه ساخت اولین بات چیه؟",
+        "seed": 2,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "meaning": "gvya.help.testing-debugging",
+          "response_ids": [
+            "gvya.help.testing-debugging.response"
+          ]
+        },
+        "language": "fa-IR",
+        "say": "از کجا مطمئن شم intentها هنوز درست کار می‌کنن؟",
+        "seed": 3,
+        "type": "turn"
+      }
+    ]
+  }
+}

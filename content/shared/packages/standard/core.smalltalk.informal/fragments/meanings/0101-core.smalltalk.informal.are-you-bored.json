@@ -1,0 +1,32 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-bored",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.are-you-bored",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "are you bored"
+      },
+      {
+        "language": "en-US",
+        "text": "do you get bored"
+      },
+      {
+        "language": "fa-IR",
+        "text": "حوصله‌ات سر رفته"
+      },
+      {
+        "language": "fa-IR",
+        "text": "خسته شدی از حرف زدن"
+      }
+    ]
+  }
+}

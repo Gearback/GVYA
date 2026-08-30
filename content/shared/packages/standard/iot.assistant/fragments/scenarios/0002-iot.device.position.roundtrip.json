@@ -1,0 +1,82 @@
+{
+  "exported": false,
+  "id": "iot.device.position.roundtrip",
+  "mode": "add",
+  "value": {
+    "context": {
+      "available_capabilities": [{ "id": "iot.device.position", "version": "1" }],
+      "values": { "iot": { "confirmation_required": true } },
+      "visible_references": [{ "id": "blind.study", "kind": "iot.device" }]
+    },
+    "description": "Position changes require confirmation and exercise success and failure results in both languages.",
+    "generated": false,
+    "id": "iot.device.position.roundtrip",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "meaning": "iot.device.open",
+          "meaning_references": [{ "id": "blind.study", "kind": "iot.device" }],
+          "proposal_receipts": [{ "arguments": { "device": "blind.study", "position": "open" }, "id": "iot.device.position", "outcome": "needs_confirmation", "reason_code": "iot.confirmation_required", "version": "1" }],
+          "response_ids": ["iot.device.open.requested"]
+        },
+        "language": "fa-IR",
+        "reference_candidates": [
+          { "aliases": ["پرده اتاق کار", "study blind"], "label": "پرده اتاق کار", "reference": { "id": "blind.study", "kind": "iot.device" } }
+        ],
+        "say": "پرده اتاق کار را باز کن",
+        "seed": 211,
+        "type": "turn"
+      },
+      {
+        "confirmed": true,
+        "expectation": { "capabilities": [{ "arguments": { "device": "blind.study", "position": "open" }, "id": "iot.device.position", "version": "1" }] },
+        "proposal_capability": "iot.device.position",
+        "proposal_from_step": 1,
+        "type": "confirm"
+      },
+      {
+        "expectation": { "capability_result_accepted": true, "response_ids": ["iot.device.position.success.response"] },
+        "language": "fa-IR",
+        "output": { "device": "پرده اتاق کار", "state": "باز" },
+        "proposal_capability": "iot.device.position",
+        "proposal_from_step": 2,
+        "seed": 212,
+        "succeeded": true,
+        "type": "capability_result"
+      },
+      {
+        "expectation": {
+          "meaning": "iot.device.close",
+          "meaning_references": [{ "id": "blind.study", "kind": "iot.device" }],
+          "proposal_receipts": [{ "arguments": { "device": "blind.study", "position": "closed" }, "id": "iot.device.position", "outcome": "needs_confirmation", "reason_code": "iot.confirmation_required", "version": "1" }],
+          "response_ids": ["iot.device.close.requested"]
+        },
+        "language": "en-US",
+        "reference_candidates": [
+          { "aliases": ["study blind", "پرده اتاق کار"], "label": "Study blind", "reference": { "id": "blind.study", "kind": "iot.device" } }
+        ],
+        "say": "close the study blind",
+        "seed": 213,
+        "type": "turn"
+      },
+      {
+        "confirmed": true,
+        "expectation": { "capabilities": [{ "arguments": { "device": "blind.study", "position": "closed" }, "id": "iot.device.position", "version": "1" }] },
+        "proposal_capability": "iot.device.position",
+        "proposal_from_step": 4,
+        "type": "confirm"
+      },
+      {
+        "error_code": "device_blocked",
+        "expectation": { "capability_result_accepted": true, "response_ids": ["iot.device.position.failure.response"] },
+        "language": "en-US",
+        "proposal_capability": "iot.device.position",
+        "proposal_from_step": 5,
+        "seed": 214,
+        "succeeded": false,
+        "type": "capability_result"
+      }
+    ]
+  }
+}

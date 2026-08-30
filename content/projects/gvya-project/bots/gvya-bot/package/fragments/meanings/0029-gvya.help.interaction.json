@@ -1,0 +1,134 @@
+{
+  "exported": true,
+  "id": "gvya.help.interaction",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.interaction",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "what is a meaning"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i integrate the runtime"
+      },
+      {
+        "language": "fa-IR",
+        "text": "meaning چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime را چطور وصل کنم"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "interaction evaluation boundary turn deterministic"
+      },
+      {
+        "language": "fa-IR",
+        "text": "interaction ارزیابی مرز نوبت قطعی"
+      },
+      {
+        "language": "en-US",
+        "text": "interaction user turn object"
+      },
+      {
+        "language": "en-US",
+        "text": "user turn interaction object"
+      },
+      {
+        "language": "en-US",
+        "text": "single input one turn result deterministic evaluation unit boundary interaction consume produce"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک input یک turn نتیجه deterministic واحد ارزیابی مرز interaction مصرف تولید"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "what is an interaction in gvya"
+      },
+      {
+        "language": "en-US",
+        "text": "what counts as one interaction"
+      },
+      {
+        "language": "en-US",
+        "text": "what is the evaluation boundary"
+      },
+      {
+        "language": "en-US",
+        "text": "what does one turn consume and produce"
+      },
+      {
+        "language": "en-US",
+        "text": "define interaction"
+      },
+      {
+        "language": "en-US",
+        "text": "what goes into a single evaluation"
+      },
+      {
+        "language": "en-US",
+        "text": "is a turn the same as an interaction"
+      },
+      {
+        "language": "en-US",
+        "text": "what does an interaction result contain"
+      },
+      {
+        "language": "fa-IR",
+        "text": "interaction در gvya چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک interaction شامل چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "مرز ارزیابی چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "هر نوبت چه چیزی می گیرد و چه می دهد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "تعریف interaction"
+      },
+      {
+        "language": "fa-IR",
+        "text": "در یک ارزیابی چه چیزی وارد می شود"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نوبت همان interaction است"
+      },
+      {
+        "language": "fa-IR",
+        "text": "نتیجه interaction شامل چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "what is an interaction"
+      },
+      {
+        "language": "fa-IR",
+        "text": "interaction چیست"
+      },
+      {
+        "language": "en-US",
+        "text": "object represents a user turn"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.are-you-sad.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.are-you-sad.behavior",
+    "meaning": "core.smalltalk.informal.are-you-sad",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.are-you-sad.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Maybe a little.",
+              "I’ll manage.",
+              "It passes."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "شاید یه کم.",
+              "می‌گذره.",
+              "از پسش برمیام."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

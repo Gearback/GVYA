@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "iot.device.set.failure",
+  "mode": "add",
+  "value": {
+    "capability": "iot.device.set",
+    "capability_version": "1",
+    "id": "iot.device.set.failure",
+    "responses": [
+      {
+        "id": "iot.device.set.failure.response",
+        "kind": "normal",
+        "texts": [
+          { "language": "en-US", "variants": ["The device setting could not be changed."] },
+          { "language": "fa-IR", "variants": ["تغییر تنظیم دستگاه انجام نشد."] }
+        ]
+      }
+    ],
+    "succeeded": false
+  }
+}

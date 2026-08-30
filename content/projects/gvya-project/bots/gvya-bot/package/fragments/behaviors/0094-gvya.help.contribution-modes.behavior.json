@@ -1,0 +1,52 @@
+{
+  "exported": true,
+  "id": "gvya.help.contribution-modes.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": true,
+    "id": "gvya.help.contribution-modes.behavior",
+    "meaning": "gvya.help.contribution-modes",
+    "responses": [
+      {
+        "extra_messages": [
+          {
+            "chance": 1,
+            "texts": [
+              {
+                "language": "en-US",
+                "variants": [
+                  "Replacement is whole-item — there is no partial hidden merge — and a duplicate Add is an error rather than a silent last-one-wins."
+                ]
+              },
+              {
+                "language": "fa-IR",
+                "variants": [
+                  "جایگزینی کاملِ آیتم است — هیچ ادغام جزئی پنهانی وجود ندارد — و Add تکراری خطاست، نه اینکه بی‌سروصدا آخرین مورد برنده شود."
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "gvya.help.contribution-modes.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Every contribution is either Add or Replace with a target_package and target_id. Replace is valid only when the target package is visible, the target item already exists in the same namespace, the current owner exactly equals target_package, the target is exported, and the replacement ID exactly equals the target ID."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "هر مشارکت یا Add است یا Replace با ‎target_package‎ و ‎target_id‎. Replace فقط وقتی معتبر است که پکیج هدف دیده شود، آیتم هدف از قبل در همان فضای نام وجود داشته باشد، مالک فعلی دقیقاً برابر ‎target_package‎ باشد، هدف exported باشد، و شناسهٔ جایگزین دقیقاً برابر شناسهٔ هدف باشد."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic": "gvya.topic.authoring",
+    "topic_scoped": false,
+    "topic_ttl": 3
+  }
+}

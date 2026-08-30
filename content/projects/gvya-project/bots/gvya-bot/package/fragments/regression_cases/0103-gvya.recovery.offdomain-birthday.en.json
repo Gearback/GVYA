@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.recovery.offdomain-birthday.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Off-domain near-match must fall back instead of confidently answering GVYA",
+    "expectation": {
+      "conversation_mode": "fallback",
+      "forbidden_meanings": [
+        "gvya.help.about"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.recovery.offdomain-birthday.en",
+    "initial_state": {},
+    "input": "tell me about the birthday paradox",
+    "language": "en-US",
+    "seed": 1
+  }
+}

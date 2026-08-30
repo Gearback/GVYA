@@ -1,0 +1,35 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-have-to-go.behavior",
+  "mode": "add",
+  "value": {
+    "activates_topic": false,
+    "id": "core.smalltalk.informal.i-have-to-go.behavior",
+    "meaning": "core.smalltalk.informal.i-have-to-go",
+    "responses": [
+      {
+        "id": "core.smalltalk.informal.i-have-to-go.response",
+        "kind": "normal",
+        "texts": [
+          {
+            "language": "en-US",
+            "variants": [
+              "Go on, then.",
+              "Alright. Move safe.",
+              "See you when you’re back."
+            ]
+          },
+          {
+            "language": "fa-IR",
+            "variants": [
+              "پس برو.",
+              "باشه. مراقب باش.",
+              "وقتی برگشتی می‌بینمت."
+            ]
+          }
+        ]
+      }
+    ],
+    "topic_scoped": false
+  }
+}

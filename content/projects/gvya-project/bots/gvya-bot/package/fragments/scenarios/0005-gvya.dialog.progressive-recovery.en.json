@@ -1,0 +1,92 @@
+{
+  "exported": true,
+  "id": "gvya.dialog.progressive-recovery.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "English fallback narrows an unresolved turn into terse routes and a truthful discovery continuation",
+    "generated": false,
+    "id": "gvya.dialog.progressive-recovery.en",
+    "initial_state": {},
+    "steps": [
+      {
+        "expectation": {
+          "active_followup": "gvya.recovery-route",
+          "conversation_mode": "fallback",
+          "response_ids": [
+            "gvya.fallback.formal.unresolved.stage-1.redirect"
+          ]
+        },
+        "language": "en-US",
+        "say": "How do I tune a guitar?",
+        "seed": 90,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.recovery-route",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.recovery-route",
+          "meaning_slots": {
+            "route": "build"
+          },
+          "response_ids": [
+            "gvya.dialog.recovery-route.build"
+          ]
+        },
+        "language": "en-US",
+        "say": "2",
+        "seed": 91,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.recovery-route",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.recovery-route",
+          "meaning_slots": {
+            "route": "debug"
+          },
+          "response_ids": [
+            "gvya.dialog.recovery-route.debug"
+          ]
+        },
+        "language": "en-US",
+        "say": "3",
+        "seed": 92,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.discovery",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.recovery-route",
+          "meaning_slots": {
+            "route": "explore"
+          },
+          "response_ids": [
+            "gvya.dialog.recovery-route.explore"
+          ]
+        },
+        "language": "en-US",
+        "say": "4",
+        "seed": 93,
+        "type": "turn"
+      },
+      {
+        "expectation": {
+          "active_followup": "gvya.discovery",
+          "conversation_mode": "followup",
+          "meaning": "gvya.dialog.discovery-again",
+          "response_ids": [
+            "gvya.dialog.discovery-again.response"
+          ]
+        },
+        "language": "en-US",
+        "say": "another one",
+        "seed": 94,
+        "type": "turn"
+      }
+    ]
+  }
+}

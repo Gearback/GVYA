@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.formal.thats-true.basic.fa",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Generated Formal fa-IR exact-sample coverage",
+    "expectation": {
+      "meaning": "core.smalltalk.formal.thats-true",
+      "response_ids": [
+        "core.smalltalk.formal.thats-true.response"
+      ]
+    },
+    "generated": true,
+    "id": "core.smalltalk.formal.thats-true.basic.fa",
+    "initial_state": {},
+    "input": "درسته",
+    "language": "fa-IR",
+    "seed": 1
+  }
+}

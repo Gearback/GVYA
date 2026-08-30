@@ -1,0 +1,21 @@
+{
+  "exported": true,
+  "id": "gvya.help.getting-started.heldout.en.1",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "The shortest correct path to a first working Bot held-out en-US coverage 1",
+    "expectation": {
+      "meaning": "gvya.help.getting-started",
+      "response_ids": [
+        "gvya.help.getting-started.response"
+      ]
+    },
+    "generated": false,
+    "id": "gvya.help.getting-started.heldout.en.1",
+    "initial_state": {},
+    "input": "I have an empty project—what is the next practical step?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

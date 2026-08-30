@@ -1,0 +1,36 @@
+{
+  "exported": true,
+  "id": "core.smalltalk.informal.i-miss-you",
+  "mode": "add",
+  "value": {
+    "class": "social",
+    "id": "core.smalltalk.informal.i-miss-you",
+    "negative_samples": [],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "i miss you"
+      },
+      {
+        "language": "en-US",
+        "text": "missed you"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دلم برات تنگ شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دلم تنگت شده"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دلتنگتم"
+      }
+    ]
+  }
+}

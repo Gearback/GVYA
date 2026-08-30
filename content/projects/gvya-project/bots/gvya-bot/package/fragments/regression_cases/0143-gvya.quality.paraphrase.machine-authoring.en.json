@@ -1,0 +1,18 @@
+{
+  "exported": true,
+  "id": "gvya.quality.paraphrase.machine-authoring.en",
+  "mode": "add",
+  "value": {
+    "context": {},
+    "description": "Command-line-only authoring resolves to machine authoring",
+    "expectation": {
+      "meaning": "gvya.help.machine-authoring"
+    },
+    "generated": false,
+    "id": "gvya.quality.paraphrase.machine-authoring.en",
+    "initial_state": {},
+    "input": "Can I author everything from the command line instead?",
+    "language": "en-US",
+    "seed": 1
+  }
+}

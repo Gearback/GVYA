@@ -1,0 +1,130 @@
+{
+  "exported": true,
+  "id": "gvya.help.asset-access",
+  "mode": "add",
+  "value": {
+    "class": "general",
+    "id": "gvya.help.asset-access",
+    "negative_samples": [
+      {
+        "language": "en-US",
+        "text": "can a response include an image"
+      },
+      {
+        "language": "en-US",
+        "text": "what entries does an artifact require"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک پاسخ می تواند تصویر داشته باشد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "یک آرتیفکت چه entry هایی لازم دارد"
+      }
+    ],
+    "patterns": [],
+    "positive_assumption": false,
+    "priority": 0,
+    "retrieval_terms": [
+      {
+        "language": "en-US",
+        "text": "assetaccess bytes raw logical path assetid metadata binary json"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دسترسی دارایی بایت خام مسیر منطقی فراداده باینری"
+      }
+    ],
+    "samples": [
+      {
+        "language": "en-US",
+        "text": "how do i read an asset at runtime"
+      },
+      {
+        "language": "en-US",
+        "text": "are asset bytes base64 in json"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i get asset metadata"
+      },
+      {
+        "language": "en-US",
+        "text": "can i fetch an asset by id"
+      },
+      {
+        "language": "en-US",
+        "text": "how are binary files served"
+      },
+      {
+        "language": "en-US",
+        "text": "what is asset-info for"
+      },
+      {
+        "language": "en-US",
+        "text": "does the runtime write assets to disk"
+      },
+      {
+        "language": "en-US",
+        "text": "explain asset access"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور یک asset را در زمان اجرا بخوانم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "بایت های asset در json base64 هستند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فراداده asset را چطور بگیرم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "می توانم asset را با id بگیرم"
+      },
+      {
+        "language": "fa-IR",
+        "text": "فایل های باینری چطور سرو می شوند"
+      },
+      {
+        "language": "fa-IR",
+        "text": "asset-info برای چیست"
+      },
+      {
+        "language": "fa-IR",
+        "text": "runtime asset ها را روی دیسک می نویسد"
+      },
+      {
+        "language": "fa-IR",
+        "text": "دسترسی به asset را توضیح بده"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i get assets out"
+      },
+      {
+        "language": "en-US",
+        "text": "how do i read an asset"
+      },
+      {
+        "language": "fa-IR",
+        "text": "چطور asset را بخوانم"
+      },
+      {
+        "language": "en-US",
+        "text": "how does the app read assets"
+      },
+      {
+        "language": "en-US",
+        "text": "how does my app read assets"
+      },
+      {
+        "language": "fa-IR",
+        "text": "برنامه چطور asset ها را می خواند"
+      }
+    ]
+  }
+}

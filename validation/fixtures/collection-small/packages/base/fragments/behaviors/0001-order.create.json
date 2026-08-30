@@ -1,0 +1,11 @@
+{
+  "id": "order.create.behavior",
+  "value": {
+    "id": "order.create.behavior",
+    "meaning": "order.create",
+    "responses": [{
+      "id": "order.create.answer",
+      "texts": [{"language": "en", "variants": ["The order is ready."]}]
+    }]
+  }
+}
