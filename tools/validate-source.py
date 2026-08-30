@@ -317,7 +317,7 @@ for path in ROOT.rglob("*"):
     if not path.is_file():
         continue
     rel = path.relative_to(ROOT)
-    if any(part in RECOVERY_DIRS for part in rel.parts):
+    if any(part in RECOVERY_DIRS for part in rel.parts) or ".git" in rel.parts:
         continue
     if any(part in GENERATED_DIRS for part in rel.parts) or path.name.endswith(".tsbuildinfo") or path.name == ".DS_Store":
         stray.append(rel.as_posix())
