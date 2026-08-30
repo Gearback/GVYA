@@ -1,0 +1,48 @@
+name: Deploy GVYA live demo
+
+on:
+  push:
+    branches:
+      - pages-source
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript modules
+        run: npm run check
+
+      - name: Build live demo
+        run: node tools/build-live-demo.mjs
+
+      - name: Publish gh-pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan gh-pages-deploy
+          git rm -rf .
+          cp -a .pages-dist/. .
+          rm -rf .pages-dist
+          git add -A
+          git commit -m "Deploy GVYA live demo from ${GITHUB_SHA}"
+          git push --force origin HEAD:gh-pages
