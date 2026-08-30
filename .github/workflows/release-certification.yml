@@ -2,6 +2,9 @@ name: Release Certification
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - certify-validator-fixed
 
 permissions:
   contents: read
