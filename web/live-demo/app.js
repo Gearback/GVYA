@@ -10,11 +10,12 @@ const form = document.querySelector("#chat-form");
 const input = document.querySelector("#chat-input");
 const sendButton = document.querySelector("#send-button");
 const messages = document.querySelector("#messages");
-const emptyState = document.querySelector("#empty-state");
+const suggestions = document.querySelector("#suggestions");
 
 let runtime;
 let conversationState;
 let busy = false;
+let openingShown = false;
 
 bootstrap().catch((error) => {
   console.error(error);
@@ -47,13 +48,43 @@ function requireResponse(response) {
   return response;
 }
 
-function openChat() {
+async function openChat() {
   if (launcher.disabled) return;
   panel.classList.add("open");
   scrim.classList.add("open");
   panel.setAttribute("aria-hidden", "false");
   launcher.setAttribute("aria-expanded", "true");
+  if (!openingShown) await showOpening();
   window.setTimeout(() => input.focus(), 50);
+}
+
+async function showOpening() {
+  if (!runtime || openingShown) return;
+  openingShown = true;
+  setBusy(true);
+  const typing = appendTyping();
+  try {
+    const result = await runtime.openConversation({
+      format: "gvya.runtime.open",
+      version: 1,
+      context: { values: {}, available_capabilities: [], visible_references: [] },
+      seed: null,
+    });
+    conversationState = result.state;
+    typing.remove();
+    const replies = extractTextItems(result.response);
+    if (replies.length === 0) {
+      appendBubble("bot", "Hi — I’m GVYA. Ask me what GVYA is or what you can build with it.", "ltr");
+    } else {
+      replies.forEach((reply, index) => appendBubble("bot", reply.text, directionFor(reply.text, reply.language), index > 0));
+    }
+  } catch (error) {
+    console.error(error);
+    typing.remove();
+    appendBubble("bot", "Hi — I’m GVYA. Ask me what GVYA is or what you can build with it.", "ltr");
+  } finally {
+    setBusy(false);
+  }
 }
 
 function closeChat() {
@@ -71,11 +102,17 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && panel.classList.contains("open")) closeChat();
 });
 
+suggestions.addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-suggestion]");
+  if (!button || busy) return;
+  input.value = button.dataset.suggestion ?? "";
+  form.requestSubmit();
+});
+
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
   const text = input.value.trim();
   if (!text || busy || !runtime) return;
-  emptyState?.remove();
   appendBubble("user", text, directionFor(text));
   input.value = "";
   setBusy(true);
@@ -153,6 +190,7 @@ function setBusy(value) {
   busy = value;
   input.disabled = value;
   sendButton.disabled = value;
+  suggestions.querySelectorAll("button").forEach((button) => { button.disabled = value; });
 }
 
 window.addEventListener("pagehide", () => { runtime?.close().catch(() => {}); });
