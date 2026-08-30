@@ -1,4 +1,5 @@
 import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
 import { readContentSnapshot } from "../apps/studio/content-host.mjs";
 import { decodeContent } from "../apps/studio/dist/studio-content.js";
 import { resolveSelectedBrain } from "../apps/studio/dist/studio-model.js";
@@ -8,7 +9,7 @@ const out = new URL("../.pages-dist/", import.meta.url);
 await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });
 
-const snapshot = await readContentSnapshot(new URL("../content/", import.meta.url));
+const snapshot = await readContentSnapshot(fileURLToPath(new URL("../content/", import.meta.url)));
 const content = decodeContent(snapshot.entries);
 const brain = resolveSelectedBrain(content.workspace);
 const entries = await compilerSourceEntries(brain, content.assetFiles);
