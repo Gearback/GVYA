@@ -37,12 +37,15 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          rm -rf /tmp/gvya-pages
+          mkdir -p /tmp/gvya-pages
+          cp -a .pages-dist/. /tmp/gvya-pages/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan gh-pages-deploy
-          git rm -rf .
-          cp -a .pages-dist/. .
-          rm -rf .pages-dist
+          git rm -rf . || true
+          git clean -fdx
+          cp -a /tmp/gvya-pages/. .
           git add -A
           git commit -m "Deploy GVYA live demo from ${GITHUB_SHA}"
           git push --force origin HEAD:gh-pages
